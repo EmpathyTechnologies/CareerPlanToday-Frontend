@@ -25,6 +25,12 @@ function App() {
       average: 60040,
       ninetiethPercentile: 99800,
     },
+    {
+      name: "Motorcycle Mechanics",
+      tenthPercentile: 27890,
+      average: 38170,
+      ninetiethPercentile: 60420,
+    },
     { name: "Animal Trainers", tenthPercentile: 23160, average: 31280, ninetiethPercentile: 58790 },
   ];
 
