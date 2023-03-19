@@ -1,0 +1,6455 @@
+[
+  {
+    "name": "Accountants & Auditors",
+    "tenthPercentile": 47970,
+    "average": 77250,
+    "ninetiethPercentile": 128970
+  },
+
+  {
+    "name": "Actors",
+    "tenthPercentile": "n/a",
+    "average": "n/a",
+    "ninetiethPercentile": "n/a"
+  },
+
+  {
+    "name": "Actuaries",
+    "tenthPercentile": 63260,
+    "average": 105900,
+    "ninetiethPercentile": 206820
+  },
+
+  {
+    "name": "Acupuncturists",
+    "tenthPercentile": 29580,
+    "average": 60570,
+    "ninetiethPercentile": 126440
+  },
+
+  {
+    "name": "Acute Care Nurses",
+    "tenthPercentile": 59450,
+    "average": 77600,
+    "ninetiethPercentile": 120250
+  },
+
+  {
+    "name": "Adapted Physical Education Specialists",
+    "tenthPercentile": 38130,
+    "average": 61720,
+    "ninetiethPercentile": 104370
+  },
+
+  {
+    "name": "Adhesive Bonding Machine Operators & Tenders",
+    "tenthPercentile": 26920,
+    "average": 37630,
+    "ninetiethPercentile": 48980
+  },
+
+  {
+    "name": "Administrative Law Judges, Adjudicators, & Hearing Officers",
+    "tenthPercentile": 47580,
+    "average": 102550,
+    "ninetiethPercentile": 180520
+  },
+
+  {
+    "name": "Administrative Services Managers",
+    "tenthPercentile": 59470,
+    "average": 100170,
+    "ninetiethPercentile": 168910
+  },
+
+  {
+    "name": "Adult Basic Education, Adult Secondary Education, & English as a Second Language Instructors",
+    "tenthPercentile": 35530,
+    "average": 59720,
+    "ninetiethPercentile": 96550
+  },
+
+  {
+    "name": "Advanced Practice Psychiatric Nurses",
+    "tenthPercentile": 59450,
+    "average": 77600,
+    "ninetiethPercentile": 120250
+  },
+
+  {
+    "name": "Advertising & Promotions Managers",
+    "tenthPercentile": 61250,
+    "average": 127150,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Advertising Sales Agents",
+    "tenthPercentile": 28700,
+    "average": 52340,
+    "ninetiethPercentile": 125370
+  },
+
+  {
+    "name": "Aerospace Engineering & Operations Technologists & Technicians",
+    "tenthPercentile": 47040,
+    "average": 73580,
+    "ninetiethPercentile": 103260
+  },
+
+  {
+    "name": "Aerospace Engineers",
+    "tenthPercentile": 77440,
+    "average": 122270,
+    "ninetiethPercentile": 168370
+  },
+
+  {
+    "name": "Agents & Business Managers of Artists, Performers, & Athletes",
+    "tenthPercentile": 47370,
+    "average": 78410,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Agricultural Engineers",
+    "tenthPercentile": 55810,
+    "average": 82640,
+    "ninetiethPercentile": 127030
+  },
+
+  {
+    "name": "Agricultural Equipment Operators",
+    "tenthPercentile": 25490,
+    "average": 36360,
+    "ninetiethPercentile": 47540
+  },
+
+  {
+    "name": "Agricultural Inspectors",
+    "tenthPercentile": 29990,
+    "average": 45140,
+    "ninetiethPercentile": 69450
+  },
+
+  {
+    "name": "Agricultural Sciences Teachers, Postsecondary",
+    "tenthPercentile": 48720,
+    "average": 95910,
+    "ninetiethPercentile": 157210
+  },
+
+  {
+    "name": "Agricultural Technicians",
+    "tenthPercentile": 29010,
+    "average": 40430,
+    "ninetiethPercentile": 62200
+  },
+
+  {
+    "name": "Air Traffic Controllers",
+    "tenthPercentile": 71880,
+    "average": 129750,
+    "ninetiethPercentile": 185990
+  },
+
+  {
+    "name": "Aircraft Cargo Handling Supervisors",
+    "tenthPercentile": 38830,
+    "average": 53540,
+    "ninetiethPercentile": 82450
+  },
+
+  {
+    "name": "Aircraft Mechanics & Service Technicians",
+    "tenthPercentile": 38270,
+    "average": 65380,
+    "ninetiethPercentile": 98590
+  },
+
+  {
+    "name": "Aircraft Service Attendants",
+    "tenthPercentile": 27920,
+    "average": 36390,
+    "ninetiethPercentile": 58790
+  },
+
+  {
+    "name": "Aircraft Structure, Surfaces, Rigging, & Systems Assemblers",
+    "tenthPercentile": 31820,
+    "average": 49480,
+    "ninetiethPercentile": 80300
+  },
+
+  {
+    "name": "Airfield Operations Specialists",
+    "tenthPercentile": 30770,
+    "average": 47880,
+    "ninetiethPercentile": 81910
+  },
+
+  {
+    "name": "Airline Pilots, Copilots, & Flight Engineers",
+    "tenthPercentile": 100110,
+    "average": 202180,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Allergists & Immunologists",
+    "tenthPercentile": 61260,
+    "average": 208000,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Ambulance Drivers & Attendants",
+    "tenthPercentile": 22460,
+    "average": 29120,
+    "ninetiethPercentile": 46740
+  },
+
+  {
+    "name": "Amusement & Recreation Attendants",
+    "tenthPercentile": 18030,
+    "average": 24500,
+    "ninetiethPercentile": 35170
+  },
+
+  {
+    "name": "Anesthesiologist Assistants",
+    "tenthPercentile": 77940,
+    "average": 121530,
+    "ninetiethPercentile": 164620
+  },
+
+  {
+    "name": "Anesthesiologists",
+    "tenthPercentile": 117590,
+    "average": 208000,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Animal Breeders",
+    "tenthPercentile": 22680,
+    "average": 40090,
+    "ninetiethPercentile": 64010
+  },
+
+  {
+    "name": "Animal Caretakers",
+    "tenthPercentile": 21380,
+    "average": 28600,
+    "ninetiethPercentile": 38750
+  },
+
+  {
+    "name": "Animal Control Workers",
+    "tenthPercentile": 28690,
+    "average": 39160,
+    "ninetiethPercentile": 60450
+  },
+
+  {
+    "name": "Animal Scientists",
+    "tenthPercentile": 46930,
+    "average": 65090,
+    "ninetiethPercentile": 129470
+  },
+
+  {
+    "name": "Animal Trainers",
+    "tenthPercentile": 23160,
+    "average": 31280,
+    "ninetiethPercentile": 58790
+  },
+
+  {
+    "name": "Anthropologists & Archeologists",
+    "tenthPercentile": 37870,
+    "average": 61910,
+    "ninetiethPercentile": 99830
+  },
+
+  {
+    "name": "Anthropology & Archeology Teachers, Postsecondary",
+    "tenthPercentile": 50580,
+    "average": 97340,
+    "ninetiethPercentile": 163070
+  },
+
+  {
+    "name": "Appraisers & Assessors of Real Estate",
+    "tenthPercentile": 35520,
+    "average": 61340,
+    "ninetiethPercentile": 120790
+  },
+
+  {
+    "name": "Appraisers of Personal & Business Property",
+    "tenthPercentile": 35520,
+    "average": 61340,
+    "ninetiethPercentile": 120790
+  },
+
+  {
+    "name": "Arbitrators, Mediators, & Conciliators",
+    "tenthPercentile": 29990,
+    "average": 49410,
+    "ninetiethPercentile": 110350
+  },
+
+  {
+    "name": "Architects",
+    "tenthPercentile": 48930,
+    "average": 80180,
+    "ninetiethPercentile": 129980
+  },
+
+  {
+    "name": "Architectural & Civil Drafters",
+    "tenthPercentile": 37370,
+    "average": 60340,
+    "ninetiethPercentile": 80560
+  },
+
+  {
+    "name": "Architectural & Engineering Managers",
+    "tenthPercentile": 99350,
+    "average": 152350,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Architecture Teachers, Postsecondary",
+    "tenthPercentile": 48720,
+    "average": 95160,
+    "ninetiethPercentile": 157700
+  },
+
+  {
+    "name": "Archivists",
+    "tenthPercentile": 36750,
+    "average": 60050,
+    "ninetiethPercentile": 98070
+  },
+
+  {
+    "name": "Area, Ethnic, & Cultural Studies Teachers, Postsecondary",
+    "tenthPercentile": 45650,
+    "average": 78910,
+    "ninetiethPercentile": 161290
+  },
+
+  {
+    "name": "Art Directors",
+    "tenthPercentile": 57220,
+    "average": 100890,
+    "ninetiethPercentile": 194130
+  },
+
+  {
+    "name": "Art Therapists",
+    "tenthPercentile": 37010,
+    "average": 59500,
+    "ninetiethPercentile": 98490
+  },
+
+  {
+    "name": "Art, Drama, & Music Teachers, Postsecondary",
+    "tenthPercentile": 38090,
+    "average": 75940,
+    "ninetiethPercentile": 156240
+  },
+
+  {
+    "name": "Astronomers",
+    "tenthPercentile": 61910,
+    "average": 128160,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Athletes & Sports Competitors",
+    "tenthPercentile": 25270,
+    "average": 77300,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Athletic Trainers",
+    "tenthPercentile": 36960,
+    "average": 48420,
+    "ninetiethPercentile": 76180
+  },
+
+  {
+    "name": "Atmospheric & Space Scientists",
+    "tenthPercentile": 48600,
+    "average": 94570,
+    "ninetiethPercentile": 150760
+  },
+
+  {
+    "name": "Atmospheric, Earth, Marine, & Space Sciences Teachers, Postsecondary",
+    "tenthPercentile": 49730,
+    "average": 98070,
+    "ninetiethPercentile": 165240
+  },
+
+  {
+    "name": "Audio & Video Technicians",
+    "tenthPercentile": 30160,
+    "average": 48820,
+    "ninetiethPercentile": 90180
+  },
+
+  {
+    "name": "Audiologists",
+    "tenthPercentile": 58920,
+    "average": 78950,
+    "ninetiethPercentile": 120210
+  },
+
+  {
+    "name": "Audiovisual Equipment Installers & Repairers",
+    "tenthPercentile": 29460,
+    "average": 44790,
+    "ninetiethPercentile": 65110
+  },
+
+  {
+    "name": "Automotive & Watercraft Service Attendants",
+    "tenthPercentile": 22980,
+    "average": 29330,
+    "ninetiethPercentile": 37810
+  },
+
+  {
+    "name": "Automotive Body & Related Repairers",
+    "tenthPercentile": 29660,
+    "average": 47270,
+    "ninetiethPercentile": 76220
+  },
+
+  {
+    "name": "Automotive Engineering Technicians",
+    "tenthPercentile": 37670,
+    "average": 60460,
+    "ninetiethPercentile": 95300
+  },
+
+  {
+    "name": "Automotive Engineers",
+    "tenthPercentile": 60750,
+    "average": 95300,
+    "ninetiethPercentile": 136210
+  },
+
+  {
+    "name": "Automotive Glass Installers & Repairers",
+    "tenthPercentile": 28470,
+    "average": 37920,
+    "ninetiethPercentile": 57680
+  },
+
+  {
+    "name": "Automotive Service Technicians & Mechanics",
+    "tenthPercentile": 29010,
+    "average": 46880,
+    "ninetiethPercentile": 75100
+  },
+
+  {
+    "name": "Aviation Inspectors",
+    "tenthPercentile": 37030,
+    "average": 79770,
+    "ninetiethPercentile": 124200
+  },
+
+  {
+    "name": "Avionics Technicians",
+    "tenthPercentile": 38700,
+    "average": 69280,
+    "ninetiethPercentile": 100860
+  },
+
+  {
+    "name": "Baggage Porters & Bellhops",
+    "tenthPercentile": 18520,
+    "average": 29120,
+    "ninetiethPercentile": 39040
+  },
+
+  {
+    "name": "Bailiffs",
+    "tenthPercentile": 27560,
+    "average": 48320,
+    "ninetiethPercentile": 78330
+  },
+
+  {
+    "name": "Bakers",
+    "tenthPercentile": 22820,
+    "average": 29750,
+    "ninetiethPercentile": 45450
+  },
+
+  {
+    "name": "Barbers",
+    "tenthPercentile": 22430,
+    "average": 29970,
+    "ninetiethPercentile": 53260
+  },
+
+  {
+    "name": "Baristas",
+    "tenthPercentile": 18230,
+    "average": 25100,
+    "ninetiethPercentile": 32250
+  },
+
+  {
+    "name": "Bartenders",
+    "tenthPercentile": 17870,
+    "average": 26350,
+    "ninetiethPercentile": 47710
+  },
+
+  {
+    "name": "Bicycle Repairers",
+    "tenthPercentile": 24960,
+    "average": 34690,
+    "ninetiethPercentile": 46210
+  },
+
+  {
+    "name": "Bill & Account Collectors",
+    "tenthPercentile": 28820,
+    "average": 37700,
+    "ninetiethPercentile": 59360
+  },
+
+  {
+    "name": "Billing & Posting Clerks",
+    "tenthPercentile": 29760,
+    "average": 38330,
+    "ninetiethPercentile": 59750
+  },
+
+  {
+    "name": "Biochemists & Biophysicists",
+    "tenthPercentile": 61090,
+    "average": 102270,
+    "ninetiethPercentile": 167210
+  },
+
+  {
+    "name": "Bioengineers & Biomedical Engineers",
+    "tenthPercentile": 60680,
+    "average": 97410,
+    "ninetiethPercentile": 154750
+  },
+
+  {
+    "name": "Biofuels Processing Technicians",
+    "tenthPercentile": 29750,
+    "average": 50250,
+    "ninetiethPercentile": 80270
+  },
+
+  {
+    "name": "Biofuels Production Managers",
+    "tenthPercentile": 64150,
+    "average": 103150,
+    "ninetiethPercentile": 170470
+  },
+
+  {
+    "name": "Biofuels/Biodiesel Technology & Product Development Managers",
+    "tenthPercentile": 99350,
+    "average": 152350,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Bioinformatics Scientists",
+    "tenthPercentile": 48260,
+    "average": 82530,
+    "ninetiethPercentile": 133830
+  },
+
+  {
+    "name": "Bioinformatics Technicians",
+    "tenthPercentile": 35460,
+    "average": 62460,
+    "ninetiethPercentile": 144120
+  },
+
+  {
+    "name": "Biological Science Teachers, Postsecondary",
+    "tenthPercentile": 48720,
+    "average": 81440,
+    "ninetiethPercentile": 169410
+  },
+
+  {
+    "name": "Biological Technicians",
+    "tenthPercentile": 31170,
+    "average": 48140,
+    "ninetiethPercentile": 78090
+  },
+
+  {
+    "name": "Biologists",
+    "tenthPercentile": 48260,
+    "average": 82530,
+    "ninetiethPercentile": 133830
+  },
+
+  {
+    "name": "Biomass Plant Technicians",
+    "tenthPercentile": 48610,
+    "average": 80850,
+    "ninetiethPercentile": 110590
+  },
+
+  {
+    "name": "Biomass Power Plant Managers",
+    "tenthPercentile": 64150,
+    "average": 103150,
+    "ninetiethPercentile": 170470
+  },
+
+  {
+    "name": "Biostatisticians",
+    "tenthPercentile": 49350,
+    "average": 95570,
+    "ninetiethPercentile": 157300
+  },
+
+  {
+    "name": "Blockchain Engineers",
+    "tenthPercentile": 45630,
+    "average": 95270,
+    "ninetiethPercentile": 162410
+  },
+
+  {
+    "name": "Boilermakers",
+    "tenthPercentile": 46040,
+    "average": 64290,
+    "ninetiethPercentile": 100240
+  },
+
+  {
+    "name": "Bookkeeping, Accounting, & Auditing Clerks",
+    "tenthPercentile": 29120,
+    "average": 45560,
+    "ninetiethPercentile": 61980
+  },
+
+  {
+    "name": "Brickmasons & Blockmasons",
+    "tenthPercentile": 37100,
+    "average": 59340,
+    "ninetiethPercentile": 96750
+  },
+
+  {
+    "name": "Bridge & Lock Tenders",
+    "tenthPercentile": 27400,
+    "average": 45390,
+    "ninetiethPercentile": 64330
+  },
+
+  {
+    "name": "Broadcast Announcers & Radio Disc Jockeys",
+    "tenthPercentile": 22860,
+    "average": 37630,
+    "ninetiethPercentile": 103090
+  },
+
+  {
+    "name": "Broadcast Technicians",
+    "tenthPercentile": 24580,
+    "average": 44740,
+    "ninetiethPercentile": 90850
+  },
+
+  {
+    "name": "Brokerage Clerks",
+    "tenthPercentile": 39290,
+    "average": 54000,
+    "ninetiethPercentile": 78290
+  },
+
+  {
+    "name": "Brownfield Redevelopment Specialists & Site Managers",
+    "tenthPercentile": 60390,
+    "average": 124650,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Budget Analysts",
+    "tenthPercentile": 49330,
+    "average": 79940,
+    "ninetiethPercentile": 124440
+  },
+
+  {
+    "name": "Bus & Truck Mechanics & Diesel Engine Specialists",
+    "tenthPercentile": 35730,
+    "average": 48690,
+    "ninetiethPercentile": 76150
+  },
+
+  {
+    "name": "Bus Drivers, School",
+    "tenthPercentile": 19860,
+    "average": 37910,
+    "ninetiethPercentile": 54190
+  },
+
+  {
+    "name": "Bus Drivers, Transit & Intercity",
+    "tenthPercentile": 30290,
+    "average": 48620,
+    "ninetiethPercentile": 77640
+  },
+
+  {
+    "name": "Business Continuity Planners",
+    "tenthPercentile": 38050,
+    "average": 74670,
+    "ninetiethPercentile": 128030
+  },
+
+  {
+    "name": "Business Intelligence Analysts",
+    "tenthPercentile": 59430,
+    "average": 100910,
+    "ninetiethPercentile": 167040
+  },
+
+  {
+    "name": "Business Teachers, Postsecondary",
+    "tenthPercentile": 46910,
+    "average": 94360,
+    "ninetiethPercentile": 198240
+  },
+
+  {
+    "name": "Butchers & Meat Cutters",
+    "tenthPercentile": 23420,
+    "average": 36050,
+    "ninetiethPercentile": 47770
+  },
+
+  {
+    "name": "Buyers & Purchasing Agents, Farm Products",
+    "tenthPercentile": 38430,
+    "average": 63470,
+    "ninetiethPercentile": 111200
+  },
+
+  {
+    "name": "Cabinetmakers & Bench Carpenters",
+    "tenthPercentile": 28200,
+    "average": 37540,
+    "ninetiethPercentile": 58250
+  },
+
+  {
+    "name": "Calibration Technologists & Technicians",
+    "tenthPercentile": 36930,
+    "average": 60340,
+    "ninetiethPercentile": 95820
+  },
+
+  {
+    "name": "Camera & Photographic Equipment Repairers",
+    "tenthPercentile": 28380,
+    "average": 38200,
+    "ninetiethPercentile": 69300
+  },
+
+  {
+    "name": "Camera Operators, Television, Video, & Film",
+    "tenthPercentile": 30160,
+    "average": 49230,
+    "ninetiethPercentile": 101380
+  },
+
+  {
+    "name": "Captains, Mates, & Pilots of Water Vessels",
+    "tenthPercentile": 37240,
+    "average": 81640,
+    "ninetiethPercentile": 159690
+  },
+
+  {
+    "name": "Cardiologists",
+    "tenthPercentile": 165610,
+    "average": 208000,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Cardiovascular Technologists & Technicians",
+    "tenthPercentile": 29910,
+    "average": 60570,
+    "ninetiethPercentile": 98070
+  },
+
+  {
+    "name": "Career/Technical Education Teachers, Middle School",
+    "tenthPercentile": 47040,
+    "average": 61820,
+    "ninetiethPercentile": 99470
+  },
+
+  {
+    "name": "Career/Technical Education Teachers, Postsecondary",
+    "tenthPercentile": 36970,
+    "average": 59840,
+    "ninetiethPercentile": 97540
+  },
+
+  {
+    "name": "Career/Technical Education Teachers, Secondary School",
+    "tenthPercentile": 47310,
+    "average": 61820,
+    "ninetiethPercentile": 99590
+  },
+
+  {
+    "name": "Cargo & Freight Agents",
+    "tenthPercentile": 30020,
+    "average": 46910,
+    "ninetiethPercentile": 69450
+  },
+
+  {
+    "name": "Carpenters",
+    "tenthPercentile": 31880,
+    "average": 48260,
+    "ninetiethPercentile": 80940
+  },
+
+  {
+    "name": "Carpet Installers",
+    "tenthPercentile": 29090,
+    "average": 46640,
+    "ninetiethPercentile": 75920
+  },
+
+  {
+    "name": "Cartographers & Photogrammetrists",
+    "tenthPercentile": 47230,
+    "average": 68900,
+    "ninetiethPercentile": 103450
+  },
+
+  {
+    "name": "Cashiers",
+    "tenthPercentile": 18580,
+    "average": 27260,
+    "ninetiethPercentile": 35230
+  },
+
+  {
+    "name": "Cement Masons & Concrete Finishers",
+    "tenthPercentile": 31610,
+    "average": 47340,
+    "ninetiethPercentile": 76410
+  },
+  {
+    "name": "Chefs & Head Cooks",
+    "tenthPercentile": 30910,
+    "average": 50160,
+    "ninetiethPercentile": 84570
+  },
+
+  {
+    "name": "Chemical Engineers",
+    "tenthPercentile": 62730,
+    "average": 105550,
+    "ninetiethPercentile": 187430
+  },
+
+  {
+    "name": "Chemical Equipment Operators & Tenders",
+    "tenthPercentile": 30180,
+    "average": 48090,
+    "ninetiethPercentile": 79100
+  },
+
+  {
+    "name": "Chemical Plant & System Operators",
+    "tenthPercentile": 38340,
+    "average": 70200,
+    "ninetiethPercentile": 99960
+  },
+
+  {
+    "name": "Chemical Technicians",
+    "tenthPercentile": 31980,
+    "average": 48990,
+    "ninetiethPercentile": 80570
+  },
+
+  {
+    "name": "Chemistry Teachers, Postsecondary",
+    "tenthPercentile": 49330,
+    "average": 79410,
+    "ninetiethPercentile": 157670
+  },
+
+  {
+    "name": "Chemists",
+    "tenthPercentile": 48100,
+    "average": 79430,
+    "ninetiethPercentile": 134780
+  },
+
+  {
+    "name": "Chief Executives",
+    "tenthPercentile": 60300,
+    "average": 179520,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Chief Sustainability Officers",
+    "tenthPercentile": 60300,
+    "average": 179520,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Child, Family, & School Social Workers",
+    "tenthPercentile": 35820,
+    "average": 49150,
+    "ninetiethPercentile": 78710
+  },
+
+  {
+    "name": "Childcare Workers",
+    "tenthPercentile": 18540,
+    "average": 27490,
+    "ninetiethPercentile": 37430
+  },
+
+  {
+    "name": "Chiropractors",
+    "tenthPercentile": 37400,
+    "average": 75000,
+    "ninetiethPercentile": 128750
+  },
+
+  {
+    "name": "Choreographers",
+    "tenthPercentile": 22150,
+    "average": 42700,
+    "ninetiethPercentile": 78030
+  },
+
+  {
+    "name": "Civil Engineering Technologists & Technicians",
+    "tenthPercentile": 36550,
+    "average": 58320,
+    "ninetiethPercentile": 79650
+  },
+
+  {
+    "name": "Civil Engineers",
+    "tenthPercentile": 60550,
+    "average": 88050,
+    "ninetiethPercentile": 133320
+  },
+  {
+    "name": "Claims Adjusters, Examiners, & Investigators",
+    "tenthPercentile": 41490,
+    "average": 65080,
+    "ninetiethPercentile": 101290
+  },
+
+  {
+    "name": "Cleaners of Vehicles & Equipment",
+    "tenthPercentile": 21890,
+    "average": 29280,
+    "ninetiethPercentile": 38830
+  },
+
+  {
+    "name": "Cleaning, Washing, & Metal Pickling Equipment Operators & Tenders",
+    "tenthPercentile": 25840,
+    "average": 35090,
+    "ninetiethPercentile": 47330
+  },
+
+  {
+    "name": "Clergy",
+    "tenthPercentile": 30450,
+    "average": 49720,
+    "ninetiethPercentile": 80920
+  },
+
+  {
+    "name": "Climate Change Policy Analysts",
+    "tenthPercentile": 46200,
+    "average": 76530,
+    "ninetiethPercentile": 129070
+  },
+
+  {
+    "name": "Clinical & Counseling Psychologists",
+    "tenthPercentile": 47010,
+    "average": 82510,
+    "ninetiethPercentile": 167460
+  },
+
+  {
+    "name": "Clinical Data Managers",
+    "tenthPercentile": 59430,
+    "average": 100910,
+    "ninetiethPercentile": 167040
+  },
+
+  {
+    "name": "Clinical Neuropsychologists",
+    "tenthPercentile": 39760,
+    "average": 102900,
+    "ninetiethPercentile": 133200
+  },
+
+  {
+    "name": "Clinical Nurse Specialists",
+    "tenthPercentile": 59450,
+    "average": 77600,
+    "ninetiethPercentile": 120250
+  },
+
+  {
+    "name": "Clinical Research Coordinators",
+    "tenthPercentile": 75040,
+    "average": 137900,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Coaches & Scouts",
+    "tenthPercentile": 22200,
+    "average": 38970,
+    "ninetiethPercentile": 80720
+  },
+
+  {
+    "name": "Coating, Painting, & Spraying Machine Setters, Operators, & Tenders",
+    "tenthPercentile": 29460,
+    "average": 39130,
+    "ninetiethPercentile": 60330
+  },
+
+  {
+    "name": "Coil Winders, Tapers, & Finishers",
+    "tenthPercentile": 29250,
+    "average": 38360,
+    "ninetiethPercentile": 60170
+  },
+
+  {
+    "name": "Coin, Vending, & Amusement Machine Servicers & Repairers",
+    "tenthPercentile": 27460,
+    "average": 39040,
+    "ninetiethPercentile": 59770
+  },
+
+  {
+    "name": "Commercial & Industrial Designers",
+    "tenthPercentile": 44840,
+    "average": 77030,
+    "ninetiethPercentile": 128210
+  },
+
+  {
+    "name": "Commercial Divers",
+    "tenthPercentile": 37130,
+    "average": 60360,
+    "ninetiethPercentile": 160110
+  },
+
+  {
+    "name": "Commercial Pilots",
+    "tenthPercentile": 50080,
+    "average": 99640,
+    "ninetiethPercentile": 205940
+  },
+
+  {
+    "name": "Communications Teachers, Postsecondary",
+    "tenthPercentile": 46640,
+    "average": 77560,
+    "ninetiethPercentile": 132720
+  },
+
+  {
+    "name": "Community Health Workers",
+    "tenthPercentile": 30440,
+    "average": 46590,
+    "ninetiethPercentile": 70720
+  },
+
+  {
+    "name": "Compensation & Benefits Managers",
+    "tenthPercentile": 77040,
+    "average": 127530,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Compensation, Benefits, & Job Analysis Specialists",
+    "tenthPercentile": 42760,
+    "average": 64120,
+    "ninetiethPercentile": 106160
+  },
+
+  {
+    "name": "Compliance Managers",
+    "tenthPercentile": 60390,
+    "average": 124650,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Compliance Officers",
+    "tenthPercentile": 38950,
+    "average": 71650,
+    "ninetiethPercentile": 117500
+  },
+
+  {
+    "name": "Computer & Information Research Scientists",
+    "tenthPercentile": 74210,
+    "average": 131490,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Computer & Information Systems Managers",
+    "tenthPercentile": 95220,
+    "average": 159010,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Computer Hardware Engineers",
+    "tenthPercentile": 77100,
+    "average": 128170,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Computer Network Architects",
+    "tenthPercentile": 63240,
+    "average": 120520,
+    "ninetiethPercentile": 168890
+  },
+
+  {
+    "name": "Computer Network Support Specialists",
+    "tenthPercentile": 38560,
+    "average": 62760,
+    "ninetiethPercentile": 102410
+  },
+
+  {
+    "name": "Computer Numerically Controlled Tool Operators",
+    "tenthPercentile": 30220,
+    "average": 46640,
+    "ninetiethPercentile": 61840
+  },
+
+  {
+    "name": "Computer Numerically Controlled Tool Programmers",
+    "tenthPercentile": 38290,
+    "average": 60780,
+    "ninetiethPercentile": 86940
+  },
+
+  {
+    "name": "Computer Programmers",
+    "tenthPercentile": 47560,
+    "average": 93000,
+    "ninetiethPercentile": 155240
+  },
+
+  {
+    "name": "Computer Science Teachers, Postsecondary",
+    "tenthPercentile": 47280,
+    "average": 77910,
+    "ninetiethPercentile": 156650
+  },
+
+  {
+    "name": "Computer Systems Analysts",
+    "tenthPercentile": 60680,
+    "average": 99270,
+    "ninetiethPercentile": 158010
+  },
+
+  {
+    "name": "Computer Systems Engineers/Architects",
+    "tenthPercentile": 45630,
+    "average": 95270,
+    "ninetiethPercentile": 162410
+  },
+
+  {
+    "name": "Computer User Support Specialists",
+    "tenthPercentile": 34220,
+    "average": 49770,
+    "ninetiethPercentile": 91060
+  },
+
+  {
+    "name": "Computer, Automated Teller, & Office Machine Repairers",
+    "tenthPercentile": 29010,
+    "average": 40970,
+    "ninetiethPercentile": 60810
+  },
+
+  {
+    "name": "Concierges",
+    "tenthPercentile": 25030,
+    "average": 35210,
+    "ninetiethPercentile": 57750
+  },
+
+  {
+    "name": "Conservation Scientists",
+    "tenthPercentile": 38670,
+    "average": 63750,
+    "ninetiethPercentile": 100440
+  },
+
+  {
+    "name": "Construction & Building Inspectors",
+    "tenthPercentile": 38110,
+    "average": 61640,
+    "ninetiethPercentile": 100520
+  },
+
+  {
+    "name": "Construction Laborers",
+    "tenthPercentile": 28820,
+    "average": 37770,
+    "ninetiethPercentile": 70310
+  },
+
+  {
+    "name": "Construction Managers",
+    "tenthPercentile": 60050,
+    "average": 98890,
+    "ninetiethPercentile": 163800
+  },
+
+  {
+    "name": "Continuous Mining Machine Operators",
+    "tenthPercentile": 38050,
+    "average": 60300,
+    "ninetiethPercentile": 78060
+  },
+
+  {
+    "name": "Control & Valve Installers & Repairers",
+    "tenthPercentile": 37590,
+    "average": 62760,
+    "ninetiethPercentile": 99680
+  },
+
+  {
+    "name": "Conveyor Operators & Tenders",
+    "tenthPercentile": 28790,
+    "average": 36420,
+    "ninetiethPercentile": 48950
+  },
+
+  {
+    "name": "Cooks, Fast Food",
+    "tenthPercentile": 18050,
+    "average": 24180,
+    "ninetiethPercentile": 31420
+  },
+
+  {
+    "name": "Cooks, Institution & Cafeteria",
+    "tenthPercentile": 22140,
+    "average": 29910,
+    "ninetiethPercentile": 43980
+  },
+
+  {
+    "name": "Cooks, Private Household",
+    "tenthPercentile": 29010,
+    "average": 42920,
+    "ninetiethPercentile": 54110
+  },
+
+  {
+    "name": "Cooks, Restaurant",
+    "tenthPercentile": 22550,
+    "average": 30010,
+    "ninetiethPercentile": 39090
+  },
+
+  {
+    "name": "Cooks, Short Order",
+    "tenthPercentile": 19050,
+    "average": 28560,
+    "ninetiethPercentile": 38060
+  },
+
+  {
+    "name": "Cooling & Freezing Equipment Operators & Tenders",
+    "tenthPercentile": 29200,
+    "average": 40390,
+    "ninetiethPercentile": 59970
+  },
+
+  {
+    "name": "Coroners",
+    "tenthPercentile": 38950,
+    "average": 71650,
+    "ninetiethPercentile": 117500
+  },
+
+  {
+    "name": "Correctional Officers & Jailers",
+    "tenthPercentile": 34600,
+    "average": 47920,
+    "ninetiethPercentile": 79340
+  },
+
+  {
+    "name": "Correspondence Clerks",
+    "tenthPercentile": 29420,
+    "average": 37920,
+    "ninetiethPercentile": 52310
+  },
+
+  {
+    "name": "Cost Estimators",
+    "tenthPercentile": 38880,
+    "average": 65170,
+    "ninetiethPercentile": 115690
+  },
+
+  {
+    "name": "Costume Attendants",
+    "tenthPercentile": 26950,
+    "average": 47850,
+    "ninetiethPercentile": 82710
+  },
+
+  {
+    "name": "Counter & Rental Clerks",
+    "tenthPercentile": 22880,
+    "average": 31330,
+    "ninetiethPercentile": 50830
+  },
+
+  {
+    "name": "Couriers & Messengers",
+    "tenthPercentile": 23850,
+    "average": 33050,
+    "ninetiethPercentile": 46220
+  },
+
+  {
+    "name": "Court Reporters & Simultaneous Captioners",
+    "tenthPercentile": 34340,
+    "average": 60380,
+    "ninetiethPercentile": 103270
+  },
+
+  {
+    "name": "Court, Municipal, & License Clerks",
+    "tenthPercentile": 29070,
+    "average": 44610,
+    "ninetiethPercentile": 60980
+  },
+
+  {
+    "name": "Craft Artists",
+    "tenthPercentile": 22760,
+    "average": 35930,
+    "ninetiethPercentile": 61290
+  },
+
+  {
+    "name": "Crane & Tower Operators",
+    "tenthPercentile": 37490,
+    "average": 62240,
+    "ninetiethPercentile": 98490
+  },
+
+  {
+    "name": "Credit Analysts",
+    "tenthPercentile": 47630,
+    "average": 77440,
+    "ninetiethPercentile": 153560
+  },
+
+  {
+    "name": "Credit Authorizers, Checkers, & Clerks",
+    "tenthPercentile": 29840,
+    "average": 44710,
+    "ninetiethPercentile": 61590
+  },
+
+  {
+    "name": "Credit Counselors",
+    "tenthPercentile": 35240,
+    "average": 47580,
+    "ninetiethPercentile": 75230
+  },
+
+  {
+    "name": "Crematory Operators",
+    "tenthPercentile": 28910,
+    "average": 37490,
+    "ninetiethPercentile": 50790
+  },
+
+  {
+    "name": "Criminal Justice & Law Enforcement Teachers, Postsecondary",
+    "tenthPercentile": 38850,
+    "average": 64600,
+    "ninetiethPercentile": 132340
+  },
+
+  {
+    "name": "Critical Care Nurses",
+    "tenthPercentile": 59450,
+    "average": 77600,
+    "ninetiethPercentile": 120250
+  },
+
+  {
+    "name": "Crossing Guards & Flaggers",
+    "tenthPercentile": 23990,
+    "average": 31450,
+    "ninetiethPercentile": 49720
+  },
+
+  {
+    "name": "Crushing, Grinding, & Polishing Machine Setters, Operators, & Tenders",
+    "tenthPercentile": 29120,
+    "average": 38760,
+    "ninetiethPercentile": 59970
+  },
+
+  {
+    "name": "Curators",
+    "tenthPercentile": 35990,
+    "average": 60110,
+    "ninetiethPercentile": 98490
+  },
+
+  {
+    "name": "Customer Service Representatives",
+    "tenthPercentile": 26340,
+    "average": 36920,
+    "ninetiethPercentile": 58640
+  },
+
+  {
+    "name": "Customs & Border Protection Officers",
+    "tenthPercentile": 40190,
+    "average": 64610,
+    "ninetiethPercentile": 102530
+  },
+
+  {
+    "name": "Customs Brokers",
+    "tenthPercentile": 38950,
+    "average": 71650,
+    "ninetiethPercentile": 117500
+  },
+
+  {
+    "name": "Cutters & Trimmers, Hand",
+    "tenthPercentile": 23240,
+    "average": 30230,
+    "ninetiethPercentile": 47680
+  },
+
+  {
+    "name": "Cutting & Slicing Machine Setters, Operators, & Tenders",
+    "tenthPercentile": 28990,
+    "average": 37810,
+    "ninetiethPercentile": 49710
+  },
+
+  {
+    "name": "Cutting, Punching, & Press Machine Setters, Operators, & Tenders, Metal & Plastic",
+    "tenthPercentile": 29010,
+    "average": 37630,
+    "ninetiethPercentile": 57390
+  },
+
+  {
+    "name": "Cytogenetic Technologists",
+    "tenthPercentile": 30280,
+    "average": 57800,
+    "ninetiethPercentile": 79340
+  },
+
+  {
+    "name": "Cytotechnologists",
+    "tenthPercentile": 30280,
+    "average": 57800,
+    "ninetiethPercentile": 79340
+  },
+
+  {
+    "name": "Dancers",
+    "tenthPercentile": "n/a",
+    "average": "n/a",
+    "ninetiethPercentile": "n/a"
+  },
+
+  {
+    "name": "Data Entry Keyers",
+    "tenthPercentile": 24510,
+    "average": 35630,
+    "ninetiethPercentile": 47700
+  },
+
+  {
+    "name": "Data Scientists",
+    "tenthPercentile": 59430,
+    "average": 100910,
+    "ninetiethPercentile": 167040
+  },
+
+  {
+    "name": "Data Warehousing Specialists",
+    "tenthPercentile": 63260,
+    "average": 123430,
+    "ninetiethPercentile": 169500
+  },
+
+  {
+    "name": "Database Administrators",
+    "tenthPercentile": 48880,
+    "average": 96710,
+    "ninetiethPercentile": 151400
+  },
+
+  {
+    "name": "Database Architects",
+    "tenthPercentile": 63260,
+    "average": 123430,
+    "ninetiethPercentile": 169500
+  },
+
+  {
+    "name": "Demonstrators & Product Promoters",
+    "tenthPercentile": 23870,
+    "average": 32350,
+    "ninetiethPercentile": 53410
+  },
+
+  {
+    "name": "Dental Assistants",
+    "tenthPercentile": 29580,
+    "average": 38660,
+    "ninetiethPercentile": 59540
+  },
+
+  {
+    "name": "Dental Hygienists",
+    "tenthPercentile": 60100,
+    "average": 77810,
+    "ninetiethPercentile": 100200
+  },
+
+  {
+    "name": "Dental Laboratory Technicians",
+    "tenthPercentile": 29600,
+    "average": 45770,
+    "ninetiethPercentile": 71740
+  },
+
+  {
+    "name": "Dentists, General",
+    "tenthPercentile": 62810,
+    "average": 160370,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Dermatologists",
+    "tenthPercentile": 100940,
+    "average": 208000,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Derrick Operators, Oil & Gas",
+    "tenthPercentile": 36460,
+    "average": 47230,
+    "ninetiethPercentile": 77000
+  },
+
+  {
+    "name": "Desktop Publishers",
+    "tenthPercentile": 27770,
+    "average": 46910,
+    "ninetiethPercentile": 79630
+  },
+
+  {
+    "name": "Detectives & Criminal Investigators",
+    "tenthPercentile": 48040,
+    "average": 83640,
+    "ninetiethPercentile": 146830
+  },
+
+  {
+    "name": "Diagnostic Medical Sonographers",
+    "tenthPercentile": 59640,
+    "average": 77740,
+    "ninetiethPercentile": 101650
+  },
+
+  {
+    "name": "Dietetic Technicians",
+    "tenthPercentile": 22790,
+    "average": 29520,
+    "ninetiethPercentile": 47120
+  },
+
+  {
+    "name": "Dietitians & Nutritionists",
+    "tenthPercentile": 42530,
+    "average": 61650,
+    "ninetiethPercentile": 93640
+  },
+
+  {
+    "name": "Digital Forensics Analysts",
+    "tenthPercentile": 45630,
+    "average": 95270,
+    "ninetiethPercentile": 162410
+  },
+
+  {
+    "name": "Dining Room & Cafeteria Attendants & Bartender Helpers",
+    "tenthPercentile": 18430,
+    "average": 27170,
+    "ninetiethPercentile": 37310
+  },
+
+  {
+    "name": "Directors, Religious Activities & Education",
+    "tenthPercentile": 29030,
+    "average": 46980,
+    "ninetiethPercentile": 90470
+  },
+
+  {
+    "name": "Disc Jockeys",
+    "tenthPercentile": "n/a",
+    "average": "n/a",
+    "ninetiethPercentile": "n/a"
+  },
+
+  {
+    "name": "Dishwashers",
+    "tenthPercentile": 19200,
+    "average": 28130,
+    "ninetiethPercentile": 34870
+  },
+
+  {
+    "name": "Dispatchers",
+    "tenthPercentile": 29120,
+    "average": 44050,
+    "ninetiethPercentile": 71480
+  },
+
+  {
+    "name": "Document Management Specialists",
+    "tenthPercentile": 45630,
+    "average": 95270,
+    "ninetiethPercentile": 162410
+  },
+
+  {
+    "name": "Door-to-Door Sales Workers, News & Street Vendors, & Related Workers",
+    "tenthPercentile": 20850,
+    "average": 29390,
+    "ninetiethPercentile": 50890
+  },
+
+  {
+    "name": "Dredge Operators",
+    "tenthPercentile": 35440,
+    "average": 46210,
+    "ninetiethPercentile": 76610
+  },
+
+  {
+    "name": "Drilling & Boring Machine Tool Setters, Operators, & Tenders, Metal & Plastic",
+    "tenthPercentile": 29820,
+    "average": 38580,
+    "ninetiethPercentile": 60330
+  },
+
+  {
+    "name": "Driver/Sales Workers",
+    "tenthPercentile": 18360,
+    "average": 29280,
+    "ninetiethPercentile": 47850
+  },
+
+  {
+    "name": "Drywall & Ceiling Tile Installers",
+    "tenthPercentile": 30460,
+    "average": 48040,
+    "ninetiethPercentile": 95600
+  },
+
+  {
+    "name": "Earth Drillers",
+    "tenthPercentile": 36910,
+    "average": 48250,
+    "ninetiethPercentile": 77160
+  },
+
+  {
+    "name": "Economics Teachers, Postsecondary",
+    "tenthPercentile": 58330,
+    "average": 104940,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Economists",
+    "tenthPercentile": 62460,
+    "average": 105630,
+    "ninetiethPercentile": 193690
+  },
+
+  {
+    "name": "Editors",
+    "tenthPercentile": 36970,
+    "average": 63350,
+    "ninetiethPercentile": 129420
+  },
+
+  {
+    "name": "Education & Childcare Administrators, Preschool & Daycare",
+    "tenthPercentile": 31200,
+    "average": 47310,
+    "ninetiethPercentile": 78350
+  },
+
+  {
+    "name": "Education Administrators, Kindergarten through Secondary",
+    "tenthPercentile": 61480,
+    "average": 98420,
+    "ninetiethPercentile": 153520
+  },
+
+  {
+    "name": "Education Administrators, Postsecondary",
+    "tenthPercentile": 59150,
+    "average": 96910,
+    "ninetiethPercentile": 190770
+  },
+
+  {
+    "name": "Education Teachers, Postsecondary",
+    "tenthPercentile": 31200,
+    "average": 63910,
+    "ninetiethPercentile": 127420
+  },
+
+  {
+    "name": "Educational, Guidance, & Career Counselors & Advisors",
+    "tenthPercentile": 37550,
+    "average": 60510,
+    "ninetiethPercentile": 98190
+  },
+
+  {
+    "name": "Electric Motor, Power Tool, & Related Repairers",
+    "tenthPercentile": 29920,
+    "average": 46910,
+    "ninetiethPercentile": 70200
+  },
+
+  {
+    "name": "Electrical & Electronic Engineering Technologists & Technicians",
+    "tenthPercentile": 39840,
+    "average": 63640,
+    "ninetiethPercentile": 99210
+  },
+
+  {
+    "name": "Electrical & Electronic Equipment Assemblers",
+    "tenthPercentile": 28820,
+    "average": 37460,
+    "ninetiethPercentile": 57240
+  },
+
+  {
+    "name": "Electrical & Electronics Drafters",
+    "tenthPercentile": 38120,
+    "average": 61510,
+    "ninetiethPercentile": 99210
+  },
+
+  {
+    "name": "Electrical & Electronics Installers & Repairers, Transportation Equipment",
+    "tenthPercentile": 45530,
+    "average": 77250,
+    "ninetiethPercentile": 97630
+  },
+
+  {
+    "name": "Electrical & Electronics Repairers, Commercial & Industrial Equipment",
+    "tenthPercentile": 37800,
+    "average": 61730,
+    "ninetiethPercentile": 95700
+  },
+
+  {
+    "name": "Electrical & Electronics Repairers, Powerhouse, Substation, & Relay",
+    "tenthPercentile": 59540,
+    "average": 93420,
+    "ninetiethPercentile": 120000
+  },
+
+  {
+    "name": "Electrical Engineers",
+    "tenthPercentile": 62360,
+    "average": 100420,
+    "ninetiethPercentile": 162930
+  },
+
+  {
+    "name": "Electrical Power-Line Installers & Repairers",
+    "tenthPercentile": 46200,
+    "average": 78310,
+    "ninetiethPercentile": 107110
+  },
+
+  {
+    "name": "Electricians",
+    "tenthPercentile": 37020,
+    "average": 60040,
+    "ninetiethPercentile": 99800
+  },
+
+  {
+    "name": "Electro-Mechanical & Mechatronics Technologists & Technicians",
+    "tenthPercentile": 37650,
+    "average": 60360,
+    "ninetiethPercentile": 98070
+  },
+
+  {
+    "name": "Electromechanical Equipment Assemblers",
+    "tenthPercentile": 28820,
+    "average": 37460,
+    "ninetiethPercentile": 57240
+  },
+
+  {
+    "name": "Electronic Equipment Installers & Repairers, Motor Vehicles",
+    "tenthPercentile": 29110,
+    "average": 40670,
+    "ninetiethPercentile": 59770
+  },
+
+  {
+    "name": "Electronics Engineers",
+    "tenthPercentile": 73630,
+    "average": 104820,
+    "ninetiethPercentile": 166890
+  },
+
+  {
+    "name": "Elementary School Teachers",
+    "tenthPercentile": 43950,
+    "average": 61400,
+    "ninetiethPercentile": 99420
+  },
+
+  {
+    "name": "Elevator & Escalator Installers & Repairers",
+    "tenthPercentile": 47370,
+    "average": 97860,
+    "ninetiethPercentile": 130940
+  },
+
+  {
+    "name": "Eligibility Interviewers, Government Programs",
+    "tenthPercentile": 31580,
+    "average": 47420,
+    "ninetiethPercentile": 63590
+  },
+
+  {
+    "name": "Embalmers",
+    "tenthPercentile": 29000,
+    "average": 47780,
+    "ninetiethPercentile": 78210
+  },
+
+  {
+    "name": "Emergency Management Directors",
+    "tenthPercentile": 46670,
+    "average": 76730,
+    "ninetiethPercentile": 133580
+  },
+
+  {
+    "name": "Emergency Medical Technicians",
+    "tenthPercentile": 23620,
+    "average": 35470,
+    "ninetiethPercentile": 47580
+  },
+
+  {
+    "name": "Emergency Medicine Physicians",
+    "tenthPercentile": 103310,
+    "average": 208000,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Endoscopy Technicians",
+    "tenthPercentile": 25810,
+    "average": 37740,
+    "ninetiethPercentile": 59250
+  },
+
+  {
+    "name": "Energy Auditors",
+    "tenthPercentile": 38110,
+    "average": 61640,
+    "ninetiethPercentile": 100520
+  },
+
+  {
+    "name": "Energy Engineers",
+    "tenthPercentile": 58730,
+    "average": 100640,
+    "ninetiethPercentile": 164690
+  },
+
+  {
+    "name": "Engine & Other Machine Assemblers",
+    "tenthPercentile": 30280,
+    "average": 47440,
+    "ninetiethPercentile": 61190
+  },
+
+  {
+    "name": "Engineering Teachers, Postsecondary",
+    "tenthPercentile": 60380,
+    "average": 104940,
+    "ninetiethPercentile": 182590
+  },
+
+  {
+    "name": "English Language & Literature Teachers, Postsecondary",
+    "tenthPercentile": 39230,
+    "average": 75930,
+    "ninetiethPercentile": 132220
+  },
+
+  {
+    "name": "Entertainment & Recreation Managers",
+    "tenthPercentile": 37020,
+    "average": 62000,
+    "ninetiethPercentile": 124120
+  },
+
+  {
+    "name": "Environmental Compliance Inspectors",
+    "tenthPercentile": 38950,
+    "average": 71650,
+    "ninetiethPercentile": 117500
+  },
+
+  {
+    "name": "Environmental Economists",
+    "tenthPercentile": 62460,
+    "average": 105630,
+    "ninetiethPercentile": 193690
+  },
+
+  {
+    "name": "Environmental Engineering Technologists & Technicians",
+    "tenthPercentile": 35870,
+    "average": 48390,
+    "ninetiethPercentile": 84740
+  },
+
+  {
+    "name": "Environmental Engineers",
+    "tenthPercentile": 59820,
+    "average": 96820,
+    "ninetiethPercentile": 153200
+  },
+
+  {
+    "name": "Environmental Restoration Planners",
+    "tenthPercentile": 46200,
+    "average": 76530,
+    "ninetiethPercentile": 129070
+  },
+
+  {
+    "name": "Environmental Science & Protection Technicians, Including Health",
+    "tenthPercentile": 30050,
+    "average": 47370,
+    "ninetiethPercentile": 76810
+  },
+
+  {
+    "name": "Environmental Science Teachers, Postsecondary",
+    "tenthPercentile": 47760,
+    "average": 81980,
+    "ninetiethPercentile": 150150
+  },
+
+  {
+    "name": "Environmental Scientists & Specialists, Including Health",
+    "tenthPercentile": 46200,
+    "average": 76530,
+    "ninetiethPercentile": 129070
+  },
+
+  {
+    "name": "Epidemiologists",
+    "tenthPercentile": 50100,
+    "average": 78830,
+    "ninetiethPercentile": 130050
+  },
+
+  {
+    "name": "Equal Opportunity Representatives & Officers",
+    "tenthPercentile": 38950,
+    "average": 71650,
+    "ninetiethPercentile": 117500
+  },
+
+  {
+    "name": "Etchers & Engravers",
+    "tenthPercentile": 23860,
+    "average": 36590,
+    "ninetiethPercentile": 49390
+  },
+
+  {
+    "name": "Excavating & Loading Machine & Dragline Operators, Surface Mining",
+    "tenthPercentile": 34180,
+    "average": 46740,
+    "ninetiethPercentile": 74320
+  },
+
+  {
+    "name": "Executive Secretaries & Executive Administrative Assistants",
+    "tenthPercentile": 38620,
+    "average": 62060,
+    "ninetiethPercentile": 98280
+  },
+
+  {
+    "name": "Exercise Physiologists",
+    "tenthPercentile": 36930,
+    "average": 47940,
+    "ninetiethPercentile": 76950
+  },
+
+  {
+    "name": "Exercise Trainers & Group Fitness Instructors",
+    "tenthPercentile": 22960,
+    "average": 40700,
+    "ninetiethPercentile": 75940
+  },
+
+  {
+    "name": "Explosives Workers, Ordnance Handling Experts, & Blasters",
+    "tenthPercentile": 36880,
+    "average": 53040,
+    "ninetiethPercentile": 79320
+  },
+
+  {
+    "name": "Extruding & Drawing Machine Setters, Operators, & Tenders, Metal & Plastic",
+    "tenthPercentile": 29190,
+    "average": 37750,
+    "ninetiethPercentile": 56360
+  },
+
+  {
+    "name": "Extruding & Forming Machine Setters, Operators, & Tenders, Synthetic & Glass Fibers",
+    "tenthPercentile": 29030,
+    "average": 37550,
+    "ninetiethPercentile": 59520
+  },
+
+  {
+    "name": "Extruding, Forming, Pressing, & Compacting Machine Setters, Operators, & Tenders",
+    "tenthPercentile": 28890,
+    "average": 37660,
+    "ninetiethPercentile": 56580
+  },
+
+  {
+    "name": "Fabric & Apparel Patternmakers",
+    "tenthPercentile": 29500,
+    "average": 58650,
+    "ninetiethPercentile": 104110
+  },
+
+  {
+    "name": "Facilities Managers",
+    "tenthPercentile": 59010,
+    "average": 97930,
+    "ninetiethPercentile": 161140
+  },
+
+  {
+    "name": "Fallers",
+    "tenthPercentile": 28010,
+    "average": 47700,
+    "ninetiethPercentile": 90800
+  },
+
+  {
+    "name": "Family & Consumer Sciences Teachers, Postsecondary",
+    "tenthPercentile": 48070,
+    "average": 79630,
+    "ninetiethPercentile": 148320
+  },
+
+  {
+    "name": "Family Medicine Physicians",
+    "tenthPercentile": 63580,
+    "average": 208000,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Farm & Home Management Educators",
+    "tenthPercentile": 30030,
+    "average": 49990,
+    "ninetiethPercentile": 92720
+  },
+
+  {
+    "name": "Farm Equipment Mechanics & Service Technicians",
+    "tenthPercentile": 30010,
+    "average": 46910,
+    "ninetiethPercentile": 61900
+  },
+
+  {
+    "name": "Farm Labor Contractors",
+    "tenthPercentile": 31990,
+    "average": 47770,
+    "ninetiethPercentile": 81100
+  },
+
+  {
+    "name": "Farmers, Ranchers, & Other Agricultural Managers",
+    "tenthPercentile": 38200,
+    "average": 73060,
+    "ninetiethPercentile": 126330
+  },
+
+  {
+    "name": "Farmworkers & Laborers, Crop, Nursery, & Greenhouse",
+    "tenthPercentile": 28230,
+    "average": 29630,
+    "ninetiethPercentile": 37280
+  },
+
+  {
+    "name": "Farmworkers, Farm, Ranch, & Aquacultural Animals",
+    "tenthPercentile": 21840,
+    "average": 29630,
+    "ninetiethPercentile": 46160
+  },
+
+  {
+    "name": "Fashion Designers",
+    "tenthPercentile": 37480,
+    "average": 77450,
+    "ninetiethPercentile": 130870
+  },
+
+  {
+    "name": "Fast Food & Counter Workers",
+    "tenthPercentile": 18230,
+    "average": 25100,
+    "ninetiethPercentile": 32250
+  },
+
+  {
+    "name": "Fence Erectors",
+    "tenthPercentile": 28830,
+    "average": 37700,
+    "ninetiethPercentile": 58210
+  },
+
+  {
+    "name": "Fiberglass Laminators & Fabricators",
+    "tenthPercentile": 29010,
+    "average": 37650,
+    "ninetiethPercentile": 49670
+  },
+
+  {
+    "name": "File Clerks",
+    "tenthPercentile": 23980,
+    "average": 36360,
+    "ninetiethPercentile": 49190
+  },
+
+  {
+    "name": "Film & Video Editors",
+    "tenthPercentile": 37060,
+    "average": 62680,
+    "ninetiethPercentile": 138910
+  },
+
+  {
+    "name": "Financial & Investment Analysts",
+    "tenthPercentile": 57900,
+    "average": 91580,
+    "ninetiethPercentile": 166560
+  },
+
+  {
+    "name": "Financial Examiners",
+    "tenthPercentile": 48830,
+    "average": 81410,
+    "ninetiethPercentile": 160850
+  },
+
+  {
+    "name": "Financial Managers",
+    "tenthPercentile": 77040,
+    "average": 131710,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Financial Quantitative Analysts",
+    "tenthPercentile": 38220,
+    "average": 73240,
+    "ninetiethPercentile": 129010
+  },
+
+  {
+    "name": "Financial Risk Specialists",
+    "tenthPercentile": 59370,
+    "average": 100000,
+    "ninetiethPercentile": 171000
+  },
+
+  {
+    "name": "Fine Artists, Including Painters, Sculptors, & Illustrators",
+    "tenthPercentile": 19430,
+    "average": 60820,
+    "ninetiethPercentile": 125930
+  },
+
+  {
+    "name": "Fire Inspectors & Investigators",
+    "tenthPercentile": 40190,
+    "average": 64600,
+    "ninetiethPercentile": 100730
+  },
+
+  {
+    "name": "Fire-Prevention & Protection Engineers",
+    "tenthPercentile": 58490,
+    "average": 99040,
+    "ninetiethPercentile": 150720
+  },
+
+  {
+    "name": "Firefighters",
+    "tenthPercentile": 29030,
+    "average": 50700,
+    "ninetiethPercentile": 81640
+  },
+
+  {
+    "name": "First-Line Supervisors of Construction Trades & Extraction Workers",
+    "tenthPercentile": 47330,
+    "average": 72010,
+    "ninetiethPercentile": 108120
+  },
+
+  {
+    "name": "First-Line Supervisors of Correctional Officers",
+    "tenthPercentile": 40610,
+    "average": 62220,
+    "ninetiethPercentile": 105540
+  },
+
+  {
+    "name": "First-Line Supervisors of Entertainment & Recreation Workers",
+    "tenthPercentile": 28520,
+    "average": 44870,
+    "ninetiethPercentile": 75610
+  },
+
+  {
+    "name": "First-Line Supervisors of Farming, Fishing, & Forestry Workers",
+    "tenthPercentile": 32400,
+    "average": 48640,
+    "ninetiethPercentile": 79050
+  },
+
+  {
+    "name": "First-Line Supervisors of Firefighting & Prevention Workers",
+    "tenthPercentile": 47450,
+    "average": 78230,
+    "ninetiethPercentile": 127680
+  },
+
+  {
+    "name": "First-Line Supervisors of Food Preparation & Serving Workers",
+    "tenthPercentile": 24100,
+    "average": 36570,
+    "ninetiethPercentile": 60410
+  },
+
+  {
+    "name": "First-Line Supervisors of Gambling Services Workers",
+    "tenthPercentile": 29920,
+    "average": 49140,
+    "ninetiethPercentile": 75680
+  },
+
+  {
+    "name": "First-Line Supervisors of Helpers, Laborers, & Material Movers, Hand",
+    "tenthPercentile": 36820,
+    "average": 54850,
+    "ninetiethPercentile": 82240
+  },
+
+  {
+    "name": "First-Line Supervisors of Housekeeping & Janitorial Workers",
+    "tenthPercentile": 28980,
+    "average": 39630,
+    "ninetiethPercentile": 63530
+  },
+
+  {
+    "name": "First-Line Supervisors of Landscaping, Lawn Service, & Groundskeeping Workers",
+    "tenthPercentile": 34600,
+    "average": 48800,
+    "ninetiethPercentile": 78880
+  },
+
+  {
+    "name": "First-Line Supervisors of Material-Moving Machine & Vehicle Operators",
+    "tenthPercentile": 36820,
+    "average": 54850,
+    "ninetiethPercentile": 82240
+  },
+
+  {
+    "name": "First-Line Supervisors of Mechanics, Installers, & Repairers",
+    "tenthPercentile": 43800,
+    "average": 71260,
+    "ninetiethPercentile": 105910
+  },
+
+  {
+    "name": "First-Line Supervisors of Non-Retail Sales Workers",
+    "tenthPercentile": 47510,
+    "average": 79680,
+    "ninetiethPercentile": 160120
+  },
+
+  {
+    "name": "First-Line Supervisors of Office & Administrative Support Workers",
+    "tenthPercentile": 37370,
+    "average": 60590,
+    "ninetiethPercentile": 97610
+  },
+
+  {
+    "name": "First-Line Supervisors of Passenger Attendants",
+    "tenthPercentile": 36820,
+    "average": 54850,
+    "ninetiethPercentile": 82240
+  },
+
+  {
+    "name": "First-Line Supervisors of Personal Service Workers",
+    "tenthPercentile": 28700,
+    "average": 40390,
+    "ninetiethPercentile": 65540
+  },
+
+  {
+    "name": "First-Line Supervisors of Police & Detectives",
+    "tenthPercentile": 51790,
+    "average": 99330,
+    "ninetiethPercentile": 159850
+  },
+
+  {
+    "name": "First-Line Supervisors of Production & Operating Workers",
+    "tenthPercentile": 38070,
+    "average": 61790,
+    "ninetiethPercentile": 100550
+  },
+
+  {
+    "name": "First-Line Supervisors of Retail Sales Workers",
+    "tenthPercentile": 29000,
+    "average": 39230,
+    "ninetiethPercentile": 73160
+  },
+
+  {
+    "name": "First-Line Supervisors of Security Workers",
+    "tenthPercentile": 31440,
+    "average": 50240,
+    "ninetiethPercentile": 81110
+  },
+
+  {
+    "name": "Fish & Game Wardens",
+    "tenthPercentile": 31200,
+    "average": 60730,
+    "ninetiethPercentile": 78330
+  },
+
+  {
+    "name": "Fishing & Hunting Workers",
+    "tenthPercentile": "n/a",
+    "average": "n/a",
+    "ninetiethPercentile": "n/a"
+  },
+
+  {
+    "name": "Fitness & Wellness Coordinators",
+    "tenthPercentile": 31350,
+    "average": 60360,
+    "ninetiethPercentile": 84170
+  },
+
+  {
+    "name": "Flight Attendants",
+    "tenthPercentile": 37020,
+    "average": 61640,
+    "ninetiethPercentile": 81400
+  },
+
+  {
+    "name": "Floor Layers",
+    "tenthPercentile": 29840,
+    "average": 48060,
+    "ninetiethPercentile": 82630
+  },
+
+  {
+    "name": "Floor Sanders & Finishers",
+    "tenthPercentile": 28340,
+    "average": 39140,
+    "ninetiethPercentile": 66190
+  },
+
+  {
+    "name": "Floral Designers",
+    "tenthPercentile": 22830,
+    "average": 29880,
+    "ninetiethPercentile": 44820
+  },
+
+  {
+    "name": "Food & Tobacco Roasting, Baking, & Drying Machine Operators & Tenders",
+    "tenthPercentile": 23480,
+    "average": 35480,
+    "ninetiethPercentile": 48840
+  },
+
+  {
+    "name": "Food Batchmakers",
+    "tenthPercentile": 23590,
+    "average": 35780,
+    "ninetiethPercentile": 47760
+  },
+
+  {
+    "name": "Food Cooking Machine Operators & Tenders",
+    "tenthPercentile": 23890,
+    "average": 35890,
+    "ninetiethPercentile": 47440
+  },
+
+  {
+    "name": "Food Preparation Workers",
+    "tenthPercentile": 19520,
+    "average": 28780,
+    "ninetiethPercentile": 38060
+  },
+
+  {
+    "name": "Food Science Technicians",
+    "tenthPercentile": 33710,
+    "average": 46590,
+    "ninetiethPercentile": 62920
+  },
+
+  {
+    "name": "Food Scientists & Technologists",
+    "tenthPercentile": 45010,
+    "average": 78340,
+    "ninetiethPercentile": 130540
+  },
+
+  {
+    "name": "Food Servers, Nonrestaurant",
+    "tenthPercentile": 20940,
+    "average": 28730,
+    "ninetiethPercentile": 38460
+  },
+
+  {
+    "name": "Food Service Managers",
+    "tenthPercentile": 36630,
+    "average": 59440,
+    "ninetiethPercentile": 98070
+  },
+
+  {
+    "name": "Foreign Language & Literature Teachers, Postsecondary",
+    "tenthPercentile": 46560,
+    "average": 77030,
+    "ninetiethPercentile": 129130
+  },
+
+  {
+    "name": "Forensic Science Technicians",
+    "tenthPercentile": 37670,
+    "average": 61930,
+    "ninetiethPercentile": 103430
+  },
+
+  {
+    "name": "Forest & Conservation Technicians",
+    "tenthPercentile": 29670,
+    "average": 39290,
+    "ninetiethPercentile": 61750
+  },
+
+  {
+    "name": "Forest & Conservation Workers",
+    "tenthPercentile": 25850,
+    "average": 30550,
+    "ninetiethPercentile": 47090
+  },
+
+  {
+    "name": "Forest Fire Inspectors & Prevention Specialists",
+    "tenthPercentile": 30000,
+    "average": 42600,
+    "ninetiethPercentile": 85270
+  },
+
+  {
+    "name": "Foresters",
+    "tenthPercentile": 43280,
+    "average": 64110,
+    "ninetiethPercentile": 98330
+  },
+
+  {
+    "name": "Forestry & Conservation Science Teachers, Postsecondary",
+    "tenthPercentile": 50280,
+    "average": 82330,
+    "ninetiethPercentile": 134760
+  },
+
+  {
+    "name": "Forging Machine Setters, Operators, & Tenders, Metal & Plastic",
+    "tenthPercentile": 29840,
+    "average": 44520,
+    "ninetiethPercentile": 60390
+  },
+
+  {
+    "name": "Foundry Mold & Coremakers",
+    "tenthPercentile": 28810,
+    "average": 37710,
+    "ninetiethPercentile": 53850
+  },
+
+  {
+    "name": "Fraud Examiners, Investigators & Analysts",
+    "tenthPercentile": 38220,
+    "average": 73240,
+    "ninetiethPercentile": 129010
+  },
+
+  {
+    "name": "Freight Forwarders",
+    "tenthPercentile": 30020,
+    "average": 46910,
+    "ninetiethPercentile": 69450
+  },
+
+  {
+    "name": "Fuel Cell Engineers",
+    "tenthPercentile": 60750,
+    "average": 95300,
+    "ninetiethPercentile": 136210
+  },
+
+  {
+    "name": "Fundraisers",
+    "tenthPercentile": 37020,
+    "average": 60660,
+    "ninetiethPercentile": 100620
+  },
+
+  {
+    "name": "Fundraising Managers",
+    "tenthPercentile": 60400,
+    "average": 100810,
+    "ninetiethPercentile": 204430
+  },
+
+  {
+    "name": "Funeral Attendants",
+    "tenthPercentile": 22350,
+    "average": 29230,
+    "ninetiethPercentile": 45660
+  },
+
+  {
+    "name": "Funeral Home Managers",
+    "tenthPercentile": 42260,
+    "average": 74000,
+    "ninetiethPercentile": 135660
+  },
+
+  {
+    "name": "Furnace, Kiln, Oven, Drier, & Kettle Operators & Tenders",
+    "tenthPercentile": 29310,
+    "average": 43710,
+    "ninetiethPercentile": 60640
+  },
+
+  {
+    "name": "Furniture Finishers",
+    "tenthPercentile": 26200,
+    "average": 36580,
+    "ninetiethPercentile": 48730
+  },
+
+  {
+    "name": "Gambling & Sports Book Writers & Runners",
+    "tenthPercentile": 19230,
+    "average": 27530,
+    "ninetiethPercentile": 38380
+  },
+
+  {
+    "name": "Gambling Cage Workers",
+    "tenthPercentile": 22660,
+    "average": 29360,
+    "ninetiethPercentile": 37890
+  },
+
+  {
+    "name": "Gambling Change Persons & Booth Cashiers",
+    "tenthPercentile": 19020,
+    "average": 28600,
+    "ninetiethPercentile": 37560
+  },
+
+  {
+    "name": "Gambling Dealers",
+    "tenthPercentile": 17740,
+    "average": 24960,
+    "ninetiethPercentile": 47810
+  },
+
+  {
+    "name": "Gambling Managers",
+    "tenthPercentile": 47580,
+    "average": 76910,
+    "ninetiethPercentile": 145770
+  },
+
+  {
+    "name": "Gambling Surveillance Officers & Gambling Investigators",
+    "tenthPercentile": 27970,
+    "average": 35450,
+    "ninetiethPercentile": 56730
+  },
+
+  {
+    "name": "Gas Compressor & Gas Pumping Station Operators",
+    "tenthPercentile": 38490,
+    "average": 70720,
+    "ninetiethPercentile": 90740
+  },
+
+  {
+    "name": "Gas Plant Operators",
+    "tenthPercentile": 47470,
+    "average": 77850,
+    "ninetiethPercentile": 103420
+  },
+
+  {
+    "name": "Gem & Diamond Workers",
+    "tenthPercentile": 27030,
+    "average": 46640,
+    "ninetiethPercentile": 68960
+  },
+
+  {
+    "name": "General & Operations Managers",
+    "tenthPercentile": 43260,
+    "average": 97970,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "General Internal Medicine Physicians",
+    "tenthPercentile": 62850,
+    "average": 208000,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Genetic Counselors",
+    "tenthPercentile": 49120,
+    "average": 80150,
+    "ninetiethPercentile": 121070
+  },
+
+  {
+    "name": "Geneticists",
+    "tenthPercentile": 48260,
+    "average": 82530,
+    "ninetiethPercentile": 133830
+  },
+
+  {
+    "name": "Geodetic Surveyors",
+    "tenthPercentile": 37360,
+    "average": 61600,
+    "ninetiethPercentile": 101240
+  },
+
+  {
+    "name": "Geographers",
+    "tenthPercentile": 53410,
+    "average": 85220,
+    "ninetiethPercentile": 118380
+  },
+
+  {
+    "name": "Geographic Information Systems Technologists & Technicians",
+    "tenthPercentile": 45630,
+    "average": 95270,
+    "ninetiethPercentile": 162410
+  },
+
+  {
+    "name": "Geography Teachers, Postsecondary",
+    "tenthPercentile": 48960,
+    "average": 81440,
+    "ninetiethPercentile": 131040
+  },
+
+  {
+    "name": "Geological Technicians",
+    "tenthPercentile": 30590,
+    "average": 48310,
+    "ninetiethPercentile": 98650
+  },
+
+  {
+    "name": "Geoscientists",
+    "tenthPercentile": 48880,
+    "average": 83680,
+    "ninetiethPercentile": 172490
+  },
+
+  {
+    "name": "Geothermal Production Managers",
+    "tenthPercentile": 64150,
+    "average": 103150,
+    "ninetiethPercentile": 170470
+  },
+
+  {
+    "name": "Geothermal Technicians",
+    "tenthPercentile": 29080,
+    "average": 42570,
+    "ninetiethPercentile": 66450
+  },
+
+  {
+    "name": "Glass Blowers, Molders, Benders, & Finishers",
+    "tenthPercentile": 28820,
+    "average": 37500,
+    "ninetiethPercentile": 51500
+  },
+
+  {
+    "name": "Glaziers",
+    "tenthPercentile": 30470,
+    "average": 47180,
+    "ninetiethPercentile": 79340
+  },
+
+  {
+    "name": "Government Property Inspectors & Investigators",
+    "tenthPercentile": 38950,
+    "average": 71650,
+    "ninetiethPercentile": 117500
+  },
+
+  {
+    "name": "Graders & Sorters, Agricultural Products",
+    "tenthPercentile": 23170,
+    "average": 29630,
+    "ninetiethPercentile": 37140
+  },
+
+  {
+    "name": "Graphic Designers",
+    "tenthPercentile": 31310,
+    "average": 50710,
+    "ninetiethPercentile": 98260
+  },
+
+  {
+    "name": "Grinding & Polishing Workers, Hand",
+    "tenthPercentile": 24470,
+    "average": 35670,
+    "ninetiethPercentile": 47730
+  },
+
+  {
+    "name": "Grinding, Lapping, Polishing, & Buffing Machine Tool Setters, Operators, & Tenders, Metal & Plastic",
+    "tenthPercentile": 29120,
+    "average": 37550,
+    "ninetiethPercentile": 57000
+  },
+
+  {
+    "name": "Hairdressers, Hairstylists, & Cosmetologists",
+    "tenthPercentile": 20860,
+    "average": 29670,
+    "ninetiethPercentile": 59070
+  },
+
+  {
+    "name": "Hazardous Materials Removal Workers",
+    "tenthPercentile": 30110,
+    "average": 46300,
+    "ninetiethPercentile": 76390
+  },
+
+  {
+    "name": "Health & Safety Engineers",
+    "tenthPercentile": 58490,
+    "average": 99040,
+    "ninetiethPercentile": 150720
+  },
+
+  {
+    "name": "Health Education Specialists",
+    "tenthPercentile": 37020,
+    "average": 60600,
+    "ninetiethPercentile": 102480
+  },
+
+  {
+    "name": "Health Informatics Specialists",
+    "tenthPercentile": 60680,
+    "average": 99270,
+    "ninetiethPercentile": 158010
+  },
+
+  {
+    "name": "Health Information Technologists & Medical Registrars",
+    "tenthPercentile": 29680,
+    "average": 55560,
+    "ninetiethPercentile": 98490
+  },
+
+  {
+    "name": "Health Specialties Teachers, Postsecondary",
+    "tenthPercentile": 48890,
+    "average": 102720,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Healthcare Social Workers",
+    "tenthPercentile": 37630,
+    "average": 60840,
+    "ninetiethPercentile": 86820
+  },
+
+  {
+    "name": "Hearing Aid Specialists",
+    "tenthPercentile": 33040,
+    "average": 59500,
+    "ninetiethPercentile": 84150
+  },
+
+  {
+    "name": "Heat Treating Equipment Setters, Operators, & Tenders, Metal & Plastic",
+    "tenthPercentile": 29110,
+    "average": 38450,
+    "ninetiethPercentile": 58180
+  },
+
+  {
+    "name": "Heating, Air Conditioning, & Refrigeration Mechanics & Installers",
+    "tenthPercentile": 34320,
+    "average": 48630,
+    "ninetiethPercentile": 78210
+  },
+
+  {
+    "name": "Heavy & Tractor-Trailer Truck Drivers",
+    "tenthPercentile": 30710,
+    "average": 48310,
+    "ninetiethPercentile": 72730
+  },
+
+  {
+    "name": "Helpers--Brickmasons, Blockmasons, Stonemasons, & Tile & Marble Setters",
+    "tenthPercentile": 29280,
+    "average": 37870,
+    "ninetiethPercentile": 64630
+  },
+
+  {
+    "name": "Helpers--Carpenters",
+    "tenthPercentile": 28080,
+    "average": 36690,
+    "ninetiethPercentile": 48030
+  },
+
+  {
+    "name": "Helpers--Electricians",
+    "tenthPercentile": 27680,
+    "average": 36360,
+    "ninetiethPercentile": 47790
+  },
+
+  {
+    "name": "Helpers--Extraction Workers",
+    "tenthPercentile": 29400,
+    "average": 37760,
+    "ninetiethPercentile": 52790
+  },
+
+  {
+    "name": "Helpers--Installation, Maintenance, & Repair Workers",
+    "tenthPercentile": 23480,
+    "average": 33100,
+    "ninetiethPercentile": 47180
+  },
+
+  {
+    "name": "Helpers--Painters, Paperhangers, Plasterers, & Stucco Masons",
+    "tenthPercentile": 27040,
+    "average": 33370,
+    "ninetiethPercentile": 46540
+  },
+
+  {
+    "name": "Helpers--Pipelayers, Plumbers, Pipefitters, & Steamfitters",
+    "tenthPercentile": 27410,
+    "average": 35720,
+    "ninetiethPercentile": 47630
+  },
+
+  {
+    "name": "Helpers--Production Workers",
+    "tenthPercentile": 22830,
+    "average": 30000,
+    "ninetiethPercentile": 46230
+  },
+
+  {
+    "name": "Helpers--Roofers",
+    "tenthPercentile": 25890,
+    "average": 36360,
+    "ninetiethPercentile": 47430
+  },
+
+  {
+    "name": "Highway Maintenance Workers",
+    "tenthPercentile": 29130,
+    "average": 45880,
+    "ninetiethPercentile": 60970
+  },
+
+  {
+    "name": "Histology Technicians",
+    "tenthPercentile": 30280,
+    "average": 57800,
+    "ninetiethPercentile": 79340
+  },
+
+  {
+    "name": "Historians",
+    "tenthPercentile": 37310,
+    "average": 63940,
+    "ninetiethPercentile": 118380
+  },
+
+  {
+    "name": "History Teachers, Postsecondary",
+    "tenthPercentile": 39090,
+    "average": 78130,
+    "ninetiethPercentile": 132720
+  },
+
+  {
+    "name": "Histotechnologists",
+    "tenthPercentile": 30280,
+    "average": 57800,
+    "ninetiethPercentile": 79340
+  },
+
+  {
+    "name": "Hoist & Winch Operators",
+    "tenthPercentile": 30560,
+    "average": 52300,
+    "ninetiethPercentile": 99640
+  },
+
+  {
+    "name": "Home Appliance Repairers",
+    "tenthPercentile": 28450,
+    "average": 44320,
+    "ninetiethPercentile": 63820
+  },
+
+  {
+    "name": "Home Health Aides",
+    "tenthPercentile": 22290,
+    "average": 29430,
+    "ninetiethPercentile": 37010
+  },
+
+  {
+    "name": "Hospitalists",
+    "tenthPercentile": 61260,
+    "average": 208000,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Hosts & Hostesses, Restaurant, Lounge, & Coffee Shop",
+    "tenthPercentile": 18160,
+    "average": 24600,
+    "ninetiethPercentile": 33050
+  },
+
+  {
+    "name": "Hotel, Motel, & Resort Desk Clerks",
+    "tenthPercentile": 21440,
+    "average": 28080,
+    "ninetiethPercentile": 36470
+  },
+
+  {
+    "name": "Human Factors Engineers & Ergonomists",
+    "tenthPercentile": 60850,
+    "average": 95300,
+    "ninetiethPercentile": 129620
+  },
+
+  {
+    "name": "Human Resources Assistants",
+    "tenthPercentile": 29890,
+    "average": 45630,
+    "ninetiethPercentile": 60680
+  },
+
+  {
+    "name": "Human Resources Managers",
+    "tenthPercentile": 75000,
+    "average": 126230,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Human Resources Specialists",
+    "tenthPercentile": 37680,
+    "average": 62290,
+    "ninetiethPercentile": 108160
+  },
+
+  {
+    "name": "Hydroelectric Plant Technicians",
+    "tenthPercentile": 48610,
+    "average": 80850,
+    "ninetiethPercentile": 110590
+  },
+
+  {
+    "name": "Hydroelectric Production Managers",
+    "tenthPercentile": 64150,
+    "average": 103150,
+    "ninetiethPercentile": 170470
+  },
+
+  {
+    "name": "Hydrologic Technicians",
+    "tenthPercentile": 38310,
+    "average": 62280,
+    "ninetiethPercentile": 130050
+  },
+
+  {
+    "name": "Hydrologists",
+    "tenthPercentile": 51120,
+    "average": 84030,
+    "ninetiethPercentile": 135170
+  },
+
+  {
+    "name": "Industrial Ecologists",
+    "tenthPercentile": 46200,
+    "average": 76530,
+    "ninetiethPercentile": 129070
+  },
+
+  {
+    "name": "Industrial Engineering Technologists & Technicians",
+    "tenthPercentile": 37790,
+    "average": 60220,
+    "ninetiethPercentile": 85530
+  },
+
+  {
+    "name": "Industrial Engineers",
+    "tenthPercentile": 60850,
+    "average": 95300,
+    "ninetiethPercentile": 129620
+  },
+
+  {
+    "name": "Industrial Machinery Mechanics",
+    "tenthPercentile": 37370,
+    "average": 59840,
+    "ninetiethPercentile": 79270
+  },
+
+  {
+    "name": "Industrial Production Managers",
+    "tenthPercentile": 64150,
+    "average": 103150,
+    "ninetiethPercentile": 170470
+  },
+
+  {
+    "name": "Industrial Truck & Tractor Operators",
+    "tenthPercentile": 29860,
+    "average": 38380,
+    "ninetiethPercentile": 53040
+  },
+
+  {
+    "name": "Industrial-Organizational Psychologists",
+    "tenthPercentile": 63750,
+    "average": 105310,
+    "ninetiethPercentile": 168300
+  },
+
+  {
+    "name": "Information Security Analysts",
+    "tenthPercentile": 61520,
+    "average": 102600,
+    "ninetiethPercentile": 165920
+  },
+
+  {
+    "name": "Information Security Engineers",
+    "tenthPercentile": 45630,
+    "average": 95270,
+    "ninetiethPercentile": 162410
+  },
+
+  {
+    "name": "Information Technology Project Managers",
+    "tenthPercentile": 45630,
+    "average": 95270,
+    "ninetiethPercentile": 162410
+  },
+
+  {
+    "name": "Inspectors, Testers, Sorters, Samplers, & Weighers",
+    "tenthPercentile": 28820,
+    "average": 38580,
+    "ninetiethPercentile": 62970
+  },
+
+  {
+    "name": "Instructional Coordinators",
+    "tenthPercentile": 38390,
+    "average": 63740,
+    "ninetiethPercentile": 101090
+  },
+
+  {
+    "name": "Insulation Workers, Floor, Ceiling, & Wall",
+    "tenthPercentile": 29120,
+    "average": 39880,
+    "ninetiethPercentile": 66210
+  },
+
+  {
+    "name": "Insulation Workers, Mechanical",
+    "tenthPercentile": 35970,
+    "average": 48260,
+    "ninetiethPercentile": 92010
+  },
+
+  {
+    "name": "Insurance Appraisers, Auto Damage",
+    "tenthPercentile": 47240,
+    "average": 62680,
+    "ninetiethPercentile": 91680
+  },
+
+  {
+    "name": "Insurance Claims & Policy Processing Clerks",
+    "tenthPercentile": 30010,
+    "average": 45520,
+    "ninetiethPercentile": 61400
+  },
+
+  {
+    "name": "Insurance Sales Agents",
+    "tenthPercentile": 29970,
+    "average": 49840,
+    "ninetiethPercentile": 126510
+  },
+
+  {
+    "name": "Insurance Underwriters",
+    "tenthPercentile": 47330,
+    "average": 76390,
+    "ninetiethPercentile": 126380
+  },
+
+  {
+    "name": "Intelligence Analysts",
+    "tenthPercentile": 48040,
+    "average": 83640,
+    "ninetiethPercentile": 146830
+  },
+
+  {
+    "name": "Interior Designers",
+    "tenthPercentile": 30930,
+    "average": 60340,
+    "ninetiethPercentile": 99070
+  },
+
+  {
+    "name": "Interpreters & Translators",
+    "tenthPercentile": 29360,
+    "average": 49110,
+    "ninetiethPercentile": 97760
+  },
+  {
+    "name": "Interviewers",
+    "tenthPercentile": 28650,
+    "average": 37220,
+    "ninetiethPercentile": 50400
+  },
+  {
+    "tenthPercentile": 77040,
+    "average": 131710,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Janitors & Cleaners",
+    "tenthPercentile": 22340,
+    "average": 29760,
+    "ninetiethPercentile": 46300
+  },
+
+  {
+    "name": "Jewelers & Precious Stone & Metal Workers",
+    "tenthPercentile": 27030,
+    "average": 46640,
+    "ninetiethPercentile": 68960
+  },
+
+  {
+    "name": "Judges, Magistrate Judges, & Magistrates",
+    "tenthPercentile": 46490,
+    "average": 148030,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Judicial Law Clerks",
+    "tenthPercentile": 36520,
+    "average": 50750,
+    "ninetiethPercentile": 102080
+  },
+
+  {
+    "name": "Kindergarten Teachers",
+    "tenthPercentile": 38390,
+    "average": 60900,
+    "ninetiethPercentile": 98440
+  },
+
+  {
+    "name": "Labor Relations Specialists",
+    "tenthPercentile": 22880,
+    "average": 77010,
+    "ninetiethPercentile": 126330
+  },
+
+  {
+    "name": "Laborers & Freight, Stock, & Material Movers, Hand",
+    "tenthPercentile": 24180,
+    "average": 31230,
+    "ninetiethPercentile": 47600
+  },
+
+  {
+    "name": "Landscape Architects",
+    "tenthPercentile": 43260,
+    "average": 67950,
+    "ninetiethPercentile": 115380
+  },
+
+  {
+    "name": "Landscaping & Groundskeeping Workers",
+    "tenthPercentile": 24170,
+    "average": 34430,
+    "ninetiethPercentile": 47630
+  },
+
+  {
+    "name": "Lathe & Turning Machine Tool Setters, Operators, & Tenders, Metal & Plastic",
+    "tenthPercentile": 29720,
+    "average": 44240,
+    "ninetiethPercentile": 60820
+  },
+
+  {
+    "name": "Laundry & Dry-Cleaning Workers",
+    "tenthPercentile": 20740,
+    "average": 28350,
+    "ninetiethPercentile": 36300
+  },
+
+  {
+    "name": "Law Teachers, Postsecondary",
+    "tenthPercentile": 48760,
+    "average": 123470,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Lawyers",
+    "tenthPercentile": 61400,
+    "average": 127990,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Layout Workers, Metal & Plastic",
+    "tenthPercentile": 32380,
+    "average": 51690,
+    "ninetiethPercentile": 66000
+  },
+
+  {
+    "name": "Legal Secretaries & Administrative Assistants",
+    "tenthPercentile": 29770,
+    "average": 47710,
+    "ninetiethPercentile": 77850
+  },
+
+  {
+    "name": "Legislators",
+    "tenthPercentile": 17850,
+    "average": 37270,
+    "ninetiethPercentile": 100580
+  },
+
+  {
+    "name": "Librarians & Media Collections Specialists",
+    "tenthPercentile": 37300,
+    "average": 61190,
+    "ninetiethPercentile": 97870
+  },
+
+  {
+    "name": "Library Assistants, Clerical",
+    "tenthPercentile": 22270,
+    "average": 29450,
+    "ninetiethPercentile": 47000
+  },
+
+  {
+    "name": "Library Science Teachers, Postsecondary",
+    "tenthPercentile": 48390,
+    "average": 77100,
+    "ninetiethPercentile": 124680
+  },
+
+  {
+    "name": "Library Technicians",
+    "tenthPercentile": 23370,
+    "average": 36970,
+    "ninetiethPercentile": 59250
+  },
+
+  {
+    "name": "Licensed Practical & Licensed Vocational Nurses",
+    "tenthPercentile": 37150,
+    "average": 48070,
+    "ninetiethPercentile": 63790
+  },
+
+  {
+    "name": "Lifeguards, Ski Patrol, & Other Recreational Protective Service Workers",
+    "tenthPercentile": 19180,
+    "average": 25630,
+    "ninetiethPercentile": 36540
+  },
+
+  {
+    "name": "Light Truck Drivers",
+    "tenthPercentile": 24380,
+    "average": 38280,
+    "ninetiethPercentile": 65500
+  },
+
+  {
+    "name": "Lighting Technicians",
+    "tenthPercentile": 30230,
+    "average": 51470,
+    "ninetiethPercentile": 98070
+  },
+
+  {
+    "name": "Loading & Moving Machine Operators, Underground Mining",
+    "tenthPercentile": 38000,
+    "average": 57900,
+    "ninetiethPercentile": 76390
+  },
+
+  {
+    "name": "Loan Interviewers & Clerks",
+    "tenthPercentile": 29800,
+    "average": 45940,
+    "ninetiethPercentile": 60870
+  },
+
+  {
+    "name": "Loan Officers",
+    "tenthPercentile": 32520,
+    "average": 63380,
+    "ninetiethPercentile": 138310
+  },
+
+  {
+    "name": "Locker Room, Coatroom, & Dressing Room Attendants",
+    "tenthPercentile": 19210,
+    "average": 28570,
+    "ninetiethPercentile": 42160
+  },
+
+  {
+    "name": "Locksmiths & Safe Repairers",
+    "tenthPercentile": 29330,
+    "average": 46910,
+    "ninetiethPercentile": 69790
+  },
+
+  {
+    "name": "Locomotive Engineers",
+    "tenthPercentile": 48780,
+    "average": 79740,
+    "ninetiethPercentile": 84120
+  },
+
+  {
+    "name": "Lodging Managers",
+    "tenthPercentile": 35530,
+    "average": 59430,
+    "ninetiethPercentile": 103780
+  },
+
+  {
+    "name": "Log Graders & Scalers",
+    "tenthPercentile": 28830,
+    "average": 37820,
+    "ninetiethPercentile": 59240
+  },
+
+  {
+    "name": "Logging Equipment Operators",
+    "tenthPercentile": 28810,
+    "average": 46400,
+    "ninetiethPercentile": 61070
+  },
+
+  {
+    "name": "Logisticians",
+    "tenthPercentile": 45160,
+    "average": 77030,
+    "ninetiethPercentile": 122390
+  },
+
+  {
+    "name": "Logistics Analysts",
+    "tenthPercentile": 45160,
+    "average": 77030,
+    "ninetiethPercentile": 122390
+  },
+
+  {
+    "name": "Logistics Engineers",
+    "tenthPercentile": 45160,
+    "average": 77030,
+    "ninetiethPercentile": 122390
+  },
+
+  {
+    "name": "Loss Prevention Managers",
+    "tenthPercentile": 60390,
+    "average": 124650,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Low Vision Therapists, Orientation & Mobility Specialists, & Vision Rehabilitation Therapists",
+    "tenthPercentile": 60680,
+    "average": 85570,
+    "ninetiethPercentile": 123840
+  },
+
+  {
+    "name": "Machine Feeders & Offbearers",
+    "tenthPercentile": 26480,
+    "average": 37010,
+    "ninetiethPercentile": 48350
+  },
+
+  {
+    "name": "Machinists",
+    "tenthPercentile": 30220,
+    "average": 47730,
+    "ninetiethPercentile": 68250
+  },
+
+  {
+    "name": "Magnetic Resonance Imaging Technologists",
+    "tenthPercentile": 59110,
+    "average": 77360,
+    "ninetiethPercentile": 100870
+  },
+
+  {
+    "name": "Maids & Housekeeping Cleaners",
+    "tenthPercentile": 21820,
+    "average": 28780,
+    "ninetiethPercentile": 38370
+  },
+
+  {
+    "name": "Mail Clerks & Mail Machine Operators",
+    "tenthPercentile": 23430,
+    "average": 32550,
+    "ninetiethPercentile": 47000
+  },
+
+  {
+    "name": "Maintenance & Repair Workers, General",
+    "tenthPercentile": 28910,
+    "average": 43180,
+    "ninetiethPercentile": 62400
+  },
+
+  {
+    "name": "Maintenance Workers, Machinery",
+    "tenthPercentile": 35010,
+    "average": 48900,
+    "ninetiethPercentile": 76110
+  },
+
+  {
+    "name": "Makeup Artists, Theatrical & Performance",
+    "tenthPercentile": 38070,
+    "average": 134750,
+    "ninetiethPercentile": 172150
+  },
+
+  {
+    "name": "Management Analysts",
+    "tenthPercentile": 50190,
+    "average": 93000,
+    "ninetiethPercentile": 163760
+  },
+
+  {
+    "name": "Manicurists & Pedicurists",
+    "tenthPercentile": 22290,
+    "average": 29210,
+    "ninetiethPercentile": 38820
+  },
+
+  {
+    "name": "Manufactured Building & Mobile Home Installers",
+    "tenthPercentile": 25150,
+    "average": 36360,
+    "ninetiethPercentile": 47410
+  },
+
+  {
+    "name": "Manufacturing Engineers",
+    "tenthPercentile": 60850,
+    "average": 95300,
+    "ninetiethPercentile": 129620
+  },
+
+  {
+    "name": "Marine Engineers & Naval Architects",
+    "tenthPercentile": 56550,
+    "average": 93370,
+    "ninetiethPercentile": 151880
+  },
+
+  {
+    "name": "Market Research Analysts & Marketing Specialists",
+    "tenthPercentile": 37570,
+    "average": 63920,
+    "ninetiethPercentile": 128320
+  },
+
+  {
+    "name": "Marketing Managers",
+    "tenthPercentile": 77680,
+    "average": 135030,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Marriage & Family Therapists",
+    "tenthPercentile": 37050,
+    "average": 49880,
+    "ninetiethPercentile": 96520
+  },
+
+  {
+    "name": "Massage Therapists",
+    "tenthPercentile": 24450,
+    "average": 46910,
+    "ninetiethPercentile": 77600
+  },
+
+  {
+    "name": "Materials Engineers",
+    "tenthPercentile": 60580,
+    "average": 98300,
+    "ninetiethPercentile": 161080
+  },
+
+  {
+    "name": "Materials Scientists",
+    "tenthPercentile": 56380,
+    "average": 100090,
+    "ninetiethPercentile": 162950
+  },
+
+  {
+    "name": "Mathematical Science Teachers, Postsecondary",
+    "tenthPercentile": 45280,
+    "average": 77580,
+    "ninetiethPercentile": 155350
+  },
+
+  {
+    "name": "Mathematicians",
+    "tenthPercentile": 61760,
+    "average": 108100,
+    "ninetiethPercentile": 169500
+  },
+
+  {
+    "name": "Meat, Poultry, & Fish Cutters & Trimmers",
+    "tenthPercentile": 23190,
+    "average": 29730,
+    "ninetiethPercentile": 37820
+  },
+
+  {
+    "name": "Mechanical Door Repairers",
+    "tenthPercentile": 29780,
+    "average": 45060,
+    "ninetiethPercentile": 61400
+  },
+
+  {
+    "name": "Mechanical Drafters",
+    "tenthPercentile": 37590,
+    "average": 60200,
+    "ninetiethPercentile": 95860
+  },
+
+  {
+    "name": "Mechanical Engineering Technologists & Technicians",
+    "tenthPercentile": 37670,
+    "average": 60460,
+    "ninetiethPercentile": 95300
+  },
+
+  {
+    "name": "Mechanical Engineers",
+    "tenthPercentile": 60750,
+    "average": 95300,
+    "ninetiethPercentile": 136210
+  },
+
+  {
+    "name": "Mechatronics Engineers",
+    "tenthPercentile": 58730,
+    "average": 100640,
+    "ninetiethPercentile": 164690
+  },
+
+  {
+    "name": "Media Programming Directors",
+    "tenthPercentile": 38210,
+    "average": 79000,
+    "ninetiethPercentile": 206860
+  },
+
+  {
+    "name": "Media Technical Directors/Managers",
+    "tenthPercentile": 38210,
+    "average": 79000,
+    "ninetiethPercentile": 206860
+  },
+
+  {
+    "name": "Medical & Clinical Laboratory Technicians",
+    "tenthPercentile": 30280,
+    "average": 57800,
+    "ninetiethPercentile": 79340
+  },
+
+  {
+    "name": "Medical & Clinical Laboratory Technologists",
+    "tenthPercentile": 30280,
+    "average": 57800,
+    "ninetiethPercentile": 79340
+  },
+
+  {
+    "name": "Medical & Health Services Managers",
+    "tenthPercentile": 60780,
+    "average": 101340,
+    "ninetiethPercentile": 205620
+  },
+
+  {
+    "name": "Medical Appliance Technicians",
+    "tenthPercentile": 30010,
+    "average": 45280,
+    "ninetiethPercentile": 65000
+  },
+
+  {
+    "name": "Medical Assistants",
+    "tenthPercentile": 29070,
+    "average": 37190,
+    "ninetiethPercentile": 48170
+  },
+
+  {
+    "name": "Medical Dosimetrists",
+    "tenthPercentile": 96040,
+    "average": 127270,
+    "ninetiethPercentile": 162640
+  },
+
+  {
+    "name": "Medical Equipment Preparers",
+    "tenthPercentile": 29490,
+    "average": 38220,
+    "ninetiethPercentile": 60300
+  },
+
+  {
+    "name": "Medical Equipment Repairers",
+    "tenthPercentile": 31280,
+    "average": 49910,
+    "ninetiethPercentile": 81850
+  },
+
+  {
+    "name": "Medical Records Specialists",
+    "tenthPercentile": 29430,
+    "average": 46660,
+    "ninetiethPercentile": 74200
+  },
+
+  {
+    "name": "Medical Scientists",
+    "tenthPercentile": 50100,
+    "average": 95310,
+    "ninetiethPercentile": 166980
+  },
+
+  {
+    "name": "Medical Secretaries & Administrative Assistants",
+    "tenthPercentile": 29040,
+    "average": 37450,
+    "ninetiethPercentile": 53630
+  },
+
+  {
+    "name": "Medical Transcriptionists",
+    "tenthPercentile": 22810,
+    "average": 30100,
+    "ninetiethPercentile": 48190
+  },
+
+  {
+    "name": "Meeting, Convention, & Event Planners",
+    "tenthPercentile": 30170,
+    "average": 49470,
+    "ninetiethPercentile": 96230
+  },
+
+  {
+    "name": "Mental Health & Substance Abuse Social Workers",
+    "tenthPercentile": 31010,
+    "average": 49130,
+    "ninetiethPercentile": 97300
+  },
+
+  {
+    "name": "Mental Health Counselors",
+    "tenthPercentile": 30870,
+    "average": 48520,
+    "ninetiethPercentile": 77980
+  },
+
+  {
+    "name": "Merchandise Displayers & Window Trimmers",
+    "tenthPercentile": 26560,
+    "average": 32060,
+    "ninetiethPercentile": 47290
+  },
+
+  {
+    "name": "Metal-Refining Furnace Operators & Tenders",
+    "tenthPercentile": 30060,
+    "average": 46690,
+    "ninetiethPercentile": 62020
+  },
+
+  {
+    "name": "Meter Readers, Utilities",
+    "tenthPercentile": 28690,
+    "average": 45720,
+    "ninetiethPercentile": 75920
+  },
+
+  {
+    "name": "Microbiologists",
+    "tenthPercentile": 47630,
+    "average": 79260,
+    "ninetiethPercentile": 136780
+  },
+
+  {
+    "name": "Microsystems Engineers",
+    "tenthPercentile": 58730,
+    "average": 100640,
+    "ninetiethPercentile": 164690
+  },
+
+  {
+    "name": "Middle School Teachers",
+    "tenthPercentile": 45510,
+    "average": 61320,
+    "ninetiethPercentile": 99470
+  },
+
+  {
+    "name": "Midwives",
+    "tenthPercentile": 29570,
+    "average": 58750,
+    "ninetiethPercentile": 113630
+  },
+
+  {
+    "name": "Milling & Planing Machine Setters, Operators, & Tenders, Metal & Plastic",
+    "tenthPercentile": 30060,
+    "average": 46850,
+    "ninetiethPercentile": 62280
+  },
+
+  {
+    "name": "Millwrights",
+    "tenthPercentile": 37860,
+    "average": 60330,
+    "ninetiethPercentile": 81190
+  },
+
+  {
+    "name": "Mining & Geological Engineers, Including Mining Safety Engineers",
+    "tenthPercentile": 48690,
+    "average": 97090,
+    "ninetiethPercentile": 162720
+  },
+
+  {
+    "name": "Mixing & Blending Machine Setters, Operators, & Tenders",
+    "tenthPercentile": 29250,
+    "average": 38420,
+    "ninetiethPercentile": 59970
+  },
+
+  {
+    "name": "Mobile Heavy Equipment Mechanics",
+    "tenthPercentile": 37290,
+    "average": 58030,
+    "ninetiethPercentile": 78420
+  },
+
+  {
+    "name": "Model Makers, Metal & Plastic",
+    "tenthPercentile": 36900,
+    "average": 55630,
+    "ninetiethPercentile": 80330
+  },
+
+  {
+    "name": "Model Makers, Wood",
+    "tenthPercentile": 37070,
+    "average": 60780,
+    "ninetiethPercentile": 79830
+  },
+
+  {
+    "name": "Models",
+    "tenthPercentile": "n/a",
+    "average": "n/a",
+    "ninetiethPercentile": "n/a"
+  },
+
+  {
+    "name": "Molders, Shapers, & Casters",
+    "tenthPercentile": 28820,
+    "average": 37500,
+    "ninetiethPercentile": 51500
+  },
+
+  {
+    "name": "Molding, Coremaking, & Casting Machine Setters, Operators, & Tenders, Metal & Plastic",
+    "tenthPercentile": 27070,
+    "average": 36370,
+    "ninetiethPercentile": 49990
+  },
+
+  {
+    "name": "Molecular & Cellular Biologists",
+    "tenthPercentile": 48260,
+    "average": 82530,
+    "ninetiethPercentile": 133830
+  },
+
+  {
+    "name": "Morticians, Undertakers, & Funeral Arrangers",
+    "tenthPercentile": 29640,
+    "average": 48950,
+    "ninetiethPercentile": 83550
+  },
+
+  {
+    "name": "Motion Picture Projectionists",
+    "tenthPercentile": 22290,
+    "average": 29350,
+    "ninetiethPercentile": 47390
+  },
+
+  {
+    "name": "Motorboat Mechanics & Service Technicians",
+    "tenthPercentile": 29260,
+    "average": 46730,
+    "ninetiethPercentile": 63740
+  },
+
+  {
+    "name": "Motorboat Operators",
+    "tenthPercentile": 28350,
+    "average": 38670,
+    "ninetiethPercentile": 66640
+  },
+
+  {
+    "name": "Motorcycle Mechanics",
+    "tenthPercentile": 27890,
+    "average": 38170,
+    "ninetiethPercentile": 60420
+  },
+
+  {
+    "name": "Multiple Machine Tool Setters, Operators, & Tenders, Metal & Plastic",
+    "tenthPercentile": 28560,
+    "average": 37630,
+    "ninetiethPercentile": 59700
+  },
+
+  {
+    "name": "Museum Technicians & Conservators",
+    "tenthPercentile": 29130,
+    "average": 47630,
+    "ninetiethPercentile": 79780
+  },
+
+  {
+    "name": "Music Directors & Composers",
+    "tenthPercentile": 24440,
+    "average": 49130,
+    "ninetiethPercentile": 123800
+  },
+
+  {
+    "name": "Music Therapists",
+    "tenthPercentile": 37010,
+    "average": 59500,
+    "ninetiethPercentile": 98490
+  },
+
+  {
+    "name": "Musical Instrument Repairers & Tuners",
+    "tenthPercentile": 24420,
+    "average": 37160,
+    "ninetiethPercentile": 59120
+  },
+
+  {
+    "name": "Musicians & Singers",
+    "tenthPercentile": "n/a",
+    "average": "n/a",
+    "ninetiethPercentile": "n/a"
+  },
+
+  {
+    "name": "Nannies",
+    "tenthPercentile": 18540,
+    "average": 27490,
+    "ninetiethPercentile": 37430
+  },
+
+  {
+    "name": "Nanosystems Engineers",
+    "tenthPercentile": 58730,
+    "average": 100640,
+    "ninetiethPercentile": 164690
+  },
+
+  {
+    "name": "Nanotechnology Engineering Technologists & Technicians",
+    "tenthPercentile": 37790,
+    "average": 60220,
+    "ninetiethPercentile": 85530
+  },
+
+  {
+    "name": "Natural Sciences Managers",
+    "tenthPercentile": 75040,
+    "average": 137900,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Naturopathic Physicians",
+    "tenthPercentile": 58550,
+    "average": 100300,
+    "ninetiethPercentile": 172490
+  },
+
+  {
+    "name": "Network & Computer Systems Administrators",
+    "tenthPercentile": 49560,
+    "average": 80600,
+    "ninetiethPercentile": 130830
+  },
+
+  {
+    "name": "Neurodiagnostic Technologists",
+    "tenthPercentile": 29430,
+    "average": 45720,
+    "ninetiethPercentile": 75340
+  },
+
+  {
+    "name": "Neurologists",
+    "tenthPercentile": 78650,
+    "average": 208000,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Neuropsychologists",
+    "tenthPercentile": 39760,
+    "average": 102900,
+    "ninetiethPercentile": 133200
+  },
+
+  {
+    "name": "New Accounts Clerks",
+    "tenthPercentile": 29600,
+    "average": 37840,
+    "ninetiethPercentile": 51750
+  },
+
+  {
+    "name": "News Analysts, Reporters, & Journalists",
+    "tenthPercentile": 29210,
+    "average": 48370,
+    "ninetiethPercentile": 120590
+  },
+
+  {
+    "name": "Non-Destructive Testing Specialists",
+    "tenthPercentile": 37530,
+    "average": 61950,
+    "ninetiethPercentile": 101240
+  },
+
+  {
+    "name": "Nuclear Engineers",
+    "tenthPercentile": 75460,
+    "average": 120380,
+    "ninetiethPercentile": 169000
+  },
+
+  {
+    "name": "Nuclear Medicine Technologists",
+    "tenthPercentile": 60550,
+    "average": 78760,
+    "ninetiethPercentile": 105530
+  },
+
+  {
+    "name": "Nuclear Monitoring Technicians",
+    "tenthPercentile": 60490,
+    "average": 99340,
+    "ninetiethPercentile": 126600
+  },
+
+  {
+    "name": "Nuclear Power Reactor Operators",
+    "tenthPercentile": 79720,
+    "average": 104260,
+    "ninetiethPercentile": 132960
+  },
+
+  {
+    "name": "Nuclear Technicians",
+    "tenthPercentile": 60490,
+    "average": 99340,
+    "ninetiethPercentile": 126600
+  },
+
+  {
+    "name": "Nurse Anesthetists",
+    "tenthPercentile": 131840,
+    "average": 195610,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Nurse Midwives",
+    "tenthPercentile": 61500,
+    "average": 112830,
+    "ninetiethPercentile": 166170
+  },
+
+  {
+    "name": "Nurse Practitioners",
+    "tenthPercentile": 79470,
+    "average": 120680,
+    "ninetiethPercentile": 163350
+  },
+
+  {
+    "name": "Nursing Assistants",
+    "tenthPercentile": 23880,
+    "average": 30310,
+    "ninetiethPercentile": 44240
+  },
+
+  {
+    "name": "Nursing Instructors & Teachers, Postsecondary",
+    "tenthPercentile": 47630,
+    "average": 77440,
+    "ninetiethPercentile": 125930
+  },
+
+  {
+    "name": "Obstetricians & Gynecologists",
+    "tenthPercentile": 101240,
+    "average": 208000,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Occupational Health & Safety Specialists",
+    "tenthPercentile": 44040,
+    "average": 77560,
+    "ninetiethPercentile": 118510
+  },
+
+  {
+    "name": "Occupational Health & Safety Technicians",
+    "tenthPercentile": 30330,
+    "average": 51120,
+    "ninetiethPercentile": 91260
+  },
+
+  {
+    "name": "Occupational Therapists",
+    "tenthPercentile": 60680,
+    "average": 85570,
+    "ninetiethPercentile": 123840
+  },
+
+  {
+    "name": "Occupational Therapy Aides",
+    "tenthPercentile": 23860,
+    "average": 33560,
+    "ninetiethPercentile": 61960
+  },
+
+  {
+    "name": "Occupational Therapy Assistants",
+    "tenthPercentile": 46810,
+    "average": 61730,
+    "ninetiethPercentile": 80210
+  },
+
+  {
+    "name": "Office Clerks, General",
+    "tenthPercentile": 23500,
+    "average": 37030,
+    "ninetiethPercentile": 58870
+  },
+
+  {
+    "name": "Office Machine Operators",
+    "tenthPercentile": 26000,
+    "average": 36630,
+    "ninetiethPercentile": 48500
+  },
+
+  {
+    "name": "Online Merchants",
+    "tenthPercentile": 38050,
+    "average": 74670,
+    "ninetiethPercentile": 128030
+  },
+
+  {
+    "name": "Operating Engineers & Other Construction Equipment Operators",
+    "tenthPercentile": 36150,
+    "average": 48360,
+    "ninetiethPercentile": 85560
+  },
+
+  {
+    "name": "Operations Research Analysts",
+    "tenthPercentile": 48690,
+    "average": 82360,
+    "ninetiethPercentile": 160850
+  },
+
+  {
+    "name": "Ophthalmic Laboratory Technicians",
+    "tenthPercentile": 28080,
+    "average": 37270,
+    "ninetiethPercentile": 56190
+  },
+
+  {
+    "name": "Ophthalmic Medical Technicians",
+    "tenthPercentile": 28910,
+    "average": 37180,
+    "ninetiethPercentile": 58500
+  },
+
+  {
+    "name": "Ophthalmic Medical Technologists",
+    "tenthPercentile": 29430,
+    "average": 45720,
+    "ninetiethPercentile": 75340
+  },
+
+  {
+    "name": "Ophthalmologists",
+    "tenthPercentile": 100940,
+    "average": 208000,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Opticians, Dispensing",
+    "tenthPercentile": 28910,
+    "average": 37570,
+    "ninetiethPercentile": 60280
+  },
+
+  {
+    "name": "Optometrists",
+    "tenthPercentile": 61590,
+    "average": 124300,
+    "ninetiethPercentile": 192390
+  },
+
+  {
+    "name": "Oral & Maxillofacial Surgeons",
+    "tenthPercentile": 78620,
+    "average": 208000,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Order Clerks",
+    "tenthPercentile": 28730,
+    "average": 37920,
+    "ninetiethPercentile": 59620
+  },
+
+  {
+    "name": "Orderlies",
+    "tenthPercentile": 23970,
+    "average": 29990,
+    "ninetiethPercentile": 46470
+  },
+
+  {
+    "name": "Orthodontists",
+    "tenthPercentile": 95940,
+    "average": 208000,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Orthopedic Surgeons",
+    "tenthPercentile": 79870,
+    "average": 208000,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Orthoptists",
+    "tenthPercentile": 58550,
+    "average": 100300,
+    "ninetiethPercentile": 172490
+  },
+
+  {
+    "name": "Orthotists & Prosthetists",
+    "tenthPercentile": 41730,
+    "average": 75440,
+    "ninetiethPercentile": 124040
+  },
+
+  {
+    "name": "Outdoor Power Equipment & Other Small Engine Mechanics",
+    "tenthPercentile": 28120,
+    "average": 37540,
+    "ninetiethPercentile": 58150
+  },
+
+  {
+    "name": "Packaging & Filling Machine Operators & Tenders",
+    "tenthPercentile": 24960,
+    "average": 35960,
+    "ninetiethPercentile": 48620
+  },
+
+  {
+    "name": "Packers & Packagers, Hand",
+    "tenthPercentile": 23030,
+    "average": 29940,
+    "ninetiethPercentile": 38220
+  },
+
+  {
+    "name": "Painters, Construction & Maintenance",
+    "tenthPercentile": 29770,
+    "average": 45590,
+    "ninetiethPercentile": 70570
+  },
+
+  {
+    "name": "Painting, Coating, & Decorating Workers",
+    "tenthPercentile": 26190,
+    "average": 37330,
+    "ninetiethPercentile": 50720
+  },
+
+  {
+    "name": "Paper Goods Machine Setters, Operators, & Tenders",
+    "tenthPercentile": 29480,
+    "average": 44820,
+    "ninetiethPercentile": 61380
+  },
+
+  {
+    "name": "Paperhangers",
+    "tenthPercentile": 29590,
+    "average": 47610,
+    "ninetiethPercentile": 75940
+  },
+
+  {
+    "name": "Paralegals & Legal Assistants",
+    "tenthPercentile": 36410,
+    "average": 56230,
+    "ninetiethPercentile": 88640
+  },
+
+  {
+    "name": "Paramedics",
+    "tenthPercentile": 34420,
+    "average": 46770,
+    "ninetiethPercentile": 74200
+  },
+
+  {
+    "name": "Park Naturalists",
+    "tenthPercentile": 38670,
+    "average": 63750,
+    "ninetiethPercentile": 100440
+  },
+
+  {
+    "name": "Parking Attendants",
+    "tenthPercentile": 19970,
+    "average": 29240,
+    "ninetiethPercentile": 37800
+  },
+
+  {
+    "name": "Parking Enforcement Workers",
+    "tenthPercentile": 29030,
+    "average": 46590,
+    "ninetiethPercentile": 65150
+  },
+
+  {
+    "name": "Parts Salespersons",
+    "tenthPercentile": 22940,
+    "average": 34260,
+    "ninetiethPercentile": 58180
+  },
+
+  {
+    "name": "Passenger Attendants",
+    "tenthPercentile": 24930,
+    "average": 30470,
+    "ninetiethPercentile": 46820
+  },
+
+  {
+    "name": "Patient Representatives",
+    "tenthPercentile": 29430,
+    "average": 45720,
+    "ninetiethPercentile": 75340
+  },
+
+  {
+    "name": "Patternmakers, Metal & Plastic",
+    "tenthPercentile": 30120,
+    "average": 48090,
+    "ninetiethPercentile": 75420
+  },
+
+  {
+    "name": "Patternmakers, Wood",
+    "tenthPercentile": 30070,
+    "average": 46920,
+    "ninetiethPercentile": 77280
+  },
+
+  {
+    "name": "Paving, Surfacing, & Tamping Equipment Operators",
+    "tenthPercentile": 30220,
+    "average": 46960,
+    "ninetiethPercentile": 77820
+  },
+
+  {
+    "name": "Payroll & Timekeeping Clerks",
+    "tenthPercentile": 30240,
+    "average": 47610,
+    "ninetiethPercentile": 71500
+  },
+
+  {
+    "name": "Pediatric Surgeons",
+    "tenthPercentile": 99910,
+    "average": 208000,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Pediatricians, General",
+    "tenthPercentile": 75670,
+    "average": 170480,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Penetration Testers",
+    "tenthPercentile": 45630,
+    "average": 95270,
+    "ninetiethPercentile": 162410
+  },
+
+  {
+    "name": "Personal Care Aides",
+    "tenthPercentile": 22290,
+    "average": 29430,
+    "ninetiethPercentile": 37010
+  },
+
+  {
+    "name": "Personal Financial Advisors",
+    "tenthPercentile": 47570,
+    "average": 94170,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Pest Control Workers",
+    "tenthPercentile": 28620,
+    "average": 37540,
+    "ninetiethPercentile": 58660
+  },
+
+  {
+    "name": "Pesticide Handlers, Sprayers, & Applicators, Vegetation",
+    "tenthPercentile": 28820,
+    "average": 38270,
+    "ninetiethPercentile": 53690
+  },
+
+  {
+    "name": "Petroleum Engineers",
+    "tenthPercentile": 78390,
+    "average": 130850,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Petroleum Pump System Operators, Refinery Operators, & Gaugers",
+    "tenthPercentile": 51290,
+    "average": 79540,
+    "ninetiethPercentile": 101780
+  },
+
+  {
+    "name": "Pharmacists",
+    "tenthPercentile": 76840,
+    "average": 128570,
+    "ninetiethPercentile": 164590
+  },
+
+  {
+    "name": "Pharmacy Aides",
+    "tenthPercentile": 22840,
+    "average": 29930,
+    "ninetiethPercentile": 51060
+  },
+
+  {
+    "name": "Pharmacy Technicians",
+    "tenthPercentile": 28740,
+    "average": 36740,
+    "ninetiethPercentile": 47580
+  },
+
+  {
+    "name": "Philosophy & Religion Teachers, Postsecondary",
+    "tenthPercentile": 39090,
+    "average": 77610,
+    "ninetiethPercentile": 155240
+  },
+
+  {
+    "name": "Phlebotomists",
+    "tenthPercentile": 28990,
+    "average": 37380,
+    "ninetiethPercentile": 48490
+  },
+
+  {
+    "name": "Photographers",
+    "tenthPercentile": 24540,
+    "average": 38950,
+    "ninetiethPercentile": 77760
+  },
+
+  {
+    "name": "Photographic Process Workers & Processing Machine Operators",
+    "tenthPercentile": 26170,
+    "average": 36590,
+    "ninetiethPercentile": 60650
+  },
+
+  {
+    "name": "Photonics Engineers",
+    "tenthPercentile": 58730,
+    "average": 100640,
+    "ninetiethPercentile": 164690
+  },
+
+  {
+    "name": "Photonics Technicians",
+    "tenthPercentile": 37530,
+    "average": 61950,
+    "ninetiethPercentile": 101240
+  },
+
+  {
+    "name": "Physical Medicine & Rehabilitation Physicians",
+    "tenthPercentile": 61260,
+    "average": 208000,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Physical Therapist Aides",
+    "tenthPercentile": 22140,
+    "average": 29200,
+    "ninetiethPercentile": 37920
+  },
+
+  {
+    "name": "Physical Therapist Assistants",
+    "tenthPercentile": 37280,
+    "average": 61180,
+    "ninetiethPercentile": 80170
+  },
+
+  {
+    "name": "Physical Therapists",
+    "tenthPercentile": 61930,
+    "average": 95620,
+    "ninetiethPercentile": 127110
+  },
+
+  {
+    "name": "Physician Assistants",
+    "tenthPercentile": 77940,
+    "average": 121530,
+    "ninetiethPercentile": 164620
+  },
+
+  {
+    "name": "Physicians, Pathologists",
+    "tenthPercentile": 63340,
+    "average": 208000,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Physicists",
+    "tenthPercentile": 78870,
+    "average": 152430,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Physics Teachers, Postsecondary",
+    "tenthPercentile": 49000,
+    "average": 93070,
+    "ninetiethPercentile": 164150
+  },
+
+  {
+    "name": "Pile Driver Operators",
+    "tenthPercentile": 38170,
+    "average": 76260,
+    "ninetiethPercentile": 113360
+  },
+
+  {
+    "name": "Pipelayers",
+    "tenthPercentile": 30000,
+    "average": 45980,
+    "ninetiethPercentile": 75410
+  },
+
+  {
+    "name": "Plasterers & Stucco Masons",
+    "tenthPercentile": 30160,
+    "average": 48340,
+    "ninetiethPercentile": 78310
+  },
+
+  {
+    "name": "Plating Machine Setters, Operators, & Tenders, Metal & Plastic",
+    "tenthPercentile": 28820,
+    "average": 37200,
+    "ninetiethPercentile": 49440
+  },
+
+  {
+    "name": "Plumbers, Pipefitters, & Steamfitters",
+    "tenthPercentile": 36700,
+    "average": 59880,
+    "ninetiethPercentile": 99920
+  },
+
+  {
+    "name": "Podiatrists",
+    "tenthPercentile": 61350,
+    "average": 145840,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Poets, Lyricists & Creative Writers",
+    "tenthPercentile": 38500,
+    "average": 69510,
+    "ninetiethPercentile": 133580
+  },
+
+  {
+    "name": "Police & Sheriff's Patrol Officers",
+    "tenthPercentile": 40190,
+    "average": 64610,
+    "ninetiethPercentile": 102530
+  },
+
+  {
+    "name": "Police Identification & Records Officers",
+    "tenthPercentile": 48040,
+    "average": 83640,
+    "ninetiethPercentile": 146830
+  },
+
+  {
+    "name": "Political Science Teachers, Postsecondary",
+    "tenthPercentile": 48990,
+    "average": 81980,
+    "ninetiethPercentile": 164670
+  },
+
+  {
+    "name": "Political Scientists",
+    "tenthPercentile": 61480,
+    "average": 122510,
+    "ninetiethPercentile": 172490
+  },
+
+  {
+    "name": "Postal Service Clerks",
+    "tenthPercentile": 38880,
+    "average": 52290,
+    "ninetiethPercentile": 65500
+  },
+
+  {
+    "name": "Postal Service Mail Carriers",
+    "tenthPercentile": 39640,
+    "average": 52440,
+    "ninetiethPercentile": 68640
+  },
+
+  {
+    "name": "Postal Service Mail Sorters, Processors, & Processing Machine Operators",
+    "tenthPercentile": 36070,
+    "average": 48550,
+    "ninetiethPercentile": 64210
+  },
+
+  {
+    "name": "Postmasters & Mail Superintendents",
+    "tenthPercentile": 68970,
+    "average": 80250,
+    "ninetiethPercentile": 98610
+  },
+
+  {
+    "name": "Potters, Manufacturing",
+    "tenthPercentile": 28820,
+    "average": 37500,
+    "ninetiethPercentile": 51500
+  },
+
+  {
+    "name": "Pourers & Casters, Metal",
+    "tenthPercentile": 30010,
+    "average": 45850,
+    "ninetiethPercentile": 61920
+  },
+
+  {
+    "name": "Power Distributors & Dispatchers",
+    "tenthPercentile": 61670,
+    "average": 98530,
+    "ninetiethPercentile": 129900
+  },
+
+  {
+    "name": "Power Plant Operators",
+    "tenthPercentile": 48610,
+    "average": 80850,
+    "ninetiethPercentile": 110590
+  },
+
+  {
+    "name": "Precision Agriculture Technicians",
+    "tenthPercentile": 29010,
+    "average": 40430,
+    "ninetiethPercentile": 62200
+  },
+
+  {
+    "name": "Prepress Technicians & Workers",
+    "tenthPercentile": 29110,
+    "average": 42610,
+    "ninetiethPercentile": 60960
+  },
+
+  {
+    "name": "Preschool Teachers",
+    "tenthPercentile": 22840,
+    "average": 30210,
+    "ninetiethPercentile": 58530
+  },
+
+  {
+    "name": "Pressers, Textile, Garment, & Related Materials",
+    "tenthPercentile": 21580,
+    "average": 28680,
+    "ninetiethPercentile": 36160
+  },
+
+  {
+    "name": "Preventive Medicine Physicians",
+    "tenthPercentile": 61260,
+    "average": 208000,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Print Binding & Finishing Workers",
+    "tenthPercentile": 23840,
+    "average": 36590,
+    "ninetiethPercentile": 48550
+  },
+
+  {
+    "name": "Printing Press Operators",
+    "tenthPercentile": 27890,
+    "average": 37770,
+    "ninetiethPercentile": 59830
+  },
+
+  {
+    "name": "Private Detectives & Investigators",
+    "tenthPercentile": 32130,
+    "average": 59380,
+    "ninetiethPercentile": 98070
+  },
+
+  {
+    "name": "Probation Officers & Correctional Treatment Specialists",
+    "tenthPercentile": 37380,
+    "average": 60250,
+    "ninetiethPercentile": 99090
+  },
+
+  {
+    "name": "Procurement Clerks",
+    "tenthPercentile": 30080,
+    "average": 45150,
+    "ninetiethPercentile": 60510
+  },
+
+  {
+    "name": "Producers & Directors",
+    "tenthPercentile": 38210,
+    "average": 79000,
+    "ninetiethPercentile": 206860
+  },
+
+  {
+    "name": "Production, Planning, & Expediting Clerks",
+    "tenthPercentile": 31550,
+    "average": 48040,
+    "ninetiethPercentile": 76440
+  },
+
+  {
+    "name": "Project Management Specialists",
+    "tenthPercentile": 49750,
+    "average": 94500,
+    "ninetiethPercentile": 159140
+  },
+
+  {
+    "name": "Proofreaders & Copy Markers",
+    "tenthPercentile": 29120,
+    "average": 43940,
+    "ninetiethPercentile": 62260
+  },
+
+  {
+    "name": "Property, Real Estate, & Community Association Managers",
+    "tenthPercentile": 30740,
+    "average": 59230,
+    "ninetiethPercentile": 124680
+  },
+
+  {
+    "name": "Prosthodontists",
+    "tenthPercentile": 78850,
+    "average": 100950,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Psychiatric Aides",
+    "tenthPercentile": 23120,
+    "average": 30260,
+    "ninetiethPercentile": 48140
+  },
+
+  {
+    "name": "Psychiatric Technicians",
+    "tenthPercentile": 26980,
+    "average": 36570,
+    "ninetiethPercentile": 56380
+  },
+
+  {
+    "name": "Psychiatrists",
+    "tenthPercentile": 64400,
+    "average": 208000,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Psychology Teachers, Postsecondary",
+    "tenthPercentile": 43050,
+    "average": 77860,
+    "ninetiethPercentile": 155270
+  },
+
+  {
+    "name": "Public Relations Managers",
+    "tenthPercentile": 66000,
+    "average": 125780,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Public Relations Specialists",
+    "tenthPercentile": 37020,
+    "average": 62800,
+    "ninetiethPercentile": 124620
+  },
+
+  {
+    "name": "Public Safety Telecommunicators",
+    "tenthPercentile": 29340,
+    "average": 46670,
+    "ninetiethPercentile": 63940
+  },
+
+  {
+    "name": "Pump Operators",
+    "tenthPercentile": 34120,
+    "average": 49580,
+    "ninetiethPercentile": 79830
+  },
+
+  {
+    "name": "Purchasing Agents",
+    "tenthPercentile": 38430,
+    "average": 63470,
+    "ninetiethPercentile": 111200
+  },
+
+  {
+    "name": "Purchasing Managers",
+    "tenthPercentile": 77310,
+    "average": 127150,
+    "ninetiethPercentile": 206540
+  },
+
+  {
+    "name": "Quality Control Analysts",
+    "tenthPercentile": 30240,
+    "average": 49030,
+    "ninetiethPercentile": 80810
+  },
+
+  {
+    "name": "Quality Control Systems Managers",
+    "tenthPercentile": 64150,
+    "average": 103150,
+    "ninetiethPercentile": 170470
+  },
+
+  {
+    "name": "Radiation Therapists",
+    "tenthPercentile": 61030,
+    "average": 82790,
+    "ninetiethPercentile": 128550
+  },
+
+  {
+    "name": "Radio Frequency Identification Device Specialists",
+    "tenthPercentile": 73630,
+    "average": 104820,
+    "ninetiethPercentile": 166890
+  },
+
+  {
+    "name": "Radio, Cellular, & Tower Equipment Installers & Repairers",
+    "tenthPercentile": 36900,
+    "average": 60360,
+    "ninetiethPercentile": 97210
+  },
+
+  {
+    "name": "Radiologic Technologists & Technicians",
+    "tenthPercentile": 46850,
+    "average": 61370,
+    "ninetiethPercentile": 94880
+  },
+
+  {
+    "name": "Radiologists",
+    "tenthPercentile": 78780,
+    "average": 208000,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Rail Car Repairers",
+    "tenthPercentile": 37430,
+    "average": 60250,
+    "ninetiethPercentile": 80840
+  },
+
+  {
+    "name": "Rail Yard Engineers, Dinkey Operators, & Hostlers",
+    "tenthPercentile": 38550,
+    "average": 61090,
+    "ninetiethPercentile": 79270
+  },
+
+  {
+    "name": "Rail-Track Laying & Maintenance Equipment Operators",
+    "tenthPercentile": 37620,
+    "average": 61690,
+    "ninetiethPercentile": 80740
+  },
+
+  {
+    "name": "Railroad Brake, Signal, & Switch Operators & Locomotive Firers",
+    "tenthPercentile": 44260,
+    "average": 63840,
+    "ninetiethPercentile": 80400
+  },
+
+  {
+    "name": "Railroad Conductors & Yardmasters",
+    "tenthPercentile": 48950,
+    "average": 63960,
+    "ninetiethPercentile": 82460
+  },
+
+  {
+    "name": "Range Managers",
+    "tenthPercentile": 38670,
+    "average": 63750,
+    "ninetiethPercentile": 100440
+  },
+
+  {
+    "name": "Real Estate Brokers",
+    "tenthPercentile": 30470,
+    "average": 62010,
+    "ninetiethPercentile": 176080
+  },
+
+  {
+    "name": "Real Estate Sales Agents",
+    "tenthPercentile": 28270,
+    "average": 48340,
+    "ninetiethPercentile": 102170
+  },
+
+  {
+    "name": "Receptionists & Information Clerks",
+    "tenthPercentile": 23050,
+    "average": 29950,
+    "ninetiethPercentile": 45760
+  },
+
+  {
+    "name": "Recreation & Fitness Studies Teachers, Postsecondary",
+    "tenthPercentile": 37630,
+    "average": 72440,
+    "ninetiethPercentile": 128230
+  },
+
+  {
+    "name": "Recreation Workers",
+    "tenthPercentile": 21730,
+    "average": 29680,
+    "ninetiethPercentile": 46660
+  },
+
+  {
+    "name": "Recreational Therapists",
+    "tenthPercentile": 31710,
+    "average": 47940,
+    "ninetiethPercentile": 80610
+  },
+
+  {
+    "name": "Recreational Vehicle Service Technicians",
+    "tenthPercentile": 29080,
+    "average": 43560,
+    "ninetiethPercentile": 61270
+  },
+  {
+    "name": "Recycling & Reclamation Workers",
+    "tenthPercentile": 24180,
+    "average": 31230,
+    "ninetiethPercentile": 47600
+  },
+
+  {
+    "name": "Recycling Coordinators",
+    "tenthPercentile": 36820,
+    "average": 54850,
+    "ninetiethPercentile": 82240
+  },
+
+  {
+    "name": "Refractory Materials Repairers",
+    "tenthPercentile": 36780,
+    "average": 54250,
+    "ninetiethPercentile": 72130
+  },
+
+  {
+    "name": "Refuse & Recyclable Material Collectors",
+    "tenthPercentile": 24950,
+    "average": 38500,
+    "ninetiethPercentile": 62310
+  },
+
+  {
+    "name": "Registered Nurses",
+    "tenthPercentile": 59450,
+    "average": 77600,
+    "ninetiethPercentile": 120250
+  },
+
+  {
+    "name": "Regulatory Affairs Managers",
+    "tenthPercentile": 60390,
+    "average": 124650,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Regulatory Affairs Specialists",
+    "tenthPercentile": 38950,
+    "average": 71650,
+    "ninetiethPercentile": 117500
+  },
+
+  {
+    "name": "Rehabilitation Counselors",
+    "tenthPercentile": 28890,
+    "average": 38560,
+    "ninetiethPercentile": 65880
+  },
+
+  {
+    "name": "Reinforcing Iron & Rebar Workers",
+    "tenthPercentile": 36930,
+    "average": 48830,
+    "ninetiethPercentile": 97630
+  },
+
+  {
+    "name": "Remote Sensing Scientists & Technologists",
+    "tenthPercentile": 52060,
+    "average": 104100,
+    "ninetiethPercentile": 172490
+  },
+
+  {
+    "name": "Remote Sensing Technicians",
+    "tenthPercentile": 30240,
+    "average": 49030,
+    "ninetiethPercentile": 80810
+  },
+
+  {
+    "name": "Reservation & Transportation Ticket Agents & Travel Clerks",
+    "tenthPercentile": 29110,
+    "average": 39900,
+    "ninetiethPercentile": 69420
+  },
+
+  {
+    "name": "Residential Advisors",
+    "tenthPercentile": 23260,
+    "average": 31220,
+    "ninetiethPercentile": 48530
+  },
+
+  {
+    "name": "Respiratory Therapists",
+    "tenthPercentile": 47380,
+    "average": 61830,
+    "ninetiethPercentile": 95540
+  },
+
+  {
+    "name": "Retail Loss Prevention Specialists",
+    "tenthPercentile": 28690,
+    "average": 38210,
+    "ninetiethPercentile": 61510
+  },
+
+  {
+    "name": "Retail Salespersons",
+    "tenthPercentile": 21840,
+    "average": 29120,
+    "ninetiethPercentile": 45460
+  },
+
+  {
+    "name": "Riggers",
+    "tenthPercentile": 30630,
+    "average": 48130,
+    "ninetiethPercentile": 76550
+  },
+
+  {
+    "name": "Robotics Engineers",
+    "tenthPercentile": 58730,
+    "average": 100640,
+    "ninetiethPercentile": 164690
+  },
+
+  {
+    "name": "Robotics Technicians",
+    "tenthPercentile": 37650,
+    "average": 60360,
+    "ninetiethPercentile": 98070
+  },
+
+  {
+    "name": "Rock Splitters, Quarry",
+    "tenthPercentile": 28830,
+    "average": 37700,
+    "ninetiethPercentile": 59730
+  },
+
+  {
+    "name": "Rolling Machine Setters, Operators, & Tenders, Metal & Plastic",
+    "tenthPercentile": 30220,
+    "average": 46210,
+    "ninetiethPercentile": 60800
+  },
+
+  {
+    "name": "Roof Bolters, Mining",
+    "tenthPercentile": 46840,
+    "average": 59770,
+    "ninetiethPercentile": 75390
+  },
+
+  {
+    "name": "Roofers",
+    "tenthPercentile": 29870,
+    "average": 47110,
+    "ninetiethPercentile": 73190
+  },
+
+  {
+    "name": "Rotary Drill Operators, Oil & Gas",
+    "tenthPercentile": 36890,
+    "average": 56380,
+    "ninetiethPercentile": 96520
+  },
+
+  {
+    "name": "Roustabouts, Oil & Gas",
+    "tenthPercentile": 29460,
+    "average": 38920,
+    "ninetiethPercentile": 60830
+  },
+
+  {
+    "name": "Sailors & Marine Oilers",
+    "tenthPercentile": 29120,
+    "average": 46720,
+    "ninetiethPercentile": 78340
+  },
+
+  {
+    "name": "Sales Engineers",
+    "tenthPercentile": 62300,
+    "average": 103710,
+    "ninetiethPercentile": 182850
+  },
+
+  {
+    "name": "Sales Managers",
+    "tenthPercentile": 61090,
+    "average": 127490,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Sales Representatives of Services",
+    "tenthPercentile": 30310,
+    "average": 60550,
+    "ninetiethPercentile": 128350
+  },
+
+  {
+    "name": "Sales Representatives, Wholesale & Manufacturing",
+    "tenthPercentile": 30620,
+    "average": 61600,
+    "ninetiethPercentile": 125750
+  },
+
+  {
+    "name": "Sales Representatives, Wholesale & Manufacturing, Technical & Scientific Products",
+    "tenthPercentile": 44460,
+    "average": 94840,
+    "ninetiethPercentile": 168320
+  },
+
+  {
+    "name": "Sawing Machine Setters, Operators, & Tenders, Wood",
+    "tenthPercentile": 23430,
+    "average": 35340,
+    "ninetiethPercentile": 47320
+  },
+
+  {
+    "name": "School Bus Monitors",
+    "tenthPercentile": 20600,
+    "average": 29100,
+    "ninetiethPercentile": 39200
+  },
+
+  {
+    "name": "School Psychologists",
+    "tenthPercentile": 49260,
+    "average": 78780,
+    "ninetiethPercentile": 124950
+  },
+
+  {
+    "name": "Search Marketing Strategists",
+    "tenthPercentile": 37570,
+    "average": 63920,
+    "ninetiethPercentile": 128320
+  },
+
+  {
+    "name": "Secondary School Teachers",
+    "tenthPercentile": 46090,
+    "average": 61820,
+    "ninetiethPercentile": 100310
+  },
+
+  {
+    "name": "Secretaries & Administrative Assistants",
+    "tenthPercentile": 28200,
+    "average": 37880,
+    "ninetiethPercentile": 59500
+  },
+
+  {
+    "name": "Securities, Commodities, & Financial Services Sales Agents",
+    "tenthPercentile": 37970,
+    "average": 62910,
+    "ninetiethPercentile": 205440
+  },
+
+  {
+    "name": "Security & Fire Alarm Systems Installers",
+    "tenthPercentile": 30490,
+    "average": 48320,
+    "ninetiethPercentile": 76240
+  },
+
+  {
+    "name": "Security Guards",
+    "tenthPercentile": 23250,
+    "average": 31470,
+    "ninetiethPercentile": 50040
+  },
+
+  {
+    "name": "Security Management Specialists",
+    "tenthPercentile": 38050,
+    "average": 74670,
+    "ninetiethPercentile": 128030
+  },
+
+  {
+    "name": "Security Managers",
+    "tenthPercentile": 59010,
+    "average": 97930,
+    "ninetiethPercentile": 161140
+  },
+
+  {
+    "name": "Segmental Pavers",
+    "tenthPercentile": 29350,
+    "average": 39850,
+    "ninetiethPercentile": 66210
+  },
+
+  {
+    "name": "Self-Enrichment Teachers",
+    "tenthPercentile": 23860,
+    "average": 43580,
+    "ninetiethPercentile": 78660
+  },
+
+  {
+    "name": "Semiconductor Processing Technicians",
+    "tenthPercentile": 29830,
+    "average": 39870,
+    "ninetiethPercentile": 72260
+  },
+
+  {
+    "name": "Separating, Filtering, Clarifying, Precipitating, & Still Machine Setters, Operators, & Tenders",
+    "tenthPercentile": 29680,
+    "average": 46030,
+    "ninetiethPercentile": 65650
+  },
+  {
+    "name": "Septic Tank Servicers & Sewer Pipe Cleaners",
+    "tenthPercentile": 29310,
+    "average": 44810,
+    "ninetiethPercentile": 61890
+  },
+
+  {
+    "name": "Service Unit Operators, Oil & Gas",
+    "tenthPercentile": 32700,
+    "average": 48410,
+    "ninetiethPercentile": 79340
+  },
+
+  {
+    "name": "Set & Exhibit Designers",
+    "tenthPercentile": 30810,
+    "average": 54860,
+    "ninetiethPercentile": 100550
+  },
+
+  {
+    "name": "Sewers, Hand",
+    "tenthPercentile": 22290,
+    "average": 29330,
+    "ninetiethPercentile": 38660
+  },
+
+  {
+    "name": "Sewing Machine Operators",
+    "tenthPercentile": 22290,
+    "average": 29690,
+    "ninetiethPercentile": 38420
+  },
+
+  {
+    "name": "Shampooers",
+    "tenthPercentile": 18720,
+    "average": 24440,
+    "ninetiethPercentile": 30420
+  },
+
+  {
+    "name": "Sheet Metal Workers",
+    "tenthPercentile": 34450,
+    "average": 53440,
+    "ninetiethPercentile": 95010
+  },
+
+  {
+    "name": "Ship Engineers",
+    "tenthPercentile": 49420,
+    "average": 82410,
+    "ninetiethPercentile": 139410
+  },
+
+  {
+    "name": "Shipping, Receiving, & Inventory Clerks",
+    "tenthPercentile": 27830,
+    "average": 36890,
+    "ninetiethPercentile": 50520
+  },
+
+  {
+    "name": "Shoe & Leather Workers & Repairers",
+    "tenthPercentile": 23360,
+    "average": 31450,
+    "ninetiethPercentile": 48010
+  },
+
+  {
+    "name": "Shoe Machine Operators & Tenders",
+    "tenthPercentile": 20970,
+    "average": 28560,
+    "ninetiethPercentile": 38030
+  },
+
+  {
+    "name": "Shuttle Drivers & Chauffeurs",
+    "tenthPercentile": 22710,
+    "average": 30000,
+    "ninetiethPercentile": 45980
+  },
+
+  {
+    "name": "Signal & Track Switch Repairers",
+    "tenthPercentile": 50560,
+    "average": 80570,
+    "ninetiethPercentile": 84170
+  },
+
+  {
+    "name": "Skincare Specialists",
+    "tenthPercentile": 23100,
+    "average": 37300,
+    "ninetiethPercentile": 65680
+  },
+
+  {
+    "name": "Slaughterers & Meat Packers",
+    "tenthPercentile": 23750,
+    "average": 29900,
+    "ninetiethPercentile": 37820
+  },
+
+  {
+    "name": "Social & Community Service Managers",
+    "tenthPercentile": 46550,
+    "average": 74000,
+    "ninetiethPercentile": 118650
+  },
+
+  {
+    "name": "Social & Human Service Assistants",
+    "tenthPercentile": 27910,
+    "average": 37610,
+    "ninetiethPercentile": 59490
+  },
+
+  {
+    "name": "Social Science Research Assistants",
+    "tenthPercentile": 31240,
+    "average": 49720,
+    "ninetiethPercentile": 79140
+  },
+
+  {
+    "name": "Social Work Teachers, Postsecondary",
+    "tenthPercentile": 36200,
+    "average": 71010,
+    "ninetiethPercentile": 125820
+  },
+
+  {
+    "name": "Sociologists",
+    "tenthPercentile": 60770,
+    "average": 92910,
+    "ninetiethPercentile": 135420
+  },
+
+  {
+    "name": "Sociology Teachers, Postsecondary",
+    "tenthPercentile": 46870,
+    "average": 77980,
+    "ninetiethPercentile": 155270
+  },
+
+  {
+    "name": "Software Developers",
+    "tenthPercentile": 64470,
+    "average": 120730,
+    "ninetiethPercentile": 168570
+  },
+
+  {
+    "name": "Software Quality Assurance Analysts & Testers",
+    "tenthPercentile": 48960,
+    "average": 98220,
+    "ninetiethPercentile": 153250
+  },
+
+  {
+    "name": "Soil & Plant Scientists",
+    "tenthPercentile": 39980,
+    "average": 66750,
+    "ninetiethPercentile": 126950
+  },
+
+  {
+    "name": "Solar Energy Installation Managers",
+    "tenthPercentile": 47330,
+    "average": 72010,
+    "ninetiethPercentile": 108120
+  },
+
+  {
+    "name": "Solar Energy Systems Engineers",
+    "tenthPercentile": 58730,
+    "average": 100640,
+    "ninetiethPercentile": 164690
+  },
+
+  {
+    "name": "Solar Photovoltaic Installers",
+    "tenthPercentile": 36320,
+    "average": 47670,
+    "ninetiethPercentile": 72080
+  },
+
+  {
+    "name": "Solar Sales Representatives & Assessors",
+    "tenthPercentile": 44460,
+    "average": 94840,
+    "ninetiethPercentile": 168320
+  },
+
+  {
+    "name": "Solar Thermal Installers & Technicians",
+    "tenthPercentile": 36700,
+    "average": 59880,
+    "ninetiethPercentile": 99920
+  },
+
+  {
+    "name": "Sound Engineering Technicians",
+    "tenthPercentile": 29110,
+    "average": 60500,
+    "ninetiethPercentile": 124690
+  },
+
+  {
+    "name": "Spa Managers",
+    "tenthPercentile": 31350,
+    "average": 60360,
+    "ninetiethPercentile": 84170
+  },
+
+  {
+    "name": "Special Education Teachers, Elementary School",
+    "tenthPercentile": 46400,
+    "average": 61640,
+    "ninetiethPercentile": 98870
+  },
+
+  {
+    "name": "Special Education Teachers, Kindergarten",
+    "tenthPercentile": 46400,
+    "average": 61640,
+    "ninetiethPercentile": 98870
+  },
+
+  {
+    "name": "Special Education Teachers, Middle School",
+    "tenthPercentile": 46840,
+    "average": 61820,
+    "ninetiethPercentile": 100310
+  },
+
+  {
+    "name": "Special Education Teachers, Preschool",
+    "tenthPercentile": 37540,
+    "average": 62420,
+    "ninetiethPercentile": 123860
+  },
+
+  {
+    "name": "Special Education Teachers, Secondary School",
+    "tenthPercentile": 47230,
+    "average": 62120,
+    "ninetiethPercentile": 100310
+  },
+
+  {
+    "name": "Special Effects Artists & Animators",
+    "tenthPercentile": 46000,
+    "average": 78790,
+    "ninetiethPercentile": 131370
+  },
+
+  {
+    "name": "Speech-Language Pathologists",
+    "tenthPercentile": 51310,
+    "average": 79060,
+    "ninetiethPercentile": 125560
+  },
+
+  {
+    "name": "Speech-Language Pathology Assistants",
+    "tenthPercentile": 25810,
+    "average": 37740,
+    "ninetiethPercentile": 59250
+  },
+
+  {
+    "name": "Sports Medicine Physicians",
+    "tenthPercentile": 61260,
+    "average": 208000,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Stationary Engineers & Boiler Operators",
+    "tenthPercentile": 44260,
+    "average": 63500,
+    "ninetiethPercentile": 100690
+  },
+
+  {
+    "name": "Statistical Assistants",
+    "tenthPercentile": 34650,
+    "average": 48160,
+    "ninetiethPercentile": 79390
+  },
+
+  {
+    "name": "Statisticians",
+    "tenthPercentile": 49350,
+    "average": 95570,
+    "ninetiethPercentile": 157300
+  },
+
+  {
+    "name": "Stockers & Order Fillers",
+    "tenthPercentile": 23460,
+    "average": 30110,
+    "ninetiethPercentile": 45770
+  },
+
+  {
+    "name": "Stone Cutters & Carvers, Manufacturing",
+    "tenthPercentile": 28820,
+    "average": 37500,
+    "ninetiethPercentile": 51500
+  },
+
+  {
+    "name": "Stonemasons",
+    "tenthPercentile": 30180,
+    "average": 47610,
+    "ninetiethPercentile": 75940
+  },
+
+  {
+    "name": "Structural Iron & Steel Workers",
+    "tenthPercentile": 36610,
+    "average": 58550,
+    "ninetiethPercentile": 98000
+  },
+
+  {
+    "name": "Structural Metal Fabricators & Fitters",
+    "tenthPercentile": 30090,
+    "average": 45480,
+    "ninetiethPercentile": 61590
+  },
+
+  {
+    "name": "Substance Abuse & Behavioral Disorder Counselors",
+    "tenthPercentile": 30870,
+    "average": 48520,
+    "ninetiethPercentile": 77980
+  },
+
+  {
+    "name": "Substitute Teachers, Short-Term",
+    "tenthPercentile": 22270,
+    "average": 30100,
+    "ninetiethPercentile": 50560
+  },
+
+  {
+    "name": "Subway & Streetcar Operators",
+    "tenthPercentile": 48010,
+    "average": 81180,
+    "ninetiethPercentile": 82160
+  },
+
+  {
+    "name": "Supply Chain Managers",
+    "tenthPercentile": 58570,
+    "average": 98230,
+    "ninetiethPercentile": 162770
+  },
+
+  {
+    "name": "Surgical Assistants",
+    "tenthPercentile": 32680,
+    "average": 48320,
+    "ninetiethPercentile": 96870
+  },
+
+  {
+    "name": "Surgical Technologists",
+    "tenthPercentile": 36930,
+    "average": 48530,
+    "ninetiethPercentile": 75940
+  },
+
+  {
+    "name": "Survey Researchers",
+    "tenthPercentile": 26360,
+    "average": 59740,
+    "ninetiethPercentile": 101180
+  },
+
+  {
+    "name": "Surveying & Mapping Technicians",
+    "tenthPercentile": 29770,
+    "average": 46910,
+    "ninetiethPercentile": 76130
+  },
+
+  {
+    "name": "Surveyors",
+    "tenthPercentile": 37360,
+    "average": 61600,
+    "ninetiethPercentile": 101240
+  },
+
+  {
+    "name": "Sustainability Specialists",
+    "tenthPercentile": 38050,
+    "average": 74670,
+    "ninetiethPercentile": 128030
+  },
+
+  {
+    "name": "Switchboard Operators, Including Answering Service",
+    "tenthPercentile": 23120,
+    "average": 30150,
+    "ninetiethPercentile": 47330
+  },
+
+  {
+    "name": "Tailors, Dressmakers, & Custom Sewers",
+    "tenthPercentile": 22070,
+    "average": 31420,
+    "ninetiethPercentile": 57480
+  },
+
+  {
+    "name": "Talent Directors",
+    "tenthPercentile": 38210,
+    "average": 79000,
+    "ninetiethPercentile": 206860
+  },
+
+  {
+    "name": "Tank Car, Truck, & Ship Loaders",
+    "tenthPercentile": 33090,
+    "average": 49390,
+    "ninetiethPercentile": 79860
+  },
+
+  {
+    "name": "Tapers",
+    "tenthPercentile": 37980,
+    "average": 61080,
+    "ninetiethPercentile": 100160
+  },
+
+  {
+    "name": "Tax Examiners & Collectors, & Revenue Agents",
+    "tenthPercentile": 35260,
+    "average": 56780,
+    "ninetiethPercentile": 102840
+  },
+
+  {
+    "name": "Tax Preparers",
+    "tenthPercentile": 23930,
+    "average": 46290,
+    "ninetiethPercentile": 85470
+  },
+
+  {
+    "name": "Taxi Drivers",
+    "tenthPercentile": 21010,
+    "average": 29310,
+    "ninetiethPercentile": 38670
+  },
+
+  {
+    "name": "Teaching Assistants, Postsecondary",
+    "tenthPercentile": 22730,
+    "average": 38040,
+    "ninetiethPercentile": 62260
+  },
+
+  {
+    "name": "Teaching Assistants, Preschool, Elementary, Middle, & Secondary School",
+    "tenthPercentile": 21890,
+    "average": 29360,
+    "ninetiethPercentile": 46530
+  },
+
+  {
+    "name": "Teaching Assistants, Special Education",
+    "tenthPercentile": 21890,
+    "average": 29360,
+    "ninetiethPercentile": 46530
+  },
+
+  {
+    "name": "Team Assemblers",
+    "tenthPercentile": 26160,
+    "average": 36590,
+    "ninetiethPercentile": 54510
+  },
+
+  {
+    "name": "Technical Writers",
+    "tenthPercentile": 48890,
+    "average": 78060,
+    "ninetiethPercentile": 125010
+  },
+
+  {
+    "name": "Telecommunications Engineering Specialists",
+    "tenthPercentile": 63240,
+    "average": 120520,
+    "ninetiethPercentile": 168890
+  },
+
+  {
+    "name": "Telecommunications Equipment Installers & Repairers",
+    "tenthPercentile": 36360,
+    "average": 60370,
+    "ninetiethPercentile": 82660
+  },
+
+  {
+    "name": "Telecommunications Line Installers & Repairers",
+    "tenthPercentile": 37140,
+    "average": 60190,
+    "ninetiethPercentile": 98320
+  },
+
+  {
+    "name": "Telemarketers",
+    "tenthPercentile": 19470,
+    "average": 28910,
+    "ninetiethPercentile": 45190
+  },
+
+  {
+    "name": "Telephone Operators",
+    "tenthPercentile": 23690,
+    "average": 37630,
+    "ninetiethPercentile": 60120
+  },
+
+  {
+    "name": "Tellers",
+    "tenthPercentile": 28120,
+    "average": 36310,
+    "ninetiethPercentile": 46320
+  },
+
+  {
+    "name": "Terrazzo Workers & Finishers",
+    "tenthPercentile": 36810,
+    "average": 48680,
+    "ninetiethPercentile": 96980
+  },
+
+  {
+    "name": "Textile Bleaching & Dyeing Machine Operators & Tenders",
+    "tenthPercentile": 23140,
+    "average": 29930,
+    "ninetiethPercentile": 40420
+  },
+
+  {
+    "name": "Textile Cutting Machine Setters, Operators, & Tenders",
+    "tenthPercentile": 23010,
+    "average": 29960,
+    "ninetiethPercentile": 46800
+  },
+
+  {
+    "name": "Textile Knitting & Weaving Machine Setters, Operators, & Tenders",
+    "tenthPercentile": 23720,
+    "average": 33990,
+    "ninetiethPercentile": 45460
+  },
+
+  {
+    "name": "Textile Winding, Twisting, & Drawing Out Machine Setters, Operators, & Tenders",
+    "tenthPercentile": 26060,
+    "average": 30020,
+    "ninetiethPercentile": 40340
+  },
+
+  {
+    "name": "Tile & Stone Setters",
+    "tenthPercentile": 30070,
+    "average": 47810,
+    "ninetiethPercentile": 78370
+  },
+
+  {
+    "name": "Timing Device Assemblers & Adjusters",
+    "tenthPercentile": 29680,
+    "average": 37780,
+    "ninetiethPercentile": 65200
+  },
+
+  {
+    "name": "Tire Builders",
+    "tenthPercentile": 30500,
+    "average": 47940,
+    "ninetiethPercentile": 60390
+  },
+
+  {
+    "name": "Tire Repairers & Changers",
+    "tenthPercentile": 23120,
+    "average": 29580,
+    "ninetiethPercentile": 45190
+  },
+
+  {
+    "name": "Title Examiners, Abstractors, & Searchers",
+    "tenthPercentile": 30350,
+    "average": 47310,
+    "ninetiethPercentile": 77040
+  },
+
+  {
+    "name": "Tool & Die Makers",
+    "tenthPercentile": 36900,
+    "average": 57000,
+    "ninetiethPercentile": 77240
+  },
+
+  {
+    "name": "Tool Grinders, Filers, & Sharpeners",
+    "tenthPercentile": 29010,
+    "average": 38430,
+    "ninetiethPercentile": 60710
+  },
+
+  {
+    "name": "Tour Guides & Escorts",
+    "tenthPercentile": 20950,
+    "average": 29780,
+    "ninetiethPercentile": 47800
+  },
+
+  {
+    "name": "Traffic Technicians",
+    "tenthPercentile": 36450,
+    "average": 48610,
+    "ninetiethPercentile": 79880
+  },
+
+  {
+    "name": "Training & Development Managers",
+    "tenthPercentile": 64370,
+    "average": 120130,
+    "ninetiethPercentile": 207420
+  },
+
+  {
+    "name": "Training & Development Specialists",
+    "tenthPercentile": 31340,
+    "average": 61570,
+    "ninetiethPercentile": 103240
+  },
+
+  {
+    "name": "Transit & Railroad Police",
+    "tenthPercentile": 47310,
+    "average": 64930,
+    "ninetiethPercentile": 98250
+  },
+
+  {
+    "name": "Transportation Engineers",
+    "tenthPercentile": 60550,
+    "average": 88050,
+    "ninetiethPercentile": 133320
+  },
+
+  {
+    "name": "Transportation Inspectors",
+    "tenthPercentile": 37030,
+    "average": 79770,
+    "ninetiethPercentile": 124200
+  },
+
+  {
+    "name": "Transportation Planners",
+    "tenthPercentile": 50230,
+    "average": 84430,
+    "ninetiethPercentile": 133240
+  },
+
+  {
+    "name": "Transportation Security Screeners",
+    "tenthPercentile": 39330,
+    "average": 45470,
+    "ninetiethPercentile": 55870
+  },
+
+  {
+    "name": "Transportation Vehicle, Equipment & Systems Inspectors",
+    "tenthPercentile": 37030,
+    "average": 79770,
+    "ninetiethPercentile": 124200
+  },
+
+  {
+    "name": "Transportation, Storage, & Distribution Managers",
+    "tenthPercentile": 58570,
+    "average": 98230,
+    "ninetiethPercentile": 162770
+  },
+
+  {
+    "name": "Travel Agents",
+    "tenthPercentile": 28280,
+    "average": 43810,
+    "ninetiethPercentile": 74220
+  },
+
+  {
+    "name": "Travel Guides",
+    "tenthPercentile": 20950,
+    "average": 29780,
+    "ninetiethPercentile": 47800
+  },
+
+  {
+    "name": "Treasurers & Controllers",
+    "tenthPercentile": 77040,
+    "average": 131710,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Tree Trimmers & Pruners",
+    "tenthPercentile": 30180,
+    "average": 46970,
+    "ninetiethPercentile": 64210
+  },
+
+  {
+    "name": "Tutors",
+    "tenthPercentile": 23640,
+    "average": 36470,
+    "ninetiethPercentile": 61580
+  },
+
+  {
+    "name": "Umpires, Referees, & Other Sports Officials",
+    "tenthPercentile": 19170,
+    "average": 35860,
+    "ninetiethPercentile": 81620
+  },
+
+  {
+    "name": "Upholsterers",
+    "tenthPercentile": 23700,
+    "average": 37420,
+    "ninetiethPercentile": 52190
+  },
+
+  {
+    "name": "Urban & Regional Planners",
+    "tenthPercentile": 48720,
+    "average": 78500,
+    "ninetiethPercentile": 119340
+  },
+
+  {
+    "name": "Urologists",
+    "tenthPercentile": 61260,
+    "average": 208000,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Ushers, Lobby Attendants, & Ticket Takers",
+    "tenthPercentile": 17990,
+    "average": 24440,
+    "ninetiethPercentile": 36530
+  },
+
+  {
+    "name": "Validation Engineers",
+    "tenthPercentile": 60850,
+    "average": 95300,
+    "ninetiethPercentile": 129620
+  },
+
+  {
+    "name": "Veterinarians",
+    "tenthPercentile": 60760,
+    "average": 100370,
+    "ninetiethPercentile": 165600
+  },
+
+  {
+    "name": "Veterinary Assistants & Laboratory Animal Caretakers",
+    "tenthPercentile": 22920,
+    "average": 29780,
+    "ninetiethPercentile": 38860
+  },
+
+  {
+    "name": "Veterinary Technologists & Technicians",
+    "tenthPercentile": 28370,
+    "average": 36850,
+    "ninetiethPercentile": 48100
+  },
+
+  {
+    "name": "Video Game Designers",
+    "tenthPercentile": 38550,
+    "average": 79890,
+    "ninetiethPercentile": 168200
+  },
+
+  {
+    "name": "Waiters & Waitresses",
+    "tenthPercentile": 17840,
+    "average": 26000,
+    "ninetiethPercentile": 45910
+  },
+
+  {
+    "name": "Watch & Clock Repairers",
+    "tenthPercentile": 23420,
+    "average": 44250,
+    "ninetiethPercentile": 74760
+  },
+
+  {
+    "name": "Water & Wastewater Treatment Plant & System Operators",
+    "tenthPercentile": 30070,
+    "average": 47880,
+    "ninetiethPercentile": 77170
+  },
+
+  {
+    "name": "Water Resource Specialists",
+    "tenthPercentile": 75040,
+    "average": 137900,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Water/Wastewater Engineers",
+    "tenthPercentile": 60550,
+    "average": 88050,
+    "ninetiethPercentile": 133320
+  },
+
+  {
+    "name": "Weatherization Installers & Technicians",
+    "tenthPercentile": 29350,
+    "average": 39850,
+    "ninetiethPercentile": 66210
+  },
+
+  {
+    "name": "Web & Digital Interface Designers",
+    "tenthPercentile": 38550,
+    "average": 79890,
+    "ninetiethPercentile": 168200
+  },
+
+  {
+    "name": "Web Administrators",
+    "tenthPercentile": 45630,
+    "average": 95270,
+    "ninetiethPercentile": 162410
+  },
+
+  {
+    "name": "Web Developers",
+    "tenthPercentile": 38280,
+    "average": 77030,
+    "ninetiethPercentile": 129760
+  },
+
+  {
+    "name": "Weighers, Measurers, Checkers, & Samplers, Recordkeeping",
+    "tenthPercentile": 28860,
+    "average": 37610,
+    "ninetiethPercentile": 49810
+  },
+
+  {
+    "name": "Welders, Cutters, Solderers, & Brazers",
+    "tenthPercentile": 31350,
+    "average": 47010,
+    "ninetiethPercentile": 63660
+  },
+
+  {
+    "name": "Welding, Soldering, & Brazing Machine Setters, Operators, & Tenders",
+    "tenthPercentile": 30010,
+    "average": 38580,
+    "ninetiethPercentile": 59720
+  },
+
+  {
+    "name": "Wellhead Pumpers",
+    "tenthPercentile": 38590,
+    "average": 63740,
+    "ninetiethPercentile": 94050
+  },
+
+  {
+    "name": "Wholesale & Retail Buyers",
+    "tenthPercentile": 38430,
+    "average": 63470,
+    "ninetiethPercentile": 111200
+  },
+
+  {
+    "name": "Wind Energy Development Managers",
+    "tenthPercentile": 60390,
+    "average": 124650,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Wind Energy Engineers",
+    "tenthPercentile": 58730,
+    "average": 100640,
+    "ninetiethPercentile": 164690
+  },
+
+  {
+    "name": "Wind Energy Operations Managers",
+    "tenthPercentile": 60390,
+    "average": 124650,
+    "ninetiethPercentile": 208000
+  },
+
+  {
+    "name": "Wind Turbine Service Technicians",
+    "tenthPercentile": 46420,
+    "average": 56260,
+    "ninetiethPercentile": 77810
+  },
+
+  {
+    "name": "Woodworking Machine Setters, Operators, & Tenders",
+    "tenthPercentile": 23960,
+    "average": 36090,
+    "ninetiethPercentile": 47330
+  },
+
+  {
+    "name": "Word Processors & Typists",
+    "tenthPercentile": 29780,
+    "average": 44030,
+    "ninetiethPercentile": 60320
+  },
+
+  {
+    "name": "Writers & Authors",
+    "tenthPercentile": 38500,
+    "average": 69510,
+    "ninetiethPercentile": 133580
+  },
+
+  {
+    "name": "Zoologists & Wildlife Biologists",
+    "tenthPercentile": 42420,
+    "average": 64650,
+    "ninetiethPercentile": 103900
+  }
+]
