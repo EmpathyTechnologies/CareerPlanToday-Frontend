@@ -3,10 +3,16 @@
     "name": "Accountants & Auditors",
     "alsoCalled": [
       "Accountant",
+      "Accounting Officer",
+      "Audit Partner",
       "Auditor",
       "Certified Public Accountant",
       "CPA",
-      "Financial Auditor"
+      "Cost Accountant",
+      "Financial Auditor",
+      "General Accountant",
+      "Internal Auditor",
+      "Revenue Tax Specialist"
     ],
     "industries": [],
     "education": "",
@@ -9921,7 +9927,16 @@
 
   {
     "name": "Validation Engineers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Corporate Quality Engineer",
+      "Product Quality Engineer",
+      "Quality Assurance Engineer",
+      "Quality Engineer",
+      "Quality Management Systems Engineer",
+      "Reliability Engineer",
+      "Supplier Quality Engineer",
+      "Validation Specialist"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9932,7 +9947,27 @@
 
   {
     "name": "Veterinarians",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Companion Animal Practitioner",
+      "Doctor of Veterinary Medicine",
+      "DVM",
+      "Emergency Veterinarian",
+      "Emergency Vet",
+      "Large Animal Veterinarian",
+      "Large Animal Vet",
+      "Mixed Animal Veterinarian",
+      "Mixed Animal Vet",
+      "Small Animal Veterinarian",
+      "Small Animal Vet",
+      "Veterinary Medicine Doctor",
+      "DVM",
+      "Veterinary Surgeon",
+      "Vet Surgeon",
+      "Veterinary Surgical Specialist",
+      "Vet Surgical Specialist",
+      "Zoo Veterinarian",
+      "Zoo Vet"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9943,7 +9978,20 @@
 
   {
     "name": "Veterinary Assistants & Laboratory Animal Caretakers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Animal Care Provider",
+      "Animal Caregiver",
+      "Avian Keeper",
+      "Certified Veterinary Assistant",
+      "Emergency Veterinary Assistant",
+      "Inpatient Technician Assistant",
+      "Kennel Vet Assistant",
+      "Kennel Veterinary Assistant",
+      "Research Animal Attendant",
+      "Small Animal Caretaker",
+      "Veterinarian Assistant",
+      "Vet Assistant"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9954,7 +10002,27 @@
 
   {
     "name": "Veterinary Technologists & Technicians",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Certified Veterinary Technician",
+      "CVT",
+      "Emergency Veterinary Technician",
+      "Emergency Vet Tech",
+      "Internal Medicine Veterinary Technician",
+      "Internal Medicine Vet Tech",
+      "Licensed Veterinary Technician",
+      "LVT",
+      "Registered Veterinary Technician",
+      "RVT",
+      "Veterinarian Technician",
+      "Vet Tech",
+      "Veterinary Laboratory Technician",
+      "Vet Lab Tech",
+      "Veterinary Nurse",
+      "Vet Nurse",
+      "Veterinary Technician",
+      "Vet Tech",
+      "Veterinary Technologist"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9965,7 +10033,16 @@
 
   {
     "name": "Video Game Designers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Design Director",
+      "Designer",
+      "Environmental Artist",
+      "Game Design Consultant",
+      "Game Designer",
+      "Gamemaster",
+      "Level Designer",
+      "World Designer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9976,7 +10053,18 @@
 
   {
     "name": "Waiters & Waitresses",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Banquet Server",
+      "Buffet Server",
+      "Cocktail Server",
+      "Food Runner",
+      "Food Server",
+      "Restaurant Server",
+      "Server",
+      "Waiter",
+      "Waitress",
+      "Waitstaff"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9987,7 +10075,18 @@
 
   {
     "name": "Watch & Clock Repairers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Antique Clock Repairer",
+      "Clock Repair Technician",
+      "Clock Repairer",
+      "Watch and Clock Repairer",
+      "Watch Estimator",
+      "Watch Repair Person",
+      "Watch Repair Technician",
+      "Watch Repairer",
+      "Watch Technician",
+      "Watch Tech"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9998,7 +10097,22 @@
 
   {
     "name": "Water & Wastewater Treatment Plant & System Operators",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Plant Operator",
+      "Process Operator",
+      "Process Op",
+      "Relief Operator",
+      "SCADA Operator",
+      "Supervisory Control and Data Acquisition Operator",
+      "Waste Water Treatment Plant Operator",
+      "WWTP Operator",
+      "Wastewater Operator",
+      "WW Operator",
+      "Water Control Dispatcher",
+      "Water Plant Operator",
+      "Water Treatment Operator",
+      "Water Treatment Plant Operator"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -10009,7 +10123,7 @@
 
   {
     "name": "Water Resource Specialists",
-    "alsoCalled": [],
+    "alsoCalled": ["Water Resources Planner"],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -10020,7 +10134,12 @@
 
   {
     "name": "Water/Wastewater Engineers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Consulting Engineer",
+      "County Engineer",
+      "Engineer",
+      "Project Development Engineer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -10031,7 +10150,14 @@
 
   {
     "name": "Weatherization Installers & Technicians",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Energy Administrator",
+      "Field Technician",
+      "Weatherization and Housing Inspector",
+      "Weatherization Installer",
+      "Weatherization Technician",
+      "Weatherization Worker"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -10042,7 +10168,14 @@
 
   {
     "name": "Web & Digital Interface Designers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Technology Applications Engineer",
+      "Web Architect",
+      "Web Design Specialist",
+      "Web Designer",
+      "Web Developer",
+      "Webmaster"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -10053,7 +10186,17 @@
 
   {
     "name": "Web Administrators",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Corporate Webmaster",
+      "Web Administrator",
+      "Web Content Coordinator",
+      "Web Content Manager",
+      "Web Director",
+      "Web Manager",
+      "Web Site Manager",
+      "Web Technologies Administrator",
+      "Webmaster"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -10064,7 +10207,14 @@
 
   {
     "name": "Web Developers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Technology Applications Engineer",
+      "Web Architect",
+      "Web Design Specialist",
+      "Web Designer",
+      "Web Developer",
+      "Webmaster"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -10075,7 +10225,16 @@
 
   {
     "name": "Weighers, Measurers, Checkers, & Samplers, Recordkeeping",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Cycle Counter",
+      "Fluid Operator",
+      "Inventory Specialist",
+      "Quality Assurance Inspector",
+      "QA Inspector",
+      "Scale Operator",
+      "Supply Clerk",
+      "Temperature Taker"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -10086,7 +10245,20 @@
 
   {
     "name": "Welders, Cutters, Solderers, & Brazers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Assembly Line Brazer",
+      "Brazer",
+      "Fabrication Welder",
+      "Maintenance Welder",
+      "MIG Welder",
+      "Metal Inert Gas Welder",
+      "Solderer",
+      "TIG Welder",
+      "Tungsten Inert Gas Welder",
+      "Welder",
+      "Welder Fitter",
+      "Wirer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -10097,7 +10269,14 @@
 
   {
     "name": "Welding, Soldering, & Brazing Machine Setters, Operators, & Tenders",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Braze Operator",
+      "Finishing Technician",
+      "Machine Operator",
+      "Mig Welder",
+      "Robot Operator",
+      "Spot Welder"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -10108,7 +10287,17 @@
 
   {
     "name": "Wellhead Pumpers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Field Operator",
+      "Lease Attendant",
+      "Lease Operator",
+      "Oilfield Plant Operator",
+      "Pumper",
+      "Well Field Technician",
+      "Well Head Pumper",
+      "Well Tender",
+      "Wellhead Pumper"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -10119,7 +10308,15 @@
 
   {
     "name": "Wholesale & Retail Buyers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Buyer",
+      "Grocery Buyer",
+      "Procurement Specialist",
+      "Purchaser",
+      "Purchasing Coordinator",
+      "Retail Buyer",
+      "Trader"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -10130,7 +10327,14 @@
 
   {
     "name": "Wind Energy Development Managers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Business Development Director",
+      "Business Development Manager",
+      "Development Director",
+      "Development Manager",
+      "Project Development Leader",
+      "Renewable Project Management and Construction Director"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -10141,7 +10345,15 @@
 
   {
     "name": "Wind Energy Engineers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Engineer",
+      "Project Engineer",
+      "Turbine Measurements Engineer",
+      "Utility Engineer",
+      "Wind Energy Consultant",
+      "Wind Farm Siting and Development Consultant",
+      "Wind Turbine Design Engineer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -10152,7 +10364,18 @@
 
   {
     "name": "Wind Energy Operations Managers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Service Site Manager",
+      "Site Manager",
+      "Turbine Site Manager",
+      "Wind Facilities Manager",
+      "Wind Operations Supervisor",
+      "Wind Plant Manager",
+      "Wind Plant Operations Manager",
+      "Wind Site Manager",
+      "Wind Site Supervisor",
+      "Wind Technician Leader"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -10163,7 +10386,18 @@
 
   {
     "name": "Wind Turbine Service Technicians",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Field Service Technician",
+      "Renewable Energy Technician",
+      "Service Technician",
+      "Troubleshooting Technician",
+      "Wind Farm Support Specialist",
+      "Wind Technician",
+      "Wind Turbine Operator",
+      "Wind Turbine Service Technician",
+      "Wind Turbine Technician",
+      "Wind Turbine Troubleshooting Technician"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -10174,7 +10408,17 @@
 
   {
     "name": "Woodworking Machine Setters, Operators, & Tenders",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Boring Machine Operator",
+      "Cabinet Maker",
+      "Knot Saw Operator",
+      "Lathe Operator",
+      "Machine Operator",
+      "Molder Operator",
+      "Router Operator",
+      "Sander",
+      "Sander Operator"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -10185,7 +10429,15 @@
 
   {
     "name": "Word Processors & Typists",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Clerk Specialist",
+      "Clerk Typist",
+      "Keyboard Specialist",
+      "Office Technician",
+      "Stenographer",
+      "Typist",
+      "Word Processor"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -10196,7 +10448,20 @@
 
   {
     "name": "Writers & Authors",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Advertisement Agency Copywriter",
+      "Ad Agency Copywriter",
+      "Advertising Associate",
+      "Advertising Copywriter",
+      "Advertising Writer",
+      "Communications Specialist",
+      "Copywriter",
+      "Freelance Copywriter",
+      "Promotion Writer",
+      "Search Engine Optimization Copywriter",
+      "SEO Copywriter",
+      "Web Content Writer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -10206,7 +10471,17 @@
   },
   {
     "name": "Zoologists & Wildlife Biologists",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Aquatic Biologist",
+      "Conservation Resources Management Biologist",
+      "Fish and Wildlife Biologist",
+      "Fisheries Biologist",
+      "Fisheries Management Biologist",
+      "Habitat Biologist",
+      "Migratory Game Bird Biologist",
+      "Wildlife Biologist",
+      "Zoologist"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
