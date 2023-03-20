@@ -8487,7 +8487,20 @@
 
   {
     "name": "Sailors & Marine Oilers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Able Bodied Seaman",
+      "AB Seaman",
+      "Able Bodied Watchman",
+      "AB Watchman",
+      "Able Seaman",
+      "Boat Crew Deck Hand",
+      "Bosun",
+      "Deck Hand",
+      "Deckhand",
+      "Deckhand Engineer",
+      "Oiler",
+      "Tankerman"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8498,7 +8511,15 @@
 
   {
     "name": "Sales Engineers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Business Development Engineer",
+      "Inside Sales Engineer",
+      "Product Sales Engineer",
+      "Sales Applications Engineer",
+      "Sales Engineer",
+      "Technical Marketing Engineer",
+      "Technical Sales Engineer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8509,7 +8530,18 @@
 
   {
     "name": "Sales Managers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "District Sales Manager",
+      "National Sales Manager",
+      "Regional Sales Manager",
+      "Sales and Marketing Vice President",
+      "Sales and Marketing VP",
+      "Sales Director",
+      "Sales Manager",
+      "Sales Supervisor",
+      "Sales Vice President",
+      "Sales VP"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8531,7 +8563,19 @@
 
   {
     "name": "Sales Representatives, Wholesale & Manufacturing",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Account Representative",
+      "Customer Account Technician",
+      "Inside Salesperson",
+      "Outside Sales Representative",
+      "Route Sales Representative",
+      "Sales Consultant",
+      "Sales Professional",
+      "Sales Representative",
+      "Sales Rep",
+      "Salesman",
+      "Salesperson"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8542,7 +8586,11 @@
 
   {
     "name": "Sales Representatives, Wholesale & Manufacturing, Technical & Scientific Products",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Inside Sales Representative",
+      "Marketing Representative",
+      "Sales Representative"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8553,7 +8601,18 @@
 
   {
     "name": "Sawing Machine Setters, Operators, & Tenders, Wood",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Bandmill Operator",
+      "Cut Off Saw Operator",
+      "Edgerman",
+      "Knot Saw Operator",
+      "Panel Saw Operator",
+      "Planer",
+      "Resaw Operator",
+      "Rip Saw Operator",
+      "Saw Operator",
+      "Sawyer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8575,7 +8634,18 @@
 
   {
     "name": "School Psychologists",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Autism Consultant",
+      "Bilingual School Psychologist",
+      "Challenging Behavior Consultant",
+      "Consulting Psychologist",
+      "Early Intervention School Psychologist",
+      "Educational Diagnostician",
+      "Learning Consultant",
+      "Psychologist",
+      "School Psychologist",
+      "School Psychometrist"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8586,7 +8656,20 @@
 
   {
     "name": "Search Marketing Strategists",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Digital Marketing Strategist",
+      "Digital Media Planner",
+      "Internet Marketing Specialist",
+      "Marketing Consultant",
+      "Online Marketing Consultant",
+      "Paid Search Consultant",
+      "Paid Search Strategist",
+      "Search Engine Optimization Consultant",
+      "SEO Consultant",
+      "SEO Strategist",
+      "Search Engine Optimization Strategist",
+      "Social Media Specialist"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8597,7 +8680,19 @@
 
   {
     "name": "Secondary School Teachers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Art Teacher",
+      "English Teacher",
+      "High School Science Teacher",
+      "History Teacher",
+      "Mathematics Instructor",
+      "Math Instructor",
+      "Science Teacher",
+      "Secondary Teacher",
+      "Social Studies Teacher",
+      "Spanish Teacher",
+      "Teacher"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8608,7 +8703,22 @@
 
   {
     "name": "Secretaries & Administrative Assistants",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Administrative Assistant",
+      "Admin Assistant",
+      "Administrative Clerk",
+      "Administrative Secretary",
+      "Admin Secretary",
+      "Administrative Specialist",
+      "Admin Specialist",
+      "Administrative Support Assistant",
+      "ASA",
+      "Administrative Technician",
+      "Department Secretary",
+      "Office Assistant",
+      "Secretary",
+      "Staff Assistant"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8619,7 +8729,18 @@
 
   {
     "name": "Securities, Commodities, & Financial Services Sales Agents",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Broker",
+      "Commodities Broker",
+      "Equity Trader",
+      "Financial Advisor",
+      "Financial Consultant",
+      "Investment Representative",
+      "Investments Advisor",
+      "Investments Specialist",
+      "Personal Banker",
+      "Trader"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8630,7 +8751,18 @@
 
   {
     "name": "Security & Fire Alarm Systems Installers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Alarm Technician",
+      "Fire Alarm Technician",
+      "Home Security Alarm Installer",
+      "Install Technician",
+      "Installation Technician",
+      "Installer",
+      "Security Installation Technician",
+      "Security Installer",
+      "Security Technician",
+      "Service Technician"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8641,7 +8773,17 @@
 
   {
     "name": "Security Guards",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Campus Security Officer",
+      "Custom Protection Officer",
+      "Customer Service Security Officer",
+      "Hotel Security Officer",
+      "Loss Prevention Officer",
+      "Safety and Security Officer",
+      "Security Agent",
+      "Security Guard",
+      "Security Officer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8652,7 +8794,13 @@
 
   {
     "name": "Security Management Specialists",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Physical Security Engineer",
+      "Physical Security Specialist",
+      "Security Analyst",
+      "Security Consultant",
+      "Security Specialist"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8663,7 +8811,12 @@
 
   {
     "name": "Security Managers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Corporate Physical Security Supervisor",
+      "Corporate Security Manager",
+      "Security Director",
+      "Security Manager"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8674,7 +8827,14 @@
 
   {
     "name": "Segmental Pavers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Cutter",
+      "Paver",
+      "Paver Installer",
+      "Paver Layer",
+      "Paving Stone Installer",
+      "Segmental Wall Installer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8685,7 +8845,18 @@
 
   {
     "name": "Self-Enrichment Teachers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Art Teacher",
+      "Dance Instructor",
+      "Dance Teacher",
+      "Driving Instructor",
+      "Flight Instructor",
+      "Instructor",
+      "Martial Arts Instructor",
+      "Music Instructor",
+      "Piano Teacher",
+      "Teacher"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8696,7 +8867,18 @@
 
   {
     "name": "Semiconductor Processing Technicians",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Device Processing Engineer",
+      "Diffusion Operator",
+      "Engineering Technician",
+      "Manufacture Specialist",
+      "Manufacturing Technician",
+      "Metalorganic Chemical Vapor Deposition Engineer",
+      "MOCVD Engineer",
+      "Probe Operator",
+      "Process Technician",
+      "Wafer Fabrication Operator"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8707,7 +8889,17 @@
 
   {
     "name": "Separating, Filtering, Clarifying, Precipitating, & Still Machine Setters, Operators, & Tenders",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Blender",
+      "Brewer",
+      "Cellar Worker",
+      "Digester Cook",
+      "Machine Tender",
+      "Paper Machine Tender",
+      "Plant Operator",
+      "Pulper Operator",
+      "Winemaker"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8717,7 +8909,16 @@
   },
   {
     "name": "Septic Tank Servicers & Sewer Pipe Cleaners",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Drain Cleaner",
+      "Drain Technician",
+      "Public Works Technician",
+      "Septic Cleaner",
+      "Septic Pump Truck Driver",
+      "Septic Tank Service Technician",
+      "Service Technician",
+      "Sewer Bricklayer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8728,7 +8929,16 @@
 
   {
     "name": "Service Unit Operators, Oil & Gas",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Pulling Unit Operator",
+      "Reverse Unit Operator",
+      "Rig Operator",
+      "Service Operator",
+      "Service Rig Operator",
+      "Tool Pusher",
+      "Well Servicing Rig Operator",
+      "Wireline Operator"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8739,7 +8949,18 @@
 
   {
     "name": "Set & Exhibit Designers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Designer",
+      "Display Coordinator",
+      "Exhibit Coordinator",
+      "Exhibit Designer",
+      "Exhibit Preparator",
+      "Historical Society Window Dresser",
+      "Installations Designer",
+      "Projection Designer",
+      "Scenic Designer",
+      "Set Designer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8750,7 +8971,16 @@
 
   {
     "name": "Sewers, Hand",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Alteration Specialist",
+      "Couturier",
+      "Custom Clothier",
+      "Custom Designer",
+      "Custom Seamstress",
+      "Designer",
+      "Dressmaker",
+      "Seamstress"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8761,7 +8991,18 @@
 
   {
     "name": "Sewing Machine Operators",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Line Closer",
+      "Machine Operator",
+      "Prototype Sewer",
+      "Sample Maker",
+      "Seamer",
+      "Seamstress",
+      "Sew On Operator",
+      "Sewer",
+      "Sewing Machine Operator",
+      "Zipper Machine Operator"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8772,7 +9013,14 @@
 
   {
     "name": "Shampooers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Hair Assistant",
+      "Shampoo Assistant",
+      "Shampoo Person",
+      "Shampoo Technician",
+      "Shampooer",
+      "Stylist Assistant"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8783,7 +9031,16 @@
 
   {
     "name": "Sheet Metal Workers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Field Installer",
+      "HVAC Sheet Metal Installer",
+      "Heating, Ventilation, and Air Conditioning Sheet Metal Installer",
+      "Sheet Metal Fabricator",
+      "Sheet Metal Installer",
+      "Sheet Metal Layout Mechanic",
+      "Sheet Metal Mechanic",
+      "Sheet Metal Worker"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8794,7 +9051,16 @@
 
   {
     "name": "Ship Engineers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Barge Engineer",
+      "Engineer",
+      "Ferry Engineer",
+      "Harbor Engineer",
+      "Port Engineer",
+      "Towboat Engineer",
+      "Tug Boat Engineer",
+      "Tugboat Engineer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8805,7 +9071,18 @@
 
   {
     "name": "Shipping, Receiving, & Inventory Clerks",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Materials Control Associate",
+      "Order Fulfillment Specialist",
+      "Receiver",
+      "Receiving Associate",
+      "Receiving Clerk",
+      "Receiving Coordinator",
+      "Shipper",
+      "Shipping Clerk",
+      "Shipping Coordinator",
+      "Traffic Assistant"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8816,7 +9093,18 @@
 
   {
     "name": "Shoe & Leather Workers & Repairers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Boot Maker",
+      "Cobbler",
+      "Cutter",
+      "Leather Worker",
+      "Saddle and Harness Maker",
+      "Shoe Cutter",
+      "Shoe Maker",
+      "Shoe Repairer",
+      "Shoe Repairman",
+      "Stitcher"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8827,7 +9115,17 @@
 
   {
     "name": "Shoe Machine Operators & Tenders",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Assembler",
+      "Boot and Shoe Repairman",
+      "Boot Maker",
+      "Cutter",
+      "Fitter",
+      "Inseamer",
+      "Insole Department Worker",
+      "Side Laster",
+      "Stitcher"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8838,7 +9136,18 @@
 
   {
     "name": "Shuttle Drivers & Chauffeurs",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Airport Shuttle Driver",
+      "Chauffeur",
+      "Driver",
+      "Limo Driver",
+      "Limousine Driver",
+      "Motor Coach Driver",
+      "Shuttle Bus Driver",
+      "Shuttle Driver",
+      "Special Needs Bus Driver",
+      "Van Driver"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8849,7 +9158,18 @@
 
   {
     "name": "Signal & Track Switch Repairers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Railroad Signal Maintainer",
+      "Signal and Communications Maintainer",
+      "Signal Inspector",
+      "Signal Maintainer",
+      "Signal Maintenance Technician",
+      "Signal System Testing Maintainer",
+      "Signal Technician",
+      "Signalman",
+      "Train Control Electronic Technician",
+      "Train Control Technician"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8860,7 +9180,17 @@
 
   {
     "name": "Skincare Specialists",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Aesthetician",
+      "Clinical Esthetician",
+      "Esthetician",
+      "Facialist",
+      "Medical Esthetician",
+      "Skin Care Specialist",
+      "Skin Care Technician",
+      "Skin Care Therapist",
+      "Spa Technician"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8871,7 +9201,17 @@
 
   {
     "name": "Slaughterers & Meat Packers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Boning Room Worker",
+      "Meat Packager",
+      "Meat Packer",
+      "Meat Processor",
+      "Meat Trimmer",
+      "Meat Wrapper",
+      "Saw Man",
+      "Side Puller",
+      "Wrapper"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8882,7 +9222,17 @@
 
   {
     "name": "Social & Community Service Managers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Adoption Services Manager",
+      "Child Welfare Services Director",
+      "Children's Service Supervisor",
+      "Clinical Services Director",
+      "Community Services Director",
+      "Psychiatric Social Worker Supervisor",
+      "Social Services Director",
+      "Transitional Care Director",
+      "Vocational Rehabilitation Administrator"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8893,7 +9243,17 @@
 
   {
     "name": "Social & Human Service Assistants",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Addictions Counselor Assistant",
+      "Advocate",
+      "Clinical Assistant",
+      "Residential Care Assistant",
+      "Social Services Aide",
+      "Social Services Assistant",
+      "Social Work Assistant",
+      "Social Work Associate",
+      "Social Worker Assistant"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8904,7 +9264,16 @@
 
   {
     "name": "Social Science Research Assistants",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Clinical Research Assistant",
+      "Graduate Assistant",
+      "Graduate Research Assistant",
+      "Research Aide",
+      "Research Assistant",
+      "Research Associate",
+      "Research Technician",
+      "Social Research Assistant"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8915,7 +9284,18 @@
 
   {
     "name": "Social Work Teachers, Postsecondary",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Adjunct Professor",
+      "Assistant Professor",
+      "Clinical Professor",
+      "Faculty Member",
+      "Field Education Coordinator",
+      "Professor",
+      "Social Work Associate Professor",
+      "Social Work Instructor",
+      "Social Work Lecturer",
+      "Social Work Professor"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8926,7 +9306,14 @@
 
   {
     "name": "Sociologists",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Research Associate",
+      "Research Coordinator",
+      "Research Scientist",
+      "Research Specialist",
+      "Social Scientist",
+      "Sociologist"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8937,7 +9324,18 @@
 
   {
     "name": "Sociology Teachers, Postsecondary",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Adjunct Instructor",
+      "Assistant Professor",
+      "Associate Professor",
+      "Faculty Member",
+      "Instructor",
+      "Lecturer",
+      "Professor",
+      "Social Science Instructor",
+      "Sociology Instructor",
+      "Sociology Professor"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8948,7 +9346,18 @@
 
   {
     "name": "Software Developers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Application Developer",
+      "Application Integration Engineer",
+      "Developer",
+      "Infrastructure Engineer",
+      "Network Engineer",
+      "Software Architect",
+      "Software Developer",
+      "Software Development Engineer",
+      "Software Engineer",
+      "Systems Engineer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8959,7 +9368,23 @@
 
   {
     "name": "Software Quality Assurance Analysts & Testers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Automation Tester",
+      "Information Technology Analyst",
+      "IT Analyst",
+      "Quality Assurance Analyst",
+      "QA Analyst",
+      "Quality Assurance Engineer",
+      "QA Engineer",
+      "Quality Engineer",
+      "Software Quality Assurance Analyst",
+      "SQA Analyst",
+      "Software Quality Assurance Engineer",
+      "SQA Engineer",
+      "Software Quality Engineer",
+      "Software Test Engineer",
+      "Test Engineer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8970,7 +9395,18 @@
 
   {
     "name": "Soil & Plant Scientists",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Agronomist",
+      "Arboriculture Researcher",
+      "Crop Nutrition Scientist",
+      "Forage Physiologist",
+      "Horticulture Specialist",
+      "Plant Physiologist",
+      "Plant Research Geneticist",
+      "Research Scientist",
+      "Research Soil Scientist",
+      "Scientist"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8981,7 +9417,13 @@
 
   {
     "name": "Solar Energy Installation Managers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Installation Manager",
+      "Residential Field Manager",
+      "Solar Energy Installation Manager",
+      "Solar Installation Manager",
+      "Solar Installation Supervisor"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -8992,7 +9434,14 @@
 
   {
     "name": "Solar Energy Systems Engineers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Consulting Engineer",
+      "Distributed Energy Systems Consultant",
+      "Field Engineer",
+      "Power Systems Engineer",
+      "Research Engineer",
+      "Solar Engineer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9003,7 +9452,19 @@
 
   {
     "name": "Solar Photovoltaic Installers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Installer",
+      "Photovoltaic Installer",
+      "PV Installer",
+      "PV Design Technician",
+      "Photovoltaic Design Technician",
+      "Solar Designer",
+      "Solar Installer",
+      "Solar Installer Technician",
+      "Solar Photovoltaic Installer",
+      "Solar PV Installer",
+      "Solar Technician"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9014,7 +9475,14 @@
 
   {
     "name": "Solar Sales Representatives & Assessors",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Energy Consultant",
+      "Sales Associate",
+      "Sales Representative",
+      "Salesman",
+      "Solar Consultant",
+      "Solar Sales Representative"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9025,7 +9493,17 @@
 
   {
     "name": "Solar Thermal Installers & Technicians",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Installer",
+      "Solar Energy Technician",
+      "Solar Hot Water Installer",
+      "SHW Installer",
+      "Solar Installer",
+      "Solar Maintenance Technician",
+      "Solar System Installer",
+      "Solar Technician",
+      "Solar Thermal Installer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9036,7 +9514,18 @@
 
   {
     "name": "Sound Engineering Technicians",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Audio Engineer",
+      "Audio Operator",
+      "Mastering Engineer",
+      "Mixer",
+      "Mixing Engineer",
+      "Recording Engineer",
+      "Sound Editor",
+      "Sound Engineer",
+      "Sound Technician",
+      "Studio Engineer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9047,7 +9536,13 @@
 
   {
     "name": "Spa Managers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Massage Department Manager",
+      "Salon Manager",
+      "Spa and Guest Experience Director",
+      "Spa Director",
+      "Spa Manager"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9058,7 +9553,18 @@
 
   {
     "name": "Special Education Teachers, Elementary School",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Emotional Disabilities Teacher",
+      "Hearing Impaired Itinerant Teacher",
+      "HI Itinerant Teacher",
+      "Learning Support Teacher",
+      "Resource Program Teacher",
+      "Severe Emotional Disorders Elementary Teacher",
+      "SED Elementary Teacher",
+      "Special Education Inclusion Teacher",
+      "Special Education Resource Teacher",
+      "Special Education Teacher"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9069,7 +9575,15 @@
 
   {
     "name": "Special Education Teachers, Kindergarten",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Emotional Disabilities Teacher",
+      "Hearing Impaired Itinerant Teacher",
+      "HI Itinerant Teacher",
+      "Learning Support Teacher",
+      "Resource Program Teacher",
+      "Special Education Inclusion Teacher",
+      "Special Education Resource Teacher"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9080,7 +9594,19 @@
 
   {
     "name": "Special Education Teachers, Middle School",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Exceptional Children Teacher",
+      "EC Teacher",
+      "Exceptional Student Education Teacher",
+      "ESE Teacher",
+      "Inclusion Teacher",
+      "Intervention Specialist",
+      "Learning Support Teacher",
+      "Middle School Special Education Teacher",
+      "Self-Contained Special Education Teacher",
+      "Special Education Resource Teacher",
+      "Teacher"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9091,7 +9617,20 @@
 
   {
     "name": "Special Education Teachers, Preschool",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Early Childhood Special Education Teacher",
+      "ECSE Teacher",
+      "Early Intervention Teacher",
+      "Exceptional Student Education Teacher",
+      "ESE Teacher",
+      "Handicapped Teacher",
+      "Preschool Special Education Teacher",
+      "Resource Teacher",
+      "Severe/Profound Mental Handicaps Special Education Teacher",
+      "Special Education Resource Teacher",
+      "Special Education Teacher",
+      "Teacher"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9102,7 +9641,20 @@
 
   {
     "name": "Special Education Teachers, Secondary School",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Career and Transition Teacher",
+      "High School Special Education Teacher",
+      "Interrelated Special Education Teacher",
+      "Learning Disabilities Special Education Teacher",
+      "LD Special Education Teacher",
+      "Learning Support Teacher",
+      "Resource Teacher",
+      "Special Day Class Teacher",
+      "SDC Teacher",
+      "Special Education Resource Teacher",
+      "Special Education Teacher",
+      "Teacher"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9113,7 +9665,19 @@
 
   {
     "name": "Special Effects Artists & Animators",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "3D Animator",
+      "Three-Dimensional Animator",
+      "3D Artist",
+      "Three-Dimensional Artist",
+      "Animator",
+      "Artist",
+      "Digital Artist",
+      "Graphic Artist",
+      "Illustrator",
+      "Motion Graphics Artist",
+      "Multimedia Producer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9124,7 +9688,21 @@
 
   {
     "name": "Speech-Language Pathologists",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Bilingual Speech-Language Pathologist",
+      "Bilingual SLP",
+      "Pediatric Speech-Language Pathologist",
+      "Pediatric SLP",
+      "Speech and Language Clinician",
+      "Speech and Language Specialist",
+      "Speech and Language Teacher",
+      "Speech and Language Therapist",
+      "Speech Clinician",
+      "Speech Pathologist",
+      "Speech Therapist",
+      "Speech-Language Pathologist",
+      "SLP"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9135,7 +9713,21 @@
 
   {
     "name": "Speech-Language Pathology Assistants",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Communication Assistant",
+      "Speech Assistant",
+      "Speech Paraeducator",
+      "Speech Pathologist Assistant",
+      "Speech Therapy Assistant",
+      "Speech-Language Assistant",
+      "Speech-Language Pathologist Assistant",
+      "SLPA",
+      "Speech-Language Pathologists Assistant",
+      "SLPA",
+      "Speech-Language Pathology Assistant",
+      "SLPA",
+      "Speech-Language Technician"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9146,7 +9738,14 @@
 
   {
     "name": "Sports Medicine Physicians",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Athletic Team Physician",
+      "Nonsurgical Primary Care Sports Medicine Physician",
+      "Orthopedic Team Physician",
+      "Physician",
+      "Sports Medicine Physician",
+      "Team Physician"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9157,7 +9756,15 @@
 
   {
     "name": "Stationary Engineers & Boiler Operators",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Actuarial Analyst",
+      "Actuarial Assistant",
+      "Actuarial Technician",
+      "Administrative Analyst",
+      "Research Assistant",
+      "Statistical Clerk",
+      "Statistical Technician"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9168,7 +9775,15 @@
 
   {
     "name": "Statistical Assistants",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Actuarial Analyst",
+      "Actuarial Assistant",
+      "Actuarial Technician",
+      "Administrative Analyst",
+      "Research Assistant",
+      "Statistical Clerk",
+      "Statistical Technician"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9179,7 +9794,18 @@
 
   {
     "name": "Statisticians",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Demographer",
+      "Mathematical Statistician",
+      "Psychometric Consultant",
+      "Quantitative Methodologist",
+      "Research Scientist",
+      "Researcher",
+      "Statistical Analyst",
+      "Statistical Consultant",
+      "Statistical Reporting Analyst",
+      "Statistician"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9190,7 +9816,20 @@
 
   {
     "name": "Stockers & Order Fillers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Checker Stocker",
+      "Inventory Specialist",
+      "Inventory Technician",
+      "Inventory Tech",
+      "Label Maker",
+      "Marking Clerk",
+      "Order Filler",
+      "Order Picker",
+      "Stock Clerk",
+      "Stocker",
+      "Warehouse Technician",
+      "Warehouse Tech"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9201,7 +9840,17 @@
 
   {
     "name": "Stone Cutters & Carvers, Manufacturing",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Carver",
+      "Cutter",
+      "Granite Cutter",
+      "Polisher",
+      "Sandblast Carver",
+      "Sandblaster",
+      "Stone Carver",
+      "Stone Cutter",
+      "Stone Fabricator"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9212,7 +9861,7 @@
 
   {
     "name": "Stonemasons",
-    "alsoCalled": [],
+    "alsoCalled": ["Mason", "Stone Derrickman", "Stone Mason", "Stone Setter"],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9223,7 +9872,15 @@
 
   {
     "name": "Structural Iron & Steel Workers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Fitter",
+      "Iron Worker",
+      "Ironworker",
+      "Steel Fabricator",
+      "Steel Worker",
+      "Structural Steel Erector",
+      "Tower Hand"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9234,7 +9891,16 @@
 
   {
     "name": "Structural Metal Fabricators & Fitters",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Fabricator",
+      "Fitter",
+      "Layout Man",
+      "Mill Beam Fitter",
+      "Ship Fitter",
+      "Structural Steel Fitter",
+      "Tack Welder",
+      "Weld Technician"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9245,7 +9911,22 @@
 
   {
     "name": "Substance Abuse & Behavioral Disorder Counselors",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Addictions Counselor",
+      "Case Manager",
+      "Certified Alcohol and Drug Counselor",
+      "ADAC",
+      "Chemical Dependency Counselor",
+      "CD Counselor",
+      "Chemical Dependency Professional",
+      "Clinical Counselor",
+      "Counselor",
+      "Drug and Alcohol Treatment Specialist",
+      "DATS",
+      "Prevention Specialist",
+      "Substance Abuse Counselor",
+      "SA Counselor"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9267,7 +9948,20 @@
 
   {
     "name": "Subway & Streetcar Operators",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Combined Rail Operator",
+      "Light Rail Operator",
+      "Light Rail Train Operator",
+      "Light Rail Vehicle Operator",
+      "LRV Operator",
+      "Rail Operator",
+      "Rapid Transit Operator",
+      "RTO",
+      "Streetcar Operator",
+      "Train Operator",
+      "Transit Operator",
+      "Trolley Operator"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9278,7 +9972,13 @@
 
   {
     "name": "Supply Chain Managers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Global Supply Chain Director",
+      "Material Requirements Planning Manager",
+      "Solution Design and Analysis Manager",
+      "Supply Chain Director",
+      "Supply Chain Manager"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9289,7 +9989,26 @@
 
   {
     "name": "Surgical Assistants",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Certified First Assistant",
+      "CFA",
+      "Certified Registered Nurse First Assistant",
+      "CRNFA",
+      "Certified Surgical Assistant",
+      "CSA",
+      "Certified Surgical First Assistant",
+      "CSFA",
+      "Certified Surgical Technician",
+      "Gastrointestinal Technician",
+      "GI Technician",
+      "Registered Nurse First Assistant",
+      "RNFA",
+      "Surgical First Assistant",
+      "Surgical Scrub Technician",
+      "Surgical Scrub Tech",
+      "Surgical Technician",
+      "Surgical Tech"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9300,7 +10019,23 @@
 
   {
     "name": "Surgical Technologists",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Certified Surgical Technician",
+      "Certified Surgical Technologist",
+      "CST",
+      "Operating Room Surgical Technician",
+      "OR St",
+      "Operating Room Technician",
+      "OR Tech",
+      "Operating Room Technologist",
+      "OR Tech",
+      "Surgical Scrub Technician",
+      "Surgical Scrub Technologist",
+      "Surgical Scrub Tech",
+      "Surgical Technician",
+      "Surgical Technologist",
+      "Surgical Tech"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9311,7 +10046,18 @@
 
   {
     "name": "Survey Researchers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Data Analyst",
+      "Field Interviewer",
+      "Market Survey Representative",
+      "Methodologist",
+      "Public Opinion Analyst",
+      "Research Associate",
+      "Research Fellow",
+      "Research Interviewer",
+      "Survey Research Consultant",
+      "Telephone Interviewer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9322,7 +10068,18 @@
 
   {
     "name": "Surveying & Mapping Technicians",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Aerotriangulation Specialist",
+      "Engineering Technician",
+      "Geospatial Analyst",
+      "Mapping Editor",
+      "Mapping Technician",
+      "Photogrammetric Compilation Specialist",
+      "Photogrammetric Technician",
+      "Stereoplotter Operator",
+      "Survey Technician",
+      "Tax Map Technician"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9333,7 +10090,14 @@
 
   {
     "name": "Surveyors",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "City Surveyor",
+      "County Surveyor",
+      "Land Surveyor",
+      "Mine Surveyor",
+      "Registered Land Surveyor",
+      "Surveyor"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9344,7 +10108,18 @@
 
   {
     "name": "Sustainability Specialists",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Campus Energy Coordinator",
+      "Energy and Sustainability Strategic Advisor",
+      "Sustainability Advisor",
+      "Sustainability Champion",
+      "Sustainability Consultant",
+      "Sustainability Coordinator",
+      "Sustainability Specialist",
+      "Sustainable Design Champion",
+      "Sustainable Design Consultant",
+      "Sustainable Design Coordinator"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9355,7 +10130,22 @@
 
   {
     "name": "Switchboard Operators, Including Answering Service",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "CBX Operator",
+      "Computerized Branch Exchange Operator",
+      "Central Communications Specialist",
+      "Communications Operator",
+      "Communications Specialist",
+      "Information Specialist",
+      "PBX Operator",
+      "Private Branch Exchange Operator",
+      "Switchboard Operator",
+      "SB Operator",
+      "Switchboard Receptionist",
+      "SB Receptionist",
+      "Telecommunications Clerk",
+      "Telecommunications Operator"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9366,7 +10156,18 @@
 
   {
     "name": "Tailors, Dressmakers, & Custom Sewers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Alterations Expert",
+      "Alterations Sewer",
+      "Bridal Designer",
+      "Clothing Pattern Designer",
+      "Custom Dressmaker",
+      "Custom Sewer",
+      "Custom Tailor",
+      "Dressmaker",
+      "Seamstress",
+      "Tailor"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9377,7 +10178,16 @@
 
   {
     "name": "Talent Directors",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Artistic Director",
+      "Casting Agent",
+      "Casting Coordinator",
+      "Casting Director",
+      "Extras Casting Director",
+      "Model Booker",
+      "Talent Producer",
+      "Talent Scout"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9388,7 +10198,19 @@
 
   {
     "name": "Tank Car, Truck, & Ship Loaders",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Load Out Person",
+      "Loader",
+      "Loader Operator",
+      "Loading Operator",
+      "Oil Movements Operator",
+      "PVC Loader",
+      "Polyvinyl Chloride Loader",
+      "Rail Car Loader",
+      "Tank Car Loader",
+      "Tankerman",
+      "Truck Loader"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9399,7 +10221,7 @@
 
   {
     "name": "Tapers",
-    "alsoCalled": [],
+    "alsoCalled": ["Drywall Finisher", "Drywall Mechanic", "Drywall Taper", "Finisher", "Taper"],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9410,7 +10232,18 @@
 
   {
     "name": "Tax Examiners & Collectors, & Revenue Agents",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "City Tax Auditor",
+      "Collections Specialist",
+      "Revenue Agent",
+      "Revenue Collector",
+      "Revenue Officer",
+      "Revenue Specialist",
+      "Tax Collector",
+      "Tax Compliance Officer",
+      "Tax Examiner",
+      "Tax Examining Technician"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9421,7 +10254,19 @@
 
   {
     "name": "Tax Preparers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Certified Income Tax Preparer",
+      "CTP",
+      "Corporate Tax Preparer",
+      "Enrolled Agent",
+      "Income Tax Preparer",
+      "Tax Advisor",
+      "Tax Associate",
+      "Tax Consultant",
+      "Tax Preparer",
+      "Tax Professional",
+      "Tax Specialist"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9432,7 +10277,7 @@
 
   {
     "name": "Taxi Drivers",
-    "alsoCalled": [],
+    "alsoCalled": ["Cab Driver", "Taxi Cab Driver", "Taxi Driver"],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9443,7 +10288,21 @@
 
   {
     "name": "Teaching Assistants, Postsecondary",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Graduate Assistant",
+      "Graduate Fellow",
+      "Graduate Research Assistant",
+      "Graduate Student",
+      "Graduate Student Instructor",
+      "GSI",
+      "Graduate Teaching Assistant",
+      "GTA",
+      "Research Assistant",
+      "RA",
+      "Teaching Assistant",
+      "TA",
+      "Teaching Fellow"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9454,7 +10313,14 @@
 
   {
     "name": "Teaching Assistants, Preschool, Elementary, Middle, & Secondary School",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Educational Assistant",
+      "Instructional Assistant",
+      "Paraeducator",
+      "Paraprofessional",
+      "Teacher Aide",
+      "Teacher Assistant"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9465,7 +10331,11 @@
 
   {
     "name": "Teaching Assistants, Special Education",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Special Education Aide",
+      "Special Education Paraprofessional",
+      "Special Education Teacher Assistant"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9476,7 +10346,18 @@
 
   {
     "name": "Team Assemblers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Assembler",
+      "Assembly Associate",
+      "Assembly Line Machine Operator",
+      "Assembly Line Worker",
+      "Assembly Operator",
+      "Assembly Technician",
+      "Certified Composites Technician",
+      "CCT",
+      "Manufacturing Associate",
+      "Production Line Worker"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9487,7 +10368,17 @@
 
   {
     "name": "Technical Writers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Documentation Designer",
+      "Documentation Specialist",
+      "Engineering Writer",
+      "Information Developer",
+      "Medical Writer",
+      "Narrative Writer",
+      "Requirements Analyst",
+      "Technical Communicator",
+      "Technical Writer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9498,7 +10389,21 @@
 
   {
     "name": "Telecommunications Engineering Specialists",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Communications Engineer",
+      "Engineer",
+      "Infrastructure Engineer",
+      "Network Engineer",
+      "Registered Communications Distribution Designer",
+      "RCDD",
+      "Telecommunication Design Analyst",
+      "Telecom Design Analyst",
+      "Telecommunication Design Engineer",
+      "Telecom Design Engineer",
+      "Telecommunication Engineer",
+      "Telecom Engineer",
+      "Telecommunication Systems Designer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9509,7 +10414,19 @@
 
   {
     "name": "Telecommunications Equipment Installers & Repairers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Broadband Technician",
+      "Central Office Technician",
+      "Combination Technician",
+      "Customer Service Technician",
+      "CST",
+      "Field Technician",
+      "Install and Repair Technician",
+      "Installer",
+      "Outside Plant Technician",
+      "Service Technician",
+      "Telecommunications Technician"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9520,7 +10437,20 @@
 
   {
     "name": "Telecommunications Line Installers & Repairers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Cable Splicer",
+      "Cable Technician",
+      "Cable Television Technician",
+      "Cable TV Tech",
+      "Combination Technician",
+      "Field Service Technician",
+      "Installation and Repair Technician",
+      "I and R Technician",
+      "Installer",
+      "Lineman",
+      "Outside Plant Technician",
+      "Service Technician"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9531,7 +10461,16 @@
 
   {
     "name": "Telemarketers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Telemarketer",
+      "Telemarketing Sales Representative",
+      "Telephone Sales Representative",
+      "TSR",
+      "Telephone Service Representative",
+      "TSR",
+      "Telesales Representative",
+      "Telesales Specialist"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9542,7 +10481,17 @@
 
   {
     "name": "Telephone Operators",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "411 Directory Assistance Operator",
+      "Directory Assistance Operator",
+      "Information Specialist",
+      "Live Source Operator",
+      "Long Distance Operator",
+      "LD Operator",
+      "Telecommunications Operator",
+      "Telephone Operator",
+      "Toll Operator"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9553,7 +10502,20 @@
 
   {
     "name": "Tellers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Account Representative",
+      "Bank Teller",
+      "Branch Operations Specialist",
+      "Customer Relationship Specialist",
+      "Customer Service Associate",
+      "CSA",
+      "Financial Services Representative",
+      "FSR",
+      "Member Services Representative",
+      "Personal Banking Representative",
+      "Roving Teller",
+      "Teller"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9564,7 +10526,18 @@
 
   {
     "name": "Terrazzo Workers & Finishers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Grinder",
+      "Installer",
+      "Terrazzo Finisher",
+      "Terrazzo Grinder",
+      "Terrazzo Installer",
+      "Terrazzo Journeyman",
+      "Terrazzo Laborer",
+      "Terrazzo Mechanic",
+      "Terrazzo Tile Setter",
+      "Terrazzo Worker"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9575,7 +10548,18 @@
 
   {
     "name": "Textile Bleaching & Dyeing Machine Operators & Tenders",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Beck Operator",
+      "Drug Room Operator",
+      "Dye Line Operator",
+      "Dye Machine Operator",
+      "Dye Operator",
+      "Dyer",
+      "Jet Dyeing Machine Operator",
+      "Jet Operator",
+      "Machine Operator",
+      "Tub Operator"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9586,7 +10570,19 @@
 
   {
     "name": "Textile Cutting Machine Setters, Operators, & Tenders",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Automated Cutting Machine Operator",
+      "CNC Cutting Operator",
+      "Computer Numerical Control Cutting Operator",
+      "Cutter",
+      "Cutter Operator",
+      "Die Cut Operator",
+      "Fabric Cutter",
+      "Laser Operator",
+      "Spread Cutter",
+      "Spreader",
+      "Textile Slitting Machine Operator"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9597,7 +10593,15 @@
 
   {
     "name": "Textile Knitting & Weaving Machine Setters, Operators, & Tenders",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Knitter",
+      "Knitting Machine Operator",
+      "Loom Fixer",
+      "Tufting Machine Operator",
+      "Warp Knit Operator",
+      "Weaver",
+      "Winder Operator"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9608,7 +10612,19 @@
 
   {
     "name": "Textile Winding, Twisting, & Drawing Out Machine Setters, Operators, & Tenders",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Back Winder",
+      "Cable Operator",
+      "Computer Integrated Manufacturing Operator",
+      "CIM Operator",
+      "Drawing Operator",
+      "Line Operator",
+      "Spinner",
+      "Spinning Operator",
+      "Twister Operator",
+      "Winder Operator",
+      "Winder Tender"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9619,7 +10635,18 @@
 
   {
     "name": "Tile & Stone Setters",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Ceramic Tile Mechanic",
+      "Ceramic Tile Setter",
+      "Marble Mason",
+      "Tile and Marble Installer",
+      "Tile and Marble Setter",
+      "Tile Finisher",
+      "Tile Installer",
+      "Tile Mason",
+      "Tile Mechanic",
+      "Tile Setter"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9630,7 +10657,15 @@
 
   {
     "name": "Timing Device Assemblers & Adjusters",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Calibration Specialist",
+      "Calibrator",
+      "Clockmaker",
+      "Horologist",
+      "Time Stamp Assembler",
+      "Watch Technician",
+      "Watchmaker"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9641,7 +10676,18 @@
 
   {
     "name": "Tire Builders",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Buffer",
+      "Recapper",
+      "Retread Associate",
+      "Retread Technician",
+      "Retreader",
+      "Tire Assembler",
+      "Tire Builder",
+      "Tire Retreader",
+      "Tire Technician",
+      "Tread Builder Operator"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9652,7 +10698,17 @@
 
   {
     "name": "Tire Repairers & Changers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Alignment Technician",
+      "Lube Technician",
+      "Service Technician",
+      "Tire Buster",
+      "Tire Changer",
+      "Tire Installer",
+      "Tire Repairer",
+      "Tire Shop Mechanic",
+      "Tire Technician"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9663,7 +10719,16 @@
 
   {
     "name": "Title Examiners, Abstractors, & Searchers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Abstractor",
+      "Commercial Title Examiner",
+      "Searcher",
+      "Title Abstractor",
+      "Title Agent",
+      "Title Examiner",
+      "Title Officer",
+      "Title Searcher"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9674,7 +10739,19 @@
 
   {
     "name": "Tool & Die Makers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Die Machinist",
+      "Die Repair Laborer",
+      "Die Repair Technician",
+      "Die Repair Tech",
+      "Jig and Fixture Repairer",
+      "Tool and Die Machinist",
+      "Tool and Die Maker",
+      "Tool and Fixture Specialist",
+      "Tool Maker",
+      "Tool Repairer",
+      "Trim Die Maker"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9685,7 +10762,17 @@
 
   {
     "name": "Tool Grinders, Filers, & Sharpeners",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Cutter Grinder",
+      "Finisher",
+      "Grinder",
+      "Grinder Operator",
+      "OD Grinder Operator",
+      "Outer Diameter Grinder Operator",
+      "Saw Filer",
+      "Tool and Cutter Grinder",
+      "Tool Grinder"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9696,7 +10783,18 @@
 
   {
     "name": "Tour Guides & Escorts",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Art Museum Docent",
+      "Discovery Guide",
+      "Docent",
+      "Guide",
+      "Historical Interpreter",
+      "Museum Docent",
+      "Museum Educator",
+      "Museum Guide",
+      "Science Interpreter",
+      "Tour Guide"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9707,7 +10805,18 @@
 
   {
     "name": "Traffic Technicians",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Field Traffic Investigator",
+      "Traffic Analyst",
+      "Traffic Control Technician",
+      "Traffic Investigator",
+      "Traffic Signal Technician",
+      "TST",
+      "Traffic Survey Technician",
+      "Traffic Technician",
+      "Transportation Planning Technician",
+      "Transportation Technician"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9718,7 +10827,18 @@
 
   {
     "name": "Training & Development Managers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Development Manager",
+      "Education and Development Manager",
+      "Education Director",
+      "Learning and Development Director",
+      "Learning Manager",
+      "Staff Training and Development Manager",
+      "Training and Development Coordinator",
+      "Training and Development Director",
+      "Training Director",
+      "Training Manager"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9729,7 +10849,19 @@
 
   {
     "name": "Training & Development Specialists",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Computer Training Specialist",
+      "Corporate Trainer",
+      "Job Training Specialist",
+      "Leadership Development Specialist",
+      "Learning and Development Consultant",
+      "Learning and Development Specialist",
+      "L and D Specialist",
+      "Management Development Specialist",
+      "Trainer",
+      "Training and Development Consultant",
+      "Training Specialist"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9740,7 +10872,18 @@
 
   {
     "name": "Transit & Railroad Police",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Law Enforcement Officer",
+      "Patrol Man",
+      "Patrol Officer",
+      "Patrolman",
+      "Police Captain",
+      "Police Patrol Officer",
+      "Police Specialist",
+      "Railroad Police",
+      "Railroad Police Officer",
+      "Transit Police Officer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9751,7 +10894,16 @@
 
   {
     "name": "Transportation Engineers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Engineer",
+      "Project Engineer",
+      "Rail Engineer",
+      "Roadway Designer",
+      "Roadway Engineer",
+      "Traffic Engineer",
+      "Traffic Operations Engineer",
+      "Transportation Engineer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9762,7 +10914,14 @@
 
   {
     "name": "Transportation Inspectors",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Cargo Surveyor",
+      "Inspector",
+      "Marine Cargo Surveyor",
+      "Marine Surveyor",
+      "Petroleum Inspector",
+      "Surveyor"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9773,7 +10932,7 @@
 
   {
     "name": "Transportation Planners",
-    "alsoCalled": [],
+    "alsoCalled": ["Planner", "Transportation Analyst", "Transportation Planner"],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9784,7 +10943,7 @@
 
   {
     "name": "Transportation Security Screeners",
-    "alsoCalled": [],
+    "alsoCalled": ["Security Screener", "Transportation Security Officer", "TSO"],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9795,7 +10954,17 @@
 
   {
     "name": "Transportation Vehicle, Equipment & Systems Inspectors",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Car Inspector",
+      "Carman",
+      "Emissions Inspector",
+      "Inspector",
+      "Quality Assurance Inspector",
+      "Railroad Track Inspector",
+      "Safety Officer",
+      "Smog Technician",
+      "Transit Vehicle Inspector"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9806,7 +10975,18 @@
 
   {
     "name": "Transportation, Storage, & Distribution Managers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Distribution Center Manager",
+      "Distribution Manager",
+      "Fleet Manager",
+      "Global Transportation Manager",
+      "Logistics Director",
+      "Logistics Operations Manager",
+      "Shipping Manager",
+      "Supply Chain Logistics Manager",
+      "Transportation Manager",
+      "Warehouse Supervisor"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9817,7 +10997,18 @@
 
   {
     "name": "Travel Agents",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Auto Travel Counselor",
+      "Beach Expert",
+      "Corporate Travel Consultant",
+      "Destination Specialist",
+      "International Travel Consultant",
+      "Tour Coordinator",
+      "Tour Counselor",
+      "Travel Agent",
+      "Travel Consultant",
+      "Travel Counselor"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9828,7 +11019,18 @@
 
   {
     "name": "Travel Guides",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Cruise Counselor",
+      "Guide",
+      "Naturalist Guide",
+      "Tour Coordinator",
+      "Tour Escort",
+      "Tour Manager",
+      "Tour Operations Specialist",
+      "Tour Operator",
+      "Travel Consultant",
+      "Whitewater Rafting Guide"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9839,7 +11041,16 @@
 
   {
     "name": "Treasurers & Controllers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Comptroller",
+      "Controller",
+      "Corporate Controller",
+      "Corporate Treasurer",
+      "Regional Controller",
+      "School Treasurer",
+      "Treasurer",
+      "Treasury Consultant"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9850,7 +11061,17 @@
 
   {
     "name": "Tree Trimmers & Pruners",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Arborist",
+      "Climber",
+      "Grounds Worker",
+      "Groundsman",
+      "Laborer",
+      "Plant Health Care Technician",
+      "Tree Climber",
+      "Tree Trimmer",
+      "Trimmer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9861,7 +11082,18 @@
 
   {
     "name": "Tutors",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Academic Coach",
+      "Academic Guidance Specialist",
+      "Accounting Tutor",
+      "Educational Advisor",
+      "Finance Tutor",
+      "Grade School Tutor",
+      "Private Mathematics Tutor",
+      "Private Tutor",
+      "Professional Tutor",
+      "Tutor"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9872,7 +11104,19 @@
 
   {
     "name": "Umpires, Referees, & Other Sports Officials",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Basketball Referee",
+      "Diving Judge",
+      "Dressage Judge",
+      "Football Referee",
+      "Horse Show Judge",
+      "Major League Baseball Umpire",
+      "MLB Umpire",
+      "Referee",
+      "Soccer Referee",
+      "Softball Umpire",
+      "Sports Official"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9883,7 +11127,18 @@
 
   {
     "name": "Upholsterers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Box Spring Upholsterer",
+      "Furniture Upholsterer",
+      "Inside Upholsterer",
+      "Sofa Back Upholsterer",
+      "Stapler",
+      "Trimmer",
+      "Upholstered Goods Crafter",
+      "Upholsterer",
+      "Upholstery Cutter",
+      "Upholstery Trimmer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9894,7 +11149,18 @@
 
   {
     "name": "Urban & Regional Planners",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "City Planner",
+      "Community Development Planner",
+      "Community Planner",
+      "Development Technician",
+      "Housing Development Specialist",
+      "Neighborhood Planner",
+      "Planner",
+      "Planning Consultant",
+      "Planning Technician",
+      "Regional Planner"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9905,7 +11171,14 @@
 
   {
     "name": "Urologists",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Acute Care Physician",
+      "MD",
+      "Medical Doctor",
+      "Physician",
+      "Urologic Surgeon",
+      "Urologist"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -9916,7 +11189,17 @@
 
   {
     "name": "Ushers, Lobby Attendants, & Ticket Takers",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Docent",
+      "Lobby Attendant",
+      "Ticket Attendant",
+      "Ticket Taker",
+      "Usher",
+      "Visitor Services Assistant",
+      "Visitor Services Associate",
+      "Visitor Services Representative",
+      "Visitor Services Specialist"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",

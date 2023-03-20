@@ -26,6 +26,7 @@ export default function Careers() {
         : [...sortedCareers, ...filterRemoveNumbers]
     );
   };
+
   return (
     <div>
       {" "}
@@ -33,6 +34,7 @@ export default function Careers() {
       <table>
         <thead>
           <tr>
+            <th>Favorite</th>
             <th>Career</th>
             <th>
               <button onClick={() => handleSortClick()}>Average Income</button>
@@ -41,6 +43,7 @@ export default function Careers() {
         </thead>
         {sortedCareers.map((career) => (
           <tr>
+            <input type='checkbox' />
             <td>{career.name}</td>
             <td>
               {career.salary.national.average.toLocaleString("en-US", {
