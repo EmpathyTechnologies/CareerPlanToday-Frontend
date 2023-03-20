@@ -21,7 +21,7 @@ function App() {
         {careers.map((career) => (
           <tr>
             <td>{career.name}</td>
-            <td>{career.average}</td>
+            <td>{career.salary.national.average}</td>
           </tr>
         ))}
       </table>
