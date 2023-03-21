@@ -18,7 +18,7 @@ function App() {
         <Route path='*' element={<NoMatch />} />
       </Routes>
       <footer>
-        <a href='./termsofuse'>Term of Use</a>
+        <a href='./termsofuse'>Terms of Use</a>
       </footer>
     </div>
   );
