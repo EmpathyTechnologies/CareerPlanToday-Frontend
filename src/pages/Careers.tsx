@@ -1,10 +1,13 @@
 import { useState, useEffect } from "react";
+import CareersTable from "../components/Careers/CareersTable";
 import careersData from "../data/careers.json";
 export default function Careers() {
   const [careers, setCareers] = useState(careersData);
   const [sortedCareers, setSortedCareers] = useState([...careersData]);
-  const [ascending, setAscending] = useState<boolean>(true);
+  const [isAscending, setIsAscending] = useState<boolean>(true);
   const [favoriteCareers, setFavoriteCareers] = useState<any>([]);
+  const [showAllCareers, setShowAllCareers] = useState<boolean>(true);
+
   let alphabetize = false;
 
   const sortByCareer = () => {
@@ -27,14 +30,14 @@ export default function Careers() {
     }
 
     const sortedNumericSalaries = numericSalaries.sort((a: any, b: any) =>
-      ascending
+      isAscending
         ? a.salary.national.average - b.salary.national.average
         : b.salary.national.average - a.salary.national.average
     );
 
-    setAscending(!ascending);
+    setIsAscending(!isAscending);
     setSortedCareers(
-      ascending
+      isAscending
         ? [...nonNumericSalaries, ...sortedNumericSalaries]
         : [...sortedNumericSalaries, ...nonNumericSalaries]
     );
@@ -60,7 +63,9 @@ export default function Careers() {
   return (
     <div>
       <h1>My Career Plan</h1>
-      <h2>Favorite Careers</h2>
+      <button onClick={() => setShowAllCareers(true)}>All Careers</button>
+      <button onClick={() => setShowAllCareers(false)}>Favorite Careers</button>
+      <h2>{showAllCareers ? "All Careers" : "Favorite Careers"}</h2>
       <table>
         <thead>
           <tr>
@@ -74,61 +79,13 @@ export default function Careers() {
           </tr>
         </thead>
         <tbody>
-          {favoriteCareers.map((career: any, index: number) => (
-            <tr>
-              <td>
-                <input
-                  type='checkbox'
-                  checked={career.favorite}
-                  onChange={() => handleCheckboxChange(career.title)}
-                />
-              </td>
-              <td>{career.title}</td>
-              <td>
-                {career.salary.national.average.toLocaleString("en-US", {
-                  style: "currency",
-                  currency: "USD",
-                  minimumFractionDigits: 0,
-                })}
-              </td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-      <h2>All Careers</h2>
-
-      <table>
-        <thead>
-          <tr>
-            <th>Favorite</th>
-            <th>
-              <button onClick={() => sortByCareer()}>Career</button>
-            </th>
-            <th>
-              <button onClick={() => sortByIncome()}>Average Income</button>
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          {sortedCareers.map((career, index) => (
-            <tr>
-              <td>
-                <input
-                  type='checkbox'
-                  checked={career.favorite}
-                  onChange={() => handleCheckboxChange(career.title)}
-                />
-              </td>
-              <td>{career.title}</td>
-              <td>
-                {career.salary.national.average.toLocaleString("en-US", {
-                  style: "currency",
-                  currency: "USD",
-                  minimumFractionDigits: 0,
-                })}
-              </td>
-            </tr>
-          ))}
+          {showAllCareers
+            ? sortedCareers.map((career: any, index: number) => (
+                <CareersTable career={career} handleCheckboxChange={handleCheckboxChange} />
+              ))
+            : favoriteCareers.map((career: any, index: number) => (
+                <CareersTable career={career} handleCheckboxChange={handleCheckboxChange} />
+              ))}
         </tbody>
       </table>
     </div>
