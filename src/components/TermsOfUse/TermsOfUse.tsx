@@ -2,7 +2,7 @@ export default function TermsOfUse() {
   return (
     <div>
       <a href='./'>Home</a>
-      <h2>TermsOfUse</h2>
+      <h2>Terms Of Use</h2>
       <h3>For All Users</h3>
       <div>
         Before using this site, please make sure that you note the following important information:
