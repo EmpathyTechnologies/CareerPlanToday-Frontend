@@ -2,28 +2,36 @@ import { useState } from "react";
 import careers from "../data/careers.json";
 export default function Careers() {
   const [sortedCareers, setSortedCareers] = useState([...careers]);
-  const [sortOrder, setSortOrder] = useState<"asc" | "desc">("desc");
+  const [ascending, setAscending] = useState<boolean>(true);
+  let alphabetize = false;
 
-  const handleSortClick = () => {
-    let filterKeepNumbers = careers.filter(
-      (career) => typeof career.salary.national.average == "number"
-    );
+  const sortByCareer = () => {
+    let sortedCareers = careers.sort();
+    if (!alphabetize) sortedCareers = careers.sort().reverse();
+    setSortedCareers([...sortedCareers]);
+    alphabetize = !alphabetize;
+  };
 
-    let filterRemoveNumbers = careers.filter(
+  const sortByIncome = () => {
+    let removeNumbersArray = careers.filter(
       (career) => typeof career.salary.national.average != "number"
     );
 
-    let sortedCareers = filterKeepNumbers.sort((a: any, b: any) =>
-      sortOrder === "asc"
+    let keepNumbersArray = careers.filter(
+      (career) => typeof career.salary.national.average == "number"
+    );
+
+    keepNumbersArray = keepNumbersArray.sort((a: any, b: any) =>
+      ascending
         ? a.salary.national.average - b.salary.national.average
         : b.salary.national.average - a.salary.national.average
     );
 
-    setSortOrder(sortOrder === "asc" ? "desc" : "asc");
+    setAscending(!ascending);
     setSortedCareers(
-      sortOrder === "asc"
-        ? [...filterRemoveNumbers, ...sortedCareers]
-        : [...sortedCareers, ...filterRemoveNumbers]
+      ascending
+        ? [...removeNumbersArray, ...keepNumbersArray]
+        : [...keepNumbersArray, ...removeNumbersArray]
     );
   };
 
@@ -35,9 +43,12 @@ export default function Careers() {
         <thead>
           <tr>
             <th>Favorite</th>
-            <th>Career</th>
             <th>
-              <button onClick={() => handleSortClick()}>Average Income</button>
+              {" "}
+              <button onClick={() => sortByCareer()}>Career</button>
+            </th>
+            <th>
+              <button onClick={() => sortByIncome()}>Average Income</button>
             </th>
           </tr>
         </thead>
