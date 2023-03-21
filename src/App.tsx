@@ -17,9 +17,6 @@ function App() {
         <Route path='/termsofuse' element={<TermsOfUse />} />
         <Route path='*' element={<NoMatch />} />
       </Routes>
-      <footer>
-        <a href='./termsofuse'>Terms of Use</a>
-      </footer>
     </div>
   );
 }
