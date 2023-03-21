@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import CareersTable from "../components/Careers/CareersTable";
 import careersData from "../data/careers.json";
+import Footer from "../components/Footer/Footer";
 export default function Careers() {
   const [careers] = useState(careersData);
   const [sortedCareers, setSortedCareers] = useState([...careersData]);
@@ -88,6 +89,7 @@ export default function Careers() {
               ))}
         </tbody>
       </table>
+      <Footer />
     </div>
   );
 }
