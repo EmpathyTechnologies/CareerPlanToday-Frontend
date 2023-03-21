@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import CareersTable from "../components/Careers/CareersTable";
 import careersData from "../data/careers.json";
 export default function Careers() {
-  const [careers, setCareers] = useState(careersData);
+  const [careers] = useState(careersData);
   const [sortedCareers, setSortedCareers] = useState([...careersData]);
   const [isAscending, setIsAscending] = useState<boolean>(true);
   const [favoriteCareers, setFavoriteCareers] = useState<any>([]);
@@ -47,7 +47,7 @@ export default function Careers() {
     let newItems = [...sortedCareers];
 
     for (let i = 0; i < sortedCareers.length; i++) {
-      if (newItems[i].title == title) {
+      if (newItems[i].title === title) {
         newItems[i].favorite = !newItems[i].favorite;
       }
     }
