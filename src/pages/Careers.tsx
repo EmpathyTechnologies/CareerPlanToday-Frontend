@@ -41,6 +41,7 @@ export default function Careers() {
             </th>
           </tr>
         </thead>
+
         {sortedCareers.map((career) => (
           <tr>
             <input type='checkbox' />

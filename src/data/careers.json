@@ -1,6 +1,7 @@
 [
   {
     "name": "Accountants & Auditors",
+    "favorite": false,
     "alsoCalled": [
       "Accountant",
       "Accounting Officer",
@@ -84,7 +85,6 @@
       "zip": "NOTE: calc((41,708 unique zip codes in the united states) * (3 for 10th percential, avg & 90th percentile))"
     }
   },
-
   {
     "name": "Actors",
     "alsoCalled": [],
@@ -103,7 +103,9 @@
     "education": "",
     "jobOutlook": "",
     "salary": {
-      "national": { "tenthPercentile": 63260, "average": 105900, "ninetiethPercentile": 206820 }
+      "national": { "tenthPercentile": 63260, "average": 105900, "ninetiethPercentile": 206820 },
+      "state": {},
+      "zip": {}
     }
   },
 
@@ -6992,7 +6994,22 @@
 
   {
     "name": "Orthotists & Prosthetists",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Certified Orthotist",
+      "CO",
+      "Certified Pedorthist",
+      "Certified Prosthetist",
+      "CP",
+      "Certified Prosthetist and Orthotist",
+      "Certified Prosthetist Orthotist",
+      "CPO",
+      "Licensed Prosthetist and Orthotist",
+      "LPO",
+      "Orthotic Practitioner",
+      "Orthotist",
+      "Prosthetic Practitioner",
+      "Prosthetist"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -7003,7 +7020,19 @@
 
   {
     "name": "Outdoor Power Equipment & Other Small Engine Mechanics",
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Chainsaw Technician",
+      "Golf Cart Mechanic",
+      "Lawnmower Repair Mechanic",
+      "Mechanic",
+      "Outdoor Power Equipment Service Technician",
+      "Service Technician",
+      "Service Tech",
+      "Shop Mechanic",
+      "Small Engine Mechanic",
+      "Small Engine Technician",
+      "Small Engine Tech"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
