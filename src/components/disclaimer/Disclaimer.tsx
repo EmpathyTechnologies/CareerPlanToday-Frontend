@@ -2,7 +2,7 @@ export default function Disclaimer() {
   return (
     <div>
       <h2>Disclaimer</h2>
-      <h3>For all users</h3>
+      <h3>For All Users</h3>
       <div>
         Before using this site, please make sure that you note the following important information:
       </div>
