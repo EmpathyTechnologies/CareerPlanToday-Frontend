@@ -1,27 +1,31 @@
-import { useState } from "react";
-import careers from "../data/careers.json";
+import { useState, useEffect } from "react";
+import careersData from "../data/careers.json";
 export default function Careers() {
-  const [sortedCareers, setSortedCareers] = useState([...careers]);
+  const [careers, setCareers] = useState(careersData);
+  const [sortedCareers, setSortedCareers] = useState([...careersData]);
   const [ascending, setAscending] = useState<boolean>(true);
   let alphabetize = false;
 
   const sortByCareer = () => {
     let sortedCareers = careers.sort();
-    if (!alphabetize) sortedCareers = careers.sort().reverse();
+    if (!alphabetize) sortedCareers.reverse();
     setSortedCareers([...sortedCareers]);
     alphabetize = !alphabetize;
   };
 
   const sortByIncome = () => {
-    let removeNumbersArray = careers.filter(
-      (career) => typeof career.salary.national.average != "number"
-    );
+    const nonNumericSalaries = [];
+    const numericSalaries = [];
 
-    let keepNumbersArray = careers.filter(
-      (career) => typeof career.salary.national.average == "number"
-    );
+    for (const career of careers) {
+      if (typeof career.salary.national.average === "number") {
+        numericSalaries.push(career);
+      } else {
+        nonNumericSalaries.push(career);
+      }
+    }
 
-    keepNumbersArray = keepNumbersArray.sort((a: any, b: any) =>
+    const sortedNumericSalaries = numericSalaries.sort((a: any, b: any) =>
       ascending
         ? a.salary.national.average - b.salary.national.average
         : b.salary.national.average - a.salary.national.average
@@ -30,21 +34,25 @@ export default function Careers() {
     setAscending(!ascending);
     setSortedCareers(
       ascending
-        ? [...removeNumbersArray, ...keepNumbersArray]
-        : [...keepNumbersArray, ...removeNumbersArray]
+        ? [...nonNumericSalaries, ...sortedNumericSalaries]
+        : [...sortedNumericSalaries, ...nonNumericSalaries]
     );
+  };
+
+  const handleCheckboxChange = (index: number) => {
+    const newItems = [...sortedCareers];
+    newItems[index].favorite = !newItems[index].favorite;
+    setSortedCareers(newItems);
   };
 
   return (
     <div>
-      {" "}
       <h1>My Career Plan</h1>
       <table>
         <thead>
           <tr>
             <th>Favorite</th>
             <th>
-              {" "}
               <button onClick={() => sortByCareer()}>Career</button>
             </th>
             <th>
@@ -52,20 +60,27 @@ export default function Careers() {
             </th>
           </tr>
         </thead>
-
-        {sortedCareers.map((career) => (
-          <tr>
-            <input type='checkbox' />
-            <td>{career.name}</td>
-            <td>
-              {career.salary.national.average.toLocaleString("en-US", {
-                style: "currency",
-                currency: "USD",
-                minimumFractionDigits: 0,
-              })}
-            </td>
-          </tr>
-        ))}
+        <tbody>
+          {sortedCareers.map((career, index) => (
+            <tr>
+              <td>
+                <input
+                  type='checkbox'
+                  checked={career.favorite}
+                  onChange={() => handleCheckboxChange(index)}
+                />
+              </td>
+              <td>{career.title}</td>
+              <td>
+                {career.salary.national.average.toLocaleString("en-US", {
+                  style: "currency",
+                  currency: "USD",
+                  minimumFractionDigits: 0,
+                })}
+              </td>
+            </tr>
+          ))}
+        </tbody>
       </table>
     </div>
   );

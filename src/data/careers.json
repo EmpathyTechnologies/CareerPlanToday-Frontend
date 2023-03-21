@@ -1,7 +1,7 @@
 [
   {
-    "name": "Accountants & Auditors",
-    "favorite": false,
+    "title": "Accountants & Auditors",
+    "favorite": true,
     "alsoCalled": [
       "Accountant",
       "Accounting Officer",
@@ -86,7 +86,7 @@
     }
   },
   {
-    "name": "Actors",
+    "title": "Actors",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -98,7 +98,7 @@
   },
 
   {
-    "name": "Actuaries",
+    "title": "Actuaries",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -112,7 +112,7 @@
   },
 
   {
-    "name": "Acupuncturists",
+    "title": "Acupuncturists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -124,7 +124,7 @@
   },
 
   {
-    "name": "Acute Care Nurses",
+    "title": "Acute Care Nurses",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -136,7 +136,7 @@
   },
 
   {
-    "name": "Adapted Physical Education Specialists",
+    "title": "Adapted Physical Education Specialists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -148,7 +148,7 @@
   },
 
   {
-    "name": "Adhesive Bonding Machine Operators & Tenders",
+    "title": "Adhesive Bonding Machine Operators & Tenders",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -160,7 +160,7 @@
   },
 
   {
-    "name": "Administrative Law Judges, Adjudicators, & Hearing Officers",
+    "title": "Administrative Law Judges, Adjudicators, & Hearing Officers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -172,7 +172,7 @@
   },
 
   {
-    "name": "Administrative Services Managers",
+    "title": "Administrative Services Managers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -184,7 +184,7 @@
   },
 
   {
-    "name": "Adult Basic Education, Adult Secondary Education, & English as a Second Language Instructors",
+    "title": "Adult Basic Education, Adult Secondary Education, & English as a Second Language Instructors",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -196,7 +196,7 @@
   },
 
   {
-    "name": "Advanced Practice Psychiatric Nurses",
+    "title": "Advanced Practice Psychiatric Nurses",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -208,7 +208,7 @@
   },
 
   {
-    "name": "Advertising & Promotions Managers",
+    "title": "Advertising & Promotions Managers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -220,7 +220,7 @@
   },
 
   {
-    "name": "Advertising Sales Agents",
+    "title": "Advertising Sales Agents",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -232,7 +232,7 @@
   },
 
   {
-    "name": "Aerospace Engineering & Operations Technologists & Technicians",
+    "title": "Aerospace Engineering & Operations Technologists & Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -244,7 +244,7 @@
   },
 
   {
-    "name": "Aerospace Engineers",
+    "title": "Aerospace Engineers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -256,7 +256,7 @@
   },
 
   {
-    "name": "Agents & Business Managers of Artists, Performers, & Athletes",
+    "title": "Agents & Business Managers of Artists, Performers, & Athletes",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -268,7 +268,7 @@
   },
 
   {
-    "name": "Agricultural Engineers",
+    "title": "Agricultural Engineers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -280,7 +280,7 @@
   },
 
   {
-    "name": "Agricultural Equipment Operators",
+    "title": "Agricultural Equipment Operators",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -292,7 +292,7 @@
   },
 
   {
-    "name": "Agricultural Inspectors",
+    "title": "Agricultural Inspectors",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -304,7 +304,7 @@
   },
 
   {
-    "name": "Agricultural Sciences Teachers, Postsecondary",
+    "title": "Agricultural Sciences Teachers, Postsecondary",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -316,7 +316,7 @@
   },
 
   {
-    "name": "Agricultural Technicians",
+    "title": "Agricultural Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -328,7 +328,7 @@
   },
 
   {
-    "name": "Air Traffic Controllers",
+    "title": "Air Traffic Controllers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -340,7 +340,7 @@
   },
 
   {
-    "name": "Aircraft Cargo Handling Supervisors",
+    "title": "Aircraft Cargo Handling Supervisors",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -352,7 +352,7 @@
   },
 
   {
-    "name": "Aircraft Mechanics & Service Technicians",
+    "title": "Aircraft Mechanics & Service Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -364,7 +364,7 @@
   },
 
   {
-    "name": "Aircraft Service Attendants",
+    "title": "Aircraft Service Attendants",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -376,7 +376,7 @@
   },
 
   {
-    "name": "Aircraft Structure, Surfaces, Rigging, & Systems Assemblers",
+    "title": "Aircraft Structure, Surfaces, Rigging, & Systems Assemblers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -388,7 +388,7 @@
   },
 
   {
-    "name": "Airfield Operations Specialists",
+    "title": "Airfield Operations Specialists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -400,7 +400,7 @@
   },
 
   {
-    "name": "Airline Pilots, Copilots, & Flight Engineers",
+    "title": "Airline Pilots, Copilots, & Flight Engineers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -412,7 +412,7 @@
   },
 
   {
-    "name": "Allergists & Immunologists",
+    "title": "Allergists & Immunologists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -424,7 +424,7 @@
   },
 
   {
-    "name": "Ambulance Drivers & Attendants",
+    "title": "Ambulance Drivers & Attendants",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -436,7 +436,7 @@
   },
 
   {
-    "name": "Amusement & Recreation Attendants",
+    "title": "Amusement & Recreation Attendants",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -448,7 +448,7 @@
   },
 
   {
-    "name": "Anesthesiologist Assistants",
+    "title": "Anesthesiologist Assistants",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -460,7 +460,7 @@
   },
 
   {
-    "name": "Anesthesiologists",
+    "title": "Anesthesiologists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -472,7 +472,7 @@
   },
 
   {
-    "name": "Animal Breeders",
+    "title": "Animal Breeders",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -484,7 +484,7 @@
   },
 
   {
-    "name": "Animal Caretakers",
+    "title": "Animal Caretakers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -496,7 +496,7 @@
   },
 
   {
-    "name": "Animal Control Workers",
+    "title": "Animal Control Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -508,7 +508,7 @@
   },
 
   {
-    "name": "Animal Scientists",
+    "title": "Animal Scientists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -520,7 +520,7 @@
   },
 
   {
-    "name": "Animal Trainers",
+    "title": "Animal Trainers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -532,7 +532,7 @@
   },
 
   {
-    "name": "Anthropologists & Archeologists",
+    "title": "Anthropologists & Archeologists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -544,7 +544,7 @@
   },
 
   {
-    "name": "Anthropology & Archeology Teachers, Postsecondary",
+    "title": "Anthropology & Archeology Teachers, Postsecondary",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -556,7 +556,7 @@
   },
 
   {
-    "name": "Appraisers & Assessors of Real Estate",
+    "title": "Appraisers & Assessors of Real Estate",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -568,7 +568,7 @@
   },
 
   {
-    "name": "Appraisers of Personal & Business Property",
+    "title": "Appraisers of Personal & Business Property",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -580,7 +580,7 @@
   },
 
   {
-    "name": "Arbitrators, Mediators, & Conciliators",
+    "title": "Arbitrators, Mediators, & Conciliators",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -592,7 +592,7 @@
   },
 
   {
-    "name": "Architects",
+    "title": "Architects",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -604,7 +604,7 @@
   },
 
   {
-    "name": "Architectural & Civil Drafters",
+    "title": "Architectural & Civil Drafters",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -616,7 +616,7 @@
   },
 
   {
-    "name": "Architectural & Engineering Managers",
+    "title": "Architectural & Engineering Managers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -628,7 +628,7 @@
   },
 
   {
-    "name": "Architecture Teachers, Postsecondary",
+    "title": "Architecture Teachers, Postsecondary",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -640,7 +640,7 @@
   },
 
   {
-    "name": "Archivists",
+    "title": "Archivists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -652,7 +652,7 @@
   },
 
   {
-    "name": "Area, Ethnic, & Cultural Studies Teachers, Postsecondary",
+    "title": "Area, Ethnic, & Cultural Studies Teachers, Postsecondary",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -664,7 +664,7 @@
   },
 
   {
-    "name": "Art Directors",
+    "title": "Art Directors",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -676,7 +676,7 @@
   },
 
   {
-    "name": "Art Therapists",
+    "title": "Art Therapists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -688,7 +688,7 @@
   },
 
   {
-    "name": "Art, Drama, & Music Teachers, Postsecondary",
+    "title": "Art, Drama, & Music Teachers, Postsecondary",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -700,7 +700,7 @@
   },
 
   {
-    "name": "Astronomers",
+    "title": "Astronomers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -712,7 +712,7 @@
   },
 
   {
-    "name": "Athletes & Sports Competitors",
+    "title": "Athletes & Sports Competitors",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -724,7 +724,7 @@
   },
 
   {
-    "name": "Athletic Trainers",
+    "title": "Athletic Trainers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -736,7 +736,7 @@
   },
 
   {
-    "name": "Atmospheric & Space Scientists",
+    "title": "Atmospheric & Space Scientists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -748,7 +748,7 @@
   },
 
   {
-    "name": "Atmospheric, Earth, Marine, & Space Sciences Teachers, Postsecondary",
+    "title": "Atmospheric, Earth, Marine, & Space Sciences Teachers, Postsecondary",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -760,7 +760,7 @@
   },
 
   {
-    "name": "Audio & Video Technicians",
+    "title": "Audio & Video Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -772,7 +772,7 @@
   },
 
   {
-    "name": "Audiologists",
+    "title": "Audiologists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -784,7 +784,7 @@
   },
 
   {
-    "name": "Audiovisual Equipment Installers & Repairers",
+    "title": "Audiovisual Equipment Installers & Repairers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -796,7 +796,7 @@
   },
 
   {
-    "name": "Automotive & Watercraft Service Attendants",
+    "title": "Automotive & Watercraft Service Attendants",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -808,7 +808,7 @@
   },
 
   {
-    "name": "Automotive Body & Related Repairers",
+    "title": "Automotive Body & Related Repairers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -820,7 +820,7 @@
   },
 
   {
-    "name": "Automotive Engineering Technicians",
+    "title": "Automotive Engineering Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -832,7 +832,7 @@
   },
 
   {
-    "name": "Automotive Engineers",
+    "title": "Automotive Engineers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -844,7 +844,7 @@
   },
 
   {
-    "name": "Automotive Glass Installers & Repairers",
+    "title": "Automotive Glass Installers & Repairers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -856,7 +856,7 @@
   },
 
   {
-    "name": "Automotive Service Technicians & Mechanics",
+    "title": "Automotive Service Technicians & Mechanics",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -868,7 +868,7 @@
   },
 
   {
-    "name": "Aviation Inspectors",
+    "title": "Aviation Inspectors",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -880,7 +880,7 @@
   },
 
   {
-    "name": "Avionics Technicians",
+    "title": "Avionics Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -892,7 +892,7 @@
   },
 
   {
-    "name": "Baggage Porters & Bellhops",
+    "title": "Baggage Porters & Bellhops",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -904,7 +904,7 @@
   },
 
   {
-    "name": "Bailiffs",
+    "title": "Bailiffs",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -916,7 +916,7 @@
   },
 
   {
-    "name": "Bakers",
+    "title": "Bakers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -928,7 +928,7 @@
   },
 
   {
-    "name": "Barbers",
+    "title": "Barbers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -940,7 +940,7 @@
   },
 
   {
-    "name": "Baristas",
+    "title": "Baristas",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -952,7 +952,7 @@
   },
 
   {
-    "name": "Bartenders",
+    "title": "Bartenders",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -964,7 +964,7 @@
   },
 
   {
-    "name": "Bicycle Repairers",
+    "title": "Bicycle Repairers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -976,7 +976,7 @@
   },
 
   {
-    "name": "Bill & Account Collectors",
+    "title": "Bill & Account Collectors",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -988,7 +988,7 @@
   },
 
   {
-    "name": "Billing & Posting Clerks",
+    "title": "Billing & Posting Clerks",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1000,7 +1000,7 @@
   },
 
   {
-    "name": "Biochemists & Biophysicists",
+    "title": "Biochemists & Biophysicists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1012,7 +1012,7 @@
   },
 
   {
-    "name": "Bioengineers & Biomedical Engineers",
+    "title": "Bioengineers & Biomedical Engineers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1024,7 +1024,7 @@
   },
 
   {
-    "name": "Biofuels Processing Technicians",
+    "title": "Biofuels Processing Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1036,7 +1036,7 @@
   },
 
   {
-    "name": "Biofuels Production Managers",
+    "title": "Biofuels Production Managers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1048,7 +1048,7 @@
   },
 
   {
-    "name": "Biofuels/Biodiesel Technology & Product Development Managers",
+    "title": "Biofuels/Biodiesel Technology & Product Development Managers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1060,7 +1060,7 @@
   },
 
   {
-    "name": "Bioinformatics Scientists",
+    "title": "Bioinformatics Scientists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1072,7 +1072,7 @@
   },
 
   {
-    "name": "Bioinformatics Technicians",
+    "title": "Bioinformatics Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1084,7 +1084,7 @@
   },
 
   {
-    "name": "Biological Science Teachers, Postsecondary",
+    "title": "Biological Science Teachers, Postsecondary",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1096,7 +1096,7 @@
   },
 
   {
-    "name": "Biological Technicians",
+    "title": "Biological Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1108,7 +1108,7 @@
   },
 
   {
-    "name": "Biologists",
+    "title": "Biologists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1120,7 +1120,7 @@
   },
 
   {
-    "name": "Biomass Plant Technicians",
+    "title": "Biomass Plant Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1132,7 +1132,7 @@
   },
 
   {
-    "name": "Biomass Power Plant Managers",
+    "title": "Biomass Power Plant Managers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1144,7 +1144,7 @@
   },
 
   {
-    "name": "Biostatisticians",
+    "title": "Biostatisticians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1156,7 +1156,7 @@
   },
 
   {
-    "name": "Blockchain Engineers",
+    "title": "Blockchain Engineers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1168,7 +1168,7 @@
   },
 
   {
-    "name": "Boilermakers",
+    "title": "Boilermakers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1180,7 +1180,7 @@
   },
 
   {
-    "name": "Bookkeeping, Accounting, & Auditing Clerks",
+    "title": "Bookkeeping, Accounting, & Auditing Clerks",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1192,7 +1192,7 @@
   },
 
   {
-    "name": "Brickmasons & Blockmasons",
+    "title": "Brickmasons & Blockmasons",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1204,7 +1204,7 @@
   },
 
   {
-    "name": "Bridge & Lock Tenders",
+    "title": "Bridge & Lock Tenders",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1216,7 +1216,7 @@
   },
 
   {
-    "name": "Broadcast Announcers & Radio Disc Jockeys",
+    "title": "Broadcast Announcers & Radio Disc Jockeys",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1228,7 +1228,7 @@
   },
 
   {
-    "name": "Broadcast Technicians",
+    "title": "Broadcast Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1240,7 +1240,7 @@
   },
 
   {
-    "name": "Brokerage Clerks",
+    "title": "Brokerage Clerks",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1252,7 +1252,7 @@
   },
 
   {
-    "name": "Brownfield Redevelopment Specialists & Site Managers",
+    "title": "Brownfield Redevelopment Specialists & Site Managers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1264,7 +1264,7 @@
   },
 
   {
-    "name": "Budget Analysts",
+    "title": "Budget Analysts",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1276,7 +1276,7 @@
   },
 
   {
-    "name": "Bus & Truck Mechanics & Diesel Engine Specialists",
+    "title": "Bus & Truck Mechanics & Diesel Engine Specialists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1288,7 +1288,7 @@
   },
 
   {
-    "name": "Bus Drivers, School",
+    "title": "Bus Drivers, School",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1300,7 +1300,7 @@
   },
 
   {
-    "name": "Bus Drivers, Transit & Intercity",
+    "title": "Bus Drivers, Transit & Intercity",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1312,7 +1312,7 @@
   },
 
   {
-    "name": "Business Continuity Planners",
+    "title": "Business Continuity Planners",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1324,7 +1324,7 @@
   },
 
   {
-    "name": "Business Intelligence Analysts",
+    "title": "Business Intelligence Analysts",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1336,7 +1336,7 @@
   },
 
   {
-    "name": "Business Teachers, Postsecondary",
+    "title": "Business Teachers, Postsecondary",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1348,7 +1348,7 @@
   },
 
   {
-    "name": "Butchers & Meat Cutters",
+    "title": "Butchers & Meat Cutters",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1360,7 +1360,7 @@
   },
 
   {
-    "name": "Buyers & Purchasing Agents, Farm Products",
+    "title": "Buyers & Purchasing Agents, Farm Products",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1372,7 +1372,7 @@
   },
 
   {
-    "name": "Cabinetmakers & Bench Carpenters",
+    "title": "Cabinetmakers & Bench Carpenters",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1384,7 +1384,7 @@
   },
 
   {
-    "name": "Calibration Technologists & Technicians",
+    "title": "Calibration Technologists & Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1396,7 +1396,7 @@
   },
 
   {
-    "name": "Camera & Photographic Equipment Repairers",
+    "title": "Camera & Photographic Equipment Repairers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1408,7 +1408,7 @@
   },
 
   {
-    "name": "Camera Operators, Television, Video, & Film",
+    "title": "Camera Operators, Television, Video, & Film",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1420,7 +1420,7 @@
   },
 
   {
-    "name": "Captains, Mates, & Pilots of Water Vessels",
+    "title": "Captains, Mates, & Pilots of Water Vessels",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1432,7 +1432,7 @@
   },
 
   {
-    "name": "Cardiologists",
+    "title": "Cardiologists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1444,7 +1444,7 @@
   },
 
   {
-    "name": "Cardiovascular Technologists & Technicians",
+    "title": "Cardiovascular Technologists & Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1456,7 +1456,7 @@
   },
 
   {
-    "name": "Career/Technical Education Teachers, Middle School",
+    "title": "Career/Technical Education Teachers, Middle School",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1468,7 +1468,7 @@
   },
 
   {
-    "name": "Career/Technical Education Teachers, Postsecondary",
+    "title": "Career/Technical Education Teachers, Postsecondary",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1480,7 +1480,7 @@
   },
 
   {
-    "name": "Career/Technical Education Teachers, Secondary School",
+    "title": "Career/Technical Education Teachers, Secondary School",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1492,7 +1492,7 @@
   },
 
   {
-    "name": "Cargo & Freight Agents",
+    "title": "Cargo & Freight Agents",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1504,7 +1504,7 @@
   },
 
   {
-    "name": "Carpenters",
+    "title": "Carpenters",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1516,7 +1516,7 @@
   },
 
   {
-    "name": "Carpet Installers",
+    "title": "Carpet Installers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1528,7 +1528,7 @@
   },
 
   {
-    "name": "Cartographers & Photogrammetrists",
+    "title": "Cartographers & Photogrammetrists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1540,7 +1540,7 @@
   },
 
   {
-    "name": "Cashiers",
+    "title": "Cashiers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1552,7 +1552,7 @@
   },
 
   {
-    "name": "Cement Masons & Concrete Finishers",
+    "title": "Cement Masons & Concrete Finishers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1563,7 +1563,7 @@
     }
   },
   {
-    "name": "Chefs & Head Cooks",
+    "title": "Chefs & Head Cooks",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1575,7 +1575,7 @@
   },
 
   {
-    "name": "Chemical Engineers",
+    "title": "Chemical Engineers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1587,7 +1587,7 @@
   },
 
   {
-    "name": "Chemical Equipment Operators & Tenders",
+    "title": "Chemical Equipment Operators & Tenders",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1599,7 +1599,7 @@
   },
 
   {
-    "name": "Chemical Plant & System Operators",
+    "title": "Chemical Plant & System Operators",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1611,7 +1611,7 @@
   },
 
   {
-    "name": "Chemical Technicians",
+    "title": "Chemical Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1623,7 +1623,7 @@
   },
 
   {
-    "name": "Chemistry Teachers, Postsecondary",
+    "title": "Chemistry Teachers, Postsecondary",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1635,7 +1635,7 @@
   },
 
   {
-    "name": "Chemists",
+    "title": "Chemists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1647,7 +1647,7 @@
   },
 
   {
-    "name": "Chief Executives",
+    "title": "Chief Executives",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1659,7 +1659,7 @@
   },
 
   {
-    "name": "Chief Sustainability Officers",
+    "title": "Chief Sustainability Officers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1671,7 +1671,7 @@
   },
 
   {
-    "name": "Child, Family, & School Social Workers",
+    "title": "Child, Family, & School Social Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1683,7 +1683,7 @@
   },
 
   {
-    "name": "Childcare Workers",
+    "title": "Childcare Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1695,7 +1695,7 @@
   },
 
   {
-    "name": "Chiropractors",
+    "title": "Chiropractors",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1707,7 +1707,7 @@
   },
 
   {
-    "name": "Choreographers",
+    "title": "Choreographers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1719,7 +1719,7 @@
   },
 
   {
-    "name": "Civil Engineering Technologists & Technicians",
+    "title": "Civil Engineering Technologists & Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1731,7 +1731,7 @@
   },
 
   {
-    "name": "Civil Engineers",
+    "title": "Civil Engineers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1742,7 +1742,7 @@
     }
   },
   {
-    "name": "Claims Adjusters, Examiners, & Investigators",
+    "title": "Claims Adjusters, Examiners, & Investigators",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1754,7 +1754,7 @@
   },
 
   {
-    "name": "Cleaners of Vehicles & Equipment",
+    "title": "Cleaners of Vehicles & Equipment",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1766,7 +1766,7 @@
   },
 
   {
-    "name": "Cleaning, Washing, & Metal Pickling Equipment Operators & Tenders",
+    "title": "Cleaning, Washing, & Metal Pickling Equipment Operators & Tenders",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1778,7 +1778,7 @@
   },
 
   {
-    "name": "Clergy",
+    "title": "Clergy",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1790,7 +1790,7 @@
   },
 
   {
-    "name": "Climate Change Policy Analysts",
+    "title": "Climate Change Policy Analysts",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1802,7 +1802,7 @@
   },
 
   {
-    "name": "Clinical & Counseling Psychologists",
+    "title": "Clinical & Counseling Psychologists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1814,7 +1814,7 @@
   },
 
   {
-    "name": "Clinical Data Managers",
+    "title": "Clinical Data Managers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1826,7 +1826,7 @@
   },
 
   {
-    "name": "Clinical Neuropsychologists",
+    "title": "Clinical Neuropsychologists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1838,7 +1838,7 @@
   },
 
   {
-    "name": "Clinical Nurse Specialists",
+    "title": "Clinical Nurse Specialists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1850,7 +1850,7 @@
   },
 
   {
-    "name": "Clinical Research Coordinators",
+    "title": "Clinical Research Coordinators",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1862,7 +1862,7 @@
   },
 
   {
-    "name": "Coaches & Scouts",
+    "title": "Coaches & Scouts",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1874,7 +1874,7 @@
   },
 
   {
-    "name": "Coating, Painting, & Spraying Machine Setters, Operators, & Tenders",
+    "title": "Coating, Painting, & Spraying Machine Setters, Operators, & Tenders",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1886,7 +1886,7 @@
   },
 
   {
-    "name": "Coil Winders, Tapers, & Finishers",
+    "title": "Coil Winders, Tapers, & Finishers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1898,7 +1898,7 @@
   },
 
   {
-    "name": "Coin, Vending, & Amusement Machine Servicers & Repairers",
+    "title": "Coin, Vending, & Amusement Machine Servicers & Repairers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1910,7 +1910,7 @@
   },
 
   {
-    "name": "Commercial & Industrial Designers",
+    "title": "Commercial & Industrial Designers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1922,7 +1922,7 @@
   },
 
   {
-    "name": "Commercial Divers",
+    "title": "Commercial Divers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1934,7 +1934,7 @@
   },
 
   {
-    "name": "Commercial Pilots",
+    "title": "Commercial Pilots",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1946,7 +1946,7 @@
   },
 
   {
-    "name": "Communications Teachers, Postsecondary",
+    "title": "Communications Teachers, Postsecondary",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1958,7 +1958,7 @@
   },
 
   {
-    "name": "Community Health Workers",
+    "title": "Community Health Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1970,7 +1970,7 @@
   },
 
   {
-    "name": "Compensation & Benefits Managers",
+    "title": "Compensation & Benefits Managers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1982,7 +1982,7 @@
   },
 
   {
-    "name": "Compensation, Benefits, & Job Analysis Specialists",
+    "title": "Compensation, Benefits, & Job Analysis Specialists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -1994,7 +1994,7 @@
   },
 
   {
-    "name": "Compliance Managers",
+    "title": "Compliance Managers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2006,7 +2006,7 @@
   },
 
   {
-    "name": "Compliance Officers",
+    "title": "Compliance Officers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2018,7 +2018,7 @@
   },
 
   {
-    "name": "Computer & Information Research Scientists",
+    "title": "Computer & Information Research Scientists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2030,7 +2030,7 @@
   },
 
   {
-    "name": "Computer & Information Systems Managers",
+    "title": "Computer & Information Systems Managers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2042,7 +2042,7 @@
   },
 
   {
-    "name": "Computer Hardware Engineers",
+    "title": "Computer Hardware Engineers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2054,7 +2054,7 @@
   },
 
   {
-    "name": "Computer Network Architects",
+    "title": "Computer Network Architects",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2066,7 +2066,7 @@
   },
 
   {
-    "name": "Computer Network Support Specialists",
+    "title": "Computer Network Support Specialists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2078,7 +2078,7 @@
   },
 
   {
-    "name": "Computer Numerically Controlled Tool Operators",
+    "title": "Computer Numerically Controlled Tool Operators",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2090,7 +2090,7 @@
   },
 
   {
-    "name": "Computer Numerically Controlled Tool Programmers",
+    "title": "Computer Numerically Controlled Tool Programmers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2102,7 +2102,7 @@
   },
 
   {
-    "name": "Computer Programmers",
+    "title": "Computer Programmers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2114,7 +2114,7 @@
   },
 
   {
-    "name": "Computer Science Teachers, Postsecondary",
+    "title": "Computer Science Teachers, Postsecondary",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2126,7 +2126,7 @@
   },
 
   {
-    "name": "Computer Systems Analysts",
+    "title": "Computer Systems Analysts",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2138,7 +2138,7 @@
   },
 
   {
-    "name": "Computer Systems Engineers/Architects",
+    "title": "Computer Systems Engineers/Architects",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2150,7 +2150,7 @@
   },
 
   {
-    "name": "Computer User Support Specialists",
+    "title": "Computer User Support Specialists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2162,7 +2162,7 @@
   },
 
   {
-    "name": "Computer, Automated Teller, & Office Machine Repairers",
+    "title": "Computer, Automated Teller, & Office Machine Repairers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2174,7 +2174,7 @@
   },
 
   {
-    "name": "Concierges",
+    "title": "Concierges",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2186,7 +2186,7 @@
   },
 
   {
-    "name": "Conservation Scientists",
+    "title": "Conservation Scientists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2198,7 +2198,7 @@
   },
 
   {
-    "name": "Construction & Building Inspectors",
+    "title": "Construction & Building Inspectors",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2210,7 +2210,7 @@
   },
 
   {
-    "name": "Construction Laborers",
+    "title": "Construction Laborers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2222,7 +2222,7 @@
   },
 
   {
-    "name": "Construction Managers",
+    "title": "Construction Managers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2234,7 +2234,7 @@
   },
 
   {
-    "name": "Continuous Mining Machine Operators",
+    "title": "Continuous Mining Machine Operators",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2246,7 +2246,7 @@
   },
 
   {
-    "name": "Control & Valve Installers & Repairers",
+    "title": "Control & Valve Installers & Repairers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2258,7 +2258,7 @@
   },
 
   {
-    "name": "Conveyor Operators & Tenders",
+    "title": "Conveyor Operators & Tenders",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2270,7 +2270,7 @@
   },
 
   {
-    "name": "Cooks, Fast Food",
+    "title": "Cooks, Fast Food",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2282,7 +2282,7 @@
   },
 
   {
-    "name": "Cooks, Institution & Cafeteria",
+    "title": "Cooks, Institution & Cafeteria",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2294,7 +2294,7 @@
   },
 
   {
-    "name": "Cooks, Private Household",
+    "title": "Cooks, Private Household",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2306,7 +2306,7 @@
   },
 
   {
-    "name": "Cooks, Restaurant",
+    "title": "Cooks, Restaurant",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2318,7 +2318,7 @@
   },
 
   {
-    "name": "Cooks, Short Order",
+    "title": "Cooks, Short Order",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2330,7 +2330,7 @@
   },
 
   {
-    "name": "Cooling & Freezing Equipment Operators & Tenders",
+    "title": "Cooling & Freezing Equipment Operators & Tenders",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2342,7 +2342,7 @@
   },
 
   {
-    "name": "Coroners",
+    "title": "Coroners",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2354,7 +2354,7 @@
   },
 
   {
-    "name": "Correctional Officers & Jailers",
+    "title": "Correctional Officers & Jailers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2366,7 +2366,7 @@
   },
 
   {
-    "name": "Correspondence Clerks",
+    "title": "Correspondence Clerks",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2378,7 +2378,7 @@
   },
 
   {
-    "name": "Cost Estimators",
+    "title": "Cost Estimators",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2390,7 +2390,7 @@
   },
 
   {
-    "name": "Costume Attendants",
+    "title": "Costume Attendants",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2402,7 +2402,7 @@
   },
 
   {
-    "name": "Counter & Rental Clerks",
+    "title": "Counter & Rental Clerks",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2414,7 +2414,7 @@
   },
 
   {
-    "name": "Couriers & Messengers",
+    "title": "Couriers & Messengers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2426,7 +2426,7 @@
   },
 
   {
-    "name": "Court Reporters & Simultaneous Captioners",
+    "title": "Court Reporters & Simultaneous Captioners",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2438,7 +2438,7 @@
   },
 
   {
-    "name": "Court, Municipal, & License Clerks",
+    "title": "Court, Municipal, & License Clerks",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2450,7 +2450,7 @@
   },
 
   {
-    "name": "Craft Artists",
+    "title": "Craft Artists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2462,7 +2462,7 @@
   },
 
   {
-    "name": "Crane & Tower Operators",
+    "title": "Crane & Tower Operators",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2474,7 +2474,7 @@
   },
 
   {
-    "name": "Credit Analysts",
+    "title": "Credit Analysts",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2486,7 +2486,7 @@
   },
 
   {
-    "name": "Credit Authorizers, Checkers, & Clerks",
+    "title": "Credit Authorizers, Checkers, & Clerks",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2498,7 +2498,7 @@
   },
 
   {
-    "name": "Credit Counselors",
+    "title": "Credit Counselors",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2510,7 +2510,7 @@
   },
 
   {
-    "name": "Crematory Operators",
+    "title": "Crematory Operators",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2522,7 +2522,7 @@
   },
 
   {
-    "name": "Criminal Justice & Law Enforcement Teachers, Postsecondary",
+    "title": "Criminal Justice & Law Enforcement Teachers, Postsecondary",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2534,7 +2534,7 @@
   },
 
   {
-    "name": "Critical Care Nurses",
+    "title": "Critical Care Nurses",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2546,7 +2546,7 @@
   },
 
   {
-    "name": "Crossing Guards & Flaggers",
+    "title": "Crossing Guards & Flaggers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2558,7 +2558,7 @@
   },
 
   {
-    "name": "Crushing, Grinding, & Polishing Machine Setters, Operators, & Tenders",
+    "title": "Crushing, Grinding, & Polishing Machine Setters, Operators, & Tenders",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2570,7 +2570,7 @@
   },
 
   {
-    "name": "Curators",
+    "title": "Curators",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2582,7 +2582,7 @@
   },
 
   {
-    "name": "Customer Service Representatives",
+    "title": "Customer Service Representatives",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2594,7 +2594,7 @@
   },
 
   {
-    "name": "Customs & Border Protection Officers",
+    "title": "Customs & Border Protection Officers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2606,7 +2606,7 @@
   },
 
   {
-    "name": "Customs Brokers",
+    "title": "Customs Brokers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2618,7 +2618,7 @@
   },
 
   {
-    "name": "Cutters & Trimmers, Hand",
+    "title": "Cutters & Trimmers, Hand",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2630,7 +2630,7 @@
   },
 
   {
-    "name": "Cutting & Slicing Machine Setters, Operators, & Tenders",
+    "title": "Cutting & Slicing Machine Setters, Operators, & Tenders",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2642,7 +2642,7 @@
   },
 
   {
-    "name": "Cutting, Punching, & Press Machine Setters, Operators, & Tenders, Metal & Plastic",
+    "title": "Cutting, Punching, & Press Machine Setters, Operators, & Tenders, Metal & Plastic",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2654,7 +2654,7 @@
   },
 
   {
-    "name": "Cytogenetic Technologists",
+    "title": "Cytogenetic Technologists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2666,7 +2666,7 @@
   },
 
   {
-    "name": "Cytotechnologists",
+    "title": "Cytotechnologists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2678,7 +2678,7 @@
   },
 
   {
-    "name": "Dancers",
+    "title": "Dancers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2690,7 +2690,7 @@
   },
 
   {
-    "name": "Data Entry Keyers",
+    "title": "Data Entry Keyers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2702,7 +2702,7 @@
   },
 
   {
-    "name": "Data Scientists",
+    "title": "Data Scientists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2714,7 +2714,7 @@
   },
 
   {
-    "name": "Data Warehousing Specialists",
+    "title": "Data Warehousing Specialists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2726,7 +2726,7 @@
   },
 
   {
-    "name": "Database Administrators",
+    "title": "Database Administrators",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2738,7 +2738,7 @@
   },
 
   {
-    "name": "Database Architects",
+    "title": "Database Architects",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2750,7 +2750,7 @@
   },
 
   {
-    "name": "Demonstrators & Product Promoters",
+    "title": "Demonstrators & Product Promoters",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2762,7 +2762,7 @@
   },
 
   {
-    "name": "Dental Assistants",
+    "title": "Dental Assistants",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2774,7 +2774,7 @@
   },
 
   {
-    "name": "Dental Hygienists",
+    "title": "Dental Hygienists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2786,7 +2786,7 @@
   },
 
   {
-    "name": "Dental Laboratory Technicians",
+    "title": "Dental Laboratory Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2798,7 +2798,7 @@
   },
 
   {
-    "name": "Dentists, General",
+    "title": "Dentists, General",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2810,7 +2810,7 @@
   },
 
   {
-    "name": "Dermatologists",
+    "title": "Dermatologists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2822,7 +2822,7 @@
   },
 
   {
-    "name": "Derrick Operators, Oil & Gas",
+    "title": "Derrick Operators, Oil & Gas",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2834,7 +2834,7 @@
   },
 
   {
-    "name": "Desktop Publishers",
+    "title": "Desktop Publishers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2846,7 +2846,7 @@
   },
 
   {
-    "name": "Detectives & Criminal Investigators",
+    "title": "Detectives & Criminal Investigators",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2858,7 +2858,7 @@
   },
 
   {
-    "name": "Diagnostic Medical Sonographers",
+    "title": "Diagnostic Medical Sonographers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2870,7 +2870,7 @@
   },
 
   {
-    "name": "Dietetic Technicians",
+    "title": "Dietetic Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2882,7 +2882,7 @@
   },
 
   {
-    "name": "Dietitians & Nutritionists",
+    "title": "Dietitians & Nutritionists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2894,7 +2894,7 @@
   },
 
   {
-    "name": "Digital Forensics Analysts",
+    "title": "Digital Forensics Analysts",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2906,7 +2906,7 @@
   },
 
   {
-    "name": "Dining Room & Cafeteria Attendants & Bartender Helpers",
+    "title": "Dining Room & Cafeteria Attendants & Bartender Helpers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2918,7 +2918,7 @@
   },
 
   {
-    "name": "Directors, Religious Activities & Education",
+    "title": "Directors, Religious Activities & Education",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2930,7 +2930,7 @@
   },
 
   {
-    "name": "Disc Jockeys",
+    "title": "Disc Jockeys",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2942,7 +2942,7 @@
   },
 
   {
-    "name": "Dishwashers",
+    "title": "Dishwashers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2954,7 +2954,7 @@
   },
 
   {
-    "name": "Dispatchers",
+    "title": "Dispatchers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2966,7 +2966,7 @@
   },
 
   {
-    "name": "Document Management Specialists",
+    "title": "Document Management Specialists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2978,7 +2978,7 @@
   },
 
   {
-    "name": "Door-to-Door Sales Workers, News & Street Vendors, & Related Workers",
+    "title": "Door-to-Door Sales Workers, News & Street Vendors, & Related Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -2990,7 +2990,7 @@
   },
 
   {
-    "name": "Dredge Operators",
+    "title": "Dredge Operators",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3002,7 +3002,7 @@
   },
 
   {
-    "name": "Drilling & Boring Machine Tool Setters, Operators, & Tenders, Metal & Plastic",
+    "title": "Drilling & Boring Machine Tool Setters, Operators, & Tenders, Metal & Plastic",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3014,7 +3014,7 @@
   },
 
   {
-    "name": "Driver/Sales Workers",
+    "title": "Driver/Sales Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3026,7 +3026,7 @@
   },
 
   {
-    "name": "Drywall & Ceiling Tile Installers",
+    "title": "Drywall & Ceiling Tile Installers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3038,7 +3038,7 @@
   },
 
   {
-    "name": "Earth Drillers",
+    "title": "Earth Drillers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3050,7 +3050,7 @@
   },
 
   {
-    "name": "Economics Teachers, Postsecondary",
+    "title": "Economics Teachers, Postsecondary",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3062,7 +3062,7 @@
   },
 
   {
-    "name": "Economists",
+    "title": "Economists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3074,7 +3074,7 @@
   },
 
   {
-    "name": "Editors",
+    "title": "Editors",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3086,7 +3086,7 @@
   },
 
   {
-    "name": "Education & Childcare Administrators, Preschool & Daycare",
+    "title": "Education & Childcare Administrators, Preschool & Daycare",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3098,7 +3098,7 @@
   },
 
   {
-    "name": "Education Administrators, Kindergarten through Secondary",
+    "title": "Education Administrators, Kindergarten through Secondary",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3110,7 +3110,7 @@
   },
 
   {
-    "name": "Education Administrators, Postsecondary",
+    "title": "Education Administrators, Postsecondary",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3122,7 +3122,7 @@
   },
 
   {
-    "name": "Education Teachers, Postsecondary",
+    "title": "Education Teachers, Postsecondary",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3134,7 +3134,7 @@
   },
 
   {
-    "name": "Educational, Guidance, & Career Counselors & Advisors",
+    "title": "Educational, Guidance, & Career Counselors & Advisors",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3146,7 +3146,7 @@
   },
 
   {
-    "name": "Electric Motor, Power Tool, & Related Repairers",
+    "title": "Electric Motor, Power Tool, & Related Repairers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3158,7 +3158,7 @@
   },
 
   {
-    "name": "Electrical & Electronic Engineering Technologists & Technicians",
+    "title": "Electrical & Electronic Engineering Technologists & Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3170,7 +3170,7 @@
   },
 
   {
-    "name": "Electrical & Electronic Equipment Assemblers",
+    "title": "Electrical & Electronic Equipment Assemblers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3182,7 +3182,7 @@
   },
 
   {
-    "name": "Electrical & Electronics Drafters",
+    "title": "Electrical & Electronics Drafters",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3194,7 +3194,7 @@
   },
 
   {
-    "name": "Electrical & Electronics Installers & Repairers, Transportation Equipment",
+    "title": "Electrical & Electronics Installers & Repairers, Transportation Equipment",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3206,7 +3206,7 @@
   },
 
   {
-    "name": "Electrical & Electronics Repairers, Commercial & Industrial Equipment",
+    "title": "Electrical & Electronics Repairers, Commercial & Industrial Equipment",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3218,7 +3218,7 @@
   },
 
   {
-    "name": "Electrical & Electronics Repairers, Powerhouse, Substation, & Relay",
+    "title": "Electrical & Electronics Repairers, Powerhouse, Substation, & Relay",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3230,7 +3230,7 @@
   },
 
   {
-    "name": "Electrical Engineers",
+    "title": "Electrical Engineers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3242,7 +3242,7 @@
   },
 
   {
-    "name": "Electrical Power-Line Installers & Repairers",
+    "title": "Electrical Power-Line Installers & Repairers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3254,7 +3254,7 @@
   },
 
   {
-    "name": "Electricians",
+    "title": "Electricians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3266,7 +3266,7 @@
   },
 
   {
-    "name": "Electro-Mechanical & Mechatronics Technologists & Technicians",
+    "title": "Electro-Mechanical & Mechatronics Technologists & Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3278,7 +3278,7 @@
   },
 
   {
-    "name": "Electromechanical Equipment Assemblers",
+    "title": "Electromechanical Equipment Assemblers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3290,7 +3290,7 @@
   },
 
   {
-    "name": "Electronic Equipment Installers & Repairers, Motor Vehicles",
+    "title": "Electronic Equipment Installers & Repairers, Motor Vehicles",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3302,7 +3302,7 @@
   },
 
   {
-    "name": "Electronics Engineers",
+    "title": "Electronics Engineers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3314,7 +3314,7 @@
   },
 
   {
-    "name": "Elementary School Teachers",
+    "title": "Elementary School Teachers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3326,7 +3326,7 @@
   },
 
   {
-    "name": "Elevator & Escalator Installers & Repairers",
+    "title": "Elevator & Escalator Installers & Repairers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3338,7 +3338,7 @@
   },
 
   {
-    "name": "Eligibility Interviewers, Government Programs",
+    "title": "Eligibility Interviewers, Government Programs",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3350,7 +3350,7 @@
   },
 
   {
-    "name": "Embalmers",
+    "title": "Embalmers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3362,7 +3362,7 @@
   },
 
   {
-    "name": "Emergency Management Directors",
+    "title": "Emergency Management Directors",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3374,7 +3374,7 @@
   },
 
   {
-    "name": "Emergency Medical Technicians",
+    "title": "Emergency Medical Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3386,7 +3386,7 @@
   },
 
   {
-    "name": "Emergency Medicine Physicians",
+    "title": "Emergency Medicine Physicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3398,7 +3398,7 @@
   },
 
   {
-    "name": "Endoscopy Technicians",
+    "title": "Endoscopy Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3410,7 +3410,7 @@
   },
 
   {
-    "name": "Energy Auditors",
+    "title": "Energy Auditors",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3422,7 +3422,7 @@
   },
 
   {
-    "name": "Energy Engineers",
+    "title": "Energy Engineers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3434,7 +3434,7 @@
   },
 
   {
-    "name": "Engine & Other Machine Assemblers",
+    "title": "Engine & Other Machine Assemblers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3446,7 +3446,7 @@
   },
 
   {
-    "name": "Engineering Teachers, Postsecondary",
+    "title": "Engineering Teachers, Postsecondary",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3458,7 +3458,7 @@
   },
 
   {
-    "name": "English Language & Literature Teachers, Postsecondary",
+    "title": "English Language & Literature Teachers, Postsecondary",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3470,7 +3470,7 @@
   },
 
   {
-    "name": "Entertainment & Recreation Managers",
+    "title": "Entertainment & Recreation Managers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3482,7 +3482,7 @@
   },
 
   {
-    "name": "Environmental Compliance Inspectors",
+    "title": "Environmental Compliance Inspectors",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3494,7 +3494,7 @@
   },
 
   {
-    "name": "Environmental Economists",
+    "title": "Environmental Economists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3506,7 +3506,7 @@
   },
 
   {
-    "name": "Environmental Engineering Technologists & Technicians",
+    "title": "Environmental Engineering Technologists & Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3518,7 +3518,7 @@
   },
 
   {
-    "name": "Environmental Engineers",
+    "title": "Environmental Engineers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3530,7 +3530,7 @@
   },
 
   {
-    "name": "Environmental Restoration Planners",
+    "title": "Environmental Restoration Planners",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3542,7 +3542,7 @@
   },
 
   {
-    "name": "Environmental Science & Protection Technicians, Including Health",
+    "title": "Environmental Science & Protection Technicians, Including Health",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3554,7 +3554,7 @@
   },
 
   {
-    "name": "Environmental Science Teachers, Postsecondary",
+    "title": "Environmental Science Teachers, Postsecondary",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3566,7 +3566,7 @@
   },
 
   {
-    "name": "Environmental Scientists & Specialists, Including Health",
+    "title": "Environmental Scientists & Specialists, Including Health",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3578,7 +3578,7 @@
   },
 
   {
-    "name": "Epidemiologists",
+    "title": "Epidemiologists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3590,7 +3590,7 @@
   },
 
   {
-    "name": "Equal Opportunity Representatives & Officers",
+    "title": "Equal Opportunity Representatives & Officers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3602,7 +3602,7 @@
   },
 
   {
-    "name": "Etchers & Engravers",
+    "title": "Etchers & Engravers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3614,7 +3614,7 @@
   },
 
   {
-    "name": "Excavating & Loading Machine & Dragline Operators, Surface Mining",
+    "title": "Excavating & Loading Machine & Dragline Operators, Surface Mining",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3626,7 +3626,7 @@
   },
 
   {
-    "name": "Executive Secretaries & Executive Administrative Assistants",
+    "title": "Executive Secretaries & Executive Administrative Assistants",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3638,7 +3638,7 @@
   },
 
   {
-    "name": "Exercise Physiologists",
+    "title": "Exercise Physiologists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3650,7 +3650,7 @@
   },
 
   {
-    "name": "Exercise Trainers & Group Fitness Instructors",
+    "title": "Exercise Trainers & Group Fitness Instructors",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3662,7 +3662,7 @@
   },
 
   {
-    "name": "Explosives Workers, Ordnance Handling Experts, & Blasters",
+    "title": "Explosives Workers, Ordnance Handling Experts, & Blasters",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3674,7 +3674,7 @@
   },
 
   {
-    "name": "Extruding & Drawing Machine Setters, Operators, & Tenders, Metal & Plastic",
+    "title": "Extruding & Drawing Machine Setters, Operators, & Tenders, Metal & Plastic",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3686,7 +3686,7 @@
   },
 
   {
-    "name": "Extruding & Forming Machine Setters, Operators, & Tenders, Synthetic & Glass Fibers",
+    "title": "Extruding & Forming Machine Setters, Operators, & Tenders, Synthetic & Glass Fibers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3698,7 +3698,7 @@
   },
 
   {
-    "name": "Extruding, Forming, Pressing, & Compacting Machine Setters, Operators, & Tenders",
+    "title": "Extruding, Forming, Pressing, & Compacting Machine Setters, Operators, & Tenders",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3710,7 +3710,7 @@
   },
 
   {
-    "name": "Fabric & Apparel Patternmakers",
+    "title": "Fabric & Apparel Patternmakers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3722,7 +3722,7 @@
   },
 
   {
-    "name": "Facilities Managers",
+    "title": "Facilities Managers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3734,7 +3734,7 @@
   },
 
   {
-    "name": "Fallers",
+    "title": "Fallers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3746,7 +3746,7 @@
   },
 
   {
-    "name": "Family & Consumer Sciences Teachers, Postsecondary",
+    "title": "Family & Consumer Sciences Teachers, Postsecondary",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3758,7 +3758,7 @@
   },
 
   {
-    "name": "Family Medicine Physicians",
+    "title": "Family Medicine Physicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3770,7 +3770,7 @@
   },
 
   {
-    "name": "Farm & Home Management Educators",
+    "title": "Farm & Home Management Educators",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3782,7 +3782,7 @@
   },
 
   {
-    "name": "Farm Equipment Mechanics & Service Technicians",
+    "title": "Farm Equipment Mechanics & Service Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3794,7 +3794,7 @@
   },
 
   {
-    "name": "Farm Labor Contractors",
+    "title": "Farm Labor Contractors",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3806,7 +3806,7 @@
   },
 
   {
-    "name": "Farmers, Ranchers, & Other Agricultural Managers",
+    "title": "Farmers, Ranchers, & Other Agricultural Managers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3818,7 +3818,7 @@
   },
 
   {
-    "name": "Farmworkers & Laborers, Crop, Nursery, & Greenhouse",
+    "title": "Farmworkers & Laborers, Crop, Nursery, & Greenhouse",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3830,7 +3830,7 @@
   },
 
   {
-    "name": "Farmworkers, Farm, Ranch, & Aquacultural Animals",
+    "title": "Farmworkers, Farm, Ranch, & Aquacultural Animals",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3842,7 +3842,7 @@
   },
 
   {
-    "name": "Fashion Designers",
+    "title": "Fashion Designers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3854,7 +3854,7 @@
   },
 
   {
-    "name": "Fast Food & Counter Workers",
+    "title": "Fast Food & Counter Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3866,7 +3866,7 @@
   },
 
   {
-    "name": "Fence Erectors",
+    "title": "Fence Erectors",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3878,7 +3878,7 @@
   },
 
   {
-    "name": "Fiberglass Laminators & Fabricators",
+    "title": "Fiberglass Laminators & Fabricators",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3890,7 +3890,7 @@
   },
 
   {
-    "name": "File Clerks",
+    "title": "File Clerks",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3902,7 +3902,7 @@
   },
 
   {
-    "name": "Film & Video Editors",
+    "title": "Film & Video Editors",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3914,7 +3914,7 @@
   },
 
   {
-    "name": "Financial & Investment Analysts",
+    "title": "Financial & Investment Analysts",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3926,7 +3926,7 @@
   },
 
   {
-    "name": "Financial Examiners",
+    "title": "Financial Examiners",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3938,7 +3938,7 @@
   },
 
   {
-    "name": "Financial Managers",
+    "title": "Financial Managers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3950,7 +3950,7 @@
   },
 
   {
-    "name": "Financial Quantitative Analysts",
+    "title": "Financial Quantitative Analysts",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3962,7 +3962,7 @@
   },
 
   {
-    "name": "Financial Risk Specialists",
+    "title": "Financial Risk Specialists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3974,7 +3974,7 @@
   },
 
   {
-    "name": "Fine Artists, Including Painters, Sculptors, & Illustrators",
+    "title": "Fine Artists, Including Painters, Sculptors, & Illustrators",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3986,7 +3986,7 @@
   },
 
   {
-    "name": "Fire Inspectors & Investigators",
+    "title": "Fire Inspectors & Investigators",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -3998,7 +3998,7 @@
   },
 
   {
-    "name": "Fire-Prevention & Protection Engineers",
+    "title": "Fire-Prevention & Protection Engineers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4010,7 +4010,7 @@
   },
 
   {
-    "name": "Firefighters",
+    "title": "Firefighters",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4022,7 +4022,7 @@
   },
 
   {
-    "name": "First-Line Supervisors of Construction Trades & Extraction Workers",
+    "title": "First-Line Supervisors of Construction Trades & Extraction Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4034,7 +4034,7 @@
   },
 
   {
-    "name": "First-Line Supervisors of Correctional Officers",
+    "title": "First-Line Supervisors of Correctional Officers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4046,7 +4046,7 @@
   },
 
   {
-    "name": "First-Line Supervisors of Entertainment & Recreation Workers",
+    "title": "First-Line Supervisors of Entertainment & Recreation Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4058,7 +4058,7 @@
   },
 
   {
-    "name": "First-Line Supervisors of Farming, Fishing, & Forestry Workers",
+    "title": "First-Line Supervisors of Farming, Fishing, & Forestry Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4070,7 +4070,7 @@
   },
 
   {
-    "name": "First-Line Supervisors of Firefighting & Prevention Workers",
+    "title": "First-Line Supervisors of Firefighting & Prevention Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4082,7 +4082,7 @@
   },
 
   {
-    "name": "First-Line Supervisors of Food Preparation & Serving Workers",
+    "title": "First-Line Supervisors of Food Preparation & Serving Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4094,7 +4094,7 @@
   },
 
   {
-    "name": "First-Line Supervisors of Gambling Services Workers",
+    "title": "First-Line Supervisors of Gambling Services Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4106,7 +4106,7 @@
   },
 
   {
-    "name": "First-Line Supervisors of Helpers, Laborers, & Material Movers, Hand",
+    "title": "First-Line Supervisors of Helpers, Laborers, & Material Movers, Hand",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4118,7 +4118,7 @@
   },
 
   {
-    "name": "First-Line Supervisors of Housekeeping & Janitorial Workers",
+    "title": "First-Line Supervisors of Housekeeping & Janitorial Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4130,7 +4130,7 @@
   },
 
   {
-    "name": "First-Line Supervisors of Landscaping, Lawn Service, & Groundskeeping Workers",
+    "title": "First-Line Supervisors of Landscaping, Lawn Service, & Groundskeeping Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4142,7 +4142,7 @@
   },
 
   {
-    "name": "First-Line Supervisors of Material-Moving Machine & Vehicle Operators",
+    "title": "First-Line Supervisors of Material-Moving Machine & Vehicle Operators",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4154,7 +4154,7 @@
   },
 
   {
-    "name": "First-Line Supervisors of Mechanics, Installers, & Repairers",
+    "title": "First-Line Supervisors of Mechanics, Installers, & Repairers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4166,7 +4166,7 @@
   },
 
   {
-    "name": "First-Line Supervisors of Non-Retail Sales Workers",
+    "title": "First-Line Supervisors of Non-Retail Sales Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4178,7 +4178,7 @@
   },
 
   {
-    "name": "First-Line Supervisors of Office & Administrative Support Workers",
+    "title": "First-Line Supervisors of Office & Administrative Support Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4190,7 +4190,7 @@
   },
 
   {
-    "name": "First-Line Supervisors of Passenger Attendants",
+    "title": "First-Line Supervisors of Passenger Attendants",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4202,7 +4202,7 @@
   },
 
   {
-    "name": "First-Line Supervisors of Personal Service Workers",
+    "title": "First-Line Supervisors of Personal Service Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4214,7 +4214,7 @@
   },
 
   {
-    "name": "First-Line Supervisors of Police & Detectives",
+    "title": "First-Line Supervisors of Police & Detectives",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4226,7 +4226,7 @@
   },
 
   {
-    "name": "First-Line Supervisors of Production & Operating Workers",
+    "title": "First-Line Supervisors of Production & Operating Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4238,7 +4238,7 @@
   },
 
   {
-    "name": "First-Line Supervisors of Retail Sales Workers",
+    "title": "First-Line Supervisors of Retail Sales Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4250,7 +4250,7 @@
   },
 
   {
-    "name": "First-Line Supervisors of Security Workers",
+    "title": "First-Line Supervisors of Security Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4262,7 +4262,7 @@
   },
 
   {
-    "name": "Fish & Game Wardens",
+    "title": "Fish & Game Wardens",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4274,7 +4274,7 @@
   },
 
   {
-    "name": "Fishing & Hunting Workers",
+    "title": "Fishing & Hunting Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4286,7 +4286,7 @@
   },
 
   {
-    "name": "Fitness & Wellness Coordinators",
+    "title": "Fitness & Wellness Coordinators",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4298,7 +4298,7 @@
   },
 
   {
-    "name": "Flight Attendants",
+    "title": "Flight Attendants",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4310,7 +4310,7 @@
   },
 
   {
-    "name": "Floor Layers",
+    "title": "Floor Layers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4322,7 +4322,7 @@
   },
 
   {
-    "name": "Floor Sanders & Finishers",
+    "title": "Floor Sanders & Finishers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4334,7 +4334,7 @@
   },
 
   {
-    "name": "Floral Designers",
+    "title": "Floral Designers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4346,7 +4346,7 @@
   },
 
   {
-    "name": "Food & Tobacco Roasting, Baking, & Drying Machine Operators & Tenders",
+    "title": "Food & Tobacco Roasting, Baking, & Drying Machine Operators & Tenders",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4358,7 +4358,7 @@
   },
 
   {
-    "name": "Food Batchmakers",
+    "title": "Food Batchmakers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4370,7 +4370,7 @@
   },
 
   {
-    "name": "Food Cooking Machine Operators & Tenders",
+    "title": "Food Cooking Machine Operators & Tenders",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4382,7 +4382,7 @@
   },
 
   {
-    "name": "Food Preparation Workers",
+    "title": "Food Preparation Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4394,7 +4394,7 @@
   },
 
   {
-    "name": "Food Science Technicians",
+    "title": "Food Science Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4406,7 +4406,7 @@
   },
 
   {
-    "name": "Food Scientists & Technologists",
+    "title": "Food Scientists & Technologists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4418,7 +4418,7 @@
   },
 
   {
-    "name": "Food Servers, Nonrestaurant",
+    "title": "Food Servers, Nonrestaurant",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4430,7 +4430,7 @@
   },
 
   {
-    "name": "Food Service Managers",
+    "title": "Food Service Managers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4442,7 +4442,7 @@
   },
 
   {
-    "name": "Foreign Language & Literature Teachers, Postsecondary",
+    "title": "Foreign Language & Literature Teachers, Postsecondary",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4454,7 +4454,7 @@
   },
 
   {
-    "name": "Forensic Science Technicians",
+    "title": "Forensic Science Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4466,7 +4466,7 @@
   },
 
   {
-    "name": "Forest & Conservation Technicians",
+    "title": "Forest & Conservation Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4478,7 +4478,7 @@
   },
 
   {
-    "name": "Forest & Conservation Workers",
+    "title": "Forest & Conservation Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4490,7 +4490,7 @@
   },
 
   {
-    "name": "Forest Fire Inspectors & Prevention Specialists",
+    "title": "Forest Fire Inspectors & Prevention Specialists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4502,7 +4502,7 @@
   },
 
   {
-    "name": "Foresters",
+    "title": "Foresters",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4514,7 +4514,7 @@
   },
 
   {
-    "name": "Forestry & Conservation Science Teachers, Postsecondary",
+    "title": "Forestry & Conservation Science Teachers, Postsecondary",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4526,7 +4526,7 @@
   },
 
   {
-    "name": "Forging Machine Setters, Operators, & Tenders, Metal & Plastic",
+    "title": "Forging Machine Setters, Operators, & Tenders, Metal & Plastic",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4538,7 +4538,7 @@
   },
 
   {
-    "name": "Foundry Mold & Coremakers",
+    "title": "Foundry Mold & Coremakers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4550,7 +4550,7 @@
   },
 
   {
-    "name": "Fraud Examiners, Investigators & Analysts",
+    "title": "Fraud Examiners, Investigators & Analysts",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4562,7 +4562,7 @@
   },
 
   {
-    "name": "Freight Forwarders",
+    "title": "Freight Forwarders",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4574,7 +4574,7 @@
   },
 
   {
-    "name": "Fuel Cell Engineers",
+    "title": "Fuel Cell Engineers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4586,7 +4586,7 @@
   },
 
   {
-    "name": "Fundraisers",
+    "title": "Fundraisers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4598,7 +4598,7 @@
   },
 
   {
-    "name": "Fundraising Managers",
+    "title": "Fundraising Managers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4610,7 +4610,7 @@
   },
 
   {
-    "name": "Funeral Attendants",
+    "title": "Funeral Attendants",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4622,7 +4622,7 @@
   },
 
   {
-    "name": "Funeral Home Managers",
+    "title": "Funeral Home Managers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4634,7 +4634,7 @@
   },
 
   {
-    "name": "Furnace, Kiln, Oven, Drier, & Kettle Operators & Tenders",
+    "title": "Furnace, Kiln, Oven, Drier, & Kettle Operators & Tenders",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4646,7 +4646,7 @@
   },
 
   {
-    "name": "Furniture Finishers",
+    "title": "Furniture Finishers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4658,7 +4658,7 @@
   },
 
   {
-    "name": "Gambling & Sports Book Writers & Runners",
+    "title": "Gambling & Sports Book Writers & Runners",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4670,7 +4670,7 @@
   },
 
   {
-    "name": "Gambling Cage Workers",
+    "title": "Gambling Cage Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4682,7 +4682,7 @@
   },
 
   {
-    "name": "Gambling Change Persons & Booth Cashiers",
+    "title": "Gambling Change Persons & Booth Cashiers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4694,7 +4694,7 @@
   },
 
   {
-    "name": "Gambling Dealers",
+    "title": "Gambling Dealers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4706,7 +4706,7 @@
   },
 
   {
-    "name": "Gambling Managers",
+    "title": "Gambling Managers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4718,7 +4718,7 @@
   },
 
   {
-    "name": "Gambling Surveillance Officers & Gambling Investigators",
+    "title": "Gambling Surveillance Officers & Gambling Investigators",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4730,7 +4730,7 @@
   },
 
   {
-    "name": "Gas Compressor & Gas Pumping Station Operators",
+    "title": "Gas Compressor & Gas Pumping Station Operators",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4742,7 +4742,7 @@
   },
 
   {
-    "name": "Gas Plant Operators",
+    "title": "Gas Plant Operators",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4754,7 +4754,7 @@
   },
 
   {
-    "name": "Gem & Diamond Workers",
+    "title": "Gem & Diamond Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4766,7 +4766,7 @@
   },
 
   {
-    "name": "General & Operations Managers",
+    "title": "General & Operations Managers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4778,7 +4778,7 @@
   },
 
   {
-    "name": "General Internal Medicine Physicians",
+    "title": "General Internal Medicine Physicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4790,7 +4790,7 @@
   },
 
   {
-    "name": "Genetic Counselors",
+    "title": "Genetic Counselors",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4802,7 +4802,7 @@
   },
 
   {
-    "name": "Geneticists",
+    "title": "Geneticists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4814,7 +4814,7 @@
   },
 
   {
-    "name": "Geodetic Surveyors",
+    "title": "Geodetic Surveyors",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4826,7 +4826,7 @@
   },
 
   {
-    "name": "Geographers",
+    "title": "Geographers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4838,7 +4838,7 @@
   },
 
   {
-    "name": "Geographic Information Systems Technologists & Technicians",
+    "title": "Geographic Information Systems Technologists & Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4850,7 +4850,7 @@
   },
 
   {
-    "name": "Geography Teachers, Postsecondary",
+    "title": "Geography Teachers, Postsecondary",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4862,7 +4862,7 @@
   },
 
   {
-    "name": "Geological Technicians",
+    "title": "Geological Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4874,7 +4874,7 @@
   },
 
   {
-    "name": "Geoscientists",
+    "title": "Geoscientists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4886,7 +4886,7 @@
   },
 
   {
-    "name": "Geothermal Production Managers",
+    "title": "Geothermal Production Managers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4898,7 +4898,7 @@
   },
 
   {
-    "name": "Geothermal Technicians",
+    "title": "Geothermal Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4910,7 +4910,7 @@
   },
 
   {
-    "name": "Glass Blowers, Molders, Benders, & Finishers",
+    "title": "Glass Blowers, Molders, Benders, & Finishers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4922,7 +4922,7 @@
   },
 
   {
-    "name": "Glaziers",
+    "title": "Glaziers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4934,7 +4934,7 @@
   },
 
   {
-    "name": "Government Property Inspectors & Investigators",
+    "title": "Government Property Inspectors & Investigators",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4946,7 +4946,7 @@
   },
 
   {
-    "name": "Graders & Sorters, Agricultural Products",
+    "title": "Graders & Sorters, Agricultural Products",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4958,7 +4958,7 @@
   },
 
   {
-    "name": "Graphic Designers",
+    "title": "Graphic Designers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4970,7 +4970,7 @@
   },
 
   {
-    "name": "Grinding & Polishing Workers, Hand",
+    "title": "Grinding & Polishing Workers, Hand",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4982,7 +4982,7 @@
   },
 
   {
-    "name": "Grinding, Lapping, Polishing, & Buffing Machine Tool Setters, Operators, & Tenders, Metal & Plastic",
+    "title": "Grinding, Lapping, Polishing, & Buffing Machine Tool Setters, Operators, & Tenders, Metal & Plastic",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -4994,7 +4994,7 @@
   },
 
   {
-    "name": "Hairdressers, Hairstylists, & Cosmetologists",
+    "title": "Hairdressers, Hairstylists, & Cosmetologists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5006,7 +5006,7 @@
   },
 
   {
-    "name": "Hazardous Materials Removal Workers",
+    "title": "Hazardous Materials Removal Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5018,7 +5018,7 @@
   },
 
   {
-    "name": "Health & Safety Engineers",
+    "title": "Health & Safety Engineers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5030,7 +5030,7 @@
   },
 
   {
-    "name": "Health Education Specialists",
+    "title": "Health Education Specialists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5042,7 +5042,7 @@
   },
 
   {
-    "name": "Health Informatics Specialists",
+    "title": "Health Informatics Specialists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5054,7 +5054,7 @@
   },
 
   {
-    "name": "Health Information Technologists & Medical Registrars",
+    "title": "Health Information Technologists & Medical Registrars",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5066,7 +5066,7 @@
   },
 
   {
-    "name": "Health Specialties Teachers, Postsecondary",
+    "title": "Health Specialties Teachers, Postsecondary",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5078,7 +5078,7 @@
   },
 
   {
-    "name": "Healthcare Social Workers",
+    "title": "Healthcare Social Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5090,7 +5090,7 @@
   },
 
   {
-    "name": "Hearing Aid Specialists",
+    "title": "Hearing Aid Specialists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5102,7 +5102,7 @@
   },
 
   {
-    "name": "Heat Treating Equipment Setters, Operators, & Tenders, Metal & Plastic",
+    "title": "Heat Treating Equipment Setters, Operators, & Tenders, Metal & Plastic",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5114,7 +5114,7 @@
   },
 
   {
-    "name": "Heating, Air Conditioning, & Refrigeration Mechanics & Installers",
+    "title": "Heating, Air Conditioning, & Refrigeration Mechanics & Installers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5126,7 +5126,7 @@
   },
 
   {
-    "name": "Heavy & Tractor-Trailer Truck Drivers",
+    "title": "Heavy & Tractor-Trailer Truck Drivers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5138,7 +5138,7 @@
   },
 
   {
-    "name": "Helpers--Brickmasons, Blockmasons, Stonemasons, & Tile & Marble Setters",
+    "title": "Helpers--Brickmasons, Blockmasons, Stonemasons, & Tile & Marble Setters",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5150,7 +5150,7 @@
   },
 
   {
-    "name": "Helpers--Carpenters",
+    "title": "Helpers--Carpenters",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5162,7 +5162,7 @@
   },
 
   {
-    "name": "Helpers--Electricians",
+    "title": "Helpers--Electricians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5174,7 +5174,7 @@
   },
 
   {
-    "name": "Helpers--Extraction Workers",
+    "title": "Helpers--Extraction Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5186,7 +5186,7 @@
   },
 
   {
-    "name": "Helpers--Installation, Maintenance, & Repair Workers",
+    "title": "Helpers--Installation, Maintenance, & Repair Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5198,7 +5198,7 @@
   },
 
   {
-    "name": "Helpers--Painters, Paperhangers, Plasterers, & Stucco Masons",
+    "title": "Helpers--Painters, Paperhangers, Plasterers, & Stucco Masons",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5210,7 +5210,7 @@
   },
 
   {
-    "name": "Helpers--Pipelayers, Plumbers, Pipefitters, & Steamfitters",
+    "title": "Helpers--Pipelayers, Plumbers, Pipefitters, & Steamfitters",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5222,7 +5222,7 @@
   },
 
   {
-    "name": "Helpers--Production Workers",
+    "title": "Helpers--Production Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5234,7 +5234,7 @@
   },
 
   {
-    "name": "Helpers--Roofers",
+    "title": "Helpers--Roofers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5246,7 +5246,7 @@
   },
 
   {
-    "name": "Highway Maintenance Workers",
+    "title": "Highway Maintenance Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5258,7 +5258,7 @@
   },
 
   {
-    "name": "Histology Technicians",
+    "title": "Histology Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5270,7 +5270,7 @@
   },
 
   {
-    "name": "Historians",
+    "title": "Historians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5282,7 +5282,7 @@
   },
 
   {
-    "name": "History Teachers, Postsecondary",
+    "title": "History Teachers, Postsecondary",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5294,7 +5294,7 @@
   },
 
   {
-    "name": "Histotechnologists",
+    "title": "Histotechnologists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5306,7 +5306,7 @@
   },
 
   {
-    "name": "Hoist & Winch Operators",
+    "title": "Hoist & Winch Operators",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5318,7 +5318,7 @@
   },
 
   {
-    "name": "Home Appliance Repairers",
+    "title": "Home Appliance Repairers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5330,7 +5330,7 @@
   },
 
   {
-    "name": "Home Health Aides",
+    "title": "Home Health Aides",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5342,7 +5342,7 @@
   },
 
   {
-    "name": "Hospitalists",
+    "title": "Hospitalists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5354,7 +5354,7 @@
   },
 
   {
-    "name": "Hosts & Hostesses, Restaurant, Lounge, & Coffee Shop",
+    "title": "Hosts & Hostesses, Restaurant, Lounge, & Coffee Shop",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5366,7 +5366,7 @@
   },
 
   {
-    "name": "Hotel, Motel, & Resort Desk Clerks",
+    "title": "Hotel, Motel, & Resort Desk Clerks",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5378,7 +5378,7 @@
   },
 
   {
-    "name": "Human Factors Engineers & Ergonomists",
+    "title": "Human Factors Engineers & Ergonomists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5390,7 +5390,7 @@
   },
 
   {
-    "name": "Human Resources Assistants",
+    "title": "Human Resources Assistants",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5402,7 +5402,7 @@
   },
 
   {
-    "name": "Human Resources Managers",
+    "title": "Human Resources Managers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5414,7 +5414,7 @@
   },
 
   {
-    "name": "Human Resources Specialists",
+    "title": "Human Resources Specialists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5426,7 +5426,7 @@
   },
 
   {
-    "name": "Hydroelectric Plant Technicians",
+    "title": "Hydroelectric Plant Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5438,7 +5438,7 @@
   },
 
   {
-    "name": "Hydroelectric Production Managers",
+    "title": "Hydroelectric Production Managers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5450,7 +5450,7 @@
   },
 
   {
-    "name": "Hydrologic Technicians",
+    "title": "Hydrologic Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5462,7 +5462,7 @@
   },
 
   {
-    "name": "Hydrologists",
+    "title": "Hydrologists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5474,7 +5474,7 @@
   },
 
   {
-    "name": "Industrial Ecologists",
+    "title": "Industrial Ecologists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5486,7 +5486,7 @@
   },
 
   {
-    "name": "Industrial Engineering Technologists & Technicians",
+    "title": "Industrial Engineering Technologists & Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5498,7 +5498,7 @@
   },
 
   {
-    "name": "Industrial Engineers",
+    "title": "Industrial Engineers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5510,7 +5510,7 @@
   },
 
   {
-    "name": "Industrial Machinery Mechanics",
+    "title": "Industrial Machinery Mechanics",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5522,7 +5522,7 @@
   },
 
   {
-    "name": "Industrial Production Managers",
+    "title": "Industrial Production Managers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5534,7 +5534,7 @@
   },
 
   {
-    "name": "Industrial Truck & Tractor Operators",
+    "title": "Industrial Truck & Tractor Operators",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5546,7 +5546,7 @@
   },
 
   {
-    "name": "Industrial-Organizational Psychologists",
+    "title": "Industrial-Organizational Psychologists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5558,7 +5558,7 @@
   },
 
   {
-    "name": "Information Security Analysts",
+    "title": "Information Security Analysts",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5570,7 +5570,7 @@
   },
 
   {
-    "name": "Information Security Engineers",
+    "title": "Information Security Engineers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5582,7 +5582,7 @@
   },
 
   {
-    "name": "Information Technology Project Managers",
+    "title": "Information Technology Project Managers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5594,7 +5594,7 @@
   },
 
   {
-    "name": "Inspectors, Testers, Sorters, Samplers, & Weighers",
+    "title": "Inspectors, Testers, Sorters, Samplers, & Weighers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5606,7 +5606,7 @@
   },
 
   {
-    "name": "Instructional Coordinators",
+    "title": "Instructional Coordinators",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5618,7 +5618,7 @@
   },
 
   {
-    "name": "Insulation Workers, Floor, Ceiling, & Wall",
+    "title": "Insulation Workers, Floor, Ceiling, & Wall",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5630,7 +5630,7 @@
   },
 
   {
-    "name": "Insulation Workers, Mechanical",
+    "title": "Insulation Workers, Mechanical",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5642,7 +5642,7 @@
   },
 
   {
-    "name": "Insurance Appraisers, Auto Damage",
+    "title": "Insurance Appraisers, Auto Damage",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5654,7 +5654,7 @@
   },
 
   {
-    "name": "Insurance Claims & Policy Processing Clerks",
+    "title": "Insurance Claims & Policy Processing Clerks",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5666,7 +5666,7 @@
   },
 
   {
-    "name": "Insurance Sales Agents",
+    "title": "Insurance Sales Agents",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5678,7 +5678,7 @@
   },
 
   {
-    "name": "Insurance Underwriters",
+    "title": "Insurance Underwriters",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5690,7 +5690,7 @@
   },
 
   {
-    "name": "Intelligence Analysts",
+    "title": "Intelligence Analysts",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5702,7 +5702,7 @@
   },
 
   {
-    "name": "Interior Designers",
+    "title": "Interior Designers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5714,7 +5714,7 @@
   },
 
   {
-    "name": "Interpreters & Translators",
+    "title": "Interpreters & Translators",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5725,7 +5725,7 @@
     }
   },
   {
-    "name": "Interviewers",
+    "title": "Interviewers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5737,7 +5737,7 @@
   },
 
   {
-    "name": "Investment Fund Managers",
+    "title": "Investment Fund Managers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5749,7 +5749,7 @@
   },
 
   {
-    "name": "Janitors & Cleaners",
+    "title": "Janitors & Cleaners",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5761,7 +5761,7 @@
   },
 
   {
-    "name": "Jewelers & Precious Stone & Metal Workers",
+    "title": "Jewelers & Precious Stone & Metal Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5773,7 +5773,7 @@
   },
 
   {
-    "name": "Judges, Magistrate Judges, & Magistrates",
+    "title": "Judges, Magistrate Judges, & Magistrates",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5785,7 +5785,7 @@
   },
 
   {
-    "name": "Judicial Law Clerks",
+    "title": "Judicial Law Clerks",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5797,7 +5797,7 @@
   },
 
   {
-    "name": "Kindergarten Teachers",
+    "title": "Kindergarten Teachers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5809,7 +5809,7 @@
   },
 
   {
-    "name": "Labor Relations Specialists",
+    "title": "Labor Relations Specialists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5821,7 +5821,7 @@
   },
 
   {
-    "name": "Laborers & Freight, Stock, & Material Movers, Hand",
+    "title": "Laborers & Freight, Stock, & Material Movers, Hand",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5833,7 +5833,7 @@
   },
 
   {
-    "name": "Landscape Architects",
+    "title": "Landscape Architects",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5845,7 +5845,7 @@
   },
 
   {
-    "name": "Landscaping & Groundskeeping Workers",
+    "title": "Landscaping & Groundskeeping Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5857,7 +5857,7 @@
   },
 
   {
-    "name": "Lathe & Turning Machine Tool Setters, Operators, & Tenders, Metal & Plastic",
+    "title": "Lathe & Turning Machine Tool Setters, Operators, & Tenders, Metal & Plastic",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5869,7 +5869,7 @@
   },
 
   {
-    "name": "Laundry & Dry-Cleaning Workers",
+    "title": "Laundry & Dry-Cleaning Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5881,7 +5881,7 @@
   },
 
   {
-    "name": "Law Teachers, Postsecondary",
+    "title": "Law Teachers, Postsecondary",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5893,7 +5893,7 @@
   },
 
   {
-    "name": "Lawyers",
+    "title": "Lawyers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5905,7 +5905,7 @@
   },
 
   {
-    "name": "Layout Workers, Metal & Plastic",
+    "title": "Layout Workers, Metal & Plastic",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5917,7 +5917,7 @@
   },
 
   {
-    "name": "Legal Secretaries & Administrative Assistants",
+    "title": "Legal Secretaries & Administrative Assistants",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5929,7 +5929,7 @@
   },
 
   {
-    "name": "Legislators",
+    "title": "Legislators",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5941,7 +5941,7 @@
   },
 
   {
-    "name": "Librarians & Media Collections Specialists",
+    "title": "Librarians & Media Collections Specialists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5953,7 +5953,7 @@
   },
 
   {
-    "name": "Library Assistants, Clerical",
+    "title": "Library Assistants, Clerical",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5965,7 +5965,7 @@
   },
 
   {
-    "name": "Library Science Teachers, Postsecondary",
+    "title": "Library Science Teachers, Postsecondary",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5977,7 +5977,7 @@
   },
 
   {
-    "name": "Library Technicians",
+    "title": "Library Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -5989,7 +5989,7 @@
   },
 
   {
-    "name": "Licensed Practical & Licensed Vocational Nurses",
+    "title": "Licensed Practical & Licensed Vocational Nurses",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6001,7 +6001,7 @@
   },
 
   {
-    "name": "Lifeguards, Ski Patrol, & Other Recreational Protective Service Workers",
+    "title": "Lifeguards, Ski Patrol, & Other Recreational Protective Service Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6013,7 +6013,7 @@
   },
 
   {
-    "name": "Light Truck Drivers",
+    "title": "Light Truck Drivers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6025,7 +6025,7 @@
   },
 
   {
-    "name": "Lighting Technicians",
+    "title": "Lighting Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6037,7 +6037,7 @@
   },
 
   {
-    "name": "Loading & Moving Machine Operators, Underground Mining",
+    "title": "Loading & Moving Machine Operators, Underground Mining",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6049,7 +6049,7 @@
   },
 
   {
-    "name": "Loan Interviewers & Clerks",
+    "title": "Loan Interviewers & Clerks",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6061,7 +6061,7 @@
   },
 
   {
-    "name": "Loan Officers",
+    "title": "Loan Officers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6073,7 +6073,7 @@
   },
 
   {
-    "name": "Locker Room, Coatroom, & Dressing Room Attendants",
+    "title": "Locker Room, Coatroom, & Dressing Room Attendants",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6085,7 +6085,7 @@
   },
 
   {
-    "name": "Locksmiths & Safe Repairers",
+    "title": "Locksmiths & Safe Repairers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6097,7 +6097,7 @@
   },
 
   {
-    "name": "Locomotive Engineers",
+    "title": "Locomotive Engineers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6109,7 +6109,7 @@
   },
 
   {
-    "name": "Lodging Managers",
+    "title": "Lodging Managers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6121,7 +6121,7 @@
   },
 
   {
-    "name": "Log Graders & Scalers",
+    "title": "Log Graders & Scalers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6133,7 +6133,7 @@
   },
 
   {
-    "name": "Logging Equipment Operators",
+    "title": "Logging Equipment Operators",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6145,7 +6145,7 @@
   },
 
   {
-    "name": "Logisticians",
+    "title": "Logisticians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6157,7 +6157,7 @@
   },
 
   {
-    "name": "Logistics Analysts",
+    "title": "Logistics Analysts",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6169,7 +6169,7 @@
   },
 
   {
-    "name": "Logistics Engineers",
+    "title": "Logistics Engineers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6181,7 +6181,7 @@
   },
 
   {
-    "name": "Loss Prevention Managers",
+    "title": "Loss Prevention Managers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6193,7 +6193,7 @@
   },
 
   {
-    "name": "Low Vision Therapists, Orientation & Mobility Specialists, & Vision Rehabilitation Therapists",
+    "title": "Low Vision Therapists, Orientation & Mobility Specialists, & Vision Rehabilitation Therapists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6205,7 +6205,7 @@
   },
 
   {
-    "name": "Machine Feeders & Offbearers",
+    "title": "Machine Feeders & Offbearers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6217,7 +6217,7 @@
   },
 
   {
-    "name": "Machinists",
+    "title": "Machinists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6229,7 +6229,7 @@
   },
 
   {
-    "name": "Magnetic Resonance Imaging Technologists",
+    "title": "Magnetic Resonance Imaging Technologists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6241,7 +6241,7 @@
   },
 
   {
-    "name": "Maids & Housekeeping Cleaners",
+    "title": "Maids & Housekeeping Cleaners",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6253,7 +6253,7 @@
   },
 
   {
-    "name": "Mail Clerks & Mail Machine Operators",
+    "title": "Mail Clerks & Mail Machine Operators",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6265,7 +6265,7 @@
   },
 
   {
-    "name": "Maintenance & Repair Workers, General",
+    "title": "Maintenance & Repair Workers, General",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6277,7 +6277,7 @@
   },
 
   {
-    "name": "Maintenance Workers, Machinery",
+    "title": "Maintenance Workers, Machinery",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6289,7 +6289,7 @@
   },
 
   {
-    "name": "Makeup Artists, Theatrical & Performance",
+    "title": "Makeup Artists, Theatrical & Performance",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6301,7 +6301,7 @@
   },
 
   {
-    "name": "Management Analysts",
+    "title": "Management Analysts",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6313,7 +6313,7 @@
   },
 
   {
-    "name": "Manicurists & Pedicurists",
+    "title": "Manicurists & Pedicurists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6325,7 +6325,7 @@
   },
 
   {
-    "name": "Manufactured Building & Mobile Home Installers",
+    "title": "Manufactured Building & Mobile Home Installers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6337,7 +6337,7 @@
   },
 
   {
-    "name": "Manufacturing Engineers",
+    "title": "Manufacturing Engineers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6349,7 +6349,7 @@
   },
 
   {
-    "name": "Marine Engineers & Naval Architects",
+    "title": "Marine Engineers & Naval Architects",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6361,7 +6361,7 @@
   },
 
   {
-    "name": "Market Research Analysts & Marketing Specialists",
+    "title": "Market Research Analysts & Marketing Specialists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6373,7 +6373,7 @@
   },
 
   {
-    "name": "Marketing Managers",
+    "title": "Marketing Managers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6385,7 +6385,7 @@
   },
 
   {
-    "name": "Marriage & Family Therapists",
+    "title": "Marriage & Family Therapists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6397,7 +6397,7 @@
   },
 
   {
-    "name": "Massage Therapists",
+    "title": "Massage Therapists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6409,7 +6409,7 @@
   },
 
   {
-    "name": "Materials Engineers",
+    "title": "Materials Engineers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6421,7 +6421,7 @@
   },
 
   {
-    "name": "Materials Scientists",
+    "title": "Materials Scientists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6433,7 +6433,7 @@
   },
 
   {
-    "name": "Mathematical Science Teachers, Postsecondary",
+    "title": "Mathematical Science Teachers, Postsecondary",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6445,7 +6445,7 @@
   },
 
   {
-    "name": "Mathematicians",
+    "title": "Mathematicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6457,7 +6457,7 @@
   },
 
   {
-    "name": "Meat, Poultry, & Fish Cutters & Trimmers",
+    "title": "Meat, Poultry, & Fish Cutters & Trimmers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6469,7 +6469,7 @@
   },
 
   {
-    "name": "Mechanical Door Repairers",
+    "title": "Mechanical Door Repairers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6481,7 +6481,7 @@
   },
 
   {
-    "name": "Mechanical Drafters",
+    "title": "Mechanical Drafters",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6493,7 +6493,7 @@
   },
 
   {
-    "name": "Mechanical Engineering Technologists & Technicians",
+    "title": "Mechanical Engineering Technologists & Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6505,7 +6505,7 @@
   },
 
   {
-    "name": "Mechanical Engineers",
+    "title": "Mechanical Engineers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6517,7 +6517,7 @@
   },
 
   {
-    "name": "Mechatronics Engineers",
+    "title": "Mechatronics Engineers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6529,7 +6529,7 @@
   },
 
   {
-    "name": "Media Programming Directors",
+    "title": "Media Programming Directors",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6541,7 +6541,7 @@
   },
 
   {
-    "name": "Media Technical Directors/Managers",
+    "title": "Media Technical Directors/Managers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6553,7 +6553,7 @@
   },
 
   {
-    "name": "Medical & Clinical Laboratory Technicians",
+    "title": "Medical & Clinical Laboratory Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6565,7 +6565,7 @@
   },
 
   {
-    "name": "Medical & Clinical Laboratory Technologists",
+    "title": "Medical & Clinical Laboratory Technologists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6577,7 +6577,7 @@
   },
 
   {
-    "name": "Medical & Health Services Managers",
+    "title": "Medical & Health Services Managers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6589,7 +6589,7 @@
   },
 
   {
-    "name": "Medical Appliance Technicians",
+    "title": "Medical Appliance Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6601,7 +6601,7 @@
   },
 
   {
-    "name": "Medical Assistants",
+    "title": "Medical Assistants",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6613,7 +6613,7 @@
   },
 
   {
-    "name": "Medical Dosimetrists",
+    "title": "Medical Dosimetrists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6625,7 +6625,7 @@
   },
 
   {
-    "name": "Medical Equipment Preparers",
+    "title": "Medical Equipment Preparers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6637,7 +6637,7 @@
   },
 
   {
-    "name": "Medical Equipment Repairers",
+    "title": "Medical Equipment Repairers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6649,7 +6649,7 @@
   },
 
   {
-    "name": "Medical Records Specialists",
+    "title": "Medical Records Specialists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6661,7 +6661,7 @@
   },
 
   {
-    "name": "Medical Scientists",
+    "title": "Medical Scientists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6673,7 +6673,7 @@
   },
 
   {
-    "name": "Medical Secretaries & Administrative Assistants",
+    "title": "Medical Secretaries & Administrative Assistants",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6685,7 +6685,7 @@
   },
 
   {
-    "name": "Medical Transcriptionists",
+    "title": "Medical Transcriptionists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6697,7 +6697,7 @@
   },
 
   {
-    "name": "Meeting, Convention, & Event Planners",
+    "title": "Meeting, Convention, & Event Planners",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6709,7 +6709,7 @@
   },
 
   {
-    "name": "Mental Health & Substance Abuse Social Workers",
+    "title": "Mental Health & Substance Abuse Social Workers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6721,7 +6721,7 @@
   },
 
   {
-    "name": "Mental Health Counselors",
+    "title": "Mental Health Counselors",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6733,7 +6733,7 @@
   },
 
   {
-    "name": "Merchandise Displayers & Window Trimmers",
+    "title": "Merchandise Displayers & Window Trimmers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6745,7 +6745,7 @@
   },
 
   {
-    "name": "Metal-Refining Furnace Operators & Tenders",
+    "title": "Metal-Refining Furnace Operators & Tenders",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6757,7 +6757,7 @@
   },
 
   {
-    "name": "Meter Readers, Utilities",
+    "title": "Meter Readers, Utilities",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6769,7 +6769,7 @@
   },
 
   {
-    "name": "Microbiologists",
+    "title": "Microbiologists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6781,7 +6781,7 @@
   },
 
   {
-    "name": "Microsystems Engineers",
+    "title": "Microsystems Engineers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6793,7 +6793,7 @@
   },
 
   {
-    "name": "Middle School Teachers",
+    "title": "Middle School Teachers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6805,7 +6805,7 @@
   },
 
   {
-    "name": "Midwives",
+    "title": "Midwives",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6817,7 +6817,7 @@
   },
 
   {
-    "name": "Milling & Planing Machine Setters, Operators, & Tenders, Metal & Plastic",
+    "title": "Milling & Planing Machine Setters, Operators, & Tenders, Metal & Plastic",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6829,7 +6829,7 @@
   },
 
   {
-    "name": "Millwrights",
+    "title": "Millwrights",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6841,7 +6841,7 @@
   },
 
   {
-    "name": "Mining & Geological Engineers, Including Mining Safety Engineers",
+    "title": "Mining & Geological Engineers, Including Mining Safety Engineers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6853,7 +6853,7 @@
   },
 
   {
-    "name": "Mixing & Blending Machine Setters, Operators, & Tenders",
+    "title": "Mixing & Blending Machine Setters, Operators, & Tenders",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6865,7 +6865,7 @@
   },
 
   {
-    "name": "Mobile Heavy Equipment Mechanics",
+    "title": "Mobile Heavy Equipment Mechanics",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6877,7 +6877,7 @@
   },
 
   {
-    "name": "Model Makers, Metal & Plastic",
+    "title": "Model Makers, Metal & Plastic",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6889,7 +6889,7 @@
   },
 
   {
-    "name": "Model Makers, Wood",
+    "title": "Model Makers, Wood",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6901,7 +6901,7 @@
   },
 
   {
-    "name": "Models",
+    "title": "Models",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6913,7 +6913,7 @@
   },
 
   {
-    "name": "Molders, Shapers, & Casters",
+    "title": "Molders, Shapers, & Casters",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6925,7 +6925,7 @@
   },
 
   {
-    "name": "Molding, Coremaking, & Casting Machine Setters, Operators, & Tenders, Metal & Plastic",
+    "title": "Molding, Coremaking, & Casting Machine Setters, Operators, & Tenders, Metal & Plastic",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6937,7 +6937,7 @@
   },
 
   {
-    "name": "Molecular & Cellular Biologists",
+    "title": "Molecular & Cellular Biologists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6949,7 +6949,7 @@
   },
 
   {
-    "name": "Morticians, Undertakers, & Funeral Arrangers",
+    "title": "Morticians, Undertakers, & Funeral Arrangers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6961,7 +6961,7 @@
   },
 
   {
-    "name": "Motion Picture Projectionists",
+    "title": "Motion Picture Projectionists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6973,7 +6973,7 @@
   },
 
   {
-    "name": "Motorboat Mechanics & Service Technicians",
+    "title": "Motorboat Mechanics & Service Technicians",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6985,7 +6985,7 @@
   },
 
   {
-    "name": "Motorboat Operators",
+    "title": "Motorboat Operators",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -6997,7 +6997,7 @@
   },
 
   {
-    "name": "Motorcycle Mechanics",
+    "title": "Motorcycle Mechanics",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -7009,7 +7009,7 @@
   },
 
   {
-    "name": "Multiple Machine Tool Setters, Operators, & Tenders, Metal & Plastic",
+    "title": "Multiple Machine Tool Setters, Operators, & Tenders, Metal & Plastic",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -7021,7 +7021,7 @@
   },
 
   {
-    "name": "Museum Technicians & Conservators",
+    "title": "Museum Technicians & Conservators",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -7033,7 +7033,7 @@
   },
 
   {
-    "name": "Music Directors & Composers",
+    "title": "Music Directors & Composers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -7045,7 +7045,7 @@
   },
 
   {
-    "name": "Music Therapists",
+    "title": "Music Therapists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -7057,7 +7057,7 @@
   },
 
   {
-    "name": "Musical Instrument Repairers & Tuners",
+    "title": "Musical Instrument Repairers & Tuners",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -7069,7 +7069,7 @@
   },
 
   {
-    "name": "Musicians & Singers",
+    "title": "Musicians & Singers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -7081,7 +7081,7 @@
   },
 
   {
-    "name": "Nannies",
+    "title": "Nannies",
     "favorite": false,
     "alsoCalled": ["Family Manager", "Household Manager", "Nanny"],
     "industries": [],
@@ -7093,7 +7093,7 @@
   },
 
   {
-    "name": "Nanosystems Engineers",
+    "title": "Nanosystems Engineers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -7105,7 +7105,7 @@
   },
 
   {
-    "name": "Nanotechnology Engineering Technologists & Technicians",
+    "title": "Nanotechnology Engineering Technologists & Technicians",
     "favorite": false,
     "alsoCalled": [
       "Engineering Technician",
@@ -7129,7 +7129,7 @@
   },
 
   {
-    "name": "Natural Sciences Managers",
+    "title": "Natural Sciences Managers",
     "favorite": false,
     "alsoCalled": [
       "Analytical Services Manager",
@@ -7154,7 +7154,7 @@
   },
 
   {
-    "name": "Naturopathic Physicians",
+    "title": "Naturopathic Physicians",
     "favorite": false,
     "alsoCalled": [
       "Doctor",
@@ -7175,7 +7175,7 @@
   },
 
   {
-    "name": "Network & Computer Systems Administrators",
+    "title": "Network & Computer Systems Administrators",
     "favorite": false,
     "alsoCalled": [
       "Information Analyst",
@@ -7201,7 +7201,7 @@
   },
 
   {
-    "name": "Neurodiagnostic Technologists",
+    "title": "Neurodiagnostic Technologists",
     "favorite": false,
     "alsoCalled": [
       "Certified Intraoperative Neurophysiology Technologist",
@@ -7226,7 +7226,7 @@
   },
 
   {
-    "name": "Neurologists",
+    "title": "Neurologists",
     "favorite": false,
     "alsoCalled": [
       "Adult and Pediatric Neurologist",
@@ -7245,7 +7245,7 @@
   },
 
   {
-    "name": "Neuropsychologists",
+    "title": "Neuropsychologists",
     "favorite": false,
     "alsoCalled": [
       "Aviation Neuropsychologist",
@@ -7263,7 +7263,7 @@
   },
 
   {
-    "name": "New Accounts Clerks",
+    "title": "New Accounts Clerks",
     "favorite": false,
     "alsoCalled": [
       "Banking Services Representative",
@@ -7286,7 +7286,7 @@
   },
 
   {
-    "name": "News Analysts, Reporters, & Journalists",
+    "title": "News Analysts, Reporters, & Journalists",
     "favorite": false,
     "alsoCalled": [
       "Anchor",
@@ -7311,7 +7311,7 @@
   },
 
   {
-    "name": "Non-Destructive Testing Specialists",
+    "title": "Non-Destructive Testing Specialists",
     "favorite": false,
     "alsoCalled": [
       "Industrial Radiographer",
@@ -7331,7 +7331,7 @@
   },
 
   {
-    "name": "Nuclear Engineers",
+    "title": "Nuclear Engineers",
     "favorite": false,
     "alsoCalled": [
       "Engineer",
@@ -7352,7 +7352,7 @@
   },
 
   {
-    "name": "Nuclear Medicine Technologists",
+    "title": "Nuclear Medicine Technologists",
     "favorite": false,
     "alsoCalled": [
       "Certified Nuclear Medicine Technologist",
@@ -7375,7 +7375,7 @@
   },
 
   {
-    "name": "Nuclear Monitoring Technicians",
+    "title": "Nuclear Monitoring Technicians",
     "favorite": false,
     "alsoCalled": [
       "Health Physics Technician",
@@ -7399,7 +7399,7 @@
   },
 
   {
-    "name": "Nuclear Power Reactor Operators",
+    "title": "Nuclear Power Reactor Operators",
     "favorite": false,
     "alsoCalled": [
       "Licensed Reactor Operator",
@@ -7425,7 +7425,7 @@
   },
 
   {
-    "name": "Nuclear Technicians",
+    "title": "Nuclear Technicians",
     "favorite": false,
     "alsoCalled": [
       "Auxiliary Operator",
@@ -7451,7 +7451,7 @@
   },
 
   {
-    "name": "Nurse Anesthetists",
+    "title": "Nurse Anesthetists",
     "favorite": false,
     "alsoCalled": [
       "Certified Registered Nurse Anesthetist",
@@ -7470,7 +7470,7 @@
   },
 
   {
-    "name": "Nurse Midwives",
+    "title": "Nurse Midwives",
     "favorite": false,
     "alsoCalled": [
       "Certified Nurse Midwife",
@@ -7489,7 +7489,7 @@
   },
 
   {
-    "name": "Nurse Practitioners",
+    "title": "Nurse Practitioners",
     "favorite": false,
     "alsoCalled": [
       "ACNP",
@@ -7518,7 +7518,7 @@
   },
 
   {
-    "name": "Nursing Assistants",
+    "title": "Nursing Assistants",
     "favorite": false,
     "alsoCalled": [
       "Certified Medication Aide",
@@ -7546,7 +7546,7 @@
   },
 
   {
-    "name": "Nursing Instructors & Teachers, Postsecondary",
+    "title": "Nursing Instructors & Teachers, Postsecondary",
     "favorite": false,
     "alsoCalled": [
       "Assistant Professor",
@@ -7569,7 +7569,7 @@
   },
 
   {
-    "name": "Obstetricians & Gynecologists",
+    "title": "Obstetricians & Gynecologists",
     "favorite": false,
     "alsoCalled": [
       "Gynecologist",
@@ -7597,7 +7597,7 @@
   },
 
   {
-    "name": "Occupational Health & Safety Specialists",
+    "title": "Occupational Health & Safety Specialists",
     "favorite": false,
     "alsoCalled": [
       "Certified Industrial Hygienist",
@@ -7622,7 +7622,7 @@
   },
 
   {
-    "name": "Occupational Health & Safety Technicians",
+    "title": "Occupational Health & Safety Technicians",
     "favorite": false,
     "alsoCalled": [
       "Advisory Industrial Hygienist",
@@ -7644,7 +7644,7 @@
   },
 
   {
-    "name": "Occupational Therapists",
+    "title": "Occupational Therapists",
     "favorite": false,
     "alsoCalled": [
       "Assistive Technology Trainer",
@@ -7670,7 +7670,7 @@
   },
 
   {
-    "name": "Occupational Therapy Aides",
+    "title": "Occupational Therapy Aides",
     "favorite": false,
     "alsoCalled": [
       "Certified Occupational Rehabilitation Aide",
@@ -7696,7 +7696,7 @@
   },
 
   {
-    "name": "Occupational Therapy Assistants",
+    "title": "Occupational Therapy Assistants",
     "favorite": false,
     "alsoCalled": [
       "Acute Care Occupational Therapy Assistant",
@@ -7721,7 +7721,7 @@
   },
 
   {
-    "name": "Office Clerks, General",
+    "title": "Office Clerks, General",
     "favorite": false,
     "alsoCalled": [
       "Administrative Clerk",
@@ -7744,7 +7744,7 @@
   },
 
   {
-    "name": "Office Machine Operators",
+    "title": "Office Machine Operators",
     "favorite": false,
     "alsoCalled": [
       "Copy Center Operator",
@@ -7765,7 +7765,7 @@
   },
 
   {
-    "name": "Online Merchants",
+    "title": "Online Merchants",
     "favorite": false,
     "alsoCalled": ["Online Services Manager"],
     "industries": [],
@@ -7777,7 +7777,7 @@
   },
 
   {
-    "name": "Operating Engineers & Other Construction Equipment Operators",
+    "title": "Operating Engineers & Other Construction Equipment Operators",
     "favorite": false,
     "alsoCalled": [
       "Back Hoe Operator",
@@ -7802,7 +7802,7 @@
   },
 
   {
-    "name": "Operations Research Analysts",
+    "title": "Operations Research Analysts",
     "favorite": false,
     "alsoCalled": [
       "Advanced Analytics Associate",
@@ -7820,7 +7820,7 @@
   },
 
   {
-    "name": "Ophthalmic Laboratory Technicians",
+    "title": "Ophthalmic Laboratory Technicians",
     "favorite": false,
     "alsoCalled": [
       "Edger Technician",
@@ -7844,7 +7844,7 @@
   },
 
   {
-    "name": "Ophthalmic Medical Technicians",
+    "title": "Ophthalmic Medical Technicians",
     "favorite": false,
     "alsoCalled": [
       "Certified Ophthalmic Medical Technician",
@@ -7873,7 +7873,7 @@
   },
 
   {
-    "name": "Ophthalmic Medical Technologists",
+    "title": "Ophthalmic Medical Technologists",
     "favorite": false,
     "alsoCalled": [
       "Certified Diagnostic Ophthalmic Sonographer",
@@ -7900,7 +7900,7 @@
   },
 
   {
-    "name": "Ophthalmologists",
+    "title": "Ophthalmologists",
     "favorite": false,
     "alsoCalled": [
       "Clinical Ophthalmologist",
@@ -7923,7 +7923,7 @@
   },
 
   {
-    "name": "Opticians, Dispensing",
+    "title": "Opticians, Dispensing",
     "favorite": false,
     "alsoCalled": [
       "Certified Optician",
@@ -7947,7 +7947,7 @@
   },
 
   {
-    "name": "Optometrists",
+    "title": "Optometrists",
     "favorite": false,
     "alsoCalled": ["Optometrist", "Optometry Doctor", "OD", "Therapeutic Optometrist"],
     "industries": [],
@@ -7959,7 +7959,7 @@
   },
 
   {
-    "name": "Oral & Maxillofacial Surgeons",
+    "title": "Oral & Maxillofacial Surgeons",
     "favorite": false,
     "alsoCalled": [
       "Doctor of Dental Surgery",
@@ -7978,7 +7978,7 @@
   },
 
   {
-    "name": "Order Clerks",
+    "title": "Order Clerks",
     "favorite": false,
     "alsoCalled": [
       "Hub Associate",
@@ -8001,7 +8001,7 @@
   },
 
   {
-    "name": "Orderlies",
+    "title": "Orderlies",
     "favorite": false,
     "alsoCalled": [
       "Attendant",
@@ -8025,7 +8025,7 @@
   },
 
   {
-    "name": "Orthodontists",
+    "title": "Orthodontists",
     "favorite": false,
     "alsoCalled": [
       "Board Certified Orthodontist",
@@ -8041,7 +8041,7 @@
   },
 
   {
-    "name": "Orthopedic Surgeons",
+    "title": "Orthopedic Surgeons",
     "favorite": false,
     "alsoCalled": [
       "General Surgeon",
@@ -8060,7 +8060,7 @@
   },
 
   {
-    "name": "Orthoptists",
+    "title": "Orthoptists",
     "favorite": false,
     "alsoCalled": ["Certified Orthoptist", "Clinical Orthoptist", "CO", "Orthoptist"],
     "industries": [],
@@ -8072,7 +8072,7 @@
   },
 
   {
-    "name": "Orthotists & Prosthetists",
+    "title": "Orthotists & Prosthetists",
     "alsoCalled": [
       "Certified Orthotist",
       "CO",
@@ -8098,7 +8098,7 @@
   },
 
   {
-    "name": "Outdoor Power Equipment & Other Small Engine Mechanics",
+    "title": "Outdoor Power Equipment & Other Small Engine Mechanics",
     "alsoCalled": [
       "Chainsaw Technician",
       "Golf Cart Mechanic",
@@ -8121,7 +8121,7 @@
   },
 
   {
-    "name": "Packaging & Filling Machine Operators & Tenders",
+    "title": "Packaging & Filling Machine Operators & Tenders",
     "alsoCalled": [
       "Bundler",
       "Closing Machine Operator",
@@ -8142,7 +8142,7 @@
   },
 
   {
-    "name": "Packers & Packagers, Hand",
+    "title": "Packers & Packagers, Hand",
     "alsoCalled": [
       "Bagger",
       "Crater",
@@ -8164,7 +8164,7 @@
   },
 
   {
-    "name": "Painters, Construction & Maintenance",
+    "title": "Painters, Construction & Maintenance",
     "alsoCalled": [
       "Facilities Painter",
       "Highway Painter",
@@ -8182,7 +8182,7 @@
   },
 
   {
-    "name": "Painting, Coating, & Decorating Workers",
+    "title": "Painting, Coating, & Decorating Workers",
     "alsoCalled": [
       "Decaler",
       "Decorator",
@@ -8204,7 +8204,7 @@
   },
 
   {
-    "name": "Paper Goods Machine Setters, Operators, & Tenders",
+    "title": "Paper Goods Machine Setters, Operators, & Tenders",
     "alsoCalled": [
       "Corrugator Operator",
       "Cup Room Technician",
@@ -8224,7 +8224,7 @@
   },
 
   {
-    "name": "Paperhangers",
+    "title": "Paperhangers",
     "alsoCalled": [
       "Bill Board Poster",
       "Bill Poster",
@@ -8246,7 +8246,7 @@
   },
 
   {
-    "name": "Paralegals & Legal Assistants",
+    "title": "Paralegals & Legal Assistants",
     "alsoCalled": [
       "Certified Paralegal",
       "Corporate Law Assistant",
@@ -8268,7 +8268,7 @@
   },
 
   {
-    "name": "Paramedics",
+    "title": "Paramedics",
     "alsoCalled": ["First Responder", "Flight Paramedic"],
     "industries": [],
     "education": "",
@@ -8279,7 +8279,7 @@
   },
 
   {
-    "name": "Park Naturalists",
+    "title": "Park Naturalists",
     "alsoCalled": [
       "Environmental Education Specialist",
       "Environmental Educator",
@@ -8300,7 +8300,7 @@
   },
 
   {
-    "name": "Parking Attendants",
+    "title": "Parking Attendants",
     "alsoCalled": [
       "Hiker",
       "Parking Attendant",
@@ -8320,7 +8320,7 @@
   },
 
   {
-    "name": "Parking Enforcement Workers",
+    "title": "Parking Enforcement Workers",
     "alsoCalled": [
       "Parking Control Officer",
       "Parking Enforcement Officer",
@@ -8341,7 +8341,7 @@
   },
 
   {
-    "name": "Parts Salespersons",
+    "title": "Parts Salespersons",
     "alsoCalled": [
       "Parts Advisor",
       "Parts Clerk",
@@ -8362,7 +8362,7 @@
   },
 
   {
-    "name": "Passenger Attendants",
+    "title": "Passenger Attendants",
     "alsoCalled": [
       "Bus Aide",
       "Bus Assistant",
@@ -8380,7 +8380,7 @@
   },
 
   {
-    "name": "Patient Representatives",
+    "title": "Patient Representatives",
     "alsoCalled": [
       "Access Representative",
       "Admissions Coordinator",
@@ -8403,7 +8403,7 @@
   },
 
   {
-    "name": "Patternmakers, Metal & Plastic",
+    "title": "Patternmakers, Metal & Plastic",
     "alsoCalled": [
       "Die Cast Die Maker",
       "Fixture Builder",
@@ -8424,7 +8424,7 @@
   },
 
   {
-    "name": "Patternmakers, Wood",
+    "title": "Patternmakers, Wood",
     "alsoCalled": [
       "Mold Maker",
       "Pattern Engineer",
@@ -8444,7 +8444,7 @@
   },
 
   {
-    "name": "Paving, Surfacing, & Tamping Equipment Operators",
+    "title": "Paving, Surfacing, & Tamping Equipment Operators",
     "alsoCalled": [
       "Asphalt Paver Operator",
       "Asphalt Paving Machine Operator",
@@ -8468,7 +8468,7 @@
   },
 
   {
-    "name": "Payroll & Timekeeping Clerks",
+    "title": "Payroll & Timekeeping Clerks",
     "alsoCalled": [
       "Human Resources Assistant",
       "HR Assistant",
@@ -8491,7 +8491,7 @@
   },
 
   {
-    "name": "Pediatric Surgeons",
+    "title": "Pediatric Surgeons",
     "alsoCalled": [
       "Cardiovascular Surgeon",
       "General Surgeon",
@@ -8511,7 +8511,7 @@
   },
 
   {
-    "name": "Pediatricians, General",
+    "title": "Pediatricians, General",
     "alsoCalled": [
       "Developmental Pediatrician",
       "Emergency Room Pediatrician",
@@ -8534,7 +8534,7 @@
   },
 
   {
-    "name": "Penetration Testers",
+    "title": "Penetration Testers",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -8546,7 +8546,7 @@
   },
 
   {
-    "name": "Personal Care Aides",
+    "title": "Personal Care Aides",
     "alsoCalled": [
       "Caregiver",
       "Home Care Aide",
@@ -8570,7 +8570,7 @@
   },
 
   {
-    "name": "Personal Financial Advisors",
+    "title": "Personal Financial Advisors",
     "alsoCalled": [
       "Certified Financial Planner",
       "CFP",
@@ -8591,7 +8591,7 @@
   },
 
   {
-    "name": "Pest Control Workers",
+    "title": "Pest Control Workers",
     "alsoCalled": [
       "Certified Pest Control Technician",
       "Commercial Pest Control Technician",
@@ -8614,7 +8614,7 @@
   },
 
   {
-    "name": "Pesticide Handlers, Sprayers, & Applicators, Vegetation",
+    "title": "Pesticide Handlers, Sprayers, & Applicators, Vegetation",
     "alsoCalled": [
       "Chemical Applicator",
       "Integrated Pest Management Technician",
@@ -8637,7 +8637,7 @@
   },
 
   {
-    "name": "Petroleum Engineers",
+    "title": "Petroleum Engineers",
     "alsoCalled": [
       "Completion Engineer",
       "Drilling Engineer",
@@ -8659,7 +8659,7 @@
   },
 
   {
-    "name": "Petroleum Pump System Operators, Refinery Operators, & Gaugers",
+    "title": "Petroleum Pump System Operators, Refinery Operators, & Gaugers",
     "alsoCalled": [
       "Board Operator",
       "Crude Unit Operator",
@@ -8680,7 +8680,7 @@
   },
 
   {
-    "name": "Pharmacists",
+    "title": "Pharmacists",
     "alsoCalled": [
       "Clinical Pharmacist",
       "Hospital Pharmacist",
@@ -8704,7 +8704,7 @@
   },
 
   {
-    "name": "Pharmacy Aides",
+    "title": "Pharmacy Aides",
     "alsoCalled": [
       "Certified Pharmacist Assistant",
       "Drug Purchaser",
@@ -8725,7 +8725,7 @@
   },
 
   {
-    "name": "Pharmacy Technicians",
+    "title": "Pharmacy Technicians",
     "alsoCalled": [
       "Accredited Pharmacy Technician",
       "Certified Pharmacy Technician",
@@ -8747,7 +8747,7 @@
   },
 
   {
-    "name": "Philosophy & Religion Teachers, Postsecondary",
+    "title": "Philosophy & Religion Teachers, Postsecondary",
     "alsoCalled": [
       "Assistant Professor",
       "Associate Professor",
@@ -8769,7 +8769,7 @@
   },
 
   {
-    "name": "Phlebotomists",
+    "title": "Phlebotomists",
     "alsoCalled": [
       "Lab Liaison Technician",
       "Mobile Examiner",
@@ -8788,7 +8788,7 @@
   },
 
   {
-    "name": "Photographers",
+    "title": "Photographers",
     "alsoCalled": [
       "Advertising Photographer",
       "Commercial Photographer",
@@ -8810,7 +8810,7 @@
   },
 
   {
-    "name": "Photographic Process Workers & Processing Machine Operators",
+    "title": "Photographic Process Workers & Processing Machine Operators",
     "alsoCalled": [
       "Digital Printer Operator",
       "Film Processor",
@@ -8832,7 +8832,7 @@
   },
 
   {
-    "name": "Photonics Engineers",
+    "title": "Photonics Engineers",
     "alsoCalled": [
       "Algorithm Developer",
       "Laser Engineer",
@@ -8854,7 +8854,7 @@
   },
 
   {
-    "name": "Photonics Technicians",
+    "title": "Photonics Technicians",
     "alsoCalled": [
       "Fiber Optics Technician",
       "Laser Technician",
@@ -8874,7 +8874,7 @@
   },
 
   {
-    "name": "Physical Medicine & Rehabilitation Physicians",
+    "title": "Physical Medicine & Rehabilitation Physicians",
     "alsoCalled": [
       "MD",
       "Medical Doctor",
@@ -8896,7 +8896,7 @@
   },
 
   {
-    "name": "Physical Therapist Aides",
+    "title": "Physical Therapist Aides",
     "alsoCalled": [
       "Physical Therapist Aide",
       "PTA",
@@ -8917,7 +8917,7 @@
   },
 
   {
-    "name": "Physical Therapist Assistants",
+    "title": "Physical Therapist Assistants",
     "alsoCalled": [
       "Certified Physical Therapist Assistant",
       "CPTA",
@@ -8942,7 +8942,7 @@
   },
 
   {
-    "name": "Physical Therapists",
+    "title": "Physical Therapists",
     "alsoCalled": [
       "Acute Care PT",
       "Acute Care Physical Therapist",
@@ -8969,7 +8969,7 @@
   },
 
   {
-    "name": "Physician Assistants",
+    "title": "Physician Assistants",
     "alsoCalled": [
       "Cardiology Physician Assistant",
       "Certified Physician Assistant",
@@ -8996,7 +8996,7 @@
   },
 
   {
-    "name": "Physicians, Pathologists",
+    "title": "Physicians, Pathologists",
     "alsoCalled": [
       "Anatomic Pathologist",
       "Cytopathologist",
@@ -9017,7 +9017,7 @@
   },
 
   {
-    "name": "Physicists",
+    "title": "Physicists",
     "alsoCalled": [
       "Biophysics Scientist",
       "Health Physicist",
@@ -9037,7 +9037,7 @@
   },
 
   {
-    "name": "Physics Teachers, Postsecondary",
+    "title": "Physics Teachers, Postsecondary",
     "alsoCalled": [
       "Adjunct Professor",
       "Assistant Professor",
@@ -9059,7 +9059,7 @@
   },
 
   {
-    "name": "Pile Driver Operators",
+    "title": "Pile Driver Operators",
     "alsoCalled": ["Pile Driver", "Pile Driver Operator", "Pile Driving Operator"],
     "industries": [],
     "education": "",
@@ -9070,7 +9070,7 @@
   },
 
   {
-    "name": "Pipelayers",
+    "title": "Pipelayers",
     "alsoCalled": ["Pipelayer", "Tailman", "Waste Water Worker"],
     "industries": [],
     "education": "",
@@ -9081,7 +9081,7 @@
   },
 
   {
-    "name": "Plasterers & Stucco Masons",
+    "title": "Plasterers & Stucco Masons",
     "alsoCalled": [
       "Applicator",
       "Artisan Plasterer",
@@ -9101,7 +9101,7 @@
   },
 
   {
-    "name": "Plating Machine Setters, Operators, & Tenders, Metal & Plastic",
+    "title": "Plating Machine Setters, Operators, & Tenders, Metal & Plastic",
     "alsoCalled": [
       "Anodizer",
       "Anodizing Line Operator",
@@ -9123,7 +9123,7 @@
   },
 
   {
-    "name": "Plumbers, Pipefitters, & Steamfitters",
+    "title": "Plumbers, Pipefitters, & Steamfitters",
     "alsoCalled": [
       "Drain Technician",
       "Fire Sprinkler Service Technician",
@@ -9145,7 +9145,7 @@
   },
 
   {
-    "name": "Podiatrists",
+    "title": "Podiatrists",
     "alsoCalled": [
       "Attending Physician",
       "Doctor of Podiatric Medicine",
@@ -9169,7 +9169,7 @@
   },
 
   {
-    "name": "Poets, Lyricists & Creative Writers",
+    "title": "Poets, Lyricists & Creative Writers",
     "alsoCalled": [
       "Author",
       "Book Author",
@@ -9191,7 +9191,7 @@
   },
 
   {
-    "name": "Police & Sheriff's Patrol Officers",
+    "title": "Police & Sheriff's Patrol Officers",
     "alsoCalled": [
       "Deputy",
       "Deputy Sheriff",
@@ -9213,7 +9213,7 @@
   },
 
   {
-    "name": "Police Identification & Records Officers",
+    "title": "Police Identification & Records Officers",
     "alsoCalled": [
       "Crime Scene Evidence Technician",
       "Crime Scene Investigator",
@@ -9235,7 +9235,7 @@
   },
 
   {
-    "name": "Political Science Teachers, Postsecondary",
+    "title": "Political Science Teachers, Postsecondary",
     "alsoCalled": [
       "Adjunct Professor",
       "Assistant Professor",
@@ -9257,7 +9257,7 @@
   },
 
   {
-    "name": "Political Scientists",
+    "title": "Political Scientists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -9269,7 +9269,7 @@
   },
 
   {
-    "name": "Postal Service Clerks",
+    "title": "Postal Service Clerks",
     "alsoCalled": [
       "Bulk Mail Technician",
       "Clerk",
@@ -9291,7 +9291,7 @@
   },
 
   {
-    "name": "Postal Service Mail Carriers",
+    "title": "Postal Service Mail Carriers",
     "alsoCalled": [
       "City Carrier",
       "City Carrier Assistant",
@@ -9315,7 +9315,7 @@
   },
 
   {
-    "name": "Postal Service Mail Sorters, Processors, & Processing Machine Operators",
+    "title": "Postal Service Mail Sorters, Processors, & Processing Machine Operators",
     "alsoCalled": [
       "Automation Clerk",
       "Computer Forwarding System Markup Clerk",
@@ -9340,7 +9340,7 @@
   },
 
   {
-    "name": "Postmasters & Mail Superintendents",
+    "title": "Postmasters & Mail Superintendents",
     "alsoCalled": [
       "Delivery Supervisor",
       "Distribution Operation Supervisor",
@@ -9364,7 +9364,7 @@
   },
 
   {
-    "name": "Potters, Manufacturing",
+    "title": "Potters, Manufacturing",
     "alsoCalled": [
       "Clay Mixer",
       "Glazer",
@@ -9386,7 +9386,7 @@
   },
 
   {
-    "name": "Pourers & Casters, Metal",
+    "title": "Pourers & Casters, Metal",
     "alsoCalled": [
       "Casting Operator",
       "Die Cast Operator",
@@ -9409,7 +9409,7 @@
   },
 
   {
-    "name": "Power Distributors & Dispatchers",
+    "title": "Power Distributors & Dispatchers",
     "alsoCalled": [
       "Control Operator",
       "Distribution Dispatcher",
@@ -9429,7 +9429,7 @@
   },
 
   {
-    "name": "Power Plant Operators",
+    "title": "Power Plant Operators",
     "alsoCalled": [
       "Auxiliary Operator",
       "Control Operator",
@@ -9452,7 +9452,7 @@
   },
 
   {
-    "name": "Precision Agriculture Technicians",
+    "title": "Precision Agriculture Technicians",
     "alsoCalled": [
       "Crop Specialist",
       "Independent Crop Consultant",
@@ -9471,7 +9471,7 @@
   },
 
   {
-    "name": "Prepress Technicians & Workers",
+    "title": "Prepress Technicians & Workers",
     "alsoCalled": [
       "Desktop Operator",
       "Electronic Prepress Operator",
@@ -9495,7 +9495,7 @@
   },
 
   {
-    "name": "Preschool Teachers",
+    "title": "Preschool Teachers",
     "alsoCalled": [
       "Child Development Teacher",
       "Early Childhood Teacher",
@@ -9517,7 +9517,7 @@
   },
 
   {
-    "name": "Pressers, Textile, Garment, & Related Materials",
+    "title": "Pressers, Textile, Garment, & Related Materials",
     "alsoCalled": [
       "Boarder",
       "Dry Cleaner Presser",
@@ -9539,7 +9539,7 @@
   },
 
   {
-    "name": "Preventive Medicine Physicians",
+    "title": "Preventive Medicine Physicians",
     "alsoCalled": [
       "Occupational Medicine Physician",
       "Occupational Physician",
@@ -9557,7 +9557,7 @@
   },
 
   {
-    "name": "Print Binding & Finishing Workers",
+    "title": "Print Binding & Finishing Workers",
     "alsoCalled": [
       "Binder Operator",
       "Bindery Operator",
@@ -9576,7 +9576,7 @@
   },
 
   {
-    "name": "Printing Press Operators",
+    "title": "Printing Press Operators",
     "alsoCalled": [
       "Digital Press Operator",
       "Flexographic Press Operator",
@@ -9598,7 +9598,7 @@
   },
 
   {
-    "name": "Private Detectives & Investigators",
+    "title": "Private Detectives & Investigators",
     "alsoCalled": [
       "Asset Protection Detective",
       "Field Investigator",
@@ -9620,7 +9620,7 @@
   },
 
   {
-    "name": "Probation Officers & Correctional Treatment Specialists",
+    "title": "Probation Officers & Correctional Treatment Specialists",
     "alsoCalled": [
       "Adult Probation Officer",
       "Correctional Counselor",
@@ -9644,7 +9644,7 @@
   },
 
   {
-    "name": "Procurement Clerks",
+    "title": "Procurement Clerks",
     "alsoCalled": [
       "Buyer",
       "Procurement Assistant",
@@ -9666,7 +9666,7 @@
   },
 
   {
-    "name": "Producers & Directors",
+    "title": "Producers & Directors",
     "alsoCalled": [
       "Artistic Director",
       "Director",
@@ -9690,7 +9690,7 @@
   },
 
   {
-    "name": "Production, Planning, & Expediting Clerks",
+    "title": "Production, Planning, & Expediting Clerks",
     "alsoCalled": [
       "Expeditor",
       "Inventory Control Specialist",
@@ -9713,7 +9713,7 @@
   },
 
   {
-    "name": "Project Management Specialists",
+    "title": "Project Management Specialists",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -9725,7 +9725,7 @@
   },
 
   {
-    "name": "Proofreaders & Copy Markers",
+    "title": "Proofreaders & Copy Markers",
     "alsoCalled": [
       "Copy Editor",
       "Copyholder",
@@ -9744,7 +9744,7 @@
   },
 
   {
-    "name": "Property, Real Estate, & Community Association Managers",
+    "title": "Property, Real Estate, & Community Association Managers",
     "alsoCalled": [
       "Apartment Manager",
       "Community Association Manager",
@@ -9766,7 +9766,7 @@
   },
 
   {
-    "name": "Prosthodontists",
+    "title": "Prosthodontists",
     "alsoCalled": [
       "Dental Science Doctor",
       "Doctor of Dental Surgery",
@@ -9785,7 +9785,7 @@
   },
 
   {
-    "name": "Psychiatric Aides",
+    "title": "Psychiatric Aides",
     "alsoCalled": [
       "Mental Health Aide",
       "MHA",
@@ -9807,7 +9807,7 @@
   },
 
   {
-    "name": "Psychiatric Technicians",
+    "title": "Psychiatric Technicians",
     "alsoCalled": [
       "Behavioral Health Technician",
       "BHT",
@@ -9835,7 +9835,7 @@
   },
 
   {
-    "name": "Psychiatrists",
+    "title": "Psychiatrists",
     "alsoCalled": [
       "Adult Psychiatrist",
       "Child Psychiatrist",
@@ -9856,7 +9856,7 @@
   },
 
   {
-    "name": "Psychology Teachers, Postsecondary",
+    "title": "Psychology Teachers, Postsecondary",
     "alsoCalled": [
       "Adjunct Instructor",
       "Assistant Professor",
@@ -9878,7 +9878,7 @@
   },
 
   {
-    "name": "Public Relations Managers",
+    "title": "Public Relations Managers",
     "alsoCalled": [
       "Communications Director",
       "Communications Manager",
@@ -9899,7 +9899,7 @@
   },
 
   {
-    "name": "Public Relations Specialists",
+    "title": "Public Relations Specialists",
     "alsoCalled": [
       "Communications Specialist",
       "Community Relations Coordinator",
@@ -9923,7 +9923,7 @@
   },
 
   {
-    "name": "Public Safety Telecommunicators",
+    "title": "Public Safety Telecommunicators",
     "alsoCalled": [
       "911 Dispatcher",
       "Communications Officer",
@@ -9945,7 +9945,7 @@
   },
 
   {
-    "name": "Pump Operators",
+    "title": "Pump Operators",
     "alsoCalled": [
       "Boom Pump Operator",
       "Chemical Pumper",
@@ -9967,7 +9967,7 @@
   },
 
   {
-    "name": "Purchasing Agents",
+    "title": "Purchasing Agents",
     "alsoCalled": [
       "Buyer",
       "Procurement Official",
@@ -9984,7 +9984,7 @@
   },
 
   {
-    "name": "Purchasing Managers",
+    "title": "Purchasing Managers",
     "alsoCalled": [
       "Category Purchasing Manager",
       "Commodity Manager",
@@ -10005,7 +10005,7 @@
   },
 
   {
-    "name": "Quality Control Analysts",
+    "title": "Quality Control Analysts",
     "alsoCalled": [
       "Lab Analyst",
       "Lab Technician",
@@ -10034,7 +10034,7 @@
   },
 
   {
-    "name": "Quality Control Systems Managers",
+    "title": "Quality Control Systems Managers",
     "alsoCalled": [
       "Product Quality Director",
       "Quality and Food Safety Manager",
@@ -10060,7 +10060,7 @@
   },
 
   {
-    "name": "Radiation Therapists",
+    "title": "Radiation Therapists",
     "alsoCalled": [
       "Computed Tomography Simulation Therapist",
       "CT Simulation Therapist",
@@ -10082,7 +10082,7 @@
   },
 
   {
-    "name": "Radio Frequency Identification Device Specialists",
+    "title": "Radio Frequency Identification Device Specialists",
     "alsoCalled": [
       "Deployment Engineer",
       "Electro Magnetic Compatibility Test Engineer",
@@ -10101,7 +10101,7 @@
   },
 
   {
-    "name": "Radio, Cellular, & Tower Equipment Installers & Repairers",
+    "title": "Radio, Cellular, & Tower Equipment Installers & Repairers",
     "alsoCalled": [
       "Avionics Technician",
       "Avionics Tech",
@@ -10131,7 +10131,7 @@
   },
 
   {
-    "name": "Radiologic Technologists & Technicians",
+    "title": "Radiologic Technologists & Technicians",
     "alsoCalled": [
       "Computed Tomography Technologist",
       "CT Tech",
@@ -10159,7 +10159,7 @@
   },
 
   {
-    "name": "Radiologists",
+    "title": "Radiologists",
     "alsoCalled": [
       "Diagnostic Radiologist",
       "Interventional Neuroradiologist",
@@ -10179,7 +10179,7 @@
   },
 
   {
-    "name": "Rail Car Repairers",
+    "title": "Rail Car Repairers",
     "alsoCalled": [
       "Freight Maintenance Specialist",
       "Locomotive Repairman",
@@ -10201,7 +10201,7 @@
   },
 
   {
-    "name": "Rail Yard Engineers, Dinkey Operators, & Hostlers",
+    "title": "Rail Yard Engineers, Dinkey Operators, & Hostlers",
     "alsoCalled": [
       "Carman",
       "Engineer",
@@ -10221,7 +10221,7 @@
   },
 
   {
-    "name": "Rail-Track Laying & Maintenance Equipment Operators",
+    "title": "Rail-Track Laying & Maintenance Equipment Operators",
     "alsoCalled": [
       "Machine Operator",
       "Rail Maintenance Worker",
@@ -10243,7 +10243,7 @@
   },
 
   {
-    "name": "Railroad Brake, Signal, & Switch Operators & Locomotive Firers",
+    "title": "Railroad Brake, Signal, & Switch Operators & Locomotive Firers",
     "alsoCalled": [
       "Brakeman",
       "Carman",
@@ -10263,7 +10263,7 @@
   },
 
   {
-    "name": "Railroad Conductors & Yardmasters",
+    "title": "Railroad Conductors & Yardmasters",
     "alsoCalled": [
       "Conductor",
       "Freight Conductor",
@@ -10281,7 +10281,7 @@
   },
 
   {
-    "name": "Range Managers",
+    "title": "Range Managers",
     "alsoCalled": [
       "Conservationist",
       "Land Management Supervisor",
@@ -10303,7 +10303,7 @@
   },
 
   {
-    "name": "Real Estate Brokers",
+    "title": "Real Estate Brokers",
     "alsoCalled": [
       "Broker",
       "Broker Associate",
@@ -10323,7 +10323,7 @@
   },
 
   {
-    "name": "Real Estate Sales Agents",
+    "title": "Real Estate Sales Agents",
     "alsoCalled": [
       "Real Estate Agent",
       "Real Estate Salesperson",
@@ -10340,7 +10340,7 @@
   },
 
   {
-    "name": "Receptionists & Information Clerks",
+    "title": "Receptionists & Information Clerks",
     "alsoCalled": [
       "Clerk Specialist",
       "Front Desk Receptionist",
@@ -10359,7 +10359,7 @@
   },
 
   {
-    "name": "Recreation & Fitness Studies Teachers, Postsecondary",
+    "title": "Recreation & Fitness Studies Teachers, Postsecondary",
     "alsoCalled": [
       "Adjunct Professor",
       "Assistant Professor",
@@ -10384,7 +10384,7 @@
   },
 
   {
-    "name": "Recreation Workers",
+    "title": "Recreation Workers",
     "alsoCalled": [
       "Activities Assistant",
       "Activities Director",
@@ -10405,7 +10405,7 @@
   },
 
   {
-    "name": "Recreational Therapists",
+    "title": "Recreational Therapists",
     "alsoCalled": [
       "Activities Coordinator",
       "Certified Therapeutic Recreation Specialist",
@@ -10428,7 +10428,7 @@
   },
 
   {
-    "name": "Recreational Vehicle Service Technicians",
+    "title": "Recreational Vehicle Service Technicians",
     "alsoCalled": [
       "Hitch Technician",
       "Master Certified RV Technician",
@@ -10452,7 +10452,7 @@
     }
   },
   {
-    "name": "Recycling & Reclamation Workers",
+    "title": "Recycling & Reclamation Workers",
     "alsoCalled": [
       "Bobcat Driver",
       "Box Sorter",
@@ -10474,7 +10474,7 @@
   },
 
   {
-    "name": "Recycling Coordinators",
+    "title": "Recycling Coordinators",
     "alsoCalled": [
       "Heavy Equipment Supervisor",
       "Recycle Coordinator",
@@ -10495,7 +10495,7 @@
   },
 
   {
-    "name": "Refractory Materials Repairers",
+    "title": "Refractory Materials Repairers",
     "alsoCalled": [
       "Cell Reliner",
       "Cupola Repairer",
@@ -10516,7 +10516,7 @@
   },
 
   {
-    "name": "Refuse & Recyclable Material Collectors",
+    "title": "Refuse & Recyclable Material Collectors",
     "alsoCalled": [
       "Front Load Trash Truck Driver",
       "Garbage Collector",
@@ -10537,7 +10537,7 @@
   },
 
   {
-    "name": "Registered Nurses",
+    "title": "Registered Nurses",
     "alsoCalled": [
       "Certified Operating Room Nurse",
       "CNOR",
@@ -10565,7 +10565,7 @@
   },
 
   {
-    "name": "Regulatory Affairs Managers",
+    "title": "Regulatory Affairs Managers",
     "alsoCalled": [
       "Global Regulatory Affairs Director",
       "Global RA Director",
@@ -10589,7 +10589,7 @@
   },
 
   {
-    "name": "Regulatory Affairs Specialists",
+    "title": "Regulatory Affairs Specialists",
     "alsoCalled": [
       "Drug Regulatory Affairs Specialist",
       "Regulatory Affairs Analyst",
@@ -10616,7 +10616,7 @@
   },
 
   {
-    "name": "Rehabilitation Counselors",
+    "title": "Rehabilitation Counselors",
     "alsoCalled": [
       "Employment Advisor",
       "Employment Services Case Manager",
@@ -10639,7 +10639,7 @@
   },
 
   {
-    "name": "Reinforcing Iron & Rebar Workers",
+    "title": "Reinforcing Iron & Rebar Workers",
     "alsoCalled": [
       "Field Ironworker",
       "Iron Installer",
@@ -10659,7 +10659,7 @@
   },
 
   {
-    "name": "Remote Sensing Scientists & Technologists",
+    "title": "Remote Sensing Scientists & Technologists",
     "alsoCalled": [
       "Data Analytics Scientist",
       "Geospatial Intelligence Analyst",
@@ -10678,7 +10678,7 @@
   },
 
   {
-    "name": "Remote Sensing Technicians",
+    "title": "Remote Sensing Technicians",
     "alsoCalled": [
       "Digital Cartographic Technician",
       "Geospatial Extractor",
@@ -10694,7 +10694,7 @@
   },
 
   {
-    "name": "Reservation & Transportation Ticket Agents & Travel Clerks",
+    "title": "Reservation & Transportation Ticket Agents & Travel Clerks",
     "alsoCalled": [
       "Airline Ticket Agent",
       "Airport Sales Agent",
@@ -10716,7 +10716,7 @@
   },
 
   {
-    "name": "Residential Advisors",
+    "title": "Residential Advisors",
     "alsoCalled": [
       "Hall Coordinator",
       "Residence Director",
@@ -10738,7 +10738,7 @@
   },
 
   {
-    "name": "Respiratory Therapists",
+    "title": "Respiratory Therapists",
     "alsoCalled": [
       "Cardiopulmonary Rehabilitation Respiratory Therapist",
       "Certified Respiratory Therapist",
@@ -10761,7 +10761,7 @@
   },
 
   {
-    "name": "Retail Loss Prevention Specialists",
+    "title": "Retail Loss Prevention Specialists",
     "alsoCalled": [
       "Asset Protection Associate",
       "APA",
@@ -10783,7 +10783,7 @@
   },
 
   {
-    "name": "Retail Salespersons",
+    "title": "Retail Salespersons",
     "alsoCalled": [
       "Car Salesman",
       "Customer Assistant",
@@ -10804,7 +10804,7 @@
   },
 
   {
-    "name": "Riggers",
+    "title": "Riggers",
     "alsoCalled": [
       "Gantry Rigger",
       "Hand Rigger",
@@ -10826,7 +10826,7 @@
   },
 
   {
-    "name": "Robotics Engineers",
+    "title": "Robotics Engineers",
     "alsoCalled": [
       "Automation Engineer",
       "Autonomous Vehicle Design Engineer",
@@ -10844,7 +10844,7 @@
   },
 
   {
-    "name": "Robotics Technicians",
+    "title": "Robotics Technicians",
     "alsoCalled": [
       "Automation Technician",
       "Electrical and Instrumentation Technician",
@@ -10866,7 +10866,7 @@
   },
 
   {
-    "name": "Rock Splitters, Quarry",
+    "title": "Rock Splitters, Quarry",
     "alsoCalled": [
       "Blaster",
       "Driller",
@@ -10885,7 +10885,7 @@
   },
 
   {
-    "name": "Rolling Machine Setters, Operators, & Tenders, Metal & Plastic",
+    "title": "Rolling Machine Setters, Operators, & Tenders, Metal & Plastic",
     "alsoCalled": [
       "Breakdown Mill Operator",
       "Calender Operator",
@@ -10907,7 +10907,7 @@
   },
 
   {
-    "name": "Roof Bolters, Mining",
+    "title": "Roof Bolters, Mining",
     "alsoCalled": [
       "Bolt Machine Operator",
       "Bolt Man",
@@ -10928,7 +10928,7 @@
   },
 
   {
-    "name": "Roofers",
+    "title": "Roofers",
     "alsoCalled": [
       "Commercial Roofer",
       "Industrial Roofer",
@@ -10949,7 +10949,7 @@
   },
 
   {
-    "name": "Rotary Drill Operators, Oil & Gas",
+    "title": "Rotary Drill Operators, Oil & Gas",
     "alsoCalled": [
       "Daylight Driller",
       "Drill Operator",
@@ -10970,7 +10970,7 @@
   },
 
   {
-    "name": "Roustabouts, Oil & Gas",
+    "title": "Roustabouts, Oil & Gas",
     "alsoCalled": [
       "Floor Hand",
       "Galley Hand",
@@ -10991,7 +10991,7 @@
   },
 
   {
-    "name": "Sailors & Marine Oilers",
+    "title": "Sailors & Marine Oilers",
     "alsoCalled": [
       "Able Bodied Seaman",
       "AB Seaman",
@@ -11015,7 +11015,7 @@
   },
 
   {
-    "name": "Sales Engineers",
+    "title": "Sales Engineers",
     "alsoCalled": [
       "Business Development Engineer",
       "Inside Sales Engineer",
@@ -11034,7 +11034,7 @@
   },
 
   {
-    "name": "Sales Managers",
+    "title": "Sales Managers",
     "alsoCalled": [
       "District Sales Manager",
       "National Sales Manager",
@@ -11056,7 +11056,7 @@
   },
 
   {
-    "name": "Sales Representatives of Services",
+    "title": "Sales Representatives of Services",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -11068,7 +11068,7 @@
   },
 
   {
-    "name": "Sales Representatives, Wholesale & Manufacturing",
+    "title": "Sales Representatives, Wholesale & Manufacturing",
     "alsoCalled": [
       "Account Representative",
       "Customer Account Technician",
@@ -11091,7 +11091,7 @@
   },
 
   {
-    "name": "Sales Representatives, Wholesale & Manufacturing, Technical & Scientific Products",
+    "title": "Sales Representatives, Wholesale & Manufacturing, Technical & Scientific Products",
     "alsoCalled": [
       "Inside Sales Representative",
       "Marketing Representative",
@@ -11106,7 +11106,7 @@
   },
 
   {
-    "name": "Sawing Machine Setters, Operators, & Tenders, Wood",
+    "title": "Sawing Machine Setters, Operators, & Tenders, Wood",
     "alsoCalled": [
       "Bandmill Operator",
       "Cut Off Saw Operator",
@@ -11128,7 +11128,7 @@
   },
 
   {
-    "name": "School Bus Monitors",
+    "title": "School Bus Monitors",
     "favorite": false,
     "alsoCalled": [],
     "industries": [],
@@ -11140,7 +11140,7 @@
   },
 
   {
-    "name": "School Psychologists",
+    "title": "School Psychologists",
     "alsoCalled": [
       "Autism Consultant",
       "Bilingual School Psychologist",
@@ -11162,7 +11162,7 @@
   },
 
   {
-    "name": "Search Marketing Strategists",
+    "title": "Search Marketing Strategists",
     "alsoCalled": [
       "Digital Marketing Strategist",
       "Digital Media Planner",
@@ -11186,7 +11186,7 @@
   },
 
   {
-    "name": "Secondary School Teachers",
+    "title": "Secondary School Teachers",
     "alsoCalled": [
       "Art Teacher",
       "English Teacher",
@@ -11209,7 +11209,7 @@
   },
 
   {
-    "name": "Secretaries & Administrative Assistants",
+    "title": "Secretaries & Administrative Assistants",
     "alsoCalled": [
       "Administrative Assistant",
       "Admin Assistant",
@@ -11235,7 +11235,7 @@
   },
 
   {
-    "name": "Securities, Commodities, & Financial Services Sales Agents",
+    "title": "Securities, Commodities, & Financial Services Sales Agents",
     "alsoCalled": [
       "Broker",
       "Commodities Broker",
@@ -11257,7 +11257,7 @@
   },
 
   {
-    "name": "Security & Fire Alarm Systems Installers",
+    "title": "Security & Fire Alarm Systems Installers",
     "alsoCalled": [
       "Alarm Technician",
       "Fire Alarm Technician",
@@ -11279,7 +11279,7 @@
   },
 
   {
-    "name": "Security Guards",
+    "title": "Security Guards",
     "alsoCalled": [
       "Campus Security Officer",
       "Custom Protection Officer",
@@ -11300,7 +11300,7 @@
   },
 
   {
-    "name": "Security Management Specialists",
+    "title": "Security Management Specialists",
     "alsoCalled": [
       "Physical Security Engineer",
       "Physical Security Specialist",
@@ -11317,7 +11317,7 @@
   },
 
   {
-    "name": "Security Managers",
+    "title": "Security Managers",
     "alsoCalled": [
       "Corporate Physical Security Supervisor",
       "Corporate Security Manager",
@@ -11333,7 +11333,7 @@
   },
 
   {
-    "name": "Segmental Pavers",
+    "title": "Segmental Pavers",
     "alsoCalled": [
       "Cutter",
       "Paver",
@@ -11351,7 +11351,7 @@
   },
 
   {
-    "name": "Self-Enrichment Teachers",
+    "title": "Self-Enrichment Teachers",
     "alsoCalled": [
       "Art Teacher",
       "Dance Instructor",
@@ -11373,7 +11373,7 @@
   },
 
   {
-    "name": "Semiconductor Processing Technicians",
+    "title": "Semiconductor Processing Technicians",
     "alsoCalled": [
       "Device Processing Engineer",
       "Diffusion Operator",
@@ -11395,7 +11395,7 @@
   },
 
   {
-    "name": "Separating, Filtering, Clarifying, Precipitating, & Still Machine Setters, Operators, & Tenders",
+    "title": "Separating, Filtering, Clarifying, Precipitating, & Still Machine Setters, Operators, & Tenders",
     "alsoCalled": [
       "Blender",
       "Brewer",
@@ -11415,7 +11415,7 @@
     }
   },
   {
-    "name": "Septic Tank Servicers & Sewer Pipe Cleaners",
+    "title": "Septic Tank Servicers & Sewer Pipe Cleaners",
     "alsoCalled": [
       "Drain Cleaner",
       "Drain Technician",
@@ -11435,7 +11435,7 @@
   },
 
   {
-    "name": "Service Unit Operators, Oil & Gas",
+    "title": "Service Unit Operators, Oil & Gas",
     "alsoCalled": [
       "Pulling Unit Operator",
       "Reverse Unit Operator",
@@ -11455,7 +11455,7 @@
   },
 
   {
-    "name": "Set & Exhibit Designers",
+    "title": "Set & Exhibit Designers",
     "alsoCalled": [
       "Designer",
       "Display Coordinator",
@@ -11477,7 +11477,7 @@
   },
 
   {
-    "name": "Sewers, Hand",
+    "title": "Sewers, Hand",
     "alsoCalled": [
       "Alteration Specialist",
       "Couturier",
@@ -11497,7 +11497,7 @@
   },
 
   {
-    "name": "Sewing Machine Operators",
+    "title": "Sewing Machine Operators",
     "alsoCalled": [
       "Line Closer",
       "Machine Operator",
@@ -11519,7 +11519,7 @@
   },
 
   {
-    "name": "Shampooers",
+    "title": "Shampooers",
     "alsoCalled": [
       "Hair Assistant",
       "Shampoo Assistant",
@@ -11537,7 +11537,7 @@
   },
 
   {
-    "name": "Sheet Metal Workers",
+    "title": "Sheet Metal Workers",
     "alsoCalled": [
       "Field Installer",
       "HVAC Sheet Metal Installer",
@@ -11557,7 +11557,7 @@
   },
 
   {
-    "name": "Ship Engineers",
+    "title": "Ship Engineers",
     "alsoCalled": [
       "Barge Engineer",
       "Engineer",
@@ -11577,7 +11577,7 @@
   },
 
   {
-    "name": "Shipping, Receiving, & Inventory Clerks",
+    "title": "Shipping, Receiving, & Inventory Clerks",
     "alsoCalled": [
       "Materials Control Associate",
       "Order Fulfillment Specialist",
@@ -11599,7 +11599,7 @@
   },
 
   {
-    "name": "Shoe & Leather Workers & Repairers",
+    "title": "Shoe & Leather Workers & Repairers",
     "alsoCalled": [
       "Boot Maker",
       "Cobbler",
@@ -11621,7 +11621,7 @@
   },
 
   {
-    "name": "Shoe Machine Operators & Tenders",
+    "title": "Shoe Machine Operators & Tenders",
     "alsoCalled": [
       "Assembler",
       "Boot and Shoe Repairman",
@@ -11642,7 +11642,7 @@
   },
 
   {
-    "name": "Shuttle Drivers & Chauffeurs",
+    "title": "Shuttle Drivers & Chauffeurs",
     "alsoCalled": [
       "Airport Shuttle Driver",
       "Chauffeur",
@@ -11664,7 +11664,7 @@
   },
 
   {
-    "name": "Signal & Track Switch Repairers",
+    "title": "Signal & Track Switch Repairers",
     "alsoCalled": [
       "Railroad Signal Maintainer",
       "Signal and Communications Maintainer",
@@ -11686,7 +11686,7 @@
   },
 
   {
-    "name": "Skincare Specialists",
+    "title": "Skincare Specialists",
     "alsoCalled": [
       "Aesthetician",
       "Clinical Esthetician",
@@ -11707,7 +11707,7 @@
   },
 
   {
-    "name": "Slaughterers & Meat Packers",
+    "title": "Slaughterers & Meat Packers",
     "alsoCalled": [
       "Boning Room Worker",
       "Meat Packager",
@@ -11728,7 +11728,7 @@
   },
 
   {
-    "name": "Social & Community Service Managers",
+    "title": "Social & Community Service Managers",
     "alsoCalled": [
       "Adoption Services Manager",
       "Child Welfare Services Director",
@@ -11749,7 +11749,7 @@
   },
 
   {
-    "name": "Social & Human Service Assistants",
+    "title": "Social & Human Service Assistants",
     "alsoCalled": [
       "Addictions Counselor Assistant",
       "Advocate",
@@ -11770,7 +11770,7 @@
   },
 
   {
-    "name": "Social Science Research Assistants",
+    "title": "Social Science Research Assistants",
     "alsoCalled": [
       "Clinical Research Assistant",
       "Graduate Assistant",
@@ -11790,7 +11790,7 @@
   },
 
   {
-    "name": "Social Work Teachers, Postsecondary",
+    "title": "Social Work Teachers, Postsecondary",
     "alsoCalled": [
       "Adjunct Professor",
       "Assistant Professor",
@@ -11812,7 +11812,7 @@
   },
 
   {
-    "name": "Sociologists",
+    "title": "Sociologists",
     "alsoCalled": [
       "Research Associate",
       "Research Coordinator",
@@ -11830,7 +11830,7 @@
   },
 
   {
-    "name": "Sociology Teachers, Postsecondary",
+    "title": "Sociology Teachers, Postsecondary",
     "alsoCalled": [
       "Adjunct Instructor",
       "Assistant Professor",
@@ -11852,7 +11852,7 @@
   },
 
   {
-    "name": "Software Developers",
+    "title": "Software Developers",
     "alsoCalled": [
       "Application Developer",
       "Application Integration Engineer",
@@ -11874,7 +11874,7 @@
   },
 
   {
-    "name": "Software Quality Assurance Analysts & Testers",
+    "title": "Software Quality Assurance Analysts & Testers",
     "alsoCalled": [
       "Automation Tester",
       "Information Technology Analyst",
@@ -11901,7 +11901,7 @@
   },
 
   {
-    "name": "Soil & Plant Scientists",
+    "title": "Soil & Plant Scientists",
     "alsoCalled": [
       "Agronomist",
       "Arboriculture Researcher",
@@ -11923,7 +11923,7 @@
   },
 
   {
-    "name": "Solar Energy Installation Managers",
+    "title": "Solar Energy Installation Managers",
     "alsoCalled": [
       "Installation Manager",
       "Residential Field Manager",
@@ -11940,7 +11940,7 @@
   },
 
   {
-    "name": "Solar Energy Systems Engineers",
+    "title": "Solar Energy Systems Engineers",
     "alsoCalled": [
       "Consulting Engineer",
       "Distributed Energy Systems Consultant",
@@ -11958,7 +11958,7 @@
   },
 
   {
-    "name": "Solar Photovoltaic Installers",
+    "title": "Solar Photovoltaic Installers",
     "alsoCalled": [
       "Installer",
       "Photovoltaic Installer",
@@ -11981,7 +11981,7 @@
   },
 
   {
-    "name": "Solar Sales Representatives & Assessors",
+    "title": "Solar Sales Representatives & Assessors",
     "alsoCalled": [
       "Energy Consultant",
       "Sales Associate",
@@ -11999,7 +11999,7 @@
   },
 
   {
-    "name": "Solar Thermal Installers & Technicians",
+    "title": "Solar Thermal Installers & Technicians",
     "alsoCalled": [
       "Installer",
       "Solar Energy Technician",
@@ -12020,7 +12020,7 @@
   },
 
   {
-    "name": "Sound Engineering Technicians",
+    "title": "Sound Engineering Technicians",
     "alsoCalled": [
       "Audio Engineer",
       "Audio Operator",
@@ -12042,7 +12042,7 @@
   },
 
   {
-    "name": "Spa Managers",
+    "title": "Spa Managers",
     "alsoCalled": [
       "Massage Department Manager",
       "Salon Manager",
@@ -12059,7 +12059,7 @@
   },
 
   {
-    "name": "Special Education Teachers, Elementary School",
+    "title": "Special Education Teachers, Elementary School",
     "alsoCalled": [
       "Emotional Disabilities Teacher",
       "Hearing Impaired Itinerant Teacher",
@@ -12081,7 +12081,7 @@
   },
 
   {
-    "name": "Special Education Teachers, Kindergarten",
+    "title": "Special Education Teachers, Kindergarten",
     "alsoCalled": [
       "Emotional Disabilities Teacher",
       "Hearing Impaired Itinerant Teacher",
@@ -12100,7 +12100,7 @@
   },
 
   {
-    "name": "Special Education Teachers, Middle School",
+    "title": "Special Education Teachers, Middle School",
     "alsoCalled": [
       "Exceptional Children Teacher",
       "EC Teacher",
@@ -12123,7 +12123,7 @@
   },
 
   {
-    "name": "Special Education Teachers, Preschool",
+    "title": "Special Education Teachers, Preschool",
     "alsoCalled": [
       "Early Childhood Special Education Teacher",
       "ECSE Teacher",
@@ -12147,7 +12147,7 @@
   },
 
   {
-    "name": "Special Education Teachers, Secondary School",
+    "title": "Special Education Teachers, Secondary School",
     "alsoCalled": [
       "Career and Transition Teacher",
       "High School Special Education Teacher",
@@ -12171,7 +12171,7 @@
   },
 
   {
-    "name": "Special Effects Artists & Animators",
+    "title": "Special Effects Artists & Animators",
     "alsoCalled": [
       "3D Animator",
       "Three-Dimensional Animator",
@@ -12194,7 +12194,7 @@
   },
 
   {
-    "name": "Speech-Language Pathologists",
+    "title": "Speech-Language Pathologists",
     "alsoCalled": [
       "Bilingual Speech-Language Pathologist",
       "Bilingual SLP",
@@ -12219,7 +12219,7 @@
   },
 
   {
-    "name": "Speech-Language Pathology Assistants",
+    "title": "Speech-Language Pathology Assistants",
     "alsoCalled": [
       "Communication Assistant",
       "Speech Assistant",
@@ -12244,7 +12244,7 @@
   },
 
   {
-    "name": "Sports Medicine Physicians",
+    "title": "Sports Medicine Physicians",
     "alsoCalled": [
       "Athletic Team Physician",
       "Nonsurgical Primary Care Sports Medicine Physician",
@@ -12262,7 +12262,7 @@
   },
 
   {
-    "name": "Stationary Engineers & Boiler Operators",
+    "title": "Stationary Engineers & Boiler Operators",
     "alsoCalled": [
       "Actuarial Analyst",
       "Actuarial Assistant",
@@ -12281,7 +12281,7 @@
   },
 
   {
-    "name": "Statistical Assistants",
+    "title": "Statistical Assistants",
     "alsoCalled": [
       "Actuarial Analyst",
       "Actuarial Assistant",
@@ -12300,7 +12300,7 @@
   },
 
   {
-    "name": "Statisticians",
+    "title": "Statisticians",
     "alsoCalled": [
       "Demographer",
       "Mathematical Statistician",
@@ -12322,7 +12322,7 @@
   },
 
   {
-    "name": "Stockers & Order Fillers",
+    "title": "Stockers & Order Fillers",
     "alsoCalled": [
       "Checker Stocker",
       "Inventory Specialist",
@@ -12346,7 +12346,7 @@
   },
 
   {
-    "name": "Stone Cutters & Carvers, Manufacturing",
+    "title": "Stone Cutters & Carvers, Manufacturing",
     "alsoCalled": [
       "Carver",
       "Cutter",
@@ -12367,7 +12367,7 @@
   },
 
   {
-    "name": "Stonemasons",
+    "title": "Stonemasons",
     "alsoCalled": ["Mason", "Stone Derrickman", "Stone Mason", "Stone Setter"],
     "industries": [],
     "education": "",
@@ -12378,7 +12378,7 @@
   },
 
   {
-    "name": "Structural Iron & Steel Workers",
+    "title": "Structural Iron & Steel Workers",
     "alsoCalled": [
       "Fitter",
       "Iron Worker",
@@ -12397,7 +12397,7 @@
   },
 
   {
-    "name": "Structural Metal Fabricators & Fitters",
+    "title": "Structural Metal Fabricators & Fitters",
     "alsoCalled": [
       "Fabricator",
       "Fitter",
@@ -12417,7 +12417,7 @@
   },
 
   {
-    "name": "Substance Abuse & Behavioral Disorder Counselors",
+    "title": "Substance Abuse & Behavioral Disorder Counselors",
     "alsoCalled": [
       "Addictions Counselor",
       "Case Manager",
@@ -12443,7 +12443,7 @@
   },
 
   {
-    "name": "Substitute Teachers, Short-Term",
+    "title": "Substitute Teachers, Short-Term",
     "alsoCalled": ["Teacher"],
     "industries": [],
     "education": "",
@@ -12454,7 +12454,7 @@
   },
 
   {
-    "name": "Subway & Streetcar Operators",
+    "title": "Subway & Streetcar Operators",
     "alsoCalled": [
       "Combined Rail Operator",
       "Light Rail Operator",
@@ -12478,7 +12478,7 @@
   },
 
   {
-    "name": "Supply Chain Managers",
+    "title": "Supply Chain Managers",
     "alsoCalled": [
       "Global Supply Chain Director",
       "Material Requirements Planning Manager",
@@ -12495,7 +12495,7 @@
   },
 
   {
-    "name": "Surgical Assistants",
+    "title": "Surgical Assistants",
     "alsoCalled": [
       "Certified First Assistant",
       "CFA",
@@ -12525,7 +12525,7 @@
   },
 
   {
-    "name": "Surgical Technologists",
+    "title": "Surgical Technologists",
     "alsoCalled": [
       "Certified Surgical Technician",
       "Certified Surgical Technologist",
@@ -12552,7 +12552,7 @@
   },
 
   {
-    "name": "Survey Researchers",
+    "title": "Survey Researchers",
     "alsoCalled": [
       "Data Analyst",
       "Field Interviewer",
@@ -12574,7 +12574,7 @@
   },
 
   {
-    "name": "Surveying & Mapping Technicians",
+    "title": "Surveying & Mapping Technicians",
     "alsoCalled": [
       "Aerotriangulation Specialist",
       "Engineering Technician",
@@ -12596,7 +12596,7 @@
   },
 
   {
-    "name": "Surveyors",
+    "title": "Surveyors",
     "alsoCalled": [
       "City Surveyor",
       "County Surveyor",
@@ -12614,7 +12614,7 @@
   },
 
   {
-    "name": "Sustainability Specialists",
+    "title": "Sustainability Specialists",
     "alsoCalled": [
       "Campus Energy Coordinator",
       "Energy and Sustainability Strategic Advisor",
@@ -12636,7 +12636,7 @@
   },
 
   {
-    "name": "Switchboard Operators, Including Answering Service",
+    "title": "Switchboard Operators, Including Answering Service",
     "alsoCalled": [
       "CBX Operator",
       "Computerized Branch Exchange Operator",
@@ -12662,7 +12662,7 @@
   },
 
   {
-    "name": "Tailors, Dressmakers, & Custom Sewers",
+    "title": "Tailors, Dressmakers, & Custom Sewers",
     "alsoCalled": [
       "Alterations Expert",
       "Alterations Sewer",
@@ -12684,7 +12684,7 @@
   },
 
   {
-    "name": "Talent Directors",
+    "title": "Talent Directors",
     "alsoCalled": [
       "Artistic Director",
       "Casting Agent",
@@ -12704,7 +12704,7 @@
   },
 
   {
-    "name": "Tank Car, Truck, & Ship Loaders",
+    "title": "Tank Car, Truck, & Ship Loaders",
     "alsoCalled": [
       "Load Out Person",
       "Loader",
@@ -12727,7 +12727,7 @@
   },
 
   {
-    "name": "Tapers",
+    "title": "Tapers",
     "alsoCalled": ["Drywall Finisher", "Drywall Mechanic", "Drywall Taper", "Finisher", "Taper"],
     "industries": [],
     "education": "",
@@ -12738,7 +12738,7 @@
   },
 
   {
-    "name": "Tax Examiners & Collectors, & Revenue Agents",
+    "title": "Tax Examiners & Collectors, & Revenue Agents",
     "alsoCalled": [
       "City Tax Auditor",
       "Collections Specialist",
@@ -12760,7 +12760,7 @@
   },
 
   {
-    "name": "Tax Preparers",
+    "title": "Tax Preparers",
     "alsoCalled": [
       "Certified Income Tax Preparer",
       "CTP",
@@ -12783,7 +12783,7 @@
   },
 
   {
-    "name": "Taxi Drivers",
+    "title": "Taxi Drivers",
     "alsoCalled": ["Cab Driver", "Taxi Cab Driver", "Taxi Driver"],
     "industries": [],
     "education": "",
@@ -12794,7 +12794,7 @@
   },
 
   {
-    "name": "Teaching Assistants, Postsecondary",
+    "title": "Teaching Assistants, Postsecondary",
     "alsoCalled": [
       "Graduate Assistant",
       "Graduate Fellow",
@@ -12819,7 +12819,7 @@
   },
 
   {
-    "name": "Teaching Assistants, Preschool, Elementary, Middle, & Secondary School",
+    "title": "Teaching Assistants, Preschool, Elementary, Middle, & Secondary School",
     "alsoCalled": [
       "Educational Assistant",
       "Instructional Assistant",
@@ -12837,7 +12837,7 @@
   },
 
   {
-    "name": "Teaching Assistants, Special Education",
+    "title": "Teaching Assistants, Special Education",
     "alsoCalled": [
       "Special Education Aide",
       "Special Education Paraprofessional",
@@ -12852,7 +12852,7 @@
   },
 
   {
-    "name": "Team Assemblers",
+    "title": "Team Assemblers",
     "alsoCalled": [
       "Assembler",
       "Assembly Associate",
@@ -12874,7 +12874,7 @@
   },
 
   {
-    "name": "Technical Writers",
+    "title": "Technical Writers",
     "alsoCalled": [
       "Documentation Designer",
       "Documentation Specialist",
@@ -12895,7 +12895,7 @@
   },
 
   {
-    "name": "Telecommunications Engineering Specialists",
+    "title": "Telecommunications Engineering Specialists",
     "alsoCalled": [
       "Communications Engineer",
       "Engineer",
@@ -12920,7 +12920,7 @@
   },
 
   {
-    "name": "Telecommunications Equipment Installers & Repairers",
+    "title": "Telecommunications Equipment Installers & Repairers",
     "alsoCalled": [
       "Broadband Technician",
       "Central Office Technician",
@@ -12943,7 +12943,7 @@
   },
 
   {
-    "name": "Telecommunications Line Installers & Repairers",
+    "title": "Telecommunications Line Installers & Repairers",
     "alsoCalled": [
       "Cable Splicer",
       "Cable Technician",
@@ -12967,7 +12967,7 @@
   },
 
   {
-    "name": "Telemarketers",
+    "title": "Telemarketers",
     "alsoCalled": [
       "Telemarketer",
       "Telemarketing Sales Representative",
@@ -12987,7 +12987,7 @@
   },
 
   {
-    "name": "Telephone Operators",
+    "title": "Telephone Operators",
     "alsoCalled": [
       "411 Directory Assistance Operator",
       "Directory Assistance Operator",
@@ -13008,7 +13008,7 @@
   },
 
   {
-    "name": "Tellers",
+    "title": "Tellers",
     "alsoCalled": [
       "Account Representative",
       "Bank Teller",
@@ -13032,7 +13032,7 @@
   },
 
   {
-    "name": "Terrazzo Workers & Finishers",
+    "title": "Terrazzo Workers & Finishers",
     "alsoCalled": [
       "Grinder",
       "Installer",
@@ -13054,7 +13054,7 @@
   },
 
   {
-    "name": "Textile Bleaching & Dyeing Machine Operators & Tenders",
+    "title": "Textile Bleaching & Dyeing Machine Operators & Tenders",
     "alsoCalled": [
       "Beck Operator",
       "Drug Room Operator",
@@ -13076,7 +13076,7 @@
   },
 
   {
-    "name": "Textile Cutting Machine Setters, Operators, & Tenders",
+    "title": "Textile Cutting Machine Setters, Operators, & Tenders",
     "alsoCalled": [
       "Automated Cutting Machine Operator",
       "CNC Cutting Operator",
@@ -13099,7 +13099,7 @@
   },
 
   {
-    "name": "Textile Knitting & Weaving Machine Setters, Operators, & Tenders",
+    "title": "Textile Knitting & Weaving Machine Setters, Operators, & Tenders",
     "alsoCalled": [
       "Knitter",
       "Knitting Machine Operator",
@@ -13118,7 +13118,7 @@
   },
 
   {
-    "name": "Textile Winding, Twisting, & Drawing Out Machine Setters, Operators, & Tenders",
+    "title": "Textile Winding, Twisting, & Drawing Out Machine Setters, Operators, & Tenders",
     "alsoCalled": [
       "Back Winder",
       "Cable Operator",
@@ -13141,7 +13141,7 @@
   },
 
   {
-    "name": "Tile & Stone Setters",
+    "title": "Tile & Stone Setters",
     "alsoCalled": [
       "Ceramic Tile Mechanic",
       "Ceramic Tile Setter",
@@ -13163,7 +13163,7 @@
   },
 
   {
-    "name": "Timing Device Assemblers & Adjusters",
+    "title": "Timing Device Assemblers & Adjusters",
     "alsoCalled": [
       "Calibration Specialist",
       "Calibrator",
@@ -13182,7 +13182,7 @@
   },
 
   {
-    "name": "Tire Builders",
+    "title": "Tire Builders",
     "alsoCalled": [
       "Buffer",
       "Recapper",
@@ -13204,7 +13204,7 @@
   },
 
   {
-    "name": "Tire Repairers & Changers",
+    "title": "Tire Repairers & Changers",
     "alsoCalled": [
       "Alignment Technician",
       "Lube Technician",
@@ -13225,7 +13225,7 @@
   },
 
   {
-    "name": "Title Examiners, Abstractors, & Searchers",
+    "title": "Title Examiners, Abstractors, & Searchers",
     "alsoCalled": [
       "Abstractor",
       "Commercial Title Examiner",
@@ -13245,7 +13245,7 @@
   },
 
   {
-    "name": "Tool & Die Makers",
+    "title": "Tool & Die Makers",
     "alsoCalled": [
       "Die Machinist",
       "Die Repair Laborer",
@@ -13268,7 +13268,7 @@
   },
 
   {
-    "name": "Tool Grinders, Filers, & Sharpeners",
+    "title": "Tool Grinders, Filers, & Sharpeners",
     "alsoCalled": [
       "Cutter Grinder",
       "Finisher",
@@ -13289,7 +13289,7 @@
   },
 
   {
-    "name": "Tour Guides & Escorts",
+    "title": "Tour Guides & Escorts",
     "alsoCalled": [
       "Art Museum Docent",
       "Discovery Guide",
@@ -13311,7 +13311,7 @@
   },
 
   {
-    "name": "Traffic Technicians",
+    "title": "Traffic Technicians",
     "alsoCalled": [
       "Field Traffic Investigator",
       "Traffic Analyst",
@@ -13333,7 +13333,7 @@
   },
 
   {
-    "name": "Training & Development Managers",
+    "title": "Training & Development Managers",
     "alsoCalled": [
       "Development Manager",
       "Education and Development Manager",
@@ -13355,7 +13355,7 @@
   },
 
   {
-    "name": "Training & Development Specialists",
+    "title": "Training & Development Specialists",
     "alsoCalled": [
       "Computer Training Specialist",
       "Corporate Trainer",
@@ -13378,7 +13378,7 @@
   },
 
   {
-    "name": "Transit & Railroad Police",
+    "title": "Transit & Railroad Police",
     "alsoCalled": [
       "Law Enforcement Officer",
       "Patrol Man",
@@ -13400,7 +13400,7 @@
   },
 
   {
-    "name": "Transportation Engineers",
+    "title": "Transportation Engineers",
     "alsoCalled": [
       "Engineer",
       "Project Engineer",
@@ -13420,7 +13420,7 @@
   },
 
   {
-    "name": "Transportation Inspectors",
+    "title": "Transportation Inspectors",
     "alsoCalled": [
       "Cargo Surveyor",
       "Inspector",
@@ -13438,7 +13438,7 @@
   },
 
   {
-    "name": "Transportation Planners",
+    "title": "Transportation Planners",
     "alsoCalled": ["Planner", "Transportation Analyst", "Transportation Planner"],
     "industries": [],
     "education": "",
@@ -13449,7 +13449,7 @@
   },
 
   {
-    "name": "Transportation Security Screeners",
+    "title": "Transportation Security Screeners",
     "alsoCalled": ["Security Screener", "Transportation Security Officer", "TSO"],
     "industries": [],
     "education": "",
@@ -13460,7 +13460,7 @@
   },
 
   {
-    "name": "Transportation Vehicle, Equipment & Systems Inspectors",
+    "title": "Transportation Vehicle, Equipment & Systems Inspectors",
     "alsoCalled": [
       "Car Inspector",
       "Carman",
@@ -13481,7 +13481,7 @@
   },
 
   {
-    "name": "Transportation, Storage, & Distribution Managers",
+    "title": "Transportation, Storage, & Distribution Managers",
     "alsoCalled": [
       "Distribution Center Manager",
       "Distribution Manager",
@@ -13503,7 +13503,7 @@
   },
 
   {
-    "name": "Travel Agents",
+    "title": "Travel Agents",
     "alsoCalled": [
       "Auto Travel Counselor",
       "Beach Expert",
@@ -13525,7 +13525,7 @@
   },
 
   {
-    "name": "Travel Guides",
+    "title": "Travel Guides",
     "alsoCalled": [
       "Cruise Counselor",
       "Guide",
@@ -13547,7 +13547,7 @@
   },
 
   {
-    "name": "Treasurers & Controllers",
+    "title": "Treasurers & Controllers",
     "alsoCalled": [
       "Comptroller",
       "Controller",
@@ -13567,7 +13567,7 @@
   },
 
   {
-    "name": "Tree Trimmers & Pruners",
+    "title": "Tree Trimmers & Pruners",
     "alsoCalled": [
       "Arborist",
       "Climber",
@@ -13588,7 +13588,7 @@
   },
 
   {
-    "name": "Tutors",
+    "title": "Tutors",
     "alsoCalled": [
       "Academic Coach",
       "Academic Guidance Specialist",
@@ -13610,7 +13610,7 @@
   },
 
   {
-    "name": "Umpires, Referees, & Other Sports Officials",
+    "title": "Umpires, Referees, & Other Sports Officials",
     "alsoCalled": [
       "Basketball Referee",
       "Diving Judge",
@@ -13633,7 +13633,7 @@
   },
 
   {
-    "name": "Upholsterers",
+    "title": "Upholsterers",
     "alsoCalled": [
       "Box Spring Upholsterer",
       "Furniture Upholsterer",
@@ -13655,7 +13655,7 @@
   },
 
   {
-    "name": "Urban & Regional Planners",
+    "title": "Urban & Regional Planners",
     "alsoCalled": [
       "City Planner",
       "Community Development Planner",
@@ -13677,7 +13677,7 @@
   },
 
   {
-    "name": "Urologists",
+    "title": "Urologists",
     "alsoCalled": [
       "Acute Care Physician",
       "MD",
@@ -13695,7 +13695,7 @@
   },
 
   {
-    "name": "Ushers, Lobby Attendants, & Ticket Takers",
+    "title": "Ushers, Lobby Attendants, & Ticket Takers",
     "alsoCalled": [
       "Docent",
       "Lobby Attendant",
@@ -13716,7 +13716,7 @@
   },
 
   {
-    "name": "Validation Engineers",
+    "title": "Validation Engineers",
     "alsoCalled": [
       "Corporate Quality Engineer",
       "Product Quality Engineer",
@@ -13736,7 +13736,7 @@
   },
 
   {
-    "name": "Veterinarians",
+    "title": "Veterinarians",
     "alsoCalled": [
       "Companion Animal Practitioner",
       "Doctor of Veterinary Medicine",
@@ -13767,7 +13767,7 @@
   },
 
   {
-    "name": "Veterinary Assistants & Laboratory Animal Caretakers",
+    "title": "Veterinary Assistants & Laboratory Animal Caretakers",
     "alsoCalled": [
       "Animal Care Provider",
       "Animal Caregiver",
@@ -13791,7 +13791,7 @@
   },
 
   {
-    "name": "Veterinary Technologists & Technicians",
+    "title": "Veterinary Technologists & Technicians",
     "alsoCalled": [
       "Certified Veterinary Technician",
       "CVT",
@@ -13822,7 +13822,7 @@
   },
 
   {
-    "name": "Video Game Designers",
+    "title": "Video Game Designers",
     "alsoCalled": [
       "Design Director",
       "Designer",
@@ -13842,7 +13842,7 @@
   },
 
   {
-    "name": "Waiters & Waitresses",
+    "title": "Waiters & Waitresses",
     "alsoCalled": [
       "Banquet Server",
       "Buffet Server",
@@ -13864,7 +13864,7 @@
   },
 
   {
-    "name": "Watch & Clock Repairers",
+    "title": "Watch & Clock Repairers",
     "alsoCalled": [
       "Antique Clock Repairer",
       "Clock Repair Technician",
@@ -13886,7 +13886,7 @@
   },
 
   {
-    "name": "Water & Wastewater Treatment Plant & System Operators",
+    "title": "Water & Wastewater Treatment Plant & System Operators",
     "alsoCalled": [
       "Plant Operator",
       "Process Operator",
@@ -13912,7 +13912,7 @@
   },
 
   {
-    "name": "Water Resource Specialists",
+    "title": "Water Resource Specialists",
     "alsoCalled": ["Water Resources Planner"],
     "industries": [],
     "education": "",
@@ -13923,7 +13923,7 @@
   },
 
   {
-    "name": "Water/Wastewater Engineers",
+    "title": "Water/Wastewater Engineers",
     "alsoCalled": [
       "Consulting Engineer",
       "County Engineer",
@@ -13939,7 +13939,7 @@
   },
 
   {
-    "name": "Weatherization Installers & Technicians",
+    "title": "Weatherization Installers & Technicians",
     "alsoCalled": [
       "Energy Administrator",
       "Field Technician",
@@ -13957,7 +13957,7 @@
   },
 
   {
-    "name": "Web & Digital Interface Designers",
+    "title": "Web & Digital Interface Designers",
     "alsoCalled": [
       "Technology Applications Engineer",
       "Web Architect",
@@ -13975,7 +13975,7 @@
   },
 
   {
-    "name": "Web Administrators",
+    "title": "Web Administrators",
     "alsoCalled": [
       "Corporate Webmaster",
       "Web Administrator",
@@ -13996,7 +13996,7 @@
   },
 
   {
-    "name": "Web Developers",
+    "title": "Web Developers",
     "alsoCalled": [
       "Technology Applications Engineer",
       "Web Architect",
@@ -14014,7 +14014,7 @@
   },
 
   {
-    "name": "Weighers, Measurers, Checkers, & Samplers, Recordkeeping",
+    "title": "Weighers, Measurers, Checkers, & Samplers, Recordkeeping",
     "alsoCalled": [
       "Cycle Counter",
       "Fluid Operator",
@@ -14034,7 +14034,7 @@
   },
 
   {
-    "name": "Welders, Cutters, Solderers, & Brazers",
+    "title": "Welders, Cutters, Solderers, & Brazers",
     "alsoCalled": [
       "Assembly Line Brazer",
       "Brazer",
@@ -14058,7 +14058,7 @@
   },
 
   {
-    "name": "Welding, Soldering, & Brazing Machine Setters, Operators, & Tenders",
+    "title": "Welding, Soldering, & Brazing Machine Setters, Operators, & Tenders",
     "alsoCalled": [
       "Braze Operator",
       "Finishing Technician",
@@ -14076,7 +14076,7 @@
   },
 
   {
-    "name": "Wellhead Pumpers",
+    "title": "Wellhead Pumpers",
     "alsoCalled": [
       "Field Operator",
       "Lease Attendant",
@@ -14097,7 +14097,7 @@
   },
 
   {
-    "name": "Wholesale & Retail Buyers",
+    "title": "Wholesale & Retail Buyers",
     "alsoCalled": [
       "Buyer",
       "Grocery Buyer",
@@ -14116,7 +14116,7 @@
   },
 
   {
-    "name": "Wind Energy Development Managers",
+    "title": "Wind Energy Development Managers",
     "alsoCalled": [
       "Business Development Director",
       "Business Development Manager",
@@ -14134,7 +14134,7 @@
   },
 
   {
-    "name": "Wind Energy Engineers",
+    "title": "Wind Energy Engineers",
     "alsoCalled": [
       "Engineer",
       "Project Engineer",
@@ -14153,7 +14153,7 @@
   },
 
   {
-    "name": "Wind Energy Operations Managers",
+    "title": "Wind Energy Operations Managers",
     "alsoCalled": [
       "Service Site Manager",
       "Site Manager",
@@ -14175,7 +14175,7 @@
   },
 
   {
-    "name": "Wind Turbine Service Technicians",
+    "title": "Wind Turbine Service Technicians",
     "alsoCalled": [
       "Field Service Technician",
       "Renewable Energy Technician",
@@ -14197,7 +14197,7 @@
   },
 
   {
-    "name": "Woodworking Machine Setters, Operators, & Tenders",
+    "title": "Woodworking Machine Setters, Operators, & Tenders",
     "alsoCalled": [
       "Boring Machine Operator",
       "Cabinet Maker",
@@ -14218,7 +14218,7 @@
   },
 
   {
-    "name": "Word Processors & Typists",
+    "title": "Word Processors & Typists",
     "alsoCalled": [
       "Clerk Specialist",
       "Clerk Typist",
@@ -14237,7 +14237,7 @@
   },
 
   {
-    "name": "Writers & Authors",
+    "title": "Writers & Authors",
     "alsoCalled": [
       "Advertisement Agency Copywriter",
       "Ad Agency Copywriter",
@@ -14260,7 +14260,7 @@
     }
   },
   {
-    "name": "Zoologists & Wildlife Biologists",
+    "title": "Zoologists & Wildlife Biologists",
     "alsoCalled": [
       "Aquatic Biologist",
       "Conservation Resources Management Biologist",
