@@ -115,7 +115,7 @@
     "title": "Acupuncturists",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -127,7 +127,7 @@
     "title": "Acute Care Nurses",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -139,7 +139,7 @@
     "title": "Adapted Physical Education Specialists",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -199,7 +199,7 @@
     "title": "Advanced Practice Psychiatric Nurses",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -415,7 +415,7 @@
     "title": "Allergists & Immunologists",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -427,7 +427,7 @@
     "title": "Ambulance Drivers & Attendants",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -451,7 +451,7 @@
     "title": "Anesthesiologist Assistants",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -463,7 +463,7 @@
     "title": "Anesthesiologists",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -727,7 +727,7 @@
     "title": "Athletic Trainers",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -775,7 +775,7 @@
     "title": "Audiologists",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -1003,7 +1003,7 @@
     "title": "Biochemists & Biophysicists",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -1015,7 +1015,7 @@
     "title": "Bioengineers & Biomedical Engineers",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -1063,7 +1063,7 @@
     "title": "Bioinformatics Scientists",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -1075,7 +1075,7 @@
     "title": "Bioinformatics Technicians",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -1087,7 +1087,7 @@
     "title": "Biological Science Teachers, Postsecondary",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -1099,7 +1099,7 @@
     "title": "Biological Technicians",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -1111,7 +1111,7 @@
     "title": "Biologists",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -1147,7 +1147,7 @@
     "title": "Biostatisticians",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -1435,7 +1435,7 @@
     "title": "Cardiologists",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -1447,7 +1447,7 @@
     "title": "Cardiovascular Technologists & Technicians",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -1626,7 +1626,7 @@
     "title": "Chemistry Teachers, Postsecondary",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -1638,7 +1638,7 @@
     "title": "Chemists",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -1674,7 +1674,7 @@
     "title": "Child, Family, & School Social Workers",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -1686,7 +1686,7 @@
     "title": "Childcare Workers",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -1698,7 +1698,7 @@
     "title": "Chiropractors",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -1805,7 +1805,7 @@
     "title": "Clinical & Counseling Psychologists",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -1817,7 +1817,7 @@
     "title": "Clinical Data Managers",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -1829,7 +1829,7 @@
     "title": "Clinical Neuropsychologists",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -1841,7 +1841,7 @@
     "title": "Clinical Nurse Specialists",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -1853,7 +1853,7 @@
     "title": "Clinical Research Coordinators",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -2537,7 +2537,7 @@
     "title": "Critical Care Nurses",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -2657,7 +2657,7 @@
     "title": "Cytogenetic Technologists",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -2669,7 +2669,7 @@
     "title": "Cytotechnologists",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -2765,7 +2765,7 @@
     "title": "Dental Assistants",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -2777,7 +2777,7 @@
     "title": "Dental Hygienists",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -2789,7 +2789,7 @@
     "title": "Dental Laboratory Technicians",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -2801,7 +2801,7 @@
     "title": "Dentists, General",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -2813,7 +2813,7 @@
     "title": "Dermatologists",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -2861,7 +2861,7 @@
     "title": "Diagnostic Medical Sonographers",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -2873,7 +2873,7 @@
     "title": "Dietetic Technicians",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -2885,7 +2885,7 @@
     "title": "Dietitians & Nutritionists",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -3365,7 +3365,7 @@
     "title": "Emergency Management Directors",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -3377,7 +3377,7 @@
     "title": "Emergency Medical Technicians",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -3389,7 +3389,7 @@
     "title": "Emergency Medicine Physicians",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -3401,7 +3401,7 @@
     "title": "Endoscopy Technicians",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -3545,7 +3545,7 @@
     "title": "Environmental Science & Protection Technicians, Including Health",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -3569,7 +3569,7 @@
     "title": "Environmental Scientists & Specialists, Including Health",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -3581,7 +3581,7 @@
     "title": "Epidemiologists",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -3641,7 +3641,7 @@
     "title": "Exercise Physiologists",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -3653,7 +3653,7 @@
     "title": "Exercise Trainers & Group Fitness Instructors",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -3761,7 +3761,7 @@
     "title": "Family Medicine Physicians",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -4205,7 +4205,7 @@
     "title": "First-Line Supervisors of Personal Service Workers",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -4781,7 +4781,7 @@
     "title": "General Internal Medicine Physicians",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -4793,7 +4793,7 @@
     "title": "Genetic Counselors",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -4805,7 +4805,7 @@
     "title": "Geneticists",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -4996,7 +4996,15 @@
   {
     "title": "Hairdressers, Hairstylists, & Cosmetologists",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Beautician",
+      "Cosmetologist",
+      "Hair Dresser",
+      "Hair Stylist",
+      "Hairdresser",
+      "Hairstylist",
+      "Stylist"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5008,7 +5016,18 @@
   {
     "title": "Hazardous Materials Removal Workers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Abatement Worker",
+      "Asbestos Abatement Worker",
+      "Asbestos Hazard Abatement Worker",
+      "Asbestos Remover",
+      "Asbestos Worker",
+      "Decontamination and Decommissioning Operator",
+      "D and D Operator",
+      "Hazmat Technician",
+      "Hazardous Materials Technician",
+      "Waste Handling Technician"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5020,8 +5039,19 @@
   {
     "title": "Health & Safety Engineers",
     "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
+    "alsoCalled": [
+      "Health and Safety Specialist",
+      "Industrial Hygienist",
+      "Industrial Safety Engineer",
+      "Product Safety and Standards Engineer",
+      "Product Safety Consultant",
+      "Product Safety Engineer",
+      "Safety and Health Consultant",
+      "Safety Engineer",
+      "Service Loss Control Consultant",
+      "System Safety Engineer"
+    ],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -5032,8 +5062,19 @@
   {
     "title": "Health Education Specialists",
     "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
+    "alsoCalled": [
+      "Certified Diabetes Educator",
+      "Clinical Instructor",
+      "Community Health Consultant",
+      "Education Coordinator",
+      "Health Education Coordinator",
+      "Health Education Specialist",
+      "Health Educator",
+      "Health Promotion Specialist",
+      "Public Health Educator",
+      "Public Information Officer"
+    ],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -5044,8 +5085,21 @@
   {
     "title": "Health Informatics Specialists",
     "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
+    "alsoCalled": [
+      "Clinical Informatics Analyst",
+      "Clinical Informatics Nurse",
+      "Clinical Informatics Specialist",
+      "Clinical Informatics Systems Analyst",
+      "Digital Diabetes Research Officer",
+      "Nursing Informatics Officer",
+      "Nursing Informatics Specialist",
+      "Nursing Information Systems Coordinator",
+      "Registered Nurse Clinical Information Systems Coordinator",
+      "RN Clinical Information Systems Coordinator",
+      "Registered Nurse Clinical Information Systems Educator",
+      "RN Clinical Information Systems Educator"
+    ],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -5056,8 +5110,8 @@
   {
     "title": "Health Information Technologists & Medical Registrars",
     "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
+    "alsoCalled": ["Medical Records Analyst", "Medical Records Director"],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -5068,8 +5122,19 @@
   {
     "title": "Health Specialties Teachers, Postsecondary",
     "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
+    "alsoCalled": [
+      "Assistant Professor",
+      "Associate Professor",
+      "Clinical Professor",
+      "Instructor",
+      "Lecturer",
+      "Occupational Therapy Professor",
+      "Pharmacology Professor",
+      "Physical Therapy Professor",
+      "Professor",
+      "Public Health Professor"
+    ],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -5080,8 +5145,20 @@
   {
     "title": "Healthcare Social Workers",
     "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
+    "alsoCalled": [
+      "Clinical Social Worker",
+      "Hospice Social Worker",
+      "LMSW",
+      "Licensed Master Social Worker",
+      "Medical Social Worker",
+      "Nephrology Social Worker",
+      "Oncology Social Worker",
+      "Psychosocial Coordinator",
+      "Renal Social Worker",
+      "Social Work Case Manager",
+      "Social Worker"
+    ],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -5092,8 +5169,22 @@
   {
     "title": "Hearing Aid Specialists",
     "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
+    "alsoCalled": [
+      "Audioprosthologist",
+      "Hearing Aid Consultant",
+      "Hearing Aid Specialist",
+      "Hearing Care Practitioner",
+      "Hearing Care Specialist",
+      "Hearing Instrument Dispenser",
+      "Hearing Instrument Specialist",
+      "HIS",
+      "Hearing Specialist",
+      "Licensed Hearing Instrument Specialist",
+      "Licensed HIS",
+      "National Board Certified Hearing Instrument Specialist",
+      "National Board Certified HIS"
+    ],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -5104,7 +5195,17 @@
   {
     "title": "Heat Treating Equipment Setters, Operators, & Tenders, Metal & Plastic",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Batch Heat Treat Operator",
+      "Burner",
+      "Coating Line Worker",
+      "Furnace Operator",
+      "Heat Treat Furnace Operator",
+      "Heat Treat Operator",
+      "Heat Treat Technician",
+      "Heat Treater",
+      "Scarf and Anneal Operator"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5116,7 +5217,26 @@
   {
     "title": "Heating, Air Conditioning, & Refrigeration Mechanics & Installers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "A/C Tech",
+      "Air Conditioning Technician",
+      "HVAC Installer",
+      "Heating, Ventilation, and Air Conditioning Installer",
+      "HVAC Mechanic",
+      "Heating, Ventilation, and Air Conditioning Mechanic",
+      "HVAC Service Tech",
+      "Heating, Ventilation, and Air Conditioning Service Technician",
+      "HVAC Specialist",
+      "Heating, Ventilation, and Air Conditioning Specialist",
+      "HVAC Tech",
+      "Heating, Ventilation, and Air Conditioning Technician",
+      "Refrigeration Mechanic",
+      "Refrigeration Operator",
+      "Refrigeration Technician",
+      "Refrigeration Tech",
+      "Service Technician",
+      "Service Tech"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5128,7 +5248,20 @@
   {
     "title": "Heavy & Tractor-Trailer Truck Drivers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "CDL Driver",
+      "Commercial Driver's License Driver",
+      "Driver",
+      "Line Haul Driver",
+      "Log Truck Driver",
+      "Over the Road Driver",
+      "OTR Driver",
+      "Production Truck Driver",
+      "Road Driver",
+      "Semi Truck Driver",
+      "Tractor Trailer Driver",
+      "Truck Driver"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5140,7 +5273,13 @@
   {
     "title": "Helpers--Brickmasons, Blockmasons, Stonemasons, & Tile & Marble Setters",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Bricklayer Helper",
+      "Hod Carrier",
+      "Marble Finisher Helper",
+      "Mason Tender",
+      "Restoration Labor Mason Tender"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5152,7 +5291,7 @@
   {
     "title": "Helpers--Carpenters",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": ["Carpenter Assistant", "Carpenter Helper", "Carpenter's Helper"],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5164,7 +5303,7 @@
   {
     "title": "Helpers--Electricians",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": ["Electrician Helper", "Electrician's Helper"],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5176,7 +5315,15 @@
   {
     "title": "Helpers--Extraction Workers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Continuous Miner Operator Helper",
+      "Driller Helper",
+      "Driller's Assistant",
+      "Longwall Machine Operator Helper",
+      "Miner Helper",
+      "Powderman",
+      "Salt Miner"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5188,7 +5335,18 @@
   {
     "title": "Helpers--Installation, Maintenance, & Repair Workers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "HVAC Helper",
+      "Heating, Ventilation, Air Conditioning Helper",
+      "HVAC Installation Helper",
+      "Heating, Ventilation, Air Conditioning Installation Helper",
+      "Maintenance Aide",
+      "Maintenance Helper",
+      "Mechanic Helper",
+      "Mechanic Repair Helper",
+      "Mechanic's Assistant",
+      "Technician's Helper"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5200,7 +5358,7 @@
   {
     "title": "Helpers--Painters, Paperhangers, Plasterers, & Stucco Masons",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": ["Painter Helper", "Plaster Helper", "Plaster Tender"],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5212,7 +5370,7 @@
   {
     "title": "Helpers--Pipelayers, Plumbers, Pipefitters, & Steamfitters",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": ["Plumber's Helper"],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5224,7 +5382,7 @@
   {
     "title": "Helpers--Production Workers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": ["Helper", "Material Handler", "Press Helper"],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5236,7 +5394,7 @@
   {
     "title": "Helpers--Roofers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": ["Roofer Helper"],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5248,7 +5406,20 @@
   {
     "title": "Highway Maintenance Workers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Equipment Operator",
+      "EO",
+      "Highway Maintainer",
+      "Highway Maintenance Crew Worker",
+      "Highway Maintenance Technician",
+      "Highway Maintenance Worker",
+      "Maintenance Technician",
+      "Maintenance Worker",
+      "Transportation Maintenance Operator",
+      "Transportation Maintenance Specialist",
+      "TMS",
+      "Transportation Worker"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5260,7 +5431,7 @@
   {
     "title": "Histology Technicians",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": ["Histologic Technician", "Histology Technician"],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5272,7 +5443,17 @@
   {
     "title": "Historians",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "County Historian",
+      "County Records Management Officer",
+      "County RMO",
+      "Historian",
+      "Historic Interpreter",
+      "Historic Sites Registrar",
+      "Historical Interpreter",
+      "Research Associate",
+      "Researcher"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5284,7 +5465,18 @@
   {
     "title": "History Teachers, Postsecondary",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Adjunct History Instructor",
+      "Adjunct Instructor",
+      "Assistant Professor",
+      "Associate Professor",
+      "History Instructor",
+      "History Professor",
+      "History Teacher",
+      "Instructor",
+      "Lecturer",
+      "Professor"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5296,8 +5488,14 @@
   {
     "title": "Histotechnologists",
     "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
+    "alsoCalled": [
+      "Charge Histotechnologist",
+      "Clinical Laboratory Manager",
+      "Histology Specialist",
+      "Histology Technologist",
+      "Histotechnologist"
+    ],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -5308,7 +5506,13 @@
   {
     "title": "Hoist & Winch Operators",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Hoist Operator",
+      "Hoistman",
+      "Material Handler",
+      "Service Operator",
+      "Winch Derrick Operator"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5320,7 +5524,20 @@
   {
     "title": "Home Appliance Repairers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Appliance Mechanic",
+      "Appliance Repair Mechanic",
+      "Appliance Repair Technician",
+      "Appliance Repair Tech",
+      "Appliance Service Technician",
+      "Appliance Technician",
+      "Appliance Tech",
+      "Repair Man",
+      "Repair Technician",
+      "Service Technician",
+      "Service Tech",
+      "Vacuum Repairer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5332,8 +5549,23 @@
   {
     "title": "Home Health Aides",
     "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
+    "alsoCalled": [
+      "Caregiver",
+      "Certified Home Health Aide",
+      "CHHA",
+      "Certified Medical Aide",
+      "CMA",
+      "Certified Nurses Aide",
+      "CNA",
+      "Home Attendant",
+      "Home Care Aide",
+      "Home Health Aide",
+      "HHA",
+      "Home Health Provider",
+      "Hospice Aide",
+      "In Home Caregiver"
+    ],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -5344,8 +5576,17 @@
   {
     "title": "Hospitalists",
     "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
+    "alsoCalled": [
+      "Academic Hospitalist",
+      "Consultant Physician",
+      "Hospitalist",
+      "Hospitalist Medical Doctor",
+      "Hospitalist MD",
+      "MD",
+      "Medical Doctor",
+      "Physician"
+    ],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -5356,7 +5597,7 @@
   {
     "title": "Hosts & Hostesses, Restaurant, Lounge, & Coffee Shop",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": ["Buffet Hostess", "General Teller", "Greeter", "Host", "Hostess", "Seater"],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5368,7 +5609,18 @@
   {
     "title": "Hotel, Motel, & Resort Desk Clerks",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Desk Clerk",
+      "Front Desk Agent",
+      "Front Desk Associate",
+      "Front Desk Clerk",
+      "Front Office Agent",
+      "Guest Service Agent",
+      "Guest Service Representative",
+      "Guest Services Agent",
+      "GSA",
+      "Night Auditor"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5380,7 +5632,18 @@
   {
     "title": "Human Factors Engineers & Ergonomists",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Certified Professional Ergonomist",
+      "Cognitive Engineer",
+      "Consulting Ergonomist",
+      "Ergonomic Consultant",
+      "Ergonomics Consultant",
+      "Ergonomics Technical Advisor",
+      "Ergonomist",
+      "Human Factors Advisor",
+      "Human Factors Engineer",
+      "Occupational Ergonomist"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5392,7 +5655,15 @@
   {
     "title": "Human Resources Assistants",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Human Resources Administrative Assistant",
+      "HR Administrative Assistant",
+      "Human Resources Assistant",
+      "HR Assistant",
+      "Human Resources Associate",
+      "HR Associate",
+      "Personnel Clerk"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5404,7 +5675,16 @@
   {
     "title": "Human Resources Managers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Employee Relations Manager",
+      "HR Administration Director",
+      "Human Resources Administration Director",
+      "Human Resources Director",
+      "HR Director",
+      "Human Resources Manager",
+      "HR Manager",
+      "Human Resources Operations Manager"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5416,7 +5696,23 @@
   {
     "title": "Human Resources Specialists",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Corporate Recruiter",
+      "Employment Representative",
+      "HR Analyst",
+      "Human Resources Analyst",
+      "HR Coordinator",
+      "Human Resources Coordinator",
+      "HR Generalist",
+      "Human Resources Generalist",
+      "Human Resources Representative",
+      "HR Rep",
+      "Human Resources Specialist",
+      "HR Specialist",
+      "Personnel Analyst",
+      "Personnel Officer",
+      "Recruiter"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5428,7 +5724,20 @@
   {
     "title": "Hydroelectric Plant Technicians",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Hydro Plant Technician",
+      "Hydro Technician",
+      "Hydroelectric Mechanic",
+      "Hydroelectric Operations and Maintenance Technician",
+      "Hydro O and M Technician",
+      "Hydroelectric Plant Technician",
+      "Operations and Maintenance Technician",
+      "O and M Technician",
+      "Plant Mechanic",
+      "Power Plant Mechanic",
+      "Power Plant Operator",
+      "Power Plant Technician"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5440,7 +5749,14 @@
   {
     "title": "Hydroelectric Production Managers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Hydroelectric Station Supervisor",
+      "Hydro Station Supervisor",
+      "Plant Manager",
+      "Power Plant Superintendent",
+      "Power Plant Supervisor",
+      "Power Project Manager"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5464,7 +5780,15 @@
   {
     "title": "Hydrologists",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Groundwater Consultant",
+      "Hydrogeologist",
+      "Hydrologist",
+      "Physical Scientist",
+      "Research Hydrologist",
+      "Scientist",
+      "Source Water Protection Specialist"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5476,7 +5800,13 @@
   {
     "title": "Industrial Ecologists",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Ecologist",
+      "Environmental Consultant",
+      "Environmental Protection Agency Counselor",
+      "Research Scientist",
+      "Researcher"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5488,7 +5818,19 @@
   {
     "title": "Industrial Engineering Technologists & Technicians",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Business Process Analyst",
+      "Engineering Technician",
+      "Industrial Engineering Analyst",
+      "Industrial Engineering Technician",
+      "Manufacturing Coordinator",
+      "Manufacturing Technology Analyst",
+      "Quality Control Engineering Technician",
+      "QC Engineering Technician",
+      "Quality Management Coordinator",
+      "Quality Technician",
+      "Service Technician"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5500,7 +5842,19 @@
   {
     "title": "Industrial Engineers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Continuous Improvement Engineer",
+      "Engineer",
+      "Facilities Engineer",
+      "Industrial Engineer",
+      "Operations Engineer",
+      "Plant Engineer",
+      "Process Engineer",
+      "Project Engineer",
+      "Quality Engineer",
+      "Research and Development Engineer",
+      "R and D Engineer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5512,7 +5866,18 @@
   {
     "title": "Industrial Machinery Mechanics",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Industrial Machinery Mechanic",
+      "Industrial Mechanic",
+      "Loom Fixer",
+      "Loom Technician",
+      "Machine Adjuster",
+      "Machine Mechanic",
+      "Maintenance Technician",
+      "Mechanic",
+      "Overhauler",
+      "Sewing Machine Mechanic"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5524,7 +5889,18 @@
   {
     "title": "Industrial Production Managers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Area Plant Manager",
+      "Assembly Manager",
+      "General Production Manager",
+      "Manufacturing Coordinator",
+      "Manufacturing Manager",
+      "Plant Manager",
+      "Product Line Manager",
+      "Production Control Manager",
+      "Production Manager",
+      "Sub Plant Manager"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5536,7 +5912,18 @@
   {
     "title": "Industrial Truck & Tractor Operators",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Checker Loader",
+      "Fork Lift Technician",
+      "Fork Truck Driver",
+      "Forklift Driver",
+      "Forklift Operator",
+      "Lift Truck Operator",
+      "Shag Truck Driver",
+      "Spotter Driver",
+      "Tow Motor Operator",
+      "Truck Driver"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5548,8 +5935,19 @@
   {
     "title": "Industrial-Organizational Psychologists",
     "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
+    "alsoCalled": [
+      "Consulting Psychologist",
+      "Industrial Psychologist",
+      "Industrial/Organizational Psychologist",
+      "I/O Psychologist",
+      "Management Consultant",
+      "Organizational Consultant",
+      "Organizational Development Consultant",
+      "OD Consultant",
+      "Organizational Psychologist",
+      "Research Scientist"
+    ],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -5560,7 +5958,18 @@
   {
     "title": "Information Security Analysts",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Information Security Officer",
+      "Information Security Specialist",
+      "Information Systems Security Analyst",
+      "Information Systems Security Officer",
+      "ISSO",
+      "Information Technology Security Analyst",
+      "IT Security Analyst",
+      "Network Security Analyst",
+      "Security Analyst",
+      "Systems Analyst"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5584,7 +5993,21 @@
   {
     "title": "Information Technology Project Managers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Cloud Product Director",
+      "Cybersecurity Project Manager",
+      "Data Center Product Director",
+      "Information Systems Project Manager",
+      "IS Project Manager",
+      "IT Manager",
+      "Information Technology Manager",
+      "IT Program Manager",
+      "Information Technology Program Manager",
+      "IT Project Manager",
+      "Information Technology Project Manager",
+      "Scrum Master",
+      "Transition Program Manager"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5596,7 +6019,23 @@
   {
     "title": "Inspectors, Testers, Sorters, Samplers, & Weighers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Inspector",
+      "QA Auditor",
+      "Quality Assurance Auditor",
+      "QA Inspector",
+      "Quality Assurance Inspector",
+      "QA Technician",
+      "Quality Assurance Technician",
+      "QC Technician",
+      "Quality Control Technician",
+      "Quality Auditor",
+      "Quality Control Inspector",
+      "QC Inspector",
+      "Quality Inspector",
+      "Quality Technician",
+      "Test Technician"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5608,7 +6047,18 @@
   {
     "title": "Instructional Coordinators",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Curriculum and Instruction Director",
+      "Curriculum Coordinator",
+      "Curriculum Director",
+      "Curriculum Specialist",
+      "Education Specialist",
+      "Instructional Designer",
+      "Instructional Systems Specialist",
+      "Instructional Technologist",
+      "Learning Development Specialist",
+      "Program Administrator"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5620,7 +6070,17 @@
   {
     "title": "Insulation Workers, Floor, Ceiling, & Wall",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Attic Blower",
+      "Insulation Estimator",
+      "Insulation Installer",
+      "Insulation Mechanic",
+      "Insulation Worker",
+      "Insulator",
+      "Retrofit Installer",
+      "Spray Foam Installer",
+      "Warehouse Insulation Worker"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5632,7 +6092,17 @@
   {
     "title": "Insulation Workers, Mechanical",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Commercial Insulator",
+      "Heat and Frost Insulator",
+      "Industrial Insulator",
+      "Insulation Installer",
+      "Insulation Mechanic",
+      "Insulation Worker",
+      "Insulator",
+      "Mechanic Insulator",
+      "Mechanical Insulator"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5644,7 +6114,20 @@
   {
     "title": "Insurance Appraisers, Auto Damage",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Appraiser",
+      "Automobile Appraiser",
+      "Auto Appraiser",
+      "Automobile Damage Appraiser",
+      "Auto Damage Appraiser",
+      "Damage Appraiser",
+      "Field Appraiser",
+      "Field Inspector",
+      "Insurance Appraiser",
+      "Material Damage Appraiser",
+      "Outside Physical Damage Appraiser",
+      "Physical Damage Appraiser"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5656,7 +6139,21 @@
   {
     "title": "Insurance Claims & Policy Processing Clerks",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Claims Adjudicator",
+      "Claims Analyst",
+      "Claims Clerk",
+      "Claims Customer Service Representative",
+      "Claims CSR",
+      "Claims Processor",
+      "Claims Representative",
+      "Claims Rep",
+      "Claims Technician",
+      "Claims Tech",
+      "Insurance Analyst",
+      "Policy Analyst",
+      "Underwriting Assistant"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5668,7 +6165,15 @@
   {
     "title": "Insurance Sales Agents",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Insurance Agent",
+      "Insurance Broker",
+      "Insurance Sales Agent",
+      "Sales Agent",
+      "Sales Associate",
+      "Sales Representative",
+      "Underwriting Sales Representative"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5680,7 +6185,16 @@
   {
     "title": "Insurance Underwriters",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Account Underwriter",
+      "Automobile and Property Underwriter",
+      "Commercial Lines Underwriter",
+      "Health Underwriter",
+      "Life Underwriter",
+      "Personal Lines Underwriter",
+      "Underwriter",
+      "Underwriting Consultant"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5692,7 +6206,18 @@
   {
     "title": "Intelligence Analysts",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Anti-Terrorist Analyst",
+      "Crime Analyst",
+      "Crime and Intelligence Analyst",
+      "Criminal Intelligence Analyst",
+      "Criminal Intelligence Specialist",
+      "Criminal Research Specialist",
+      "Intelligence Analyst",
+      "Intelligence Research Specialist",
+      "Investigative Research Specialist",
+      "Police Crime and Intelligence Analyst"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5704,7 +6229,13 @@
   {
     "title": "Interior Designers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Decorating Consultant",
+      "Designer",
+      "Interior Design Consultant",
+      "Interior Design Coordinator",
+      "Interior Designer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5716,7 +6247,19 @@
   {
     "title": "Interpreters & Translators",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "American Sign Language Interpreter",
+      "ASL Interpreter",
+      "Court Interpreter",
+      "Educational Interpreter",
+      "Interpreter",
+      "Linguist",
+      "Medical Interpreter",
+      "Sign Language Interpreter",
+      "Spanish Interpreter",
+      "Spanish Translator",
+      "Translator"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5727,7 +6270,18 @@
   {
     "title": "Interviewers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Admissions Clerk",
+      "Admissions Representative",
+      "Admitting Representative",
+      "Data Collection Assistant",
+      "Interviewer",
+      "Market Research Interviewer",
+      "Registration Clerk",
+      "Research Interviewer",
+      "Survey Interviewer",
+      "Telephone Interviewer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5739,7 +6293,14 @@
   {
     "title": "Investment Fund Managers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Fixed Income Portfolio Manager",
+      "Fixed Income Vice President",
+      "Fixed Income VP",
+      "Investment Analysis Vice President",
+      "Investment Analysis VP",
+      "Portfolio Manager"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5751,7 +6312,19 @@
   {
     "title": "Janitors & Cleaners",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Building Custodian",
+      "Building Service Worker",
+      "Building Services Technician",
+      "Cleaner",
+      "Custodial Worker",
+      "Custodian",
+      "Floor Tech",
+      "Floor Technician",
+      "Heavy Duty Custodian",
+      "Institutional Custodian",
+      "Janitor"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5763,7 +6336,18 @@
   {
     "title": "Jewelers & Precious Stone & Metal Workers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Artist",
+      "Bench Jeweler",
+      "Caster",
+      "Earrings Fabricator",
+      "Gemologist",
+      "Goldsmith",
+      "Jeweler",
+      "Platinum Smith",
+      "Restoration Silversmith",
+      "Silversmith"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5775,7 +6359,18 @@
   {
     "title": "Judges, Magistrate Judges, & Magistrates",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Circuit Court Judge",
+      "Circuit Judge",
+      "County Judge",
+      "Court of Appeals Judge",
+      "District Court Judge",
+      "Judge",
+      "Justice of the Peace",
+      "Magisterial District Judge",
+      "Magistrate",
+      "Superior Court Judge"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5787,7 +6382,18 @@
   {
     "title": "Judicial Law Clerks",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Appellate Law Clerk",
+      "Career Judicial Law Clerk",
+      "Career Law Clerk",
+      "Judicial Assistant",
+      "Judicial Clerk",
+      "Judicial Law Clerk",
+      "Law Clerk",
+      "Law Researcher",
+      "Pro Se Law Clerk",
+      "Term Law Clerk"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5799,7 +6405,17 @@
   {
     "title": "Kindergarten Teachers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Bilingual Kindergarten Teacher",
+      "Classroom Teacher",
+      "Educator",
+      "Instructor",
+      "Kinder Teacher",
+      "Kindergarten Classroom Teacher",
+      "Teacher",
+      "Title One Kindergarten Teacher",
+      "Transitional Kindergarten Teacher"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5811,7 +6427,13 @@
   {
     "title": "Labor Relations Specialists",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Business Agent",
+      "Business Representative",
+      "Field Operations Coordinator",
+      "Grievance Manager",
+      "Labor Relations Specialist"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5823,7 +6445,18 @@
   {
     "title": "Laborers & Freight, Stock, & Material Movers, Hand",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Dock Worker",
+      "Laborer",
+      "Line Tender",
+      "Loader",
+      "Material Handler",
+      "Merchandise Pick Up Associate",
+      "Receiver",
+      "Receiving Associate",
+      "Shipping and Receiving Materials Handler",
+      "Warehouse Worker"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5835,7 +6468,20 @@
   {
     "title": "Landscape Architects",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "AP BD+C",
+      "Accredited Professional in Building Design and Construction",
+      "Architect",
+      "Golf Course Architect",
+      "Land Planner",
+      "Landscape Architect",
+      "Landscape Designer",
+      "Landscape Planner",
+      "Park Planner",
+      "Planner",
+      "Professional Landscape Architect",
+      "PLA"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5847,7 +6493,18 @@
   {
     "title": "Landscaping & Groundskeeping Workers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Gardener",
+      "Greenskeeper",
+      "Grounds Maintenance Worker",
+      "Grounds Person",
+      "Grounds Specialist",
+      "Grounds Worker",
+      "Groundskeeper",
+      "Landscape Specialist",
+      "Landscape Technician",
+      "Outside Maintenance Worker"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5859,7 +6516,19 @@
   {
     "title": "Lathe & Turning Machine Tool Setters, Operators, & Tenders, Metal & Plastic",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Computer Numerical Control Lathe Operator",
+      "CNC Lathe Operator",
+      "Lathe Operator",
+      "Lathe Set Up Person",
+      "Machine Operator",
+      "Numerical Control Operator",
+      "NC Operator",
+      "Screw Machine Operator",
+      "Screw Machine Tool Setter",
+      "Setup Operator",
+      "Turn Operator"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5871,7 +6540,17 @@
   {
     "title": "Laundry & Dry-Cleaning Workers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Dry Cleaner",
+      "Laundry Aide",
+      "Laundry Assistant",
+      "Laundry Attendant",
+      "Laundry Housekeeper",
+      "Laundry Technician",
+      "Laundry Worker",
+      "Personal Clothing Laundry Aide",
+      "Spotter"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5883,7 +6562,18 @@
   {
     "title": "Law Teachers, Postsecondary",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Adjunct Professor",
+      "Assistant Professor",
+      "Associate Professor",
+      "Business Law Professor",
+      "Clinical Law Professor",
+      "Instructor",
+      "Law Instructor",
+      "Law Professor",
+      "Legal Writing Professor",
+      "Professor"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5895,7 +6585,16 @@
   {
     "title": "Lawyers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Attorney",
+      "Attorney at Law",
+      "Attorney General",
+      "City Attorney",
+      "Counsel",
+      "Deputy Attorney General",
+      "General Counsel",
+      "Lawyer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5907,7 +6606,17 @@
   {
     "title": "Layout Workers, Metal & Plastic",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Development Mechanic",
+      "Layout Fabricator",
+      "Layout Fitter",
+      "Layout Inspector",
+      "Layout Man",
+      "Layout Mechanic",
+      "Layout Technician",
+      "Layout Tech",
+      "Layout Worker"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5919,7 +6628,18 @@
   {
     "title": "Legal Secretaries & Administrative Assistants",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Confidential Secretary",
+      "Coordinating Legal Practice Assistant",
+      "Judicial Administrative Assistant",
+      "Legal Administrative Assistant",
+      "Legal Administrative Secretary",
+      "Legal Coordinator",
+      "Legal Office Support Assistant",
+      "Legal Secretary",
+      "Magistrate Assistant",
+      "Secretary"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5943,7 +6663,18 @@
   {
     "title": "Librarians & Media Collections Specialists",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Catalog Librarian",
+      "Instructional Technology Specialist",
+      "Librarian",
+      "Library Media Specialist",
+      "Media Specialist",
+      "Media Technician",
+      "Multimedia Services Coordinator",
+      "Reference and Instruction Librarian",
+      "Reference Librarian",
+      "Technical Services Librarian"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5955,7 +6686,17 @@
   {
     "title": "Library Assistants, Clerical",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Acquisitions Assistant",
+      "Cataloging Assistant",
+      "Library Aide",
+      "Library Assistant",
+      "Library Associate",
+      "Library Circulation Assistant",
+      "Library Clerical Assistant",
+      "Library Clerk",
+      "Library Services Assistant"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5967,7 +6708,18 @@
   {
     "title": "Library Science Teachers, Postsecondary",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Assistant Professor",
+      "Associate Professor",
+      "Classification Instructor",
+      "Information Science Professor",
+      "Instructor",
+      "Lecturer",
+      "Library Instructor",
+      "Library Science Professor",
+      "Library Technology Instructor",
+      "Professor"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5979,7 +6731,19 @@
   {
     "title": "Library Technicians",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Circulation Clerk",
+      "Library Aide",
+      "Library Assistant",
+      "Library Associate",
+      "Library Clerk",
+      "Library Media Technician",
+      "Library Specialist",
+      "Library Technical Assistant",
+      "LTA",
+      "Library Technician",
+      "Page Technician"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -5991,8 +6755,24 @@
   {
     "title": "Licensed Practical & Licensed Vocational Nurses",
     "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
+    "alsoCalled": [
+      "Charge Nurse",
+      "Clinic Licensed Practical Nurse",
+      "Clinic LPN",
+      "Clinic Nurse",
+      "Home Health Licensed Practical Nurse",
+      "Home Health LPN",
+      "Licensed Vocational Nurse",
+      "LVN",
+      "Office Nurse",
+      "Pediatric LPN",
+      "Pediatric Licensed Practical Nurse",
+      "Private Duty Nurse",
+      "Radiation Oncology Nurse",
+      "Triage LPN",
+      "Triage Licensed Practical Nurse"
+    ],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -6003,8 +6783,19 @@
   {
     "title": "Lifeguards, Ski Patrol, & Other Recreational Protective Service Workers",
     "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
+    "alsoCalled": [
+      "Beach Attendant",
+      "Beach Lifeguard",
+      "Lifeguard",
+      "Marine Safety Officer",
+      "Ocean Lifeguard",
+      "Ocean Lifeguard Specialist",
+      "Pool Attendant",
+      "Pool Lifeguard",
+      "Ski Patrol Paramedic",
+      "Ski Patroller"
+    ],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -6015,7 +6806,16 @@
   {
     "title": "Light Truck Drivers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Bulk Delivery Driver",
+      "Delivery Driver",
+      "Driver",
+      "Package Car Driver",
+      "Package Delivery Driver",
+      "Route Driver",
+      "Service Provider",
+      "Truck Driver"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6039,7 +6839,19 @@
   {
     "title": "Loading & Moving Machine Operators, Underground Mining",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Coal Hauler Operator",
+      "Equipment Operator",
+      "Load Haul Dump Operator",
+      "LHD Operator",
+      "Loader Operator",
+      "Loading Machine Operator",
+      "Miner Operator",
+      "Production Miner",
+      "Ram Car Operator",
+      "Shuttle Car Operator",
+      "Underground Miner"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6051,7 +6863,18 @@
   {
     "title": "Loan Interviewers & Clerks",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Closer",
+      "Licensed Loan Officer Assistant",
+      "Loan Analyst",
+      "Loan Clerk",
+      "Loan Closer",
+      "Loan Originator",
+      "Loan Processor",
+      "Mortgage Broker",
+      "Mortgage Loan Processor",
+      "Mortgage Processor"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6063,7 +6886,18 @@
   {
     "title": "Loan Officers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Commercial Banker",
+      "Commercial Loan Officer",
+      "Corporate Banking Officer",
+      "Financial Aid Advisor",
+      "Financial Aid Counselor",
+      "Financial Aid Officer",
+      "Financial Counselor",
+      "Loan Counselor",
+      "Loan Officer",
+      "Mortgage Loan Officer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6075,7 +6909,16 @@
   {
     "title": "Locker Room, Coatroom, & Dressing Room Attendants",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Athletic Equipment Manager",
+      "Coat Check Attendant",
+      "Coat Checker",
+      "Coat Room Attendant",
+      "Fitting Room Attendant",
+      "Ladies Locker Room Attendant",
+      "Locker Room Attendant",
+      "Spa Attendant"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6087,7 +6930,21 @@
   {
     "title": "Locksmiths & Safe Repairers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Certified Master Locksmith",
+      "CML",
+      "Certified Master Safe Cracker",
+      "Certified Master Safecracker",
+      "CMS",
+      "Forensic Locksmith",
+      "Lock Technician",
+      "Locksmith",
+      "Registered Safe Technician",
+      "RST",
+      "Road Service Locksmith",
+      "Safe Technician",
+      "Vault Technician"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6099,7 +6956,15 @@
   {
     "title": "Locomotive Engineers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Locomotive Engineer",
+      "Passenger Locomotive Engineer",
+      "Railroad Engineer",
+      "Through Freight Engineer",
+      "Train Engineer",
+      "Trainmaster",
+      "Transportation Specialist"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6111,7 +6976,18 @@
   {
     "title": "Lodging Managers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Bed and Breakfast Innkeeper",
+      "Front Desk Manager",
+      "Front Office Director",
+      "Front Office Manager",
+      "Guest Relations Manager",
+      "Guest Services Manager",
+      "Hotel Manager",
+      "Night Manager",
+      "Resort Manager",
+      "Rooms Director"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6123,7 +6999,15 @@
   {
     "title": "Log Graders & Scalers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Log Buyer",
+      "Log Check Scaler",
+      "Log Grader",
+      "Log Scaler",
+      "Lumber Grader",
+      "Scaler",
+      "Timber Buyer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6135,7 +7019,18 @@
   {
     "title": "Logging Equipment Operators",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Delimber Operator",
+      "Feller Buncher Operator",
+      "Harvester Operator",
+      "Loader Operator",
+      "Log Processor Operator",
+      "Logging Equipment Operator",
+      "Logging Shovel Operator",
+      "Skidder Driver",
+      "Skidder Operator",
+      "Yarder Operator"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6147,7 +7042,12 @@
   {
     "title": "Logisticians",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Client Services Administrator",
+      "Logistician",
+      "Production Planner",
+      "Supply Management Specialist"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6159,7 +7059,14 @@
   {
     "title": "Logistics Analysts",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Global Logistics Analyst",
+      "Logistics Analyst",
+      "Logistics Management Analyst",
+      "Material Supply Planner",
+      "Supply Chain Analyst",
+      "Transportation Analyst"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6171,7 +7078,13 @@
   {
     "title": "Logistics Engineers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Acquisition Logistics Engineer",
+      "Logistics Engineer",
+      "Reliability Engineer",
+      "Supportability Engineer",
+      "Systems Engineer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6183,7 +7096,17 @@
   {
     "title": "Loss Prevention Managers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Asset Protection Manager",
+      "Logistics Loss Prevention Manager",
+      "Loss Control Manager",
+      "Loss Prevention Director",
+      "Loss Prevention Manager",
+      "Loss Prevention Operations Director",
+      "Loss Prevention Operations Manager",
+      "Loss Prevention Supervisor",
+      "Market Asset Protection Manager"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6195,8 +7118,25 @@
   {
     "title": "Low Vision Therapists, Orientation & Mobility Specialists, & Vision Rehabilitation Therapists",
     "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
+    "alsoCalled": [
+      "Certified Low Vision Therapist",
+      "CLVT",
+      "Certified Orientation and Mobility Specialist",
+      "COMS",
+      "Mobility Specialist",
+      "Orientation and Mobility Instructor",
+      "O and M Instructor",
+      "Orientation and Mobility Specialist",
+      "O and M Specialist",
+      "Rehabilitation Teacher",
+      "Rehabilitation Therapist",
+      "Students with Visual Impairments Teacher",
+      "Vision Rehabilitation Therapist",
+      "VRT",
+      "Visually Impaired Teacher",
+      "TVI"
+    ],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -6207,7 +7147,17 @@
   {
     "title": "Machine Feeders & Offbearers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Cotton Tipper",
+      "Dryer Feeder",
+      "Feeder",
+      "Lug Loader",
+      "Machine Feeder",
+      "Offbearer",
+      "Sawmill Worker",
+      "Sewing Line Baler",
+      "Tube Puller"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6219,7 +7169,19 @@
   {
     "title": "Machinists",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "CNC Machinist",
+      "Computer Numeric Controlled Machinist",
+      "CNC Machinist",
+      "Computer Numerically Controlled Machinist",
+      "Gear Machinist",
+      "Machine Repair Person",
+      "Machinist",
+      "Maintenance Machinist",
+      "Manual Lathe Machinist",
+      "Production Machinist",
+      "Tool Room Machinist"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6231,7 +7193,16 @@
   {
     "title": "Magnetic Resonance Imaging Technologists",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Magnetic Resonance Imaging Coordinator",
+      "MRI Coordinator",
+      "Magnetic Resonance Imaging Quality Assurance Coordinator",
+      "MRI Quality Assurance Coordinator",
+      "MRI Specialist",
+      "Magnetic Resonance Imaging Specialist",
+      "MRI Technologist",
+      "Magnetic Resonance Imaging Technologist"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6243,7 +7214,18 @@
   {
     "title": "Maids & Housekeeping Cleaners",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Chambermaid",
+      "Cleaner",
+      "Cottage Attendant",
+      "Environmental Services Aide",
+      "Environmental Services Worker",
+      "Guest Room Attendant",
+      "GRA",
+      "Housekeeper",
+      "Housekeeping Laundry Worker",
+      "Room Cleaner"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6255,7 +7237,17 @@
   {
     "title": "Mail Clerks & Mail Machine Operators",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Insert Operator",
+      "Inserter Operator",
+      "Mail Clerk",
+      "Mail Handler",
+      "Mail Machine Operator",
+      "Mail Processor",
+      "Mail Reader",
+      "Mail Sorter",
+      "Postal Clerk"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6267,7 +7259,18 @@
   {
     "title": "Maintenance & Repair Workers, General",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Building Mechanic",
+      "Equipment Engineering Technician",
+      "Facilities Technician",
+      "Maintenance Engineer",
+      "Maintenance Journeyman",
+      "Maintenance Man",
+      "Maintenance Mechanic",
+      "Maintenance Specialist",
+      "Maintenance Technician",
+      "Maintenance Worker"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6279,7 +7282,16 @@
   {
     "title": "Maintenance Workers, Machinery",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Lubricator",
+      "Machine Repairer",
+      "Maintainer",
+      "Maintenance Man",
+      "Maintenance Technician",
+      "Maintenance Worker",
+      "Oiler",
+      "Overhauler"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6291,7 +7303,14 @@
   {
     "title": "Makeup Artists, Theatrical & Performance",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Commercial Makeup Artist",
+      "Hair and Makeup Designer",
+      "Makeup Artist",
+      "Prosthetic Makeup Designer",
+      "Special Effects Makeup Artist",
+      "Special Makeup Effects Artist"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6303,7 +7322,17 @@
   {
     "title": "Management Analysts",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Administrative Analyst",
+      "Business Analyst",
+      "Business Consultant",
+      "Employment Programs Analyst",
+      "Management Analyst",
+      "Management Consultant",
+      "Organizational Development Consultant",
+      "Performance Management Analyst",
+      "Program Management Analyst"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6315,7 +7344,7 @@
   {
     "title": "Manicurists & Pedicurists",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": ["Manicurist", "Nail Technician", "Nail Tech", "Pedicurist"],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6327,7 +7356,14 @@
   {
     "title": "Manufactured Building & Mobile Home Installers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Delivery Crew Worker",
+      "Mobile Home Installer",
+      "Mobile Home Laborer",
+      "Mobile Home Set-Up Person",
+      "Modular Set Crew Member",
+      "Set Up Technician"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6339,7 +7375,13 @@
   {
     "title": "Manufacturing Engineers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Facility Engineer",
+      "Manufacturing Engineer",
+      "Plant Engineer",
+      "Process Engineer",
+      "Process Improvement Engineer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6351,7 +7393,18 @@
   {
     "title": "Marine Engineers & Naval Architects",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Marine Architect",
+      "Marine Design Engineer",
+      "Marine Engineer",
+      "Marine Engineering Consultant",
+      "Marine Structural Designer",
+      "Marine Surveyor",
+      "Naval Architect",
+      "Naval Architect Specialist",
+      "Ships Equipment Engineer",
+      "Structural Engineer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6363,7 +7416,16 @@
   {
     "title": "Market Research Analysts & Marketing Specialists",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Business Development Specialist",
+      "Communications Specialist",
+      "Demographic Analyst",
+      "Market Analyst",
+      "Market Research Analyst",
+      "Market Research Consultant",
+      "Market Research Specialist",
+      "Market Researcher"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6375,7 +7437,18 @@
   {
     "title": "Marketing Managers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Account Supervisor",
+      "Brand Manager",
+      "Business Development Director",
+      "Business Development Manager",
+      "Commercial Lines Manager",
+      "Market Development Executive",
+      "Marketing Coordinator",
+      "Marketing Director",
+      "Marketing Manager",
+      "Product Manager"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6387,8 +7460,22 @@
   {
     "title": "Marriage & Family Therapists",
     "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
+    "alsoCalled": [
+      "Clinical Therapist",
+      "Counselor",
+      "Family Therapist",
+      "Human Relations Counselor",
+      "Licensed Marriage and Family Therapist",
+      "LMFT",
+      "Licensed Professional Counselor",
+      "LPC",
+      "Marriage and Family Counselor",
+      "Marriage and Family Therapist",
+      "MFT",
+      "Outpatient Therapist",
+      "Play Therapist"
+    ],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -6399,8 +7486,23 @@
   {
     "title": "Massage Therapists",
     "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
+    "alsoCalled": [
+      "Bodywork Therapist",
+      "Certified Massage Therapist",
+      "CMT",
+      "Clinical Massage Therapist",
+      "Integrated Deep Tissue Massage Therapist",
+      "Licensed Massage Practitioner",
+      "LMP",
+      "Licensed Massage Therapist",
+      "LMT",
+      "Massage Therapist",
+      "Registered Massage Therapist",
+      "RMT",
+      "Soft Tissue Specialist",
+      "Therapeutic Massage Technician"
+    ],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -6411,7 +7513,16 @@
   {
     "title": "Materials Engineers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Extrusion Engineer",
+      "Materials Development Engineer",
+      "Materials Engineer",
+      "Materials Research Engineer",
+      "Metallurgical Engineer",
+      "Metallurgist",
+      "Research Engineer",
+      "Test Engineer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6423,7 +7534,16 @@
   {
     "title": "Materials Scientists",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Materials Scientist",
+      "Micro Electrical/Mechanical Systems Device Scientist",
+      "MEMS Device Scientist",
+      "Polymer Materials Consultant",
+      "Research and Development Scientist",
+      "R and D Scientist",
+      "Research Scientist",
+      "Scientist"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6435,7 +7555,19 @@
   {
     "title": "Mathematical Science Teachers, Postsecondary",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Adjunct Mathematics Instructor",
+      "Assistant Professor",
+      "Associate Professor",
+      "Instructor",
+      "Math Teacher",
+      "Mathematical Sciences Professor",
+      "Mathematics Instructor",
+      "Math Instructor",
+      "Mathematics Lecturer",
+      "Mathematics Professor",
+      "Professor"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6447,7 +7579,18 @@
   {
     "title": "Mathematicians",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Computational Mathematician",
+      "Computational Scientist",
+      "Cryptographer",
+      "Cryptographic Vulnerability Analyst",
+      "Image Scientist",
+      "Knowledge Engineer",
+      "Mathematician",
+      "Research Computing Specialist",
+      "Research Scientist",
+      "Researcher"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6459,7 +7602,18 @@
   {
     "title": "Meat, Poultry, & Fish Cutters & Trimmers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Beef Trimmer",
+      "Breast Trimmer",
+      "Chicken Cutter",
+      "Deboner",
+      "Fish Processor",
+      "Meat Cutter",
+      "Meat Trimmer",
+      "Seafood Processor",
+      "Trimmer",
+      "Wing Scorer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6471,7 +7625,17 @@
   {
     "title": "Mechanical Door Repairers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Commercial Door Installer",
+      "Commercial Installer",
+      "Door Installer",
+      "Door Technician",
+      "Garage Door Installer",
+      "Garage Door Technician",
+      "Installation Technician",
+      "Residential Door Installer",
+      "Service Technician"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6483,7 +7647,19 @@
   {
     "title": "Mechanical Drafters",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "CAD Designer",
+      "Computer Aided Design Designer",
+      "CAD Operator",
+      "Computer Aided Design Operator",
+      "Design Drafter",
+      "Drafter",
+      "Drafting Technician",
+      "Mechanical Designer",
+      "Mechanical Drafter",
+      "Product Designer",
+      "Project Designer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6495,7 +7671,24 @@
   {
     "title": "Mechanical Engineering Technologists & Technicians",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Engineering Laboratory Technician",
+      "Engineering Lab Technician",
+      "Engineering Technical Analyst",
+      "Engineering Technician",
+      "Engineering Tech",
+      "Engineering Technologist",
+      "Manufacturing Engineering Technician",
+      "Manufacturing Engineering Tech",
+      "Mechanical Designer",
+      "Mechanical Technician",
+      "Mechanical Tech",
+      "Process Engineering Technician",
+      "Process Engineering Tech",
+      "Process Technician",
+      "Research and Development Technician",
+      "R and D Tech"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6507,7 +7700,18 @@
   {
     "title": "Mechanical Engineers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Application Engineer",
+      "Design Engineer",
+      "Design Maintenance Engineer",
+      "Equipment Engineer",
+      "Mechanical Design Engineer",
+      "Mechanical Engineer",
+      "Process Engineer",
+      "Product Engineer",
+      "Project Engineer",
+      "Test Engineer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6519,7 +7723,20 @@
   {
     "title": "Mechatronics Engineers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Automation Designer",
+      "Automation Engineer",
+      "Control Systems Engineer",
+      "Controls Engineering Specialist",
+      "Design Engineer",
+      "Design Eng",
+      "Equipment Engineer",
+      "Process Controls Engineer",
+      "Process Development Engineer",
+      "Project Engineer",
+      "Research and Development Engineer",
+      "R and D Engineer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6531,7 +7748,17 @@
   {
     "title": "Media Programming Directors",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Newscast Director",
+      "Production Director",
+      "Program Coordinator",
+      "Program Director",
+      "Program Manager",
+      "Programming Director",
+      "Station Manager",
+      "Television Program Director",
+      "TV Program Director"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6543,7 +7770,16 @@
   {
     "title": "Media Technical Directors/Managers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Broadcast Director",
+      "News Technical Director",
+      "Newscast Director",
+      "Operations Director",
+      "Production Director",
+      "Production Manager",
+      "Studio Director",
+      "Technical Director"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6555,8 +7791,21 @@
   {
     "title": "Medical & Clinical Laboratory Technicians",
     "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
+    "alsoCalled": [
+      "Certified Clinical Laboratory Technician",
+      "Clinical Laboratory Technician",
+      "Clinical Lab Technician",
+      "Laboratory Assistant",
+      "Lab Assistant",
+      "Laboratory Technician",
+      "Lab Tech",
+      "Medical Laboratory Technician",
+      "MLT",
+      "Medical Laboratory Technicians",
+      "Medical Lab Technician",
+      "Medical Technician"
+    ],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -6567,8 +7816,18 @@
   {
     "title": "Medical & Clinical Laboratory Technologists",
     "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
+    "alsoCalled": [
+      "Clinical Laboratory Scientist",
+      "CLS",
+      "Clinical Laboratory Technologist",
+      "Histologist Technologist",
+      "Medical Laboratory Technologist",
+      "Medical Lab Tech",
+      "Medical Technologist",
+      "MT",
+      "Microbiology Technologist"
+    ],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -6579,8 +7838,21 @@
   {
     "title": "Medical & Health Services Managers",
     "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
+    "alsoCalled": [
+      "Cancer Center Director",
+      "Clinical Director",
+      "Health Information Management Director",
+      "HIM Director",
+      "Health Information Manager",
+      "HIM Manager",
+      "Healthcare System Director",
+      "Medical Records Director",
+      "Medical Records Manager",
+      "Mental Health Program Manager",
+      "Nurse Manager",
+      "Nursing Director"
+    ],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -6591,8 +7863,19 @@
   {
     "title": "Medical Appliance Technicians",
     "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
+    "alsoCalled": [
+      "Certified Pedorthotist",
+      "Hearing Aid Repair Technician",
+      "Lab Technician",
+      "Orthopedic Technician",
+      "Orthotic and Prosthetic Technician",
+      "O and P Technician",
+      "Orthotic Technician",
+      "Prosthetic Technician",
+      "Prosthetics Technician",
+      "Registered Prosthetic Orthotic Technician"
+    ],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -6603,8 +7886,21 @@
   {
     "title": "Medical Assistants",
     "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
+    "alsoCalled": [
+      "Certified Medical Assistant",
+      "CMA",
+      "Chiropractor Assistant",
+      "Clinical Medical Assistant",
+      "Doctor's Assistant",
+      "Health Assistant",
+      "Ophthalmic Assistant",
+      "Ophthalmological Assistant",
+      "Optometric Assistant",
+      "Outpatient Surgery Assistant",
+      "Registered Medical Assistant",
+      "RMA"
+    ],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -6616,7 +7912,7 @@
     "title": "Medical Dosimetrists",
     "favorite": false,
     "alsoCalled": [],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -6627,8 +7923,24 @@
   {
     "title": "Medical Equipment Preparers",
     "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
+    "alsoCalled": [
+      "Central Processing Technician",
+      "CPT",
+      "Central Service Technician",
+      "CST",
+      "Central Sterile Supply Technician",
+      "CSS Technician",
+      "Certified Registered Central Service Technician",
+      "CRCST",
+      "Instrument Technician",
+      "Sterile Preparation Technician",
+      "Sterile Processing and Distribution Technician",
+      "SPD Tech",
+      "Sterile Processing Technician",
+      "Sterile Processing Tech",
+      "Sterile Technician"
+    ],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -6639,8 +7951,20 @@
   {
     "title": "Medical Equipment Repairers",
     "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
+    "alsoCalled": [
+      "Biomed Tech",
+      "Biomedical Technician",
+      "Biomedical Electronics Technician",
+      "Biomedical Engineering Technician",
+      "Biomedical Equipment Technician",
+      "BMET",
+      "Dental Equipment Technician",
+      "Electronic Technician",
+      "Repair Technician",
+      "Service Technician",
+      "X-ray Service Engineer"
+    ],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -6651,8 +7975,20 @@
   {
     "title": "Medical Records Specialists",
     "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
+    "alsoCalled": [
+      "Coder",
+      "Health Information Clerk",
+      "Health Information Specialist",
+      "Health Information Technician",
+      "Health Information Tech",
+      "Medical Records Clerk",
+      "Medical Records Coordinator",
+      "Medical Records Technician",
+      "Medical Records Tech",
+      "Registered Health Information Technician",
+      "RHIT"
+    ],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -6663,8 +7999,20 @@
   {
     "title": "Medical Scientists",
     "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
+    "alsoCalled": [
+      "Clinical Laboratory Scientist",
+      "Clinical Lab Scientist",
+      "Clinical Pharmacologist",
+      "Clinical Research Scientist",
+      "Medical Researcher",
+      "Physician Scientist",
+      "Research Scientist",
+      "Researcher",
+      "Scientist",
+      "Study Director",
+      "Toxicologist"
+    ],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -6675,8 +8023,19 @@
   {
     "title": "Medical Secretaries & Administrative Assistants",
     "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
+    "alsoCalled": [
+      "Clinic Office Assistant",
+      "Front Desk Receptionist",
+      "Medical Office Specialist",
+      "Medical Receptionist",
+      "Medical Secretary",
+      "Physician Office Specialist",
+      "Secretary",
+      "Unit Clerk",
+      "Unit Support Representative",
+      "Ward Clerk"
+    ],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -6687,8 +8046,19 @@
   {
     "title": "Medical Transcriptionists",
     "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
+    "alsoCalled": [
+      "Clinical Medical Transcriptionist",
+      "Documentation Specialist",
+      "Medical Language Specialist",
+      "Medical Scribe",
+      "Medical Transcriber",
+      "Medical Transcriptionist",
+      "Pathology Transcriptionist",
+      "Radiology Transcriptionist",
+      "Scribe",
+      "Transcriptionist"
+    ],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -6699,7 +8069,19 @@
   {
     "title": "Meeting, Convention, & Event Planners",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Catering Director",
+      "Conference Planner",
+      "Conference Planning Manager",
+      "Conference Services Director",
+      "Conference Services Manager",
+      "Convention Services Director",
+      "Convention Services Manager",
+      "CSM",
+      "Event Coordinator",
+      "Events Manager",
+      "Special Events Coordinator"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6711,8 +8093,20 @@
   {
     "title": "Mental Health & Substance Abuse Social Workers",
     "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
+    "alsoCalled": [
+      "Case Manager",
+      "Clinical Social Worker",
+      "Clinical Therapist",
+      "Clinician",
+      "Counselor",
+      "Licensed Clinical Social Worker",
+      "LCSW",
+      "Mental Health Therapist",
+      "Social Worker",
+      "Substance Abuse Counselor",
+      "Therapist"
+    ],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -6723,8 +8117,21 @@
   {
     "title": "Mental Health Counselors",
     "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
+    "alsoCalled": [
+      "Behavior Analyst",
+      "Behavior Support Specialist",
+      "BSS",
+      "Case Manager",
+      "Clinician",
+      "Counselor",
+      "Licensed Professional Counselor",
+      "LPC",
+      "Mental Health Counselor",
+      "Mental Health Program Specialist",
+      "Mental Health Specialist",
+      "Mental Health Therapist"
+    ],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -6735,7 +8142,17 @@
   {
     "title": "Merchandise Displayers & Window Trimmers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Decorator",
+      "Display Associate",
+      "Display Decorator",
+      "Display Specialist",
+      "In-Store Marketing Associate",
+      "Merchandiser",
+      "Visual Merchandiser",
+      "VM",
+      "Visual Merchandising Specialist"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6747,7 +8164,19 @@
   {
     "title": "Metal-Refining Furnace Operators & Tenders",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Arc and Argon Oxygen Decarburization Melter",
+      "ARC and AOD Melter",
+      "Automatic Furnace Operator",
+      "Central Melt Specialist",
+      "Control Room Operator",
+      "Electric Melt Operator",
+      "Furnace Operator",
+      "Melt Room Operator",
+      "Melter",
+      "Vacuum Melter",
+      "Vessel Operator"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6759,7 +8188,18 @@
   {
     "title": "Meter Readers, Utilities",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Field Technician",
+      "Fieldman",
+      "Meter Reader",
+      "Meter Reader Inspector",
+      "Meter Reading Clerk",
+      "Meter Technician",
+      "Utility Service Worker",
+      "Water Inspector",
+      "Water Meter Reader",
+      "Water Use Inspector"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6771,8 +8211,16 @@
   {
     "title": "Microbiologists",
     "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
+    "alsoCalled": [
+      "Bacteriologist",
+      "Clinical Laboratory Scientist",
+      "Clinical Microbiologist",
+      "Microbiological Analyst",
+      "Microbiologist",
+      "Quality Control Microbiologist",
+      "QC Microbiologist"
+    ],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -6783,7 +8231,20 @@
   {
     "title": "Microsystems Engineers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Control Systems Engineer",
+      "MEMS Integration Engineer",
+      "Microelectrical Mechanical Integration Engineer",
+      "Microsystems Engineer",
+      "Process Engineer",
+      "Product Design Engineer",
+      "Project Design Engineer",
+      "Project Engineer",
+      "Radio Frequency Design Engineer",
+      "RF Design Engineer",
+      "System Engineer",
+      "Systems Engineer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6795,7 +8256,20 @@
   {
     "title": "Middle School Teachers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "English Teacher",
+      "Language Arts Teacher",
+      "Mathematics Teacher",
+      "Math Teacher",
+      "Middle School Teacher",
+      "Music Teacher",
+      "Physical Education Teacher",
+      "PE Teacher",
+      "Reading Teacher",
+      "Science Teacher",
+      "Social Studies Teacher",
+      "Teacher"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6807,8 +8281,20 @@
   {
     "title": "Midwives",
     "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
+    "alsoCalled": [
+      "Birth Center Midwife",
+      "Certified Direct-Entry Midwife",
+      "Certified Professional Midwife",
+      "CPM",
+      "Homebirth Midwife",
+      "Lay Midwife",
+      "Licensed and Certified Midwife",
+      "Licensed Certified Professional Midwife",
+      "Licensed Direct Entry Midwife",
+      "Licensed Midwife",
+      "LM"
+    ],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -6819,7 +8305,7 @@
   {
     "title": "Milling & Planing Machine Setters, Operators, & Tenders, Metal & Plastic",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": ["Machine Operator", "Mill Operator", "Miller", "Milling Operator"],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6831,7 +8317,12 @@
   {
     "title": "Millwrights",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Maintenance Millwright",
+      "Millwright",
+      "Millwright Business Representative",
+      "Precision Millwright"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6843,7 +8334,15 @@
   {
     "title": "Mining & Geological Engineers, Including Mining Safety Engineers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Mine Engineer",
+      "Mining Consultant",
+      "Mining Engineer",
+      "Planning Engineer",
+      "Project Engineer",
+      "Safety Engineer",
+      "Safety Representative"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6855,7 +8354,19 @@
   {
     "title": "Mixing & Blending Machine Setters, Operators, & Tenders",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Blender",
+      "Blending Technician",
+      "Coater Operator",
+      "Ink Blender",
+      "Ink Maker",
+      "Issuing Operator",
+      "Machine Operator",
+      "Mixer",
+      "Mixer Operator",
+      "Stock Preparation Operator",
+      "Stock Prep Operator"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6867,7 +8378,18 @@
   {
     "title": "Mobile Heavy Equipment Mechanics",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Construction Equipment Mechanic",
+      "Equipment Mechanic",
+      "Equipment Technician",
+      "Field Mechanic",
+      "Field Service Technician",
+      "Field Technician",
+      "Heavy Equipment Mechanic",
+      "Heavy Equipment Technician",
+      "Mechanic",
+      "Mobile Heavy Equipment Mechanic"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6879,7 +8401,14 @@
   {
     "title": "Model Makers, Metal & Plastic",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Metal Model Maker",
+      "Model Builder",
+      "Model Maker",
+      "Molding Technician",
+      "Pattern Finisher",
+      "Prototype Special Build"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6891,7 +8420,15 @@
   {
     "title": "Model Makers, Wood",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Craftsman",
+      "Model Builder",
+      "Model Maker",
+      "Product Development Carpenter",
+      "Sample Builder",
+      "Sample Maker",
+      "Sample Worker"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6903,7 +8440,18 @@
   {
     "title": "Models",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Art Class Model",
+      "Art Model",
+      "Artist's Model",
+      "Figure Model",
+      "Fine Arts Model",
+      "Life Drawing Model",
+      "Model",
+      "Nude Model",
+      "Studio Model",
+      "Undraped Artist Model"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6915,7 +8463,17 @@
   {
     "title": "Molders, Shapers, & Casters",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Bed Laborer",
+      "Caster",
+      "Fabricator",
+      "Injection Molding Machine Operator",
+      "Machine Operator",
+      "Mold Mechanic",
+      "Molder",
+      "Molding Line Operator",
+      "Press Operator"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6927,7 +8485,17 @@
   {
     "title": "Molding, Coremaking, & Casting Machine Setters, Operators, & Tenders, Metal & Plastic",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Core Machine Operator",
+      "Die Cast Technician",
+      "Diecast Machine Operator",
+      "Machine Operator",
+      "Mold Setter",
+      "Mold Technician",
+      "Molder",
+      "Process Technician",
+      "Production Technician"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6939,8 +8507,8 @@
   {
     "title": "Molecular & Cellular Biologists",
     "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
+    "alsoCalled": ["Molecular Biologist", "Research Scientist"],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -6951,7 +8519,18 @@
   {
     "title": "Morticians, Undertakers, & Funeral Arrangers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Funeral Arrangement Director",
+      "Funeral Arranger",
+      "Funeral Counselor",
+      "Funeral Director",
+      "Funeral Location Manager",
+      "Funeral Pre-Need Consultant",
+      "Funeral Prearrangement Counselor",
+      "Licensed Funeral Director",
+      "Licensed Mortician",
+      "Mortician"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6963,7 +8542,18 @@
   {
     "title": "Motion Picture Projectionists",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Booth Operator",
+      "Cinema Projectionist",
+      "Digital Projectionist",
+      "Film Specialist",
+      "Motion Picture Projectionist",
+      "Movie Projectionist",
+      "Projection Technician",
+      "Projectionist",
+      "Projector Booth Operator",
+      "Technical Projection Guide"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6975,7 +8565,18 @@
   {
     "title": "Motorboat Mechanics & Service Technicians",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Boat Mechanic",
+      "Boat Motor Mechanic",
+      "Boat Rigger",
+      "Marine Mechanic",
+      "Marine Propulsion Technician",
+      "Marine Technician",
+      "Mechanic",
+      "Outboard Motor Mechanic",
+      "Outboard Technician",
+      "Service Technician"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6987,7 +8588,15 @@
   {
     "title": "Motorboat Operators",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Boat Operator",
+      "Charter Boat Operator",
+      "Crew Boat Operator",
+      "Launch Operator",
+      "Launchman",
+      "Pilot Boat Operator",
+      "Water Taxi Operator"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -6999,7 +8608,17 @@
   {
     "title": "Motorcycle Mechanics",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "All Terrain Vehicle Technician",
+      "ATV Technician",
+      "Custom Bike Builder",
+      "Motorcycle Mechanic",
+      "Motorcycle Service Technician",
+      "Motorcycle Technician",
+      "Motorsports Technician",
+      "Scooter Mechanic",
+      "Service Technician"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -7011,7 +8630,19 @@
   {
     "title": "Multiple Machine Tool Setters, Operators, & Tenders, Metal & Plastic",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Cell Technician",
+      "CNC Machine Setter",
+      "Computer Numerically Controlled Machine Setter",
+      "Fabrication Set-Up Person",
+      "Injection Molding Technician",
+      "Machine Operator",
+      "Machine Technician",
+      "Mold Setter",
+      "Production Operator",
+      "Shear Operator",
+      "Tooling Set-Up Person"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -7023,7 +8654,18 @@
   {
     "title": "Museum Technicians & Conservators",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Art Preparator",
+      "Conservation Technician",
+      "Conservator",
+      "Exhibit Technician",
+      "Museum Registrar",
+      "Museum Technician",
+      "Objects Conservator",
+      "Paintings Conservator",
+      "Paper Conservator",
+      "Preparator"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -7035,7 +8677,18 @@
   {
     "title": "Music Directors & Composers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Arranger",
+      "Choir Director",
+      "Composer",
+      "Conductor",
+      "Music Composer",
+      "Music Director",
+      "Music Producer",
+      "Orchestra Director",
+      "Producer",
+      "Songwriter"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -7047,7 +8700,16 @@
   {
     "title": "Music Therapists",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Board Certified Music Therapist",
+      "MT-BC",
+      "LCAT",
+      "Licensed Creative Arts Therapist",
+      "Music Therapist",
+      "Neurologic Music Therapist",
+      "Public School System Music Therapist",
+      "Therapist"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -7059,7 +8721,18 @@
   {
     "title": "Musical Instrument Repairers & Tuners",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Banjo Repair Person",
+      "Brass Instrument Repair Technician",
+      "Fretted String Instrument Repairer",
+      "Guitar Repairer",
+      "Instrument Repair Technician",
+      "Luthier",
+      "Mandolin Repair Person",
+      "Piano Technician",
+      "Piano Tuner",
+      "Stringed Instrument Repairer"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -7071,7 +8744,18 @@
   {
     "title": "Musicians & Singers",
     "favorite": false,
-    "alsoCalled": [],
+    "alsoCalled": [
+      "Choir Member",
+      "Chorister",
+      "Gospel Singer",
+      "Musician",
+      "Opera Singer",
+      "Orchestra Musician",
+      "Percussionist",
+      "Singer",
+      "Violinist",
+      "Vocalist"
+    ],
     "industries": [],
     "education": "",
     "jobOutlook": "",
@@ -7084,7 +8768,7 @@
     "title": "Nannies",
     "favorite": false,
     "alsoCalled": ["Family Manager", "Household Manager", "Nanny"],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -7166,7 +8850,7 @@
       "Naturopathic Oncology Provider",
       "Physician"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -7217,7 +8901,7 @@
       "Registered Electroencephalogram Technologist",
       "Registered EEG Tech"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -7236,7 +8920,7 @@
       "Pediatric Neurologist",
       "Physician"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -7254,7 +8938,7 @@
       "Pediatric Neuropsychologist",
       "Staff Psychologist"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -7366,7 +9050,7 @@
       "Registered Nuclear Medicine Technologist",
       "Staff Nuclear Medicine Technologist"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -7461,7 +9145,7 @@
       "Staff CRNA",
       "Staff Nurse Anesthetist"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -7480,7 +9164,7 @@
       "Staff Certified Nurse Midwife",
       "Staff Nurse Midwife"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -7509,7 +9193,7 @@
       "PNP",
       "Women's Health Care Nurse Practitioner"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -7537,7 +9221,7 @@
       "State Tested Nursing Assistant",
       "STNA"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -7560,7 +9244,7 @@
       "Nursing Professor",
       "Professor"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -7588,7 +9272,7 @@
       "Physician",
       "Physician Gynecologist"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -7635,7 +9319,7 @@
       "Industrial Hygienist",
       "Safety Research Professional"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -7661,7 +9345,7 @@
       "Registered Occupational Therapist",
       "OTR"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -7687,7 +9371,7 @@
       "Rehabilitation Services Aide",
       "Restorative Aide"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -7712,7 +9396,7 @@
       "Occupational Therapy Assistant",
       "OTA"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -7835,7 +9519,7 @@
       "Polisher",
       "Surfacing Technician"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -7864,7 +9548,7 @@
       "Ophthalmic Tech",
       "Ophthalmic Technician"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -7891,7 +9575,7 @@
       "Registered Ophthalmic Ultrasound Biometrist",
       "ROUB"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -7914,7 +9598,7 @@
       "Retina Specialist",
       "Surgical Ophthalmologist"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -7938,7 +9622,7 @@
       "Optometric Technician",
       "Registered Optician"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -7950,7 +9634,7 @@
     "title": "Optometrists",
     "favorite": false,
     "alsoCalled": ["Optometrist", "Optometry Doctor", "OD", "Therapeutic Optometrist"],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -7969,7 +9653,7 @@
       "Oral Surgeon",
       "Surgeon"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -8016,7 +9700,7 @@
       "Radiology Transporter",
       "Transporter"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -8032,7 +9716,7 @@
       "Orthodontics and Dentofacial Orthopedics Specialist",
       "Orthodontist"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -8051,7 +9735,7 @@
       "Physician",
       "Surgeon"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -8063,7 +9747,7 @@
     "title": "Orthoptists",
     "favorite": false,
     "alsoCalled": ["Certified Orthoptist", "Clinical Orthoptist", "CO", "Orthoptist"],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -8089,7 +9773,7 @@
       "Prosthetic Practitioner",
       "Prosthetist"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -8259,7 +9943,7 @@
       "Paralegal Specialist",
       "Real Estate Paralegal"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -8270,7 +9954,7 @@
   {
     "title": "Paramedics",
     "alsoCalled": ["First Responder", "Flight Paramedic"],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -8502,7 +10186,7 @@
       "Thoracic Surgeon",
       "Vascular Surgeon"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -8525,7 +10209,7 @@
       "Physician",
       "Primary Care Pediatrician"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -8561,7 +10245,7 @@
       "Resident Care Assistant",
       "RCA"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -8695,7 +10379,7 @@
       "Registered Pharmacist",
       "Retail Pharmacist"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -8716,7 +10400,7 @@
       "Pharmacy Cashier",
       "Pharmacy Clerk"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -8738,7 +10422,7 @@
       "RPhT",
       "Registered Pharmacy Technician"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -8779,7 +10463,7 @@
       "Phlebotomy Technician",
       "Registered Phlebotomist"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -8887,7 +10571,7 @@
       "Physician",
       "Rehabilitation Physician"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -8908,7 +10592,7 @@
       "Restorative Aide",
       "RA"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -8933,7 +10617,7 @@
       "Physical Therapy Assistant",
       "PTA"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -8960,7 +10644,7 @@
       "RPT",
       "Therapist"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -8987,7 +10671,7 @@
       "Surgical Physician Assistant",
       "Surgical PA"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -9008,7 +10692,7 @@
       "Pathologist",
       "Surgical Pathologist"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -9028,7 +10712,7 @@
       "Research Scientist",
       "Scientist"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -9160,7 +10844,7 @@
       "Podiatric Surgeon",
       "Podiatrist"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -9548,7 +11232,7 @@
       "Public Health Officer",
       "Public Health Physician"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -9776,7 +11460,7 @@
       "Prosthodontist",
       "Removable Prosthodontist"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -9798,7 +11482,7 @@
       "Therapeutic Program Worker",
       "TPW"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -9826,7 +11510,7 @@
       "Residential Aide",
       "RA"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -9847,7 +11531,7 @@
       "Psychiatrist",
       "Staff Psychiatrist"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -9869,7 +11553,7 @@
       "Psychology Instructor",
       "Psychology Professor"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -10073,7 +11757,7 @@
       "Registered Radiation Therapist",
       "Staff Radiation Therapist"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -10150,7 +11834,7 @@
       "X-Ray Tech",
       "X-Ray Technologist"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -10170,7 +11854,7 @@
       "Physician",
       "Radiologist"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -10556,7 +12240,7 @@
       "Staff RN",
       "Staff Registered Nurse"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -10630,7 +12314,7 @@
       "Vocational Rehabilitation Counselor",
       "VRC"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -10752,7 +12436,7 @@
       "Staff Respiratory Therapist",
       "Staff Therapist"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -11153,7 +12837,7 @@
       "School Psychologist",
       "School Psychometrist"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -11740,7 +13424,7 @@
       "Transitional Care Director",
       "Vocational Rehabilitation Administrator"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -12210,7 +13894,7 @@
       "Speech-Language Pathologist",
       "SLP"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -12235,7 +13919,7 @@
       "SLPA",
       "Speech-Language Technician"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -12253,7 +13937,7 @@
       "Sports Medicine Physician",
       "Team Physician"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -12434,7 +14118,7 @@
       "Substance Abuse Counselor",
       "SA Counselor"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -12516,7 +14200,7 @@
       "Surgical Technician",
       "Surgical Tech"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -12543,7 +14227,7 @@
       "Surgical Technologist",
       "Surgical Tech"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -13686,7 +15370,7 @@
       "Urologic Surgeon",
       "Urologist"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -13758,7 +15442,7 @@
       "Zoo Veterinarian",
       "Zoo Vet"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -13782,7 +15466,7 @@
       "Veterinarian Assistant",
       "Vet Assistant"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
@@ -13813,7 +15497,7 @@
       "Vet Tech",
       "Veterinary Technologist"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
