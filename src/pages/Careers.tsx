@@ -4,17 +4,22 @@ import careersData from "../data/careers.json";
 import Footer from "../components/Footer/Footer";
 export default function Careers() {
   const [careers] = useState(careersData);
-  const [sortedCareers, setSortedCareers] = useState([...careersData]);
   const [isAscending, setIsAscending] = useState<boolean>(true);
-  const [favoriteCareers, setFavoriteCareers] = useState<any>([]);
-  const [showAllCareers, setShowAllCareers] = useState<boolean>(true);
+
+  const [filter, setFilter] = useState<string>("All");
+
+  const [allCareers, setAllCareers] = useState([...careersData]);
+  const [favoriteCareers, setFavoriteCareers] = useState<any>();
+  const [healthcareCareers] = useState<any>(
+    careersData.filter((career: any) => career.industries.includes("Healthcare"))
+  );
 
   let alphabetize = false;
 
   const sortByCareer = () => {
     let sortedCareers = careers.sort();
     if (!alphabetize) sortedCareers.reverse();
-    setSortedCareers([...sortedCareers]);
+    setAllCareers([...sortedCareers]);
     alphabetize = !alphabetize;
   };
 
@@ -37,7 +42,7 @@ export default function Careers() {
     );
 
     setIsAscending(!isAscending);
-    setSortedCareers(
+    setAllCareers(
       isAscending
         ? [...nonNumericSalaries, ...sortedNumericSalaries]
         : [...sortedNumericSalaries, ...nonNumericSalaries]
@@ -45,28 +50,57 @@ export default function Careers() {
   };
 
   const handleCheckboxChange = (title: string) => {
-    let newItems = [...sortedCareers];
-
-    for (let i = 0; i < sortedCareers.length; i++) {
+    let newItems = [...allCareers];
+    for (let i = 0; i < allCareers.length; i++) {
       if (newItems[i].title === title) {
         newItems[i].favorite = !newItems[i].favorite;
       }
     }
-
-    setSortedCareers(newItems);
+    setAllCareers(newItems);
   };
 
   useEffect(() => {
-    let favoriteCareers = sortedCareers.filter((career) => career.favorite);
+    let favoriteCareers = allCareers.filter((career) => career.favorite);
     setFavoriteCareers([...favoriteCareers]);
-  }, [sortedCareers]);
+  }, [allCareers]);
+
+  const renderCareers = (filter: any) => {
+    switch (filter) {
+      case "Favorite":
+        return favoriteCareers.map((career: any, index: number) => (
+          <CareersTable
+            key={career.title}
+            career={career}
+            handleCheckboxChange={handleCheckboxChange}
+          />
+        ));
+      case "Healthcare":
+        return healthcareCareers.map((career: any, index: number) => (
+          <CareersTable
+            key={career.title}
+            career={career}
+            handleCheckboxChange={handleCheckboxChange}
+          />
+        ));
+      default:
+        return allCareers.map((career: any, index: number) => (
+          <CareersTable
+            key={career.title}
+            career={career}
+            handleCheckboxChange={handleCheckboxChange}
+          />
+        ));
+    }
+  };
 
   return (
     <div>
       <h1>My Career Plan</h1>
-      <button onClick={() => setShowAllCareers(true)}>All Careers</button>
-      <button onClick={() => setShowAllCareers(false)}>Favorite Careers</button>
-      <h2>{showAllCareers ? "All Careers" : "Favorite Careers"}</h2>
+      <button onClick={() => setFilter("All")}>All Careers</button>
+      <button onClick={() => setFilter("Favorite")}>Favorite Careers</button>
+      <button onClick={() => setFilter("Healthcare")}>Healthcare Careers</button>
+
+      <h2>{filter} Careers</h2>
       <table>
         <thead>
           <tr>
@@ -79,15 +113,7 @@ export default function Careers() {
             </th>
           </tr>
         </thead>
-        <tbody>
-          {showAllCareers
-            ? sortedCareers.map((career: any, index: number) => (
-                <CareersTable career={career} handleCheckboxChange={handleCheckboxChange} />
-              ))
-            : favoriteCareers.map((career: any, index: number) => (
-                <CareersTable career={career} handleCheckboxChange={handleCheckboxChange} />
-              ))}
-        </tbody>
+        <tbody>{renderCareers(filter)}</tbody>
       </table>
       <Footer />
     </div>
