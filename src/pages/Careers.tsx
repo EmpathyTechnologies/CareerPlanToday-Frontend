@@ -106,10 +106,10 @@ export default function Careers() {
           <tr>
             <th>Favorite</th>
             <th>
-              <button onClick={() => sortByCareer()}>Career</button>
+              <button onClick={() => sortByCareer()}>Career ↕️</button>
             </th>
             <th>
-              <button onClick={() => sortByIncome()}>Average Income</button>
+              <button onClick={() => sortByIncome()}>Average Income ↕️</button>
             </th>
           </tr>
         </thead>
