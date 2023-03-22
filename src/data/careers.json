@@ -15956,7 +15956,7 @@
       "Wildlife Biologist",
       "Zoologist"
     ],
-    "industries": [],
+    "industries": ["Healthcare"],
     "education": "",
     "jobOutlook": "",
     "salary": {
