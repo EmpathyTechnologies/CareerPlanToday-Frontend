@@ -3,6 +3,7 @@ import CareersTable from "../components/Careers/CareersTable";
 import careersData from "../data/careers.json";
 import Footer from "../components/Footer/Footer";
 import { BsHeartPulseFill } from "react-icons/bs";
+import Button from 'react-bootstrap/Button';
 
 export default function Careers() {
   const [careers] = useState(careersData);
@@ -13,7 +14,9 @@ export default function Careers() {
   const [allCareers, setAllCareers] = useState([...careersData]);
   const [favoriteCareers, setFavoriteCareers] = useState<any>();
   const [healthcareCareers] = useState<any>(
-    careersData.filter((career: any) => career.industries.includes("Healthcare"))
+    careersData.filter((career: any) =>
+      career.industries.includes("Healthcare")
+    )
   );
 
   let alphabetize = false;
@@ -101,8 +104,19 @@ export default function Careers() {
 
       <button onClick={() => setFilter("All")}>All Careers</button>
       <button onClick={() => setFilter("Favorite")}>Favorite Careers</button>
-      <button onClick={() => setFilter("Healthcare")}> <div className="FlexColumnCenter"><BsHeartPulseFill color="8d0801" size={30}/> Healthcare Careers</div></button>
-      
+      <button onClick={() => setFilter("Healthcare")}>
+        <div className="FlexColumnCenter">
+          <BsHeartPulseFill color="8d0801" size={30} /> 
+          <div>Healthcare</div>
+          <div>Careers</div>
+        </div>
+      </button>
+
+      <Button variant="outline-secondary">Education Careers</Button>{' '}
+      <button>Education Careers</button>
+      <button>Building Trades</button>
+      <button>Finance Careers</button>
+      <button>Engineering Careers</button>
 
       <h2>{filter} Careers</h2>
       <table>

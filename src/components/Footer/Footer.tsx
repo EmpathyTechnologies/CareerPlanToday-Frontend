@@ -1,9 +1,14 @@
-import React from "react";
+
+import Nav from 'react-bootstrap/Nav';
 
 export default function Footer() {
-  return (
-    <footer>
-      <a href="./termsofuse">Terms of Use</a>
-    </footer>
+  return ( 
+
+    <Nav className="BorderTop">
+      <Nav.Item as="li">
+        <Nav.Link href="./termsofuse">Terms</Nav.Link>
+      </Nav.Item>
+    </Nav>
   );
 }
+
