@@ -77,6 +77,15 @@ export default function Careers() {
 
   const renderCareers = (filter: any) => {
     switch (filter) {
+      case "All":
+        return allCareers.map((career: any, index: number) => (
+          <CareersTable
+            key={career.title}
+            career={career}
+            handleCheckboxChange={handleCheckboxChange}
+          />
+        ));
+
       case "Favorite":
         return favoriteCareers.map((career: any, index: number) => (
           <CareersTable
@@ -112,6 +121,7 @@ export default function Careers() {
         variant='outline-secondary'
         className='FlexColumnCenter Width138px'
         onClick={() => setFilter("All")}
+        id={filter === "All" ? "btn-Active" : "btn-Inactive"}
       >
         <GrWorkshop size={30} />
         <div>All Careers</div>
@@ -121,6 +131,7 @@ export default function Careers() {
         variant='outline-secondary'
         className='FlexColumnCenter Width138px'
         onClick={() => setFilter("Favorite")}
+        id={filter === "Favorite" ? "btn-Active" : "btn-Inactive"}
       >
         <MdFavoriteBorder size={30} />
         <div>Favorite</div>
@@ -130,27 +141,44 @@ export default function Careers() {
         variant='outline-secondary'
         className='FlexColumnCenter Width138px'
         onClick={() => setFilter("Healthcare")}
+        id={filter === "Healthcare" ? "btn-Active" : "btn-Inactive"}
       >
         <BsHeartPulse size={30} />
         <div>Healthcare</div>
       </Button>
 
-      <Button variant='outline-secondary' className='FlexColumnCenter Width138px'>
+      <Button
+        variant='outline-secondary'
+        className='FlexColumnCenter Width138px'
+        id={filter === "BuildingTrades" ? "btn-Active" : "btn-Inactive"}
+      >
         <TbTools size={30} />
         <div>Building Trades</div>
       </Button>
 
-      <Button variant='outline-secondary' className='FlexColumnCenter Width138px'>
+      <Button
+        variant='outline-secondary'
+        className='FlexColumnCenter Width138px'
+        id={filter === "Finance" ? "btn-Active" : "btn-Inactive"}
+      >
         <TbPigMoney size={30} />
         <div>Finance</div>
       </Button>
 
-      <Button variant='outline-secondary' className='FlexColumnCenter Width138px'>
+      <Button
+        variant='outline-secondary'
+        className='FlexColumnCenter Width138px'
+        id={filter === "Engineering" ? "btn-Active" : "btn-Inactive"}
+      >
         <RxGear size={30} />
         <div>Engineering</div>
       </Button>
 
-      <Button variant='outline-secondary' className='FlexColumnCenter Width138px'>
+      <Button
+        variant='outline-secondary'
+        className='FlexColumnCenter Width138px'
+        id={filter === "Education" ? "btn-Active" : "btn-Inactive"}
+      >
         <BiBookReader size={30} />
         <div>Education</div>
       </Button>
