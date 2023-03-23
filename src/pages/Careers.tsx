@@ -1,14 +1,17 @@
 import { useState, useEffect } from "react";
-import CareersTable from "../components/Careers/CareersTable";
 import careersData from "../data/careers.json";
+
+import CareersTable from "../components/Careers/CareersTable";
+
+import Button from "react-bootstrap/Button";
 import Footer from "../components/Footer/Footer";
+
+import { BiBookReader } from "react-icons/bi";
 import { BsHeartPulse } from "react-icons/bs";
 import { GrWorkshop } from "react-icons/gr";
-import { RiVipCrown2Line } from "react-icons/ri";
-import { BiBookReader } from "react-icons/bi";
 import { TbTools, TbPigMoney } from "react-icons/tb";
+import { MdFavorite, MdFavoriteBorder } from "react-icons/md";
 import { RxGear } from "react-icons/rx";
-import Button from "react-bootstrap/Button";
 
 export default function Careers() {
   const [careers] = useState(careersData);
@@ -119,7 +122,7 @@ export default function Careers() {
         className='FlexColumnCenter Width138px'
         onClick={() => setFilter("Favorite")}
       >
-        <RiVipCrown2Line size={30} />
+        <MdFavoriteBorder size={30} />
         <div>Favorite</div>
       </Button>
 
