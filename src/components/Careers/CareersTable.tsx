@@ -1,5 +1,5 @@
 import React from "react";
-
+import { formatCurrency } from "../../utilities/formatCurrency";
 export default function CareersTable(props: any) {
   let { career, handleCheckboxChange } = props;
 
@@ -13,13 +13,7 @@ export default function CareersTable(props: any) {
         />
       </td>
       <td>{career.title}</td>
-      <td>
-        {career.salary.national.average.toLocaleString("en-US", {
-          style: "currency",
-          currency: "USD",
-          minimumFractionDigits: 0,
-        })}
-      </td>
+      <td>{formatCurrency(career.salary.national.average)}</td>
     </tr>
   );
 }
