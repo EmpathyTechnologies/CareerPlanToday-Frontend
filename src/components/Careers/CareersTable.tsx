@@ -7,7 +7,7 @@ export default function CareersTable(props: any) {
     <tr>
       <td>
         <input
-          type='checkbox'
+          type="checkbox"
           checked={career.favorite}
           onChange={() => handleCheckboxChange(career.title)}
         />
