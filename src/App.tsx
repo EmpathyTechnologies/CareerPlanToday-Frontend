@@ -31,11 +31,16 @@ function App() {
       average: 38170,
       ninetiethPercentile: 60420,
     },
-    { name: "Animal Trainers", tenthPercentile: 23160, average: 31280, ninetiethPercentile: 58790 },
+    {
+      name: "Animal Trainers",
+      tenthPercentile: 23160,
+      average: 31280,
+      ninetiethPercentile: 58790,
+    },
   ];
 
   return (
-    <div className='App'>
+    <div className="App">
       <h1>My Career Plan</h1>
       <table>
         <thead>
