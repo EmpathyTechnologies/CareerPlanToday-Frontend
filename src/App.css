@@ -3,6 +3,10 @@
     color: var(--Eel);
 }
 
+.CareerContainer {
+    background-color:#58cc02;
+}
+
 .FlexColumnCenter {
     display: flex;
     flex-direction: column;

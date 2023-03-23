@@ -2,8 +2,13 @@ import { useState, useEffect } from "react";
 import CareersTable from "../components/Careers/CareersTable";
 import careersData from "../data/careers.json";
 import Footer from "../components/Footer/Footer";
-import { BsHeartPulseFill } from "react-icons/bs";
-import Button from 'react-bootstrap/Button';
+import { BsHeartPulse } from "react-icons/bs";
+import { GrWorkshop } from "react-icons/gr";
+import { RiVipCrown2Line } from "react-icons/ri";
+import { BiBookReader } from "react-icons/bi";
+import { TbTools, TbPigMoney } from "react-icons/tb";
+import { RxGear } from "react-icons/rx";
+import Button from "react-bootstrap/Button";
 
 export default function Careers() {
   const [careers] = useState(careersData);
@@ -99,24 +104,46 @@ export default function Careers() {
   };
 
   return (
-    <div>
+    <div className="CareerContainer">
       <h1>My Career Plan</h1>
 
-      <button onClick={() => setFilter("All")}>All Careers</button>
-      <button onClick={() => setFilter("Favorite")}>Favorite Careers</button>
-      <button onClick={() => setFilter("Healthcare")}>
-        <div className="FlexColumnCenter">
-          <BsHeartPulseFill color="8d0801" size={30} /> 
-          <div>Healthcare</div>
-          <div>Careers</div>
-        </div>
-      </button>
+      <Button variant="outline-secondary" className="FlexColumnCenter">
+        <GrWorkshop size={30} />
+        <div>All</div>
+        <div>Careers</div>
+      </Button>
 
-      <Button variant="outline-secondary">Education Careers</Button>{' '}
-      <button>Education Careers</button>
-      <button>Building Trades</button>
-      <button>Finance Careers</button>
-      <button>Engineering Careers</button>
+      <Button variant="outline-secondary" className="FlexColumnCenter">
+        <RiVipCrown2Line size={30} />
+        <div>Favorite</div>
+      </Button>
+
+      <Button variant="outline-secondary" className="FlexColumnCenter">
+        <BsHeartPulse size={30} />
+        <div>Healthcare</div>
+        <div>Careers</div>
+      </Button>
+
+      <Button variant="outline-secondary" className="FlexColumnCenter">
+        <TbTools size={30} />
+        <div>Building</div>
+        <div>Careers</div>
+      </Button>
+
+      <Button variant="outline-secondary" className="FlexColumnCenter">
+        <TbPigMoney size={35} />
+        <div>Finance</div>
+      </Button>
+
+      <Button variant="outline-secondary" className="FlexColumnCenter">
+        <RxGear size={30} />
+        <div>Engineering</div>
+      </Button>
+
+      <Button variant="outline-secondary" className="FlexColumnCenter">
+        <BiBookReader size={30} />
+        <div>Education</div>
+      </Button>
 
       <h2>{filter} Careers</h2>
       <table>
