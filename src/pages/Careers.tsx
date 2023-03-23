@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import CareersTable from "../components/Careers/CareersTable";
 import careersData from "../data/careers.json";
 import Footer from "../components/Footer/Footer";
+import { BsHeartPulseFill } from "react-icons/bs";
+
 export default function Careers() {
   const [careers] = useState(careersData);
   const [isAscending, setIsAscending] = useState<boolean>(true);
@@ -96,9 +98,11 @@ export default function Careers() {
   return (
     <div>
       <h1>My Career Plan</h1>
+
       <button onClick={() => setFilter("All")}>All Careers</button>
       <button onClick={() => setFilter("Favorite")}>Favorite Careers</button>
-      <button onClick={() => setFilter("Healthcare")}>Healthcare Careers</button>
+      <button onClick={() => setFilter("Healthcare")}> <div className="FlexColumnCenter"><BsHeartPulseFill color="8d0801" size={30}/> Healthcare Careers</div></button>
+      
 
       <h2>{filter} Careers</h2>
       <table>

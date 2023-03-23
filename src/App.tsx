@@ -10,14 +10,13 @@ function App() {
   ReactGA.pageview(window.location.pathname + window.location.search);
 
   return (
-    <div className="App">
-      <nav></nav>
+    <>
       <Routes>
         <Route path="/" element={<Careers />} />
         <Route path="/termsofuse" element={<TermsOfUse />} />
         <Route path="*" element={<NoMatch />} />
       </Routes>
-    </div>
+    </>
   );
 }
 
