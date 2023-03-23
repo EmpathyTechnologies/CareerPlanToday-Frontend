@@ -19,9 +19,7 @@ export default function Careers() {
   const [allCareers, setAllCareers] = useState([...careersData]);
   const [favoriteCareers, setFavoriteCareers] = useState<any>();
   const [healthcareCareers] = useState<any>(
-    careersData.filter((career: any) =>
-      career.industries.includes("Healthcare")
-    )
+    careersData.filter((career: any) => career.industries.includes("Healthcare"))
   );
 
   let alphabetize = false;
@@ -104,43 +102,52 @@ export default function Careers() {
   };
 
   return (
-    <div className="CareerContainer">
+    <div className='CareerContainer'>
       <h1>My Career Plan</h1>
 
-      <Button variant="outline-secondary" className="FlexColumnCenter">
+      <Button
+        variant='outline-secondary'
+        className='FlexColumnCenter Width138px'
+        onClick={() => setFilter("All")}
+      >
         <GrWorkshop size={30} />
-        <div>All</div>
-        <div>Careers</div>
+        <div>All Careers</div>
       </Button>
 
-      <Button variant="outline-secondary" className="FlexColumnCenter">
+      <Button
+        variant='outline-secondary'
+        className='FlexColumnCenter Width138px'
+        onClick={() => setFilter("Favorite")}
+      >
         <RiVipCrown2Line size={30} />
         <div>Favorite</div>
       </Button>
 
-      <Button variant="outline-secondary" className="FlexColumnCenter">
+      <Button
+        variant='outline-secondary'
+        className='FlexColumnCenter Width138px'
+        onClick={() => setFilter("Healthcare")}
+      >
         <BsHeartPulse size={30} />
         <div>Healthcare</div>
-        <div>Careers</div>
       </Button>
 
-      <Button variant="outline-secondary" className="FlexColumnCenter">
+      <Button variant='outline-secondary' className='FlexColumnCenter Width138px'>
         <TbTools size={30} />
-        <div>Building</div>
-        <div>Careers</div>
+        <div>Building Trades</div>
       </Button>
 
-      <Button variant="outline-secondary" className="FlexColumnCenter">
-        <TbPigMoney size={35} />
+      <Button variant='outline-secondary' className='FlexColumnCenter Width138px'>
+        <TbPigMoney size={30} />
         <div>Finance</div>
       </Button>
 
-      <Button variant="outline-secondary" className="FlexColumnCenter">
+      <Button variant='outline-secondary' className='FlexColumnCenter Width138px'>
         <RxGear size={30} />
         <div>Engineering</div>
       </Button>
 
-      <Button variant="outline-secondary" className="FlexColumnCenter">
+      <Button variant='outline-secondary' className='FlexColumnCenter Width138px'>
         <BiBookReader size={30} />
         <div>Education</div>
       </Button>
