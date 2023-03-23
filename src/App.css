@@ -18,3 +18,18 @@
 .Width138px {
   width: 138px;
 }
+
+#btn-Active {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 3px solid var(--Eel);
+  border-radius: 0;
+}
+
+#btn-Inactive {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+}
