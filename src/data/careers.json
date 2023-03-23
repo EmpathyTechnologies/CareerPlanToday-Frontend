@@ -85,17 +85,6 @@
       "zip": "NOTE: calc((41,708 unique zip codes in the united states) * (3 for 10th percential, avg & 90th percentile))"
     }
   },
-  {
-    "title": "Actors",
-    "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
-    "education": "",
-    "jobOutlook": "",
-    "salary": {
-      "national": { "tenthPercentile": "n/a", "average": "n/a", "ninetiethPercentile": "n/a" }
-    }
-  },
 
   {
     "title": "Actuaries",
@@ -2678,18 +2667,6 @@
   },
 
   {
-    "title": "Dancers",
-    "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
-    "education": "",
-    "jobOutlook": "",
-    "salary": {
-      "national": { "tenthPercentile": "n/a", "average": "n/a", "ninetiethPercentile": "n/a" }
-    }
-  },
-
-  {
     "title": "Data Entry Keyers",
     "favorite": false,
     "alsoCalled": [],
@@ -2926,18 +2903,6 @@
     "jobOutlook": "",
     "salary": {
       "national": { "tenthPercentile": 29030, "average": 46980, "ninetiethPercentile": 90470 }
-    }
-  },
-
-  {
-    "title": "Disc Jockeys",
-    "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
-    "education": "",
-    "jobOutlook": "",
-    "salary": {
-      "national": { "tenthPercentile": "n/a", "average": "n/a", "ninetiethPercentile": "n/a" }
     }
   },
 
@@ -4270,18 +4235,6 @@
     "jobOutlook": "",
     "salary": {
       "national": { "tenthPercentile": 31200, "average": 60730, "ninetiethPercentile": 78330 }
-    }
-  },
-
-  {
-    "title": "Fishing & Hunting Workers",
-    "favorite": false,
-    "alsoCalled": [],
-    "industries": [],
-    "education": "",
-    "jobOutlook": "",
-    "salary": {
-      "national": { "tenthPercentile": "n/a", "average": "n/a", "ninetiethPercentile": "n/a" }
     }
   },
 
@@ -8438,29 +8391,6 @@
   },
 
   {
-    "title": "Models",
-    "favorite": false,
-    "alsoCalled": [
-      "Art Class Model",
-      "Art Model",
-      "Artist's Model",
-      "Figure Model",
-      "Fine Arts Model",
-      "Life Drawing Model",
-      "Model",
-      "Nude Model",
-      "Studio Model",
-      "Undraped Artist Model"
-    ],
-    "industries": [],
-    "education": "",
-    "jobOutlook": "",
-    "salary": {
-      "national": { "tenthPercentile": "n/a", "average": "n/a", "ninetiethPercentile": "n/a" }
-    }
-  },
-
-  {
     "title": "Molders, Shapers, & Casters",
     "favorite": false,
     "alsoCalled": [
@@ -8738,29 +8668,6 @@
     "jobOutlook": "",
     "salary": {
       "national": { "tenthPercentile": 24420, "average": 37160, "ninetiethPercentile": 59120 }
-    }
-  },
-
-  {
-    "title": "Musicians & Singers",
-    "favorite": false,
-    "alsoCalled": [
-      "Choir Member",
-      "Chorister",
-      "Gospel Singer",
-      "Musician",
-      "Opera Singer",
-      "Orchestra Musician",
-      "Percussionist",
-      "Singer",
-      "Violinist",
-      "Vocalist"
-    ],
-    "industries": [],
-    "education": "",
-    "jobOutlook": "",
-    "salary": {
-      "national": { "tenthPercentile": "n/a", "average": "n/a", "ninetiethPercentile": "n/a" }
     }
   },
 
