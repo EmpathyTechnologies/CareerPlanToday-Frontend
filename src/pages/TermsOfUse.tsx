@@ -46,15 +46,7 @@ export default function TermsOfUse() {
         https://nces.ed.gov/collegenavigator. Our data may be outdated. Users are encouraged to
         explore the original data sources to verify data accuracy.
       </div>
-      <h2>Modified Data</h2>
-      <div>
-        The careers data of Actors, Dancers, Disc Jockeys, and Musicians & Singers are presented in
-        an hourly format from the original data source www.mynextmove.org. To convert this to a
-        yearly salary, the salaries presented takes the hourly pay multiplied by 40 (hours per week)
-        and multiplied by 52 (weeks per year), then rounded to the nearest 10's place. For example,
-        if a hourly pay is $11.16, then $11.16 x 40 x 52 is $23,212.80, then rounded to the nearest
-        10's place is $23,210.
-      </div>
+
       <h2>No Reliance</h2>
       <div>
         Accordingly, we will not be liable, whether in contract, tort (including negligence) or
