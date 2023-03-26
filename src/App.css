@@ -3,7 +3,7 @@
 }
 
 .CareerContainer {
-  background-color: #58cc02;
+  background-color: var(--Polar);
 }
 
 .FlexColumnCenter {
@@ -11,25 +11,11 @@
   flex-direction: column;
   align-items: center;
 }
+
 .BorderTop {
   border-top: 1px solid var(--Hare);
 }
 
 .Width138px {
   width: 138px;
-}
-
-#btn-Active {
-  border-left: none;
-  border-right: none;
-  border-top: none;
-  border-bottom: 3px solid var(--Eel);
-  border-radius: 0;
-}
-
-#btn-Inactive {
-  border-left: none;
-  border-right: none;
-  border-top: none;
-  border-bottom: none;
 }
