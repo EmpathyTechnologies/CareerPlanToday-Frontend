@@ -5,14 +5,14 @@ export default function CareersTable(props: any) {
 
   return (
     <tr>
-      <td>
+      {/*<td>
         <input
-          type="checkbox"
+          type='checkbox'
           checked={career.favorite}
           onChange={() => handleCheckboxChange(career.title)}
-        />
-      </td>
-      <td>{career.title}</td>
+        /> 
+      </td>*/}
+      <td style={{ width: "750px" }}>{career.title}</td>
       <td>{formatCurrency(career.salary.national.average)}</td>
     </tr>
   );
