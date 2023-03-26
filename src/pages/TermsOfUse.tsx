@@ -2,7 +2,6 @@ import NavigationBar from "../components/NavigationBar/NavigationBar";
 export default function TermsOfUse() {
   return (
     <div>
-      <NavigationBar />
       <h1>Terms Of Use</h1>
       <h2>For All Users</h2>
       <div>
