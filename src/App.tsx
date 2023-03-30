@@ -17,6 +17,7 @@ function App() {
   return (
     <>
       <NavigationBar navbarSelected={navbarSelected} setNavbarSelected={setNavbarSelected} />
+
       <Routes>
         <Route path='/' element={<Careers />} />
         <Route path='/careers' element={<Careers />} />

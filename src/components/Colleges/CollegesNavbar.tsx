@@ -1,6 +1,3 @@
-import React from "react";
-import Button from "react-bootstrap/Button";
-
 import { BiBookReader } from "react-icons/bi";
 import { BsHeartPulse } from "react-icons/bs";
 import { GrWorkshop } from "react-icons/gr";
@@ -8,7 +5,7 @@ import { TbTools, TbPigMoney } from "react-icons/tb";
 import { MdFavorite, MdFavoriteBorder } from "react-icons/md";
 import { RxGear } from "react-icons/rx";
 
-export default function CareersNavbar(props: any) {
+export default function CollegesNavbar(props: any) {
   let { selected, setSelected } = props;
 
   const navbarContainer = {
@@ -39,33 +36,25 @@ export default function CareersNavbar(props: any) {
 
   const careerButtons = [
     {
-      select: "All Careers",
+      select: "All Colleges",
       icon: GrWorkshop,
     },
     // {
-    //   select: "Favorite",
-    //   icon: MdFavoriteBorder,
+    //   select: "Medical Doctor",
+    //   icon: BsHeartPulse,
+    // },
+    // {
+    //   select: "Nurse",
+    //   icon: TbTools,
     // },
     {
-      select: "Healthcare",
-      icon: BsHeartPulse,
-    },
-    {
-      select: "Construction",
-      icon: TbTools,
-    },
-    {
-      select: "Finance",
+      select: "Veterinary",
       icon: TbPigMoney,
     },
-    {
-      select: "Engineer",
-      icon: RxGear,
-    },
-    {
-      select: "Education",
-      icon: BiBookReader,
-    },
+    // {
+    //   select: "Veterinarian Technician ",
+    //   icon: RxGear,
+    // },
   ];
 
   return (
