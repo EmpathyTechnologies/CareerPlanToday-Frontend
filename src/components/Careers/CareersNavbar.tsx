@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-
+import "./CareersNavbar.css";
 import { BiBookReader } from "react-icons/bi";
 import { BsHeartPulse } from "react-icons/bs";
 import { GrWorkshop } from "react-icons/gr";
@@ -10,43 +10,44 @@ import Nav from "react-bootstrap/Nav";
 import { useScreenWidth } from "../../hooks/useScreenWidth";
 
 export default function CareersNavbar(props: any) {
-  let { setSelected } = props;
+  let { setFilter } = props;
   const breakpoint = 650;
   let width = useScreenWidth();
+
   return (
-    <Nav fill variant='tabs' defaultActiveKey='link-1'>
+    <Nav fill variant='tabs' defaultActiveKey='item-1' className='color-nav'>
       <Nav.Item>
-        <Nav.Link eventKey='link-1' onClick={() => setSelected("All Careers")}>
+        <Nav.Link eventKey='item-1' onClick={() => setFilter("All Careers")}>
           <GrWorkshop />
           {width > breakpoint ? <div>All Careers</div> : ""}
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link eventKey='link-2' onClick={() => setSelected("Healthcare")}>
+        <Nav.Link eventKey='item-2' onClick={() => setFilter("Healthcare")}>
           <BsHeartPulse />
           {width > breakpoint ? <div>Healthcare</div> : ""}
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link eventKey='link-3' onClick={() => setSelected("Construction")}>
+        <Nav.Link eventKey='item-3' onClick={() => setFilter("Construction")}>
           <TbTools />
           {width > breakpoint ? <div>Construction</div> : ""}
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link eventKey='link-4' onClick={() => setSelected("Finance")}>
+        <Nav.Link eventKey='item-4' onClick={() => setFilter("Finance")}>
           <TbPigMoney />
           {width > breakpoint ? <div>Finance</div> : ""}
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link eventKey='link-5' onClick={() => setSelected("Engineer")}>
+        <Nav.Link eventKey='item-5' onClick={() => setFilter("Engineer")}>
           <RxGear />
           {width > breakpoint ? <div>Engineer</div> : ""}
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link eventKey='link-6' onClick={() => setSelected("Education")}>
+        <Nav.Link eventKey='item-6' onClick={() => setFilter("Education")}>
           <BiBookReader />
           {width > breakpoint ? <div>Education</div> : ""}
         </Nav.Link>

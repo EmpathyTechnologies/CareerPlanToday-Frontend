@@ -19,7 +19,7 @@ export default function CareersTable({ careersList }: any) {
   });
 
   return (
-    <div style={{ paddingLeft: "100px", paddingRight: "100px", paddingTop: "30px" }}>
+    <div style={{ padding: "25px", paddingRight: "25px", paddingTop: "25px" }}>
       <Table striped bordered hover>
         <CareersTableHead sortDirection={sortDirection} setSortDirection={setSortDirection} />
         <CareersTableBody sortedCareers={sortedCareers} />
@@ -27,3 +27,6 @@ export default function CareersTable({ careersList }: any) {
     </div>
   );
 }
+
+// import { useScreenWidth } from "../../hooks/useScreenWidth";
+// let width = useScreenWidth();

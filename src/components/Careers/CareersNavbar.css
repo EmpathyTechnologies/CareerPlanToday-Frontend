@@ -1,0 +1,8 @@
+.color-nav {
+  /* background-color: red; */
+  font-weight: bold;
+}
+
+.nav-link.active {
+  background-color: var(--Macaw) !important;
+}
