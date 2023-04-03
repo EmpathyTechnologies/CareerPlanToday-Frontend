@@ -19,7 +19,7 @@ export default function Careers() {
   }, [selected]);
 
   return (
-    <div className='CareerContainer'>
+    <div className='CareersContainer'>
       <CareersNavbar selected={selected} setSelected={setSelected} />
       <CareersTable careersList={careersList} />
       <Footer />

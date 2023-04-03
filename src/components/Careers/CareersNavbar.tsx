@@ -1,5 +1,4 @@
-import React from "react";
-import Button from "react-bootstrap/Button";
+import { useState, useEffect } from "react";
 
 import { BiBookReader } from "react-icons/bi";
 import { BsHeartPulse } from "react-icons/bs";
@@ -7,82 +6,56 @@ import { GrWorkshop } from "react-icons/gr";
 import { TbTools, TbPigMoney } from "react-icons/tb";
 import { MdFavorite, MdFavoriteBorder } from "react-icons/md";
 import { RxGear } from "react-icons/rx";
-
+import Nav from "react-bootstrap/Nav";
 export default function CareersNavbar(props: any) {
-  let { selected, setSelected } = props;
+  let { setSelected } = props;
+  const [width, setWidth] = useState(window.innerWidth);
+  const breakpoint = 650;
 
-  const navbarContainer = {
-    display: "flex",
-    justifyContent: "center",
-    overflow: "hidden",
-    width: "100vw",
-    paddingTop: "10px",
-    borderBottom: "3px solid var(--Swan)",
-  };
-
-  const btnActive = {
-    backgroundColor: "var(--Polar)",
-    borderLeft: "none",
-    borderRight: "none",
-    borderTop: "none",
-    borderBottom: "3px solid var(--Eel)",
-    borderRadius: 0,
-  };
-
-  const btnInactive = {
-    backgroundColor: "var(--Polar)",
-    borderLeft: "none",
-    borderRight: "none",
-    borderTop: "none",
-    borderBottom: "none",
-  };
-
-  const careerButtons = [
-    {
-      select: "All Careers",
-      icon: GrWorkshop,
-    },
-    // {
-    //   select: "Favorite",
-    //   icon: MdFavoriteBorder,
-    // },
-    {
-      select: "Healthcare",
-      icon: BsHeartPulse,
-    },
-    {
-      select: "Construction",
-      icon: TbTools,
-    },
-    {
-      select: "Finance",
-      icon: TbPigMoney,
-    },
-    {
-      select: "Engineer",
-      icon: RxGear,
-    },
-    {
-      select: "Education",
-      icon: BiBookReader,
-    },
-  ];
+  useEffect(() => {
+    const handleWindowResize = () => setWidth(window.innerWidth);
+    window.addEventListener("resize", handleWindowResize);
+    return () => window.removeEventListener("resize", handleWindowResize);
+  }, []);
 
   return (
-    <div style={navbarContainer}>
-      {careerButtons.map((careerButton) => (
-        <button
-          className='FlexColumnCenter Width138px'
-          onClick={() => setSelected(careerButton.select)}
-          style={btnInactive}
-        >
-          <careerButton.icon size={30} />
-
-          <div style={selected === careerButton.select ? btnActive : btnInactive}>
-            {careerButton.select}
-          </div>
-        </button>
-      ))}
-    </div>
+    <Nav fill variant='tabs' defaultActiveKey='link-1'>
+      <Nav.Item>
+        <Nav.Link eventKey='link-1' onClick={() => setSelected("All Careers")}>
+          <GrWorkshop />
+          {width > breakpoint ? <div>All Careers</div> : ""}
+        </Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link eventKey='link-2' onClick={() => setSelected("Healthcare")}>
+          <BsHeartPulse />
+          {width > breakpoint ? <div>Healthcare</div> : ""}
+        </Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link eventKey='link-3' onClick={() => setSelected("Construction")}>
+          <TbTools />
+          {width > breakpoint ? <div>Construction</div> : ""}
+        </Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link eventKey='link-4' onClick={() => setSelected("Finance")}>
+          <TbPigMoney />
+          {width > breakpoint ? <div>Finance</div> : ""}
+        </Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link eventKey='link-5' onClick={() => setSelected("Engineer")}>
+          <RxGear />
+          {width > breakpoint ? <div>Engineer</div> : ""}
+        </Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link eventKey='link-6' onClick={() => setSelected("Education")}>
+          <BiBookReader />
+          {width > breakpoint ? <div>Education</div> : ""}
+        </Nav.Link>
+      </Nav.Item>
+    </Nav>
   );
 }
