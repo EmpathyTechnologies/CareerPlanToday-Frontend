@@ -2,7 +2,8 @@
   color: var(--Eel);
 }
 
-.CareerContainer {
+.CareersContainer,
+.CollegeContainer {
   background-color: var(--Polar);
 }
 
