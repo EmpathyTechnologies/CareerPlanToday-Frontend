@@ -7,17 +7,12 @@ import { TbTools, TbPigMoney } from "react-icons/tb";
 import { MdFavorite, MdFavoriteBorder } from "react-icons/md";
 import { RxGear } from "react-icons/rx";
 import Nav from "react-bootstrap/Nav";
+import { useScreenWidth } from "../../hooks/useScreenWidth";
+
 export default function CareersNavbar(props: any) {
   let { setSelected } = props;
-  const [width, setWidth] = useState(window.innerWidth);
   const breakpoint = 650;
-
-  useEffect(() => {
-    const handleWindowResize = () => setWidth(window.innerWidth);
-    window.addEventListener("resize", handleWindowResize);
-    return () => window.removeEventListener("resize", handleWindowResize);
-  }, []);
-
+  let width = useScreenWidth();
   return (
     <Nav fill variant='tabs' defaultActiveKey='link-1'>
       <Nav.Item>
