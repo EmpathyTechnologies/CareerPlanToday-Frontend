@@ -23,7 +23,7 @@
 
 .aboutHr {
   /* var feather green is not working */
-  border: 5px solid#2b70c9;
+  border: 3px solid#2b70c9;
   border-radius: 10px;
 }
 
@@ -37,4 +37,13 @@
   box-shadow: 3px 5px 3px ;
   left: 22%;
   width: 700px;
+}
+
+.aboutImg1 {
+  opacity: 70%;
+}
+
+.aboutText {
+  padding-left: 300px;
+  color: white;
 }
