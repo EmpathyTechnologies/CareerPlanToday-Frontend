@@ -8,6 +8,7 @@ import Colleges from "./pages/Colleges";
 import { useState } from "react";
 import NavigationBar from "./components/NavigationBar/NavigationBar";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import About from "./pages/About";
 
 function App() {
   ReactGA.initialize("UA-000000-01");
@@ -24,6 +25,7 @@ function App() {
         <Route path='/colleges' element={<Colleges />} />
         <Route path='/termsofuse' element={<TermsOfUse />} />
         <Route path='/privacypolicy' element={<PrivacyPolicy />} />
+        <Route path='/about' element={<About />} />
         <Route path='*' element={<NoMatch />} />
       </Routes>
     </>
