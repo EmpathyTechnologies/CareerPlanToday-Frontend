@@ -5,7 +5,11 @@ import img1 from "../Images/about-first.jpg";
 
 export default function About() {
   return (
-    <div className="aboutCard1">
+    <div className="about">
+
+      <h1 className="aboutHeader">About Our Team</h1>
+
+      <hr/>
 
       <Card >
         <Card.Img src={img1} alt="No Pic"/>

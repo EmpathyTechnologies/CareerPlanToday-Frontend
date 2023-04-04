@@ -21,10 +21,18 @@
   width: 138px;
 }
 
-.aboutCard1 {
+.aboutHeader {
   display: flex;
   justify-content: center;
-  background-repeat: no-repeat;
-  max-width: 100vh;
+  
+}
+
+
+.about {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 950px;
   padding-top: 50px;
+  padding-left: 300px;
 }
