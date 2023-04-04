@@ -20,3 +20,11 @@
 .Width138px {
   width: 138px;
 }
+
+.aboutCard1 {
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  max-width: 100vh;
+  padding-top: 50px;
+}

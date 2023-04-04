@@ -9,6 +9,7 @@ import { useState } from "react";
 import NavigationBar from "./components/NavigationBar/NavigationBar";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import About from "./pages/About";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   ReactGA.initialize("UA-000000-01");
