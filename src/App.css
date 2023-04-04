@@ -21,18 +21,20 @@
   width: 138px;
 }
 
+.aboutHr {
+  /* var feather green is not working */
+  border: 5px solid#2b70c9;
+  border-radius: 10px;
+}
+
 .aboutHeader {
   display: flex;
   justify-content: center;
-  
 }
 
-
 .about {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  max-width: 950px;
-  padding-top: 50px;
-  padding-left: 300px;
+  position: absolute;
+  box-shadow: 3px 5px 3px ;
+  left: 22%;
+  width: 700px;
 }

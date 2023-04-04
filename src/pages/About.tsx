@@ -5,13 +5,13 @@ import img1 from "../Images/about-first.jpg";
 
 export default function About() {
   return (
-    <div className="about">
+    <div>
 
       <h1 className="aboutHeader">About Our Team</h1>
 
-      <hr/>
+      <hr className="aboutHr"/>
 
-      <Card >
+      <Card className="about">
         <Card.Img src={img1} alt="No Pic"/>
         <Card.ImgOverlay>
         <Card.Text>This website is brought to you by Yogi, Ramiro, and Eric.</Card.Text>
