@@ -6,7 +6,7 @@ export default function NoMatch(props: any) {
       <h1>Sorry!</h1>
       <h2>
         <div>We couldn't find that page.</div>
-        <div>Click on an above navigation link to continue.</div>
+        <div>Click on the above navigation link to continue.</div>
       </h2>
       <Footer />
     </div>
