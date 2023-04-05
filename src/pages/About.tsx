@@ -5,6 +5,7 @@ import Card from "react-bootstrap/Card";
 import img1 from "../Images/about-first.jpg";
 import img2 from "../Images/about-second.jpg";
 import img3 from "../Images/about-third.jpg";
+import img4 from "../Images/about-fourth.jpg";
 export default function About() {
   return (
     <div>
@@ -36,6 +37,15 @@ export default function About() {
         <Card.Img src={img3} className="aboutImg1" alt="No Pic"/>
         <Card.ImgOverlay>
         <Card.Text className="aboutText">Ramiro</Card.Text>
+        </Card.ImgOverlay>
+      </Card> 
+
+      <hr className="aboutHr"/>
+
+      <Card className="about">
+        <Card.Img src={img4} className="aboutImg1" alt="No Pic"/>
+        <Card.ImgOverlay>
+        <Card.Text className="aboutText">Seygourney</Card.Text>
         </Card.ImgOverlay>
       </Card> 
 
