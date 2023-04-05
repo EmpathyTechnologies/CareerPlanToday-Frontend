@@ -7,7 +7,7 @@ import img2 from "../Images/about-second.jpg";
 import img3 from "../Images/about-third.jpg";
 import img4 from "../Images/about-fourth.jpg";
 import img5 from "../Images/ramiro-pic.jpg";
-import img6 from "../Images/Eric-pic.jpg";
+import img6 from "../Images/eric-pic.jpg";
 export default function About() {
   return (
     <div>
@@ -19,7 +19,18 @@ export default function About() {
         <Card.Img src={img1} className="aboutImg" alt="No Pic" />
         <Card.ImgOverlay>
           <Card.Text className="aboutCardHeader">Eric</Card.Text>
-        <img className="ericAbout" src={img6} />
+          <img className="ericAbout" src={img6} />
+          <Card.Text className="aboutText">
+            Eric's leadership skills and technical expertise as a skilled
+            software developer allowed him to bring together a diverse team to
+            help others find employment. He motivated the team to work
+            collaboratively and create innovative solutions using their
+            individual talents and perspectives. With Eric's guidance, the team
+            was able to develop user-friendly websites and mobile applications
+            that made job searching more accessible. Eric's leadership and
+            technical proficiency were a winning combination that made a real
+            difference in the lives of job seekers.
+          </Card.Text>
         </Card.ImgOverlay>
       </Card>
 
