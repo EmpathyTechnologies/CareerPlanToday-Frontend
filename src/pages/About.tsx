@@ -7,7 +7,7 @@ import img2 from "../Images/about-second.jpg";
 import img3 from "../Images/about-third.jpg";
 import img4 from "../Images/about-fourth.jpg";
 import img5 from "../Images/ramiro-pic.jpg";
-
+import img6 from "../Images/Eric-pic.jpg";
 export default function About() {
   return (
     <div>
@@ -19,7 +19,7 @@ export default function About() {
         <Card.Img src={img1} className="aboutImg" alt="No Pic" />
         <Card.ImgOverlay>
           <Card.Text className="aboutCardHeader">Eric</Card.Text>
-          {/* <img /> */}
+        <img className="ericAbout" src={img6} />
         </Card.ImgOverlay>
       </Card>
 
@@ -47,7 +47,7 @@ export default function About() {
         <Card.Img src={img4} className="aboutImg" alt="No Pic" />
         <Card.ImgOverlay>
           <Card.Text className="aboutCardHeader">Ramiro</Card.Text>
-          <img className="portrait" src={img5} alt="no pic" />
+          <img className="ramiroAbout" src={img5} alt="no pic" />
           <Card.Text className="aboutText">
             I contribute as a skilled software developer with problem-solving
             abilities and attention to detail. My expertise in writing code and
