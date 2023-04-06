@@ -25,7 +25,7 @@ export default function Career() {
           <div>Average</div>
           <div>{formatCurrency(answer.salary.national.average)}</div>
           <br />
-          <div>10th Percentile</div>
+          <div>90th Percentile</div>
           <div>{formatCurrency(answer.salary.national.ninetiethPercentile)}</div>
         </Card.Text>
         <Button variant='primary' href='/careers'>
