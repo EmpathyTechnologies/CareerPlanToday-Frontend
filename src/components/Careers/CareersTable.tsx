@@ -6,7 +6,7 @@ import CareersTableBody from "./CareersTableBody";
 export default function CareersTable({ careersList }: any) {
   const [sortDirection, setSortDirection] = useState("career-asc");
 
-  const sortedCareers = [...careersList].sort((a: any, b: any) => {
+  const sortedCareers = careersList.sort((a: any, b: any) => {
     if (sortDirection === "career-asc") {
       return a.title.localeCompare(b.title);
     } else if (sortDirection === "career-desc") {
@@ -27,6 +27,3 @@ export default function CareersTable({ careersList }: any) {
     </div>
   );
 }
-
-// import { useScreenWidth } from "../../hooks/useScreenWidth";
-// let width = useScreenWidth();

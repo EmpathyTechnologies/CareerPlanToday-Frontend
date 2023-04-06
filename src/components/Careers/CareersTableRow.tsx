@@ -1,4 +1,6 @@
 import { formatCurrency } from "../../utilities/formatCurrency";
+import { Link } from "react-router-dom";
+
 export default function CareersTableRow(props: any) {
   let { career } = props;
 
@@ -9,7 +11,9 @@ export default function CareersTableRow(props: any) {
 
   return (
     <tr>
-      <td>{career.title}</td>
+      <td>
+        <Link to={`/careers/${career.id}`}>{career.title}</Link>
+      </td>
       <td>{checkIf208000(formatCurrency(career.salary.national.average))}</td>
     </tr>
   );
