@@ -10,7 +10,12 @@ export default function Career() {
 
   let answer: any = allCareers.filter((career) => career.id === Number(id));
   answer = answer[0];
-  console.log("ANSWER: ", answer);
+
+  function checkIf208000(salary: string) {
+    if (salary === "$208,000") return "$208,000+";
+    else return salary;
+  }
+
   return (
     <Card style={{ width: "18rem" }}>
       {/* <Card.Img variant='top' src='holder.js/100px180' /> */}
@@ -20,13 +25,13 @@ export default function Career() {
           <h2>Salary</h2>
 
           <div>10th Percentile Salary</div>
-          <div>{formatCurrency(answer.salary.national.tenthPercentile)}</div>
+          <div>{checkIf208000(formatCurrency(answer.salary.national.tenthPercentile))}</div>
           <br />
           <div>Average</div>
-          <div>{formatCurrency(answer.salary.national.average)}</div>
+          <div>{checkIf208000(formatCurrency(answer.salary.national.average))}</div>
           <br />
           <div>90th Percentile</div>
-          <div>{formatCurrency(answer.salary.national.ninetiethPercentile)}</div>
+          <div>{checkIf208000(formatCurrency(answer.salary.national.ninetiethPercentile))}</div>
         </Card.Text>
         <Button variant='primary' href='/careers'>
           Return to Careers
