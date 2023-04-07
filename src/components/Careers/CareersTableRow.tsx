@@ -29,7 +29,9 @@ export default function CareersTableRow(props: any) {
         <span> </span>
         <Link to={`/careers/${career.id}`}>{career.title}</Link>
       </td>
-      <td>{checkIf208000(formatCurrency(career.salary.national.average))}</td>
+      <td style={{ display: "flex", justifyContent: "center" }}>
+        {checkIf208000(formatCurrency(career.salary.national.average))}
+      </td>
     </tr>
   );
 }
