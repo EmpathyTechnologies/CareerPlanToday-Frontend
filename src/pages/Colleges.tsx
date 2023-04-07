@@ -10,14 +10,16 @@ export default function Colleges() {
         <thead>
           <tr>
             <th>College</th>
-            <th>Tuition</th>
+            <th style={{ display: "flex", justifyContent: "center" }}>Tuition / Year</th>
           </tr>
         </thead>
         <tbody>
           {allColleges.map((college) => (
             <tr>
               <td>{college.collegeName}</td>
-              <td>{formatCurrency(college.tuition)}</td>
+              <td style={{ display: "flex", justifyContent: "center" }}>
+                {formatCurrency(college.tuition)}
+              </td>
             </tr>
           ))}
         </tbody>
