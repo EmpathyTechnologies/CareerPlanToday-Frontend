@@ -7,6 +7,7 @@ import CareersTable from "../components/Careers/CareersTable";
 export default function Careers() {
   const [careersList, setCareersList] = useState(allCareers);
   const [filter, setFilter] = useState<string>("All Careers");
+  const [favorites, setFavorites] = useState([]);
 
   useEffect(() => {
     if (filter === "All Careers") setCareersList(allCareers);
@@ -19,7 +20,7 @@ export default function Careers() {
   return (
     <div className='CareersContainer'>
       <CareersNavbar setFilter={setFilter} />
-      <CareersTable careersList={careersList} />
+      <CareersTable careersList={careersList} favorites={favorites} setFavorites={setFavorites} />
       <Footer />
     </div>
   );
