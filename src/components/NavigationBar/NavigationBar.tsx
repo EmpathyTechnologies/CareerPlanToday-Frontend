@@ -21,6 +21,9 @@ export default function NavigationBar(props: any) {
       <a href='/careers' onClick={() => setNavbarSelected("Careers")} style={aTag}>
         Careers
       </a>
+      <a href='/colleges' onClick={() => setNavbarSelected("Colleges")} style={aTag}>
+        Colleges
+      </a>
     </div>
   );
 }
