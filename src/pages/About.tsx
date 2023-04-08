@@ -7,7 +7,7 @@ import img2 from "../Images/about-second.jpg";
 import img3 from "../Images/about-third.jpg";
 import img4 from "../Images/about-fourth.jpg";
 import img5 from "../Images/ramiro-pic.jpg";
-import img6 from "../Images/Eric-pic.jpg";
+import img6 from "../Images/eric-pic.jpg";
 export default function About() {
   return (
     <div>
