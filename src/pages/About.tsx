@@ -7,11 +7,14 @@ import img2 from "../Images/about-second.jpg";
 import img3 from "../Images/about-third.jpg";
 import img4 from "../Images/about-fourth.jpg";
 import img5 from "../Images/ramiro-pic.jpg";
-import img6 from "../Images/eric-pic.jpg";
+import img6 from "../Images/Eric-pic.jpg";
+// TO-DO:  Import the Footer Component
 export default function About() {
   return (
     <div>
       <h1 className='aboutHeader'>About Our Team</h1>
+
+      {/* TO-DO: Instead of creating code for the card multiple times, use the map function */}
 
       <hr className='aboutHr' />
 
@@ -72,7 +75,7 @@ export default function About() {
       </Card>
 
       <br />
-
+      {/* TO-DO:  Replace the below code with the footer component <Footer />  */}
       <Nav className='BorderTop'>
         <Nav.Item as='li'>
           <Nav.Link href='./termsofuse'>Terms</Nav.Link>
