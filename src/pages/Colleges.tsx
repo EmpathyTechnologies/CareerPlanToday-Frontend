@@ -4,6 +4,7 @@ import { formatCurrency } from "../utilities/formatCurrency";
 import Table from "react-bootstrap/Table";
 import CollegesNavbar from "../components/Colleges/CollegesNavbar";
 import { useState, useEffect } from "react";
+import Footer from "../components/Footer/Footer";
 
 export default function Colleges() {
   const [filter, setFilter] = useState<string>("All States");
@@ -40,6 +41,7 @@ export default function Colleges() {
           </tbody>
         </Table>
       </div>
+      <Footer />
     </div>
   );
 }
