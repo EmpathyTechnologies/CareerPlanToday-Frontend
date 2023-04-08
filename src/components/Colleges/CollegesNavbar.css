@@ -1,0 +1,12 @@
+/* {
+  color: var(--Eel);
+} */
+
+.color-nav {
+  /* background-color: red; */
+  /* font-weight: bold; */
+}
+
+.nav-link.active {
+  background-color: var(--Bee) !important;
+}
