@@ -9,6 +9,7 @@ import Colleges from "./pages/Colleges";
 import TermsOfUse from "./pages/TermsOfUse";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import About from "./pages/About";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import NoMatch from "./pages/NoMatch";
 
 function App() {
