@@ -4,7 +4,7 @@ import { BiBookReader } from "react-icons/bi";
 import { BsHeartPulse } from "react-icons/bs";
 import { GrWorkshop } from "react-icons/gr";
 import { TbTools, TbPigMoney } from "react-icons/tb";
-import { MdFavorite, MdFavoriteBorder } from "react-icons/md";
+
 import { RxGear } from "react-icons/rx";
 import Nav from "react-bootstrap/Nav";
 import { useScreenWidth } from "../../hooks/useScreenWidth";

@@ -32,7 +32,9 @@ export default function CareersTableHead({ sortDirection, setSortDirection }: an
     <thead>
       <tr>
         <th onClick={handleSortByCareers}>Career{careerArrow}</th>
-        <th onClick={handleSortBySalary}>Salary{salaryArrow}</th>
+        <th style={{ display: "flex", justifyContent: "center" }} onClick={handleSortBySalary}>
+          Salary{salaryArrow}
+        </th>
       </tr>
     </thead>
   );

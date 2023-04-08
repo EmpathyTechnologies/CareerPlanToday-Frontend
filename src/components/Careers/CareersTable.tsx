@@ -3,10 +3,10 @@ import Table from "react-bootstrap/Table";
 import CareersTableHead from "./CareersTableHead";
 import CareersTableBody from "./CareersTableBody";
 
-export default function CareersTable({ careersList }: any) {
+export default function CareersTable({ careersList, favorites, setFavorites }: any) {
   const [sortDirection, setSortDirection] = useState("career-asc");
 
-  const sortedCareers = [...careersList].sort((a: any, b: any) => {
+  const sortedCareers = careersList.sort((a: any, b: any) => {
     if (sortDirection === "career-asc") {
       return a.title.localeCompare(b.title);
     } else if (sortDirection === "career-desc") {
@@ -22,11 +22,12 @@ export default function CareersTable({ careersList }: any) {
     <div style={{ padding: "25px", paddingRight: "25px", paddingTop: "25px" }}>
       <Table striped bordered hover>
         <CareersTableHead sortDirection={sortDirection} setSortDirection={setSortDirection} />
-        <CareersTableBody sortedCareers={sortedCareers} />
+        <CareersTableBody
+          sortedCareers={sortedCareers}
+          favorites={favorites}
+          setFavorites={setFavorites}
+        />
       </Table>
     </div>
   );
 }
-
-// import { useScreenWidth } from "../../hooks/useScreenWidth";
-// let width = useScreenWidth();
