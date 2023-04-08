@@ -7,8 +7,8 @@ import { useLocalStorage } from "../hooks/useLocalStorage";
 
 export default function Careers() {
   const [careersList, setCareersList] = useState(allCareers);
-  const [filter, setFilter] = useState<string>("All Careers");
   const [favorites, setFavorites] = useLocalStorage<any[]>("careerFavorites", []);
+  const [filter, setFilter] = useState<string>("All Careers");
 
   useEffect(() => {
     if (filter === "All Careers") setCareersList(allCareers);
