@@ -20,20 +20,13 @@ export default function Colleges() {
   const [sliderValues, setSliderValues] = useState<number[]>([lowestTuition, highestTuition]);
 
   useEffect(() => {
-    let myDoubleFilteredColleges = allColleges;
-    if (filter === "All States") {
-      myDoubleFilteredColleges = allColleges;
-    } else {
-      myDoubleFilteredColleges = myDoubleFilteredColleges.filter(
-        (college) => college.state === filter
-      );
+    // FILTER COLLEGES LIST
+    if (filter === "All States") setCollegesList(allColleges);
+    else {
+      let filteredCareers = allColleges.filter((college) => college.state === filter);
+      setCollegesList(filteredCareers);
     }
-    myDoubleFilteredColleges = myDoubleFilteredColleges.filter(
-      (college) => college.tuition >= sliderValues[0] && college.tuition <= sliderValues[1]
-    );
-
-    setCollegesList(myDoubleFilteredColleges);
-  }, [filter, sliderValues]);
+  }, [filter]);
 
   return (
     <div>

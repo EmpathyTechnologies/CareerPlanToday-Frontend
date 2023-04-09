@@ -1,25 +1,42 @@
-import React from "react";
+import React, { useState } from "react";
 import Box from "@mui/material/Box";
 import Slider from "@mui/material/Slider";
+import { formatCurrency } from "../../../utilities/formatCurrency";
 
-function valuetext(value: number) {
-  return `${value}°C`;
-}
-export default function CollegesNavbarTuitionSlider() {
-  const [value, setValue] = React.useState<number[]>([20, 37]);
-
+export default function CollegesNavbarTuitionSlider({
+  collegesList,
+  sliderValues,
+  setSliderValues,
+  lowestTuition,
+  setLowestTuition,
+  highestTuition,
+  setHighestTuition,
+}: any) {
   const handleChange = (event: Event, newValue: number | number[]) => {
-    setValue(newValue as number[]);
+    if (typeof newValue === "number") {
+      setSliderValues([newValue, newValue]);
+    } else {
+      let [min, max] = newValue;
+      min = Math.max(min, lowestTuition);
+      max = Math.min(max, highestTuition);
+      setSliderValues([min, max]);
+    }
   };
+
   return (
-    <Box sx={{ width: 250, marginLeft: "30px", display: "flex" }}>
-      <Slider
-        getAriaLabel={() => "Temperature range"}
-        value={value}
-        onChange={handleChange}
-        valueLabelDisplay='auto'
-        getAriaValueText={valuetext}
-      />
-    </Box>
+    <div>
+      <Box sx={{ width: 550, marginLeft: "30px", display: "flex" }}>
+        <span style={{ paddingRight: "25px" }}>{formatCurrency(lowestTuition)}</span>
+        <Slider
+          style={{ width: 200 }}
+          value={sliderValues}
+          onChange={handleChange}
+          valueLabelDisplay='auto'
+          min={lowestTuition}
+          max={highestTuition}
+        />
+        <span style={{ paddingLeft: "25px" }}>{formatCurrency(highestTuition)}</span>
+      </Box>
+    </div>
   );
 }
