@@ -7,20 +7,20 @@ import { useState, useEffect } from "react";
 import Footer from "../components/Footer/Footer";
 
 export default function Colleges() {
-  const [filter_USA_States, set_USA_States_Filter] = useState<string>("All States");
+  const [filter, setFilter] = useState<string>("All States");
   const [collegesList, setCollegesList] = useState(allColleges);
 
   useEffect(() => {
-    if (filter_USA_States === "All States") setCollegesList(allColleges);
+    if (filter === "All States") setCollegesList(allColleges);
     else {
-      let filteredCareers = allColleges.filter((college) => college.state === filter_USA_States);
+      let filteredCareers = allColleges.filter((college) => college.state === filter);
       setCollegesList(filteredCareers);
     }
-  }, [filter_USA_States]);
+  }, [filter]);
 
   return (
     <div>
-      <CollegesNavbar set_USA_States_Filter={set_USA_States_Filter} />
+      <CollegesNavbar setFilter={setFilter} />
       <div style={{ padding: "25px" }}>
         <Table striped bordered hover>
           <thead>

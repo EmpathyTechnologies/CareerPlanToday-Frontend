@@ -1,12 +1,64 @@
-import React, { useState, forwardRef, Ref } from "react";
+import React, { useState, forwardRef } from "react";
+import Dropdown from "react-bootstrap/Dropdown";
 import Form from "react-bootstrap/Form";
 import "./CollegesNavbar.css";
-
-interface CollegesNavbarProps {
-  set_USA_States_Filter: any;
+interface CustomToggleProps {
+  children: React.ReactNode;
+  onClick: (event: React.MouseEvent<HTMLAnchorElement>) => void;
 }
 
-const CollegesNavbar: React.FC<CollegesNavbarProps> = ({ set_USA_States_Filter }) => {
+const CustomToggle = forwardRef<HTMLAnchorElement, CustomToggleProps>(
+  ({ children, onClick }, ref) => (
+    <a
+      href=''
+      ref={ref}
+      onClick={(e: React.MouseEvent<HTMLAnchorElement>) => {
+        e.preventDefault();
+        onClick(e);
+      }}
+    >
+      {children}
+      &#x25bc;
+    </a>
+  )
+);
+
+interface CustomMenuProps {
+  children: React.ReactNode;
+  style: React.CSSProperties;
+  className: string;
+  labeledBy: string;
+}
+
+const CustomMenu = forwardRef<HTMLDivElement, CustomMenuProps>(
+  ({ children, style, className, labeledBy }, ref) => {
+    const [value, setValue] = useState("");
+
+    return (
+      <div ref={ref} style={style} className={className} aria-labelledby={labeledBy}>
+        <Form.Control
+          autoFocus
+          className='mx-3 my-2 w-auto'
+          placeholder='Type to filter...'
+          onChange={(e: React.ChangeEvent<HTMLInputElement>) => setValue(e.target.value)}
+          value={value}
+        />
+        <ul className='list-unstyled'>
+          {React.Children.toArray(children).filter(
+            (child) =>
+              !value || (child as React.ReactElement).props.children.toLowerCase().startsWith(value)
+          )}
+        </ul>
+      </div>
+    );
+  }
+);
+
+interface CustomDropdownProps {
+  setFilter: any;
+}
+
+const CollegesNavbar: React.FC<CustomDropdownProps> = ({ setFilter }) => {
   const usaStates = [
     { name: "All States", abbreviation: "All States" },
     { name: "Alabama", abbreviation: "AL" },
@@ -60,20 +112,31 @@ const CollegesNavbar: React.FC<CollegesNavbarProps> = ({ set_USA_States_Filter }
     { name: "Wisconsin", abbreviation: "WI" },
     { name: "Wyoming", abbreviation: "WY" },
   ];
+  const [labeledBy, setLabeledBy] = useState<string>("");
+  const [label, setLabel] = useState("All States");
 
   return (
     <div id='colleges-navbar-container'>
-      <Form.Select
-        aria-label='All States'
-        style={{ width: "200px", marginLeft: "30px" }}
-        onChange={(e) => set_USA_States_Filter(e.target.value)}
-      >
-        {usaStates.map((state) => (
-          <option key={state.abbreviation} value={state.abbreviation}>
-            {state.name}
-          </option>
-        ))}
-      </Form.Select>
+      <Dropdown id='colleges-navbar-item'>
+        <Dropdown.Toggle as={CustomToggle} id='colleges-navbar-item-label'>
+          {label}
+        </Dropdown.Toggle>
+
+        <Dropdown.Menu as={CustomMenu} labeledBy={labeledBy}>
+          {usaStates.map((usaState, index) => (
+            <Dropdown.Item
+              key={index}
+              eventKey={index.toString()}
+              onClick={() => {
+                setLabel(usaState.name);
+                setFilter(usaState.abbreviation);
+              }}
+            >
+              {usaState.name}
+            </Dropdown.Item>
+          ))}
+        </Dropdown.Menu>
+      </Dropdown>
     </div>
   );
 };
