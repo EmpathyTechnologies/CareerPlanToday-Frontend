@@ -1,7 +1,7 @@
 import React, { useState, forwardRef, Ref } from "react";
 import Dropdown from "react-bootstrap/Dropdown";
 import Form from "react-bootstrap/Form";
-
+import "./CollegesNavbar.css";
 interface CustomToggleProps {
   children: React.ReactNode;
   onClick: (event: React.MouseEvent<HTMLAnchorElement>) => void;
@@ -55,12 +55,10 @@ const CustomMenu = forwardRef<HTMLDivElement, CustomMenuProps>(
 );
 
 interface CustomDropdownProps {
-  id: string;
-
   setFilter: any;
 }
 
-const CollegesNavbar: React.FC<CustomDropdownProps> = ({ id, setFilter }) => {
+const CollegesNavbar: React.FC<CustomDropdownProps> = ({ setFilter }) => {
   const usaStates = [
     { name: "All States", abbreviation: "All States" },
     { name: "Alabama", abbreviation: "AL" },
@@ -114,30 +112,32 @@ const CollegesNavbar: React.FC<CustomDropdownProps> = ({ id, setFilter }) => {
     { name: "Wisconsin", abbreviation: "WI" },
     { name: "Wyoming", abbreviation: "WY" },
   ];
-  const [labeledBy, setLabeledBy] = useState<string>(id);
+  const [labeledBy, setLabeledBy] = useState<string>("");
   const [label, setLabel] = useState("Filter by State");
 
   return (
-    <Dropdown>
-      <Dropdown.Toggle as={CustomToggle} id={id}>
-        {label}
-      </Dropdown.Toggle>
+    <div id='colleges-navbar-container'>
+      <Dropdown id='colleges-navbar-item'>
+        <Dropdown.Toggle as={CustomToggle} id='colleges-navbar-item-label'>
+          {label}
+        </Dropdown.Toggle>
 
-      <Dropdown.Menu as={CustomMenu} labeledBy={labeledBy}>
-        {usaStates.map((usaState, index) => (
-          <Dropdown.Item
-            key={index}
-            eventKey={index.toString()}
-            onClick={() => {
-              setLabel(usaState.name);
-              setFilter(usaState.abbreviation);
-            }}
-          >
-            {usaState.name}
-          </Dropdown.Item>
-        ))}
-      </Dropdown.Menu>
-    </Dropdown>
+        <Dropdown.Menu as={CustomMenu} labeledBy={labeledBy}>
+          {usaStates.map((usaState, index) => (
+            <Dropdown.Item
+              key={index}
+              eventKey={index.toString()}
+              onClick={() => {
+                setLabel(usaState.name);
+                setFilter(usaState.abbreviation);
+              }}
+            >
+              {usaState.name}
+            </Dropdown.Item>
+          ))}
+        </Dropdown.Menu>
+      </Dropdown>
+    </div>
   );
 };
 

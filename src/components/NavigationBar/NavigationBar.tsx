@@ -2,11 +2,13 @@ export default function NavigationBar(props: any) {
   const { setNavbarSelected } = props;
 
   const containerStyle = {
-    height: "40px",
+    height: "64px",
     background: "var(--Humpback)",
     display: "flex",
     alignItems: "center",
     paddingLeft: "30px",
+    fontSize: "24px",
+    fontFamily: "Helvetica Neue, Helvetica, Arial, sans-serif",
   };
 
   const aTag = {

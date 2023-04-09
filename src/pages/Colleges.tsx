@@ -20,7 +20,7 @@ export default function Colleges() {
 
   return (
     <div>
-      <CollegesNavbar id='my-custom-dropdown' setFilter={setFilter} />
+      <CollegesNavbar setFilter={setFilter} />
       <div style={{ padding: "25px" }}>
         <Table striped bordered hover>
           <thead>

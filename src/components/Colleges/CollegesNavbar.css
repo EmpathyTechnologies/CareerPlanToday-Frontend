@@ -1,6 +1,19 @@
-/* {
-  color: var(--Eel);
-} */
+#colleges-navbar-container {
+  height: 64px;
+  background-color: var(--Swan);
+  font-size: 24px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+#colleges-navbar-item {
+  padding-left: 30px;
+}
+
+a {
+  text-decoration: none !important;
+}
 
 .color-nav {
   /* background-color: red; */
