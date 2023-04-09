@@ -5,14 +5,38 @@ import CollegesNavbarStatesDropdown from "./CollegesNavbarStatesDropdown";
 import CollegesNavbarTuitionSlider from "./CollegesNavbarTuitionSlider";
 
 interface CollegesNavbarProps {
+  collegesList: any;
   setFilter: any;
+  sliderValues: any;
+  setSliderValues: any;
+  lowestTuition: any;
+  setLowestTuition: any;
+  highestTuition: any;
+  setHighestTuition: any;
 }
 
-const CollegesNavbar: React.FC<CollegesNavbarProps> = ({ setFilter }) => {
+const CollegesNavbar: React.FC<CollegesNavbarProps> = ({
+  collegesList,
+  setFilter,
+  sliderValues,
+  setSliderValues,
+  lowestTuition,
+  setLowestTuition,
+  highestTuition,
+  setHighestTuition,
+}) => {
   return (
     <div id='colleges-navbar-container'>
       <CollegesNavbarStatesDropdown setFilter={setFilter} />
-      <CollegesNavbarTuitionSlider />
+      <CollegesNavbarTuitionSlider
+        collegesList={collegesList}
+        sliderValues={sliderValues}
+        setSliderValues={setSliderValues}
+        lowestTuition={lowestTuition}
+        setLowestTuition={setLowestTuition}
+        highestTuition={highestTuition}
+        setHighestTuition={setHighestTuition}
+      />
     </div>
   );
 };
