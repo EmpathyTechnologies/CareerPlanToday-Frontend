@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import allCareers from "../data/careers.json";
 import { formatCurrency } from "../utilities/formatCurrency";

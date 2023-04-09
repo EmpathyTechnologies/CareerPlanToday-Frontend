@@ -1,6 +1,6 @@
 import { formatCurrency } from "../../utilities/formatCurrency";
 import { Link } from "react-router-dom";
-import { MdFavorite, MdFavoriteBorder, MdOutlineFavorite } from "react-icons/md";
+import { MdFavoriteBorder, MdOutlineFavorite } from "react-icons/md";
 import "./CareersTableRow.css";
 
 export default function CareersTableRow(props: any) {

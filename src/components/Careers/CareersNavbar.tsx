@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import "./CareersNavbar.css";
 import { BiBookReader } from "react-icons/bi";
 import { BsHeartPulse } from "react-icons/bs";
