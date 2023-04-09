@@ -1,20 +1,27 @@
+// TO-DO:  import React is unused.  Therefore this should be deleted to improve performance and clean code. (However, I have lots of unused code in this project that I need to delete)
 import React from "react";
+
+// TO-DO: import "bootstrap/dist/css/bootstrap.min.css" is already imported in index.tsx.  Therefore this code should be deleted to improve performance and clean code.
 import "bootstrap/dist/css/bootstrap.min.css";
 import Nav from "react-bootstrap/Nav";
 import Card from "react-bootstrap/Card";
-import img1 from "../Images/about-first.jpg";
-import img2 from "../Images/about-second.jpg";
-import img3 from "../Images/about-third.jpg";
-import img4 from "../Images/about-fourth.jpg";
-import img5 from "../Images/ramiro-pic.jpg";
-import img6 from "../Images/Eric-pic.jpg";
+// DISCUSSION: images go inside an "assets" folder
+import img1 from "../assets/about-first.jpg";
+import img2 from "../assets/about-second.jpg";
+import img3 from "../assets/about-third.jpg";
+import img4 from "../assets/about-fourth.jpg";
+import img5 from "../assets/ramiro-pic.jpg";
+import img6 from "../assets/eric-pic.jpg";
+
 // TO-DO:  Import the Footer Component
+
 export default function About() {
   return (
     <div>
       <h1 className='aboutHeader'>About Our Team</h1>
 
-      {/* TO-DO: Instead of creating code for the card multiple times, use the map function */}
+      {/* DISCUSSION:  DRY Principle: do not repeat yourself */}
+      {/* TO-DO: There are multiple codes for cards that are the same thing.  Instead, use the map function */}
 
       <hr className='aboutHr' />
 
@@ -75,6 +82,7 @@ export default function About() {
       </Card>
 
       <br />
+      {/* DISCUSSION:  There is already a Footer component tha has the below code. */}
       {/* TO-DO:  Replace the below code with the footer component <Footer />  */}
       <Nav className='BorderTop'>
         <Nav.Item as='li'>
@@ -90,4 +98,5 @@ export default function About() {
     </div>
   );
 }
-//
+// DISCUSSION:  Team design discussion.  Realistic photos vs Drawn photos idea.  Image design & quality consistentcy.  Fiverr.  Would need standard photos.
+// DISCUSSION:  Image on image vs. simplicity in design.  https://dribbble.com/stories/2020/05/05/7-best-practices-photography-ui-design
