@@ -2,7 +2,7 @@ import React from "react";
 import allColleges from "../data/colleges.json";
 import { formatCurrency } from "../utilities/formatCurrency";
 import Table from "react-bootstrap/Table";
-import CollegesNavbar from "../components/Colleges/CollegesNavbar";
+import CollegesNavbar from "../components/Colleges/CollegesNavbar/CollegesNavbar";
 import { useState, useEffect } from "react";
 import Footer from "../components/Footer/Footer";
 
