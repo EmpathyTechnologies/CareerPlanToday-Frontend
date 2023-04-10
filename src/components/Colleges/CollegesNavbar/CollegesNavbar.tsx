@@ -6,7 +6,7 @@ import CollegesFilterByTuition from "./CollegesFilterByTuition";
 
 interface CollegesNavbarProps {
   collegesList: any;
-  setFilter: any;
+  setFilterByStates: any;
   filterByTuition: any;
   setFilterByTuition: any;
   lowestTuition: any;
@@ -17,7 +17,7 @@ interface CollegesNavbarProps {
 
 const CollegesNavbar: React.FC<CollegesNavbarProps> = ({
   collegesList,
-  setFilter,
+  setFilterByStates,
   filterByTuition,
   setFilterByTuition,
   lowestTuition,
@@ -27,7 +27,7 @@ const CollegesNavbar: React.FC<CollegesNavbarProps> = ({
 }) => {
   return (
     <div id='colleges-navbar-container'>
-      <CollegesFilterByStates setFilter={setFilter} />
+      <CollegesFilterByStates setFilterByStates={setFilterByStates} />
       <CollegesFilterByTuition
         collegesList={collegesList}
         filterByTuition={filterByTuition}

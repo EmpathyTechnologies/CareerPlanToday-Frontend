@@ -54,7 +54,7 @@ const CustomMenu = forwardRef<HTMLDivElement, CustomMenuProps>(
   }
 );
 
-export default function CollegesFilterByStates({ setFilter }: any) {
+export default function CollegesFilterByStates({ setFilterByStates }: any) {
   const usaStates = [
     { name: "All States", abbreviation: "All States" },
     { name: "Alabama", abbreviation: "AL" },
@@ -123,7 +123,7 @@ export default function CollegesFilterByStates({ setFilter }: any) {
             eventKey={index.toString()}
             onClick={() => {
               setLabel(usaState.name);
-              setFilter(usaState.abbreviation);
+              setFilterByStates(usaState.abbreviation);
             }}
           >
             {usaState.name}

@@ -7,7 +7,7 @@ import Footer from "../components/Footer/Footer";
 
 export default function Colleges() {
   const [collegesList, setCollegesList] = useState(allColleges);
-  const [filter, setFilter] = useState<string>("All States");
+  const [filterByStates, setFilterByStates] = useState<string>("All States");
 
   const [lowestTuition, setLowestTuition] = useState(
     Math.min(...collegesList.map((college: any) => college.tuition))
@@ -21,11 +21,11 @@ export default function Colleges() {
 
   useEffect(() => {
     let myDoubleFilteredColleges = allColleges;
-    if (filter === "All States") {
+    if (filterByStates === "All States") {
       myDoubleFilteredColleges = allColleges;
     } else {
       myDoubleFilteredColleges = myDoubleFilteredColleges.filter(
-        (college) => college.state === filter
+        (college) => college.state === filterByStates
       );
     }
     myDoubleFilteredColleges = myDoubleFilteredColleges.filter(
@@ -33,13 +33,13 @@ export default function Colleges() {
     );
 
     setCollegesList(myDoubleFilteredColleges);
-  }, [filter, filterByTuition]);
+  }, [filterByStates, filterByTuition]);
 
   return (
     <div>
       <CollegesNavbar
         collegesList={collegesList}
-        setFilter={setFilter}
+        setFilterByStates={setFilterByStates}
         filterByTuition={filterByTuition}
         setFilterByTuition={setFilterByTuition}
         lowestTuition={lowestTuition}
