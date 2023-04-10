@@ -1,16 +1,12 @@
-import React, { useState } from "react";
 import Box from "@mui/material/Box";
 import Slider from "@mui/material/Slider";
 import { formatCurrency } from "../../../utilities/formatCurrency";
 
 export default function CollegesNavbarTuitionSlider({
-  collegesList,
   filterByTuition,
   setFilterByTuition,
   lowestTuition,
-  setLowestTuition,
   highestTuition,
-  setHighestTuition,
 }: any) {
   const handleChange = (event: Event, newValue: number | number[]) => {
     if (typeof newValue === "number") {
