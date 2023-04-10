@@ -2,14 +2,14 @@ import ReactGA from "react-ga";
 import { Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import "./App.css";
-import NavigationBar from "./components/NavigationBar/NavigationBar";
+import NavigationBar from "./layouts/NavigationBar";
 import Careers from "./pages/Careers";
 import Career from "./pages/Career";
 import Colleges from "./pages/Colleges";
 import TermsOfUse from "./pages/TermsOfUse";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import About from "./pages/About";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import NoMatch from "./pages/NoMatch";
 
 function App() {

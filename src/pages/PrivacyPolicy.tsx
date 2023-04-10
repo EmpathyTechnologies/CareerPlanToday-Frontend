@@ -1,4 +1,4 @@
-import Footer from "../components/Footer/Footer";
+import Footer from "../layouts/Footer";
 export default function PrivacyPolicy() {
   const style_container = { paddingLeft: "24px" };
   const style_header = { fontSize: 24, paddingTop: "24px" };

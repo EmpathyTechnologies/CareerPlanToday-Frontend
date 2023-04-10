@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import allCareers from "../data/careers.json";
-import CareersNavbar from "../components/Careers/CareersNavbar";
-import Footer from "../components/Footer/Footer";
-import CareersTable from "../components/Careers/CareersTable";
+import CareersNavbar from "../features/careers/CareersNavbar";
+import Footer from "../layouts/Footer";
+import CareersTable from "../features/careers/CareersTable";
 import { useLocalStorage } from "../hooks/useLocalStorage";
 
 export default function Careers() {
