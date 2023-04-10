@@ -1,8 +1,8 @@
 import React from "react";
 
 import "./CollegesNavbar.css";
-import CollegesNavbarStatesDropdown from "./CollegesNavbarStatesDropdown";
-import CollegesNavbarTuitionSlider from "./CollegesNavbarTuitionSlider";
+import CollegesFilterByStates from "./CollegesFilterByStates";
+import CollegesFilterByTuition from "./CollegesFilterByTuition";
 
 interface CollegesNavbarProps {
   collegesList: any;
@@ -27,8 +27,8 @@ const CollegesNavbar: React.FC<CollegesNavbarProps> = ({
 }) => {
   return (
     <div id='colleges-navbar-container'>
-      <CollegesNavbarStatesDropdown setFilter={setFilter} />
-      <CollegesNavbarTuitionSlider
+      <CollegesFilterByStates setFilter={setFilter} />
+      <CollegesFilterByTuition
         collegesList={collegesList}
         sliderValues={sliderValues}
         setSliderValues={setSliderValues}
