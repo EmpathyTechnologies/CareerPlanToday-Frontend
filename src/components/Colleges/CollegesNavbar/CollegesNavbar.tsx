@@ -7,8 +7,8 @@ import CollegesFilterByTuition from "./CollegesFilterByTuition";
 interface CollegesNavbarProps {
   collegesList: any;
   setFilter: any;
-  sliderValues: any;
-  setSliderValues: any;
+  filterByTuition: any;
+  setFilterByTuition: any;
   lowestTuition: any;
   setLowestTuition: any;
   highestTuition: any;
@@ -18,8 +18,8 @@ interface CollegesNavbarProps {
 const CollegesNavbar: React.FC<CollegesNavbarProps> = ({
   collegesList,
   setFilter,
-  sliderValues,
-  setSliderValues,
+  filterByTuition,
+  setFilterByTuition,
   lowestTuition,
   setLowestTuition,
   highestTuition,
@@ -30,8 +30,8 @@ const CollegesNavbar: React.FC<CollegesNavbarProps> = ({
       <CollegesFilterByStates setFilter={setFilter} />
       <CollegesFilterByTuition
         collegesList={collegesList}
-        sliderValues={sliderValues}
-        setSliderValues={setSliderValues}
+        filterByTuition={filterByTuition}
+        setFilterByTuition={setFilterByTuition}
         lowestTuition={lowestTuition}
         setLowestTuition={setLowestTuition}
         highestTuition={highestTuition}

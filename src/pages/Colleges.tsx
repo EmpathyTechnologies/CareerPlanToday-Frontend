@@ -17,7 +17,7 @@ export default function Colleges() {
     Math.max(...collegesList.map((college: any) => college.tuition))
   );
 
-  const [sliderValues, setSliderValues] = useState<number[]>([lowestTuition, highestTuition]);
+  const [filterByTuition, setFilterByTuition] = useState<number[]>([lowestTuition, highestTuition]);
 
   useEffect(() => {
     let myDoubleFilteredColleges = allColleges;
@@ -29,19 +29,19 @@ export default function Colleges() {
       );
     }
     myDoubleFilteredColleges = myDoubleFilteredColleges.filter(
-      (college) => college.tuition >= sliderValues[0] && college.tuition <= sliderValues[1]
+      (college) => college.tuition >= filterByTuition[0] && college.tuition <= filterByTuition[1]
     );
 
     setCollegesList(myDoubleFilteredColleges);
-  }, [filter, sliderValues]);
+  }, [filter, filterByTuition]);
 
   return (
     <div>
       <CollegesNavbar
         collegesList={collegesList}
         setFilter={setFilter}
-        sliderValues={sliderValues}
-        setSliderValues={setSliderValues}
+        filterByTuition={filterByTuition}
+        setFilterByTuition={setFilterByTuition}
         lowestTuition={lowestTuition}
         setLowestTuition={setLowestTuition}
         highestTuition={highestTuition}
