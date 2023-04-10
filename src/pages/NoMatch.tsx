@@ -1,4 +1,4 @@
-import Footer from "../components/Footer/Footer";
+import Footer from "../layouts/Footer";
 
 export default function NoMatch(props: any) {
   return (

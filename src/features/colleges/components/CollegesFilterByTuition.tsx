@@ -5,16 +5,16 @@ import { formatCurrency } from "../../../utilities/formatCurrency";
 export default function CollegesNavbarTuitionSlider({
   filterByTuition,
   setFilterByTuition,
-  lowestTuition,
-  highestTuition,
+  minimumTuition,
+  maximumTuition,
 }: any) {
   const handleChange = (event: Event, newValue: number | number[]) => {
     if (typeof newValue === "number") {
       setFilterByTuition([newValue, newValue]);
     } else {
       let [min, max] = newValue;
-      min = Math.max(min, lowestTuition);
-      max = Math.min(max, highestTuition);
+      min = Math.max(min, minimumTuition);
+      max = Math.min(max, maximumTuition);
       setFilterByTuition([min, max]);
     }
   };
@@ -22,16 +22,16 @@ export default function CollegesNavbarTuitionSlider({
   return (
     <div>
       <Box sx={{ width: 550, marginLeft: "30px", display: "flex" }}>
-        <span style={{ paddingRight: "25px" }}>{formatCurrency(lowestTuition)}</span>
+        <span style={{ paddingRight: "25px" }}>{formatCurrency(minimumTuition)}</span>
         <Slider
           style={{ width: 200 }}
           value={filterByTuition}
           onChange={handleChange}
           valueLabelDisplay='auto'
-          min={lowestTuition}
-          max={highestTuition}
+          min={minimumTuition}
+          max={maximumTuition}
         />
-        <span style={{ paddingLeft: "25px" }}>{formatCurrency(highestTuition)}</span>
+        <span style={{ paddingLeft: "25px" }}>{formatCurrency(maximumTuition)}</span>
       </Box>
     </div>
   );

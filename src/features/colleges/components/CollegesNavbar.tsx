@@ -9,10 +9,8 @@ interface CollegesNavbarProps {
   setFilterByStates: any;
   filterByTuition: any;
   setFilterByTuition: any;
-  lowestTuition: any;
-  setLowestTuition: any;
-  highestTuition: any;
-  setHighestTuition: any;
+  minimumTuition: any;
+  maximumTuition: any;
 }
 
 const CollegesNavbar: React.FC<CollegesNavbarProps> = ({
@@ -20,10 +18,8 @@ const CollegesNavbar: React.FC<CollegesNavbarProps> = ({
   setFilterByStates,
   filterByTuition,
   setFilterByTuition,
-  lowestTuition,
-  setLowestTuition,
-  highestTuition,
-  setHighestTuition,
+  minimumTuition,
+  maximumTuition,
 }) => {
   return (
     <div id='colleges-navbar-container'>
@@ -32,10 +28,8 @@ const CollegesNavbar: React.FC<CollegesNavbarProps> = ({
         collegesList={collegesList}
         filterByTuition={filterByTuition}
         setFilterByTuition={setFilterByTuition}
-        lowestTuition={lowestTuition}
-        setLowestTuition={setLowestTuition}
-        highestTuition={highestTuition}
-        setHighestTuition={setHighestTuition}
+        minimumTuition={minimumTuition}
+        maximumTuition={maximumTuition}
       />
     </div>
   );
