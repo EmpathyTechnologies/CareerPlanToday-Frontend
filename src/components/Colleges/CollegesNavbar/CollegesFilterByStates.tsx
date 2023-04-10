@@ -54,7 +54,7 @@ const CustomMenu = forwardRef<HTMLDivElement, CustomMenuProps>(
   }
 );
 
-export default function CollegesNavbarStatesDropdown({ setFilter }: any) {
+export default function CollegesFilterByStates({ setFilter }: any) {
   const usaStates = [
     { name: "All States", abbreviation: "All States" },
     { name: "Alabama", abbreviation: "AL" },
