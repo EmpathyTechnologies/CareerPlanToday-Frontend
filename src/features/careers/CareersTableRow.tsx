@@ -27,6 +27,7 @@ export default function CareersTableRow(props: any) {
           <MdFavoriteBorder size={25} onClick={handleFavoriteClick} />
         )}
         <span> </span>
+
         <Link to={`/careers/${career.id}`}>{career.title}</Link>
       </td>
       <td style={{ display: "flex", justifyContent: "center" }}>
