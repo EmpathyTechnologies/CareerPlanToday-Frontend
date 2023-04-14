@@ -26,7 +26,7 @@ export default function Page2NotFound(props: any) {
           className={styles.figureImage}
           width={871}
           height={580}
-          alt="Page Not Found"
+          alt="Page Not Found 404"
           src={NotFound2}
         />
       </Figure>
