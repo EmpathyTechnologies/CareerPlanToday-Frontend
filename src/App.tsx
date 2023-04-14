@@ -10,7 +10,7 @@ import TermsOfUse from "./pages/TermsOfUse";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import About from "./pages/About";
 import "bootstrap/dist/css/bootstrap.min.css";
-import NoMatch from "./pages/NoMatch";
+import NoMatch from "./pages/404/NoMatch";
 
 function App() {
   ReactGA.initialize("UA-000000-01");
