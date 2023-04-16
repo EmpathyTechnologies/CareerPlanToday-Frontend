@@ -47,9 +47,10 @@ export default function TermsOfUse() {
         </div>
         <h2 style={style_header}>Data Sources</h2>
         <div>
-          Data sources we used include https://www.mynextmove.org and
-          https://nces.ed.gov/collegenavigator. Our data may be outdated. Users are encouraged to
-          explore the original data sources to verify data accuracy.
+          Data sources we used include https://www.mynextmove.org,
+          https://collegecost.ed.gov/affordability, and https://nces.ed.gov/collegenavigator. Our
+          data may be outdated. Users are encouraged to explore the original data sources to verify
+          data accuracy.
         </div>
 
         <h2 style={style_header}>No Reliance</h2>
