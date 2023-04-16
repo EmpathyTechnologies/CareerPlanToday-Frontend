@@ -3,15 +3,15 @@ import { Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import "./App.css";
 import NavigationBar from "./layouts/NavigationBar";
-import Careers from "./pages/Careers";
 import Career from "./pages/Career";
+import Careers from "./pages/Careers";
+import College from "./pages/College";
 import Colleges from "./pages/Colleges";
 import TermsOfUse from "./pages/TermsOfUse";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import About from "./pages/About";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NoMatch from "./pages/NoMatch";
-
 function App() {
   ReactGA.initialize("UA-000000-01");
   ReactGA.pageview(window.location.pathname + window.location.search);
@@ -25,6 +25,7 @@ function App() {
         <Route path='/' element={<Careers />} />
         <Route path='careers/:id' element={<Career />} />
         <Route path='careers' element={<Careers />} />
+        <Route path='colleges/:id' element={<College />} />
         <Route path='colleges' element={<Colleges />} />
         <Route path='termsofuse' element={<TermsOfUse />} />
         <Route path='privacypolicy' element={<PrivacyPolicy />} />
