@@ -1,17 +1,17 @@
 
-import React from "react";
-import Footer from "../layouts/Footer";
+import Footer from "../../layouts/Footer";
 import Button from "react-bootstrap/Button";
-import NotFound from "../assets/notfound1.jpg";
+import NotFound4 from "../../assets/notfound4.jpg";
 import { Link } from "react-router-dom";
 import Figure from "react-bootstrap/Figure";
-import styles from "../NoMatch.module.css";
+import styles from "../../NoMatch.module.css";
 
-export default function NoMatch(props: any) {
+
+export default function Page4NotFound(props: any) {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Whoops...</h1>
-      <h2 className={styles.subtitle}>This is the wrong career path for you</h2>
+      <h1 className={styles.title}>Sorry...</h1>
+      <h2 className={styles.subtitle}>The page you were looking for has graduated and moved on to bigger and better things.</h2>
       <h3 className={styles.message404}>404</h3>
       <Figure.Caption>
         <Link to="/">
@@ -26,8 +26,8 @@ export default function NoMatch(props: any) {
           className={styles.figureImage}
           width={871}
           height={580}
-          alt="Page Not Found"
-          src={NotFound}
+          alt="Page Not Found 404"
+          src={NotFound4}
         />
       </Figure>
 
