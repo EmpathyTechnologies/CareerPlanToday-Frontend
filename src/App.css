@@ -31,58 +31,11 @@
   justify-content: center;
 }
 
-.about {
-  position: absolute;
-  box-shadow: 3px 5px 3px;
-  left: 22%;
-  width: 700px;
-}
-
-.aboutImg {
-  opacity: 55%;
-}
-
-.aboutCardHeader {
-  justify-content: center;
+.aboutCardContainer {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-evenly;
+  padding-bottom: 20px;
   text-align: center;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: var(--Macaw);
-  box-shadow: 3px 5px 3px;
-  border-radius: 10px;
-  font-size: 35px;
-  color: black;
-}
-
-.aboutText {
-  position: absolute;
-  border-radius: 10px;
-  left: 5px;
-  right: 5px;
-  bottom:50px;
-  background-color: var(--Macaw);
-  color: black;
-  text-align: center;
-  box-shadow: 3px 5px 3px black;
-}
-
-.ericAbout {
-  display: block;
-  border-radius: 50%;
-  width: 120px;
-  height: 120px;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: 3px 5px 3px;
-}
-
-.ramiroAbout {
-  display: block;
-  border-radius: 50%;
-  width: 130px;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: 3px 5px 3px;
 }
 
