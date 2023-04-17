@@ -4,6 +4,7 @@ import allColleges from "../data/colleges.json";
 import CollegesNavbar from "../features/colleges/components/CollegesNavbar";
 import Table from "react-bootstrap/Table";
 import Footer from "../layouts/Footer";
+import { Link } from "react-router-dom";
 import { minimumTuition, maximumTuition } from "../features/colleges/utils/minAndMaxTuition";
 import { filterColleges } from "../features/colleges/utils/filterColleges";
 
@@ -41,7 +42,9 @@ export default function Colleges() {
           <tbody>
             {collegesList.map((college) => (
               <tr>
-                <td>{college.collegeName}</td>
+                <td>
+                  <Link to={`/colleges/${college.id}`}>{college.collegeName}</Link>
+                </td>
                 <td style={{ display: "flex", justifyContent: "center" }}>
                   {formatCurrency(college.tuition)}
                 </td>
