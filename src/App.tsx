@@ -13,6 +13,7 @@ import About from "./pages/About";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NoMatch from "./pages/404/NoMatch";
 
+
 function App() {
   ReactGA.initialize("UA-000000-01");
   ReactGA.pageview(window.location.pathname + window.location.search);
