@@ -22,7 +22,10 @@ export default function Colleges() {
   }, [filterByStates, filterByTuition]);
 
   return (
+
     <div>
+          <div className='CareersContainer'>
+
       <CollegesNavbar
         collegesList={collegesList}
         minimumTuition={minimumTuition}
@@ -54,6 +57,7 @@ export default function Colleges() {
         </Table>
       </div>
       <Footer />
+    </div>
     </div>
   );
 }
