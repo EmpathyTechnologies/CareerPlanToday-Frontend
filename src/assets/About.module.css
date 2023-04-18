@@ -1,8 +1,3 @@
-.CareersContainer,
-.CollegeContainer {
-  background-color: var(--Polar);
-}
-/* 
 .FlexColumnCenter {
   display: flex;
   flex-direction: column;
@@ -15,17 +10,17 @@
 
 .Width138px {
   width: 138px;
-} */
+} 
 
-/* .aboutHr {
+.aboutHr {
   border: 2px solid#2b70c9;
   border-radius: 10px;
   width: 55%;
   margin-left: auto;
   margin-right: auto;
-} */
+} 
 
-/* .aboutHeader {
+ .aboutHeader {
   display: flex;
   justify-content: center;
 }
@@ -36,5 +31,6 @@
   justify-content: space-evenly;
   padding-bottom: 20px;
   text-align: center;
-} */
+}
 
+  
