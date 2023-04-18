@@ -1,0 +1,36 @@
+.FlexColumnCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.BorderTop {
+  border-top: 1px solid var(--Hare);
+}
+
+.Width138px {
+  width: 138px;
+} 
+
+.aboutHr {
+  border: 2px solid#2b70c9;
+  border-radius: 10px;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+ .aboutHeader {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutCardContainer {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+  

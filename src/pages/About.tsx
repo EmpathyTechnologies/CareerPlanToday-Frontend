@@ -4,6 +4,7 @@ import ericPic from "../assets/ericPic.jpg";
 import yogiPic from "../assets/yogiPic.jpg";
 import maePic from "../assets/maePic.jpg";
 import Footer from "../layouts/Footer";
+import styles from "../assets/About.module.css"; 
 
 export default function About() {
   const people = [
@@ -30,19 +31,12 @@ export default function About() {
       name: "Eric",
       position: "Software Developer",
       linkedIn: "https://www.linkedin.com/in/hoov/",
-    },
-    {
-      img: ericPic,
-      name: "Mae",
-      position: "Software Developer",
-      linkedIn: "https://www.linkedin.com/in/hoov/",
-    },
+    }
   ];
 
-  const cardsList = people.map((person, value) => (
-    <Card style={{ width: "18rem" }} key={value}>
-      <div>{value}</div>
-      <Card.Img variant='top' src={person.img} />
+const cardsList = people.map((person) => (
+    <Card style={{ width: "18rem" }} key={person.name}>
+      <Card.Img variant="top" src={person.img} />
       <Card.Body>
         <Card.Title>{person.name}</Card.Title>
         <Card.Text>{person.position}</Card.Text>
@@ -53,8 +47,8 @@ export default function About() {
 
   return (
     <div>
-      <h1 className='aboutHeader'>About Us</h1>
-      <div className='aboutCardContainer'>{cardsList}</div>
+      <h1 className={styles.aboutHeader}>About Us</h1>
+      <div className={styles.aboutCardContainer}>{cardsList}</div>
       <Footer />
     </div>
   );
