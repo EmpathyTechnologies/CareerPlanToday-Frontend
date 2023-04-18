@@ -31,10 +31,10 @@ export default function About() {
       name: "Eric",
       position: "Software Developer",
       linkedIn: "https://www.linkedin.com/in/hoov/",
-    },
+    }
   ];
 
-  const cardsList = people.map((person) => (
+const cardsList = people.map((person) => (
     <Card style={{ width: "18rem" }} key={person.name}>
       <Card.Img variant="top" src={person.img} />
       <Card.Body>
