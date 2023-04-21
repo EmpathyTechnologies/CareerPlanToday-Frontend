@@ -15,49 +15,81 @@ export default function Colleges() {
     minimumTuition,
     maximumTuition,
   ]);
+  const [sortOrder, setSortOrder] = useState<"asc" | "desc">("asc");
+  const [sortColumn, setSortColumn] = useState<"college" | "tuition" | "">("");
 
   useEffect(() => {
     let filteredColleges = filterColleges(filterByStates, filterByTuition);
     setCollegesList(filteredColleges);
   }, [filterByStates, filterByTuition]);
 
+  function sortColleges(column: "college" | "tuition") {
+    const sortedList = collegesList.slice().sort((a, b) => {
+      if (column === "college") {
+        return a.name.localeCompare(b.name);
+      } else {
+        return a.tuition - b.tuition;
+      }
+    });
+    if (sortOrder === "asc") {
+      sortedList.reverse();
+      setSortOrder("desc");
+    } else {
+      setSortOrder("asc");
+    }
+    setSortColumn(column);
+    setCollegesList(sortedList);
+  }
+
   return (
-
     <div>
-          <div className='CareersContainer'>
-
-      <CollegesNavbar
-        collegesList={collegesList}
-        minimumTuition={minimumTuition}
-        maximumTuition={maximumTuition}
-        filterByTuition={filterByTuition}
-        setFilterByTuition={setFilterByTuition}
-        setFilterByStates={setFilterByStates}
-      />
-      <div style={{ padding: "25px" }}>
-        <Table striped bordered hover>
-          <thead>
-            <tr>
-              <th>College</th>
-              <th style={{ display: "flex", justifyContent: "center" }}>Tuition / Year</th>
-            </tr>
-          </thead>
-          <tbody>
-            {collegesList.map((college) => (
+      <div className='CareersContainer'>
+        <CollegesNavbar
+          collegesList={collegesList}
+          minimumTuition={minimumTuition}
+          maximumTuition={maximumTuition}
+          filterByTuition={filterByTuition}
+          setFilterByTuition={setFilterByTuition}
+          setFilterByStates={setFilterByStates}
+        />
+        <div style={{ padding: "25px" }}>
+          <Table striped bordered hover>
+            <thead>
               <tr>
-                <td>
-                  <Link to={`/colleges/${college.id}`}>{college.collegeName}</Link>
-                </td>
-                <td style={{ display: "flex", justifyContent: "center" }}>
-                  {formatCurrency(college.tuition)}
-                </td>
+                <th
+                  onClick={() => sortColleges("college")}
+                  style={{ cursor: "pointer" }}
+                  onMouseOver={(e: any) => (e.target.style.backgroundColor = "#1cb0f6")}
+                  onMouseOut={(e: any) => (e.target.style.backgroundColor = "")}
+                >
+                  College {sortColumn === "college" && (sortOrder === "asc" ? "↓" : "↑")}
+                </th>
+                <th
+                  onClick={() => sortColleges("tuition")}
+                  style={{ cursor: "pointer", display: "flex", justifyContent: "center" }}
+                  onMouseOver={(e: any) => (e.target.style.backgroundColor = "#1cb0f6")}
+                  onMouseOut={(e: any) => (e.target.style.backgroundColor = "")}
+                >
+                  Tuition / Year {sortColumn === "tuition" && (sortOrder === "asc" ? "↓" : "↑")}
+                </th>
               </tr>
-            ))}
-          </tbody>
-        </Table>
+            </thead>
+            <tbody>
+              {collegesList.map((college) => (
+                <tr>
+                  <td>
+                    <Link to={`/colleges/${college.id}`}>{college.name}</Link>
+                  </td>
+                  <td style={{ display: "flex", justifyContent: "center" }}>
+                    {formatCurrency(college.tuition)}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </Table>
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
     </div>
   );
 }

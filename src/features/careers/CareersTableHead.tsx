@@ -14,10 +14,10 @@ export default function CareersTableHead({ sortDirection, setSortDirection }: an
 
   useEffect(() => {
     if (sortDirection === "career-asc") {
-      setCareerArrow("↑");
+      setCareerArrow("↓");
       setSalaryArrow("");
     } else if (sortDirection === "career-desc") {
-      setCareerArrow("↓");
+      setCareerArrow("↑");
       setSalaryArrow("");
     } else if (sortDirection === "salary-asc") {
       setCareerArrow("");
@@ -31,9 +31,21 @@ export default function CareersTableHead({ sortDirection, setSortDirection }: an
   return (
     <thead>
       <tr>
-        <th onClick={handleSortByCareers}>Career{careerArrow}</th>
-        <th style={{ display: "flex", justifyContent: "center" }} onClick={handleSortBySalary}>
-          Salary{salaryArrow}
+        <th
+          onClick={handleSortByCareers}
+          style={{ cursor: "pointer" }}
+          onMouseOver={(e: any) => (e.target.style.backgroundColor = "#1cb0f6")}
+          onMouseOut={(e: any) => (e.target.style.backgroundColor = "")}
+        >
+          Career {careerArrow}
+        </th>
+        <th
+          style={{ display: "flex", justifyContent: "center", cursor: "pointer" }}
+          onMouseOver={(e: any) => (e.target.style.backgroundColor = "#1cb0f6")}
+          onMouseOut={(e: any) => (e.target.style.backgroundColor = "")}
+          onClick={handleSortBySalary}
+        >
+          Salary {salaryArrow}
         </th>
       </tr>
     </thead>
