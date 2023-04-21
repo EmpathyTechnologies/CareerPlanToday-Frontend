@@ -10,3 +10,20 @@
 .nav-link.active {
   background-color: var(--Bee) !important;
 }
+
+.Careers-TableHeader {
+  cursor: pointer;
+}
+
+.Careers-TableHeader {
+  cursor: pointer;
+}
+
+.Careers-TableHeader:hover {
+  background-color: #1cb0f6;
+}
+
+.FlexCenter {
+  display: flex;
+  justify-content: center;
+}

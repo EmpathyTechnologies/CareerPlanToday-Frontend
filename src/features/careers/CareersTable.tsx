@@ -2,21 +2,10 @@ import { useState } from "react";
 import Table from "react-bootstrap/Table";
 import CareersTableHead from "./CareersTableHead";
 import CareersTableBody from "./CareersTableBody";
-
-export default function CareersTable({ careersList, favorites, setFavorites }: any) {
+import { sortCareers } from "./utils/SortCareers";
+export default function CareersTable({ careers, favorites, setFavorites }: any) {
   const [sortDirection, setSortDirection] = useState("career-asc");
-
-  const sortedCareers = careersList.sort((a: any, b: any) => {
-    if (sortDirection === "career-asc") {
-      return a.title.localeCompare(b.title);
-    } else if (sortDirection === "career-desc") {
-      return b.title.localeCompare(a.title);
-    } else if (sortDirection === "salary-desc") {
-      return a.salary.national.average - b.salary.national.average;
-    } else {
-      return b.salary.national.average - a.salary.national.average;
-    }
-  });
+  let sortedCareers = sortCareers(careers, sortDirection);
 
   return (
     <div style={{ padding: "25px", paddingRight: "25px", paddingTop: "25px" }}>

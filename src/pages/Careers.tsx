@@ -1,27 +1,26 @@
 import { useState, useEffect } from "react";
 import allCareers from "../data/careers.json";
 import CareersNavbar from "../features/careers/CareersNavbar";
-import Footer from "../layouts/Footer";
 import CareersTable from "../features/careers/CareersTable";
 import { useLocalStorage } from "../hooks/useLocalStorage";
 
 export default function Careers() {
-  const [careersList, setCareersList] = useState(allCareers);
-  const [favorites, setFavorites] = useLocalStorage<any[]>("careerFavorites", []);
+  const [careers, setCareers] = useState(allCareers);
   const [filter, setFilter] = useState<string>("All Careers");
+  const [favorites, setFavorites] = useLocalStorage<any[]>("careerFavorites", []);
 
   useEffect(() => {
-    if (filter === "All Careers") setCareersList(allCareers);
+    if (filter === "All Careers") setCareers(allCareers);
     else {
       let filteredCareers = allCareers.filter((career) => career.industries.includes(filter));
-      setCareersList(filteredCareers);
+      setCareers(filteredCareers);
     }
   }, [filter]);
 
   return (
     <div className='CareersContainer'>
       <CareersNavbar setFilter={setFilter} />
-      <CareersTable careersList={careersList} favorites={favorites} setFavorites={setFavorites} />
+      <CareersTable careers={careers} favorites={favorites} setFavorites={setFavorites} />
     </div>
   );
 }
