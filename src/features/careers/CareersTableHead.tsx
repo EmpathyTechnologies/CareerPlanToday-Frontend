@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react";
 
 export default function CareersTableHead({ sortDirection, setSortDirection }: any) {
-  const [careerArrow, setCareerArrow] = useState("↓");
-  const [salaryArrow, setSalaryArrow] = useState("");
+  const [arrow, setArrow] = useState({ career: "", salary: "" });
 
   const handleSortByCareers = () => {
     setSortDirection(sortDirection === "career-asc" ? "career-desc" : "career-asc");
@@ -14,38 +13,24 @@ export default function CareersTableHead({ sortDirection, setSortDirection }: an
 
   useEffect(() => {
     if (sortDirection === "career-asc") {
-      setCareerArrow("↓");
-      setSalaryArrow("");
+      setArrow({ career: "↓", salary: "" });
     } else if (sortDirection === "career-desc") {
-      setCareerArrow("↑");
-      setSalaryArrow("");
+      setArrow({ career: "↑", salary: "" });
     } else if (sortDirection === "salary-asc") {
-      setCareerArrow("");
-      setSalaryArrow("↑");
+      setArrow({ career: "", salary: "↑" });
     } else {
-      setCareerArrow("");
-      setSalaryArrow("↓");
+      setArrow({ career: "", salary: "↓" });
     }
   }, [sortDirection]);
 
   return (
     <thead>
       <tr>
-        <th
-          onClick={handleSortByCareers}
-          style={{ cursor: "pointer" }}
-          onMouseOver={(e: any) => (e.target.style.backgroundColor = "#1cb0f6")}
-          onMouseOut={(e: any) => (e.target.style.backgroundColor = "")}
-        >
-          Career {careerArrow}
+        <th className='Careers-TableHeader' onClick={handleSortByCareers}>
+          Career {arrow.career}
         </th>
-        <th
-          style={{ display: "flex", justifyContent: "center", cursor: "pointer" }}
-          onMouseOver={(e: any) => (e.target.style.backgroundColor = "#1cb0f6")}
-          onMouseOut={(e: any) => (e.target.style.backgroundColor = "")}
-          onClick={handleSortBySalary}
-        >
-          Salary {salaryArrow}
+        <th className='Careers-TableHeader FlexCenter' onClick={handleSortBySalary}>
+          Salary {arrow.salary}
         </th>
       </tr>
     </thead>
