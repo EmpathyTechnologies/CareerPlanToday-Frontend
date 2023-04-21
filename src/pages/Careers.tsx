@@ -22,7 +22,6 @@ export default function Careers() {
     <div className='CareersContainer'>
       <CareersNavbar setFilter={setFilter} />
       <CareersTable careersList={careersList} favorites={favorites} setFavorites={setFavorites} />
-      <Footer />
     </div>
   );
 }

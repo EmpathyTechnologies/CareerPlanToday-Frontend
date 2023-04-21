@@ -12,7 +12,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import About from "./pages/About";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NoMatch from "./pages/404/NoMatch";
-
+import Footer from "./layouts/Footer";
 
 function App() {
   ReactGA.initialize("UA-000000-01");
@@ -34,6 +34,7 @@ function App() {
         <Route path='about' element={<About />} />
         <Route path='*' element={<NoMatch />} />
       </Routes>
+      <Footer />
     </>
   );
 }

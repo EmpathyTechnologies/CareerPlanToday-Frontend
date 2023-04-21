@@ -88,7 +88,6 @@ export default function Colleges() {
             </tbody>
           </Table>
         </div>
-        <Footer />
       </div>
     </div>
   );

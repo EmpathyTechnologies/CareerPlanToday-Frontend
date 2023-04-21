@@ -1,4 +1,3 @@
-import Footer from "../layouts/Footer";
 export default function TermsOfUse() {
   const style_container = { paddingLeft: "24px" };
   const style_header = { fontSize: 24, paddingTop: "24px" };
@@ -61,7 +60,6 @@ export default function TermsOfUse() {
           between you and any third party contacted via the Website are at your sole risk.
         </div>
       </div>
-      <Footer />
     </div>
   );
 }
