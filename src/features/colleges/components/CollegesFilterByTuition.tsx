@@ -2,12 +2,7 @@ import Box from "@mui/material/Box";
 import Slider from "@mui/material/Slider";
 import { formatCurrency } from "../../../utilities/formatCurrency";
 
-export default function CollegesNavbarTuitionSlider({
-  filterByTuition,
-  setFilterByTuition,
-  minimumTuition,
-  maximumTuition,
-}: any) {
+export default function CollegesNavbarTuitionSlider({ filterByTuition, setFilterByTuition, minimumTuition, maximumTuition }: any) {
   const handleChange = (event: Event, newValue: number | number[]) => {
     if (typeof newValue === "number") {
       setFilterByTuition([newValue, newValue]);
