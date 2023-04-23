@@ -7,6 +7,7 @@ import Career from "./pages/Career";
 import Careers from "./pages/Careers";
 import College from "./pages/College";
 import Colleges from "./pages/Colleges";
+import Calculator from "./pages/Calculator";
 import TermsOfUse from "./pages/TermsOfUse";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import About from "./pages/About";
@@ -29,6 +30,7 @@ function App() {
         <Route path='careers' element={<Careers />} />
         <Route path='colleges/:id' element={<College />} />
         <Route path='colleges' element={<Colleges />} />
+        <Route path='calculator' element={<Calculator />} />
         <Route path='termsofuse' element={<TermsOfUse />} />
         <Route path='privacypolicy' element={<PrivacyPolicy />} />
         <Route path='about' element={<About />} />
