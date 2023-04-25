@@ -1,9 +1,12 @@
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import styles from "../assets/HomePage.module.css";
+import { useScreenWidth } from "../hooks/useScreenWidth";
 
 // Maybe put all cards inside same <Card> div to remove border lines.
 export default function HomePage() {
+  let width = useScreenWidth();
+  // {width > 700  ?  <div>this shows to the page</div>  :  ""}
   return (
     <div className={styles.homeBodyDiv}>
       <Card className={styles.cardDiv} style={{ width: "80rem" }}>

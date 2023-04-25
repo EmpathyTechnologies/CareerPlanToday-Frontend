@@ -12,3 +12,7 @@ export function sortCareers(careers: any, sortDirection: any) {
     }
   });
 }
+
+export function sortColleges() {}
+
+export function sortPeople() {}
