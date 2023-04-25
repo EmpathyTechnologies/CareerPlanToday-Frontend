@@ -1,12 +1,33 @@
-/* {
-  color: var(--Eel);
-} */
-
-.color-nav {
-  /* background-color: red; */
-  /* font-weight: bold; */
-}
-
 .nav-link.active {
   background-color: var(--Bee) !important;
+}
+
+.Careers-TableHeader {
+  cursor: pointer;
+}
+
+.Careers-TableHeader {
+  cursor: pointer;
+}
+
+.Careers-TableHeader:hover {
+  background-color: #1cb0f6;
+}
+
+.FlexCenter {
+  display: flex;
+  justify-content: center;
+}
+
+#careers-navbar-container {
+  height: 64px;
+  background-color: var(--Swan);
+  font-size: 24px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+#careers-navbar-item {
+  padding-left: 30px;
 }

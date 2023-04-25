@@ -1,0 +1,12 @@
+.colleges-header {
+  cursor: pointer;
+}
+
+.colleges-header:hover {
+  background-color: #1cb0f6;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
