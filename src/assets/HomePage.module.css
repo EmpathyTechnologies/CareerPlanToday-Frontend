@@ -1,0 +1,169 @@
+/* ---------------------------1st Card---------------------- */
+.homeBodyDiv {
+    display: flex;
+    flex-wrap: wrap;
+    border-style: none;
+}
+
+/* ToDo:make children inside card not over lap eachother. 
+Wrap not working */
+.cardDiv {
+    display: flex;
+    flex-wrap: wrap;
+    border-style: none;
+}
+
+.homeFirstCard {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    height: 250px;
+    background-color: var(--Macaw);
+    border-style: none;
+    border-radius: 0%;
+}
+/* To do: make text in circle be read in column.
+move div more centered */
+.homePageCircle {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--Fox);
+    position: absolute;
+    left: 30%;
+    transform: translate(-50%);
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 50%;
+}
+
+/* To Do: bacckground color, and wrapping on buttonsINspect. 
+says display flex is preventing changes but I 
+tried to display block and no help either.------ */
+.exploreCareersButton {
+    background-color: var(--Feather-Green); 
+    display: block;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 300px;
+    left: 70%;
+    transform: translateX(-50%);
+    top: 50px;
+  }
+
+  /* var or Hex color will not work on buttons */
+.compareCollegesButton {
+    background-color: #58cc02; 
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 300px;
+    left: 70%;
+    transform: translateX(-50%);
+    top: 100px;
+}
+
+/* ---------------------------2nd Card----------------------- */
+
+
+/* ToDo: try to find a way to take off border outline */
+.homeSecondCard {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    height: 250px;
+    background-color: var();
+    border: none; 
+}
+
+/* var() will not work here */
+.secondCardSquare {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #58cc02;
+    position: absolute;
+    left: 30%;
+    top: 15%;
+    transform: translate(-50%);
+    height: 170px;
+    width: 210px;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+/* figured out that background color works 
+on text so maybe we can try link */
+.secondCardInformation {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 400px;
+    left: 70%;
+    top: 10%;
+    transform: translateX(-50%);
+}
+
+/* maybe we can even change button into a link <link> and add a 
+hover effect to make it feel like a button. */
+.secondCardButton {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    text-align: center;
+    width: 200px;
+    left: 70%;
+    transform: translateX(-50%);
+    top: 150px;
+}
+/* ---------------------------3rd Card-------------------------- */
+/* Still need to refactor code, repeating syntax. 
+figure out at future date */
+.homeThirdCard {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    height: 250px;
+    background-color: var();
+    border: none; 
+}
+
+.thirdCardSquare {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #58cc02;
+    position: absolute;
+    left: 70%;
+    top: 15%;
+    transform: translate(-50%);
+    height: 170px;
+    width: 210px;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+.thirdCardButton {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    text-align: center;
+    width: 200px;
+    left: 30%;
+    transform: translateX(-50%);
+    top: 150px;
+}
+
+.thirdCardInformation {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 400px;
+    left: 30%;
+    top: 10%;
+    transform: translateX(-50%);
+}

@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import "./App.css";
 import NavigationBar from "./layouts/NavigationBar";
+import HomePage from "./pages/HomePage";
 import Career from "./pages/Career";
 import Careers from "./pages/Careers";
 import College from "./pages/College";
@@ -26,7 +27,7 @@ function App() {
       <NavigationBar navbarSelected={navbarSelected} setNavbarSelected={setNavbarSelected} />
 
       <Routes>
-        <Route path='/' element={<Careers />} />
+        <Route path='/' element={<HomePage />} />
         <Route path='careers/:id' element={<Career />} />
         <Route path='careers' element={<Careers />} />
         <Route path='colleges/:id' element={<College />} />
