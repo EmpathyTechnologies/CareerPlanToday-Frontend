@@ -4,8 +4,7 @@ import ericPic from "../assets/ericPic.jpg";
 import yogiPic from "../assets/yogiPic.jpg";
 import maePic from "../assets/maePic.jpg";
 import maxPic from "../assets/maxPic.jpg";
-import Footer from "../layouts/Footer";
-import styles from "../assets/About.module.css"; 
+import styles from "../assets/About.module.css";
 
 export default function About() {
   const people = [
