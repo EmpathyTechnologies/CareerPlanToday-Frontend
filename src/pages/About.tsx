@@ -3,6 +3,7 @@ import ramiroPic from "../assets/ramiroPic.jpg";
 import ericPic from "../assets/ericPic.jpg";
 import yogiPic from "../assets/yogiPic.jpg";
 import maePic from "../assets/maePic.jpg";
+import maxPic from "../assets/maxPic.jpg";
 import Footer from "../layouts/Footer";
 import styles from "../assets/About.module.css"; 
 
@@ -25,6 +26,12 @@ export default function About() {
       name: "Mae",
       position: "Software Developer",
       linkedIn: "https://www.linkedin.com/in/maepena/",
+    },
+    {
+      img: maxPic,
+      name: "Max",
+      position: "Software Developer",
+      linkedIn: "https://www.linkedin.com/in/maxwell-morrow-6a3085228/",
     },
     {
       img: ericPic,
