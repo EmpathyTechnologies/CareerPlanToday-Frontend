@@ -1,5 +1,6 @@
 import { BsGear, BsSpeedometer2, BsUmbrella, BsCoin, BsMortarboardFill, BsTools, BsFillPiggyBankFill } from "react-icons/bs";
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
+import "./NavigationBar.css";
 
 export default function NavigationBar(props: any) {
   const { setNavbarSelected } = props;
@@ -32,7 +33,7 @@ export default function NavigationBar(props: any) {
   return (
     <div style={containerStyle}>
       <a href='/' onClick={() => setNavbarSelected("Careers")} style={aTag}>
-        Career Plan Today{" "}
+        Career Plan Today
       </a>
       <div>
         <OverlayTrigger placement='bottom' overlay={careersTooltip}>

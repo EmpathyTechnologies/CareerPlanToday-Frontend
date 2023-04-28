@@ -1,0 +1,34 @@
+.tooltip.show {
+  opacity: 1;
+  color: var(--Humpback);
+  font-weight: bold;
+}
+
+.tooltip-inner {
+  background-color: var(--Swan);
+  box-shadow: 0px 0px 4px black;
+  opacity: 1 !important;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.tooltip.bs-tooltip-right .arrow:before {
+  border-right-color: var(--Swan) !important;
+  color: var(--Humpback);
+}
+
+.tooltip.bs-tooltip-left .arrow:before {
+  border-left-color: var(--Swan) !important;
+  color: var(--Humpback);
+}
+
+.tooltip.bs-tooltip-bottom .arrow:before {
+  border-bottom-color: var(--Swan) !important;
+  color: var(--Humpback);
+}
+
+.tooltip.bs-tooltip-top .arrow:before {
+  border-top-color: var(--Swan) !important;
+  color: var(--Humpback);
+}
