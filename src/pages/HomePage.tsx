@@ -1,6 +1,7 @@
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import styles from "../assets/HomePage.module.css";
+import Nav from "react-bootstrap/Nav";
 import { useScreenWidth } from "../hooks/useScreenWidth";
 import { Col, Container, Row } from "react-bootstrap";
 
@@ -16,10 +17,10 @@ export default function HomePage() {
             Career Plan Today!
           </Card.Text>
           <Button className={styles.exploreCareersButton}>
-            Explore Careers
+            <Nav.Link href='/careers'>Explore Careers</Nav.Link>
           </Button>
           <Button className={styles.compareCollegesButton}>
-            Compare Colleges
+            <Nav.Link href="/colleges">Compare Colleges</Nav.Link>
           </Button>
         </Col>
       </Row>
@@ -34,9 +35,11 @@ export default function HomePage() {
             pay is $61,180. This is $12,760 more per year. Over 40 years, this
             is $510,400. Explore what careers pay.
           </Card.Text>
-          <Button className={styles.secondCardButton}>Explore Careers</Button>
+          <Button className={styles.secondCardButton}>
+            <Nav.Link href="/careers">Explore Careers</Nav.Link>
+          </Button>
         </Card.Body>
-      <hr className={styles.homeBreakLine} />
+        <hr className={styles.homeBreakLine} />
       </Row>
       <Row className={styles.cardDiv} style={{ width: "80rem" }}>
         <Card.Body className={styles.homeSecondCard}>
@@ -46,7 +49,9 @@ export default function HomePage() {
             year for same degree. Over a 4 year degree this is $185,912. Compare
             college costs.
           </Card.Text>
-          <Button className={styles.thirdCardButton}>Compare Careers</Button>
+          <Button className={styles.thirdCardButton}>
+            <Nav.Link href="/careers">Compare Careers</Nav.Link>
+          </Button>
           <Card.Text className={styles.thirdCardSquare}>
             Save $500,000+
           </Card.Text>
