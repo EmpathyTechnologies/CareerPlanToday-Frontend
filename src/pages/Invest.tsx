@@ -81,6 +81,17 @@ export default function Invest() {
         <p>Total Contributions: ${calculateRetirementBalance().totalContribution}</p>
         <p>Your Retirement Balance will be: ${calculateRetirementBalance().balance}</p>
       </div>
+
+      <div>
+        Disclaimer: This Roth IRA calculator is intended for educational and informational purposes only. It is not intended to provide financial or
+        investment advice. The results provided by this calculator are estimates based on the information you have provided and do not reflect the
+        actual performance of any particular investment. The actual results may vary based on various factors, including changes in investment
+        performance, taxes, and fees. The information provided by this calculator is not a substitute for professional financial advice. We recommend
+        that you consult with a financial advisor or investment professional before making any investment decisions. We do not guarantee the accuracy
+        or completeness of the information provided by this calculator, and we are not responsible for any errors or omissions. By using this
+        calculator, you agree to indemnify and hold us harmless from any and all claims, damages, and expenses arising from your use of this
+        calculator. Furthermore, this is an early version of this calculator and may contain errors.
+      </div>
     </Container>
   );
 }
