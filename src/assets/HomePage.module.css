@@ -18,17 +18,19 @@ Wrap not working */
   flex-wrap: wrap;
   position: relative;
   height: 250px;
-  background-color: var(--Swan);
-  border-style: none;
-  border-radius: 0%;
+  background-color: var(--Feather-Green);
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
-/* To do: make text in circle be read in column.
-move div more centered */
+
 .homePageCircle {
   display: flex;
   flex-wrap: wrap;
   background-color: var(--Fox);
   position: absolute;
+  text-align: center;
+  top: 15px;
   left: 30%;
   transform: translate(-50%);
   height: 200px;
@@ -44,7 +46,7 @@ says display flex is preventing changes but I
 tried to display block and no help either.------ */
 .exploreCareersButton {
   background-color: var(--Feather-Green);
-  display: block;
+  display: flex;
   flex-wrap: wrap;
   position: absolute;
   width: 300px;
@@ -83,6 +85,7 @@ tried to display block and no help either.------ */
   flex-wrap: wrap;
   background-color: #58cc02;
   position: absolute;
+  text-align: center;
   left: 30%;
   top: 15%;
   transform: translate(-50%);
@@ -100,6 +103,7 @@ on text so maybe we can try link */
   display: flex;
   flex-wrap: wrap;
   position: absolute;
+  text-align: center;
   width: 400px;
   left: 70%;
   top: 10%;
@@ -118,6 +122,15 @@ hover effect to make it feel like a button. */
   transform: translateX(-50%);
   top: 150px;
 }
+
+.homeBreakLine {
+  display: flex;
+  background-color: var(--Feather-Green);
+  opacity: 100%;
+  border-radius: 10px;
+  height: 3px;
+  width: 25%;
+}
 /* ---------------------------3rd Card-------------------------- */
 /* Still need to refactor code, repeating syntax. 
 figure out at future date */
@@ -135,6 +148,8 @@ figure out at future date */
   flex-wrap: wrap;
   background-color: #58cc02;
   position: absolute;
+  text-align: center;
+  padding-bottom: 20px;
   left: 70%;
   top: 15%;
   transform: translate(-50%);
@@ -161,6 +176,7 @@ figure out at future date */
   display: flex;
   flex-wrap: wrap;
   position: absolute;
+  text-align: center;
   width: 400px;
   left: 30%;
   top: 10%;

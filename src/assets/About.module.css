@@ -27,7 +27,7 @@
 
 .aboutCardContainer {
   display: flex;
-  gap: 30px;
+  gap: 10px;
   flex-wrap: wrap; 
   justify-content: space-evenly;
   padding-bottom: 20px;

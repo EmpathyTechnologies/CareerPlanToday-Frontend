@@ -21,12 +21,6 @@ export default function About() {
       linkedIn: "https://www.linkedin.com/in/yogi-zipori/",
     },
     {
-      img: maePic,
-      name: "Mae",
-      position: "Software Developer",
-      linkedIn: "https://www.linkedin.com/in/maepena/",
-    },
-    {
       img: maxPic,
       name: "Max",
       position: "Software Developer",
