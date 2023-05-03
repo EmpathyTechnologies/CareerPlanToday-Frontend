@@ -15,6 +15,7 @@ import TermsOfUse from "./pages/TermsOfUse";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import About from "./pages/About";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Feedback from "./pages/Feedback";
 import NoMatch from "./pages/404/NoMatch";
 import Footer from "./layouts/Footer";
 function App() {
@@ -38,6 +39,7 @@ function App() {
         <Route path='termsofuse' element={<TermsOfUse />} />
         <Route path='privacypolicy' element={<PrivacyPolicy />} />
         <Route path='about' element={<About />} />
+        <Route path='feedback' element={<Feedback />} />
         <Route path='*' element={<NoMatch />} />
       </Routes>
 
