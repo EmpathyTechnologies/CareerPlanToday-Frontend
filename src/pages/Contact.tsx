@@ -8,7 +8,7 @@ const Contact = () => {
   };
 
   return (
-    <Container>
+    <div style={{ margin: "0 20px" }}>
       <h1>Contact Us</h1>
       <Form onSubmit={handleSubmit}>
         <Form.Group controlId='formBasicName'>
@@ -30,7 +30,7 @@ const Contact = () => {
           Submit
         </Button>
       </Form>
-    </Container>
+    </div>
   );
 };
 
