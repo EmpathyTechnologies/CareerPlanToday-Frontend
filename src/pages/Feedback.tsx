@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Form, Button, ListGroup } from "react-bootstrap";
 
 interface FeedbackInterface {
   id: string;
@@ -15,6 +16,23 @@ function generateUniqueId(): string {
 
 function padZero(num: number): string {
   return num.toString().padStart(2, "0");
+}
+
+function formatDate(input: string): string {
+  const [date, time] = input.split("_");
+  const dateObj = new Date(date);
+  const weekday = dateObj.toLocaleString("en-us", { weekday: "long" });
+  const month = dateObj.toLocaleString("en-us", { month: "long" });
+  const day = dateObj.getDate();
+  const year = dateObj.getFullYear();
+  const formattedDate = `${weekday}, ${month} ${day}, ${year}`;
+  const [hours, minutes, seconds] = time.split(":").map((component) => parseInt(component));
+  const meridiem = hours >= 12 ? "PM" : "AM";
+  const formattedHours = hours % 12 || 12;
+  const formattedMinutes = minutes.toString().padStart(2, "0");
+  const formattedSeconds = seconds.toString().padStart(2, "0");
+  const formattedTime = `${formattedHours}:${formattedMinutes}:${formattedSeconds} ${meridiem} EDT`;
+  return `${formattedDate}, ${formattedTime}`;
 }
 
 function Feedback() {
@@ -54,18 +72,29 @@ function Feedback() {
 
   return (
     <div>
-      <h1>Feedback App</h1>
-      <form onSubmit={handleSubmitFeedback}>
-        <input type='text' value={newFeedback} onChange={(e) => setNewFeedback(e.target.value)} />
-        <button type='submit'>Submit</button>
-      </form>
-      <ul>
+      <h1>Feedback</h1>
+      <Form onSubmit={handleSubmitFeedback}>
+        <Form.Group controlId='formFeedback'>
+          <Form.Control type='text' placeholder='Enter feedback' value={newFeedback} onChange={(e) => setNewFeedback(e.target.value)} />
+        </Form.Group>
+        <Button variant='primary' type='submit'>
+          Submit
+        </Button>
+      </Form>
+      <br />
+      <ListGroup>
         {feedbackList.map((feedback) => (
-          <li key={feedback.id}>
-            {feedback.message} <button onClick={() => handleDeleteFeedback(feedback.id)}>Delete</button>
-          </li>
+          <ListGroup.Item key={feedback.id} style={{ display: "flex", justifyContent: "space-between" }}>
+            <div> {feedback.message}</div>
+            <div>
+              {formatDate(feedback.id)}{" "}
+              <Button variant='danger' onClick={() => handleDeleteFeedback(feedback.id)}>
+                Delete
+              </Button>
+            </div>
+          </ListGroup.Item>
         ))}
-      </ul>
+      </ListGroup>
     </div>
   );
 }

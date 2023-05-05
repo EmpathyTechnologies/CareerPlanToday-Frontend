@@ -14,6 +14,7 @@ import Invest from "./pages/Invest";
 import TermsOfUse from "./pages/TermsOfUse";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import About from "./pages/About";
+import Contact from "./pages/Contact";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Feedback from "./pages/Feedback";
 import NoMatch from "./pages/404/NoMatch";
@@ -39,6 +40,7 @@ function App() {
         <Route path='termsofuse' element={<TermsOfUse />} />
         <Route path='privacypolicy' element={<PrivacyPolicy />} />
         <Route path='about' element={<About />} />
+        <Route path='contact' element={<Contact />} />
         <Route path='feedback' element={<Feedback />} />
         <Route path='*' element={<NoMatch />} />
       </Routes>
