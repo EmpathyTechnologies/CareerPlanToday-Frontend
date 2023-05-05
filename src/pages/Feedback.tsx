@@ -25,19 +25,23 @@ function Feedback() {
     fetch("https://qsv6ogegh7.execute-api.us-east-1.amazonaws.com/production/feedback")
       .then((response) => response.json())
       .then((data: FeedbackInterface[]) => setFeedbackList(data));
-  }, []);
+  }, [newFeedback]);
 
-  const handleSubmitFeedback = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmitFeedback = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    fetch("https://qsv6ogegh7.execute-api.us-east-1.amazonaws.com/production/feedback", {
-      method: "PUT",
-      body: JSON.stringify({ id: generateUniqueId(), message: newFeedback }),
-    })
-      .then((response) => response.json())
-      .then((data: FeedbackInterface) => {
-        setNewFeedback("");
-        setFeedbackList((prevState) => [...prevState, data]);
+    const newId = generateUniqueId();
+    const newFeedbackItem = { id: newId, message: newFeedback };
+    try {
+      setFeedbackList((prevState) => [...prevState, newFeedbackItem]); // add new item to the list immediately
+      const response = await fetch("https://qsv6ogegh7.execute-api.us-east-1.amazonaws.com/production/feedback", {
+        method: "POST",
+        body: JSON.stringify(newFeedbackItem),
       });
+      const data: FeedbackInterface = await response.json();
+      setNewFeedback("");
+    } catch (error) {
+      console.error(error);
+    }
   };
 
   const handleDeleteFeedback = (id: string) => {
