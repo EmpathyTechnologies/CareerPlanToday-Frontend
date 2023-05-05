@@ -71,17 +71,25 @@ function Feedback() {
   };
 
   return (
-    <div>
-      <h1>Feedback</h1>
+    <div style={{ margin: "0 20px" }}>
+      <h1>Feedback Form</h1>
       <Form onSubmit={handleSubmitFeedback}>
         <Form.Group controlId='formFeedback'>
-          <Form.Control type='text' placeholder='Enter feedback' value={newFeedback} onChange={(e) => setNewFeedback(e.target.value)} />
+          <Form.Control
+            as='textarea'
+            rows={3}
+            placeholder='Share your feedback'
+            value={newFeedback}
+            onChange={(e) => setNewFeedback(e.target.value)}
+          />
         </Form.Group>
         <Button variant='primary' type='submit'>
           Submit
         </Button>
       </Form>
+
       <br />
+
       <ListGroup>
         {feedbackList.map((feedback) => (
           <ListGroup.Item key={feedback.id} style={{ display: "flex", justifyContent: "space-between" }}>
