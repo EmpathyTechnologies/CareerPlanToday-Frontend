@@ -1,34 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import "./CollegesNavbar.css";
 import CollegesFilterByStates from "./CollegesFilterByStates";
 import CollegesFilterByTuition from "./CollegesFilterByTuition";
 
 interface CollegesNavbarProps {
-  collegesList: any;
   setFilterByStates: any;
   filterByTuition: any;
   setFilterByTuition: any;
-  minimumTuition: any;
-  maximumTuition: any;
+  minTuition: any;
+  maxTuition: any;
 }
 
-const CollegesNavbar: React.FC<CollegesNavbarProps> = ({
-  collegesList,
-  setFilterByStates,
-  filterByTuition,
-  setFilterByTuition,
-  minimumTuition,
-  maximumTuition,
-}) => {
+const CollegesNavbar: React.FC<CollegesNavbarProps> = ({ setFilterByStates, filterByTuition, setFilterByTuition, minTuition, maxTuition }) => {
   return (
     <div id='colleges-navbar-container'>
       <CollegesFilterByStates setFilterByStates={setFilterByStates} />
       <CollegesFilterByTuition
-        collegesList={collegesList}
         filterByTuition={filterByTuition}
         setFilterByTuition={setFilterByTuition}
-        minimumTuition={minimumTuition}
-        maximumTuition={maximumTuition}
+        minTuition={minTuition}
+        maxTuition={maxTuition}
       />
     </div>
   );

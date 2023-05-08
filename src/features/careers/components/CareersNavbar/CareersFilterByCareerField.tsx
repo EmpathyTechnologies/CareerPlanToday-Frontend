@@ -46,7 +46,7 @@ const CustomMenu = forwardRef<HTMLDivElement, CustomMenuProps>(({ children, styl
   );
 });
 
-export default function CareersFilterByCareerField({ setFilter }: any) {
+export default function CareersFilterByCareerField({ setFilterByCareerName }: any) {
   const careerFields = [
     { name: "All Careers" },
     { name: "Construction" },
@@ -64,15 +64,15 @@ export default function CareersFilterByCareerField({ setFilter }: any) {
       </Dropdown.Toggle>
 
       <Dropdown.Menu as={CustomMenu} labeledBy=''>
-        {careerFields.map((usaState, index) => (
+        {careerFields.map((careerField, index) => (
           <Dropdown.Item
             key={index}
             eventKey={index.toString()}
             onClick={() => {
-              setLabel(usaState.name);
-              setFilter(usaState.name);
+              setLabel(careerField.name);
+              setFilterByCareerName(careerField.name);
             }}>
-            {usaState.name}
+            {careerField.name}
           </Dropdown.Item>
         ))}
       </Dropdown.Menu>
