@@ -22,7 +22,7 @@ export default function Calculator() {
   };
 
   return (
-    <div>
+    <div className='footer-spacer'>
       <CalculatorNavbar />
       <div style={{ display: "flex", flexDirection: "column", alignContent: "center", margin: "40px" }}>
         <h1>College Value Calculator</h1>

@@ -27,7 +27,6 @@ function App() {
   return (
     <>
       <NavigationBar navbarSelected={navbarSelected} setNavbarSelected={setNavbarSelected} />
-
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='careers/:id' element={<Career />} />
@@ -44,7 +43,6 @@ function App() {
         <Route path='feedback' element={<Feedback />} />
         <Route path='*' element={<NoMatch />} />
       </Routes>
-
       <Footer />
     </>
   );

@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import allColleges from "../data/colleges.json";
 import Button from "react-bootstrap/Button";
-import styles from "../assets/College.module.css"
+import styles from "../assets/College.module.css";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 
@@ -12,16 +12,11 @@ export default function College() {
   college = college[0];
 
   return (
-    <div className={styles.LargeContainer}>
+    <div className={`${styles.LargeContainer} footer-spacer`}>
       <div className={styles.CollegeName}>{college.collegeName}</div>
 
-      <Tabs
-        defaultActiveKey="Cost Information"
-        id="justify-tab-example"
-        className="mb-3"
-        justify
-      >
-        <Tab eventKey="Cost Information" title="Cost Information">
+      <Tabs defaultActiveKey='Cost Information' id='justify-tab-example' className='mb-3' justify>
+        <Tab eventKey='Cost Information' title='Cost Information'>
           <div className={styles.SectionHeader}>COST INFORMATION</div>
           <div className={styles.Container}>
             <div>In State Tuition</div>
@@ -33,10 +28,7 @@ export default function College() {
           </div>
         </Tab>
 
-        <Tab
-          eventKey="STUDENT BODY INFORMATION"
-          title="STUDENT BODY INFORMATION"
-        >
+        <Tab eventKey='STUDENT BODY INFORMATION' title='STUDENT BODY INFORMATION'>
           <div className={styles.SectionHeader}>STUDENT BODY INFORMATION</div>
           <div className={styles.Container}>
             <div>Campus location</div>
@@ -48,7 +40,7 @@ export default function College() {
           </div>
         </Tab>
 
-        <Tab eventKey="ADMISSIONS AND OUTCOMES" title="ADMISSIONS AND OUTCOMES">
+        <Tab eventKey='ADMISSIONS AND OUTCOMES' title='ADMISSIONS AND OUTCOMES'>
           <div className={styles.SectionHeader}>ADMISSIONS AND OUTCOMES</div>
           <div className={styles.Container}>
             <div>Number of applicants</div>
@@ -60,7 +52,7 @@ export default function College() {
           </div>
         </Tab>
 
-        <Tab eventKey="NOTABLE INFORMATION" title="NOTABLE INFORMATION">
+        <Tab eventKey='NOTABLE INFORMATION' title='NOTABLE INFORMATION'>
           <div className={styles.SectionHeader}>NOTABLE INFORMATION</div>
           <div className={styles.Container}>
             <div>Website: {college.website}</div>
@@ -73,7 +65,7 @@ export default function College() {
         </Tab>
       </Tabs>
 
-      <Button variant="primary" href="/colleges">
+      <Button variant='primary' href='/colleges'>
         Return to Colleges
       </Button>
     </div>

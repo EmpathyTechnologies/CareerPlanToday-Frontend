@@ -5,6 +5,8 @@ export default function Footer() {
     <div className='footer-basic'>
       <footer>
         <ul className='list-inline'>
+          <li className='list-inline-item'>Career Plan Today © 2023</li>
+
           <li className='list-inline-item'>
             <a href='./'>Home</a>
           </li>
@@ -21,7 +23,6 @@ export default function Footer() {
             <a href='./feedback'>Feedback</a>
           </li>
         </ul>
-        <p className='copyright'>Career Plan Today © 2023</p>
       </footer>
     </div>
   );
