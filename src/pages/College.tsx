@@ -12,7 +12,7 @@ export default function College() {
   college = college[0];
 
   return (
-    <div className={`${styles.LargeContainer} footer-spacer`}>
+    <div className={`${styles.LargeContainer} navbar-spacer footer-spacer`}>
       <div className={styles.CollegeName}>{college.collegeName}</div>
 
       <Tabs defaultActiveKey='Cost Information' id='justify-tab-example' className='mb-3' justify>

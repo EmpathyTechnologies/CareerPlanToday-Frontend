@@ -27,7 +27,7 @@ export default function Invest() {
   };
 
   return (
-    <Container className='footer-spacer'>
+    <Container className='navbar-spacer footer-spacer'>
       <h2>Roth IRA Calculator</h2>
       <Form>
         <Form.Group as={Row}>

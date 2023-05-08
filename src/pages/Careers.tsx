@@ -18,15 +18,19 @@ export default function Careers() {
   }, [filterByCareerName, filterBySalary]);
 
   return (
-    <div className='CareersContainer footer-spacer'>
-      <CareersNavbar
-        setFilterByCareerName={setFilterByCareerName}
-        filterBySalary={filterBySalary}
-        setFilterBySalary={setFilterBySalary}
-        minSalary={minSalary}
-        maxSalary={maxSalary}
-      />
-      <CareersTable favorites={favorites} setFavorites={setFavorites} careers={careers} setCareers={setCareers} />
+    <div className='CareersContainer navbar-spacer footer-spacer'>
+      <div style={{ position: "fixed" }}>
+        <CareersNavbar
+          setFilterByCareerName={setFilterByCareerName}
+          filterBySalary={filterBySalary}
+          setFilterBySalary={setFilterBySalary}
+          minSalary={minSalary}
+          maxSalary={maxSalary}
+        />
+      </div>
+      <div style={{ paddingTop: "50px" }}>
+        <CareersTable favorites={favorites} setFavorites={setFavorites} careers={careers} setCareers={setCareers} />
+      </div>
     </div>
   );
 }

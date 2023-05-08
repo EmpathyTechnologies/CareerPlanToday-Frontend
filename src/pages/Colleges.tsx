@@ -17,16 +17,18 @@ export default function Colleges() {
   }, [filterByStates, filterByTuition]);
 
   return (
-    <div className='footer-spacer'>
+    <div className='navbar-spacer footer-spacer'>
       <div className='CareersContainer'>
-        <CollegesNavbar
-          setFilterByStates={setFilterByStates}
-          filterByTuition={filterByTuition}
-          setFilterByTuition={setFilterByTuition}
-          minTuition={minTuition}
-          maxTuition={maxTuition}
-        />
-        <div style={{ padding: "25px" }}>
+        <div style={{ position: "fixed" }}>
+          <CollegesNavbar
+            setFilterByStates={setFilterByStates}
+            filterByTuition={filterByTuition}
+            setFilterByTuition={setFilterByTuition}
+            minTuition={minTuition}
+            maxTuition={maxTuition}
+          />
+        </div>
+        <div style={{ padding: "25px", paddingTop: "74px" }}>
           <CollegesTable colleges={colleges} setColleges={setColleges}></CollegesTable>
         </div>
       </div>

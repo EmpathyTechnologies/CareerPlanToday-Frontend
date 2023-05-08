@@ -3,7 +3,7 @@ export default function TermsOfUse() {
   const style_header = { fontSize: 24, paddingTop: "24px" };
 
   return (
-    <div className='footer-spacer'>
+    <div className='navbar-spacer footer-spacer'>
       <div style={style_container}>
         <h1 style={style_header}>Terms Of Use</h1>
         <h2 style={style_header}>For All Users</h2>
