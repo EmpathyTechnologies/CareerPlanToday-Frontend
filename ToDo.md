@@ -1,0 +1,9 @@
+- unit tests
+- linkedin jobs api
+- favorites page
+- career page to show entry level jobs, conferences, professional organization webbsites
+- backend CRUD career
+- backend CRUD college
+- resume, cover letter, interview page
+- user authentication via social media
+- able to save/print favorite careers as a pdf

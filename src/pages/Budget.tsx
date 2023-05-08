@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Form } from "react-bootstrap";
+import { Button, Container, Row, Col, Form } from "react-bootstrap";
 
 export default function Budget() {
   let displayFlex = { display: "flex", justifyContent: "space-between" };
@@ -7,8 +7,8 @@ export default function Budget() {
   return (
     <div>
       <h3>After College Budget</h3>
-
       <h4>INCOME</h4>
+
       <Row>
         <Col xs={8}>Average Salary</Col>
         <Col xs={4}>
