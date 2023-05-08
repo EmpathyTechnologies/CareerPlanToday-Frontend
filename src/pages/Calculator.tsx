@@ -32,7 +32,7 @@ export default function Calculator() {
               Explore Careers
             </td>
           </tr>
-          <tr style={{ background: "var(--Bee)" }}>
+          <tr style={{ background: "var(--Swan)" }}>
             <th style={{ width: "20%" }}></th>
             <th style={{ width: "20%" }}></th>
             <th style={{ width: "20%", textAlign: "center" }}>Salary</th>
@@ -107,7 +107,7 @@ export default function Calculator() {
               Compare Colleges
             </td>
           </tr>
-          <tr style={{ background: "var(--Bee)" }}>
+          <tr style={{ background: "var(--Swan)" }}>
             <th style={{ width: "20%" }}></th>
             <th style={{ width: "20%", textAlign: "center" }}>Freshman</th>
             <th style={{ width: "20%", textAlign: "center" }}>Sophomore</th>
@@ -221,7 +221,7 @@ export default function Calculator() {
               Funding Plan
             </td>
           </tr>
-          <tr style={{ background: "var(--Bee)" }}>
+          <tr style={{ background: "var(--Swan)" }}>
             <th style={{ width: "20%" }}></th>
             <th style={{ width: "20%", textAlign: "center" }}>Freshman</th>
             <th style={{ width: "20%", textAlign: "center" }}>Sophomore</th>
