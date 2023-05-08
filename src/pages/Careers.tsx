@@ -18,7 +18,7 @@ export default function Careers() {
   }, [filterByCareerName, filterBySalary]);
 
   return (
-    <div className='CareersContainer'>
+    <div className='CareersContainer footer-spacer'>
       <CareersNavbar
         setFilterByCareerName={setFilterByCareerName}
         filterBySalary={filterBySalary}

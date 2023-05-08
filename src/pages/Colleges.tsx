@@ -17,7 +17,7 @@ export default function Colleges() {
   }, [filterByStates, filterByTuition]);
 
   return (
-    <div>
+    <div className='footer-spacer'>
       <div className='CareersContainer'>
         <CollegesNavbar
           setFilterByStates={setFilterByStates}
