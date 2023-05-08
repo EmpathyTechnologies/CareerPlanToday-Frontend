@@ -15,6 +15,9 @@ export default function Footer() {
       <Nav.Item as='li'>
         <Nav.Link href='./contact'>Contact</Nav.Link>
       </Nav.Item>
+      <Nav.Item as='li'>
+        <Nav.Link href='./feedback'>Feedback</Nav.Link>
+      </Nav.Item>
     </Nav>
   );
 }

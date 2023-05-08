@@ -37,20 +37,21 @@ function formatDate(input: string): string {
 
 function Feedback() {
   const [feedbackList, setFeedbackList] = useState<FeedbackInterface[]>([]);
-  const [newFeedback, setNewFeedback] = useState("");
+  const [newMessage, setNewFeedback] = useState("");
 
   useEffect(() => {
     fetch("https://qsv6ogegh7.execute-api.us-east-1.amazonaws.com/production/feedback")
       .then((response) => response.json())
       .then((data: FeedbackInterface[]) => setFeedbackList(data));
-  }, [newFeedback]);
+  }, [newMessage]);
 
   const handleSubmitFeedback = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const newId = generateUniqueId();
-    const newFeedbackItem = { id: newId, message: newFeedback };
+    const newFeedbackItem = { id: newId, message: newMessage };
+
     try {
-      setFeedbackList((prevState) => [...prevState, newFeedbackItem]); // add new item to the list immediately
+      setFeedbackList((prevState) => [...prevState, newFeedbackItem]);
       const response = await fetch("https://qsv6ogegh7.execute-api.us-east-1.amazonaws.com/production/feedback", {
         method: "POST",
         body: JSON.stringify(newFeedbackItem),
@@ -72,14 +73,16 @@ function Feedback() {
 
   return (
     <div style={{ margin: "0 20px" }}>
-      <h1>Feedback Form</h1>
+      <br />
+      <div>We always want to improve and your feedback helps us do exactly that.</div>
+      <br />
       <Form onSubmit={handleSubmitFeedback}>
         <Form.Group controlId='formFeedback'>
           <Form.Control
             as='textarea'
             rows={3}
             placeholder='Share your feedback'
-            value={newFeedback}
+            value={newMessage}
             onChange={(e) => setNewFeedback(e.target.value)}
           />
         </Form.Group>

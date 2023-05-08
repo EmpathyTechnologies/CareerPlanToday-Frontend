@@ -7,21 +7,18 @@ interface CustomToggleProps {
   onClick: (event: React.MouseEvent<HTMLAnchorElement>) => void;
 }
 
-const CustomToggle = forwardRef<HTMLAnchorElement, CustomToggleProps>(
-  ({ children, onClick }, ref) => (
-    <a
-      href=''
-      ref={ref}
-      onClick={(e: React.MouseEvent<HTMLAnchorElement>) => {
-        e.preventDefault();
-        onClick(e);
-      }}
-    >
-      {children}
-      &#x25bc;
-    </a>
-  )
-);
+const CustomToggle = forwardRef<HTMLAnchorElement, CustomToggleProps>(({ children, onClick }, ref) => (
+  <a
+    href=''
+    ref={ref}
+    onClick={(e: React.MouseEvent<HTMLAnchorElement>) => {
+      e.preventDefault();
+      onClick(e);
+    }}>
+    {children}
+    &#x25bc;
+  </a>
+));
 
 interface CustomMenuProps {
   children: React.ReactNode;
@@ -30,29 +27,24 @@ interface CustomMenuProps {
   labeledBy: string;
 }
 
-const CustomMenu = forwardRef<HTMLDivElement, CustomMenuProps>(
-  ({ children, style, className, labeledBy }, ref) => {
-    const [value, setValue] = useState("");
+const CustomMenu = forwardRef<HTMLDivElement, CustomMenuProps>(({ children, style, className, labeledBy }, ref) => {
+  const [value, setValue] = useState("");
 
-    return (
-      <div ref={ref} style={style} className={className} aria-labelledby={labeledBy}>
-        <Form.Control
-          autoFocus
-          className='mx-3 my-2 w-auto'
-          placeholder='Type to filter...'
-          onChange={(e: React.ChangeEvent<HTMLInputElement>) => setValue(e.target.value)}
-          value={value}
-        />
-        <ul className='list-unstyled'>
-          {React.Children.toArray(children).filter(
-            (child) =>
-              !value || (child as React.ReactElement).props.children.toLowerCase().startsWith(value)
-          )}
-        </ul>
-      </div>
-    );
-  }
-);
+  return (
+    <div ref={ref} style={style} className={className} aria-labelledby={labeledBy}>
+      <Form.Control
+        autoFocus
+        className='mx-3 my-2 w-auto'
+        placeholder='Type to filter...'
+        onChange={(e: React.ChangeEvent<HTMLInputElement>) => setValue(e.target.value)}
+        value={value}
+      />
+      <ul className='list-unstyled'>
+        {React.Children.toArray(children).filter((child) => !value || (child as React.ReactElement).props.children.toLowerCase().startsWith(value))}
+      </ul>
+    </div>
+  );
+});
 
 export default function CollegesFilterByStates({ setFilterByStates }: any) {
   const usaStates = [
@@ -124,8 +116,7 @@ export default function CollegesFilterByStates({ setFilterByStates }: any) {
             onClick={() => {
               setLabel(usaState.name);
               setFilterByStates(usaState.abbreviation);
-            }}
-          >
+            }}>
             {usaState.name}
           </Dropdown.Item>
         ))}
