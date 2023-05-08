@@ -46,7 +46,7 @@ export default function About() {
   ));
 
   return (
-    <div className='footer-spacer'>
+    <div className='navbar-spacer footer-spacer'>
       <h1 className={styles.aboutHeader}>About Us</h1>
       <div className={styles.aboutCardContainer}>{cardsList}</div>
     </div>

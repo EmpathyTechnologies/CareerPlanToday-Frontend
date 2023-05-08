@@ -22,9 +22,11 @@ export default function Calculator() {
   };
 
   return (
-    <div className='footer-spacer'>
-      <CalculatorNavbar />
-      <div style={{ display: "flex", flexDirection: "column", alignContent: "center", margin: "40px" }}>
+    <div className='navbar-spacer footer-spacer'>
+      <div style={{ position: "fixed" }}>
+        <CalculatorNavbar />
+      </div>
+      <div style={{ display: "flex", flexDirection: "column", alignContent: "center", paddingTop: "40px", margin: "40px" }}>
         <h1>College Value Calculator</h1>
         {/* EXPLORE CAREERS */}
         <table>

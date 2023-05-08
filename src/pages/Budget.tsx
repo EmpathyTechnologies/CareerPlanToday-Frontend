@@ -5,7 +5,7 @@ export default function Budget() {
   let displayFlex = { display: "flex", justifyContent: "space-between" };
 
   return (
-    <div className='footer-spacer'>
+    <div className='navbar-spacer footer-spacer'>
       <h3>After College Budget</h3>
       <h4>INCOME</h4>
 

@@ -2,7 +2,7 @@ export default function PrivacyPolicy() {
   const style_container = { paddingLeft: "24px" };
   const style_header = { fontSize: 24, paddingTop: "24px" };
   return (
-    <div className='footer-spacer'>
+    <div className='navbar-spacer footer-spacer'>
       <div style={style_container}>
         <h1 style={style_header}>Privacy Policy</h1>
         <div>Effective Date: March 27, 2023</div>

@@ -1,7 +1,7 @@
 import "./CalculatorNavbar.css";
 import { Dropdown, DropdownButton } from "react-bootstrap";
 
-export default function calculatorNavbar() {
+export default function CalculatorNavbar() {
   return (
     <div className='CalculatorNavbar'>
       {/* ToDo - Make these drop downs with favorites at the top */}

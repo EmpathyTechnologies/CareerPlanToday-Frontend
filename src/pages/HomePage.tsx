@@ -10,7 +10,7 @@ export default function HomePage() {
   let width = useScreenWidth();
   // {width > 700  ?  <div>this shows to the page</div>  :  ""}
   return (
-    <Container className={`${styles.homeBodyDiv} footer-spacer`}>
+    <Container className={`${styles.homeBodyDiv} navbar-spacer footer-spacer`}>
       <Row className={styles.cardDiv} style={{ width: "80rem" }}>
         <Col className={styles.homeFirstCard}>
           <Card.Text className={styles.homePageCircle}>Career Plan Today!</Card.Text>
