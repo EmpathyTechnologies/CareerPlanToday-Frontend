@@ -1,0 +1,8 @@
+.CalculatorNavbar {
+  height: 64px;
+  background-color: var(--Swan);
+  font-size: 24px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  display: flex;
+  align-items: center;
+}
