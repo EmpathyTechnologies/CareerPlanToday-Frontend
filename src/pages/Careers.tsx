@@ -6,6 +6,8 @@ import { useLocalStorage } from "../hooks/useLocalStorage";
 import { minSalary, maxSalary } from "../features/careers/utils/minAndMaxSalary";
 import { filterCareers } from "../features/careers/utils/filterCareers";
 
+// TODO:  Set up a scroll on the table, instead of scrolling on the window
+
 export default function Careers() {
   const [favorites, setFavorites] = useLocalStorage<any[]>("careerFavorites", []);
   const [careers, setCareers] = useState(allCareers);
