@@ -6,7 +6,7 @@ export default function Budget() {
 
   return (
     <div className='navbar-spacer footer-spacer'>
-      <h3>After College Budget</h3>
+      <h3>Lifestyle Budget</h3>
       <h4>INCOME</h4>
 
       <Row>

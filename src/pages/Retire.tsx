@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Form, Container, Row, Col } from "react-bootstrap";
 
-export default function Invest() {
+export default function Retire() {
   const [currentAge, setCurrentAge] = useState(30);
   const [retirementAge, setRetirementAge] = useState(65);
   const [annualContribution, setAnnualContribution] = useState(6000);

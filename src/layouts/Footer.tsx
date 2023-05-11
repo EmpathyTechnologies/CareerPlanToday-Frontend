@@ -6,10 +6,6 @@ export default function Footer() {
       <footer>
         <ul className='list-inline'>
           <li className='list-inline-item'>Career Plan Today © 2023</li>
-
-          <li className='list-inline-item'>
-            <a href='./'>Home</a>
-          </li>
           <li className='list-inline-item'>
             <a href='./about'>About</a>
           </li>

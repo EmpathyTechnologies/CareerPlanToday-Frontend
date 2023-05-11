@@ -16,7 +16,7 @@ import Contact from "./pages/Contact";
 import Feedback from "./pages/Feedback";
 import Footer from "./layouts/Footer";
 import Home from "./pages/Home";
-import Invest from "./pages/Invest";
+import Retire from "./pages/Retire";
 import NavigationBar from "./layouts/NavigationBar";
 import NoMatch from "./pages/404/NoMatch";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
@@ -42,7 +42,7 @@ function App() {
         <Route path='colleges/:id' element={<College />} />
         <Route path='contact' element={<Contact />} />
         <Route path='feedback' element={<Feedback />} />
-        <Route path='invest' element={<Invest />} />
+        <Route path='invest' element={<Retire />} />
         <Route path='privacypolicy' element={<PrivacyPolicy />} />
         <Route path='termsofuse' element={<TermsOfUse />} />
         <Route path='*' element={<NoMatch />} />
