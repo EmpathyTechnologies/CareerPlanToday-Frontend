@@ -9,7 +9,7 @@ import { filterCareers } from "../features/careers/utils/filterCareers";
 // TODO:  Set up a scroll on the table, instead of scrolling on the window
 
 export default function Careers() {
-  const [favorites, setFavorites] = useLocalStorage<any[]>("careerFavorites", []);
+  // const [favorites, setFavorites] = useLocalStorage<any[]>("careerFavorites", []);
   const [careers, setCareers] = useState(allCareers);
   const [filterByCareerName, setFilterByCareerName] = useState<string>("All Careers");
   const [filterBySalary, setFilterBySalary] = useState<any>([minSalary, maxSalary]);
@@ -31,7 +31,11 @@ export default function Careers() {
         />
       </div>
       <div style={{ paddingTop: "50px" }}>
-        <CareersTable favorites={favorites} setFavorites={setFavorites} careers={careers} setCareers={setCareers} />
+        <CareersTable
+          // favorites={favorites} setFavorites={setFavorites}
+          careers={careers}
+          setCareers={setCareers}
+        />
       </div>
     </div>
   );
