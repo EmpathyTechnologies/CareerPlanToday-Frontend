@@ -1,7 +1,7 @@
 import { Button } from "react-bootstrap";
 import "./Hero.css";
 
-function HeroSection() {
+function Hero() {
   return (
     <div className='hero-container'>
       <video src='/videos/globe.mp4' autoPlay loop muted />
@@ -28,4 +28,4 @@ function HeroSection() {
   );
 }
 
-export default HeroSection;
+export default Hero;
