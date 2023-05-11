@@ -3,29 +3,29 @@ import "./Hero.css";
 
 function HeroSection() {
   return (
-    <div className="hero-container">
-    <video src="/videos/video-1.mp4" autoPlay loop muted />
-    <h1>CAREER PLAN TODAY</h1>
-    <p>Know before you go</p>
-    <div className="hero-btns">
-      <Button
-        className="btns"
-        // buttonStyle="btn--outline"
-        // buttonSize="btn--large"
-      >
-        EXPLORE CAREERS
-      </Button>
-      <Button
-        className="btns"
-        // buttonStyle="btn--primary"
-        // buttonSize="btn--large"
-        // onClick={console.log("hey")}
-      >
-        COMPARE COLLEGES <i className="far fa-play-circle" />
-      </Button>
+    <div className='hero-container'>
+      <video src='/videos/globe.mp4' autoPlay loop muted />
+      <h1>CAREER PLAN TODAY</h1>
+      <p>Know before you go</p>
+      <div className='hero-btns'>
+        <Button
+          className='btns'
+          // buttonStyle="btn--outline"
+          // buttonSize="btn--large"
+        >
+          EXPLORE CAREERS
+        </Button>
+        <Button
+          className='btns'
+          // buttonStyle="btn--primary"
+          // buttonSize="btn--large"
+          // onClick={console.log("hey")}
+        >
+          COMPARE COLLEGES <i className='far fa-play-circle' />
+        </Button>
+      </div>
     </div>
-  </div>
-  )
+  );
 }
 
-export default HeroSection
+export default HeroSection;
