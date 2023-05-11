@@ -10,7 +10,7 @@
 
 .Width138px {
   width: 138px;
-} 
+}
 
 .aboutHr {
   border: 2px solid#2b70c9;
@@ -18,9 +18,9 @@
   width: 55%;
   margin-left: auto;
   margin-right: auto;
-} 
+}
 
- .aboutHeader {
+.aboutHeader {
   display: flex;
   justify-content: center;
 }
@@ -28,10 +28,8 @@
 .aboutCardContainer {
   display: flex;
   gap: 10px;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   justify-content: space-evenly;
   padding-bottom: 20px;
   text-align: center;
 }
-
-  
