@@ -31,7 +31,7 @@ export default function NavigationBar(props: any) {
   const investTooltip = <Tooltip id='gear-tooltip'>Investment Calculator</Tooltip>;
 
   return (
-    <div style={containerStyle} className='navbar-fixed'>
+    <div style={containerStyle} className='navbar-fixed navbar-zindex-top'>
       <a href='/' onClick={() => setNavbarSelected("Careers")} style={aTag}>
         Career Plan Today
       </a>
