@@ -26,9 +26,9 @@ export default function NavigationBar(props: any) {
 
   const careersTooltip = <Tooltip id='gear-tooltip'>Explore Careers</Tooltip>;
   const collegesTooltip = <Tooltip id='gear-tooltip'>Compare Colleges</Tooltip>;
-  const calculatorTooltip = <Tooltip id='gear-tooltip'>College Value Calculator</Tooltip>;
-  const budgetTooltip = <Tooltip id='gear-tooltip'>After College Budget</Tooltip>;
-  const investTooltip = <Tooltip id='gear-tooltip'>Investment Calculator</Tooltip>;
+  const calculatorTooltip = <Tooltip id='gear-tooltip'>Determine the Financial Value of College</Tooltip>;
+  const budgetTooltip = <Tooltip id='gear-tooltip'>Explore How to Afford Your Lifestyle</Tooltip>;
+  const investTooltip = <Tooltip id='gear-tooltip'>Form Your Retirement Plan</Tooltip>;
 
   return (
     <div style={containerStyle} className='navbar-fixed navbar-zindex-top'>
