@@ -1,184 +1,193 @@
-/* ---------------------------1st Card---------------------- */
-.homeBodyDiv {
-  display: flex;
-  flex-wrap: wrap;
-  border-style: none;
+/* hero section */
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
 }
 
-/* ToDo:make children inside card not over lap eachother. 
-Wrap not working */
-.cardDiv {
+.hero-container {
+  /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+  height: 100vh;
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  border-style: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
 }
 
-.homeFirstCard {
+.hero-container > h1 {
+  color: #fff;
+  font-size: 100px;
+  margin-top: -100px;
+}
+
+.hero-container > p {
+  margin-top: 8px;
+  color: #fff;
+  font-size: 32px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.hero-btns {
+  margin-top: 32px;
+}
+
+.hero-btns .btn {
+  margin: 6px;
+}
+
+.fa-play-circle {
+  margin-left: 4px;
+}
+
+@media screen and (max-width: 960px) {
+  .hero-container > h1 {
+    font-size: 70px;
+    margin-top: -150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container > h1 {
+    font-size: 50px;
+    margin-top: -100px;
+  }
+
+  .hero-container > p {
+    font-size: 30px;
+  }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
+
+/*----------- cards CSS -------------------*/
+.cards {
+  padding: 4rem;
+  background: #fff;
+}
+
+h1 {
+  text-align: center;
+}
+
+.cards__container {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cards__wrapper {
   position: relative;
-  height: 250px;
-  background-color: var(--Feather-Green);
+  margin: 50px 0 45px;
+}
+
+.cards__items {
+  margin-bottom: 24px;
+}
+
+.cards__item {
+  display: flex;
+  flex: 1;
+  margin: 0 1rem;
   border-radius: 10px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
 }
 
-.homePageCircle {
+.cards__item__link {
   display: flex;
-  flex-wrap: wrap;
-  background-color: var(--Fox);
-  position: absolute;
-  text-align: center;
-  top: 15px;
-  left: 30%;
-  transform: translate(-50%);
-  height: 200px;
-  width: 200px;
-  align-items: center;
-  font-size: 30px;
-  font-weight: 600;
-  border-radius: 50%;
-}
-
-/* To Do: bacckground color, and wrapping on buttonsINspect. 
-says display flex is preventing changes but I 
-tried to display block and no help either.------ */
-.exploreCareersButton {
-  background-color: var(--Feather-Green);
-  display: flex;
-  flex-wrap: wrap;
-  position: absolute;
-  width: 300px;
-  left: 70%;
-  transform: translateX(-50%);
-  top: 50px;
-}
-
-/* var or Hex color will not work on buttons */
-.compareCollegesButton {
-  background-color: #58cc02;
-  display: flex;
-  flex-wrap: wrap;
-  position: absolute;
-  width: 300px;
-  left: 70%;
-  transform: translateX(-50%);
-  top: 100px;
-}
-
-/* ---------------------------2nd Card----------------------- */
-
-/* ToDo: try to find a way to take off border outline */
-.homeSecondCard {
-  display: flex;
-  flex-wrap: wrap;
-  position: relative;
-  height: 250px;
-  background-color: var();
-  border: none;
-}
-
-/* var() will not work here */
-.secondCardSquare {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #58cc02;
-  position: absolute;
-  text-align: center;
-  left: 30%;
-  top: 15%;
-  transform: translate(-50%);
-  height: 170px;
-  width: 210px;
-  align-items: center;
-  font-size: 30px;
-  font-weight: 600;
-  border-radius: 50px;
-}
-
-/* figured out that background color works 
-on text so maybe we can try link */
-.secondCardInformation {
-  display: flex;
-  flex-wrap: wrap;
-  position: absolute;
-  text-align: center;
-  width: 400px;
-  left: 70%;
-  top: 10%;
-  transform: translateX(-50%);
-}
-
-/* maybe we can even change button into a link <link> and add a 
-hover effect to make it feel like a button. */
-.secondCardButton {
-  display: flex;
-  flex-wrap: wrap;
-  position: absolute;
-  text-align: center;
-  width: 200px;
-  left: 70%;
-  transform: translateX(-50%);
-  top: 150px;
-}
-
-.homeBreakLine {
-  display: flex;
-  background-color: var(--Feather-Green);
-  opacity: 100%;
+  flex-flow: column;
+  width: 100%;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   border-radius: 10px;
-  height: 3px;
-  width: 25%;
+  overflow: hidden;
+  text-decoration: none;
 }
-/* ---------------------------3rd Card-------------------------- */
-/* Still need to refactor code, repeating syntax. 
-figure out at future date */
-.homeThirdCard {
-  display: flex;
-  flex-wrap: wrap;
+
+.cards__item__pic-wrap {
   position: relative;
-  height: 250px;
-  background-color: var();
-  border: none;
+  width: 100%;
+  padding-top: 67%;
+  overflow: hidden;
 }
 
-.thirdCardSquare {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #58cc02;
-  position: absolute;
-  text-align: center;
-  padding-bottom: 20px;
-  left: 70%;
-  top: 15%;
-  transform: translate(-50%);
-  height: 170px;
-  width: 210px;
-  align-items: center;
-  font-size: 30px;
-  font-weight: 600;
-  border-radius: 50px;
+.fade-img {
+  animation-name: fade-img;
+  animation-duration: 2s;
 }
 
-.thirdCardButton {
-  display: flex;
-  flex-wrap: wrap;
+.cards__item__pic-wrap::after {
+  content: attr(data-category);
   position: absolute;
-  text-align: center;
-  width: 200px;
-  left: 30%;
-  transform: translateX(-50%);
-  top: 150px;
+  bottom: 0;
+  margin-left: 10px;
+  padding: 6px 8px;
+  max-width: calc((100%) - 60px);
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #1f98f4;
+  box-sizing: border-box;
 }
 
-.thirdCardInformation {
-  display: flex;
-  flex-wrap: wrap;
+.cards__item__img {
   position: absolute;
-  text-align: center;
-  width: 400px;
-  left: 30%;
-  top: 10%;
-  transform: translateX(-50%);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  transition: all 0.2s linear;
+}
+
+.cards__item__img:hover {
+  transform: scale(1.1);
+}
+
+.cards__item__info {
+  padding: 20px 30px 30px;
+}
+
+.cards__item__text {
+  color: #252e48;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .content__blog__container {
+    width: 84%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .cards__items {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .cards__item {
+    margin-bottom: 2rem;
+  }
 }

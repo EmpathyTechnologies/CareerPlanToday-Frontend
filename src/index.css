@@ -36,6 +36,10 @@
   right: 0;
 }
 
+.navbar-zindex-top {
+  z-index: 10;
+}
+
 .navbar-spacer {
   padding-top: 64px;
 }
