@@ -6,7 +6,7 @@ function HeroSection() {
     <div className='hero-container'>
       <video src='/videos/globe.mp4' autoPlay loop muted />
       <h1>CAREER PLAN TODAY</h1>
-      <p>Know before you go</p>
+      <p>Design Your Better Tomorrow Today</p>
       <div className='hero-btns'>
         <Button
           className='btns'
