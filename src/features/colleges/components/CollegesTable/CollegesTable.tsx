@@ -1,8 +1,7 @@
 import { useState } from "react";
 import Table from "react-bootstrap/Table";
 import { Link } from "react-router-dom";
-import { formatCurrency } from "../../../utilities/formatCurrency";
-
+import { formatCurrency } from "../../../../utilities/formatCurrency";
 export default function CollegesTable({ colleges, setColleges }: any) {
   const [sortColumn, setSortColumn] = useState<any>();
   const [sortOrder, setSortOrder] = useState<any>();
