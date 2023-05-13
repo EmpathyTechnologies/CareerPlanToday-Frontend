@@ -4,7 +4,7 @@ import careers from "../../data/careers.json";
 import colleges from "../../data/colleges.json";
 import CalculatorCustomDropDown from "../../features/calculator/CalculatorCustomDropDown";
 
-export default function CalculatorNavbar({ setCollegeCost }: any) {
+export default function CalculatorNavbar({ setCollegeCost, setCollegeName }: any) {
   return (
     <div className='CalculatorNavbar'>
       <DropdownButton title='Career with College'>
@@ -19,7 +19,7 @@ export default function CalculatorNavbar({ setCollegeCost }: any) {
         <Dropdown.Item href='#/action-3'>Something else</Dropdown.Item>
       </DropdownButton>
       &nbsp;
-      <CalculatorCustomDropDown colleges={colleges} setCollegeCost={setCollegeCost} />
+      <CalculatorCustomDropDown colleges={colleges} setCollegeCost={setCollegeCost} setCollegeName={setCollegeName} />
       &nbsp;
       <DropdownButton title='College'>
         <Dropdown.Item href='#/action-1'>Action</Dropdown.Item>
