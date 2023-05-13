@@ -125,31 +125,17 @@ export default function Calculator() {
             <tr>
               <td style={{ width: "20%" }}>College</td>
               <td style={{ width: "20%" }}>{collegeCost}</td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
-              </td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
-              </td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
-              </td>
+              <td style={{ width: "20%" }}>{collegeCost}</td>
+              <td style={{ width: "20%" }}>{collegeCost}</td>
+              <td style={{ width: "20%" }}>{collegeCost}</td>
             </tr>
 
             <tr>
               <td style={{ width: "20%" }}>Tuition</td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
-              </td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
-              </td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
-              </td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
-              </td>
+              <td style={{ width: "20%" }}>{collegeCost}</td>
+              <td style={{ width: "20%" }}>{collegeCost}</td>
+              <td style={{ width: "20%" }}>{collegeCost}</td>
+              <td style={{ width: "20%" }}>{collegeCost}</td>
             </tr>
 
             <tr>

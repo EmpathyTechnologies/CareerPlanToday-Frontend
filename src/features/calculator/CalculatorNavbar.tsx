@@ -7,13 +7,19 @@ import CalculatorCustomDropDown from "../../features/calculator/CalculatorCustom
 export default function CalculatorNavbar({ setCollegeCost }: any) {
   return (
     <div className='CalculatorNavbar'>
-      <CalculatorCustomDropDown colleges={colleges} setCollegeCost={setCollegeCost} />
+      <DropdownButton title='Career with College'>
+        <Dropdown.Item href='#/action-1'>Action</Dropdown.Item>
+        <Dropdown.Item href='#/action-2'>Another action</Dropdown.Item>
+        <Dropdown.Item href='#/action-3'>Something else</Dropdown.Item>
+      </DropdownButton>
       &nbsp;
       <DropdownButton title='Career without College'>
         <Dropdown.Item href='#/action-1'>Action</Dropdown.Item>
         <Dropdown.Item href='#/action-2'>Another action</Dropdown.Item>
         <Dropdown.Item href='#/action-3'>Something else</Dropdown.Item>
       </DropdownButton>
+      &nbsp;
+      <CalculatorCustomDropDown colleges={colleges} setCollegeCost={setCollegeCost} />
       &nbsp;
       <DropdownButton title='College'>
         <Dropdown.Item href='#/action-1'>Action</Dropdown.Item>
