@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
 import CalculatorNavbar from "../features/calculator/CalculatorNavbar";
+
 export default function Calculator() {
   const [careerWithCollege, setCareerWithCollege] = useState({ salary: 50000, years: 40, lifetimeIncome: 2000000 });
   const [careerWithOutCollege, setCareerWithOutCollege] = useState({ salary: 35000, years: 40, lifetimeIncome: 1400000 });
   const [extraIncomeWithCollege, setExtraIncomeWithCollege] = useState(0);
+  const [collegeCost, setCollegeCost] = useState(0);
 
   useEffect(() => {
     setCareerWithCollege((prevState) => ({ ...prevState, lifetimeIncome: prevState.salary * prevState.years }));
@@ -24,7 +26,7 @@ export default function Calculator() {
   return (
     <div className='navbar-spacer footer-spacer'>
       <div style={{ position: "fixed" }}>
-        <CalculatorNavbar />
+        <CalculatorNavbar setCollegeCost={setCollegeCost} />
       </div>
       <div style={{ display: "flex", flexDirection: "column", alignContent: "center", paddingTop: "40px", margin: "40px" }}>
         <h1>College Value Calculator</h1>
@@ -122,9 +124,7 @@ export default function Calculator() {
           <tbody>
             <tr>
               <td style={{ width: "20%" }}>College</td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
-              </td>
+              <td style={{ width: "20%" }}>{collegeCost}</td>
               <td style={{ width: "20%" }}>
                 <input style={{ width: "100%", textAlign: "center" }} type='number' />
               </td>

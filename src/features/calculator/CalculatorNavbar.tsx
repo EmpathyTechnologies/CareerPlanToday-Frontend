@@ -1,15 +1,13 @@
 import "./CalculatorNavbar.css";
 import { Dropdown, DropdownButton } from "react-bootstrap";
+import careers from "../../data/careers.json";
+import colleges from "../../data/colleges.json";
+import CalculatorCustomDropDown from "../../features/calculator/CalculatorCustomDropDown";
 
-export default function CalculatorNavbar() {
+export default function CalculatorNavbar({ setCollegeCost }: any) {
   return (
     <div className='CalculatorNavbar'>
-      {/* ToDo - Make these drop downs with favorites at the top */}
-      <DropdownButton title='Career with College'>
-        <Dropdown.Item href='#/action-1'>Action</Dropdown.Item>
-        <Dropdown.Item href='#/action-2'>Another action</Dropdown.Item>
-        <Dropdown.Item href='#/action-3'>Something else</Dropdown.Item>
-      </DropdownButton>
+      <CalculatorCustomDropDown colleges={colleges} setCollegeCost={setCollegeCost} />
       &nbsp;
       <DropdownButton title='Career without College'>
         <Dropdown.Item href='#/action-1'>Action</Dropdown.Item>
