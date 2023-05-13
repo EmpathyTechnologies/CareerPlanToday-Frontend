@@ -1,11 +1,32 @@
 import { useState, useEffect } from "react";
 import CalculatorNavbar from "../features/calculator/CalculatorNavbar";
+import CalculatorCustomDropDown from "../features/calculator/CalculatorCustomDropDown";
+import colleges from "../data/colleges.json";
 
 export default function Calculator() {
   const [careerWithCollege, setCareerWithCollege] = useState({ salary: 50000, years: 40, lifetimeIncome: 2000000 });
   const [careerWithOutCollege, setCareerWithOutCollege] = useState({ salary: 35000, years: 40, lifetimeIncome: 1400000 });
   const [extraIncomeWithCollege, setExtraIncomeWithCollege] = useState(0);
-  const [collegeCost, setCollegeCost] = useState(0);
+
+  const [collegeNameFreshmanYear, setCollegeNameFreshmanYear] = useState("");
+  const [collegeCostFreshmanYear, setCollegeCostFreshmanYear] = useState(0);
+
+  const [collegeNameSophomoreYear, setCollegeNameSophomoreYear] = useState("");
+  const [collegeCostSophomoreYear, setCollegeCostSophomoreYear] = useState(0);
+
+  const [collegeNameJuniorYear, setCollegeNameJuniorYear] = useState("");
+  const [collegeCostJuniorYear, setCollegeCostJuniorYear] = useState(0);
+
+  const [collegeNameSeniorYear, setCollegeNameSeniorYear] = useState("");
+  const [collegeCostSeniorYear, setCollegeCostSeniorYear] = useState(0);
+
+  const [collegeCostTotal, setCollegeCostTotal] = useState(0);
+
+  const [financialValueOfCollege, setFinancialValueOfCollege] = useState(0);
+
+  useEffect(() => {
+    setCollegeCostTotal(collegeCostFreshmanYear + collegeCostSophomoreYear + collegeCostJuniorYear + collegeCostSeniorYear);
+  }, [collegeCostFreshmanYear, collegeCostSophomoreYear, collegeCostJuniorYear, collegeCostSeniorYear]);
 
   useEffect(() => {
     setCareerWithCollege((prevState) => ({ ...prevState, lifetimeIncome: prevState.salary * prevState.years }));
@@ -19,6 +40,10 @@ export default function Calculator() {
     setExtraIncomeWithCollege(careerWithCollege.lifetimeIncome - careerWithOutCollege.lifetimeIncome);
   }, [careerWithCollege.lifetimeIncome, careerWithOutCollege.lifetimeIncome]);
 
+  useEffect(() => {
+    setFinancialValueOfCollege(extraIncomeWithCollege - collegeCostTotal);
+  }, [extraIncomeWithCollege, collegeCostTotal]);
+
   const formatCurrency = (value: number) => {
     return value.toLocaleString("en-US", { style: "currency", currency: "USD", minimumFractionDigits: 0 });
   };
@@ -26,7 +51,7 @@ export default function Calculator() {
   return (
     <div className='navbar-spacer footer-spacer'>
       <div style={{ position: "fixed" }}>
-        <CalculatorNavbar setCollegeCost={setCollegeCost} />
+        <CalculatorNavbar setCollegeCost={setCollegeCostFreshmanYear} setCollegeName={setCollegeNameFreshmanYear} />
       </div>
       <div style={{ display: "flex", flexDirection: "column", alignContent: "center", paddingTop: "40px", margin: "40px" }}>
         <h1>College Value Calculator</h1>
@@ -124,20 +149,35 @@ export default function Calculator() {
           <tbody>
             <tr>
               <td style={{ width: "20%" }}>College</td>
-              <td style={{ width: "20%" }}>{collegeCost}</td>
-              <td style={{ width: "20%" }}>{collegeCost}</td>
-              <td style={{ width: "20%" }}>{collegeCost}</td>
-              <td style={{ width: "20%" }}>{collegeCost}</td>
+              <td style={{ width: "20%" }}>
+                <CalculatorCustomDropDown
+                  colleges={colleges}
+                  setCollegeCost={setCollegeCostFreshmanYear}
+                  setCollegeName={setCollegeNameFreshmanYear}
+                />
+              </td>
+              <td style={{ width: "20%" }}>
+                <CalculatorCustomDropDown
+                  colleges={colleges}
+                  setCollegeCost={setCollegeCostSophomoreYear}
+                  setCollegeName={setCollegeNameSophomoreYear}
+                />
+              </td>
+              <td style={{ width: "20%" }}>
+                <CalculatorCustomDropDown colleges={colleges} setCollegeCost={setCollegeCostJuniorYear} setCollegeName={setCollegeNameJuniorYear} />
+              </td>
+              <td style={{ width: "20%" }}>
+                <CalculatorCustomDropDown colleges={colleges} setCollegeCost={setCollegeCostSeniorYear} setCollegeName={setCollegeNameSeniorYear} />
+              </td>
             </tr>
 
             <tr>
               <td style={{ width: "20%" }}>Tuition</td>
-              <td style={{ width: "20%" }}>{collegeCost}</td>
-              <td style={{ width: "20%" }}>{collegeCost}</td>
-              <td style={{ width: "20%" }}>{collegeCost}</td>
-              <td style={{ width: "20%" }}>{collegeCost}</td>
+              <td style={{ width: "20%" }}>{collegeCostFreshmanYear}</td>
+              <td style={{ width: "20%" }}>{collegeCostSophomoreYear}</td>
+              <td style={{ width: "20%" }}>{collegeCostJuniorYear}</td>
+              <td style={{ width: "20%" }}>{collegeCostSeniorYear}</td>
             </tr>
-
             <tr>
               <td style={{ width: "20%" }}>Housing</td>
               <td style={{ width: "20%" }}>
@@ -199,6 +239,13 @@ export default function Calculator() {
               <td style={{ width: "20%" }}>
                 <input style={{ width: "100%", textAlign: "center" }} type='number' />
               </td>
+            </tr>
+            <tr>
+              <td style={{ width: "20%" }}>Total College Cost</td>
+              <td style={{ width: "20%" }}></td>
+              <td style={{ width: "20%" }}></td>
+              <td style={{ width: "20%" }}></td>
+              <td style={{ width: "20%" }}>{collegeCostTotal}</td>
             </tr>
           </tbody>
         </table>
@@ -371,12 +418,12 @@ export default function Calculator() {
           <tbody>
             <tr>
               <td style={{ width: "50%" }}>Extra Income with College</td>
-              <td style={{ width: "50%" }}>###</td>
+              <td style={{ width: "50%" }}>{extraIncomeWithCollege}</td>
             </tr>
 
             <tr>
               <td style={{ width: "50%" }}>Total College Cost</td>
-              <td style={{ width: "50%" }}>###</td>
+              <td style={{ width: "50%" }}>{collegeCostTotal}</td>
             </tr>
 
             <tr>
@@ -386,7 +433,7 @@ export default function Calculator() {
 
             <tr>
               <td style={{ fontWeight: "bold", width: "50%" }}>Financial Value of College</td>
-              <td style={{ width: "50%" }}>###</td>
+              <td style={{ width: "50%" }}>{financialValueOfCollege}</td>
             </tr>
           </tbody>
         </table>
