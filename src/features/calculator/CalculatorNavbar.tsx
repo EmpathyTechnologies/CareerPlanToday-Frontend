@@ -19,14 +19,6 @@ export default function CalculatorNavbar({ setCollegeCost, setCollegeName }: any
         <Dropdown.Item href='#/action-3'>Something else</Dropdown.Item>
       </DropdownButton>
       &nbsp;
-      <CalculatorCustomDropDown colleges={colleges} setCollegeCost={setCollegeCost} setCollegeName={setCollegeName} />
-      &nbsp;
-      <DropdownButton title='College'>
-        <Dropdown.Item href='#/action-1'>Action</Dropdown.Item>
-        <Dropdown.Item href='#/action-2'>Another action</Dropdown.Item>
-        <Dropdown.Item href='#/action-3'>Something else</Dropdown.Item>
-      </DropdownButton>
-      &nbsp;
       <DropdownButton title='Home State'>
         <Dropdown.Item href='#/action-1'>Action</Dropdown.Item>
         <Dropdown.Item href='#/action-2'>Another action</Dropdown.Item>
