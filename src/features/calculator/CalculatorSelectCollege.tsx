@@ -2,14 +2,33 @@ import React, { useState, forwardRef } from "react";
 import Dropdown from "react-bootstrap/Dropdown";
 import Form from "react-bootstrap/Form";
 
-type CustomToggleProps = {
+type LabelProps = {
   children: React.ReactNode;
   onClick: React.MouseEventHandler<HTMLAnchorElement>;
   label: string;
   setLabel: React.Dispatch<React.SetStateAction<string>>;
 };
 
-const CustomToggle = forwardRef<HTMLAnchorElement, CustomToggleProps>(({ children, onClick, label, setLabel }, ref) => (
+type MenuProps = {
+  children: React.ReactNode;
+  style: React.CSSProperties;
+  className?: string;
+  "aria-labelledby": string;
+  label: string;
+  setLabel: React.Dispatch<React.SetStateAction<string>>;
+  setCollegeName: React.Dispatch<React.SetStateAction<string>>;
+  setCollegeCost: React.Dispatch<React.SetStateAction<number>>;
+  freshmenYear?: boolean;
+  setSophomoreCollege?: any;
+  setJuniorCollege?: any;
+  setSeniorCollege?: any;
+  setSophomoreTuition?: any;
+  setJuniorTuition?: any;
+  setSeniorTuition?: any;
+  colleges: any[];
+};
+
+const Label = forwardRef<HTMLAnchorElement, LabelProps>(({ children, onClick, label, setLabel }, ref) => (
   <a
     href=''
     ref={ref}
@@ -22,20 +41,28 @@ const CustomToggle = forwardRef<HTMLAnchorElement, CustomToggleProps>(({ childre
   </a>
 ));
 
-type CustomMenuProps = {
-  children: React.ReactNode;
-  style: React.CSSProperties;
-  className?: string;
-  "aria-labelledby": string;
-  label: string;
-  setLabel: React.Dispatch<React.SetStateAction<string>>;
-  setCollegeName: React.Dispatch<React.SetStateAction<string>>;
-  setCollegeCost: React.Dispatch<React.SetStateAction<number>>;
-  colleges: any[]; // add colleges to the type
-};
-
-const CustomMenu = forwardRef<HTMLDivElement, CustomMenuProps>(
-  ({ children, style, className, "aria-labelledby": labeledBy, label, setLabel, setCollegeName, setCollegeCost, colleges }, ref) => {
+const Menu = forwardRef<HTMLDivElement, MenuProps>(
+  (
+    {
+      children,
+      style,
+      className,
+      "aria-labelledby": labeledBy,
+      label,
+      setLabel,
+      setCollegeName,
+      setCollegeCost,
+      freshmenYear,
+      setSophomoreCollege,
+      setJuniorCollege,
+      setSeniorCollege,
+      setSophomoreTuition,
+      setJuniorTuition,
+      setSeniorTuition,
+      colleges,
+    },
+    ref
+  ) => {
     const [value, setValue] = useState("");
 
     const handleOnClick = (eventKey: any, childLabel: string) => {
@@ -43,6 +70,15 @@ const CustomMenu = forwardRef<HTMLDivElement, CustomMenuProps>(
       setCollegeName(selectedCollege.name);
       setCollegeCost(selectedCollege.tuition);
       setLabel(childLabel);
+
+      if (freshmenYear) {
+        setSophomoreCollege(selectedCollege.name);
+        setJuniorCollege(selectedCollege.name);
+        setSeniorCollege(selectedCollege.name);
+        setSophomoreTuition(selectedCollege.tuition);
+        setJuniorTuition(selectedCollege.tuition);
+        setSeniorTuition(selectedCollege.tuition);
+      }
     };
 
     return (
@@ -71,21 +107,38 @@ const CustomMenu = forwardRef<HTMLDivElement, CustomMenuProps>(
   }
 );
 
-const CalculatorCustomDropDown = ({ colleges, setCollegeName, setCollegeCost }: any) => {
+const CalculatorSelectCollege = ({
+  colleges,
+  setCollegeName,
+  setCollegeCost,
+  freshmenYear,
+  setSophomoreCollege,
+  setJuniorCollege,
+  setSeniorCollege,
+  setSophomoreTuition,
+  setJuniorTuition,
+  setSeniorTuition,
+}: any) => {
   const [label, setLabel] = useState("Select College");
-
   return (
     <Dropdown>
-      <Dropdown.Toggle as={CustomToggle} id='dropdown-custom-components' label={label} setLabel={setLabel}>
+      <Dropdown.Toggle as={Label} id='dropdown-custom-components' label={label} setLabel={setLabel}>
         {label}
       </Dropdown.Toggle>
 
       <Dropdown.Menu
-        as={CustomMenu}
+        as={Menu}
         label={label}
         setLabel={setLabel}
         setCollegeName={setCollegeName}
         setCollegeCost={setCollegeCost}
+        freshmenYear={freshmenYear}
+        setSophomoreCollege={setSophomoreCollege}
+        setJuniorCollege={setJuniorCollege}
+        setSeniorCollege={setSeniorCollege}
+        setSophomoreTuition={setSophomoreTuition}
+        setJuniorTuition={setJuniorTuition}
+        setSeniorTuition={setSeniorTuition}
         colleges={colleges}>
         {colleges.map((college: any) => (
           <Dropdown.Item key={college.id} eventKey={college.id}>
@@ -97,4 +150,4 @@ const CalculatorCustomDropDown = ({ colleges, setCollegeName, setCollegeCost }: 
   );
 };
 
-export default CalculatorCustomDropDown;
+export default CalculatorSelectCollege;

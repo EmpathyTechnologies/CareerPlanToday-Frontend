@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import CalculatorNavbar from "../features/calculator/CalculatorNavbar";
-import CalculatorCustomDropDown from "../features/calculator/CalculatorCustomDropDown";
+import CalculatorSelectCollege from "../features/calculator/CalculatorSelectCollege";
 import colleges from "../data/colleges.json";
 
 export default function Calculator() {
@@ -59,6 +59,13 @@ export default function Calculator() {
 
   // college
 
+  // TODO:  update the CalculatorCustomDropDown component so that if freshman college is updated, then that component is updated too
+  useEffect(() => {
+    setSophomoreCollege(freshmanCollege);
+    setJuniorCollege(freshmanCollege);
+    setSeniorCollege(freshmanCollege);
+  }, [freshmanCollege]);
+
   useEffect(() => {
     setFreshmanTotalCost(freshmanTuition + freshmanHousing + freshmanBooksAndSupplies + freshmanOther - freshmanScholarship);
   }, [freshmanTuition, freshmanHousing, freshmanBooksAndSupplies, freshmanOther, freshmanScholarship]);
@@ -91,7 +98,7 @@ export default function Calculator() {
   return (
     <div className='navbar-spacer footer-spacer'>
       <div style={{ position: "fixed" }}>
-        <CalculatorNavbar setCollegeCost={setFreshmanTuition} setCollegeName={setFreshmanCollege} />
+        <CalculatorNavbar />
       </div>
       <div style={{ display: "flex", flexDirection: "column", alignContent: "center", paddingTop: "40px", margin: "40px" }}>
         <h1>College Value Calculator</h1>
@@ -190,16 +197,27 @@ export default function Calculator() {
             <tr>
               <td style={{ width: "20%" }}>College</td>
               <td style={{ width: "20%" }}>
-                <CalculatorCustomDropDown colleges={colleges} setCollegeCost={setFreshmanTuition} setCollegeName={setFreshmanCollege} />
+                <CalculatorSelectCollege
+                  colleges={colleges}
+                  setCollegeName={setFreshmanCollege}
+                  setCollegeCost={setFreshmanTuition}
+                  freshmenYear={true}
+                  setSophomoreCollege={setSophomoreCollege}
+                  setJuniorCollege={setJuniorCollege}
+                  setSeniorCollege={setSeniorCollege}
+                  setSophomoreTuition={setSophomoreTuition}
+                  setJuniorTuition={setJuniorTuition}
+                  setSeniorTuition={setSeniorTuition}
+                />
               </td>
               <td style={{ width: "20%" }}>
-                <CalculatorCustomDropDown colleges={colleges} setCollegeCost={setSophomoreTuition} setCollegeName={setSophomoreCollege} />
+                <CalculatorSelectCollege colleges={colleges} setCollegeName={setSophomoreCollege} setCollegeCost={setSophomoreTuition} />
               </td>
               <td style={{ width: "20%" }}>
-                <CalculatorCustomDropDown colleges={colleges} setCollegeCost={setJuniorTuition} setCollegeName={setJuniorCollege} />
+                <CalculatorSelectCollege colleges={colleges} setCollegeName={setJuniorCollege} setCollegeCost={setJuniorTuition} />
               </td>
               <td style={{ width: "20%" }}>
-                <CalculatorCustomDropDown colleges={colleges} setCollegeCost={setSeniorTuition} setCollegeName={setSeniorCollege} />
+                <CalculatorSelectCollege colleges={colleges} setCollegeName={setSeniorCollege} setCollegeCost={setSeniorTuition} />
               </td>
             </tr>
 
@@ -236,16 +254,36 @@ export default function Calculator() {
             <tr>
               <td style={{ width: "20%" }}>Scholarship</td>
               <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
+                <input
+                  style={{ width: "100%", textAlign: "center" }}
+                  type='number'
+                  value={freshmanScholarship}
+                  onChange={(e: any) => setFreshmanScholarship(e.target.value)}
+                />
               </td>
               <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
+                <input
+                  style={{ width: "100%", textAlign: "center" }}
+                  type='number'
+                  value={sophomoreScholarship}
+                  onChange={(e: any) => setSophomoreScholarship(e.target.value)}
+                />
               </td>
               <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
+                <input
+                  style={{ width: "100%", textAlign: "center" }}
+                  type='number'
+                  value={juniorScholarship}
+                  onChange={(e: any) => setJuniorScholarship(e.target.value)}
+                />
               </td>
               <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
+                <input
+                  style={{ width: "100%", textAlign: "center" }}
+                  type='number'
+                  value={seniorScholarship}
+                  onChange={(e: any) => setSeniorScholarship(e.target.value)}
+                />
               </td>
             </tr>
             <tr>
