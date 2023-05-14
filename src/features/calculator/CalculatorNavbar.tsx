@@ -1,10 +1,7 @@
 import "./CalculatorNavbar.css";
 import { Dropdown, DropdownButton } from "react-bootstrap";
-import careers from "../../data/careers.json";
-import colleges from "../../data/colleges.json";
-import CalculatorCustomDropDown from "../../features/calculator/CalculatorCustomDropDown";
 
-export default function CalculatorNavbar({ setCollegeCost, setCollegeName }: any) {
+export default function CalculatorNavbar() {
   return (
     <div className='CalculatorNavbar'>
       <DropdownButton title='Career with College'>
