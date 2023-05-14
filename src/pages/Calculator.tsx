@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import CalculatorNavbar from "../features/calculator/CalculatorNavbar";
 import CalculatorSelectCollege from "../features/calculator/CalculatorSelectCollege";
 import colleges from "../data/colleges.json";
+import { formatCurrency } from "../utilities/formatCurrency";
 
 export default function Calculator() {
   const [careerWithCollege, setCareerWithCollege] = useState({ salary: 50000, years: 40, lifetimeIncome: 2000000 });
@@ -258,7 +259,14 @@ export default function Calculator() {
                   style={{ width: "100%", textAlign: "center" }}
                   type='number'
                   value={freshmanScholarship}
-                  onChange={(e: any) => setFreshmanScholarship(e.target.value)}
+                  onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
+                    const value = parseInt(e.target.value);
+                    if (value < 0) {
+                      setFreshmanScholarship(0);
+                    } else {
+                      setFreshmanScholarship(value);
+                    }
+                  }}
                 />
               </td>
               <td style={{ width: "20%" }}>
@@ -266,7 +274,14 @@ export default function Calculator() {
                   style={{ width: "100%", textAlign: "center" }}
                   type='number'
                   value={sophomoreScholarship}
-                  onChange={(e: any) => setSophomoreScholarship(e.target.value)}
+                  onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
+                    const value = parseInt(e.target.value);
+                    if (value < 0) {
+                      setSophomoreScholarship(0);
+                    } else {
+                      setSophomoreScholarship(value);
+                    }
+                  }}
                 />
               </td>
               <td style={{ width: "20%" }}>
@@ -274,7 +289,14 @@ export default function Calculator() {
                   style={{ width: "100%", textAlign: "center" }}
                   type='number'
                   value={juniorScholarship}
-                  onChange={(e: any) => setJuniorScholarship(e.target.value)}
+                  onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
+                    const value = parseInt(e.target.value);
+                    if (value < 0) {
+                      setJuniorScholarship(0);
+                    } else {
+                      setJuniorScholarship(value);
+                    }
+                  }}
                 />
               </td>
               <td style={{ width: "20%" }}>
@@ -282,7 +304,14 @@ export default function Calculator() {
                   style={{ width: "100%", textAlign: "center" }}
                   type='number'
                   value={seniorScholarship}
-                  onChange={(e: any) => setSeniorScholarship(e.target.value)}
+                  onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
+                    const value = parseInt(e.target.value);
+                    if (value < 0) {
+                      setSeniorScholarship(0);
+                    } else {
+                      setSeniorScholarship(value);
+                    }
+                  }}
                 />
               </td>
             </tr>
@@ -469,17 +498,20 @@ export default function Calculator() {
         </table>
 
         {/* RESULTS */}
-        <table style={{ marginTop: "40px", width: "500px" }}>
+        <table style={{ marginTop: "40px" }}>
           <thead></thead>
           <tbody>
+            <td colSpan={5} style={{ background: "var(--Beak-Upper)", fontWeight: "bold", textAlign: "center", width: "100%" }}>
+              Financial Value of College
+            </td>
             <tr>
               <td style={{ width: "50%" }}>Extra Income with College</td>
-              <td style={{ width: "50%" }}>{extraIncomeWithCollege}</td>
+              <td style={{ width: "50%" }}>{formatCurrency(extraIncomeWithCollege)}</td>
             </tr>
 
             <tr>
               <td style={{ width: "50%" }}>Total College Cost</td>
-              <td style={{ width: "50%" }}>{collegeTotalCost}</td>
+              <td style={{ width: "50%" }}>{formatCurrency(collegeTotalCost)}</td>
             </tr>
 
             <tr>
@@ -488,8 +520,14 @@ export default function Calculator() {
             </tr>
 
             <tr>
-              <td style={{ fontWeight: "bold", width: "50%" }}>Financial Value of College</td>
-              <td style={{ width: "50%" }}>{financialValueOfCollege}</td>
+              <td style={{ fontWeight: "bold", width: "50%", fontSize: "32px" }}>Financial Value of College</td>
+              <td style={{ width: "50%", fontSize: "32px" }}>
+                {financialValueOfCollege < 0 ? (
+                  <span style={{ color: "red" }}>{formatCurrency(financialValueOfCollege)}</span>
+                ) : (
+                  <span> {formatCurrency(financialValueOfCollege)}</span>
+                )}
+              </td>
             </tr>
           </tbody>
         </table>
