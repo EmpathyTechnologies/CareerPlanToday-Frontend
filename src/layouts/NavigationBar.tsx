@@ -49,7 +49,7 @@ export default function NavigationBar(props: any) {
         </OverlayTrigger>
 
         <OverlayTrigger placement='bottom' overlay={calculatorTooltip}>
-          <a href='/calculator' onClick={() => setNavbarSelected("Calculator")} style={aTag}>
+          <a href='/plan' onClick={() => setNavbarSelected("Plan")} style={aTag}>
             <BsSpeedometer2 />
           </a>
         </OverlayTrigger>
