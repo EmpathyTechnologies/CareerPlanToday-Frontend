@@ -19,9 +19,9 @@ import Home from "./pages/Home";
 import Retire from "./pages/Retire";
 import NavigationBar from "./layouts/NavigationBar";
 import NoMatch from "./pages/404/NoMatch";
+import Plan from "./pages/Plan";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfUse from "./pages/TermsOfUse";
-
 function App() {
   ReactGA.initialize("UA-000000-01");
   ReactGA.pageview(window.location.pathname + window.location.search);
@@ -42,6 +42,7 @@ function App() {
         <Route path='colleges/:id' element={<College />} />
         <Route path='contact' element={<Contact />} />
         <Route path='feedback' element={<Feedback />} />
+        <Route path='plan' element={<Plan />} />
         <Route path='invest' element={<Retire />} />
         <Route path='privacypolicy' element={<PrivacyPolicy />} />
         <Route path='termsofuse' element={<TermsOfUse />} />
