@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import { Form, Button, ListGroup } from "react-bootstrap";
+import { Form, Button } from "react-bootstrap";
+import Alert from "react-bootstrap/Alert";
 
 interface FeedbackInterface {
   id: string;
@@ -18,24 +19,9 @@ function padZero(num: number): string {
   return num.toString().padStart(2, "0");
 }
 
-function formatDate(input: string): string {
-  const [date, time] = input.split("_");
-  const dateObj = new Date(date);
-  const weekday = dateObj.toLocaleString("en-us", { weekday: "long" });
-  const month = dateObj.toLocaleString("en-us", { month: "long" });
-  const day = dateObj.getDate();
-  const year = dateObj.getFullYear();
-  const formattedDate = `${weekday}, ${month} ${day}, ${year}`;
-  const [hours, minutes, seconds] = time.split(":").map((component) => parseInt(component));
-  const meridiem = hours >= 12 ? "PM" : "AM";
-  const formattedHours = hours % 12 || 12;
-  const formattedMinutes = minutes.toString().padStart(2, "0");
-  const formattedSeconds = seconds.toString().padStart(2, "0");
-  const formattedTime = `${formattedHours}:${formattedMinutes}:${formattedSeconds} ${meridiem} EDT`;
-  return `${formattedDate}, ${formattedTime}`;
-}
-
 function Feedback() {
+  const [show, setShow] = useState(false);
+
   const [feedbackList, setFeedbackList] = useState<FeedbackInterface[]>([]);
   const [newMessage, setNewFeedback] = useState("");
 
@@ -63,19 +49,18 @@ function Feedback() {
     }
   };
 
-  const handleDeleteFeedback = (id: string) => {
-    fetch(`https://qsv6ogegh7.execute-api.us-east-1.amazonaws.com/production/feedback/${id}`, {
-      method: "DELETE",
-    }).then(() => {
-      setFeedbackList((prevState) => prevState.filter((feedback) => feedback.id !== id));
-    });
-  };
-
   return (
     <div className='navbar-spacer footer-spacer' style={{ margin: "0 20px" }}>
       <br />
       <div>We always want to improve and your feedback helps us do exactly that.</div>
       <br />
+      {show ? (
+        <Alert variant={"success"} onClose={() => setShow(false)} dismissible>
+          Feedback submitted
+        </Alert>
+      ) : (
+        ""
+      )}
       <Form onSubmit={handleSubmitFeedback}>
         <Form.Group controlId='formFeedback'>
           <Form.Control
@@ -86,26 +71,10 @@ function Feedback() {
             onChange={(e) => setNewFeedback(e.target.value)}
           />
         </Form.Group>
-        <Button variant='primary' type='submit'>
+        <Button variant='primary' type='submit' onClick={() => setShow(true)}>
           Submit
         </Button>
       </Form>
-
-      <br />
-
-      <ListGroup>
-        {feedbackList.map((feedback) => (
-          <ListGroup.Item key={feedback.id} style={{ display: "flex", justifyContent: "space-between" }}>
-            <div> {feedback.message}</div>
-            <div>
-              {formatDate(feedback.id)}{" "}
-              <Button variant='danger' onClick={() => handleDeleteFeedback(feedback.id)}>
-                Delete
-              </Button>
-            </div>
-          </ListGroup.Item>
-        ))}
-      </ListGroup>
     </div>
   );
 }
