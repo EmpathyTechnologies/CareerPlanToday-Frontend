@@ -1,6 +1,8 @@
-import React from "react";
-import "./Cards.css";
-import CardItem from "./CardItem";
+import React from 'react';
+import './Cards.css';
+import CardItem from './CardItem';
+import exploreCareersImg from '../../assets/exploreCareersImg.jpg';
+
 
 function Cards() {
   return (
@@ -10,7 +12,7 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src="images/img-9.jpg"
+              src={exploreCareersImg}
               text="Explore career salaries"
               label="Careers"
               path="/services"
