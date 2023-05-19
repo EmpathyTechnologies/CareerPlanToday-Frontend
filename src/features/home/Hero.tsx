@@ -21,7 +21,7 @@ function Hero() {
           // buttonSize="btn--large"
           // onClick={console.log("hey")}
         >
-          COMPARE COLLEGES <i className='far fa-play-circle' />
+          COMPARE COLLEGES 
         </Button>
       </div>
     </div>
