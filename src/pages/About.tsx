@@ -1,6 +1,5 @@
 import styles from "../assets/styles/About.module.css";
 import Card from "react-bootstrap/Card";
-
 import eric from "../assets/images/about/eric.jpg";
 import maxwell from "../assets/images/about/maxwell.jpg";
 import ramiro from "../assets/images/about/ramiro.jpg";

@@ -53,18 +53,6 @@ export default function NavigationBar(props: any) {
             <BsSpeedometer2 />
           </a>
         </OverlayTrigger>
-
-        <OverlayTrigger placement='bottom' overlay={budgetTooltip}>
-          <a href='/budget' onClick={() => setNavbarSelected("Budget")} style={aTag}>
-            <BsUmbrella />
-          </a>
-        </OverlayTrigger>
-
-        <OverlayTrigger placement='bottom' overlay={investTooltip}>
-          <a href='/invest' onClick={() => setNavbarSelected("Invest")} style={aTag}>
-            <BsCoin />
-          </a>
-        </OverlayTrigger>
       </div>
       {/* <div></div> */}
     </div>
