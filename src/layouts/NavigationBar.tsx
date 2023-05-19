@@ -1,5 +1,8 @@
-import { BsGear, BsSpeedometer2, BsUmbrella, BsCoin, BsMortarboardFill, BsTools, BsFillPiggyBankFill } from "react-icons/bs";
+import { BsSpeedometer2, BsMortarboardFill, BsTools } from "react-icons/bs";
+import { TbBusinessplan } from "react-icons/tb";
+
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
+
 import "./NavigationBar.css";
 
 export default function NavigationBar(props: any) {
@@ -26,9 +29,7 @@ export default function NavigationBar(props: any) {
 
   const careersTooltip = <Tooltip id='gear-tooltip'>Explore Careers</Tooltip>;
   const collegesTooltip = <Tooltip id='gear-tooltip'>Compare Colleges</Tooltip>;
-  const calculatorTooltip = <Tooltip id='gear-tooltip'>Determine the Financial Value of College</Tooltip>;
-  const budgetTooltip = <Tooltip id='gear-tooltip'>Explore How to Afford Your Lifestyle</Tooltip>;
-  const investTooltip = <Tooltip id='gear-tooltip'>Form Your Retirement Plan</Tooltip>;
+  const planTooltip = <Tooltip id='gear-tooltip'>Form Your Financial Plan</Tooltip>;
 
   return (
     <div style={containerStyle} className='navbar-fixed navbar-zindex-top'>
@@ -48,9 +49,9 @@ export default function NavigationBar(props: any) {
           </a>
         </OverlayTrigger>
 
-        <OverlayTrigger placement='bottom' overlay={calculatorTooltip}>
+        <OverlayTrigger placement='bottom' overlay={planTooltip}>
           <a href='/plan' onClick={() => setNavbarSelected("Plan")} style={aTag}>
-            <BsSpeedometer2 />
+            <TbBusinessplan />
           </a>
         </OverlayTrigger>
       </div>
