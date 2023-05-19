@@ -8,10 +8,10 @@ function Cards() {
       <h1>Check out these resources</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
-          <ul className='cards__items'>
+          {/* <ul className='cards__items'>
             <CardItem src='images/img-9.jpg' text='Explore career salaries' label='Careers' path='/services' />
             <CardItem src='images/img-2.jpg' text='Compare college costs' label='Colleges' path='/services' />
-          </ul>
+          </ul> */}
           <ul className='cards__items'>
             <CardItem src='images/img-3.jpg' text='Determine the financial value of college' label='Calculator' path='/services' />
             <CardItem src='images/img-4.jpg' text='Explore how to afford your lifestyle' label='Budget' path='/products' />
