@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import allColleges from "../data/colleges.json";
 import Button from "react-bootstrap/Button";
-import styles from "../assets/College.module.css";
+import styles from "../assets/styles/College.module.css";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 

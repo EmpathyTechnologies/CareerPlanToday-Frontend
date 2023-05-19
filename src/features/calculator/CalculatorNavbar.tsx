@@ -4,7 +4,6 @@ import { Dropdown, DropdownButton } from "react-bootstrap";
 export default function CalculatorNavbar() {
   return (
     <div className='CalculatorNavbar'>
-      {/* ToDo - Make these drop downs with favorites at the top */}
       <DropdownButton title='Career with College'>
         <Dropdown.Item href='#/action-1'>Action</Dropdown.Item>
         <Dropdown.Item href='#/action-2'>Another action</Dropdown.Item>
@@ -12,12 +11,6 @@ export default function CalculatorNavbar() {
       </DropdownButton>
       &nbsp;
       <DropdownButton title='Career without College'>
-        <Dropdown.Item href='#/action-1'>Action</Dropdown.Item>
-        <Dropdown.Item href='#/action-2'>Another action</Dropdown.Item>
-        <Dropdown.Item href='#/action-3'>Something else</Dropdown.Item>
-      </DropdownButton>
-      &nbsp;
-      <DropdownButton title='College'>
         <Dropdown.Item href='#/action-1'>Action</Dropdown.Item>
         <Dropdown.Item href='#/action-2'>Another action</Dropdown.Item>
         <Dropdown.Item href='#/action-3'>Something else</Dropdown.Item>

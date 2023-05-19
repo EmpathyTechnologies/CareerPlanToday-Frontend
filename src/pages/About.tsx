@@ -1,32 +1,32 @@
+import styles from "../assets/styles/About.module.css";
 import Card from "react-bootstrap/Card";
-import ramiroPic from "../assets/ramiroPic.jpg";
-import ericPic from "../assets/ericPic.jpg";
-import yogiPic from "../assets/yogiPic.jpg";
-import maxPic from "../assets/maxPic.jpg";
-import styles from "../assets/About.module.css";
+import eric from "../assets/images/about/eric.jpg";
+import maxwell from "../assets/images/about/maxwell.jpg";
+import ramiro from "../assets/images/about/ramiro.jpg";
+import yogi from "../assets/images/about/yogi.jpg";
 
 export default function About() {
   const people = [
     {
-      img: ramiroPic,
+      img: ramiro,
       name: "Ramiro",
       position: "Software Developer",
       linkedIn: "https://www.linkedin.com/in/ramiro-pena/",
     },
     {
-      img: yogiPic,
+      img: yogi,
       name: "Yogi",
       position: "Software Developer",
       linkedIn: "https://www.linkedin.com/in/yogi-zipori/",
     },
     {
-      img: maxPic,
+      img: maxwell,
       name: "Max",
       position: "Software Developer",
       linkedIn: "https://www.linkedin.com/in/maxwell-morrow-6a3085228/",
     },
     {
-      img: ericPic,
+      img: eric,
       name: "Eric",
       position: "Software Developer",
       linkedIn: "https://www.linkedin.com/in/hoov/",
