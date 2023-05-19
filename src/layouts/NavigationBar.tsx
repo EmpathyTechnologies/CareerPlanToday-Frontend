@@ -1,4 +1,4 @@
-import { BsGear, BsSpeedometer2, BsUmbrella, BsCoin, BsMortarboardFill, BsTools, BsFillPiggyBankFill } from "react-icons/bs";
+import { BsSpeedometer2, BsUmbrella, BsCoin, BsMortarboardFill, BsTools } from "react-icons/bs";
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
 import "./NavigationBar.css";
 
