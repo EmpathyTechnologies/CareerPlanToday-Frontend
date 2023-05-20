@@ -1,4 +1,4 @@
-import "./CalculatorNavbar.css";
+import "../../assets/styles/CalculatorNavbar.css";
 import { Dropdown, DropdownButton } from "react-bootstrap";
 
 export default function CalculatorNavbar() {

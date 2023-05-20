@@ -1,23 +1,27 @@
-import './Cards.css';
-import CardItem from './CardItem';
-import { Button } from 'react-bootstrap';
-import teacherImg from '../../assets/images/home/teacher.png';
-import surgeryImg from '../../assets/images/home/surgery.png';
-import developerImg from '../../assets/images/home/developer.png';
-import friendsstudyingImg from '../../assets/images/home/friendsstudying.png';
-import proudstudentImg from '../../assets/images/home/proudstudent.png';
-import studentstudyingImg from '../../assets/images/home/studentstudying.png';
-import calculatorImg from '../../assets/images/home/calculator.jpeg';
-import budgetImg from '../../assets/images/home/budget.png';
-import investImg from '../../assets/images/home/invest.png';
+import "../../assets/styles/Cards.css";
+import CardItem from "./CardItem";
+import { Button, Row } from "react-bootstrap"; /* imported Row */
+import teacherImg from "../../assets/images/home/teacher.png";
+import surgeryImg from "../../assets/images/home/surgery.png";
+import developerImg from "../../assets/images/home/developer.png";
+import friendsstudyingImg from "../../assets/images/home/friendsstudying.png";
+import proudstudentImg from "../../assets/images/home/proudstudent.png";
+import studentstudyingImg from "../../assets/images/home/studentstudying.png";
+import calculatorImg from "../../assets/images/home/calculator.jpeg";
+import budgetImg from "../../assets/images/home/budget.png";
+import investImg from "../../assets/images/home/invest.png";
 
 function Cards() {
   return (
     <div className='cards'>
-      <div className="d-grid gap-2">
-      <Button href='./careers'>Explore Careers</Button>
+      <div className='d-grid gap-2'>
+        <Button href='./careers' variant='primary'>
+          Explore Careers
+        </Button>
       </div>
-      <div className='cards__container'>
+
+      <Row className='cards__container'>
+        {/* changed div to Row */}
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem src={teacherImg} text='Average Pay $61,690' label='Teacher' path='/careers' />
@@ -25,11 +29,11 @@ function Cards() {
             <CardItem src={developerImg} text='Average Pay $127,260' label='Developer' path='/careers' />
           </ul>
         </div>
+      </Row>
+      <div className='d-grid gap-2'>
+        <Button href='./colleges'>Compare Colleges</Button>
       </div>
-      <div className="d-grid gap-2">
-      <Button href='./colleges'>Compare Colleges</Button>
-      </div>
-      <div className='cards__container'>
+      <Row className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem src={proudstudentImg} text='Annual Cost $11,745' label='University of Washington' path='/colleges' />
@@ -37,11 +41,11 @@ function Cards() {
             <CardItem src={friendsstudyingImg} text='Annual Cost $57,699' label='University of Notre Dame' path='/colleges' />
           </ul>
         </div>
+      </Row>
+      <div className='d-grid gap-2'>
+        <Button href='./plan'>Form Your Plan</Button>
       </div>
-      <div className="d-grid gap-2">
-      <Button href='./plan'>Form Your Plan</Button>
-      </div>
-      <div className='cards__container'>
+      <Row className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem src={calculatorImg} text='Determine the financial value of college' label='Calculator' path='/plan' />
@@ -49,7 +53,7 @@ function Cards() {
             <CardItem src={investImg} text='Form your retirement plan' label='Invest' path='/plan' />
           </ul>
         </div>
-      </div>
+      </Row>
     </div>
   );
 }

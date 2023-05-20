@@ -1,7 +1,6 @@
 import ReactGA from "react-ga";
 import { Routes, Route } from "react-router-dom";
-import { useState } from "react";
-import "./App.css";
+import "./assets/styles/App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import About from "./pages/About";
@@ -18,18 +17,17 @@ import Footer from "./layouts/Footer";
 import Home from "./pages/Home";
 import Retire from "./pages/Retire";
 import NavigationBar from "./layouts/NavigationBar";
-import NoMatch from "./pages/404/NoMatch";
+import NotFound from "./pages/NotFound";
 import Plan from "./pages/Plan";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfUse from "./pages/TermsOfUse";
 function App() {
   ReactGA.initialize("UA-000000-01");
   ReactGA.pageview(window.location.pathname + window.location.search);
-  const [navbarSelected, setNavbarSelected] = useState<string>("Careers");
 
   return (
     <>
-      <NavigationBar navbarSelected={navbarSelected} setNavbarSelected={setNavbarSelected} />
+      <NavigationBar />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='about' element={<About />} />
@@ -46,7 +44,7 @@ function App() {
         <Route path='invest' element={<Retire />} />
         <Route path='privacypolicy' element={<PrivacyPolicy />} />
         <Route path='termsofuse' element={<TermsOfUse />} />
-        <Route path='*' element={<NoMatch />} />
+        <Route path='*' element={<NotFound />} />
       </Routes>
       <Footer />
     </>

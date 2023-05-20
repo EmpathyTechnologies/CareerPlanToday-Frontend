@@ -1,4 +1,4 @@
-import "../features/colleges/assets/colleges.css";
+import "../assets/styles/colleges.css";
 import { useState, useEffect } from "react";
 import { minTuition, maxTuition } from "../features/colleges/utils/minAndMaxTuition";
 import { filterColleges } from "../features/colleges/utils/filterColleges";

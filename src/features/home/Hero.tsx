@@ -1,27 +1,16 @@
 import { Button } from "react-bootstrap";
-import "./Hero.css";
+import "../../assets/styles/Hero.css";
 
 function Hero() {
   return (
-    <div className='hero-container'>
-      <video src='/videos/globe.mp4' autoPlay loop muted />
-      <h1>CAREER PLAN TODAY</h1>
-      <p>Design Your Better Tomorrow Today</p>
+    <div className='hero-container' style={{ backgroundColor: "#1cb0f6" }}>
+      <h1>Design Your Better Tomorrow Today</h1>
       <div className='hero-btns'>
-        <Button
-          className='btns'
-          // buttonStyle="btn--outline"
-          // buttonSize="btn--large"
-        >
+        <Button variant='success' className='btns'>
           EXPLORE CAREERS
         </Button>
-        <Button
-          className='btns'
-          // buttonStyle="btn--primary"
-          // buttonSize="btn--large"
-          // onClick={console.log("hey")}
-        >
-          COMPARE COLLEGES 
+        <Button variant='success' className='btns'>
+          COMPARE COLLEGES
         </Button>
       </div>
     </div>
