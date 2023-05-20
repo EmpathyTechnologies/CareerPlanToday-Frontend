@@ -1,5 +1,5 @@
 import React from "react";
-import "./CareersNavbar.css";
+import "../../../../assets/styles/CareersNavbar.css";
 import CareersFilterByCareerField from "./CareersFilterByCareerField";
 import CareersFilterBySalary from "./CareersFilterBySalary";
 

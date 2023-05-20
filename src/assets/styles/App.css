@@ -1,0 +1,103 @@
+:root {
+  /* Core Colors */
+  --Feather-Green: #58cc02;
+  --Mask-Green: #89e219;
+  --Eel: #4b4b4b;
+  --Snow: #ffffff;
+
+  /* Secondary Colors */
+  --Macaw: #1cb0f6;
+  --Cardinal: #ff4b4b;
+  --Bee: #ffc800;
+  --Fox: #ff9600;
+  --Feather-Green: #ce82ff;
+  --Humpback: #2b70c9;
+
+  /* Neutrals */
+  --Eel: #4b4b4b;
+  --Wolf: #777777;
+  --Hare: #afafaf;
+  --Swan: #e5e5e5;
+  --Polar: #f7f7f7;
+  --Snow: #ffffff;
+
+  /* Other */
+  --Wing-Overlay: #43c000;
+  --Beak-Inner: #b66e28;
+  --Beak-Lower-Feet: #f49000;
+  --Beak-Upper: #ffc200;
+  --Beak-Highlight: #ffde00;
+  --Tongue-Pink: #ffcaff;
+}
+
+.navbar-fixed {
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+.navbar-zindex-top {
+  z-index: 10;
+}
+
+.navbar-spacer {
+  padding-top: 64px;
+}
+
+.footer-spacer {
+  padding-bottom: 50px;
+}
+
+/* Cards.css */
+
+/* Override the primary color */
+
+:root {
+  /* Core Colors */
+  --Feather-Green: #58cc02;
+  --Mask-Green: #89e219;
+  --Eel: #4b4b4b;
+  --Snow: #ffffff;
+
+  /* Secondary Colors */
+  --Macaw: #1cb0f6;
+  --Cardinal: #ff4b4b;
+  --Bee: #ffc800;
+  --Fox: #ff9600;
+  --Feather-Green: #ce82ff;
+  --Humpback: #2b70c9;
+
+  /* Neutrals */
+  --Eel: #4b4b4b;
+  --Wolf: #777777;
+  --Hare: #afafaf;
+  --Swan: #e5e5e5;
+  --Polar: #f7f7f7;
+  --Snow: #ffffff;
+
+  /* Other */
+  --Wing-Overlay: #43c000;
+  --Beak-Inner: #b66e28;
+  --Beak-Lower-Feet: #f49000;
+  --Beak-Upper: #ffc200;
+  --Beak-Highlight: #ffde00;
+  --Tongue-Pink: #ffcaff;
+}
+
+.navbar-fixed {
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+.navbar-zindex-top {
+  z-index: 10;
+}
+
+.navbar-spacer {
+  padding-top: 64px;
+}
+
+.footer-spacer {
+  padding-bottom: 50px;
+}

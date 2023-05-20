@@ -1,3 +1,22 @@
+.navbar-container {
+  height: 64px;
+  background: var(--Humpback);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 24px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: var(--Polar);
+  background: var(--Humpback);
+  margin-right: 20px;
+}
+
 .tooltip.show {
   opacity: 1;
   color: var(--Humpback);

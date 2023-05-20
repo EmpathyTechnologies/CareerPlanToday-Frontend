@@ -1,5 +1,5 @@
 import Nav from "react-bootstrap/Nav";
-import "./Footer.css";
+import "../assets/styles/Footer.css";
 export default function Footer() {
   return (
     <div className='footer-basic'>

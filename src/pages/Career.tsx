@@ -3,7 +3,7 @@ import allCareers from "../data/careers.json";
 import { formatCurrency } from "../utilities/formatCurrency";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import NoMatch from "./404/NoMatch";
+import NotFound from "./NotFound";
 
 export default function Career() {
   let { id } = useParams();
@@ -11,7 +11,7 @@ export default function Career() {
   let answer: any = allCareers.filter((career) => career.id === Number(id));
   answer = answer[0];
   if (!answer) {
-    return <NoMatch />;
+    return <NotFound />;
   }
 
   function checkIf208000(salary: string) {

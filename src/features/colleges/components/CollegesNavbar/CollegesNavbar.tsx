@@ -1,5 +1,5 @@
 import React from "react";
-import "./CollegesNavbar.css";
+import "../../../../assets/styles/CollegesNavbar.css";
 import CollegesFilterByStates from "./CollegesFilterByStates";
 import CollegesFilterByTuition from "./CollegesFilterByTuition";
 
