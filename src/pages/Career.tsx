@@ -20,8 +20,7 @@ export default function Career() {
   }
 
   return (
-    <Card className='navbar-spacer footer-spacer' style={{ width: "18rem" }}>
-      {/* <Card.Img variant='top' src='holder.js/100px180' /> */}
+    <Card className='navbar-spacer footer-spacer career-width'>
       <Card.Body>
         <Card.Title>{answer.title}</Card.Title>
         <Card.Text>

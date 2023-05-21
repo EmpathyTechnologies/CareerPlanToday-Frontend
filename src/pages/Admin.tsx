@@ -46,10 +46,10 @@ export default function Admin() {
     <div className='navbar-spacer'>
       <ListGroup>
         {feedbackList.map((feedback) => (
-          <ListGroup.Item key={feedback.id} style={{ display: "flex", justifyContent: "space-between" }}>
+          <ListGroup.Item key={feedback.id} className='admin-display-flex-justifycontent-space-between'>
             <div> {feedback.message}</div>
             <div>
-              {formatDate(feedback.id)}{" "}
+              {formatDate(feedback.id)}
               <Button variant='danger' onClick={() => handleDeleteFeedback(feedback.id)}>
                 Delete
               </Button>

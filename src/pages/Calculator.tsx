@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import CalculatorNavbar from "../features/calculator/CalculatorNavbar";
 import CalculatorSelectCollege from "../features/calculator/CalculatorSelectCollege";
 import colleges from "../data/colleges.json";
-import { formatCurrency } from "../utilities/formatCurrency";
 
 export default function Calculator() {
   const [careerWithCollege, setCareerWithCollege] = useState({ salary: 50000, years: 40, lifetimeIncome: 2000000 });
@@ -42,7 +41,6 @@ export default function Calculator() {
   const [seniorTotalCost, setSeniorTotalCost] = useState(0);
 
   const [collegeTotalCost, setCollegeTotalCost] = useState(0);
-
   const [financialValueOfCollege, setFinancialValueOfCollege] = useState(0);
 
   // career
@@ -98,106 +96,107 @@ export default function Calculator() {
 
   return (
     <div className='navbar-spacer footer-spacer'>
-      <div style={{ position: "fixed" }}>
+      <div className='calculator-position'>
         <CalculatorNavbar />
       </div>
-      <div style={{ display: "flex", flexDirection: "column", alignContent: "center", paddingTop: "40px", margin: "40px" }}>
+      <div className='calculator-container'>
         <h1>College Value Calculator</h1>
         {/* EXPLORE CAREERS */}
         <table>
           <thead>
-            <tr style={{ fontWeight: "bold", textAlign: "center", width: "100%", background: "var(--Humpback)", color: "white" }}>
-              <td colSpan={5} style={{ background: "var(--Humpback)", color: "white" }}>
+            <tr className='calculator-explore-careers-table-row'>
+              <td colSpan={5} className='calculator-table-row-header'>
                 Explore Careers
               </td>
             </tr>
-            <tr style={{ background: "var(--Swan)" }}>
-              <th style={{ width: "20%" }}></th>
-              <th style={{ width: "20%" }}></th>
-              <th style={{ width: "20%", textAlign: "center" }}>Salary</th>
-              <th style={{ width: "20%", textAlign: "center" }}>Years to Work</th>
-              <th style={{ width: "20%", textAlign: "center" }}>Lifetime Income</th>
+            <tr className='background-swan'>
+              <th className='calculator-width'></th>
+              <th className='calculator-width'></th>
+
+              <th className='calculator-width-20-percent-textalign-center'>Salary</th>
+              <th className='calculator-width-20-percent-textalign-center'>Years to Work</th>
+              <th className='calculator-width-20-percent-textalign-center'>Lifetime Income</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td style={{ width: "20%" }}>Career with College</td>
-              <td style={{ width: "20%" }}></td>
-              <td style={{ width: "20%" }}>
+              <td className='calculator-width'>Career with College</td>
+              <td className='calculator-width'></td>
+              <td className='calculator-width'>
                 <input
-                  style={{ width: "100%", textAlign: "center" }}
+                  className='calculator-width-center'
                   type='number'
                   value={careerWithCollege.salary}
                   onChange={(e) => setCareerWithCollege({ ...careerWithCollege, salary: Number(e.target.value) })}
                 />
               </td>
-              <td style={{ width: "20%" }}>
+              <td className='calculator-width'>
                 <input
-                  style={{ width: "100%", textAlign: "center" }}
+                  className='calculator-width-center'
                   type='number'
                   value={careerWithCollege.years}
                   onChange={(e) => setCareerWithCollege({ ...careerWithCollege, years: Number(e.target.value) })}
                 />
               </td>
-              <td style={{ width: "20%", textAlign: "center" }}>{formatCurrency(careerWithCollege.lifetimeIncome)}</td>
+              <td className='calculator-width-20-percent-textalign-center'>{formatCurrency(careerWithCollege.lifetimeIncome)}</td>
             </tr>
 
             <tr>
-              <td style={{ width: "20%" }}>Career without College</td>
+              <td className='calculator-width'>Career without College</td>
 
-              <td style={{ width: "20%" }}></td>
+              <td className='calculator-width'></td>
 
-              <td style={{ width: "20%" }}>
+              <td className='calculator-width'>
                 <input
-                  style={{ width: "100%", textAlign: "center" }}
+                  className='calculator-width-center'
                   type='number'
                   value={careerWithOutCollege.salary}
                   onChange={(e) => setCareerWithOutCollege({ ...careerWithOutCollege, salary: Number(e.target.value) })}
                 />
               </td>
 
-              <td style={{ width: "20%" }}>
+              <td className='calculator-width'>
                 <input
-                  style={{ width: "100%", textAlign: "center" }}
+                  className='calculator-width-center'
                   type='number'
                   value={careerWithOutCollege.years}
                   onChange={(e) => setCareerWithOutCollege({ ...careerWithOutCollege, years: Number(e.target.value) })}
                 />
               </td>
 
-              <td style={{ width: "20%", textAlign: "center" }}>{formatCurrency(careerWithOutCollege.lifetimeIncome)}</td>
+              <td className='calculator-width-20-percent-textalign-center'>{formatCurrency(careerWithOutCollege.lifetimeIncome)}</td>
             </tr>
 
             <tr>
-              <td style={{ width: "20%" }}>Extra Income with College</td>
-              <td style={{ width: "20%" }}></td>
-              <td style={{ width: "20%" }}></td>
-              <td style={{ width: "20%" }}></td>
-              <td style={{ width: "20%", textAlign: "center" }}>{formatCurrency(extraIncomeWithCollege)}</td>
+              <td className='calculator-width'>Extra Income with College</td>
+              <td className='calculator-width'></td>
+              <td className='calculator-width'></td>
+              <td className='calculator-width'></td>
+              <td className='calculator-width-20-percent-textalign-center'>{formatCurrency(extraIncomeWithCollege)}</td>
             </tr>
           </tbody>
         </table>
 
         {/* COMPARE COLLEGES */}
-        <table style={{ marginTop: "40px" }}>
+        <table className='calculator-margin-top'>
           <thead>
-            <tr style={{ fontWeight: "bold", textAlign: "center", width: "100%", background: "var(--Humpback)", color: "white" }}>
-              <td colSpan={5} style={{ background: "var(--Humpback)", color: "white" }}>
+            <tr className='calculator-explore-careers-table-row'>
+              <td colSpan={5} className='calculator-table-row-header'>
                 Compare Colleges
               </td>
             </tr>
-            <tr style={{ background: "var(--Swan)" }}>
-              <th style={{ width: "20%" }}></th>
-              <th style={{ width: "20%", textAlign: "center" }}>Freshman</th>
-              <th style={{ width: "20%", textAlign: "center" }}>Sophomore</th>
-              <th style={{ width: "20%", textAlign: "center" }}>Junior</th>
-              <th style={{ width: "20%", textAlign: "center" }}>Senior</th>
+            <tr className='background-swan'>
+              <th className='calculator-width'></th>
+              <th className='calculator-width-20-percent-textalign-center'>Freshman</th>
+              <th className='calculator-width-20-percent-textalign-center'>Sophomore</th>
+              <th className='calculator-width-20-percent-textalign-center'>Junior</th>
+              <th className='calculator-width-20-percent-textalign-center'>Senior</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td style={{ width: "20%" }}>College</td>
-              <td style={{ width: "20%" }}>
+              <td className='calculator-width'>College</td>
+              <td className='calculator-width'>
                 <CalculatorSelectCollege
                   colleges={colleges}
                   setCollegeName={setFreshmanCollege}
@@ -211,52 +210,52 @@ export default function Calculator() {
                   setSeniorTuition={setSeniorTuition}
                 />
               </td>
-              <td style={{ width: "20%" }}>
+              <td className='calculator-width'>
                 <CalculatorSelectCollege colleges={colleges} setCollegeName={setSophomoreCollege} setCollegeCost={setSophomoreTuition} />
               </td>
-              <td style={{ width: "20%" }}>
+              <td className='calculator-width'>
                 <CalculatorSelectCollege colleges={colleges} setCollegeName={setJuniorCollege} setCollegeCost={setJuniorTuition} />
               </td>
-              <td style={{ width: "20%" }}>
+              <td className='calculator-width'>
                 <CalculatorSelectCollege colleges={colleges} setCollegeName={setSeniorCollege} setCollegeCost={setSeniorTuition} />
               </td>
             </tr>
 
             <tr>
-              <td style={{ width: "20%" }}>Tuition</td>
-              <td style={{ width: "20%" }}>{freshmanTuition}</td>
-              <td style={{ width: "20%" }}>{sophomoreTuition}</td>
-              <td style={{ width: "20%" }}>{juniorTuition}</td>
-              <td style={{ width: "20%" }}>{seniorTuition}</td>
+              <td className='calculator-width'>Tuition</td>
+              <td className='calculator-width'>{freshmanTuition}</td>
+              <td className='calculator-width'>{sophomoreTuition}</td>
+              <td className='calculator-width'>{juniorTuition}</td>
+              <td className='calculator-width'>{seniorTuition}</td>
             </tr>
             <tr>
-              <td style={{ width: "20%" }}>Housing</td>
-              <td style={{ width: "20%" }}>Freshman Housing</td>
-              <td style={{ width: "20%" }}>Sophomore Housing</td>
-              <td style={{ width: "20%" }}>Junior Housing</td>
-              <td style={{ width: "20%" }}>Senior Housing</td>
-            </tr>
-
-            <tr>
-              <td style={{ width: "20%" }}>Books and supplies</td>
-              <td style={{ width: "20%" }}>Freshman Books and Supplies</td>
-              <td style={{ width: "20%" }}>Sophomore Books and Supplies</td>
-              <td style={{ width: "20%" }}>Junior Books and Supplies</td>
-              <td style={{ width: "20%" }}>Senior Books and Supplies</td>
+              <td className='calculator-width'>Housing</td>
+              <td className='calculator-width'>Freshman Housing</td>
+              <td className='calculator-width'>Sophomore Housing</td>
+              <td className='calculator-width'>Junior Housing</td>
+              <td className='calculator-width'>Senior Housing</td>
             </tr>
 
             <tr>
-              <td style={{ width: "20%" }}>Other</td>
-              <td style={{ width: "20%" }}>Freshman Other</td>
-              <td style={{ width: "20%" }}>Sophomore Other</td>
-              <td style={{ width: "20%" }}>Junior Other</td>
-              <td style={{ width: "20%" }}>Senior Other</td>
+              <td className='calculator-width'>Books and supplies</td>
+              <td className='calculator-width'>Freshman Books and Supplies</td>
+              <td className='calculator-width'>Sophomore Books and Supplies</td>
+              <td className='calculator-width'>Junior Books and Supplies</td>
+              <td className='calculator-width'>Senior Books and Supplies</td>
+            </tr>
+
+            <tr>
+              <td className='calculator-width'>Other</td>
+              <td className='calculator-width'>Freshman Other</td>
+              <td className='calculator-width'>Sophomore Other</td>
+              <td className='calculator-width'>Junior Other</td>
+              <td className='calculator-width'>Senior Other</td>
             </tr>
             <tr>
-              <td style={{ width: "20%" }}>Scholarship</td>
-              <td style={{ width: "20%" }}>
+              <td className='calculator-width'>Scholarship</td>
+              <td className='calculator-width'>
                 <input
-                  style={{ width: "100%", textAlign: "center" }}
+                  className='calculator-width-center'
                   type='number'
                   value={freshmanScholarship}
                   onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
@@ -269,9 +268,9 @@ export default function Calculator() {
                   }}
                 />
               </td>
-              <td style={{ width: "20%" }}>
+              <td className='calculator-width'>
                 <input
-                  style={{ width: "100%", textAlign: "center" }}
+                  className='calculator-width-center'
                   type='number'
                   value={sophomoreScholarship}
                   onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
@@ -284,9 +283,9 @@ export default function Calculator() {
                   }}
                 />
               </td>
-              <td style={{ width: "20%" }}>
+              <td className='calculator-width'>
                 <input
-                  style={{ width: "100%", textAlign: "center" }}
+                  className='calculator-width-center'
                   type='number'
                   value={juniorScholarship}
                   onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
@@ -299,9 +298,9 @@ export default function Calculator() {
                   }}
                 />
               </td>
-              <td style={{ width: "20%" }}>
+              <td className='calculator-width'>
                 <input
-                  style={{ width: "100%", textAlign: "center" }}
+                  className='calculator-width-center'
                   type='number'
                   value={seniorScholarship}
                   onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
@@ -316,19 +315,19 @@ export default function Calculator() {
               </td>
             </tr>
             <tr>
-              <td style={{ width: "20%" }}>Subtotal Cost Per Year</td>
-              <td style={{ width: "20%" }}>{freshmanTotalCost}</td>
-              <td style={{ width: "20%" }}>{sophomoreTotalCost}</td>
-              <td style={{ width: "20%" }}>{juniorTotalCost}</td>
-              <td style={{ width: "20%" }}>{seniorTotalCost}</td>
+              <td className='calculator-width'>Subtotal Cost Per Year</td>
+              <td className='calculator-width'>{freshmanTotalCost}</td>
+              <td className='calculator-width'>{sophomoreTotalCost}</td>
+              <td className='calculator-width'>{juniorTotalCost}</td>
+              <td className='calculator-width'>{seniorTotalCost}</td>
             </tr>
 
             <tr>
-              <td style={{ width: "20%" }}>Total College Cost</td>
-              <td style={{ width: "20%" }}></td>
-              <td style={{ width: "20%" }}></td>
-              <td style={{ width: "20%" }}></td>
-              <td style={{ width: "20%" }}>{collegeTotalCost}</td>
+              <td className='calculator-width'>Total College Cost</td>
+              <td className='calculator-width'></td>
+              <td className='calculator-width'></td>
+              <td className='calculator-width'></td>
+              <td className='calculator-width'>{collegeTotalCost}</td>
             </tr>
 
             {collegeTotalCost}
@@ -336,194 +335,194 @@ export default function Calculator() {
         </table>
 
         {/* FUNDING PLAN */}
-        <table style={{ marginTop: "40px" }}>
+        <table className='calculator-margin-top'>
           <thead>
-            <tr style={{ fontWeight: "bold", textAlign: "center", width: "100%", background: "var(--Humpback)", color: "white" }}>
-              <td colSpan={5} style={{ background: "var(--Humpback)", color: "white" }}>
+            <tr className='calculator-explore-careers-table-row'>
+              <td colSpan={5} className='calculator-table-row-header'>
                 Funding Plan
               </td>
             </tr>
-            <tr style={{ background: "var(--Swan)" }}>
-              <th style={{ width: "20%" }}></th>
-              <th style={{ width: "20%", textAlign: "center" }}>Freshman</th>
-              <th style={{ width: "20%", textAlign: "center" }}>Sophomore</th>
-              <th style={{ width: "20%", textAlign: "center" }}>Junior</th>
-              <th style={{ width: "20%", textAlign: "center" }}>Senior</th>
+            <tr className='background-swan'>
+              <th className='calculator-width'></th>
+              <th className='calculator-width-20-percent-textalign-center'>Freshman</th>
+              <th className='calculator-width-20-percent-textalign-center'>Sophomore</th>
+              <th className='calculator-width-20-percent-textalign-center'>Junior</th>
+              <th className='calculator-width-20-percent-textalign-center'>Senior</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td style={{ width: "20%" }}>Savings</td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
+              <td className='calculator-width'>Savings</td>
+              <td className='calculator-width'>
+                <input className='calculator-width-center' type='number' />
               </td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
+              <td className='calculator-width'>
+                <input className='calculator-width-center' type='number' />
               </td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
+              <td className='calculator-width'>
+                <input className='calculator-width-center' type='number' />
               </td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
-              </td>
-            </tr>
-
-            <tr>
-              <td style={{ width: "20%" }}>Job Hourly Pay</td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
-              </td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
-              </td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
-              </td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
+              <td className='calculator-width'>
+                <input className='calculator-width-center' type='number' />
               </td>
             </tr>
 
             <tr>
-              <td style={{ width: "20%" }}>Hours Per Week</td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
+              <td className='calculator-width'>Job Hourly Pay</td>
+              <td className='calculator-width'>
+                <input className='calculator-width-center' type='number' />
               </td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
+              <td className='calculator-width'>
+                <input className='calculator-width-center' type='number' />
               </td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
+              <td className='calculator-width'>
+                <input className='calculator-width-center' type='number' />
               </td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
-              </td>
-            </tr>
-
-            <tr>
-              <td style={{ width: "20%" }}>Weeks Per School Year</td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
-              </td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
-              </td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
-              </td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
+              <td className='calculator-width'>
+                <input className='calculator-width-center' type='number' />
               </td>
             </tr>
 
             <tr>
-              <td style={{ width: "20%" }}>Income</td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
+              <td className='calculator-width'>Hours Per Week</td>
+              <td className='calculator-width'>
+                <input className='calculator-width-center' type='number' />
               </td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
+              <td className='calculator-width'>
+                <input className='calculator-width-center' type='number' />
               </td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
+              <td className='calculator-width'>
+                <input className='calculator-width-center' type='number' />
               </td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
+              <td className='calculator-width'>
+                <input className='calculator-width-center' type='number' />
+              </td>
+            </tr>
+
+            <tr>
+              <td className='calculator-width'>Weeks Per School Year</td>
+              <td className='calculator-width'>
+                <input className='calculator-width-center' type='number' />
+              </td>
+              <td className='calculator-width'>
+                <input className='calculator-width-center' type='number' />
+              </td>
+              <td className='calculator-width'>
+                <input className='calculator-width-center' type='number' />
+              </td>
+              <td className='calculator-width'>
+                <input className='calculator-width-center' type='number' />
+              </td>
+            </tr>
+
+            <tr>
+              <td className='calculator-width'>Income</td>
+              <td className='calculator-width'>
+                <input className='calculator-width-center' type='number' />
+              </td>
+              <td className='calculator-width'>
+                <input className='calculator-width-center' type='number' />
+              </td>
+              <td className='calculator-width'>
+                <input className='calculator-width-center' type='number' />
+              </td>
+              <td className='calculator-width'>
+                <input className='calculator-width-center' type='number' />
               </td>
             </tr>
             <tr>
-              <td style={{ width: "20%" }}>Summer Job / Other</td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
+              <td className='calculator-width'>Summer Job / Other</td>
+              <td className='calculator-width'>
+                <input className='calculator-width-center' type='number' />
               </td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
+              <td className='calculator-width'>
+                <input className='calculator-width-center' type='number' />
               </td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
+              <td className='calculator-width'>
+                <input className='calculator-width-center' type='number' />
               </td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
-              </td>
-            </tr>
-            <tr>
-              <td style={{ width: "20%" }}>Subtotal</td>
-              <td style={{ width: "20%" }}></td>
-              <td style={{ width: "20%" }}></td>
-              <td style={{ width: "20%" }}></td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
+              <td className='calculator-width'>
+                <input className='calculator-width-center' type='number' />
               </td>
             </tr>
             <tr>
-              <td style={{ width: "20%" }}>Federal Student Loans</td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
-              </td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
-              </td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
-              </td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
+              <td className='calculator-width'>Subtotal</td>
+              <td className='calculator-width'></td>
+              <td className='calculator-width'></td>
+              <td className='calculator-width'></td>
+              <td className='calculator-width'>
+                <input className='calculator-width-center' type='number' />
               </td>
             </tr>
             <tr>
-              <td style={{ width: "20%" }}>Private Student Loans</td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
+              <td className='calculator-width'>Federal Student Loans</td>
+              <td className='calculator-width'>
+                <input className='calculator-width-center' type='number' />
               </td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
+              <td className='calculator-width'>
+                <input className='calculator-width-center' type='number' />
               </td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
+              <td className='calculator-width'>
+                <input className='calculator-width-center' type='number' />
               </td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
+              <td className='calculator-width'>
+                <input className='calculator-width-center' type='number' />
               </td>
             </tr>
             <tr>
-              <td style={{ width: "20%" }}>Total Student Loans</td>
-              <td style={{ width: "20%" }}></td>
-              <td style={{ width: "20%" }}></td>
-              <td style={{ width: "20%" }}></td>
-              <td style={{ width: "20%" }}>
-                <input style={{ width: "100%", textAlign: "center" }} type='number' />
+              <td className='calculator-width'>Private Student Loans</td>
+              <td className='calculator-width'>
+                <input className='calculator-width-center' type='number' />
+              </td>
+              <td className='calculator-width'>
+                <input className='calculator-width-center' type='number' />
+              </td>
+              <td className='calculator-width'>
+                <input className='calculator-width-center' type='number' />
+              </td>
+              <td className='calculator-width'>
+                <input className='calculator-width-center' type='number' />
+              </td>
+            </tr>
+            <tr>
+              <td className='calculator-width'>Total Student Loans</td>
+              <td className='calculator-width'></td>
+              <td className='calculator-width'></td>
+              <td className='calculator-width'></td>
+              <td className='calculator-width'>
+                <input className='calculator-width-center' type='number' />
               </td>
             </tr>
           </tbody>
         </table>
 
         {/* RESULTS */}
-        <table style={{ marginTop: "40px" }}>
+        <table className='calculator-margin-top'>
           <thead></thead>
           <tbody>
-            <td colSpan={5} style={{ background: "var(--Beak-Upper)", fontWeight: "bold", textAlign: "center", width: "100%" }}>
+            <td colSpan={5} className='calculator-table-body'>
               Financial Value of College
             </td>
             <tr>
-              <td style={{ width: "50%" }}>Extra Income with College</td>
-              <td style={{ width: "50%" }}>{formatCurrency(extraIncomeWithCollege)}</td>
+              <td className='calculator-width-50-percent'>Extra Income with College</td>
+              <td className='calculator-width-50-percent'>{formatCurrency(extraIncomeWithCollege)}</td>
             </tr>
 
             <tr>
-              <td style={{ width: "50%" }}>Total College Cost</td>
-              <td style={{ width: "50%" }}>{formatCurrency(collegeTotalCost)}</td>
+              <td className='calculator-width-50-percent'>Total College Cost</td>
+              <td className='calculator-width-50-percent'>{formatCurrency(collegeTotalCost)}</td>
             </tr>
 
             <tr>
-              <td style={{ width: "50%" }}>Total Student Loan Interest</td>
-              <td style={{ width: "50%" }}>###</td>
+              <td className='calculator-width-50-percent'>Total Student Loan Interest</td>
+              <td className='calculator-width-50-percent'>###</td>
             </tr>
 
             <tr>
-              <td style={{ fontWeight: "bold", width: "50%", fontSize: "32px" }}>Financial Value of College</td>
-              <td style={{ width: "50%", fontSize: "32px" }}>
+              <td className='calculator-financial-value-of-college'>Financial Value of College</td>
+              <td className='calculator-width-50-percent-fontsize-32px'>
                 {financialValueOfCollege < 0 ? (
-                  <span style={{ color: "red" }}>{formatCurrency(financialValueOfCollege)}</span>
+                  <span className='calculator-color-red'>{formatCurrency(financialValueOfCollege)}</span>
                 ) : (
                   <span> {formatCurrency(financialValueOfCollege)}</span>
                 )}

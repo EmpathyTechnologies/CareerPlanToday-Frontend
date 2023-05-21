@@ -8,7 +8,7 @@ const Contact = () => {
   };
 
   return (
-    <div className='navbar-spacer footer-spacer' style={{ margin: "0 20px" }}>
+    <div className='navbar-spacer footer-spacer contact-margin'>
       <h1>Contact Us</h1>
       <Form onSubmit={handleSubmit}>
         <Form.Group controlId='formBasicName'>
