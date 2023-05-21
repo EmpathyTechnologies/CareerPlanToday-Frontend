@@ -50,7 +50,7 @@ function Feedback() {
   };
 
   return (
-    <div className='navbar-spacer footer-spacer' style={{ margin: "0 20px" }}>
+    <div className='navbar-spacer footer-spacer feedback-margin'>
       <br />
       <div>We always want to improve and your feedback helps us do exactly that.</div>
       <br />

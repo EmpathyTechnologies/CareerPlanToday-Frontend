@@ -1,5 +1,4 @@
-import React from "react";
-import { Button, Container, Row, Col, Form } from "react-bootstrap";
+import { Row, Col, Form } from "react-bootstrap";
 
 export default function Budget() {
   let displayFlex = { display: "flex", justifyContent: "space-between" };
@@ -41,7 +40,8 @@ export default function Budget() {
           <Form.Control type='text' />
         </Col>
       </Row>
-      <div style={{ fontWeight: "bold" }}>EXPENSES (per Monthl)</div>
+
+      <div className='budget-fontweight-bold'>EXPENSES (per Monthl)</div>
 
       <Form.Group controlId='housing'>
         <Form.Label>Housing</Form.Label>

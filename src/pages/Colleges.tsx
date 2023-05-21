@@ -20,7 +20,7 @@ export default function Colleges() {
   return (
     <div className='navbar-spacer footer-spacer'>
       <div className='CareersContainer'>
-        <div style={{ position: "fixed" }}>
+        <div className='colleges-fixed'>
           <CollegesNavbar
             setFilterByStates={setFilterByStates}
             filterByTuition={filterByTuition}
@@ -29,7 +29,7 @@ export default function Colleges() {
             maxTuition={maxTuition}
           />
         </div>
-        <div style={{ padding: "25px", paddingTop: "74px" }}>
+        <div className='colleges-table'>
           <CollegesTable colleges={colleges} setColleges={setColleges}></CollegesTable>
         </div>
       </div>
