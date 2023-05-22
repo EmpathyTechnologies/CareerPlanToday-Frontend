@@ -1,0 +1,29 @@
+.home-cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-card-buttons {
+  display: flex;
+  justify-content: center;
+  width: 1096px;
+}
+
+.home-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1134px) {
+  .home-card-buttons {
+    width: 718px;
+  }
+}
+
+@media (max-width: 756px) {
+  .home-card-buttons {
+    width: 338px;
+  }
+}

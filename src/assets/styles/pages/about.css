@@ -1,0 +1,12 @@
+.about-card-list {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.about-width {
+  width: 18rem;
+}

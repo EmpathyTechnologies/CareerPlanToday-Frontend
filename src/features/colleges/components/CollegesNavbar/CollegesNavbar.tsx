@@ -1,5 +1,4 @@
 import React from "react";
-import "../../../../assets/styles/CollegesNavbar.css";
 import CollegesFilterByStates from "./CollegesFilterByStates";
 import CollegesFilterByTuition from "./CollegesFilterByTuition";
 
@@ -13,7 +12,7 @@ interface CollegesNavbarProps {
 
 const CollegesNavbar: React.FC<CollegesNavbarProps> = ({ setFilterByStates, filterByTuition, setFilterByTuition, minTuition, maxTuition }) => {
   return (
-    <div id='colleges-navbar-container'>
+    <div>
       <CollegesFilterByStates setFilterByStates={setFilterByStates} />
       <CollegesFilterByTuition
         filterByTuition={filterByTuition}

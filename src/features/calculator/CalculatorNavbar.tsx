@@ -1,9 +1,8 @@
-import "../../assets/styles/CalculatorNavbar.css";
 import { Dropdown, DropdownButton } from "react-bootstrap";
 
 export default function CalculatorNavbar() {
   return (
-    <div className='CalculatorNavbar'>
+    <div>
       <DropdownButton title='Career with College'>
         <Dropdown.Item href='#/action-1'>Action</Dropdown.Item>
         <Dropdown.Item href='#/action-2'>Another action</Dropdown.Item>

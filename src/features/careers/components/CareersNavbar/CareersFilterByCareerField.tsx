@@ -34,12 +34,11 @@ const CustomMenu = forwardRef<HTMLDivElement, CustomMenuProps>(({ children, styl
     <div ref={ref} style={style} className={className} aria-labelledby={labeledBy}>
       <Form.Control
         autoFocus
-        className='mx-3 my-2 w-auto'
         placeholder='Type to filter...'
         onChange={(e: React.ChangeEvent<HTMLInputElement>) => setValue(e.target.value)}
         value={value}
       />
-      <ul className='list-unstyled'>
+      <ul>
         {React.Children.toArray(children).filter((child) => !value || (child as React.ReactElement).props.children.toLowerCase().startsWith(value))}
       </ul>
     </div>
@@ -58,10 +57,8 @@ export default function CareersFilterByCareerField({ setFilterByCareerName }: an
   const [label, setLabel] = useState("All Careers");
 
   return (
-    <Dropdown id='colleges-navbar-item'>
-      <Dropdown.Toggle as={CustomToggle} id='colleges-navbar-item-label'>
-        {label}
-      </Dropdown.Toggle>
+    <Dropdown>
+      <Dropdown.Toggle as={CustomToggle}>{label}</Dropdown.Toggle>
 
       <Dropdown.Menu as={CustomMenu} labeledBy=''>
         {careerFields.map((careerField, index) => (

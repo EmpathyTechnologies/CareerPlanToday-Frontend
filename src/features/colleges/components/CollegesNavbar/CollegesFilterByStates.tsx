@@ -103,10 +103,8 @@ export default function CollegesFilterByStates({ setFilterByStates }: any) {
   const [label, setLabel] = useState("All States");
 
   return (
-    <Dropdown id='colleges-navbar-item'>
-      <Dropdown.Toggle as={CustomToggle} id='colleges-navbar-item-label'>
-        {label}
-      </Dropdown.Toggle>
+    <Dropdown>
+      <Dropdown.Toggle as={CustomToggle}>{label}</Dropdown.Toggle>
 
       <Dropdown.Menu as={CustomMenu} labeledBy=''>
         {usaStates.map((usaState, index) => (

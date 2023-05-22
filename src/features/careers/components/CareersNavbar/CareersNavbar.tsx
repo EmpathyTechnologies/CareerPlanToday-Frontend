@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../../assets/styles/CareersNavbar.css";
+
 import CareersFilterByCareerField from "./CareersFilterByCareerField";
 import CareersFilterBySalary from "./CareersFilterBySalary";
 
@@ -13,7 +13,7 @@ interface CareersNavbarProps {
 
 const CollegesNavbar: React.FC<CareersNavbarProps> = ({ setFilterByCareerName, filterBySalary, setFilterBySalary, minSalary, maxSalary }) => {
   return (
-    <div id='colleges-navbar-container'>
+    <div>
       <CareersFilterByCareerField setFilterByCareerName={setFilterByCareerName} />
       <CareersFilterBySalary filterBySalary={filterBySalary} setFilterBySalary={setFilterBySalary} minSalary={minSalary} maxSalary={maxSalary} />
     </div>

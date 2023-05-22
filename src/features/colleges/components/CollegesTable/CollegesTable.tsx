@@ -41,7 +41,7 @@ export default function CollegesTable({ colleges, setColleges }: any) {
             <td>
               <Link to={`/colleges/${college.id}`}>{college.name}</Link>
             </td>
-            <td style={{ display: "flex", justifyContent: "center" }}>{formatCurrency(college.tuition)}</td>
+            <td className='flex-center'>{formatCurrency(college.tuition)}</td>
           </tr>
         ))}
       </tbody>

@@ -27,7 +27,7 @@ export default function Retire() {
   };
 
   return (
-    <Container className='navbar-spacer footer-spacer'>
+    <Container>
       <h2>Roth IRA Calculator</h2>
       <Form>
         <Form.Group as={Row}>

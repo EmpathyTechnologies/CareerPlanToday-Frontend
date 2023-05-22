@@ -16,10 +16,10 @@ export default function CareersNavbarTuitionSlider({ filterBySalary, setFilterBy
 
   return (
     <div>
-      <Box sx={{ width: 550, marginLeft: "30px", display: "flex" }}>
-        <span style={{ paddingRight: "25px" }}>{formatCurrency(minSalary)}</span>
-        <Slider style={{ width: 200 }} value={filterBySalary} onChange={handleChange} valueLabelDisplay='auto' min={minSalary} max={maxSalary} />
-        <span style={{ paddingLeft: "25px" }}>{formatCurrency(maxSalary)}</span>
+      <Box>
+        <span>{formatCurrency(minSalary)}</span>
+        <Slider value={filterBySalary} onChange={handleChange} valueLabelDisplay='auto' min={minSalary} max={maxSalary} />
+        <span>{formatCurrency(maxSalary)}</span>
       </Box>
     </div>
   );
