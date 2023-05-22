@@ -1,4 +1,4 @@
-import Button from "react-bootstrap/Button";
+import Button from "../components/Button";
 import Card from "react-bootstrap/Card";
 
 function Plan() {
@@ -9,7 +9,7 @@ function Plan() {
         <Card.Body>
           <Card.Title>Career</Card.Title>
           <Card.Text>ABC</Card.Text>
-          <Button variant='primary'>Go somewhere</Button>
+          <Button text='Go somewhere' color='btn-blue' />
         </Card.Body>
       </Card>
       <Card>
@@ -17,7 +17,7 @@ function Plan() {
         <Card.Body>
           <Card.Title>College</Card.Title>
           <Card.Text>ABC</Card.Text>
-          <Button variant='primary'>Go somewhere</Button>
+          <Button text='Go somewhere' color='btn-blue' />
         </Card.Body>
       </Card>
       <Card>
@@ -25,7 +25,7 @@ function Plan() {
         <Card.Body>
           <Card.Title>Funding</Card.Title>
           <Card.Text>ABC</Card.Text>
-          <Button variant='primary'>Go somewhere</Button>
+          <Button text='Go somewhere' color='btn-blue' />
         </Card.Body>
       </Card>
       <Card>
@@ -33,9 +33,7 @@ function Plan() {
         <Card.Body>
           <Card.Title>My Plan</Card.Title>
           <Card.Text>ABC</Card.Text>
-          <Button variant='primary' href='./calculator'>
-            Go somewhere
-          </Button>
+          <Button text='Go somewhere' color='btn-blue' />
         </Card.Body>
       </Card>
     </div>

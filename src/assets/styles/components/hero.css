@@ -30,6 +30,10 @@
   width: 50%;
 }
 
+.hero-btn {
+  margin: 10px;
+}
+
 @media (max-width: 780px) {
   .hero-left-section {
     width: 100%;

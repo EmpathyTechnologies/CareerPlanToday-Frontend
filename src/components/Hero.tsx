@@ -13,8 +13,12 @@ function Hero() {
 
         <div className='hero-btns-container'>
           <div className='hero-btns'>
-            <Button text='Start Now' color={"btn-green"} />
-            <Button text='Log In' color={"btn-blue"} />
+            <div className='hero-btn'>
+              <Button text='Start Now' color={"btn-green"} />
+            </div>
+            <div className='hero-btn'>
+              <Button text='Log In' color={"btn-blue"} />
+            </div>
           </div>
         </div>
       </div>
