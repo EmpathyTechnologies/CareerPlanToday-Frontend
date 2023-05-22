@@ -1,36 +1,22 @@
-import { BsMortarboardFill, BsTools } from "react-icons/bs";
-import { TbBusinessplan } from "react-icons/tb";
-import { OverlayTrigger, Tooltip } from "react-bootstrap";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 
-export default function NavigationBar() {
-  const careersTooltip = <Tooltip id='careers-tooltip'>Explore Careers</Tooltip>;
-  const collegesTooltip = <Tooltip id='colleges-tooltip'>Compare Colleges</Tooltip>;
-  const planTooltip = <Tooltip id='plan-tooltip'>Form Your Financial Plan</Tooltip>;
-
+function NavigationBar() {
   return (
-    <div className='navbar-container navbar-fixed navbar-zindex-top'>
-      <a href='/' className='navbar-link'>
-        Career Plan Today
-      </a>
-      <div>
-        <OverlayTrigger placement='bottom' overlay={careersTooltip}>
-          <a href='/careers' className='navbar-link'>
-            <BsTools />
-          </a>
-        </OverlayTrigger>
-
-        <OverlayTrigger placement='bottom' overlay={collegesTooltip}>
-          <a href='/colleges' className='navbar-link'>
-            <BsMortarboardFill />
-          </a>
-        </OverlayTrigger>
-
-        <OverlayTrigger placement='bottom' overlay={planTooltip}>
-          <a href='/plan' className='navbar-link'>
-            <TbBusinessplan />
-          </a>
-        </OverlayTrigger>
-      </div>
-    </div>
+    <>
+      <Navbar bg='primary' variant='dark' fixed='top'>
+        <Container>
+          <Navbar.Brand href='./'>Career Plan Today</Navbar.Brand>
+          <Nav className='me-auto'>
+            <Nav.Link href='./careers'>Careers</Nav.Link>
+            <Nav.Link href='./colleges'>Colleges</Nav.Link>
+            <Nav.Link href='./plan'>Plan</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
+    </>
   );
 }
+
+export default NavigationBar;
