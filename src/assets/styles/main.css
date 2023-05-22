@@ -1,4 +1,9 @@
 /* Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
 @import "base/typography.css";
 
 /* Components */
