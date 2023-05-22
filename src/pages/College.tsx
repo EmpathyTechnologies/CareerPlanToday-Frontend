@@ -1,7 +1,6 @@
 import { useParams } from "react-router-dom";
 import allColleges from "../data/colleges.json";
 import Button from "react-bootstrap/Button";
-import styles from "../assets/styles/College.module.css";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 
@@ -12,13 +11,13 @@ export default function College() {
   college = college[0];
 
   return (
-    <div className={`${styles.LargeContainer} navbar-spacer footer-spacer`}>
-      <div className={styles.CollegeName}>{college.collegeName}</div>
+    <div>
+      <div>{college.collegeName}</div>
 
-      <Tabs defaultActiveKey='Cost Information' id='justify-tab-example' className='mb-3' justify>
+      <Tabs defaultActiveKey='Cost Information' justify>
         <Tab eventKey='Cost Information' title='Cost Information'>
-          <div className={styles.SectionHeader}>COST INFORMATION</div>
-          <div className={styles.Container}>
+          <div>COST INFORMATION</div>
+          <div>
             <div>In State Tuition</div>
             <div>On Campus Room and Board</div>
             <div>In StateTotal Expenses</div>
@@ -29,8 +28,8 @@ export default function College() {
         </Tab>
 
         <Tab eventKey='STUDENT BODY INFORMATION' title='STUDENT BODY INFORMATION'>
-          <div className={styles.SectionHeader}>STUDENT BODY INFORMATION</div>
-          <div className={styles.Container}>
+          <div>STUDENT BODY INFORMATION</div>
+          <div>
             <div>Campus location</div>
             <div>Total Enrollment</div>
             <div>Percentage Full-Time</div>
@@ -41,8 +40,8 @@ export default function College() {
         </Tab>
 
         <Tab eventKey='ADMISSIONS AND OUTCOMES' title='ADMISSIONS AND OUTCOMES'>
-          <div className={styles.SectionHeader}>ADMISSIONS AND OUTCOMES</div>
-          <div className={styles.Container}>
+          <div>ADMISSIONS AND OUTCOMES</div>
+          <div>
             <div>Number of applicants</div>
             <div>Percent admitted</div>
             <div>Percent who enrolled</div>
@@ -53,8 +52,8 @@ export default function College() {
         </Tab>
 
         <Tab eventKey='NOTABLE INFORMATION' title='NOTABLE INFORMATION'>
-          <div className={styles.SectionHeader}>NOTABLE INFORMATION</div>
-          <div className={styles.Container}>
+          <div>NOTABLE INFORMATION</div>
+          <div>
             <div>Website: {college.website}</div>
             <div>Financial Aid Calculator Link</div>
             <div>Special Learning Opportunities</div>

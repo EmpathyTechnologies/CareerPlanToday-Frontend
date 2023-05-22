@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import CalculatorNavbar from "../features/calculator/CalculatorNavbar";
 import CalculatorSelectCollege from "../features/calculator/CalculatorSelectCollege";
 import colleges from "../data/colleges.json";
+import { formatCurrency } from "../utilities/formatCurrency";
 
 export default function Calculator() {
   const [careerWithCollege, setCareerWithCollege] = useState({ salary: 50000, years: 40, lifetimeIncome: 2000000 });
@@ -43,7 +44,6 @@ export default function Calculator() {
   const [collegeTotalCost, setCollegeTotalCost] = useState(0);
   const [financialValueOfCollege, setFinancialValueOfCollege] = useState(0);
 
-  // career
   useEffect(() => {
     setCareerWithCollege((prevState) => ({ ...prevState, lifetimeIncome: prevState.salary * prevState.years }));
   }, [careerWithCollege.salary, careerWithCollege.years]);
@@ -55,8 +55,6 @@ export default function Calculator() {
   useEffect(() => {
     setExtraIncomeWithCollege(careerWithCollege.lifetimeIncome - careerWithOutCollege.lifetimeIncome);
   }, [careerWithCollege.lifetimeIncome, careerWithOutCollege.lifetimeIncome]);
-
-  // college
 
   // TODO:  update the CalculatorCustomDropDown component so that if freshman college is updated, then that component is updated too
   useEffect(() => {
@@ -85,118 +83,105 @@ export default function Calculator() {
     setCollegeTotalCost(freshmanTotalCost + sophomoreTotalCost + juniorTotalCost + seniorTotalCost);
   }, [freshmanTotalCost, sophomoreTotalCost, juniorTotalCost, seniorTotalCost]);
 
-  // financial value of college
   useEffect(() => {
     setFinancialValueOfCollege(extraIncomeWithCollege - collegeTotalCost);
   }, [extraIncomeWithCollege, collegeTotalCost]);
 
-  const formatCurrency = (value: number) => {
-    return value.toLocaleString("en-US", { style: "currency", currency: "USD", minimumFractionDigits: 0 });
-  };
-
   return (
-    <div className='navbar-spacer footer-spacer'>
-      <div className='calculator-position'>
+    <div>
+      <div>
         <CalculatorNavbar />
       </div>
-      <div className='calculator-container'>
+      <div>
         <h1>College Value Calculator</h1>
         {/* EXPLORE CAREERS */}
         <table>
           <thead>
-            <tr className='calculator-explore-careers-table-row'>
-              <td colSpan={5} className='calculator-table-row-header'>
-                Explore Careers
-              </td>
+            <tr>
+              <td colSpan={5}>Explore Careers</td>
             </tr>
-            <tr className='background-swan'>
-              <th className='calculator-width'></th>
-              <th className='calculator-width'></th>
+            <tr>
+              <th></th>
+              <th></th>
 
-              <th className='calculator-width-20-percent-textalign-center'>Salary</th>
-              <th className='calculator-width-20-percent-textalign-center'>Years to Work</th>
-              <th className='calculator-width-20-percent-textalign-center'>Lifetime Income</th>
+              <th>Salary</th>
+              <th>Years to Work</th>
+              <th>Lifetime Income</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td className='calculator-width'>Career with College</td>
-              <td className='calculator-width'></td>
-              <td className='calculator-width'>
+              <td>Career with College</td>
+              <td></td>
+              <td>
                 <input
-                  className='calculator-width-center'
                   type='number'
                   value={careerWithCollege.salary}
                   onChange={(e) => setCareerWithCollege({ ...careerWithCollege, salary: Number(e.target.value) })}
                 />
               </td>
-              <td className='calculator-width'>
+              <td>
                 <input
-                  className='calculator-width-center'
                   type='number'
                   value={careerWithCollege.years}
                   onChange={(e) => setCareerWithCollege({ ...careerWithCollege, years: Number(e.target.value) })}
                 />
               </td>
-              <td className='calculator-width-20-percent-textalign-center'>{formatCurrency(careerWithCollege.lifetimeIncome)}</td>
+              <td>{formatCurrency(careerWithCollege.lifetimeIncome)}</td>
             </tr>
 
             <tr>
-              <td className='calculator-width'>Career without College</td>
+              <td>Career without College</td>
 
-              <td className='calculator-width'></td>
+              <td></td>
 
-              <td className='calculator-width'>
+              <td>
                 <input
-                  className='calculator-width-center'
                   type='number'
                   value={careerWithOutCollege.salary}
                   onChange={(e) => setCareerWithOutCollege({ ...careerWithOutCollege, salary: Number(e.target.value) })}
                 />
               </td>
 
-              <td className='calculator-width'>
+              <td>
                 <input
-                  className='calculator-width-center'
                   type='number'
                   value={careerWithOutCollege.years}
                   onChange={(e) => setCareerWithOutCollege({ ...careerWithOutCollege, years: Number(e.target.value) })}
                 />
               </td>
 
-              <td className='calculator-width-20-percent-textalign-center'>{formatCurrency(careerWithOutCollege.lifetimeIncome)}</td>
+              <td>{formatCurrency(careerWithOutCollege.lifetimeIncome)}</td>
             </tr>
 
             <tr>
-              <td className='calculator-width'>Extra Income with College</td>
-              <td className='calculator-width'></td>
-              <td className='calculator-width'></td>
-              <td className='calculator-width'></td>
-              <td className='calculator-width-20-percent-textalign-center'>{formatCurrency(extraIncomeWithCollege)}</td>
+              <td>Extra Income with College</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>{formatCurrency(extraIncomeWithCollege)}</td>
             </tr>
           </tbody>
         </table>
 
         {/* COMPARE COLLEGES */}
-        <table className='calculator-margin-top'>
+        <table>
           <thead>
-            <tr className='calculator-explore-careers-table-row'>
-              <td colSpan={5} className='calculator-table-row-header'>
-                Compare Colleges
-              </td>
+            <tr>
+              <td colSpan={5}>Compare Colleges</td>
             </tr>
-            <tr className='background-swan'>
-              <th className='calculator-width'></th>
-              <th className='calculator-width-20-percent-textalign-center'>Freshman</th>
-              <th className='calculator-width-20-percent-textalign-center'>Sophomore</th>
-              <th className='calculator-width-20-percent-textalign-center'>Junior</th>
-              <th className='calculator-width-20-percent-textalign-center'>Senior</th>
+            <tr>
+              <th></th>
+              <th>Freshman</th>
+              <th>Sophomore</th>
+              <th>Junior</th>
+              <th>Senior</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td className='calculator-width'>College</td>
-              <td className='calculator-width'>
+              <td>College</td>
+              <td>
                 <CalculatorSelectCollege
                   colleges={colleges}
                   setCollegeName={setFreshmanCollege}
@@ -210,52 +195,51 @@ export default function Calculator() {
                   setSeniorTuition={setSeniorTuition}
                 />
               </td>
-              <td className='calculator-width'>
+              <td>
                 <CalculatorSelectCollege colleges={colleges} setCollegeName={setSophomoreCollege} setCollegeCost={setSophomoreTuition} />
               </td>
-              <td className='calculator-width'>
+              <td>
                 <CalculatorSelectCollege colleges={colleges} setCollegeName={setJuniorCollege} setCollegeCost={setJuniorTuition} />
               </td>
-              <td className='calculator-width'>
+              <td>
                 <CalculatorSelectCollege colleges={colleges} setCollegeName={setSeniorCollege} setCollegeCost={setSeniorTuition} />
               </td>
             </tr>
 
             <tr>
-              <td className='calculator-width'>Tuition</td>
-              <td className='calculator-width'>{freshmanTuition}</td>
-              <td className='calculator-width'>{sophomoreTuition}</td>
-              <td className='calculator-width'>{juniorTuition}</td>
-              <td className='calculator-width'>{seniorTuition}</td>
+              <td>Tuition</td>
+              <td>{freshmanTuition}</td>
+              <td>{sophomoreTuition}</td>
+              <td>{juniorTuition}</td>
+              <td>{seniorTuition}</td>
             </tr>
             <tr>
-              <td className='calculator-width'>Housing</td>
-              <td className='calculator-width'>Freshman Housing</td>
-              <td className='calculator-width'>Sophomore Housing</td>
-              <td className='calculator-width'>Junior Housing</td>
-              <td className='calculator-width'>Senior Housing</td>
-            </tr>
-
-            <tr>
-              <td className='calculator-width'>Books and supplies</td>
-              <td className='calculator-width'>Freshman Books and Supplies</td>
-              <td className='calculator-width'>Sophomore Books and Supplies</td>
-              <td className='calculator-width'>Junior Books and Supplies</td>
-              <td className='calculator-width'>Senior Books and Supplies</td>
+              <td>Housing</td>
+              <td>Freshman Housing</td>
+              <td>Sophomore Housing</td>
+              <td>Junior Housing</td>
+              <td>Senior Housing</td>
             </tr>
 
             <tr>
-              <td className='calculator-width'>Other</td>
-              <td className='calculator-width'>Freshman Other</td>
-              <td className='calculator-width'>Sophomore Other</td>
-              <td className='calculator-width'>Junior Other</td>
-              <td className='calculator-width'>Senior Other</td>
+              <td>Books and supplies</td>
+              <td>Freshman Books and Supplies</td>
+              <td>Sophomore Books and Supplies</td>
+              <td>Junior Books and Supplies</td>
+              <td>Senior Books and Supplies</td>
+            </tr>
+
+            <tr>
+              <td>Other</td>
+              <td>Freshman Other</td>
+              <td>Sophomore Other</td>
+              <td>Junior Other</td>
+              <td>Senior Other</td>
             </tr>
             <tr>
-              <td className='calculator-width'>Scholarship</td>
-              <td className='calculator-width'>
+              <td>Scholarship</td>
+              <td>
                 <input
-                  className='calculator-width-center'
                   type='number'
                   value={freshmanScholarship}
                   onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
@@ -268,9 +252,8 @@ export default function Calculator() {
                   }}
                 />
               </td>
-              <td className='calculator-width'>
+              <td>
                 <input
-                  className='calculator-width-center'
                   type='number'
                   value={sophomoreScholarship}
                   onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
@@ -283,9 +266,8 @@ export default function Calculator() {
                   }}
                 />
               </td>
-              <td className='calculator-width'>
+              <td>
                 <input
-                  className='calculator-width-center'
                   type='number'
                   value={juniorScholarship}
                   onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
@@ -298,9 +280,8 @@ export default function Calculator() {
                   }}
                 />
               </td>
-              <td className='calculator-width'>
+              <td>
                 <input
-                  className='calculator-width-center'
                   type='number'
                   value={seniorScholarship}
                   onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
@@ -315,19 +296,19 @@ export default function Calculator() {
               </td>
             </tr>
             <tr>
-              <td className='calculator-width'>Subtotal Cost Per Year</td>
-              <td className='calculator-width'>{freshmanTotalCost}</td>
-              <td className='calculator-width'>{sophomoreTotalCost}</td>
-              <td className='calculator-width'>{juniorTotalCost}</td>
-              <td className='calculator-width'>{seniorTotalCost}</td>
+              <td>Subtotal Cost Per Year</td>
+              <td>{freshmanTotalCost}</td>
+              <td>{sophomoreTotalCost}</td>
+              <td>{juniorTotalCost}</td>
+              <td>{seniorTotalCost}</td>
             </tr>
 
             <tr>
-              <td className='calculator-width'>Total College Cost</td>
-              <td className='calculator-width'></td>
-              <td className='calculator-width'></td>
-              <td className='calculator-width'></td>
-              <td className='calculator-width'>{collegeTotalCost}</td>
+              <td>Total College Cost</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>{collegeTotalCost}</td>
             </tr>
 
             {collegeTotalCost}
@@ -335,194 +316,190 @@ export default function Calculator() {
         </table>
 
         {/* FUNDING PLAN */}
-        <table className='calculator-margin-top'>
+        <table>
           <thead>
-            <tr className='calculator-explore-careers-table-row'>
-              <td colSpan={5} className='calculator-table-row-header'>
-                Funding Plan
-              </td>
+            <tr>
+              <td colSpan={5}>Funding Plan</td>
             </tr>
-            <tr className='background-swan'>
-              <th className='calculator-width'></th>
-              <th className='calculator-width-20-percent-textalign-center'>Freshman</th>
-              <th className='calculator-width-20-percent-textalign-center'>Sophomore</th>
-              <th className='calculator-width-20-percent-textalign-center'>Junior</th>
-              <th className='calculator-width-20-percent-textalign-center'>Senior</th>
+            <tr>
+              <th></th>
+              <th>Freshman</th>
+              <th>Sophomore</th>
+              <th>Junior</th>
+              <th>Senior</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td className='calculator-width'>Savings</td>
-              <td className='calculator-width'>
-                <input className='calculator-width-center' type='number' />
+              <td>Savings</td>
+              <td>
+                <input type='number' />
               </td>
-              <td className='calculator-width'>
-                <input className='calculator-width-center' type='number' />
+              <td>
+                <input type='number' />
               </td>
-              <td className='calculator-width'>
-                <input className='calculator-width-center' type='number' />
+              <td>
+                <input type='number' />
               </td>
-              <td className='calculator-width'>
-                <input className='calculator-width-center' type='number' />
-              </td>
-            </tr>
-
-            <tr>
-              <td className='calculator-width'>Job Hourly Pay</td>
-              <td className='calculator-width'>
-                <input className='calculator-width-center' type='number' />
-              </td>
-              <td className='calculator-width'>
-                <input className='calculator-width-center' type='number' />
-              </td>
-              <td className='calculator-width'>
-                <input className='calculator-width-center' type='number' />
-              </td>
-              <td className='calculator-width'>
-                <input className='calculator-width-center' type='number' />
+              <td>
+                <input type='number' />
               </td>
             </tr>
 
             <tr>
-              <td className='calculator-width'>Hours Per Week</td>
-              <td className='calculator-width'>
-                <input className='calculator-width-center' type='number' />
+              <td>Job Hourly Pay</td>
+              <td>
+                <input type='number' />
               </td>
-              <td className='calculator-width'>
-                <input className='calculator-width-center' type='number' />
+              <td>
+                <input type='number' />
               </td>
-              <td className='calculator-width'>
-                <input className='calculator-width-center' type='number' />
+              <td>
+                <input type='number' />
               </td>
-              <td className='calculator-width'>
-                <input className='calculator-width-center' type='number' />
-              </td>
-            </tr>
-
-            <tr>
-              <td className='calculator-width'>Weeks Per School Year</td>
-              <td className='calculator-width'>
-                <input className='calculator-width-center' type='number' />
-              </td>
-              <td className='calculator-width'>
-                <input className='calculator-width-center' type='number' />
-              </td>
-              <td className='calculator-width'>
-                <input className='calculator-width-center' type='number' />
-              </td>
-              <td className='calculator-width'>
-                <input className='calculator-width-center' type='number' />
+              <td>
+                <input type='number' />
               </td>
             </tr>
 
             <tr>
-              <td className='calculator-width'>Income</td>
-              <td className='calculator-width'>
-                <input className='calculator-width-center' type='number' />
+              <td>Hours Per Week</td>
+              <td>
+                <input type='number' />
               </td>
-              <td className='calculator-width'>
-                <input className='calculator-width-center' type='number' />
+              <td>
+                <input type='number' />
               </td>
-              <td className='calculator-width'>
-                <input className='calculator-width-center' type='number' />
+              <td>
+                <input type='number' />
               </td>
-              <td className='calculator-width'>
-                <input className='calculator-width-center' type='number' />
+              <td>
+                <input type='number' />
+              </td>
+            </tr>
+
+            <tr>
+              <td>Weeks Per School Year</td>
+              <td>
+                <input type='number' />
+              </td>
+              <td>
+                <input type='number' />
+              </td>
+              <td>
+                <input type='number' />
+              </td>
+              <td>
+                <input type='number' />
+              </td>
+            </tr>
+
+            <tr>
+              <td>Income</td>
+              <td>
+                <input type='number' />
+              </td>
+              <td>
+                <input type='number' />
+              </td>
+              <td>
+                <input type='number' />
+              </td>
+              <td>
+                <input type='number' />
               </td>
             </tr>
             <tr>
-              <td className='calculator-width'>Summer Job / Other</td>
-              <td className='calculator-width'>
-                <input className='calculator-width-center' type='number' />
+              <td>Summer Job / Other</td>
+              <td>
+                <input type='number' />
               </td>
-              <td className='calculator-width'>
-                <input className='calculator-width-center' type='number' />
+              <td>
+                <input type='number' />
               </td>
-              <td className='calculator-width'>
-                <input className='calculator-width-center' type='number' />
+              <td>
+                <input type='number' />
               </td>
-              <td className='calculator-width'>
-                <input className='calculator-width-center' type='number' />
-              </td>
-            </tr>
-            <tr>
-              <td className='calculator-width'>Subtotal</td>
-              <td className='calculator-width'></td>
-              <td className='calculator-width'></td>
-              <td className='calculator-width'></td>
-              <td className='calculator-width'>
-                <input className='calculator-width-center' type='number' />
+              <td>
+                <input type='number' />
               </td>
             </tr>
             <tr>
-              <td className='calculator-width'>Federal Student Loans</td>
-              <td className='calculator-width'>
-                <input className='calculator-width-center' type='number' />
-              </td>
-              <td className='calculator-width'>
-                <input className='calculator-width-center' type='number' />
-              </td>
-              <td className='calculator-width'>
-                <input className='calculator-width-center' type='number' />
-              </td>
-              <td className='calculator-width'>
-                <input className='calculator-width-center' type='number' />
+              <td>Subtotal</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>
+                <input type='number' />
               </td>
             </tr>
             <tr>
-              <td className='calculator-width'>Private Student Loans</td>
-              <td className='calculator-width'>
-                <input className='calculator-width-center' type='number' />
+              <td>Federal Student Loans</td>
+              <td>
+                <input type='number' />
               </td>
-              <td className='calculator-width'>
-                <input className='calculator-width-center' type='number' />
+              <td>
+                <input type='number' />
               </td>
-              <td className='calculator-width'>
-                <input className='calculator-width-center' type='number' />
+              <td>
+                <input type='number' />
               </td>
-              <td className='calculator-width'>
-                <input className='calculator-width-center' type='number' />
+              <td>
+                <input type='number' />
               </td>
             </tr>
             <tr>
-              <td className='calculator-width'>Total Student Loans</td>
-              <td className='calculator-width'></td>
-              <td className='calculator-width'></td>
-              <td className='calculator-width'></td>
-              <td className='calculator-width'>
-                <input className='calculator-width-center' type='number' />
+              <td>Private Student Loans</td>
+              <td>
+                <input type='number' />
+              </td>
+              <td>
+                <input type='number' />
+              </td>
+              <td>
+                <input type='number' />
+              </td>
+              <td>
+                <input type='number' />
+              </td>
+            </tr>
+            <tr>
+              <td>Total Student Loans</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>
+                <input type='number' />
               </td>
             </tr>
           </tbody>
         </table>
 
         {/* RESULTS */}
-        <table className='calculator-margin-top'>
+        <table>
           <thead></thead>
           <tbody>
-            <td colSpan={5} className='calculator-table-body'>
-              Financial Value of College
-            </td>
+            <td colSpan={5}>Financial Value of College</td>
             <tr>
-              <td className='calculator-width-50-percent'>Extra Income with College</td>
-              <td className='calculator-width-50-percent'>{formatCurrency(extraIncomeWithCollege)}</td>
+              <td>Extra Income with College</td>
+              <td>{formatCurrency(extraIncomeWithCollege)}</td>
             </tr>
 
             <tr>
-              <td className='calculator-width-50-percent'>Total College Cost</td>
-              <td className='calculator-width-50-percent'>{formatCurrency(collegeTotalCost)}</td>
+              <td>Total College Cost</td>
+              <td>{formatCurrency(collegeTotalCost)}</td>
             </tr>
 
             <tr>
-              <td className='calculator-width-50-percent'>Total Student Loan Interest</td>
-              <td className='calculator-width-50-percent'>###</td>
+              <td>Total Student Loan Interest</td>
+              <td>###</td>
             </tr>
 
             <tr>
-              <td className='calculator-financial-value-of-college'>Financial Value of College</td>
-              <td className='calculator-width-50-percent-fontsize-32px'>
+              <td>Financial Value of College</td>
+              <td>
                 {financialValueOfCollege < 0 ? (
-                  <span className='calculator-color-red'>{formatCurrency(financialValueOfCollege)}</span>
+                  <span>{formatCurrency(financialValueOfCollege)}</span>
                 ) : (
                   <span> {formatCurrency(financialValueOfCollege)}</span>
                 )}

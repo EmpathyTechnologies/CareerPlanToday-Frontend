@@ -20,7 +20,7 @@ export default function Career() {
   }
 
   return (
-    <Card className='navbar-spacer footer-spacer career-width'>
+    <Card>
       <Card.Body>
         <Card.Title>{answer.title}</Card.Title>
         <Card.Text>

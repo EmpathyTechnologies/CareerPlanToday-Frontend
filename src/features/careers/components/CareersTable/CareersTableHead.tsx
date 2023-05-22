@@ -26,12 +26,8 @@ export default function CareersTableHead({ sortDirection, setSortDirection }: an
   return (
     <thead>
       <tr>
-        <th className='Careers-TableHeader' onClick={handleSortByCareers}>
-          Career {arrow.career}
-        </th>
-        <th className='Careers-TableHeader FlexCenter' onClick={handleSortBySalary}>
-          Salary {arrow.salary}
-        </th>
+        <th onClick={handleSortByCareers}>Career {arrow.career}</th>
+        <th onClick={handleSortBySalary}>Salary {arrow.salary}</th>
       </tr>
     </thead>
   );

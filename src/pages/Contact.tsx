@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Form, Button } from "react-bootstrap";
+import { Form, Button } from "react-bootstrap";
 
 const Contact = () => {
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
@@ -8,7 +8,7 @@ const Contact = () => {
   };
 
   return (
-    <div className='navbar-spacer footer-spacer contact-margin'>
+    <div>
       <h1>Contact Us</h1>
       <Form onSubmit={handleSubmit}>
         <Form.Group controlId='formBasicName'>

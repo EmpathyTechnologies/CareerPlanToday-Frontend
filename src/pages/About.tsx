@@ -1,4 +1,3 @@
-import styles from "../assets/styles/About.module.css";
 import Card from "react-bootstrap/Card";
 import eric from "../assets/images/about/eric.jpg";
 import maxwell from "../assets/images/about/maxwell.jpg";
@@ -34,7 +33,7 @@ export default function About() {
   ];
 
   const cardsList = people.map((person) => (
-    <Card style={{ width: "18rem" }} key={person.name}>
+    <Card className='about-width' key={person.name}>
       <Card.Img variant='top' src={person.img} />
       <Card.Body>
         <Card.Title>{person.name}</Card.Title>
@@ -45,9 +44,9 @@ export default function About() {
   ));
 
   return (
-    <div className='navbar-spacer footer-spacer'>
-      <h1 className={styles.aboutHeader}>About Us</h1>
-      <div className={styles.aboutCardContainer}>{cardsList}</div>
+    <div>
+      <h1>About Us</h1>
+      <div className='about-card-list'>{cardsList}</div>
     </div>
   );
 }

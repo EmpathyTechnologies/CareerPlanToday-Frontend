@@ -1,9 +1,6 @@
 import { BsMortarboardFill, BsTools } from "react-icons/bs";
 import { TbBusinessplan } from "react-icons/tb";
-
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
-
-import "../assets/styles/NavigationBar.css";
 
 export default function NavigationBar() {
   const careersTooltip = <Tooltip id='careers-tooltip'>Explore Careers</Tooltip>;

@@ -11,7 +11,7 @@ export default function NotFound() {
   const randomImg = images[Math.floor(Math.random() * images.length)];
 
   return (
-    <div className='navbar-spacer not-found-container'>
+    <div>
       <h1>Sorry, the page you were looking for doesn’t exist</h1>
 
       <Figure>

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
-import { Form, Button } from "react-bootstrap";
+import { Form } from "react-bootstrap";
 import Alert from "react-bootstrap/Alert";
+import Button from "../components/Button";
 
 interface FeedbackInterface {
   id: string;
@@ -50,7 +51,7 @@ function Feedback() {
   };
 
   return (
-    <div className='navbar-spacer footer-spacer feedback-margin'>
+    <div>
       <br />
       <div>We always want to improve and your feedback helps us do exactly that.</div>
       <br />
@@ -71,9 +72,8 @@ function Feedback() {
             onChange={(e) => setNewFeedback(e.target.value)}
           />
         </Form.Group>
-        <Button variant='primary' type='submit' onClick={() => setShow(true)}>
-          Submit
-        </Button>
+
+        <Button text='Submit' color='btn-blue' type='submit' onClick={() => setShow(true)} />
       </Form>
     </div>
   );

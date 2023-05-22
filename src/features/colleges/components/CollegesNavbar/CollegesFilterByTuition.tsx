@@ -16,10 +16,10 @@ export default function CollegesNavbarTuitionSlider({ filterByTuition, setFilter
 
   return (
     <div>
-      <Box sx={{ width: 550, marginLeft: "30px", display: "flex" }}>
-        <span style={{ paddingRight: "25px" }}>{formatCurrency(minTuition)}</span>
-        <Slider style={{ width: 200 }} value={filterByTuition} onChange={handleChange} valueLabelDisplay='auto' min={minTuition} max={maxTuition} />
-        <span style={{ paddingLeft: "25px" }}>{formatCurrency(maxTuition)}</span>
+      <Box className='customBox'>
+        <span className='paddingRight25px'>{formatCurrency(minTuition)}</span>
+        <Slider className='width200' value={filterByTuition} onChange={handleChange} valueLabelDisplay='auto' min={minTuition} max={maxTuition} />
+        <span className='paddingRight25px'>{formatCurrency(maxTuition)}</span>
       </Box>
     </div>
   );

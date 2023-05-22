@@ -1,10 +1,8 @@
 import { Row, Col, Form } from "react-bootstrap";
 
 export default function Budget() {
-  let displayFlex = { display: "flex", justifyContent: "space-between" };
-
   return (
-    <div className='navbar-spacer footer-spacer'>
+    <div>
       <h3>Lifestyle Budget</h3>
       <h4>INCOME</h4>
 
@@ -41,7 +39,7 @@ export default function Budget() {
         </Col>
       </Row>
 
-      <div className='budget-fontweight-bold'>EXPENSES (per Monthl)</div>
+      <div>EXPENSES (per Monthl)</div>
 
       <Form.Group controlId='housing'>
         <Form.Label>Housing</Form.Label>

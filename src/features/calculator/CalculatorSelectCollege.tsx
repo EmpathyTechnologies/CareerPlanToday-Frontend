@@ -12,7 +12,6 @@ type LabelProps = {
 type MenuProps = {
   children: React.ReactNode;
   style: React.CSSProperties;
-  className?: string;
   "aria-labelledby": string;
   label: string;
   setLabel: React.Dispatch<React.SetStateAction<string>>;
@@ -46,7 +45,6 @@ const Menu = forwardRef<HTMLDivElement, MenuProps>(
     {
       children,
       style,
-      className,
       "aria-labelledby": labeledBy,
       label,
       setLabel,
@@ -82,15 +80,9 @@ const Menu = forwardRef<HTMLDivElement, MenuProps>(
     };
 
     return (
-      <div ref={ref} style={style} className={className} aria-labelledby={labeledBy}>
-        <Form.Control
-          autoFocus
-          className='mx-3 my-2 w-auto'
-          placeholder='Type to filter...'
-          onChange={(e) => setValue(e.target.value)}
-          value={value}
-        />
-        <ul className='list-unstyled'>
+      <div ref={ref} style={style} aria-labelledby={labeledBy}>
+        <Form.Control autoFocus placeholder='Type to filter...' onChange={(e) => setValue(e.target.value)} value={value} />
+        <ul>
           {React.Children.toArray(children)
             .filter((child: any) => !value || child.props.children?.toString().toLowerCase().startsWith(value))
             .map((child: any) => (
@@ -122,7 +114,7 @@ const CalculatorSelectCollege = ({
   const [label, setLabel] = useState("Select College");
   return (
     <Dropdown>
-      <Dropdown.Toggle as={Label} id='dropdown-custom-components' label={label} setLabel={setLabel}>
+      <Dropdown.Toggle as={Label} label={label} setLabel={setLabel}>
         {label}
       </Dropdown.Toggle>
 

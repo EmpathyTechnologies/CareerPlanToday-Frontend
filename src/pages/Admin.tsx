@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
-
-// Tutorial https://www.youtube.com/watch?v=yKV1IGahXqA
-import { Form, Button, ListGroup } from "react-bootstrap";
+import { ListGroup } from "react-bootstrap";
+import Button from "../components/Button";
 
 export default function Admin() {
   interface FeedbackInterface {
@@ -43,16 +42,14 @@ export default function Admin() {
   }, [newMessage]);
 
   return (
-    <div className='navbar-spacer'>
+    <div>
       <ListGroup>
         {feedbackList.map((feedback) => (
-          <ListGroup.Item key={feedback.id} className='admin-display-flex-justifycontent-space-between'>
+          <ListGroup.Item key={feedback.id}>
             <div> {feedback.message}</div>
             <div>
               {formatDate(feedback.id)}
-              <Button variant='danger' onClick={() => handleDeleteFeedback(feedback.id)}>
-                Delete
-              </Button>
+              <Button text='Delete' color='btn-red' onClick={() => handleDeleteFeedback(feedback.id)} />
             </div>
           </ListGroup.Item>
         ))}
