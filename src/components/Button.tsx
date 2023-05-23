@@ -1,5 +1,5 @@
 interface ButtonProps {
-  text: string;
+  text: string | any;
   onClick?: () => void;
   color: "btn-blue" | "btn-green" | "btn-red";
   type?: "submit" | "button" | "reset" | undefined;

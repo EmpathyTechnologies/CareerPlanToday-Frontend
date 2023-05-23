@@ -1,0 +1,26 @@
+/* width */
+.w-120 {
+  width: 120px;
+}
+
+.w-240 {
+  width: 240px !important;
+}
+
+/* height */
+.h-50 {
+  height: 50px !important;
+}
+
+/* margin */
+.mt-25 {
+  margin-top: 25px !important;
+}
+
+.mr-25 {
+  margin-right: 25px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}

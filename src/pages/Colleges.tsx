@@ -17,20 +17,15 @@ export default function Colleges() {
 
   return (
     <div>
-      <div>
-        <div>
-          <CollegesNavbar
-            setFilterByStates={setFilterByStates}
-            filterByTuition={filterByTuition}
-            setFilterByTuition={setFilterByTuition}
-            minTuition={minTuition}
-            maxTuition={maxTuition}
-          />
-        </div>
-        <div>
-          <CollegesTable colleges={colleges} setColleges={setColleges}></CollegesTable>
-        </div>
-      </div>
+      <CollegesNavbar
+        setFilterByStates={setFilterByStates}
+        filterByTuition={filterByTuition}
+        setFilterByTuition={setFilterByTuition}
+        minTuition={minTuition}
+        maxTuition={maxTuition}
+      />
+
+      <CollegesTable colleges={colleges} setColleges={setColleges}></CollegesTable>
     </div>
   );
 }
