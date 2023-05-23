@@ -1,7 +1,15 @@
 import React from "react";
-
-import CareersFilterByCareerField from "./CareersFilterByCareerField";
+import FilterDropdownSearch from "../../../../components/FilterDropdownSearch";
 import FilterDoubleSlider from "../../../../components/FilterDoubleSlider";
+
+const careerFields = [
+  { name: "All Careers" },
+  { name: "Construction" },
+  { name: "Education" },
+  { name: "Engineer" },
+  { name: "Finance" },
+  { name: "Healthcare" },
+];
 
 interface CareersNavbarProps {
   setFilterByCareerName: any;
@@ -14,7 +22,7 @@ interface CareersNavbarProps {
 const CollegesNavbar: React.FC<CareersNavbarProps> = ({ setFilterByCareerName, filterBySalary, setFilterBySalary, minSalary, maxSalary }) => {
   return (
     <div>
-      <CareersFilterByCareerField setFilterByCareerName={setFilterByCareerName} />
+      <FilterDropdownSearch text='All Careers' menuArray={careerFields} setFilter={setFilterByCareerName} />
       <FilterDoubleSlider filter={filterBySalary} setFilter={setFilterBySalary} minNumber={minSalary} maxNumber={maxSalary} />
     </div>
   );
