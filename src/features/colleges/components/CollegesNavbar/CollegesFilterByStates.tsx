@@ -46,7 +46,7 @@ const CustomMenu = forwardRef<HTMLDivElement, CustomMenuProps>(({ children, styl
   );
 });
 
-export default function CollegesFilterByStates({ setFilterByStates }: any) {
+function CollegesFilterByStates({ setFilterByStates }: any) {
   const usaStates = [
     { name: "All States", abbreviation: "All States" },
     { name: "Alabama", abbreviation: "AL" },
@@ -122,3 +122,5 @@ export default function CollegesFilterByStates({ setFilterByStates }: any) {
     </Dropdown>
   );
 }
+
+export default CollegesFilterByStates;

@@ -1,6 +1,6 @@
 import React from "react";
 import CollegesFilterByStates from "./CollegesFilterByStates";
-import CollegesFilterByTuition from "./CollegesFilterByTuition";
+import FilterDoubleSlider from "../../../../components/FilterDoubleSlider";
 
 interface CollegesNavbarProps {
   setFilterByStates: any;
@@ -14,12 +14,8 @@ const CollegesNavbar: React.FC<CollegesNavbarProps> = ({ setFilterByStates, filt
   return (
     <div>
       <CollegesFilterByStates setFilterByStates={setFilterByStates} />
-      <CollegesFilterByTuition
-        filterByTuition={filterByTuition}
-        setFilterByTuition={setFilterByTuition}
-        minTuition={minTuition}
-        maxTuition={maxTuition}
-      />
+
+      <FilterDoubleSlider filter={filterByTuition} setFilter={setFilterByTuition} minNumber={minTuition} maxNumber={maxTuition} />
     </div>
   );
 };
