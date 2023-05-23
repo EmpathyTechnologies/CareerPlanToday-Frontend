@@ -3678,7 +3678,7 @@
   {
     "id": 531,
     "name": "University of the District of Columbia",
-    "state": "DC",
+    "state": "Washington DC",
     "tuition": 6152,
     "website": "https://www.udc.edu"
   },
@@ -5309,7 +5309,7 @@
   {
     "id": 764,
     "name": "George Washington University",
-    "state": "DC",
+    "state": "Washington DC",
     "tuition": 58640,
     "website": "https://www.gwu.edu"
   },
@@ -5407,7 +5407,7 @@
   {
     "id": 778,
     "name": "Georgetown University",
-    "state": "DC",
+    "state": "Washington DC",
     "tuition": 57928,
     "website": "https://www.georgetown.edu"
   },
@@ -5988,7 +5988,7 @@
   {
     "id": 861,
     "name": "American University",
-    "state": "DC",
+    "state": "Washington DC",
     "tuition": 51361,
     "website": "https://www.american.edu"
   },
@@ -6205,7 +6205,7 @@
   {
     "id": 892,
     "name": "The Catholic University of America",
-    "state": "DC",
+    "state": "Washington DC",
     "tuition": 49416,
     "website": "https://www.catholic.edu"
   },
@@ -9889,7 +9889,7 @@
   {
     "id": 1434,
     "name": "Howard University",
-    "state": "DC",
+    "state": "Washington DC",
     "tuition": 28440,
     "website": "https://www2.howard.edu"
   },
@@ -10491,7 +10491,7 @@
   {
     "id": 1520,
     "name": "Trinity Washington University",
-    "state": "DC",
+    "state": "Washington DC",
     "tuition": 25110,
     "website": "https://www.trinitydc.edu"
   },
@@ -11604,7 +11604,7 @@
   {
     "id": 1679,
     "name": "Gallaudet University",
-    "state": "DC",
+    "state": "Washington DC",
     "tuition": 17038,
     "website": "https://www.gallaudet.edu"
   },
@@ -15405,7 +15405,7 @@
   {
     "id": 2222,
     "name": "Strayer University-District of Columbia",
-    "state": "DC",
+    "state": "Washington DC",
     "tuition": 13515,
     "website": "https://www.strayer.edu"
   },
@@ -15426,7 +15426,7 @@
   {
     "id": 2225,
     "name": "Strayer University-Global Region",
-    "state": "DC",
+    "state": "Washington DC",
     "tuition": 13515,
     "website": "https://www.strayer.edu/campus-locations/online"
   },
@@ -15895,7 +15895,7 @@
   {
     "id": 2292,
     "name": "University of the Potomac-Washington DC Campus",
-    "state": "DC",
+    "state": "Washington DC",
     "tuition": 6660,
     "website": "https://potomac.edu/washington-dc-campus"
   },
@@ -22926,7 +22926,7 @@
   {
     "id": 3300,
     "name": "Saint Michael College of Allied Health",
-    "state": "DC",
+    "state": "Washington DC",
     "tuition": 16325,
     "website": "https://www.stmichaelcollege.edu"
   },
@@ -23787,7 +23787,7 @@
   {
     "id": 3423,
     "name": "National Conservatory of Dramatic Arts",
-    "state": "DC",
+    "state": "Washington DC",
     "tuition": 9900,
     "website": "https://www.theconservatory.org"
   },

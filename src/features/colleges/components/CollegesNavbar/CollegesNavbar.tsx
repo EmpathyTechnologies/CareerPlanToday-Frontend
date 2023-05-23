@@ -6,6 +6,7 @@ const statesOfAmerica = [
   { name: "All States" },
   { name: "Alabama" },
   { name: "Alaska" },
+  { name: "American Samoa" },
   { name: "Arizona" },
   { name: "Arkansas" },
   { name: "California" },
@@ -42,6 +43,7 @@ const statesOfAmerica = [
   { name: "Oklahoma" },
   { name: "Oregon" },
   { name: "Pennsylvania" },
+  { name: "Puerto Rico" },
   { name: "Rhode Island" },
   { name: "South Carolina" },
   { name: "South Dakota" },
@@ -51,6 +53,7 @@ const statesOfAmerica = [
   { name: "Vermont" },
   { name: "Virginia" },
   { name: "Washington" },
+  { name: "Washington DC" },
   { name: "West Virginia" },
   { name: "Wisconsin" },
   { name: "Wyoming" },
@@ -64,11 +67,17 @@ interface CollegesNavbarProps {
   maxTuition: any;
 }
 
+// todo... figure out how filter dropdown search can up date minTuition & maxTuition
+
 const CollegesNavbar: React.FC<CollegesNavbarProps> = ({ setFilterByStates, filterByTuition, setFilterByTuition, minTuition, maxTuition }) => {
   return (
-    <div>
-      <FilterDropdownSearch text='All States' menuArray={statesOfAmerica} setFilter={setFilterByStates} />
-      <FilterDoubleSlider filter={filterByTuition} setFilter={setFilterByTuition} minNumber={minTuition} maxNumber={maxTuition} />
+    <div className='d-flex'>
+      <div className='mr-25 mt-25 mb-25'>
+        <FilterDropdownSearch text='All States' menuArray={statesOfAmerica} setFilter={setFilterByStates} />
+      </div>
+      <div className='mt-25 mb-25'>
+        <FilterDoubleSlider filter={filterByTuition} setFilter={setFilterByTuition} minNumber={minTuition} maxNumber={maxTuition} />
+      </div>
     </div>
   );
 };

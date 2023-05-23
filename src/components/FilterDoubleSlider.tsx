@@ -1,7 +1,6 @@
 import Box from "@mui/material/Box";
 import Slider from "@mui/material/Slider";
 import { formatCurrency } from "../utilities/formatCurrency";
-
 export function FilterDoubleSlider({ filter, setFilter, minNumber, maxNumber }: any) {
   const handleChange = (event: Event, newValue: number | number[]) => {
     if (typeof newValue === "number") {
@@ -15,8 +14,8 @@ export function FilterDoubleSlider({ filter, setFilter, minNumber, maxNumber }: 
   };
 
   return (
-    <div>
-      <Box>
+    <div className='btn btn-blue w-240 h-50'>
+      <Box className='w-120'>
         <span>{formatCurrency(minNumber)}</span>
         <Slider value={filter} onChange={handleChange} min={minNumber} max={maxNumber} valueLabelDisplay='auto' />
         <span>{formatCurrency(maxNumber)}</span>

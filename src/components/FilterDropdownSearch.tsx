@@ -5,8 +5,7 @@ import Form from "react-bootstrap/Form";
 function CustomButton({ children, onClick }: any) {
   return (
     <a
-      className='btn btn-blue'
-      style={{ width: "240px" }}
+      className='btn btn-blue w-240'
       onClick={(e: MouseEvent<HTMLAnchorElement>) => {
         e.preventDefault();
         onClick(e);

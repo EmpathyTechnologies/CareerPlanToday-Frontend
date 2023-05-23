@@ -17,18 +17,14 @@ export default function Careers() {
 
   return (
     <div>
-      <div>
-        <CareersNavbar
-          setFilterByCareerName={setFilterByCareerName}
-          filterBySalary={filterBySalary}
-          setFilterBySalary={setFilterBySalary}
-          minSalary={minSalary}
-          maxSalary={maxSalary}
-        />
-      </div>
-      <div>
-        <CareersTable careers={careers} setCareers={setCareers} />
-      </div>
+      <CareersNavbar
+        setFilterByCareerName={setFilterByCareerName}
+        filterBySalary={filterBySalary}
+        setFilterBySalary={setFilterBySalary}
+        minSalary={minSalary}
+        maxSalary={maxSalary}
+      />
+      <CareersTable careers={careers} setCareers={setCareers} />
     </div>
   );
 }
