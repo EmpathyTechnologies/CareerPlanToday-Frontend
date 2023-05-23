@@ -1,7 +1,7 @@
 import React from "react";
 
 import CareersFilterByCareerField from "./CareersFilterByCareerField";
-import CareersFilterBySalary from "./CareersFilterBySalary";
+import FilterDoubleSlider from "../../../../components/FilterDoubleSlider";
 
 interface CareersNavbarProps {
   setFilterByCareerName: any;
@@ -15,7 +15,7 @@ const CollegesNavbar: React.FC<CareersNavbarProps> = ({ setFilterByCareerName, f
   return (
     <div>
       <CareersFilterByCareerField setFilterByCareerName={setFilterByCareerName} />
-      <CareersFilterBySalary filterBySalary={filterBySalary} setFilterBySalary={setFilterBySalary} minSalary={minSalary} maxSalary={maxSalary} />
+      <FilterDoubleSlider filter={filterBySalary} setFilter={setFilterBySalary} minNumber={minSalary} maxNumber={maxSalary} />
     </div>
   );
 };
