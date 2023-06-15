@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
 import laptopImg from "../assets/images/home/laptop.png";
 import Button from "./Button";
+
 function Hero() {
   return (
     <div className='hero'>
@@ -16,7 +18,9 @@ function Hero() {
               <Button text='Start Now' color={"btn-green"} />
             </div>
             <div className='hero-btn'>
-              <Button text='Log In' color={"btn-blue"} />
+              <Link to="/login">
+                <Button text='Log In' color={"btn-blue"} />
+              </Link>
             </div>
           </div>
         </div>
