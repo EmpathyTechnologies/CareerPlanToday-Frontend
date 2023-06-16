@@ -15,6 +15,7 @@ import Colleges from "./pages/Colleges";
 import Contact from "./pages/Contact";
 import Feedback from "./pages/Feedback";
 import Home from "./pages/Home";
+import LoginPage from "./pages/LoginPage";
 import Retire from "./pages/Retire";
 import NotFound from "./pages/NotFound";
 import Plan from "./pages/Plan";
@@ -40,6 +41,7 @@ function App() {
           <Route path='colleges' element={<Colleges />} />
           <Route path='colleges/:id' element={<College />} />
           <Route path='contact' element={<Contact />} />
+          <Route path='login' element={<LoginPage />} />
           <Route path='feedback' element={<Feedback />} />
           <Route path='plan' element={<Plan />} />
           <Route path='invest' element={<Retire />} />
