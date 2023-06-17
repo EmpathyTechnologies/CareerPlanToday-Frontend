@@ -1,6 +1,6 @@
 interface ButtonProps {
-  text: string | any;
-  onClick?: () => void;
+  text: string;
+  onClick?: any;
   color: "btn-blue" | "btn-green" | "btn-red";
   type?: "submit" | "button" | "reset" | undefined;
 }

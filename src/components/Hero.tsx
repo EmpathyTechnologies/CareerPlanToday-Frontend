@@ -18,7 +18,7 @@ function Hero() {
               <Button text='Start Now' color={"btn-green"} />
             </div>
             <div className='hero-btn'>
-              <Link to="/login">
+              <Link to='/login'>
                 <Button text='Log In' color={"btn-blue"} />
               </Link>
             </div>
