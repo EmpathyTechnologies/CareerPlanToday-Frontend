@@ -1,13 +1,20 @@
 interface ButtonProps {
   text: string;
-  onClick?: any;
+  onClick?: () => void;
+  href?: string;
   color: "btn-blue" | "btn-green" | "btn-red";
   type?: "submit" | "button" | "reset" | undefined;
 }
 
 function Button({ text, onClick, color, type }: ButtonProps) {
+  const handleClick = () => {
+    if (onClick) {
+      onClick();
+    }
+  };
+
   return (
-    <button className={`btn ${color}`} onClick={onClick} type={type}>
+    <button className={`btn ${color}`} onClick={handleClick} type={type}>
       {text}
     </button>
   );
