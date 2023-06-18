@@ -1,4 +1,3 @@
-import React from "react";
 import Button from "../components/Button";
 import Card from "react-bootstrap/Card";
 import { useNavigate } from "react-router-dom";
@@ -14,9 +13,9 @@ function Plan() {
   let myCards: CardItem[] = [
     { step: 1, title: "Incomplete", btnText: "Explore Careers", href: "/careers" },
     { step: 2, title: "Incomplete", btnText: "Compare Colleges", href: "/colleges" },
-    { step: 3, title: "Incomplete", btnText: "How to Fund College", href: "" },
-    { step: 4, title: "Incomplete", btnText: "Choose your lifestyle", href: "" },
-    { step: 5, title: "Incomplete", btnText: "See How You Can Invest", href: "" },
+    { step: 3, title: "Incomplete", btnText: "How to Fund College", href: "/calculator" },
+    { step: 4, title: "Incomplete", btnText: "Choose your lifestyle", href: "/budget" },
+    { step: 5, title: "Incomplete", btnText: "See How You Can Invest", href: "/invest" },
   ];
 
   const navigate = useNavigate();
@@ -28,9 +27,9 @@ function Plan() {
   };
 
   return (
-    <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+    <div className='plan-flex-column-center'>
       {myCards.map((card) => (
-        <div style={{ display: "flex", alignItems: "center" }} key={card.step}>
+        <div className='plan-flex-center' key={card.step}>
           <h2>Step {card.step}</h2>
           <Card>
             <Card.Body>

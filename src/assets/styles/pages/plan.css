@@ -1,0 +1,10 @@
+.plan-flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plan-flex-center {
+  display: flex;
+  align-items: center;
+}
