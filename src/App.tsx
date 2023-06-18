@@ -4,7 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import NavigationBar from "./layouts/NavigationBar";
 import Footer from "./layouts/Footer";
 
-import About from "./pages/About";
+import AboutPage from "./pages/AboutPage";
 import Admin from "./pages/Admin";
 import Budget from "./pages/Budget";
 import Calculator from "./pages/Calculator";
@@ -32,7 +32,7 @@ function App() {
       <div className='navbar-spacer footer-spacer'>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='about' element={<About />} />
+          <Route path='about' element={<AboutPage />} />
           <Route path='admin' element={<Admin />} />
           <Route path='budget' element={<Budget />} />
           <Route path='calculator' element={<Calculator />} />
