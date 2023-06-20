@@ -4,7 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import NavigationBar from "./layouts/NavigationBar";
 import Footer from "./layouts/Footer";
 
-import AboutPage from "./pages/AboutPage";
+import About from "./pages/About";
 import Admin from "./pages/Admin";
 import Budget from "./pages/Budget";
 import Calculator from "./pages/Calculator";
@@ -22,6 +22,7 @@ import Plan from "./pages/Plan";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfUse from "./pages/TermsOfUse";
 
+
 function App() {
   ReactGA.initialize("UA-000000-01");
   ReactGA.pageview(window.location.pathname + window.location.search);
@@ -32,7 +33,7 @@ function App() {
       <div className='navbar-spacer footer-spacer'>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='about' element={<AboutPage />} />
+          <Route path='about' element={<About />} />
           <Route path='admin' element={<Admin />} />
           <Route path='budget' element={<Budget />} />
           <Route path='calculator' element={<Calculator />} />

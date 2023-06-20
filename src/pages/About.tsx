@@ -1,6 +1,6 @@
 import AboutPeople from "../features/About/AboutPeople";
 
-const AboutPage = () => {
+const About = () => {
     return (
         <div>
             <AboutPeople />
@@ -8,4 +8,4 @@ const AboutPage = () => {
     )
 }
 
-export default AboutPage;
+export default About;

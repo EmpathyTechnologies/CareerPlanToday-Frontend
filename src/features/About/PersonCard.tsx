@@ -12,9 +12,11 @@ type Person = {
 }
 
 const PersonCard = ({person}: Props) => {
+    const altString = "Image of " + person.name;
+
     return (
         <Card className='about-width' key={person.name}>
-            <Card.Img variant='top' src={person.img} />
+            <Card.Img variant='top' src={person.img} alt={altString}/>
             <Card.Body>
                 <Card.Title>{person.name}</Card.Title>
                 <Card.Text>{person.position}</Card.Text>
