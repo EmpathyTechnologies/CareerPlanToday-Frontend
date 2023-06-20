@@ -7,7 +7,7 @@ const LoginContainer = ({ children }:Props) => {
         <div className="container">
             <div className="row">
                 <div className="col-sm-9 col-md-7 col-lg-5 mx-auto" >
-                    <div className="card border-0 shadow rounded-3 my-5">
+                    <div className="border-0 shadow rounded-3 my-5">
                         <div className="card-body p-4 p-lg-5">
                             {children}
                         </div> 
