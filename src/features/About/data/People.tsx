@@ -7,15 +7,9 @@ import yogi from "../../../assets/images/about/yogi.jpg";
 
 const people = [
   {
-    img: eric,
-    name: "Eric Hoover",
-    title: "Project Manager",
-    linkedIn: "https://www.linkedin.com/in/hoov/",
-  },
-  {
     img: maxwell,
     name: "Max Morrow",
-    title: "Lead Data Software Engineer",
+    title: "Software Engineer",
     linkedIn: "https://www.linkedin.com/in/maxwell-morrow-6a3085228/",
   },
   {
@@ -35,6 +29,12 @@ const people = [
     name: "Yogi Zipori",
     title: "Software Engineer",
     linkedIn: "https://www.linkedin.com/in/yogi-zipori/",
+  },
+  {
+    img: eric,
+    name: "Eric Hoover",
+    title: "Software Engineer",
+    linkedIn: "https://www.linkedin.com/in/hoov/",
   },
   {
     img: user,
