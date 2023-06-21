@@ -1,8 +1,8 @@
 import eric from "../../../assets/images/about/eric.jpg";
 import maxwell from "../../../assets/images/about/maxwell.jpg";
 import ramiro from "../../../assets/images/about/ramiro.jpg";
-import tyler from "../../../assets/images/about/tyler.jpeg";
-import user from "../../../assets/images/about/user.jpeg";
+import tyler from "../../../assets/images/about/tyler.jpg";
+import user from "../../../assets/images/about/user.jpg";
 import yogi from "../../../assets/images/about/yogi.jpg";
 
 const people = [
