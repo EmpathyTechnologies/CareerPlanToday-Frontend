@@ -1,29 +1,30 @@
 import { Card } from "react-bootstrap";
 
 type Props = {
-    person: Person,
-}
+  person: Person;
+};
 
 type Person = {
-    img: string,
-    name: string,
-    position: string,
-    linkedIn: string,
-}
+  img: string;
+  name: string;
+  title: string;
 
-const PersonCard = ({person}: Props) => {
-    const altString = "Image of " + person.name;
+  linkedIn: string;
+};
 
-    return (
-        <Card className='about-width' key={person.name}>
-            <Card.Img variant='top' src={person.img} alt={altString}/>
-            <Card.Body>
-                <Card.Title>{person.name}</Card.Title>
-                <Card.Text>{person.position}</Card.Text>
-                <Card.Link href={person.linkedIn}>LinkedIn</Card.Link>
-            </Card.Body>
-        </Card>
-    )
-}
+const PersonCard = ({ person }: Props) => {
+  const altString = "Image of " + person.name;
+
+  return (
+    <Card className='about-width' key={person.name}>
+      <Card.Img variant='top' src={person.img} alt={altString} />
+      <Card.Body>
+        <Card.Title>{person.name}</Card.Title>
+        <Card.Text>{person.title}</Card.Text>
+        <Card.Link href={person.linkedIn}>LinkedIn</Card.Link>
+      </Card.Body>
+    </Card>
+  );
+};
 
 export default PersonCard;
