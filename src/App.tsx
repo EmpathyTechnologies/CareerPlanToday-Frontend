@@ -22,6 +22,7 @@ import Plan from "./pages/Plan";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfUse from "./pages/TermsOfUse";
 
+
 function App() {
   ReactGA.initialize("UA-000000-01");
   ReactGA.pageview(window.location.pathname + window.location.search);
