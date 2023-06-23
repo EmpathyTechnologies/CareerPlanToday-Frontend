@@ -22,9 +22,6 @@ import Plan from "./pages/Plan";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfUse from "./pages/TermsOfUse";
 
-import Signup from "./CognitoProofOfConcept/SignUp";
-import Login from "./CognitoProofOfConcept/Login";
-
 function App() {
   ReactGA.initialize("UA-000000-01");
   ReactGA.pageview(window.location.pathname + window.location.search);
@@ -50,10 +47,6 @@ function App() {
           <Route path='invest' element={<Retire />} />
           <Route path='privacypolicy' element={<PrivacyPolicy />} />
           <Route path='termsofuse' element={<TermsOfUse />} />
-
-          <Route path='poc-signup' element={<Signup />} />
-          <Route path='poc-login' element={<Login />} />
-
           <Route path='*' element={<NotFound />} />
         </Routes>
       </div>

@@ -9,13 +9,13 @@ const people = [
   {
     img: maxwell,
     name: "Max Morrow",
-    title: "Software Engineer",
+    title: "Lead Data Engineer",
     linkedIn: "https://www.linkedin.com/in/maxwell-morrow-6a3085228/",
   },
   {
     img: tyler,
     name: "Tyler Tompkins",
-    title: "Software Engineer",
+    title: "Lead Cloud Engineer",
     linkedIn: "https://www.linkedin.com/in/tyler-tompkins-6280bb1a4/",
   },
   {
