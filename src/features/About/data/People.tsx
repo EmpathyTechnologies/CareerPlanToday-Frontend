@@ -19,6 +19,12 @@ const people = [
     linkedIn: "https://www.linkedin.com/in/tyler-tompkins-6280bb1a4/",
   },
   {
+    img: user,
+    name: "Dustin Pezley",
+    title: "Lead Performance Engineer",
+    linkedIn: "https://www.linkedin.com/in/dustinpezley/",
+  },
+  {
     img: ramiro,
     name: "Ramiro Peña",
     title: "Software Engineer",
@@ -35,12 +41,6 @@ const people = [
     name: "Eric Hoover",
     title: "Software Engineer",
     linkedIn: "https://www.linkedin.com/in/hoov/",
-  },
-  {
-    img: user,
-    name: "Dustin Pezley",
-    title: "Software Engineer",
-    linkedIn: "https://www.linkedin.com/in/dustinpezley/",
   },
   {
     img: user,
