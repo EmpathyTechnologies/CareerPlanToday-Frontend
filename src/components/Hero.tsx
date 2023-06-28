@@ -15,7 +15,9 @@ function Hero() {
         <div className='hero-btns-container'>
           <div className='hero-btns'>
             <div className='hero-btn'>
+            <Link to='/signup'>
               <Button text='Start Now' color={"btn-green"} />
+            </Link>
             </div>
             <div className='hero-btn'>
               <Link to='/login'>

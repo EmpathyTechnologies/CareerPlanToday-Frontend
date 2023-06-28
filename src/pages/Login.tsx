@@ -4,7 +4,7 @@ import LoginHeader from "../features/login/LoginHeader";
 import GoogleLogin from "../features/login/LoginForm/features/GoogleLogin/GoogleLogin";
 
 
-const LoginPage = () => {
+const Login = () => {
 
     return (
         
@@ -18,4 +18,4 @@ const LoginPage = () => {
         );
 };
 
-export default LoginPage;
+export default Login;
