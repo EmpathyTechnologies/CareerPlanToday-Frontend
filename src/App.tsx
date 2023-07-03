@@ -5,6 +5,7 @@ import NavigationBar from "./layouts/NavigationBar";
 import Footer from "./layouts/Footer";
 
 import About from "./pages/About";
+import Accessibility from "./pages/Accessibility";
 import Admin from "./pages/Admin";
 import Budget from "./pages/Budget";
 import Calculator from "./pages/Calculator";
@@ -34,6 +35,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='about' element={<About />} />
+          <Route path='accessibility' element={<Accessibility />} />
           <Route path='admin' element={<Admin />} />
           <Route path='budget' element={<Budget />} />
           <Route path='calculator' element={<Calculator />} />

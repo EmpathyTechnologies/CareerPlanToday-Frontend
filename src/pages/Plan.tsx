@@ -11,10 +11,10 @@ interface CardItem {
 
 function Plan() {
   let myCards: CardItem[] = [
-    { step: 1, title: "Incomplete", btnText: "Explore Careers", href: "/careers" },
+    { step: 1, title: "Save at least 1 Career - Incomplete", btnText: "Explore Careers", href: "/careers" },
     { step: 2, title: "Incomplete", btnText: "Compare Colleges", href: "/colleges" },
     { step: 3, title: "Incomplete", btnText: "How to Fund College", href: "/calculator" },
-    { step: 4, title: "Incomplete", btnText: "Choose your lifestyle", href: "/budget" },
+    { step: 4, title: "Incomplete", btnText: "Choose Your Lifestyle", href: "/budget" },
     { step: 5, title: "Incomplete", btnText: "See How You Can Invest", href: "/invest" },
   ];
 
