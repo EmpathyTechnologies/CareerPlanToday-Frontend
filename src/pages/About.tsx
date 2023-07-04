@@ -1,4 +1,4 @@
-import AboutPeople from "../features/About/AboutPeople";
+import AboutPeople from "../features/about/AboutPeople";
 
 const About = () => {
   return (

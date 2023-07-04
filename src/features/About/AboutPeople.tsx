@@ -2,10 +2,7 @@ import people from "./data/People";
 import PersonCard from "./PersonCard";
 
 const AboutPeople = () => {
-
-  const cardsList = people.map((person) => (
-     <PersonCard key={person.img} person={person}/>
-  ));
+  const cardsList = people.map((person) => <PersonCard key={person.img} person={person} />);
 
   return (
     <div>
@@ -13,6 +10,6 @@ const AboutPeople = () => {
       <div className='about-card-list'>{cardsList}</div>
     </div>
   );
-}
+};
 
 export default AboutPeople;

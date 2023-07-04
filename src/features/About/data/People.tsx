@@ -27,7 +27,7 @@ const people = [
   {
     img: ramiro,
     name: "Ramiro Peña",
-    title: "Software Engineer",
+    title: "Lead Testing Architect",
     linkedIn: "https://www.linkedin.com/in/ramiro-pena/",
   },
   {
@@ -39,7 +39,7 @@ const people = [
   {
     img: eric,
     name: "Eric Hoover",
-    title: "Software Engineer",
+    title: "Project Manager / Tech Lead",
     linkedIn: "https://www.linkedin.com/in/hoov/",
   },
   {
@@ -57,7 +57,7 @@ const people = [
   {
     img: user,
     name: "Mae Peña",
-    title: "Software Engineer",
+    title: "Lead Quality Assurance Engineer",
     linkedIn: "https://www.linkedin.com/in/maepena/",
   },
 ];
