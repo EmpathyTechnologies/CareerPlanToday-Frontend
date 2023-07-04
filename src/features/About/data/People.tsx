@@ -50,15 +50,15 @@ const people = [
   },
   {
     img: user,
-    name: "Matt Rhoades",
-    title: "Software Engineer",
-    linkedIn: "https://www.linkedin.com/in/matthew-rhoades-6a3b15172/",
-  },
-  {
-    img: user,
     name: "Mae Peña",
     title: "Lead Quality Assurance Engineer",
     linkedIn: "https://www.linkedin.com/in/maepena/",
+  },
+  {
+    img: user,
+    name: "Matt Rhoades",
+    title: "Software Engineer",
+    linkedIn: "https://www.linkedin.com/in/matthew-rhoades-6a3b15172/",
   },
 ];
 
