@@ -1,4 +1,6 @@
+import dustin from "../../../assets/images/about/dustin.jpg";
 import eric from "../../../assets/images/about/eric.jpg";
+import karim from "../../../assets/images/about/karim.jpg";
 import maxwell from "../../../assets/images/about/maxwell.jpg";
 import ramiro from "../../../assets/images/about/ramiro.jpg";
 import tyler from "../../../assets/images/about/tyler.jpg";
@@ -19,7 +21,7 @@ const people = [
     linkedIn: "https://www.linkedin.com/in/tyler-tompkins-6280bb1a4/",
   },
   {
-    img: user,
+    img: dustin,
     name: "Dustin Pezley",
     title: "Lead Performance Engineer",
     linkedIn: "https://www.linkedin.com/in/dustinpezley/",
@@ -43,7 +45,7 @@ const people = [
     linkedIn: "https://www.linkedin.com/in/hoov/",
   },
   {
-    img: user,
+    img: karim,
     name: "Karim Soufan",
     title: "Software Engineer",
     linkedIn: "https://www.linkedin.com/in/karim-soufan-b96831181/",
