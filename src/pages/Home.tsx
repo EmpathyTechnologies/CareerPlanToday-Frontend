@@ -1,4 +1,4 @@
-import Hero from "../components/Hero";
+import Hero from "../features/home/Hero";
 import Card from "../components/Card";
 
 import teacher from "../assets/images/home/Teacher.jpg";
