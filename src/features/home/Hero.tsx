@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import laptopImg from "../assets/images/home/laptop.png";
-import Button from "./Button";
+import laptopImg from "../../assets/images/home/laptop.png";
+import Button from "../../components/Button";
 
 function Hero() {
   return (
