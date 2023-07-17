@@ -4,7 +4,7 @@ import CalculatorSelectCollege from "./components/CalculatorSelectCollege";
 import colleges from "../../data/colleges.json";
 import { formatCurrency } from "../../utilities/formatCurrency";
 import Navigation from "../../layouts/Navbar";
-import Footer from "../../layouts/footer4";
+import Footer from "../../layouts/Footer";
 
 export default function Calculator() {
   const [careerWithCollege, setCareerWithCollege] = useState({ salary: 50000, years: 40, lifetimeIncome: 2000000 });
