@@ -1,23 +1,11 @@
-interface ButtonProps {
-  text: string;
-  onClick?: () => void;
-  href?: string;
-  color: "btn-blue" | "btn-green" | "btn-red";
-  type?: "submit" | "button" | "reset" | undefined;
-}
+import Button from "react-bootstrap/esm/Button";
 
-function Button({ text, onClick, color, type }: ButtonProps) {
-  const handleClick = () => {
-    if (onClick) {
-      onClick();
-    }
-  };
-
+function Btn(props: any) {
   return (
-    <button className={`btn ${color}`} onClick={handleClick} type={type}>
-      {text}
-    </button>
+    <div className={props.cn} style={{ display: "inline-block" }}>
+      <Button className='custom-btn'>{props.name}</Button>
+    </div>
   );
 }
 
-export default Button;
+export default Btn;
