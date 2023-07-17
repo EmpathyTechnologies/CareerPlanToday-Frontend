@@ -3,8 +3,8 @@ import allColleges from "../../data/colleges.json";
 import Button from "react-bootstrap/Button";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
-import Navigation from "../../layouts/navbar";
-import Footer from "../../layouts/footer";
+import Navigation from "../../layouts/Navbar";
+import Footer from "../../layouts/footer4";
 
 export default function College() {
   let { id } = useParams();

@@ -4,8 +4,8 @@ import { formatCurrency } from "../../utilities/formatCurrency";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import NotFound from "../NotFoundPage/NotFoundPage";
-import Navigation from "../../layouts/navbar";
-import Footer from "../../layouts/footer";
+import Navigation from "../../layouts/Navbar";
+import Footer from "../../layouts/footer4";
 
 export default function Career() {
   let { id } = useParams();

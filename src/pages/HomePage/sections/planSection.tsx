@@ -14,9 +14,9 @@ function Plan() {
           <Heading title='Form Your Plan' />
         </div>
         <Row className='justify-content-center'>
-          <PlanBox img={img1} title='Calculator' description='Determine the financial value of college' />
-          <PlanBox img={img2} title='Budget' description='Explore how to afford your lifestyle' />
-          <PlanBox img={img3} title='Invest' description='Form your retirement plan' />
+          <PlanBox img={img1} title='Calculator' description='Determine the financial value of college' href={"./calculator"} />
+          <PlanBox img={img2} title='Budget' description='Explore how to afford your lifestyle' href={"./budget"} />
+          <PlanBox img={img3} title='Invest' description='Form your retirement plan' href={"./invest"} />
         </Row>
       </Container>
     </div>

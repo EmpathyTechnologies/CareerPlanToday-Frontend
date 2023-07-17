@@ -6,8 +6,8 @@ import hyenaImg from "../../assets/images/notfound/notfound-hyena.jpg";
 import lizardImg from "../../assets/images/notfound/notfound-lizard.jpg";
 import parakeetImg from "../../assets/images/notfound/notfound-parakeet.jpg";
 
-import Navigation from "../../layouts/navbar";
-import Footer from "../../layouts/footer";
+import Navigation from "../../layouts/Navbar";
+import Footer from "../../layouts/footer4";
 
 export default function NotFound() {
   const images = [compilationImg, hyenaImg, lizardImg, parakeetImg];

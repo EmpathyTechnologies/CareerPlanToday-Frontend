@@ -31,7 +31,7 @@ function AboutUs() {
                     />
                   </svg>
                 </div>
-                <p>Lörem ipsum besost lant: sakroll.</p>
+                <p>Discover career pay ranges and next steps</p>
               </ListGroup.Item>
               <ListGroup.Item className='d-flex align-items-center'>
                 <div className='check'>
@@ -42,7 +42,7 @@ function AboutUs() {
                     />
                   </svg>
                 </div>
-                <p>Lörem ipsum besost lant: sakroll.</p>
+                <p>Compare colleges to lower education costs</p>
               </ListGroup.Item>
               <ListGroup.Item className='d-flex align-items-center'>
                 <div className='check'>
@@ -53,7 +53,7 @@ function AboutUs() {
                     />
                   </svg>
                 </div>
-                <p>Lörem ipsum besost lant: sakroll.</p>
+                <p>Plan your career, finances, and more</p>
               </ListGroup.Item>
             </ListGroup>
           </Col>

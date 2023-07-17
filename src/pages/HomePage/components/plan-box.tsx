@@ -4,7 +4,7 @@ import Card from "react-bootstrap/Card";
 function PlanBox(props: any) {
   return (
     <Col className='plan-box' lg={4} sm={6}>
-      <a href='#' style={{ textDecoration: "none" }}>
+      <a href={props.href} style={{ textDecoration: "none" }}>
         <Card className='text-center'>
           <div className='m-auto plans-card-img'>
             <Card.Img variant='top' src={props.img} className='plans-img' />
