@@ -4,7 +4,7 @@ import { formatCurrency } from "../../utilities/formatCurrency";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import NotFound from "../NotFoundPage/NotFoundPage";
-import Navigation from "../../layouts/Navbar";
+import Navigation from "../../layouts/Navigation";
 import Footer from "../../layouts/Footer";
 
 export default function Career() {

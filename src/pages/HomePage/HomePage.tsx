@@ -3,7 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../../App.css";
 
-import Navigation from "../../layouts/Navbar";
+import Navigation from "../../layouts/Navigation";
 import HeroSection from "./sections/heroSection";
 import Career from "./sections/careersSection";
 import CollegesSection from "./sections/collegesSection";

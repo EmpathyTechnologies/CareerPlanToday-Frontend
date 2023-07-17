@@ -6,7 +6,7 @@ import hyenaImg from "../../assets/images/notfound/notfound-hyena.jpg";
 import lizardImg from "../../assets/images/notfound/notfound-lizard.jpg";
 import parakeetImg from "../../assets/images/notfound/notfound-parakeet.jpg";
 
-import Navigation from "../../layouts/Navbar";
+import Navigation from "../../layouts/Navigation";
 import Footer from "../../layouts/Footer";
 
 export default function NotFound() {

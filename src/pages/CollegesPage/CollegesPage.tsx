@@ -4,7 +4,7 @@ import { filterColleges } from "./utilities/filterColleges";
 import allColleges from "../../data/colleges.json";
 import CollegesNavbar from "./components/CollegesNavbar";
 import CollegesTable from "./components/CollegesTable";
-import Navigation from "../../layouts/Navbar";
+import Navigation from "../../layouts/Navigation";
 import Footer from "../../layouts/Footer";
 
 export default function Colleges() {
