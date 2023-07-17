@@ -2,7 +2,7 @@ import Button from "../../components/FilterButton";
 import Card from "react-bootstrap/Card";
 import { useNavigate } from "react-router-dom";
 import Navigation from "../../layouts/Navbar";
-import Footer from "../../layouts/footer4";
+import Footer from "../../layouts/Footer";
 
 interface CardItem {
   step: number;

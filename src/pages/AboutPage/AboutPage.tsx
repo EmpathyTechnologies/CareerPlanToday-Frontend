@@ -1,6 +1,6 @@
 import Navigation from "../../layouts/Navbar";
 import AboutPeople from "./components/AboutPeople";
-import Footer from "../../layouts/footer4";
+import Footer from "../../layouts/Footer";
 const About = () => {
   return (
     <div>

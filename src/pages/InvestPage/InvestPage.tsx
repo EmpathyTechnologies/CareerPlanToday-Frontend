@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Form, Container, Row, Col } from "react-bootstrap";
 import Navigation from "../../layouts/Navbar";
-import Footer from "../../layouts/footer4";
+import Footer from "../../layouts/Footer";
 
 export default function Invest() {
   const [currentAge, setCurrentAge] = useState(30);

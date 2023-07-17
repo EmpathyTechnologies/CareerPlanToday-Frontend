@@ -5,7 +5,7 @@ import CareersTable from "./components/CareersTable";
 import { minSalary, maxSalary } from "./utils/minAndMaxSalary";
 import { filterCareers } from "./utils/filterCareers";
 import Navigation from "../../layouts/Navbar";
-import Footer from "../../layouts/footer4";
+import Footer from "../../layouts/Footer";
 
 export default function Careers() {
   const [careers, setCareers] = useState(allCareers);

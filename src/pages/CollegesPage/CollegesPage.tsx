@@ -5,7 +5,7 @@ import allColleges from "../../data/colleges.json";
 import CollegesNavbar from "./components/CollegesNavbar";
 import CollegesTable from "./components/CollegesTable";
 import Navigation from "../../layouts/Navbar";
-import Footer from "../../layouts/footer4";
+import Footer from "../../layouts/Footer";
 
 export default function Colleges() {
   const [colleges, setColleges] = useState(allColleges);

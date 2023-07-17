@@ -10,7 +10,7 @@ import CollegesSection from "./sections/collegesSection";
 import Plan from "./sections/planSection";
 import AboutUs from "./sections/aboutUsSection";
 
-import Footer from "../../layouts/footer4";
+import Footer from "../../layouts/Footer";
 
 function Home() {
   return (
