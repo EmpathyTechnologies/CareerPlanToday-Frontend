@@ -3,14 +3,14 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../../App.css";
 
-import Navigation from "../../layouts/navbar";
+import Navigation from "../../layouts/Navbar";
 import HeroSection from "./sections/heroSection";
 import Career from "./sections/careersSection";
 import CollegesSection from "./sections/collegesSection";
 import Plan from "./sections/planSection";
 import AboutUs from "./sections/aboutUsSection";
-import ChooseCareer from "./components/choose-career";
-import Footer from "../../layouts/footer";
+
+import Footer from "../../layouts/footer4";
 
 function Home() {
   return (
@@ -21,7 +21,6 @@ function Home() {
       <CollegesSection />
       <Plan />
       <AboutUs />
-      <ChooseCareer />
       <Footer />
     </div>
   );

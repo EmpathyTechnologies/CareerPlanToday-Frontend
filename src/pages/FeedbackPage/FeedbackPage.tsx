@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import { Form } from "react-bootstrap";
 import Alert from "react-bootstrap/Alert";
 import Button from "../../components/FilterButton";
-import Navigation from "../../layouts/navbar";
-import Footer from "../../layouts/footer";
+import Navigation from "../../layouts/Navbar";
+import Footer from "../../layouts/footer4";
 
 interface FeedbackInterface {
   id: string;
