@@ -16,10 +16,12 @@ function AboutUs() {
           </Col>
           <Col className='about-us-content'>
             <div className='mb-3'>
-              <Heading title='More About Us' />
+              <Heading title='Your Career Impacts Your Wellness' />
             </div>
             <p className='sub-heading'>
-              Lörem ipsum besost lant: sakroll. Tris koskade och vindvändare. Nevossa bedins. Miras kaktig. Dinägönade denat. Psykostat anömegen.{" "}
+              Most people don't know what careers pay. For example, a registered nurse national average pay is $81,220. A social worker pay is
+              $50,820. This is a difference of $30,400 per year or $1,216,000 over a 40-year career. Making informed decisions early makes a huge
+              difference towards financial wellness.
             </p>
             <ListGroup>
               <ListGroup.Item className='d-flex align-items-center'>
@@ -42,7 +44,7 @@ function AboutUs() {
                     />
                   </svg>
                 </div>
-                <p>Compare colleges to lower education costs</p>
+                <p>Compare colleges to lower education costs, if college supports your career goals</p>
               </ListGroup.Item>
               <ListGroup.Item className='d-flex align-items-center'>
                 <div className='check'>
@@ -53,7 +55,7 @@ function AboutUs() {
                     />
                   </svg>
                 </div>
-                <p>Plan your career, finances, and more</p>
+                <p>Plan your career, education, finances, and more</p>
               </ListGroup.Item>
             </ListGroup>
           </Col>

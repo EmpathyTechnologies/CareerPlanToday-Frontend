@@ -20,7 +20,8 @@ function Footer() {
                 <h4>Career Plan Today</h4>
               </ListGroup.Item>
               <ListGroup.Item>
-                Lörem ipsum ir jåska, av pokanade. Reran plat är lade. Årat sorat fingen, att divis. Nyvis podda. Trehyd. Makroktiga{" "}
+                We believe in your potential and are committed to helping you achieve your career and financial goals. Together, let's create a bright
+                future filled with wellness and success.
               </ListGroup.Item>
             </ListGroup>
           </Col>
