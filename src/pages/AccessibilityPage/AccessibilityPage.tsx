@@ -1,6 +1,6 @@
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Switch from "@mui/material/Switch";
-import Navigation from "../../layouts/Navbar";
+import Navigation from "../../layouts/Navigation";
 import Footer from "../../layouts/Footer";
 
 function Accessibility() {

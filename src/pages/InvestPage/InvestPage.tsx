@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Form, Container, Row, Col } from "react-bootstrap";
-import Navigation from "../../layouts/Navbar";
+import Navigation from "../../layouts/Navigation";
 import Footer from "../../layouts/Footer";
 
 export default function Invest() {

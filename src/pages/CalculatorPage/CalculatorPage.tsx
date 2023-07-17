@@ -3,7 +3,7 @@ import CalculatorNavbar from "./components/CalculatorNavbar";
 import CalculatorSelectCollege from "./components/CalculatorSelectCollege";
 import colleges from "../../data/colleges.json";
 import { formatCurrency } from "../../utilities/formatCurrency";
-import Navigation from "../../layouts/Navbar";
+import Navigation from "../../layouts/Navigation";
 import Footer from "../../layouts/Footer";
 
 export default function Calculator() {

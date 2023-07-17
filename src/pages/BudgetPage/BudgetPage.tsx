@@ -1,5 +1,5 @@
 import { Row, Col, Form } from "react-bootstrap";
-import Navigation from "../../layouts/Navbar";
+import Navigation from "../../layouts/Navigation";
 import Footer from "../../layouts/Footer";
 
 export default function Budget() {
