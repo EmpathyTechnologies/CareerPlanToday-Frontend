@@ -1,5 +1,5 @@
-/* base */
-.btn {
+/* BASE */
+/* .btn {
   appearance: button;
   border: solid transparent;
   border-radius: 16px;
@@ -56,33 +56,33 @@
 
 .btn:disabled {
   cursor: auto;
-}
+} */
 
-/* colors */
+/* COLORS */
 
-/* blue */
-.btn-blue {
+/* BLUE */
+/* .btn-blue {
   background-color: #1899d6;
 }
 
 .btn-blue:after {
   background-color: #1cb0f6;
-}
+} */
 
-/* green */
-.btn-green {
+/* GREEN */
+/* .btn-green {
   background-color: #78c800;
 }
 
 .btn-green:after {
   background-color: #82d20a;
-}
+} */
 
-/* red */
-.btn-red {
+/* RED */
+/* .btn-red {
   background-color: #fb342b;
 }
 
 .btn-red:after {
   background-color: #ff4b4b;
-}
+} */

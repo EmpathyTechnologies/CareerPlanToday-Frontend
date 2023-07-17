@@ -1,0 +1,606 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #000;
+  background: #fff;
+  font-family: "Poppins", sans-serif;
+  min-width: 320px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  margin: 0 0 20px;
+  color: inherit;
+}
+
+h1 {
+  font-size: 46px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 17px;
+}
+
+h6 {
+  font-size: 15px;
+}
+
+p {
+  margin: 0 0 15px;
+}
+
+.secondary-heading {
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 0;
+
+  @media (max-width: 991px) {
+    font-size: 30px;
+  }
+
+  @media (max-width: 430px) {
+    font-size: 20px;
+  }
+}
+
+.sub-heading {
+  font-size: 20px;
+  color: #615353;
+}
+
+.container {
+  @media (max-width: 767px) {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+/* Custom Btn */
+.custom-btn {
+  padding: 15px 50px;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 50px;
+  background-color: #1cb0f6;
+  font-weight: 600;
+  border: 1px solid #1cb0f6;
+}
+
+.custom-btn:hover {
+  background-color: #048dcc;
+  transition: all 0.2s;
+  border: 1px solid #048dcc;
+}
+
+.btn-transparent button {
+  background-color: transparent;
+  border: 1px solid #000;
+  color: #000;
+}
+
+/* Navbar */
+.navbar {
+  padding: 20px 0;
+}
+.bg-body-tertiary {
+  background-color: rgba(28, 176, 246, 0.1) !important;
+}
+
+.logo {
+  font-family: "Satisfy", cursive;
+  font-size: 35px;
+}
+
+.nav-link {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.nav-link:hover {
+  color: #1cb0f6;
+  transition: all 0.2s;
+}
+
+@media (max-width: 991px) {
+  .navbar .navbar-btn {
+    margin-top: 30px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 390px) {
+  .logo {
+    font-size: 25px;
+  }
+}
+
+.navbar-collapse {
+  display: inline-block;
+  text-align: center;
+}
+
+/* Hero Section */
+
+.hero {
+  padding-bottom: 40px;
+  background-color: rgba(28, 176, 246, 0.1) !important;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-image-cover {
+  text-align: center;
+  margin: auto;
+}
+
+@media (max-width: 991px) {
+  .hero-image-cover {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-image-cover {
+    max-width: 300px;
+  }
+}
+
+.hero-heading {
+  font-size: 54px;
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  .hero-heading {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 390px) {
+  .hero-heading {
+    font-size: 30px;
+  }
+}
+
+.hero-heading span {
+  color: #1cb0f6;
+}
+
+.hero .custom-btn {
+  margin-right: 14px;
+}
+
+@media (max-width: 991px) {
+  .hero .custom-btn {
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+}
+
+@media (max-width: 436px) {
+  .hero .custom-btn {
+    margin-bottom: 10px;
+  }
+}
+
+/* Career */
+.career {
+  padding: 40px 0;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 450px) {
+  .heading {
+    display: block;
+    text-align: center;
+  }
+}
+
+.heading-link {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 450px) {
+  .heading-link {
+    display: block;
+    margin-top: 10px;
+  }
+}
+
+.heading-link a {
+  display: flex;
+  align-items: center;
+  /* margin-right: 10px; */
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+
+@media (max-width: 450px) {
+  .heading-link a {
+    justify-content: center;
+  }
+}
+
+.arrow {
+  background-color: #048dcc;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.card {
+  border: none;
+  margin-bottom: 25px;
+}
+
+.card-img {
+  border-radius: 12px;
+}
+
+.career-box-card-text {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+
+.card-title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.card-salary {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Colleges */
+.colleges {
+  background-color: #048dcc;
+  padding: 40px 0;
+}
+
+.dark-heading .secondary-heading {
+  color: #fff;
+}
+
+.dark-heading .heading-link a {
+  color: #fff;
+}
+
+.dark-heading .heading-link .arrow {
+  background-color: #000;
+}
+
+.college-box .card {
+  padding: 50px 20px 30px 20px;
+  height: 350px;
+}
+
+.colleges-card-img {
+  width: 150px;
+  height: 150px;
+}
+
+.colleges-img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.college-box .card .colleges-card-text {
+  margin-top: 20px;
+}
+
+.college-box .card .colleges-card-text .card-text {
+  font-size: 18px;
+  font-weight: 500;
+  color: #615353;
+}
+
+/* Plan */
+.plan {
+  padding: 40px 0;
+}
+.plan-box .card {
+  box-shadow: 0 4px 100px 0 rgba(0, 0, 0, 0.1);
+  padding: 50px 20px 30px 20px;
+  height: 376px;
+}
+
+@media (max-width: 767px) {
+  .plan-box .card {
+    padding: 20px;
+  }
+}
+
+.plans-card-img {
+  width: 168px;
+  height: 168px;
+  background-color: #e8f7fe;
+  border-radius: 50%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plans-img {
+  max-width: 80%;
+  object-fit: contain;
+}
+
+.plans-card-text {
+  margin-top: 20px;
+}
+
+.plans-card-text .card-text {
+  font-size: 18px;
+  font-weight: 500;
+  color: #615353;
+}
+
+/* About Us */
+.about-us {
+  padding: 40px 0;
+}
+
+.list-group-item {
+  border: none;
+  padding: 10px 0;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.about-us .list-group-item p {
+  width: 80%;
+}
+
+.check {
+  width: 40px;
+  height: 40px;
+  background-color: #59ff92;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.about-us-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Testimonial */
+
+.testimonial {
+  padding: 40px 0 60px;
+}
+
+.testimonial-box {
+  margin-bottom: 15px;
+}
+
+.testimonial-img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.testimonial-box .card {
+  background-color: #e8f7fe;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 0;
+}
+
+.testimonial-box .card-body {
+  padding: 0;
+}
+
+.testimonial-person-detail h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+}
+
+.testimonial-person-detail p {
+  color: #494949;
+  font-size: 18px;
+}
+
+.testimonial-text .card-text {
+  color: #545658;
+  font-size: 18px;
+}
+
+.slick-slide div {
+  margin: 0 5px;
+}
+
+.slick-dots {
+  bottom: -40px;
+}
+
+.slick-dots li button::before {
+  font-size: 16px;
+}
+
+.slick-dots li button:before {
+  color: #e8f7fe;
+  opacity: 1;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #1cb0f6;
+  opacity: 1;
+}
+
+/* Choose Career */
+.choose-career {
+  padding: 40px 0;
+}
+
+.choose-career .card-img-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  #choose-career-img {
+    content: url("./assets/images/home/img-11.png");
+  }
+}
+
+.choose-career .card-text {
+  max-width: 700px;
+  font-size: 20px;
+  font-weight: 400;
+
+  @media (max-width: 991px) {
+    font-size: 18px;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 22px;
+  }
+
+  @media (max-width: 390px) {
+    font-size: 20px;
+  }
+}
+
+.choose-career-heading .secondary-heading {
+  @media (max-width: 767px) {
+    font-size: 40px;
+  }
+  @media (max-width: 390px) {
+    font-size: 30px;
+  }
+}
+
+.choose-career .custom-btn {
+  @media (max-width: 573px) {
+    font-size: 20px;
+    padding: 15px 40px;
+  }
+}
+
+/* Footer */
+.footer {
+  padding: 70px 0;
+  background-color: #110921;
+  color: #fff;
+}
+
+.footer .logo h4 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.footer .footer-link-heading {
+  height: 56px;
+}
+
+.footer .footer-link-heading p {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.footer .list-group-item {
+  font-size: 16px;
+  font-weight: 300;
+  background-color: transparent;
+  color: #d6d6d6;
+}
+
+.footer .social-icon {
+  margin-left: 15px;
+  width: 40px;
+  height: 40px;
+  background-color: #1cb0f6;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .list-group-item a {
+  text-decoration: none;
+  color: #d6d6d6;
+}
+
+.footer .list-group-item a:hover {
+  color: #1cb0f6;
+  transition: all 0.2s;
+}
+
+.copyright {
+  margin: 30px 0;
+  font-size: 16px;
+  font-weight: 300;
+  color: #d6d6d6;
+}
