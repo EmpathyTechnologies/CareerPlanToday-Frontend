@@ -3,13 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/core": "^7.22.9",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.14.1",
     "@mui/material": "^5.11.16",
     "@react-oauth/google": "^0.11.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@types/babel-core": "^6.25.7",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.14",
     "bootstrap": "^5.2.3",
@@ -19,7 +22,7 @@
     "react-ga": "^3.3.1",
     "react-icons": "^4.8.0",
     "react-router-dom": "^6.9.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
@@ -48,7 +51,7 @@
     ]
   },
   "devDependencies": {
-    "@types/react": "^18.0.28",
+    "@types/react": "^18.2.15",
     "@types/react-dom": "^18.0.11"
   }
 }
