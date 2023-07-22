@@ -1,5 +1,5 @@
 import { render, fireEvent } from "@testing-library/react";
-import FilterDoubleSlider from "./FilterDoubleSlider";
+import FilterDoubleSlider from "../FilterDoubleSlider";
 
 describe("FilterDoubleSlider", () => {
   const mockSetFilter = jest.fn();

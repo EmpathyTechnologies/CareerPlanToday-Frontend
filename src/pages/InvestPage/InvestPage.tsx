@@ -15,18 +15,20 @@ export default function Invest() {
     let yearlyContribution = annualContribution;
     let totalContribution = 0;
     const yearsToRetirement = retirementAge - currentAge;
+    const realRateOfReturn = annualReturnRate - inflationRate;
 
     for (let i = 1; i <= yearsToRetirement; i++) {
-      totalContribution += yearlyContribution;
       balance += yearlyContribution;
-      const growth = balance * ((1 + annualReturnRate / 100) ** i - 1);
+      const growth = balance * (realRateOfReturn / 100);
       balance += growth;
-      yearlyContribution *= 1 + inflationRate / 100;
-      balance *= 1 + inflationRate / 100;
+      totalContribution += annualContribution
     }
-
-    return { balance: balance.toFixed(0), totalContribution: totalContribution.toFixed(0) };
+    return {
+      balance: balance.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2}), 
+      totalContribution: totalContribution.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})
+    }
   };
+  
 
   return (
     <>
