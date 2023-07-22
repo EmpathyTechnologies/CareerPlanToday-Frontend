@@ -1,9 +1,9 @@
-// Mae todo
-// 1. chat gpt
-// "write unit tests for... copy the code from file FilterDropdownSearch.tsx"
+describe("placeholder", () => {
+  it("should pass the placeholder test", () => {
+    // Perform some action or calculation
+    const result = 1 + 1;
 
-test("MOCK TEST - DELETE THIS TEST LATER", () => {
-  expect(1).toBe(1);
+    // Make an assertion to check if the result is as expected
+    expect(result).toEqual(2);
+  });
 });
-
-export {};
