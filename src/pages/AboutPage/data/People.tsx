@@ -1,6 +1,7 @@
 import dustin from "../../../assets/images/about/dustin.jpg";
 import eric from "../../../assets/images/about/eric.jpg";
 import karim from "../../../assets/images/about/karim.jpg";
+import matt from "../../../assets/images/about/matt.jpg";
 import maxwell from "../../../assets/images/about/maxwell.jpg";
 import ramiro from "../../../assets/images/about/ramiro.jpg";
 import tyler from "../../../assets/images/about/tyler.jpg";
@@ -57,7 +58,7 @@ const people = [
     linkedIn: "https://www.linkedin.com/in/maepena/",
   },
   {
-    img: user,
+    img: matt,
     name: "Matt Rhoades",
     title: "Software Engineer",
     linkedIn: "https://www.linkedin.com/in/matthew-rhoades-6a3b15172/",
