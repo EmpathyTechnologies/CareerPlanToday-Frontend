@@ -1,7 +1,21 @@
 import { formatCurrency } from "../../../utilities/formatCurrency";
 import { Link } from "react-router-dom";
 
-export default function CareersTableRow(props: any) {
+interface Career {
+  id: string;
+  title: string;
+  salary: {
+    national: {
+      average: number;
+    };
+  };
+}
+
+interface CareersTableRowProps {
+  career: Career;
+}
+
+export default function CareersTableRow(props: CareersTableRowProps) {
   let { career } = props;
 
   function checkIf208000(salary: string) {

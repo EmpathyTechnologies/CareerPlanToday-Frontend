@@ -5,11 +5,10 @@ import "../../App.css";
 
 import Navigation from "../../layouts/Navigation";
 import HeroSection from "./sections/heroSection";
-import Career from "./sections/careersSection";
+import CareerSection from "./sections/careersSection";
 import CollegesSection from "./sections/collegesSection";
-import Plan from "./sections/planSection";
-import AboutUs from "./sections/aboutUsSection";
-
+import PlanSection from "./sections/planSection";
+import AboutUsSection from "./sections/aboutUsSection";
 import Footer from "../../layouts/Footer";
 
 function Home() {
@@ -17,10 +16,10 @@ function Home() {
     <div className='App'>
       <Navigation />
       <HeroSection />
-      <Career />
+      <CareerSection />
       <CollegesSection />
-      <Plan />
-      <AboutUs />
+      <PlanSection />
+      <AboutUsSection />
       <Footer />
     </div>
   );

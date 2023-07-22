@@ -3,7 +3,18 @@ import Table from "react-bootstrap/Table";
 import { Link } from "react-router-dom";
 import { formatCurrency } from "../../../utilities/formatCurrency";
 
-export default function CollegesTable({ colleges, setColleges }: any) {
+interface College {
+  id: number;
+  name: string;
+  tuition: number;
+}
+
+interface CollegesTableProps {
+  colleges: College[];
+  setColleges: any;
+}
+
+export default function CollegesTable({ colleges, setColleges }: CollegesTableProps) {
   const [sortColumn, setSortColumn] = useState<any>();
   const [sortOrder, setSortOrder] = useState<any>();
 
