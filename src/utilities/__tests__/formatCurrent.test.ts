@@ -1,4 +1,4 @@
-import { formatCurrency } from "./formatCurrency";
+import { formatCurrency } from "../formatCurrency";
 
 test("formats 0 correctly", () => {
   expect(formatCurrency(0)).toEqual("$0");
