@@ -17,6 +17,8 @@ export default function Colleges() {
     setColleges(filteredColleges);
   }, [filterByStates, filterByTuition]);
 
+  const [userSavedColleges, setUserSavedColleges] = useState<number[]>([2, 4, 6]);
+
   return (
     <div>
       <Navigation />
@@ -28,7 +30,11 @@ export default function Colleges() {
         maxTuition={maxTuition}
       />
 
-      <CollegesTable colleges={colleges} setColleges={setColleges}></CollegesTable>
+      <CollegesTable
+        colleges={colleges}
+        setColleges={setColleges}
+        userSavedColleges={userSavedColleges}
+        setUserSavedColleges={setUserSavedColleges}></CollegesTable>
       <Footer />
     </div>
   );

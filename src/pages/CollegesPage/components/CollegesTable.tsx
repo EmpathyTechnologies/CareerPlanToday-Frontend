@@ -2,6 +2,7 @@ import { useState } from "react";
 import Table from "react-bootstrap/Table";
 import { Link } from "react-router-dom";
 import { formatCurrency } from "../../../utilities/formatCurrency";
+import { AiOutlineHeart, AiFillHeart } from "react-icons/ai";
 
 interface College {
   id: number;
@@ -12,9 +13,11 @@ interface College {
 interface CollegesTableProps {
   colleges: College[];
   setColleges: any;
+  userSavedColleges: any;
+  setUserSavedColleges: any;
 }
 
-export default function CollegesTable({ colleges, setColleges }: CollegesTableProps) {
+export default function CollegesTable({ colleges, setColleges, userSavedColleges, setUserSavedColleges }: CollegesTableProps) {
   const [sortColumn, setSortColumn] = useState<any>();
   const [sortOrder, setSortOrder] = useState<any>();
 
@@ -34,10 +37,19 @@ export default function CollegesTable({ colleges, setColleges }: CollegesTablePr
     setColleges(sortedList);
   }
 
+  function toggleSaveCollege(id: any) {
+    if (userSavedColleges.includes(id)) {
+      setUserSavedColleges(userSavedColleges.filter((element: number) => element !== parseInt(id)));
+    } else {
+      setUserSavedColleges([...userSavedColleges, id]);
+    }
+  }
+
   return (
     <Table striped bordered hover>
       <thead>
         <tr>
+          <th></th>
           <th onClick={() => sortColleges("college")} className={"colleges-header"}>
             College {sortColumn === "college" && (sortOrder === "asc" ? "↓" : "↑")}
           </th>
@@ -50,6 +62,15 @@ export default function CollegesTable({ colleges, setColleges }: CollegesTablePr
       <tbody>
         {colleges.map((college: any) => (
           <tr>
+            {userSavedColleges.includes(college.id) ? (
+              <div onClick={toggleSaveCollege} style={{ color: "rgb(255, 56, 92)" }}>
+                <AiFillHeart />
+              </div>
+            ) : (
+              <div onClick={toggleSaveCollege}>
+                <AiOutlineHeart />
+              </div>
+            )}
             <td>
               <Link to={`/colleges/${college.id}`}>{college.name}</Link>
             </td>
