@@ -30,11 +30,7 @@ export default function Colleges() {
         maxTuition={maxTuition}
       />
 
-      <CollegesTable
-        colleges={colleges}
-        setColleges={setColleges}
-        userSavedColleges={userSavedColleges}
-        setUserSavedColleges={setUserSavedColleges}></CollegesTable>
+      <CollegesTable colleges={colleges} setColleges={setColleges} setUserSavedColleges={setUserSavedColleges}></CollegesTable>
       <Footer />
     </div>
   );
