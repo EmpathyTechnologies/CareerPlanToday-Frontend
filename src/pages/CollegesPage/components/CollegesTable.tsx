@@ -3,6 +3,8 @@ import Table from "react-bootstrap/Table";
 import { Link } from "react-router-dom";
 import { formatCurrency } from "../../../utilities/formatCurrency";
 import { AiOutlineHeart, AiFillHeart } from "react-icons/ai";
+import { useDispatch, useSelector } from "react-redux";
+import { toggleCollegeSave } from "../../../redux/actions";
 
 interface College {
   id: number;
@@ -13,11 +15,14 @@ interface College {
 interface CollegesTableProps {
   colleges: College[];
   setColleges: any;
-  userSavedColleges: any;
+
   setUserSavedColleges: any;
 }
 
-export default function CollegesTable({ colleges, setColleges, userSavedColleges, setUserSavedColleges }: CollegesTableProps) {
+export default function CollegesTable({ colleges, setColleges, setUserSavedColleges }: CollegesTableProps) {
+  const userSavedColleges = useSelector((state: any) => state.colleges);
+  const dispatch = useDispatch();
+
   const [sortColumn, setSortColumn] = useState<any>();
   const [sortOrder, setSortOrder] = useState<any>();
 
@@ -37,12 +42,8 @@ export default function CollegesTable({ colleges, setColleges, userSavedColleges
     setColleges(sortedList);
   }
 
-  function toggleSaveCollege(id: any) {
-    if (userSavedColleges.includes(id)) {
-      setUserSavedColleges(userSavedColleges.filter((element: number) => element !== parseInt(id)));
-    } else {
-      setUserSavedColleges([...userSavedColleges, id]);
-    }
+  function toggleSaveCollege(id: number) {
+    dispatch(toggleCollegeSave(id));
   }
 
   return (
@@ -63,11 +64,11 @@ export default function CollegesTable({ colleges, setColleges, userSavedColleges
         {colleges.map((college: any) => (
           <tr>
             {userSavedColleges.includes(college.id) ? (
-              <div onClick={toggleSaveCollege} style={{ color: "rgb(255, 56, 92)" }}>
+              <div onClick={() => toggleSaveCollege(college.id)} style={{ color: "rgb(255, 56, 92)" }}>
                 <AiFillHeart />
               </div>
             ) : (
-              <div onClick={toggleSaveCollege}>
+              <div onClick={() => toggleSaveCollege(college.id)}>
                 <AiOutlineHeart />
               </div>
             )}

@@ -1,51 +1,35 @@
 import { formatCurrency } from "../../../utilities/formatCurrency";
 import { Link } from "react-router-dom";
 import { AiOutlineHeart, AiFillHeart } from "react-icons/ai";
-
-interface Career {
-  id: string;
-  title: string;
-  salary: {
-    national: {
-      average: number;
-    };
-  };
-}
+import { useDispatch, useSelector } from "react-redux";
+import { RootState } from "../../../redux/store";
+import { Career } from "../../../redux/types/careerTypes";
+import { toggleCareerSave } from "../../../redux/actions";
 
 interface CareersTableRowProps {
-  career: Career;
-  userSavedCareers: any;
-  setUserSavedCareers: any;
+  careerData: Career;
 }
 
 export default function CareersTableRow(props: CareersTableRowProps) {
-  let { career, userSavedCareers, setUserSavedCareers } = props;
+  const { careerData: careerData } = props;
+
+  const dispatch = useDispatch();
+  const savedCareers = useSelector((state: RootState) => state.careers);
 
   function checkIf208000(salary: string) {
     return salary === "$208,000" ? "$208,000+" : salary;
   }
 
   function toggleSaveCareer() {
-    if (userSavedCareers.includes(career.id)) {
-      setUserSavedCareers(userSavedCareers.filter((element: number) => element !== parseInt(career.id)));
-    } else {
-      setUserSavedCareers([...userSavedCareers, career.id]);
-    }
+    dispatch(toggleCareerSave(careerData)); // Dispatch the action to toggle career saving
   }
 
-  // const [userSavedCareers, setUserSavedCareers] = useState<number[]>([5, 10, 15]);
-
-  // MAKE THIS INTO A PUT
-  // useEffect(() => {
-  //   fetch("https://gnhrz7c1y3.execute-api.us-east-1.amazonaws.com/default/userGetsSavedCareersFromDynamoDB")
-  //     .then((response) => response.json())
-  //     .then((savedCareers: any) => setUserSavedCareers(savedCareers));
-  // }, [userSavedCareers]);
+  const isCareerSaved = savedCareers.some((c: Career) => c.id === careerData.id);
 
   return (
     <tr>
       <td>
-        {userSavedCareers.includes(career.id) ? (
+        {isCareerSaved ? (
           <div onClick={toggleSaveCareer} style={{ color: "rgb(255, 56, 92)" }}>
             <AiFillHeart />
           </div>
@@ -56,9 +40,9 @@ export default function CareersTableRow(props: CareersTableRowProps) {
         )}
       </td>
       <td>
-        <Link to={`/careers/${career.id}`}>{career.title}</Link>
+        <Link to={`/careers/${careerData.id}`}>{careerData.title}</Link>
       </td>
-      <td>{checkIf208000(formatCurrency(career.salary.national.average))}</td>
+      <td>{checkIf208000(formatCurrency(careerData.salary.national.average))}</td>
     </tr>
   );
 }
