@@ -2,11 +2,13 @@
 // import Card from "react-bootstrap/Card";
 // import { useNavigate } from "react-router-dom";
 import { ThemeProvider } from '@mui/material/styles';
-import useMediaQuery from '@mui/material/useMediaQuery';
-import CssBaseline from '@mui/material/CssBaseline';
-import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
-import Link from '@mui/material/Link';
+import {
+  useMediaQuery,
+  CssBaseline,
+  Box,
+  Typography,
+  Link,
+} from '@mui/material';
 import Navigator from '../components/Navigation';
 import Content from '../components/Content';
 import Header from '../components/Header';
