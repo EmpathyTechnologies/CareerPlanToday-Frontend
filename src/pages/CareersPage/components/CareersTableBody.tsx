@@ -6,7 +6,7 @@ export default function CareersTableBody(props: any) {
   return (
     <tbody>
       {sortedCareers.map((career: any) => (
-        <CareersTableRow key={career.title} career={career} />
+        <CareersTableRow key={career.title} careerData={career} />
       ))}
     </tbody>
   );

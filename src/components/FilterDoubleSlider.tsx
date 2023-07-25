@@ -2,7 +2,14 @@ import Box from "@mui/material/Box";
 import Slider from "@mui/material/Slider";
 import { formatCurrency } from "../utilities/formatCurrency";
 
-export function FilterDoubleSlider({ filter, setFilter, minNumber, maxNumber }: any) {
+interface FilterDoubleSliderProps {
+  filter: [number, number];
+  setFilter: React.Dispatch<React.SetStateAction<[number, number]>>;
+  minNumber: number;
+  maxNumber: number;
+}
+
+export function FilterDoubleSlider({ filter, setFilter, minNumber, maxNumber }: FilterDoubleSliderProps) {
   const handleChange = (event: Event, newValue: number | number[]) => {
     if (typeof newValue === "number") {
       setFilter([newValue, newValue]);

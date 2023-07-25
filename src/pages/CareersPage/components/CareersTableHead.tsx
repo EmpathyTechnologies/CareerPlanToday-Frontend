@@ -1,7 +1,12 @@
 import { useState, useEffect } from "react";
 
-export default function CareersTableHead({ sortDirection, setSortDirection }: any) {
-  const [arrow, setArrow] = useState({ career: "", salary: "" });
+interface CareersTableInterface {
+  sortDirection: any;
+  setSortDirection: any;
+}
+
+export default function CareersTableHead({ sortDirection, setSortDirection }: CareersTableInterface) {
+  const [arrow, setArrow] = useState<{ career: string; salary: string }>({ career: "", salary: "" });
 
   const handleSortByCareers = () => {
     setSortDirection(sortDirection === "career-asc" ? "career-desc" : "career-asc");
@@ -26,6 +31,7 @@ export default function CareersTableHead({ sortDirection, setSortDirection }: an
   return (
     <thead>
       <tr>
+        <th></th>
         <th onClick={handleSortByCareers}>Career {arrow.career}</th>
         <th onClick={handleSortBySalary}>Salary {arrow.salary}</th>
       </tr>

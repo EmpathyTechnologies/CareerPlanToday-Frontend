@@ -1,17 +1,11 @@
 import { Card } from "react-bootstrap";
+import { Person } from "../../../types/types";
 
-type Props = {
+type PersonCardProps = {
   person: Person;
 };
 
-type Person = {
-  img: string;
-  name: string;
-  title: string;
-  linkedIn: string;
-};
-
-const PersonCard = ({ person }: Props) => {
+const PersonCard = ({ person }: PersonCardProps) => {
   const altString = "Image of " + person.name;
 
   return (
@@ -27,35 +21,3 @@ const PersonCard = ({ person }: Props) => {
 };
 
 export default PersonCard;
-
-/* .card {
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: 338px;
-  margin: 20px;
-  transition: transform 0.3s ease;
-}
-
-.card:hover {
-  transform: scale(1.1);
-}
-
-.card-img {
-  width: 100%;
-  height: auto;
-  border-radius: 4px;
-  margin-bottom: 10px;
-}
-
-.card-title {
-  text-align: center;
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.card-text {
-  text-align: center;
-  font-size: 16px;
-  line-height: 1.4;
-} */
