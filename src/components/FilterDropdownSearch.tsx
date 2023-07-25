@@ -1,8 +1,13 @@
-import React, { useState, ChangeEvent, MouseEvent, useRef } from "react";
+import React, { useState, ChangeEvent, MouseEvent, useRef, ReactNode } from "react";
 import Dropdown from "react-bootstrap/Dropdown";
 import Form from "react-bootstrap/Form";
 
-function CustomButton({ children, onClick }: any) {
+interface CustomButtonProps {
+  onClick: (event: MouseEvent<HTMLAnchorElement>) => void;
+  children: ReactNode;
+}
+
+function CustomButton({ children, onClick }: CustomButtonProps) {
   return (
     <a
       className='btn btn-blue w-240'
