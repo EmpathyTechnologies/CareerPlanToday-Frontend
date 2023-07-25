@@ -1,19 +1,19 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import "../../App.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
+import '../../App.css';
 
-import Navigation from "../../layouts/Navigation";
-import HeroSection from "./sections/heroSection";
-import CareerSection from "./sections/careersSection";
-import CollegesSection from "./sections/collegesSection";
-import PlanSection from "./sections/planSection";
-import AboutUsSection from "./sections/aboutUsSection";
-import Footer from "../../layouts/Footer";
+import Navigation from '../../layouts/Navigation';
+import HeroSection from './sections/heroSection';
+import CareerSection from './sections/careersSection';
+import CollegesSection from './sections/collegesSection';
+import PlanSection from './sections/planSection';
+import AboutUsSection from './sections/aboutUsSection';
+import Footer from '../../layouts/Footer';
 
 function Home() {
   return (
-    <div className='App'>
+    <div className="App">
       <Navigation />
       <HeroSection />
       <CareerSection />
