@@ -8,14 +8,16 @@ import { BrowserRouter } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./assets/styles/main.css";
 
-const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);
-root.render(
+const root = ReactDOM.createRoot(
+  document.getElementById('root') as HTMLElement
+);
+    </BrowserRouter>root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Provider store={store}>
         <App />
       </Provider>
-    </BrowserRouter>
+
   </React.StrictMode>
 );
 
