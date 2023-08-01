@@ -1,0 +1,37 @@
+.investContainer {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.investDisclaimer {
+    padding-top: 40px;
+}
+
+.contributionResult {
+    display: flex;
+}
+
+.contributionResultNumber {
+    color: blue;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.balanceResult {
+    display: flex;
+}
+
+.balanceResultNumber {
+    color: green;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.resultsDiv {
+    padding-top: 40px;
+}
+
+.formInputs {
+    width: 20%;
+}
+
