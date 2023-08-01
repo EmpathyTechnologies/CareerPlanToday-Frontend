@@ -7,7 +7,7 @@ const CreateAccountButton = () => {
     return (
         <div className="d-grid">
             <button className="btn btn-primary btn-login text-uppercase fw-bold" type="submit" onClick={handleSignUp}>
-                Sign in
+                Sign Up
             </button>
         </div>
     )

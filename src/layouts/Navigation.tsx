@@ -17,7 +17,7 @@ function Navigation() {
             <Nav.Link href='./colleges'>Colleges</Nav.Link>
             <Nav.Link href='./plan'>Plan</Nav.Link>
           </Nav>
-          <Btn cn='btn-transparent navbar-btn' name='Sign Up' />
+          <Btn cn='btn-transparent navbar-btn' name='Sign Up' href='./signup'/>
         </Navbar.Collapse>
       </Container>
     </Navbar>
