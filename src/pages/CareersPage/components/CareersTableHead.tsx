@@ -1,11 +1,7 @@
 import { useState, useEffect } from "react";
+import { CareersTableHeaderType } from "../../../types/CareersTableHeaderType";
 
-interface CareersTableInterface {
-  sortDirection: any;
-  setSortDirection: any;
-}
-
-export default function CareersTableHead({ sortDirection, setSortDirection }: CareersTableInterface) {
+export default function CareersTableHead({ sortDirection, setSortDirection }: CareersTableHeaderType) {
   const [arrow, setArrow] = useState<{ career: string; salary: string }>({ career: "", salary: "" });
 
   const handleSortByCareers = () => {

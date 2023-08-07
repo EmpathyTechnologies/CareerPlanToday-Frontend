@@ -6,7 +6,7 @@ import img1 from "../../../assets/images/home/img-9.png";
 import ListGroup from "react-bootstrap/ListGroup";
 import Heading from "../components/heading";
 
-function AboutUs() {
+function About() {
   return (
     <div className='about-us'>
       <Container>
@@ -16,7 +16,7 @@ function AboutUs() {
           </Col>
           <Col className='about-us-content'>
             <div className='mb-3'>
-              <Heading title='Your Career Impacts Your Wellness' />
+              <Heading text='Your Career Impacts Your Wellness' />
             </div>
             <p className='sub-heading'>
               Most people don't know what careers pay. For example, a registered nurse national average pay is $81,220. A social worker pay is
@@ -65,4 +65,4 @@ function AboutUs() {
   );
 }
 
-export default AboutUs;
+export default About;

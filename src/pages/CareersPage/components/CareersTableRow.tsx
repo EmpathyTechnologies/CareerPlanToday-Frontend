@@ -3,14 +3,11 @@ import { Link } from "react-router-dom";
 import { AiOutlineHeart, AiFillHeart } from "react-icons/ai";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../../../redux/store";
-import { Career } from "../../../redux/types/careerTypes";
+import { CareerType } from "../../../types/CareerType";
 import { toggleCareerSave } from "../../../redux/actions";
+import { CareersTableRowPropsType } from "../../../types/CareersTableRowType";
 
-interface CareersTableRowProps {
-  careerData: Career;
-}
-
-export default function CareersTableRow(props: CareersTableRowProps) {
+export default function CareersTableRow(props: CareersTableRowPropsType) {
   const { careerData: careerData } = props;
 
   const dispatch = useDispatch();
@@ -24,7 +21,7 @@ export default function CareersTableRow(props: CareersTableRowProps) {
     dispatch(toggleCareerSave(careerData)); // Dispatch the action to toggle career saving
   }
 
-  const isCareerSaved = savedCareers.some((c: Career) => c.id === careerData.id);
+  const isCareerSaved = savedCareers.some((c: CareerType) => c.id === careerData.id);
 
   return (
     <tr>

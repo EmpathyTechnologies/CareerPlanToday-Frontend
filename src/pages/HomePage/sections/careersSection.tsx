@@ -1,18 +1,18 @@
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
-import CareerBox from "../components/career-box";
+import CareerBox from "../components/CareerBox";
 import teacher from "../../../assets/images/home/career_teacher.png";
 import nurse from "../../../assets/images/home/career_nurse.png";
 import engineer from "../../../assets/images/home/career_engineer.png";
 import accountant from "../../../assets/images/home/career_accountant.png";
 import Heading from "../components/heading";
 
-function Career() {
+function CareersSection() {
   return (
     <div className='career'>
       <Container>
         <div className='heading'>
-          <Heading title='Explore Careers' />
+          <Heading text='Explore Careers' />
           <div className='heading-link'>
             <a href='/careers'>
               See All
@@ -38,4 +38,4 @@ function Career() {
   );
 }
 
-export default Career;
+export default CareersSection;

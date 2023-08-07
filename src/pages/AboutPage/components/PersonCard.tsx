@@ -1,11 +1,7 @@
 import { Card } from "react-bootstrap";
-import { Person } from "../../../types/types";
+import { AboutPersonType } from "../../../types/AboutPersonType";
 
-type PersonCardProps = {
-  person: Person;
-};
-
-const PersonCard = ({ person }: PersonCardProps) => {
+const PersonCard = ({ person }: AboutPersonType) => {
   const altString = "Image of " + person.name;
 
   return (
