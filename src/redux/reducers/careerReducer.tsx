@@ -1,12 +1,13 @@
-import { TOGGLE_CAREER_SAVE, ToggleCareerSaveAction, Career } from "../types/careerTypes";
+import { CareerType } from "../../types/CareerType";
+import { TOGGLE_SAVE_CAREER, ToggleSaveCareerActionType } from "../../types/ReduxToggleSaveCareerActionType";
 
-const careerReducer = (state: Career[] = [], action: ToggleCareerSaveAction) => {
+const careerReducer = (state: CareerType[] = [], action: ToggleSaveCareerActionType) => {
   switch (action.type) {
-    case TOGGLE_CAREER_SAVE:
+    case TOGGLE_SAVE_CAREER:
       const career = action.payload;
-      const existingIndex = state.findIndex((c: Career) => c.id === career.id);
+      const existingIndex = state.findIndex((c: CareerType) => c.id === career.id);
       if (existingIndex !== -1) {
-        return state.filter((c: Career) => c.id !== career.id);
+        return state.filter((c: CareerType) => c.id !== career.id);
       } else {
         return [...state, career];
       }
