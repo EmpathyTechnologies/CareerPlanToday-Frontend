@@ -2,6 +2,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Btn from "../components/Button";
+import { Link } from "react-router-dom";
 
 function Navigation() {
   return (
@@ -13,9 +14,15 @@ function Navigation() {
         <Navbar.Toggle aria-controls='navbarScroll' />
         <Navbar.Collapse>
           <Nav className='ms-auto me-auto my-2 my-lg-0' style={{ maxHeight: "100px" }}>
-            <Nav.Link href='./careers'>Careers</Nav.Link>
-            <Nav.Link href='./colleges'>Colleges</Nav.Link>
-            <Nav.Link href='./plan'>Plan</Nav.Link>
+            <Link className='nav-link' to='/careers'>
+              Careers
+            </Link>
+            <Link className='nav-link' to='/colleges'>
+              Colleges
+            </Link>
+            <Link className='nav-link' to='/plan'>
+              Plan
+            </Link>
           </Nav>
           <Btn cn='btn-transparent navbar-btn' name='Sign Up' href='./signup'/>
         </Navbar.Collapse>

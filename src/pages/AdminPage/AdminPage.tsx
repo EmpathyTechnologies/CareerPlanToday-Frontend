@@ -1,13 +1,10 @@
 import { useState, useEffect } from "react";
 import { ListGroup } from "react-bootstrap";
 import Button from "../../components/FilterButton";
+import { FeedbackType } from "../../types/FeedbackType";
 
 export default function Admin() {
-  interface FeedbackInterface {
-    id: string;
-    message: string;
-  }
-  const [feedbackList, setFeedbackList] = useState<FeedbackInterface[]>([]);
+  const [feedbackList, setFeedbackList] = useState<FeedbackType[]>([]);
   const [newMessage, setNewFeedback] = useState("");
 
   function formatDate(input: string): string {
@@ -38,7 +35,7 @@ export default function Admin() {
   useEffect(() => {
     fetch("https://qsv6ogegh7.execute-api.us-east-1.amazonaws.com/production/feedback")
       .then((response) => response.json())
-      .then((data: FeedbackInterface[]) => setFeedbackList(data));
+      .then((data: FeedbackType[]) => setFeedbackList(data));
   }, [newMessage]);
 
   return (

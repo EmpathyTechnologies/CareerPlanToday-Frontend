@@ -5,11 +5,11 @@ import { formatCurrency } from "../utilities/formatCurrency";
 interface FilterDoubleSliderProps {
   filter: [number, number];
   setFilter: React.Dispatch<React.SetStateAction<[number, number]>>;
-  minNumber: number;
-  maxNumber: number;
+  min: number;
+  max: number;
 }
 
-export function FilterDoubleSlider({ filter, setFilter, minNumber, maxNumber }: FilterDoubleSliderProps) {
+export function FilterDoubleSlider({ filter, setFilter, min: minNumber, max: maxNumber }: FilterDoubleSliderProps) {
   const handleChange = (event: Event, newValue: number | number[]) => {
     if (typeof newValue === "number") {
       setFilter([newValue, newValue]);
