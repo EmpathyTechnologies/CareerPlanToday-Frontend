@@ -1,10 +1,10 @@
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
-import PlanBox from "../../components/FormYourPlanBox";
+import PlanBox from "../components/FormYourPlanBox";
 import img1 from "../../../assets/svg/icon-1.svg";
 import img2 from "../../../assets/svg/icon-2.svg";
 import img3 from "../../../assets/svg/icon-3.svg";
-import Heading from "../../components/heading";
+import Heading from "../components/heading";
 
 function Plan() {
   return (

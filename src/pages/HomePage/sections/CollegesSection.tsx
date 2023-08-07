@@ -1,10 +1,10 @@
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
-import CollegeBox from "../../components/CollegesBox";
+import CollegeBox from "../components/CollegesBox";
 import img1 from "../../../assets/images/home/college_universityOfWashington.png";
 import img2 from "../../../assets/images/home/college_texasAandM.png";
 import img3 from "../../../assets/images/home/college_universityOfNotreDame.png";
-import Heading from "../../components/heading";
+import Heading from "../components/heading";
 
 function CollegesSection() {
   return (
