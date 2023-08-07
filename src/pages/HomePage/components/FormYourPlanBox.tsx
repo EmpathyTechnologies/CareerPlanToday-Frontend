@@ -1,14 +1,8 @@
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
+import { HomePlanBoxType } from "../../../types/HomePlanBoxType";
 
-interface PlanBoxProps {
-  href: string;
-  img: string;
-  title: string;
-  description: string;
-}
-
-function PlanBox(props: PlanBoxProps) {
+function PlanBox(props: HomePlanBoxType) {
   return (
     <Col className='plan-box' lg={4} sm={6}>
       <a href={props.href} style={{ textDecoration: "none" }}>

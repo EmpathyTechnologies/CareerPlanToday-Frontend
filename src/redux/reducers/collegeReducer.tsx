@@ -1,8 +1,8 @@
-import { TOGGLE_COLLEGE_SAVE, ToggleCollegeSaveAction } from "../types/collegeTypes";
+import { TOGGLE_SAVE_COLLEGE, ToggleSaveCollegeActionType } from "../../types/ReduxToggleSaveCollegeActionType";
 
-const collegeReducer = (state: number[] = [], action: ToggleCollegeSaveAction) => {
+const collegeReducer = (state: number[] = [], action: ToggleSaveCollegeActionType) => {
   switch (action.type) {
-    case TOGGLE_COLLEGE_SAVE:
+    case TOGGLE_SAVE_COLLEGE:
       const collegeId = action.payload;
       if (state.includes(collegeId)) {
         return state.filter((element: number) => element !== collegeId);

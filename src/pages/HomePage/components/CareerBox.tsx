@@ -1,7 +1,8 @@
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
+import { HomeCareerBoxType } from "../../../types/HomeCareerBoxType";
 
-function CareerBox(props: any) {
+function CareerBox(props: HomeCareerBoxType) {
   return (
     <Col className='career-box' lg={3} sm={6}>
       <a href={props.href} style={{ textDecoration: "none" }}>

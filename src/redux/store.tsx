@@ -1,10 +1,10 @@
 import { createStore, combineReducers } from "redux";
 import collegeReducer from "./reducers/collegeReducer";
 import careerReducer from "./reducers/careerReducer";
-import { Career } from "./types/careerTypes";
+import { CareerType } from "../types/CareerType";
 
 export interface RootState {
-  careers: Career[];
+  careers: CareerType[];
   colleges: number[];
 }
 

@@ -1,33 +1,10 @@
 import React, { useState, forwardRef } from "react";
 import Dropdown from "react-bootstrap/Dropdown";
 import Form from "react-bootstrap/Form";
+import { CalculatorLabelType } from "../../../types/CalculatorLabelType";
+import { CalculatorMenuType } from "../../../types/CalculatorMenuType";
 
-type LabelProps = {
-  children: React.ReactNode;
-  onClick: React.MouseEventHandler<HTMLAnchorElement>;
-  label: string;
-  setLabel: React.Dispatch<React.SetStateAction<string>>;
-};
-
-type MenuProps = {
-  children: React.ReactNode;
-  style: React.CSSProperties;
-  "aria-labelledby": string;
-  label: string;
-  setLabel: React.Dispatch<React.SetStateAction<string>>;
-  setCollegeName: React.Dispatch<React.SetStateAction<string>>;
-  setCollegeCost: React.Dispatch<React.SetStateAction<number>>;
-  freshmenYear?: boolean;
-  setSophomoreCollege?: any;
-  setJuniorCollege?: any;
-  setSeniorCollege?: any;
-  setSophomoreTuition?: any;
-  setJuniorTuition?: any;
-  setSeniorTuition?: any;
-  colleges: any[];
-};
-
-const Label = forwardRef<HTMLAnchorElement, LabelProps>(({ children, onClick, label, setLabel }, ref) => (
+const Label = forwardRef<HTMLAnchorElement, CalculatorLabelType>(({ children, onClick, label, setLabel }, ref) => (
   <a
     href=''
     ref={ref}
@@ -40,7 +17,7 @@ const Label = forwardRef<HTMLAnchorElement, LabelProps>(({ children, onClick, la
   </a>
 ));
 
-const Menu = forwardRef<HTMLDivElement, MenuProps>(
+const Menu = forwardRef<HTMLDivElement, CalculatorMenuType>(
   (
     {
       children,

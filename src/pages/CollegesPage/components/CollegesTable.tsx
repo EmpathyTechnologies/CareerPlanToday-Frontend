@@ -5,21 +5,9 @@ import { formatCurrency } from "../../../utilities/formatCurrency";
 import { AiOutlineHeart, AiFillHeart } from "react-icons/ai";
 import { useDispatch, useSelector } from "react-redux";
 import { toggleCollegeSave } from "../../../redux/actions";
+import { CollegesTableType } from "../../../types/CollegesTableType";
 
-interface College {
-  id: number;
-  name: string;
-  tuition: number;
-}
-
-interface CollegesTableProps {
-  colleges: College[];
-  setColleges: any;
-
-  setUserSavedColleges: any;
-}
-
-export default function CollegesTable({ colleges, setColleges, setUserSavedColleges }: CollegesTableProps) {
+export default function CollegesTable({ colleges, setColleges, setUserSavedColleges }: CollegesTableType) {
   const userSavedColleges = useSelector((state: any) => state.colleges);
   const dispatch = useDispatch();
 
