@@ -1,11 +1,11 @@
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
-import CareerBox from "../components/CareerBox";
+import CareerBox from "../../components/CareerBox";
 import teacher from "../../../assets/images/home/career_teacher.png";
 import nurse from "../../../assets/images/home/career_nurse.png";
 import engineer from "../../../assets/images/home/career_engineer.png";
 import accountant from "../../../assets/images/home/career_accountant.png";
-import Heading from "../components/heading";
+import Heading from "../../components/heading";
 
 function CareersSection() {
   return (
