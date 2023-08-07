@@ -1,13 +1,13 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
+// import Image from "react-bootstrap/Image";
 import ListGroup from "react-bootstrap/ListGroup";
 
-import icon1 from "../assets/svg/fb.svg";
-import icon2 from "../assets/svg/tw.svg";
-import icon3 from "../assets/svg/yt.svg";
-import icon4 from "../assets/svg/cir.svg";
+// import icon1 from "../assets/svg/fb.svg";
+// import icon2 from "../assets/svg/tw.svg";
+// import icon3 from "../assets/svg/yt.svg";
+// import icon4 from "../assets/svg/cir.svg";
 import { Link } from "react-router-dom";
 function Footer() {
   return (
