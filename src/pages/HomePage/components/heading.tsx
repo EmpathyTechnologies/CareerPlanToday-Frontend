@@ -1,12 +1,9 @@
-interface HeadingProps {
-  cn?: string;
-  title: string;
-}
+import { HomeHeadingType } from "../../../types/HomeHeadingType";
 
-function Heading(props: HeadingProps) {
+function Heading(props: HomeHeadingType) {
   return (
-    <div className={props.cn}>
-      <h1 className='secondary-heading'>{props.title}</h1>
+    <div className={props.classname}>
+      <h1 className='secondary-heading'>{props.text}</h1>
     </div>
   );
 }

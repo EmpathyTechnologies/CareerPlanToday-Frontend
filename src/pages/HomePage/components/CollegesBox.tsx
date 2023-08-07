@@ -1,7 +1,8 @@
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
+import { HomeCollegeBoxType } from "../../../types/HomeCollegeBoxType";
 
-function CollegeBox(props: any) {
+function CollegeBox(props: HomeCollegeBoxType) {
   return (
     <Col className='college-box' lg={4} sm={6}>
       <a href={props.href} style={{ textDecoration: "none" }}>

@@ -9,7 +9,7 @@ describe("FilterDoubleSlider", () => {
   });
 
   test("renders correctly with initial values", () => {
-    const { getByText, queryAllByRole } = render(<FilterDoubleSlider filter={[10, 20]} setFilter={mockSetFilter} minNumber={0} maxNumber={100} />);
+    const { getByText, queryAllByRole } = render(<FilterDoubleSlider filter={[10, 20]} setFilter={mockSetFilter} min={0} max={100} />);
 
     expect(getByText("$0")).toBeInTheDocument();
     expect(getByText("$100")).toBeInTheDocument();
@@ -23,7 +23,7 @@ describe("FilterDoubleSlider", () => {
   });
 
   test("handles slider value change correctly for single value", () => {
-    const { queryAllByRole } = render(<FilterDoubleSlider filter={[10, 20]} setFilter={mockSetFilter} minNumber={0} maxNumber={100} />);
+    const { queryAllByRole } = render(<FilterDoubleSlider filter={[10, 20]} setFilter={mockSetFilter} min={0} max={100} />);
 
     const sliders = queryAllByRole("slider");
     const slider = sliders[0]; // Select the first slider element
@@ -35,7 +35,7 @@ describe("FilterDoubleSlider", () => {
   });
 
   test("handles slider value change correctly for range", () => {
-    const { queryAllByRole } = render(<FilterDoubleSlider filter={[10, 20]} setFilter={mockSetFilter} minNumber={0} maxNumber={100} />);
+    const { queryAllByRole } = render(<FilterDoubleSlider filter={[10, 20]} setFilter={mockSetFilter} min={0} max={100} />);
 
     const sliders = queryAllByRole("slider");
     const slider = sliders[0]; // Select the first slider element

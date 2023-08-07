@@ -1,6 +1,6 @@
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
-import CollegeBox from "../components/colleges-box";
+import CollegeBox from "../components/CollegesBox";
 import img1 from "../../../assets/images/home/college_universityOfWashington.png";
 import img2 from "../../../assets/images/home/college_texasAandM.png";
 import img3 from "../../../assets/images/home/college_universityOfNotreDame.png";
@@ -11,7 +11,7 @@ function CollegesSection() {
     <div className='colleges'>
       <Container>
         <div className='heading dark-heading'>
-          <Heading title='Compare Colleges' />
+          <Heading text='Compare Colleges' />
           <div className='heading-link'>
             <a href='/colleges'>
               See All
