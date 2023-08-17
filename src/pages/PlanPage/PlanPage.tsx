@@ -1,40 +1,18 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { ThemeProvider } from "@mui/material/styles";
-import {
-  useMediaQuery,
-  CssBaseline,
-  Box,
-  Typography,
-  Link,
-} from "@mui/material";
+import { useMediaQuery, CssBaseline, Box } from "@mui/material";
 import Navigator from "../../components/Navigation";
 import Content from "../../components/Content";
 import Header from "../../components/Header";
 import Theme from "../../assets/styles/themes/ThemeProvider";
 import Careers from "../CareersPage/CareersPage";
 import Colleges from "../CollegesPage/CollegesPage";
-
-function Copyright() {
-  return (
-    <Typography variant="body2" color="text.secondary" align="center">
-      {"Copyright © "}
-      <Link color="inherit" href="/">
-        Career Plan Today
-      </Link>
-      {new Date().getFullYear()}.
-    </Typography>
-  );
-}
+import Copyright from "./Copyright";
 
 export default function Plan() {
   const [selectedSubpage, setSelectedSubpage] = useState("Explore Careers");
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [headerTitle, setHeaderTitle] = useState("Explore Careers");
   const isSmUp = useMediaQuery(Theme.breakpoints.up("sm"));
-
-  const handleCategoryClick = (selectedCategory: string) => {
-    setHeaderTitle(selectedCategory);
-  };
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
@@ -42,12 +20,12 @@ export default function Plan() {
 
   const drawerWidth = 256;
 
-  const getCategoryContent = () => {
+  const getSelectedSubpage = () => {
     switch (selectedSubpage) {
       case "Explore Careers":
-        return <Careers/>;
+        return <Careers />;
       case "Compare Colleges":
-        return <Colleges/>;
+        return <Colleges />;
       case "How to Fund College":
         return "How to Fund College";
       case "Choose Your Lifestyle":
@@ -75,27 +53,24 @@ export default function Plan() {
               open={mobileOpen}
               onClose={handleDrawerToggle}
               selectedSubpage={selectedSubpage}
-              setSelectedSubpage={setSelectedSubpage} 
+              setSelectedSubpage={setSelectedSubpage}
             />
           )}
           <Navigator
             PaperProps={{ style: { width: drawerWidth } }}
             sx={{ display: { sm: "block", xs: "none" } }}
             selectedSubpage={selectedSubpage}
-            setSelectedSubpage={setSelectedSubpage} 
+            setSelectedSubpage={setSelectedSubpage}
           />
         </Box>
 
         <Box sx={{ flex: 1, display: "flex", flexDirection: "column" }}>
-          <Header onDrawerToggle={handleDrawerToggle} title={headerTitle} />
+          <Header onDrawerToggle={handleDrawerToggle} title={selectedSubpage} />
           <Box
             component="main"
             sx={{ flex: 1, py: 6, px: 4, bgcolor: "#eaeff1" }}
           >
-            {/* INSERT LINKS TO INDIVIDUAL PLANS HERE */}
-            {getCategoryContent()}
-
-
+            {getSelectedSubpage()}
           </Box>
 
           <Box component="footer" sx={{ p: 2, bgcolor: "#eaeff1" }}>
