@@ -1,10 +1,16 @@
-import { ThemeProvider } from "@mui/material/styles";
-import { useMediaQuery, CssBaseline, Box, Typography, Link } from "@mui/material";
-import Navigator from "../components/Navigation";
-import Content from "../components/Content";
-import Header from "../components/Header";
-import Theme from "../assets/styles/themes/ThemeProvider";
-import { useState } from "react";
+import { ThemeProvider } from '@mui/material/styles';
+import {
+  useMediaQuery,
+  CssBaseline,
+  Box,
+  Typography,
+  Link,
+} from '@mui/material';
+import Navigator from '../components/Navigation';
+import Content from '../components/Content';
+import Header from '../components/Header';
+import Theme from '../assets/styles/themes/ThemeProvider';
+import { useState } from 'react';
 
 function Copyright() {
   return (
