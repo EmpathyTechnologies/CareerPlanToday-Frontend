@@ -1,14 +1,14 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
+// import Image from "react-bootstrap/Image";
 import ListGroup from "react-bootstrap/ListGroup";
 
-import icon1 from "../assets/svg/fb.svg";
-import icon2 from "../assets/svg/tw.svg";
-import icon3 from "../assets/svg/yt.svg";
-import icon4 from "../assets/svg/cir.svg";
-
+// import icon1 from "../assets/svg/fb.svg";
+// import icon2 from "../assets/svg/tw.svg";
+// import icon3 from "../assets/svg/yt.svg";
+// import icon4 from "../assets/svg/cir.svg";
+import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className='footer'>
@@ -31,16 +31,13 @@ function Footer() {
                 <p>Quick Links</p>
               </ListGroup.Item>
               <ListGroup.Item>
-                {" "}
-                <a href='#'>Home</a>{" "}
+                <a href='#'>Home</a>
               </ListGroup.Item>
               <ListGroup.Item>
-                {" "}
-                <a href='#'>About Us</a>
+                <Link to='/about'>About Us</Link>
               </ListGroup.Item>
               <ListGroup.Item>
-                {" "}
-                <a href='#'>Contact Us</a>
+                <Link to='/contact'>Contact Us</Link>
               </ListGroup.Item>
             </ListGroup>
           </Col>
@@ -50,20 +47,20 @@ function Footer() {
                 <p>Other Links</p>
               </ListGroup.Item>
               <ListGroup.Item>
-                {" "}
-                <a href='#'>Terms</a>
+                <Link to='/termsofuse'>Terms of Use</Link>
+              </ListGroup.Item>
+              <ListGroup.Item>
+                <Link to='/privacypolicy'>Privacy Policy</Link>
               </ListGroup.Item>
               <ListGroup.Item>
                 {" "}
-                <a href='#'>Privacy Policy</a>
-              </ListGroup.Item>
-              <ListGroup.Item>
-                {" "}
-                <a href='#'>Feedback</a>
+                <Link to='/feedback'>Share Feedback</Link>{" "}
               </ListGroup.Item>
             </ListGroup>
           </Col>
-          <Col lg={4} md={6} sm={12} className='mb-3'>
+
+          {/* SOCIAL MEDIA ICONS */}
+          {/* <Col lg={4} md={6} sm={12} className='mb-3'>
             <div className='d-flex align-items-end justify-content-center justify-content-lg-end justify-content-md-start'>
               <a href='#'>
                 <div className='social-icon'>
@@ -86,7 +83,7 @@ function Footer() {
                 </div>
               </a>
             </div>
-          </Col>
+          </Col> */}
         </Row>
         <p className='copyright text-center text-md-start'>© 2023 | Career Plan Today All Rights Reserved</p>
       </Container>

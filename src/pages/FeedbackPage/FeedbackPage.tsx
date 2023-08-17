@@ -4,11 +4,7 @@ import Alert from "react-bootstrap/Alert";
 import Button from "../../components/FilterButton";
 import Navigation from "../../layouts/Navigation";
 import Footer from "../../layouts/Footer";
-
-interface FeedbackInterface {
-  id: string;
-  message: string;
-}
+import { FeedbackType } from "../../types/FeedbackType";
 
 function generateUniqueId(): string {
   const now: Date = new Date();
@@ -25,13 +21,13 @@ function padZero(num: number): string {
 function Feedback() {
   const [show, setShow] = useState(false);
 
-  const [feedbackList, setFeedbackList] = useState<FeedbackInterface[]>([]);
+  const [feedbackList, setFeedbackList] = useState<FeedbackType[]>([]);
   const [newMessage, setNewFeedback] = useState("");
 
   useEffect(() => {
     fetch("https://qsv6ogegh7.execute-api.us-east-1.amazonaws.com/production/feedback")
       .then((response) => response.json())
-      .then((data: FeedbackInterface[]) => setFeedbackList(data));
+      .then((data: FeedbackType[]) => setFeedbackList(data));
   }, [newMessage]);
 
   const handleSubmitFeedback = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -45,7 +41,7 @@ function Feedback() {
         method: "POST",
         body: JSON.stringify(newFeedbackItem),
       });
-      const data: FeedbackInterface = await response.json();
+      const data: FeedbackType = await response.json();
       setNewFeedback("");
     } catch (error) {
       console.error(error);

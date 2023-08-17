@@ -1,20 +1,21 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../App.css';
 
-import Navigation from '../../layouts/Navigation';
-import HeroSection from './sections/heroSection';
-import CareerSection from './sections/careersSection';
-import CollegesSection from './sections/collegesSection';
-import PlanSection from './sections/planSection';
-import AboutUsSection from './sections/aboutUsSection';
-import Footer from '../../layouts/Footer';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "../../App.css";
+
+import Navigation from "../../layouts/Navigation";
+import HeroSection from "./sections/HeroSection";
+import CareersSection from "./sections/CareersSection";
+import CollegesSection from "./sections/CollegesSection";
+import PlanSection from "./sections/PlanSection";
+import AboutUsSection from "./sections/AboutSection";
+import Footer from "../../layouts/Footer";
 
 function Home() {
   return (
-    <div className="App">
+    <div className='App'>
       <Navigation />
       <HeroSection />
-      <CareerSection />
+      <CareersSection />
       <CollegesSection />
       <PlanSection />
       <AboutUsSection />

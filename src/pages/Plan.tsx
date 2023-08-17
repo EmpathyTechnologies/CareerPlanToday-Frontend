@@ -14,11 +14,11 @@ import { useState } from 'react';
 
 function Copyright() {
   return (
-    <Typography variant="body2" color="text.secondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit" href="/">
+    <Typography variant='body2' color='text.secondary' align='center'>
+      {"Copyright © "}
+      <Link color='inherit' href='/'>
         Career Plan Today
-      </Link>{' '}
+      </Link>{" "}
       {new Date().getFullYear()}.
     </Typography>
   );
@@ -26,8 +26,8 @@ function Copyright() {
 
 export default function Plan() {
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [headerTitle, setHeaderTitle] = useState('Explore Careers');
-  const isSmUp = useMediaQuery(Theme.breakpoints.up('sm'));
+  const [headerTitle, setHeaderTitle] = useState("Explore Careers");
+  const isSmUp = useMediaQuery(Theme.breakpoints.up("sm"));
 
   const handleCategoryClick = (selectedCategory: string) => {
     setHeaderTitle(selectedCategory);
@@ -41,34 +41,20 @@ export default function Plan() {
 
   return (
     <ThemeProvider theme={Theme}>
-      <Box sx={{ display: 'flex', minHeight: '100vh' }}>
+      <Box sx={{ display: "flex", minHeight: "100vh" }}>
         <CssBaseline />
-        <Box
-          component="nav"
-          sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}
-        >
+        <Box component='nav' sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}>
           {isSmUp ? null : (
-            <Navigator
-              PaperProps={{ style: { width: drawerWidth } }}
-              variant="temporary"
-              open={mobileOpen}
-              onClose={handleDrawerToggle}
-            />
+            <Navigator PaperProps={{ style: { width: drawerWidth } }} variant='temporary' open={mobileOpen} onClose={handleDrawerToggle} />
           )}
-          <Navigator
-            PaperProps={{ style: { width: drawerWidth } }}
-            sx={{ display: { sm: 'block', xs: 'none' } }}
-          />
+          <Navigator PaperProps={{ style: { width: drawerWidth } }} sx={{ display: { sm: "block", xs: "none" } }} />
         </Box>
-        <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+        <Box sx={{ flex: 1, display: "flex", flexDirection: "column" }}>
           <Header onDrawerToggle={handleDrawerToggle} title={headerTitle} />
-          <Box
-            component="main"
-            sx={{ flex: 1, py: 6, px: 4, bgcolor: '#eaeff1' }}
-          >
+          <Box component='main' sx={{ flex: 1, py: 6, px: 4, bgcolor: "#eaeff1" }}>
             <Content />
           </Box>
-          <Box component="footer" sx={{ p: 2, bgcolor: '#eaeff1' }}>
+          <Box component='footer' sx={{ p: 2, bgcolor: "#eaeff1" }}>
             <Copyright />
           </Box>
         </Box>

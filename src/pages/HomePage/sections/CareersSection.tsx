@@ -1,19 +1,20 @@
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
-import CollegeBox from "../components/colleges-box";
-import img1 from "../../../assets/images/home/college_universityOfWashington.png";
-import img2 from "../../../assets/images/home/college_texasAandM.png";
-import img3 from "../../../assets/images/home/college_universityOfNotreDame.png";
+import CareerBox from "../components/CareerBox";
+import teacher from "../../../assets/images/home/career_teacher.png";
+import nurse from "../../../assets/images/home/career_nurse.png";
+import engineer from "../../../assets/images/home/career_engineer.png";
+import accountant from "../../../assets/images/home/career_accountant.png";
 import Heading from "../components/heading";
 
-function CollegesSection() {
+function CareersSection() {
   return (
-    <div className='colleges'>
+    <div className='career'>
       <Container>
-        <div className='heading dark-heading'>
-          <Heading title='Compare Colleges' />
+        <div className='heading'>
+          <Heading text='Explore Careers' />
           <div className='heading-link'>
-            <a href='/colleges'>
+            <a href='/careers'>
               See All
               <div className='ms-3 arrow'>
                 <svg width='21' height='12' viewBox='0 0 31 20' fill='none' xmlns='http://www.w3.org/2000/svg'>
@@ -27,13 +28,14 @@ function CollegesSection() {
           </div>
         </div>
         <Row className='justify-content-center'>
-          <CollegeBox img={img1} title='University of Washington' cost='Cost $11,745' href={"colleges/124"} />
-          <CollegeBox img={img2} title='Texas A&M' cost='Cost $12,783' href={"colleges/90"} />
-          <CollegeBox img={img3} title='University of Notre Dame' cost='Cost $57,699' href={"colleges/781"} />
+          <CareerBox img={teacher} title='Elementary School Teacher' salary='Salary $61,400' href={"/careers/268"} />
+          <CareerBox img={accountant} title='Accountant' salary='Salary $77,250' href={"careers/1"} />
+          <CareerBox img={engineer} title='Carpenter' salary='Salary $48,260' href={"careers/533"} />
+          <CareerBox img={nurse} title='Pediatrician' salary='Salary $170,480' href={"/careers/739"} />
         </Row>
       </Container>
     </div>
   );
 }
 
-export default CollegesSection;
+export default CareersSection;
