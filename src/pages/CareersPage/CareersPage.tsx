@@ -4,8 +4,6 @@ import CareersNavbar from "./components/CareersNavbar";
 import CareersTable from "./components/CareersTable";
 import { minSalary, maxSalary } from "./utils/minAndMaxSalary";
 import { filterCareers } from "./utils/filterCareers";
-import Navigation from "../../layouts/Navigation";
-import Footer from "../../layouts/Footer";
 
 export default function Careers() {
   const [careers, setCareers] = useState(allCareers);
@@ -19,7 +17,6 @@ export default function Careers() {
 
   return (
     <div>
-      <Navigation />
       <CareersNavbar
         setFilterByCareerName={setFilterByCareerName}
         filterBySalary={filterBySalary}
@@ -28,7 +25,6 @@ export default function Careers() {
         maxSalary={maxSalary}
       />
       <CareersTable careers={careers} setCareers={setCareers} />
-      <Footer />
     </div>
   );
 }

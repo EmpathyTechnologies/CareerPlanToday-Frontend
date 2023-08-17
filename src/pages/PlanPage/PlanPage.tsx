@@ -2,12 +2,16 @@ import { useState } from "react";
 import { ThemeProvider } from "@mui/material/styles";
 import { useMediaQuery, CssBaseline, Box } from "@mui/material";
 import Navigator from "../../components/Navigation";
-import Content from "../../components/Content";
+// import Content from "../../components/Content";
 import Header from "../../components/Header";
 import Theme from "../../assets/styles/themes/ThemeProvider";
 import Careers from "../CareersPage/CareersPage";
 import Colleges from "../CollegesPage/CollegesPage";
 import Copyright from "./Copyright";
+
+import Calculator from "../CalculatorPage/CalculatorPage";
+import Budget from "../BudgetPage/BudgetPage";
+import Retire from "../InvestPage/InvestPage";
 
 export default function Plan() {
   const [selectedSubpage, setSelectedSubpage] = useState("Explore Careers");
@@ -27,11 +31,11 @@ export default function Plan() {
       case "Compare Colleges":
         return <Colleges />;
       case "How to Fund College":
-        return "How to Fund College";
+        return <Calculator />;
       case "Choose Your Lifestyle":
-        return "Choose Your Lifestyle";
+        return <Budget />;
       case "See How You Can Invest":
-        return "See How You Can Invest";
+        return <Retire />;
       default:
         return "Unknown Category";
     }
@@ -42,14 +46,11 @@ export default function Plan() {
       <Box sx={{ display: "flex", minHeight: "100vh" }}>
         <CssBaseline />
 
-        <Box
-          component="nav"
-          sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}
-        >
+        <Box component='nav' sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}>
           {isSmUp ? null : (
             <Navigator
               PaperProps={{ style: { width: drawerWidth } }}
-              variant="temporary"
+              variant='temporary'
               open={mobileOpen}
               onClose={handleDrawerToggle}
               selectedSubpage={selectedSubpage}
@@ -66,14 +67,11 @@ export default function Plan() {
 
         <Box sx={{ flex: 1, display: "flex", flexDirection: "column" }}>
           <Header onDrawerToggle={handleDrawerToggle} title={selectedSubpage} />
-          <Box
-            component="main"
-            sx={{ flex: 1, py: 6, px: 4, bgcolor: "#eaeff1" }}
-          >
+          <Box component='main' sx={{ flex: 1, py: 6, px: 4, bgcolor: "#eaeff1" }}>
             {getSelectedSubpage()}
           </Box>
 
-          <Box component="footer" sx={{ p: 2, bgcolor: "#eaeff1" }}>
+          <Box component='footer' sx={{ p: 2, bgcolor: "#eaeff1" }}>
             <Copyright />
           </Box>
         </Box>
