@@ -1,0 +1,234 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    color: #000;
+    background: #fff;
+    font-family: "Poppins", sans-serif;
+    min-width: 320px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    overflow-x: hidden;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 400;
+    margin: 0 0 20px;
+    color: inherit;
+  }
+  
+  h1 {
+    font-size: 46px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  h3 {
+    font-size: 22px;
+  }
+  
+  h4 {
+    font-size: 18px;
+  }
+  
+  h5 {
+    font-size: 17px;
+  }
+  
+  h6 {
+    font-size: 15px;
+  }
+  
+  p {
+    margin: 0 0 15px;
+  }
+  
+
+  
+.secondary-heading {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 0;
+  
+    @media (max-width: 991px) {
+      font-size: 30px;
+    }
+  
+    @media (max-width: 430px) {
+      font-size: 20px;
+    }
+  }
+  
+  .sub-heading {
+    font-size: 20px;
+    color: #615353;
+  }
+  
+  .container {
+    @media (max-width: 767px) {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+  }
+  
+  /* Custom Btn */
+  .custom-btn {
+    padding: 15px 50px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 50px;
+    background-color: #1cb0f6;
+    font-weight: 600;
+    border: 1px solid #1cb0f6;
+  }
+  
+  .custom-btn:hover {
+    background-color: #048dcc;
+    transition: all 0.2s;
+    border: 1px solid #048dcc;
+  }
+  
+  .btn-transparent button {
+    background-color: transparent;
+    border: 1px solid #000;
+    color: #000;
+  }
+
+  
+// Radio Btn
+.radio-btn {
+  margin-bottom: 15px;
+  $primary-color: #1cb0f6; // Change color here. C'mon, try it!
+  $text-color: mix(#000, $primary-color, 64%);
+  label {
+    margin-top: 10px;
+    display: flex;
+    cursor: pointer;
+    // font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 5px;
+ 
+    input {
+      position: absolute;
+      left: -9999px;
+      &:checked + span {
+        &:before {
+          box-shadow: inset 0 0 0 5px $primary-color;
+        }
+      }
+    }
+    span {
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      padding: 0px;
+      border-radius: 100px; // or something higher...
+      transition: 0.25s ease;
+      &:before {
+        display: flex;
+        flex-shrink: 0;
+        content: "";
+        background-color: #fff;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        margin-right: 20px;
+        transition: 0.25s ease;
+        box-shadow: inset 0 0 0 1px #e2e2e2;
+      }
+    }
+  }
+}
+
+// CheckBoxes
+.label-container {
+  display: block;
+  position: relative;
+  padding-left: 45px;
+  margin-bottom: 12px;
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 22px;
+  white-space: nowrap;
+
+  .text{
+    position: relative;
+    top:2px;
+  }
+  
+  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border: 1px solid #c9d3cc;
+    border-radius: 3px;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  input:checked ~ .checkmark {
+    background-color: #1cb0f6;
+  }
+  input:checked ~ .checkmark:after {
+    display: block;
+  }
+  .checkmark:after {
+    left: 9px;
+    top: 2px;
+    width: 6px;
+    height: 14px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+}
+
+@import 'template/navbar.scss';
+@import 'template/footer.scss';
