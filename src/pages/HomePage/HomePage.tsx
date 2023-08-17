@@ -1,5 +1,5 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import "../../App.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../../App.css';
 
 import Navigation from "../../layouts/Navigation";
 import HeroSection from "./sections/HeroSection";
