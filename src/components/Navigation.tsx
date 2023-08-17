@@ -66,11 +66,11 @@ const itemCategory = {
 
 export default function Navigator(props: any//DrawerProps
 ) {
-  const { activeCategory: navActiveCategory, setActiveCategory: setNavActiveCategory, ...other } = props;
+  const { selectedSubpage: navActiveCategory, setSelectedSubpage: setNavActiveCategory, ...other } = props;
 
 
   const setHeaderTitle = (categoryId: string) => {
-    props.setActiveCategory(categoryId);
+    props.setSelectedSubpage(categoryId);
   };
 
   return (
@@ -93,7 +93,7 @@ export default function Navigator(props: any//DrawerProps
             {children.map(({ id: childId, icon }) => (
               <ListItem disablePadding key={childId}>
                 <ListItemButton
-                  selected={props.activeCategory === childId}
+                  selected={props.selectedSubpage === childId}
                   sx={item}
                   onClick={() => setHeaderTitle(childId)}
                 >
