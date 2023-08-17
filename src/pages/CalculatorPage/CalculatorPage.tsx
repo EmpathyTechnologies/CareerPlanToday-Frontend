@@ -91,7 +91,6 @@ export default function Calculator() {
 
   return (
     <div>
-      <Navigation />
       <div>
         <CalculatorNavbar />
       </div>
@@ -511,7 +510,6 @@ export default function Calculator() {
           </tbody>
         </table>
       </div>
-      <Footer />
     </div>
   );
 }
