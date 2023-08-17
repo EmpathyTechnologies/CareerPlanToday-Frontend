@@ -1,22 +1,22 @@
 import React, { useState } from "react";
-import { ThemeProvider } from '@mui/material/styles';
+import { ThemeProvider } from "@mui/material/styles";
 import {
   useMediaQuery,
   CssBaseline,
   Box,
   Typography,
   Link,
-} from '@mui/material';
-import Navigator from '../../components/Navigation';
-import Content from '../../components/Content';
-import Header from '../../components/Header';
-import Theme from '../../assets/styles/themes/ThemeProvider';
+} from "@mui/material";
+import Navigator from "../../components/Navigation";
+import Content from "../../components/Content";
+import Header from "../../components/Header";
+import Theme from "../../assets/styles/themes/ThemeProvider";
 
 function Copyright() {
   return (
-    <Typography variant='body2' color='text.secondary' align='center'>
+    <Typography variant="body2" color="text.secondary" align="center">
       {"Copyright © "}
-      <Link color='inherit' href='/'>
+      <Link color="inherit" href="/">
         Career Plan Today
       </Link>
       {new Date().getFullYear()}.
@@ -40,6 +40,23 @@ export default function Plan() {
 
   const drawerWidth = 256;
 
+  const getCategoryContent = () => {
+    switch (activeCategory) {
+      case "Explore Careers":
+        return "Explore Careers";
+      case "Compare Colleges":
+        return "Compare Colleges";
+      case "How to Fund College":
+        return "How to Fund College";
+      case "Choose Your Lifestyle":
+        return "Choose Your Lifestyle";
+      case "See How You Can Invest":
+        return "See How You Can Invest";
+      default:
+        return "Unknown Category";
+    }
+  };
+
   return (
     <ThemeProvider theme={Theme}>
       <Box sx={{ display: "flex", minHeight: "100vh" }}>
@@ -55,21 +72,31 @@ export default function Plan() {
               variant="temporary"
               open={mobileOpen}
               onClose={handleDrawerToggle}
-
+              activeCategory={activeCategory}
+              setActiveCategory={setActiveCategory} // Add this line
             />
           )}
-          <Navigator PaperProps={{ style: { width: drawerWidth } }} sx={{ display: { sm: "block", xs: "none" } }} />
+          <Navigator
+            PaperProps={{ style: { width: drawerWidth } }}
+            sx={{ display: { sm: "block", xs: "none" } }}
+            activeCategory={activeCategory}
+            setActiveCategory={setActiveCategory}
+          />
         </Box>
 
-        <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+        <Box sx={{ flex: 1, display: "flex", flexDirection: "column" }}>
           <Header onDrawerToggle={handleDrawerToggle} title={headerTitle} />
-          <Box component='main' sx={{ flex: 1, py: 6, px: 4, bgcolor: "#eaeff1" }}>
+          <Box
+            component="main"
+            sx={{ flex: 1, py: 6, px: 4, bgcolor: "#eaeff1" }}
+          >
             {/* INSERT LINKS TO INDIVIDUAL PLANS HERE */}
-            Explore Careers
-            Compare Colleges
+            {getCategoryContent()}
+
+
           </Box>
 
-          <Box component="footer" sx={{ p: 2, bgcolor: '#eaeff1' }}>
+          <Box component="footer" sx={{ p: 2, bgcolor: "#eaeff1" }}>
             <Copyright />
           </Box>
         </Box>

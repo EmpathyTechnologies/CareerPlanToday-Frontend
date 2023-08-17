@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import {
   Divider,
   List,
@@ -65,13 +64,13 @@ const itemCategory = {
   px: 3,
 };
 
-export default function Navigator(props: DrawerProps) {
-  const { ...other } = props;
+export default function Navigator(props: any//DrawerProps
+) {
+  const { activeCategory: navActiveCategory, setActiveCategory: setNavActiveCategory, ...other } = props;
 
-  const [activeCategory, setActiveCategory] = useState("Compare Colleges");
 
   const setHeaderTitle = (categoryId: string) => {
-    setActiveCategory(categoryId);
+    props.setActiveCategory(categoryId);
   };
 
   return (
@@ -94,7 +93,7 @@ export default function Navigator(props: DrawerProps) {
             {children.map(({ id: childId, icon }) => (
               <ListItem disablePadding key={childId}>
                 <ListItemButton
-                  selected={activeCategory === childId}
+                  selected={props.activeCategory === childId}
                   sx={item}
                   onClick={() => setHeaderTitle(childId)}
                 >
