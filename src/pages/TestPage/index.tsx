@@ -15,7 +15,7 @@ function Home() {
       <Navigation />
       <Header />
       <SecondNavigation />
-      <Content careers={careers} />
+      <Content careers={careers} setCareers={setCareers} />
     </div>
   );
 }
