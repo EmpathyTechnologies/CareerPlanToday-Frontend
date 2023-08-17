@@ -11,6 +11,8 @@ import Navigator from "../../components/Navigation";
 import Content from "../../components/Content";
 import Header from "../../components/Header";
 import Theme from "../../assets/styles/themes/ThemeProvider";
+import Careers from "../CareersPage/CareersPage";
+import Colleges from "../CollegesPage/CollegesPage";
 
 function Copyright() {
   return (
@@ -25,7 +27,7 @@ function Copyright() {
 }
 
 export default function Plan() {
-  const [activeCategory, setActiveCategory] = useState("Explore Careers");
+  const [selectedSubpage, setSelectedSubpage] = useState("Explore Careers");
   const [mobileOpen, setMobileOpen] = useState(false);
   const [headerTitle, setHeaderTitle] = useState("Explore Careers");
   const isSmUp = useMediaQuery(Theme.breakpoints.up("sm"));
@@ -41,11 +43,11 @@ export default function Plan() {
   const drawerWidth = 256;
 
   const getCategoryContent = () => {
-    switch (activeCategory) {
+    switch (selectedSubpage) {
       case "Explore Careers":
-        return "Explore Careers";
+        return <Careers/>;
       case "Compare Colleges":
-        return "Compare Colleges";
+        return <Colleges/>;
       case "How to Fund College":
         return "How to Fund College";
       case "Choose Your Lifestyle":
@@ -72,15 +74,15 @@ export default function Plan() {
               variant="temporary"
               open={mobileOpen}
               onClose={handleDrawerToggle}
-              activeCategory={activeCategory}
-              setActiveCategory={setActiveCategory} // Add this line
+              selectedSubpage={selectedSubpage}
+              setSelectedSubpage={setSelectedSubpage} 
             />
           )}
           <Navigator
             PaperProps={{ style: { width: drawerWidth } }}
             sx={{ display: { sm: "block", xs: "none" } }}
-            activeCategory={activeCategory}
-            setActiveCategory={setActiveCategory}
+            selectedSubpage={selectedSubpage}
+            setSelectedSubpage={setSelectedSubpage} 
           />
         </Box>
 
