@@ -5,9 +5,8 @@ import CareerBox from "./career-box";
 import fil from "./img/fil-icon.svg";
 import close from "./img/close.svg";
 import Filters from "./filters";
-import { ContentType } from "../../types/ContentType";
 
-function Content({ careers }: ContentType) {
+function Content({ careers }: any) {
   const [show, setShow] = useState(false);
 
   return (
@@ -39,7 +38,7 @@ function Content({ careers }: ContentType) {
           <Col lg={9} md={8}>
             <Row>
               {careers.map((career: any) => (
-                <CareerBox img={career.img} title={career.title} salary={career.salary} />
+                <CareerBox img={career.img} jobTitle={career.jobTitle} salary={career.salary} />
               ))}
             </Row>
             <div className='pagination'>
