@@ -1,0 +1,375 @@
+/* Hero Section */
+
+.hero {
+    padding-bottom: 40px;
+    background-color: rgba(28, 176, 246, 0.1) !important;
+  }
+  
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .hero-image-cover {
+    text-align: center;
+    margin: auto;
+  }
+  
+  @media (max-width: 991px) {
+    .hero-image-cover {
+      max-width: 500px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .hero-image-cover {
+      max-width: 300px;
+    }
+  }
+  
+  .hero-heading {
+    font-size: 54px;
+    font-weight: 700;
+  }
+  
+  @media (max-width: 767px) {
+    .hero-heading {
+      font-size: 35px;
+    }
+  }
+  
+  @media (max-width: 390px) {
+    .hero-heading {
+      font-size: 30px;
+    }
+  }
+  
+  .hero-heading span {
+    color: #1cb0f6;
+  }
+  
+  .hero .custom-btn {
+    margin-right: 14px;
+  }
+  
+  @media (max-width: 991px) {
+    .hero .custom-btn {
+      margin-left: 7px;
+      margin-right: 7px;
+    }
+  }
+  
+  @media (max-width: 436px) {
+    .hero .custom-btn {
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* Career */
+  .career {
+    padding: 40px 0;
+  }
+  
+  .heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  @media (max-width: 450px) {
+    .heading {
+      display: block;
+      text-align: center;
+    }
+  }
+  
+  .heading-link {
+    display: flex;
+    align-items: center;
+  }
+  
+  @media (max-width: 450px) {
+    .heading-link {
+      display: block;
+      margin-top: 10px;
+    }
+  }
+  
+  .heading-link a {
+    display: flex;
+    align-items: center;
+    /* margin-right: 10px; */
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+  }
+  
+  @media (max-width: 450px) {
+    .heading-link a {
+      justify-content: center;
+    }
+  }
+  
+  .arrow {
+    background-color: #048dcc;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+  
+  .card {
+    border: none;
+    margin-bottom: 25px;
+  }
+  
+  .card-img {
+    border-radius: 12px;
+  }
+  
+  .career-box-card-text {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+  }
+  
+  .card-title {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  .card-salary {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  /* Colleges */
+  .colleges {
+    background-color: #048dcc;
+    padding: 40px 0;
+  }
+  
+  .dark-heading .secondary-heading {
+    color: #fff;
+  }
+  
+  .dark-heading .heading-link a {
+    color: #fff;
+  }
+  
+  .dark-heading .heading-link .arrow {
+    background-color: #000;
+  }
+  
+  .college-box .card {
+    padding: 50px 20px 30px 20px;
+    height: 350px;
+  }
+  
+  .colleges-card-img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .colleges-img {
+    max-width: 100%;
+    object-fit: contain;
+  }
+  
+  .college-box .card .colleges-card-text {
+    margin-top: 20px;
+  }
+  
+  .college-box .card .colleges-card-text .card-text {
+    font-size: 18px;
+    font-weight: 500;
+    color: #615353;
+  }
+  
+  /* Plan */
+  .plan {
+    padding: 40px 0;
+  }
+  .plan-box .card {
+    box-shadow: 0 4px 100px 0 rgba(0, 0, 0, 0.1);
+    padding: 50px 20px 30px 20px;
+    height: 376px;
+  }
+  
+  @media (max-width: 767px) {
+    .plan-box .card {
+      padding: 20px;
+    }
+  }
+  
+  .plans-card-img {
+    width: 168px;
+    height: 168px;
+    background-color: #e8f7fe;
+    border-radius: 50%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .plans-img {
+    max-width: 80%;
+    object-fit: contain;
+  }
+  
+  .plans-card-text {
+    margin-top: 20px;
+  }
+  
+  .plans-card-text .card-text {
+    font-size: 18px;
+    font-weight: 500;
+    color: #615353;
+  }
+  
+  /* About Us */
+  .about-us {
+    padding: 40px 0;
+  }
+  
+  .list-group-item {
+    border: none;
+    padding: 10px 0;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  .about-us .list-group-item p {
+    width: 80%;
+  }
+  
+  .check {
+    width: 40px;
+    height: 40px;
+    background-color: #59ff92;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+  }
+  
+  .about-us-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /* Testimonial */
+  
+  .testimonial {
+    padding: 40px 0 60px;
+  }
+  
+  .testimonial-box {
+    margin-bottom: 15px;
+  }
+  
+  .testimonial-img {
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  .testimonial-box .card {
+    background-color: #e8f7fe;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 0;
+  }
+  
+  .testimonial-box .card-body {
+    padding: 0;
+  }
+  
+  .testimonial-person-detail h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+  }
+  
+  .testimonial-person-detail p {
+    color: #494949;
+    font-size: 18px;
+  }
+  
+  .testimonial-text .card-text {
+    color: #545658;
+    font-size: 18px;
+  }
+  
+  .slick-slide div {
+    margin: 0 5px;
+  }
+  
+  .slick-dots {
+    bottom: -40px;
+  }
+  
+  .slick-dots li button::before {
+    font-size: 16px;
+  }
+  
+  .slick-dots li button:before {
+    color: #e8f7fe;
+    opacity: 1;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #1cb0f6;
+    opacity: 1;
+  }
+  
+  /* Choose Career */
+  .choose-career {
+    padding: 40px 0;
+  }
+  
+  .choose-career .overlay-img {
+    border-radius: 20px;
+    padding: 20px;
+    background-image: url("./../../img/img-10.png");
+    background-position: 65%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  
+    @media (max-width: 573px) {
+      height: 600px;
+    }
+  }
+  
+  .choose-career .sub-heading {
+    max-width: 700px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+  }
+  
+  .choose-career .secondary-heading {
+    @media (max-width: 767px) {
+      font-size: 30px;
+    }
+  }
+  
+  .choose-career .custom-btn {
+    @media (max-width: 573px) {
+      font-size: 20px;
+      padding: 15px 40px;
+    }
+  }

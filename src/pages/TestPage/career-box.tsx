@@ -13,7 +13,7 @@ function CareerBox(props: any) {
           <Card.ImgOverlay>
             <div className='career-box-card-text'>
               <Card.Title className='card-title'>{props.title}</Card.Title>
-              <Card.Title className='card-salary'>{props.salary}</Card.Title>
+              <Card.Title className='card-salary'>Salary ${props.salary}</Card.Title>
             </div>
           </Card.ImgOverlay>
         </Card>
