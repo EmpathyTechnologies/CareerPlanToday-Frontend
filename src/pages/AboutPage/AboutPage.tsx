@@ -5,6 +5,7 @@ import Footer from "../../layouts/Footer";
 const About = () => {
   return (
     <div>
+      Hello World
       <Navigation />
       <AboutPeople />
       <Footer />
