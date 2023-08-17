@@ -14,10 +14,10 @@ function Navigation() {
         <Navbar.Toggle aria-controls='navbarScroll' />
         <Navbar.Collapse>
           <Nav className='ms-auto me-auto my-2 my-lg-0' style={{ maxHeight: "100px" }}>
-            <Link className='nav-link' to='/careers'>
+            <Link className='nav-link' to='/plan'>
               Careers
             </Link>
-            <Link className='nav-link' to='/colleges'>
+            <Link className='nav-link' to='/plan'>
               Colleges
             </Link>
             <Link className='nav-link' to='/plan'>
