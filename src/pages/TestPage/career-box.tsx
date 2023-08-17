@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+// import { useState } from "react";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 // import Heart from "react-heart";
 
 function CareerBox(props: any) {
-  const [active, setActive] = useState(false);
+  // const [active, setActive] = useState(false);
   return (
     <Col className='career-box' lg={4} sm={6}>
       <a href='#' style={{ textDecoration: "none" }}>

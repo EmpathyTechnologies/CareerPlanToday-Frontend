@@ -4,8 +4,6 @@ import { filterColleges } from "./utilities/filterColleges";
 import allColleges from "../../data/colleges.json";
 import CollegesNavbar from "./components/CollegesNavbar";
 import CollegesTable from "./components/CollegesTable";
-import Navigation from "../../layouts/Navigation";
-import Footer from "../../layouts/Footer";
 
 export default function Colleges() {
   const [colleges, setColleges] = useState(allColleges);
@@ -21,7 +19,6 @@ export default function Colleges() {
 
   return (
     <div>
-      <Navigation />
       <CollegesNavbar
         setFilterByStates={setFilterByStates}
         filterByTuition={filterByTuition}
@@ -31,7 +28,6 @@ export default function Colleges() {
       />
 
       <CollegesTable colleges={colleges} setColleges={setColleges} setUserSavedColleges={setUserSavedColleges}></CollegesTable>
-      <Footer />
     </div>
   );
 }
