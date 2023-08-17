@@ -21,18 +21,16 @@ export default function Invest() {
       balance += yearlyContribution;
       const growth = balance * (realRateOfReturn / 100);
       balance += growth;
-      totalContribution += annualContribution
+      totalContribution += annualContribution;
     }
     return {
-      balance: balance.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2}), 
-      totalContribution: totalContribution.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})
-    }
+      balance: balance.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }),
+      totalContribution: totalContribution.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }),
+    };
   };
-  
 
   return (
     <>
-      <Navigation />
       <Container>
         <h2>Roth IRA Calculator</h2>
         <Form>
@@ -99,7 +97,6 @@ export default function Invest() {
           this calculator. Furthermore, this is an early version of this calculator and may contain errors.
         </div>
       </Container>
-      <Footer />
     </>
   );
 }
