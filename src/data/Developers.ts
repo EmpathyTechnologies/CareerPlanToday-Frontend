@@ -1,14 +1,14 @@
-import dustin from "../../../assets/images/about/dustin.jpg";
-import eric from "../../../assets/images/about/eric.jpg";
-import karim from "../../../assets/images/about/karim.jpg";
-import matt from "../../../assets/images/about/matt.jpg";
-import maxwell from "../../../assets/images/about/maxwell.jpg";
-import ramiro from "../../../assets/images/about/ramiro.jpg";
-import tyler from "../../../assets/images/about/tyler.jpg";
-import user from "../../../assets/images/about/user.jpg";
-import yogi from "../../../assets/images/about/yogi.jpg";
+import dustin from "../assets/images/about/dustin.jpg";
+import eric from "../assets/images/about/eric.jpg";
+import karim from "../assets/images/about/karim.jpg";
+import matt from "../assets/images/about/matt.jpg";
+import maxwell from "../assets/images/about/maxwell.jpg";
+import ramiro from "../assets/images/about/ramiro.jpg";
+import tyler from "../assets/images/about/tyler.jpg";
+import user from "../assets/images/about/user.jpg";
+import yogi from "../assets/images/about/yogi.jpg";
 
-const people = [
+const developers = [
   {
     img: maxwell,
     name: "Max Morrow",
@@ -65,4 +65,4 @@ const people = [
   },
 ];
 
-export default people;
+export default developers;

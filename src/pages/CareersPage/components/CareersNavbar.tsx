@@ -13,7 +13,6 @@ const careerFields = [
 ];
 
 // todo... figure out how filter dropdown search can up date minSalary & maxSalary
-// todo... figure out how to keep these section sticky
 
 const CollegesNavbar: React.FC<CareerNavbarType> = ({ setFilterByCareerName, filterBySalary, setFilterBySalary, minSalary, maxSalary }) => {
   return (
