@@ -5,7 +5,7 @@ import CareersTable from "./components/CareersTable";
 import { minSalary, maxSalary } from "./utils/minAndMaxSalary";
 import { filterCareers } from "./utils/filterCareers";
 
-export default function Careers() {
+export default function Careers({ setSelectedCareer }: any) {
   const [careers, setCareers] = useState(allCareers);
   const [filterByCareerName, setFilterByCareerName] = useState<string>("All Careers");
   const [filterBySalary, setFilterBySalary] = useState<any>([minSalary, maxSalary]);
@@ -24,7 +24,7 @@ export default function Careers() {
         minSalary={minSalary}
         maxSalary={maxSalary}
       />
-      <CareersTable careers={careers} setCareers={setCareers} />
+      <CareersTable careers={careers} setCareers={setCareers} setSelectedCareer={setSelectedCareer} />
     </div>
   );
 }

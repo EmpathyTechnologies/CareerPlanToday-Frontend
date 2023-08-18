@@ -8,7 +8,7 @@ import { toggleCareerSave } from "../../../redux/actions";
 import { CareersTableRowPropsType } from "../../../types/CareersTableRowType";
 
 export default function CareersTableRow(props: CareersTableRowPropsType) {
-  const { careerData: careerData } = props;
+  const { careerData, setSelectedCareer } = props;
 
   const dispatch = useDispatch();
   const savedCareers = useSelector((state: RootState) => state.careers);
@@ -37,7 +37,15 @@ export default function CareersTableRow(props: CareersTableRowPropsType) {
         )}
       </td>
       <td>
-        <Link to={`/careers/${careerData.id}`}>{careerData.title}</Link>
+        <div
+          onClick={() => setSelectedCareer(careerData.id)}
+          style={{
+            color: "blue",
+            textDecoration: "underline",
+            cursor: "pointer",
+          }}>
+          {careerData.title}
+        </div>
       </td>
       <td>{checkIf208000(formatCurrency(careerData.salary.national.average))}</td>
     </tr>
