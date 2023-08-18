@@ -1,8 +1,8 @@
-import people from "../data/People";
+import developers from "../../../data/Developers";
 import PersonCard from "./PersonCard";
 
 const AboutPeople = () => {
-  const cardsList = people.map((person) => <PersonCard key={person.img} person={person} />);
+  const cardsList = developers.map((person) => <PersonCard key={person.img} person={person} />);
 
   return (
     <div>
