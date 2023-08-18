@@ -4,22 +4,18 @@ import { Routes, Route } from "react-router-dom";
 import About from "./pages/AboutPage/AboutPage";
 import Accessibility from "./pages/AccessibilityPage/AccessibilityPage";
 import Admin from "./pages/AdminPage/AdminPage";
-import Budget from "./pages/PlanPage/components/Main/Budget/Budget";
-import Calculator from "./pages/PlanPage/components/Main/Calculator/Calculator";
-import Careers from "./pages/PlanPage/components/Main/Careers/Careers";
 import CareersPage from "./pages/TestPage/index";
-import Colleges from "./pages/PlanPage/components/Main/Colleges/Colleges";
 import Contact from "./pages/ContactPage/ContactPage";
 import Feedback from "./pages/FeedbackPage/FeedbackPage";
 import Home from "./pages/HomePage/HomePage";
 import Login from "./pages/LoginPage/LoginPage";
-import Retire from "./pages/PlanPage/components/Main/Invest/Invest";
 import NotFound from "./pages/NotFoundPage/NotFoundPage";
 import Plan from "./pages/PlanPage/PlanPage";
 import PrivacyPolicy from "./pages/PrivacyPolicyPage/PrivacyPolicyPage";
 import SignUp from "./pages/SignUpPage/SignUpPage";
 import TermsOfUse from "./pages/TermsOfUsePage/TermsOfUsePage";
-import React, {useState} from "react";
+import {useState} from "react";
+
 
 function App() {
 
@@ -35,17 +31,16 @@ function App() {
         <Route path='about' element={<About />} />
         <Route path='accessibility' element={<Accessibility />} />
         <Route path='admin' element={<Admin />} />
-        <Route path='budget' element={<Budget />} />
-        <Route path='calculator' element={<Calculator />} />
         <Route path='contact' element={<Contact />} />
         <Route path='login' element={<Login />} />
         <Route path='feedback' element={<Feedback />} />
         <Route path='plan' element={<Plan selectedSubpage={selectedSubpage} setSelectedSubpage={setSelectedSubpage} />} />
-        <Route path='invest' element={<Retire />} />
         <Route path='privacypolicy' element={<PrivacyPolicy />} />
         <Route path='signup' element={<SignUp />} />
-        <Route path='test' element={<CareersPage />} />
         <Route path='termsofuse' element={<TermsOfUse />} />
+
+        <Route path='test1' element={<CareersPage />} />
+
         <Route path='*' element={<NotFound />} />
       </Routes>
     </>
