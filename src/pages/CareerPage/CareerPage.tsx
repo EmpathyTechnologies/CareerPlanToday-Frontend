@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+// import { useParams } from "react-router-dom";
 import allCareers from "../../data/careers.json";
 import { formatCurrency } from "../../utilities/formatCurrency";
 import Button from "react-bootstrap/Button";
@@ -7,9 +7,7 @@ import NotFound from "../NotFoundPage/NotFoundPage";
 import Navigation from "../../layouts/Navigation";
 import Footer from "../../layouts/Footer";
 
-export default function Career() {
-  let { id } = useParams();
-
+export default function Career({ id, setSelectedCareer }: any) {
   let answer: any = allCareers.filter((career) => career.id === Number(id));
   answer = answer[0];
   if (!answer) {
@@ -23,7 +21,6 @@ export default function Career() {
 
   return (
     <>
-      <Navigation />
       <Card>
         <Card.Body>
           <Card.Title>{answer.title}</Card.Title>
@@ -39,12 +36,11 @@ export default function Career() {
             <div>90th Percentile</div>
             <div>{checkIf208000(formatCurrency(answer.salary.national.ninetiethPercentile))}</div>
           </Card.Text>
-          <Button variant='primary' href='/careers'>
-            Return to Careers
+          <Button variant='primary' onClick={() => setSelectedCareer(-1)}>
+            Return to All Careers
           </Button>
         </Card.Body>
       </Card>
-      <Footer />
     </>
   );
 }
