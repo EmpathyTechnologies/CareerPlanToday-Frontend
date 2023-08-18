@@ -1,11 +1,11 @@
 
-import Colleges from '../../CollegesPage/CollegesPage';
-import Calculator from '../../CalculatorPage/CalculatorPage';
-import Budget from '../../BudgetPage/BudgetPage';
-import College from '../../CollegePage/CollegePage';
-import Career from '../../CareerPage/CareerPage';
-import Careers from '../../CareersPage/CareersPage';
-import Retire from '../../InvestPage/InvestPage'
+import Colleges from './Main/Colleges/Colleges';
+import Calculator from './Main/Calculator/Calculator';
+import Budget from './Main/Budget/Budget';
+import College from './Main/College/College';
+import Career from './Main/Career/Career';
+import Careers from './Main/Careers/Careers';
+import Retire from './Main/Invest/Invest'
 
 export const GetSelectedSubPage = (selectedSubpage:any,selectedCareer:any, selectedCollege:any, setSelectedCareer:any, setSelectedCollege :any) => {
     switch (selectedSubpage) {
