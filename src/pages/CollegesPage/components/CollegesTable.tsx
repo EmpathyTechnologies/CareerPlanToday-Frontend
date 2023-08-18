@@ -39,10 +39,10 @@ export default function CollegesTable({ colleges, setColleges, setUserSavedColle
       <thead>
         <tr>
           <th></th>
-          <th onClick={() => sortColleges("college")} className={"colleges-header"}>
+          <th onClick={() => sortColleges("college")} className={"colleges-header"} style={{ cursor: "pointer" }}>
             College {sortColumn === "college" && (sortOrder === "asc" ? "↓" : "↑")}
           </th>
-          <th onClick={() => sortColleges("tuition")} className={"colleges-header flex-center"}>
+          <th onClick={() => sortColleges("tuition")} className={"colleges-header flex-center"} style={{ cursor: "pointer" }}>
             Tuition / Year {sortColumn === "tuition" && (sortOrder === "asc" ? "↓" : "↑")}
           </th>
         </tr>
@@ -52,11 +52,11 @@ export default function CollegesTable({ colleges, setColleges, setUserSavedColle
         {colleges.map((college: any) => (
           <tr>
             {userSavedColleges.includes(college.id) ? (
-              <div onClick={() => toggleSaveCollege(college.id)} style={{ color: "rgb(255, 56, 92)" }}>
+              <div onClick={() => toggleSaveCollege(college.id)} style={{ color: "rgb(255, 56, 92)", cursor: "pointer" }}>
                 <AiFillHeart />
               </div>
             ) : (
-              <div onClick={() => toggleSaveCollege(college.id)}>
+              <div onClick={() => toggleSaveCollege(college.id)} style={{ cursor: "pointer" }}>
                 <AiOutlineHeart />
               </div>
             )}
