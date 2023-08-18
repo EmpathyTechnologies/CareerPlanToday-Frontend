@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { toggleCollegeSave } from "../../../redux/actions";
 import { CollegesTableType } from "../../../types/CollegesTableType";
 
-export default function CollegesTable({ colleges, setColleges, setUserSavedColleges }: CollegesTableType) {
+export default function CollegesTable({ colleges, setColleges, setUserSavedColleges, setSelectedCollege }: CollegesTableType) {
   const userSavedColleges = useSelector((state: any) => state.colleges);
   const dispatch = useDispatch();
 
@@ -61,7 +61,15 @@ export default function CollegesTable({ colleges, setColleges, setUserSavedColle
               </div>
             )}
             <td>
-              <Link to={`/colleges/${college.id}`}>{college.name}</Link>
+              <div
+                onClick={() => setSelectedCollege(college.id)}
+                style={{
+                  color: "blue",
+                  textDecoration: "underline",
+                  cursor: "pointer",
+                }}>
+                {college.name}
+              </div>
             </td>
             <td className='flex-center'>{formatCurrency(college.tuition)}</td>
           </tr>
