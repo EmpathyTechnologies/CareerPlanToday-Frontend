@@ -1,22 +1,10 @@
-import {
-  AppBar,
-  Avatar,
-  Grid,
-  Typography,
-  IconButton,
-  Toolbar,
-  Tab,
-  Tabs,
-  Tooltip,
-  Button,
-  ListItemText,
-} from '@mui/material';
-import HelpIcon from '@mui/icons-material/Help';
-import Link from '@mui/material/Link';
-import NotificationsIcon from '@mui/icons-material/Notifications';
-import MenuIcon from '@mui/icons-material/Menu';
+import { AppBar, Avatar, Grid, Typography, IconButton, Toolbar, Tab, Tabs, Tooltip, Button, ListItemText } from "@mui/material";
+import HelpIcon from "@mui/icons-material/Help";
+import Link from "@mui/material/Link";
+import NotificationsIcon from "@mui/icons-material/Notifications";
+import MenuIcon from "@mui/icons-material/Menu";
 
-const lightColor = 'rgba(255, 255, 255, 0.7)';
+const lightColor = "rgba(255, 255, 255, 0.7)";
 
 interface HeaderProps {
   onDrawerToggle: () => void;
@@ -28,16 +16,11 @@ export default function Header(props: HeaderProps) {
 
   return (
     <>
-      <AppBar color="primary" position="sticky" elevation={0}>
+      <AppBar color='primary' position='sticky' elevation={0}>
         <Toolbar>
-          <Grid container spacing={1} alignItems="center">
-            <Grid sx={{ display: { sm: 'none', xs: 'block' } }} item>
-              <IconButton
-                color="inherit"
-                aria-label="open drawer"
-                onClick={onDrawerToggle}
-                edge="start"
-              >
+          <Grid container spacing={1} alignItems='center'>
+            <Grid sx={{ display: { sm: "none", xs: "block" } }} item>
+              <IconButton color='inherit' aria-label='open drawer' onClick={onDrawerToggle} edge='start'>
                 <MenuIcon />
               </IconButton>
             </Grid>
@@ -67,24 +50,18 @@ export default function Header(props: HeaderProps) {
               </Tooltip>
             </Grid> */}
             <Grid item>
-              <IconButton color="inherit" sx={{ p: 0.5 }}>
-                <Avatar src="/static/images/avatar/1.jpg" alt="My Avatar" />
+              <IconButton color='inherit' sx={{ p: 0.5 }}>
+                <Avatar src='/static/images/avatar/1.jpg' alt='My Avatar' />
               </IconButton>
             </Grid>
           </Grid>
         </Toolbar>
       </AppBar>
-      <AppBar
-        component="div"
-        color="primary"
-        position="static"
-        elevation={0}
-        sx={{ zIndex: 0 }}
-      >
+      <AppBar component='div' color='primary' position='static' elevation={0} sx={{ zIndex: 0 }}>
         <Toolbar>
-          <Grid container alignItems="center" spacing={1}>
+          <Grid container alignItems='center' spacing={1}>
             <Grid item xs>
-              <Typography color="inherit" variant="h5" component="h1">
+              <Typography color='inherit' variant='h5' component='h1'>
                 {title}
               </Typography>
             </Grid>

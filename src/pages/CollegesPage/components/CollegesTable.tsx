@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Table from "react-bootstrap/Table";
-import { Link } from "react-router-dom";
 import { formatCurrency } from "../../../utilities/formatCurrency";
 import { AiOutlineHeart, AiFillHeart } from "react-icons/ai";
 import { useDispatch, useSelector } from "react-redux";

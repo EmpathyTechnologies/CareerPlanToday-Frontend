@@ -2,7 +2,6 @@ import { useState } from "react";
 import { ThemeProvider } from "@mui/material/styles";
 import { useMediaQuery, CssBaseline, Box } from "@mui/material";
 import Navigator from "../../components/Navigation";
-// import Content from "../../components/Content";
 import Header from "../../components/Header";
 import Theme from "../../assets/styles/themes/ThemeProvider";
 import Career from "../CareerPage/CareerPage";

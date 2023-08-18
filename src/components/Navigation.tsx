@@ -1,20 +1,12 @@
-import {
-  Divider,
-  List,
-  Box,
-  ListItem,
-  ListItemButton,
-  ListItemIcon,
-  ListItemText,
-} from "@mui/material";
-import Drawer, { DrawerProps } from "@mui/material/Drawer";
+import { Divider, List, Box, ListItem, ListItemButton, ListItemIcon, ListItemText } from "@mui/material";
+import Drawer from "@mui/material/Drawer";
 import HomeIcon from "@mui/icons-material/Home";
 import WorkIcon from "@mui/icons-material/Work";
 import SchoolIcon from "@mui/icons-material/School";
 import AutoGraphIcon from "@mui/icons-material/AutoGraph";
 import HomeWorkIcon from "@mui/icons-material/HomeWork";
 import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
-
+import { Link } from "react-router-dom";
 const categories = [
   {
     id: "Find",
@@ -64,26 +56,24 @@ const itemCategory = {
   px: 3,
 };
 
-export default function Navigator(props: any//DrawerProps
-) {
+export default function Navigator(props: any) {
   const { selectedSubpage: navActiveCategory, setSelectedSubpage: setNavActiveCategory, ...other } = props;
-
 
   const setHeaderTitle = (categoryId: string) => {
     props.setSelectedSubpage(categoryId);
   };
 
   return (
-    <Drawer variant="permanent" {...other}>
+    <Drawer variant='permanent' {...other}>
       <List disablePadding>
-        <ListItem sx={{ ...item, ...itemCategory, fontSize: 22, color: "#fff" }}>
-          Career Plan Today
-        </ListItem>
+        <ListItem sx={{ ...item, ...itemCategory, fontSize: 22, color: "#fff" }}>Career Plan Today</ListItem>
         <ListItem sx={{ ...item, ...itemCategory }}>
           <ListItemIcon>
             <HomeIcon />
           </ListItemIcon>
-          <ListItemText>Home</ListItemText>
+          <Link to='/home' style={{ textDecoration: "none", color: "#d1e7dd" }}>
+            <ListItemText>Home</ListItemText>
+          </Link>
         </ListItem>
         {categories.map(({ id, children }) => (
           <Box key={id} sx={{ bgcolor: "#101F33" }}>
@@ -92,11 +82,7 @@ export default function Navigator(props: any//DrawerProps
             </ListItem>
             {children.map(({ id: childId, icon }) => (
               <ListItem disablePadding key={childId}>
-                <ListItemButton
-                  selected={props.selectedSubpage === childId}
-                  sx={item}
-                  onClick={() => setHeaderTitle(childId)}
-                >
+                <ListItemButton selected={props.selectedSubpage === childId} sx={item} onClick={() => setHeaderTitle(childId)}>
                   <ListItemIcon>{icon}</ListItemIcon>
                   <ListItemText>{childId}</ListItemText>
                 </ListItemButton>
