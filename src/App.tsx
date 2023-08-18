@@ -19,27 +19,28 @@ import Plan from "./pages/PlanPage/PlanPage";
 import PrivacyPolicy from "./pages/PrivacyPolicyPage/PrivacyPolicyPage";
 import SignUp from "./pages/SignUpPage/SignUpPage";
 import TermsOfUse from "./pages/TermsOfUsePage/TermsOfUsePage";
+import React, {useState} from "react";
 
 function App() {
+
+  const [selectedSubpage, setSelectedSubpage] = useState("Explore Careers");
   ReactGA.initialize("UA-000000-01");
   ReactGA.pageview(window.location.pathname + window.location.search);
 
   return (
     <>
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='home' element={<Home />} />
+        <Route path='/' element={<Home selectedSubpage={selectedSubpage} setSelectedSubpage={setSelectedSubpage}/>} />
+        <Route path='home' element={<Home selectedSubpage={selectedSubpage} setSelectedSubpage={setSelectedSubpage}/>} />
         <Route path='about' element={<About />} />
         <Route path='accessibility' element={<Accessibility />} />
         <Route path='admin' element={<Admin />} />
         <Route path='budget' element={<Budget />} />
         <Route path='calculator' element={<Calculator />} />
-        <Route path='careers' element={<Careers />} />
-        <Route path='colleges' element={<Colleges />} />
         <Route path='contact' element={<Contact />} />
         <Route path='login' element={<Login />} />
         <Route path='feedback' element={<Feedback />} />
-        <Route path='plan' element={<Plan />} />
+        <Route path='plan' element={<Plan selectedSubpage={selectedSubpage} setSelectedSubpage={setSelectedSubpage} />} />
         <Route path='invest' element={<Retire />} />
         <Route path='privacypolicy' element={<PrivacyPolicy />} />
         <Route path='signup' element={<SignUp />} />
