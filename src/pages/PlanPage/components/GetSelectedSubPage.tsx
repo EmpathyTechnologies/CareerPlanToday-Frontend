@@ -1,6 +1,6 @@
 
 import Colleges from './Main/Colleges/Colleges';
-import Calculator from './Main/Calculator/Calculator';
+import Calculator from './Main/Calculator/HowToFundCollege';
 import Budget from './Main/Budget/Budget';
 import College from './Main/College/College';
 import Career from './Main/Career/Career';
