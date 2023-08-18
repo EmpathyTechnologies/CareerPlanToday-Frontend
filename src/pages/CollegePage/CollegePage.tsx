@@ -1,20 +1,14 @@
-import { useParams } from "react-router-dom";
 import allColleges from "../../data/colleges.json";
 import Button from "react-bootstrap/Button";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
-import Navigation from "../../layouts/Navigation";
-import Footer from "../../layouts/Footer";
 
-export default function College() {
-  let { id } = useParams();
-
+export default function College({ id, setSelectedCollege }: any) {
   let college: any = allColleges.filter((college) => college.id === Number(id));
   college = college[0];
 
   return (
     <div>
-      <Navigation />
       <div>{college.collegeName}</div>
 
       <Tabs defaultActiveKey='Cost Information' justify>
@@ -67,10 +61,9 @@ export default function College() {
         </Tab>
       </Tabs>
 
-      <Button variant='primary' href='/colleges'>
+      <Button variant='primary' onClick={() => setSelectedCollege(-1)}>
         Return to Colleges
       </Button>
-      <Footer />
     </div>
   );
 }

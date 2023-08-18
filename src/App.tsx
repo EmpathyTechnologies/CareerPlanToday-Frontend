@@ -39,7 +39,7 @@ function App() {
         <Route path='careers' element={<Careers />} />
         {/* <Route path='careers/:id' element={<Career />} /> */}
         <Route path='colleges' element={<Colleges />} />
-        <Route path='colleges/:id' element={<College />} />
+        {/* <Route path='colleges/:id' element={<College />} /> */}
         <Route path='contact' element={<Contact />} />
         <Route path='login' element={<Login />} />
         <Route path='feedback' element={<Feedback />} />

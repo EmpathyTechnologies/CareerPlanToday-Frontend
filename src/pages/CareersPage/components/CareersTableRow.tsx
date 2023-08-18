@@ -27,11 +27,11 @@ export default function CareersTableRow(props: CareersTableRowPropsType) {
     <tr>
       <td>
         {isCareerSaved ? (
-          <div onClick={toggleSaveCareer} style={{ color: "rgb(255, 56, 92)" }}>
+          <div onClick={toggleSaveCareer} style={{ color: "rgb(255, 56, 92)", cursor: "pointer" }}>
             <AiFillHeart />
           </div>
         ) : (
-          <div onClick={toggleSaveCareer}>
+          <div onClick={toggleSaveCareer} style={{ cursor: "pointer" }}>
             <AiOutlineHeart />
           </div>
         )}
