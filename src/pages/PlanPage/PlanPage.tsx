@@ -7,6 +7,7 @@ import Header from "../../components/Header";
 import Theme from "../../assets/styles/themes/ThemeProvider";
 import Career from "../CareerPage/CareerPage";
 import Careers from "../CareersPage/CareersPage";
+import College from "../CollegePage/CollegePage";
 import Colleges from "../CollegesPage/CollegesPage";
 import Copyright from "./Copyright";
 
@@ -17,6 +18,7 @@ import Retire from "../InvestPage/InvestPage";
 export default function Plan() {
   const [selectedSubpage, setSelectedSubpage] = useState("Explore Careers");
   const [selectedCareer, setSelectedCareer] = useState(-1);
+  const [selectedCollege, setSelectedCollege] = useState(-1);
   const [mobileOpen, setMobileOpen] = useState(false);
   const isSmUp = useMediaQuery(Theme.breakpoints.up("sm"));
 
@@ -36,7 +38,13 @@ export default function Plan() {
             return <Career id={selectedCareer} setSelectedCareer={setSelectedCareer} />;
         }
       case "Compare Colleges":
-        return <Colleges />;
+        switch (selectedCollege) {
+          case -1:
+            return <Colleges setSelectedCollege={setSelectedCollege} />;
+          default:
+            return <College id={selectedCollege} setSelectedCollege={setSelectedCollege} />;
+        }
+
       case "How to Fund College":
         return <Calculator />;
       case "Choose Your Lifestyle":

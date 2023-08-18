@@ -28,8 +28,12 @@ export default function CareersTableHead({ sortDirection, setSortDirection }: Ca
     <thead>
       <tr>
         <th></th>
-        <th onClick={handleSortByCareers}>Career {arrow.career}</th>
-        <th onClick={handleSortBySalary}>Salary {arrow.salary}</th>
+        <th onClick={handleSortByCareers} style={{ cursor: "pointer" }}>
+          Career {arrow.career}
+        </th>
+        <th onClick={handleSortBySalary} style={{ cursor: "pointer" }}>
+          Salary {arrow.salary}
+        </th>
       </tr>
     </thead>
   );

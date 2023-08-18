@@ -5,7 +5,7 @@ import allColleges from "../../data/colleges.json";
 import CollegesNavbar from "./components/CollegesNavbar";
 import CollegesTable from "./components/CollegesTable";
 
-export default function Colleges() {
+export default function Colleges({ setSelectedCollege }: any) {
   const [colleges, setColleges] = useState(allColleges);
   const [filterByStates, setFilterByStates] = useState<string>("All States");
   const [filterByTuition, setFilterByTuition] = useState<number[]>([minTuition, maxTuition]);
@@ -27,7 +27,11 @@ export default function Colleges() {
         maxTuition={maxTuition}
       />
 
-      <CollegesTable colleges={colleges} setColleges={setColleges} setUserSavedColleges={setUserSavedColleges}></CollegesTable>
+      <CollegesTable
+        colleges={colleges}
+        setColleges={setColleges}
+        setUserSavedColleges={setUserSavedColleges}
+        setSelectedCollege={setSelectedCollege}></CollegesTable>
     </div>
   );
 }
