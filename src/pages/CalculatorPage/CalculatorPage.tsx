@@ -3,8 +3,6 @@ import CalculatorNavbar from "./components/CalculatorNavbar";
 import CalculatorSelectCollege from "./components/CalculatorSelectCollege";
 import colleges from "../../data/colleges.json";
 import { formatCurrency } from "../../utilities/formatCurrency";
-import Navigation from "../../layouts/Navigation";
-import Footer from "../../layouts/Footer";
 
 export default function Calculator() {
   const [careerWithCollege, setCareerWithCollege] = useState({ salary: 50000, years: 40, lifetimeIncome: 2000000 });

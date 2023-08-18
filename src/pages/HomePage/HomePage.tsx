@@ -9,10 +9,12 @@ import PlanSection from "./sections/PlanSection";
 import AboutUsSection from "./sections/AboutSection";
 import Footer from "../../layouts/Footer";
 
-function Home() {
+function Home({selectedSubpage,setSelectedSubpage}:any) {
+
+
   return (
     <div className='App'>
-      <Navigation />
+      <Navigation selectedSubpage ={selectedSubpage} setSelectedSubpage={setSelectedSubpage}/>
       <HeroSection />
       <CareersSection />
       <CollegesSection />

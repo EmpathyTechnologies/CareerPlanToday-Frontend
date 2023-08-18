@@ -14,8 +14,8 @@ import Calculator from "../CalculatorPage/CalculatorPage";
 import Budget from "../BudgetPage/BudgetPage";
 import Retire from "../InvestPage/InvestPage";
 
-export default function Plan() {
-  const [selectedSubpage, setSelectedSubpage] = useState("Explore Careers");
+export default function Plan({selectedSubpage, setSelectedSubpage}:any) {
+ 
   const [selectedCareer, setSelectedCareer] = useState(-1);
   const [selectedCollege, setSelectedCollege] = useState(-1);
   const [mobileOpen, setMobileOpen] = useState(false);
