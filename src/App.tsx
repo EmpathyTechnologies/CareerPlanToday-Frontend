@@ -37,7 +37,7 @@ function App() {
         <Route path='budget' element={<Budget />} />
         <Route path='calculator' element={<Calculator />} />
         <Route path='careers' element={<Careers />} />
-        <Route path='careers/:id' element={<Career />} />
+        {/* <Route path='careers/:id' element={<Career />} /> */}
         <Route path='colleges' element={<Colleges />} />
         <Route path='colleges/:id' element={<College />} />
         <Route path='contact' element={<Contact />} />
