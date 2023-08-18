@@ -6,7 +6,7 @@ import Header from "../../components/Header";
 import Theme from "../../assets/styles/themes/ThemeProvider";
 import Sidebar from "./components/Sidebar";
 import Footer from "./components/Footer";
-import Main from "./components/Main";
+import Main from "./components/Main/Main";
 
 export default function Plan({ selectedSubpage, setSelectedSubpage }: any) {
   const [selectedCareer, setSelectedCareer] = useState(-1);
