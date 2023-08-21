@@ -2,14 +2,12 @@ import { useState } from "react";
 import { Container, Button, Col, Row, Image } from "react-bootstrap";
 
 import CareerBox from "./career-box";
-import img1 from "./img/img-2.png";
-import img2 from "./img/img-3.png";
-import img3 from "./img/img-4.png";
 import fil from "./img/fil-icon.svg";
 import close from "./img/close.svg";
 import Filters from "./filters";
+import { ContentType } from "../../types/ContentType";
 
-function Content() {
+function Content({ careers }: ContentType) {
   const [show, setShow] = useState(false);
 
   return (
@@ -40,13 +38,9 @@ function Content() {
           </Col>
           <Col lg={9} md={8}>
             <Row>
-              <CareerBox img={img1} title='Teacher' salary='Salary $81,220' />
-              <CareerBox img={img2} title='Nurse' salary='Salary $81,220' />
-              <CareerBox img={img3} title='Engineer' salary='Salary $81,220' />
-              <CareerBox img={img1} title='Teacher' salary='Salary $81,220' />
-              <CareerBox img={img2} title='Nurse' salary='Salary $81,220' />
-              <CareerBox img={img3} title='Engineer' salary='Salary $81,220' />
-              <CareerBox img={img1} title='Teacher' salary='Salary $81,220' />
+              {careers.map((career: any) => (
+                <CareerBox img={career.img} title={career.title} salary={career.salary} />
+              ))}
             </Row>
             <div className='pagination'>
               <button className='btn-nav left-btn'>
