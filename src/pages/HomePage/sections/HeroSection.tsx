@@ -23,7 +23,7 @@ function HeroSection() {
               </div>
 
               <div className='btn-transparent' style={{ display: "inline-block" }}>
-                <Button className='custom-btn'>Login</Button>
+                <Button className='custom-btn' href='./login'>Login</Button>
               </div>
             </div>
           </Col>

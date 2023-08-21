@@ -24,7 +24,7 @@ function Navigation({selectedSubpage,setSelectedSubpage}:any) {
               Plan
             </Link>
           </Nav>
-          <Btn cn='btn-transparent navbar-btn' name='Sign Up' />
+          <Btn cn='btn-transparent navbar-btn' name='Sign Up' href='./signup'/>
         </Navbar.Collapse>
       </Container>
     </Navbar>

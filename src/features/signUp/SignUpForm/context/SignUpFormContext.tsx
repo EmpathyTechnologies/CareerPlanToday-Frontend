@@ -1,3 +1,4 @@
+import { Auth } from "aws-amplify";
 import { createContext, useEffect, useState } from "react";
 
 type SignUpFormContextType = {
@@ -11,7 +12,7 @@ type SignUpFormContextType = {
     handleEmailChange: (event: React.ChangeEvent<HTMLInputElement>) => void,
     handlePasswordChange: (event: React.ChangeEvent<HTMLInputElement>) => void,
     handleConfirmPasswordChange: (event: React.ChangeEvent<HTMLInputElement>) => void,
-    handleSignUp: () => void,
+    handleSignUp: (event: React.MouseEvent<HTMLElement>) => void,
 }
 
 const SignUpFormContext = createContext<SignUpFormContextType>({
@@ -68,25 +69,29 @@ function SignUpProvider({ children }:Props){
         setConfirmPassword(event.target.value);
       };
     
-      const handleSignUp = () => {
+      const signUp = async (email: string, password: string) => {
+        return Auth.signUp({
+          username: email,
+          password,
+          attributes: {
+            email,
+          },
+        })
+      }
+
+      const handleSignUp = async (event: React.MouseEvent<HTMLElement>) => {
         // Perform validation or API call with email and password
         // For demonstration purposes, let's log the values to the console
+        event.preventDefault();
         if(password !== confirmPassword){
           console.log("Passwords do not match!")
           return ;
         }
-        console.log('First Name:', firstName);
-        console.log('Last Name:', lastName);
-        console.log('Email:', email);
-        console.log('Password:', password);
-        console.log('ConfirmPassword:', confirmPassword);
-    
+
+        const resp = await signUp(email, password);
+        console.log(resp);
         // Reset form fields
-        setFirstName('');
-        setLastName('');
-        setEmail('');
-        setPassword('');
-        setConfirmPassword('');
+        
         
       };
 
