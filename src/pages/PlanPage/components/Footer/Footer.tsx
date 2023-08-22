@@ -1,5 +1,5 @@
 import { Box} from "@mui/material";
-import Copyright from "./../components/Copyright";
+import Copyright from "./Copyright";
 
 function Footer() {
   return (
