@@ -4,8 +4,8 @@ import { useState } from "react";
 
 import Header from "../../components/Header";
 import Theme from "../../assets/styles/themes/ThemeProvider";
-import Sidebar from "./components/Sidebar";
-import Footer from "./components/Footer";
+import Sidebar from "./components/Sidebar/Sidebar";
+import Footer from "./components/Footer/Footer";
 import Main from "./components/Main/Main";
 
 export default function Plan({ selectedSubpage, setSelectedSubpage }: any) {

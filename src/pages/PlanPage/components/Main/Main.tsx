@@ -1,4 +1,4 @@
-import {GetSelectedSubPage} from "../GetSelectedSubPage";
+import {GetSelectedSubPage} from "./GetSelectedSubPage";
 import {Box} from "@mui/material";
 
 
