@@ -29,8 +29,8 @@ export default function CollegesTable({ colleges, setColleges, setUserSavedColle
     setColleges(sortedList);
   }
 
-  function toggleSaveCollege(id: number) {
-    dispatch(toggleCollegeSave(id));
+  function toggleSaveCollege(college: any,id: number) {
+    dispatch(toggleCollegeSave(college));
   }
 
   return (
@@ -50,12 +50,12 @@ export default function CollegesTable({ colleges, setColleges, setUserSavedColle
       <tbody>
         {colleges.map((college: any) => (
           <tr>
-            {userSavedColleges.includes(college.id) ? (
-              <div onClick={() => toggleSaveCollege(college.id)} style={{ color: "rgb(255, 56, 92)", cursor: "pointer" }}>
+            {userSavedColleges.includes(college) ? (
+              <div onClick={() => toggleSaveCollege(college,college.id)} style={{ color: "rgb(255, 56, 92)", cursor: "pointer" }}>
                 <AiFillHeart />
               </div>
             ) : (
-              <div onClick={() => toggleSaveCollege(college.id)} style={{ cursor: "pointer" }}>
+              <div onClick={() => toggleSaveCollege(college,college.id)} style={{ cursor: "pointer" }}>
                 <AiOutlineHeart />
               </div>
             )}

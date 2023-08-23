@@ -1,12 +1,12 @@
 
 import { List, ListItem } from "@mui/material";
 import Drawer from "@mui/material/Drawer";
-import HomeTab from "./HomeTab";
+import HomeTab from "./tabs/HomeTab";
 
-import FavoritesBox from "./FavoritesBox";
-import NavigationBox from "./NavigationBox";
+import CareerFavoritesBox from "./boxes/CareerFavoritesBox";
+import CollegeFavoritesBox from "./boxes/CollegeFavoritesBox";
+import NavigationBox from "./boxes/NavigationBox";
 import TitleBox from "./TitleBox";
-
 const itemCss = {
   py: "2px",
   px: 3,
@@ -47,8 +47,9 @@ export default function Navigator(props: any) {
           itemCss={itemCss}
         />
 
-        <FavoritesBox itemCss={itemCss} />
+        <CareerFavoritesBox itemCss={itemCss} />
 
+        <CollegeFavoritesBox itemCss={itemCss} />
       </List>
     </Drawer>
   );

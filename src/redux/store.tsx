@@ -5,7 +5,7 @@ import { CareerType } from "../types/CareerType";
 
 export interface RootState {
   careers: CareerType[];
-  colleges: number[];
+  colleges: any;
 }
 
 const rootReducer = combineReducers({
