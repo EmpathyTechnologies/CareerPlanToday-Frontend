@@ -1,14 +1,20 @@
 import {   ListItem,ListItemButton, ListItemIcon, ListItemText } from "@mui/material";
-import { AiFillHeart } from "react-icons/ai";
+ 
+function formatSalary(salary:number) {
+  // Round the salary to the nearest thousand
+  const roundedSalary = Math.round(salary / 1000) * 1000;
+  // Add 'k' to indicate thousands
+  return `$${roundedSalary / 1000}k`;
+}
+
  function CareerTabItem(props:any) {
-  const { title, itemCss } = props;
-
-
+  const { salary,title,  itemCss } = props;
+ 
 
   return (
     <ListItem disablePadding>
     <ListItemButton sx={itemCss}>
-      <ListItemIcon><AiFillHeart/></ListItemIcon>
+      <ListItemIcon>{formatSalary(salary.national.average)}</ListItemIcon>
       <ListItemText>{title}</ListItemText>
     </ListItemButton>
     </ListItem>

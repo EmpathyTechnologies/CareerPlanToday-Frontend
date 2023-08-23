@@ -17,6 +17,7 @@ function CareerFavoritesBox({ itemCss }: any) {
         savedCareers.map((career) => (
           <CareerTabItem
             itemCss={itemCss}
+            salary={career.salary}
             title={career.title}
             key={career.title}
           />
