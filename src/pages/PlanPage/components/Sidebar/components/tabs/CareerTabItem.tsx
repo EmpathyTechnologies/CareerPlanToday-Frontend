@@ -7,8 +7,7 @@ import {
 } from "@mui/material";
 import DeleteIcon from "@mui/icons-material/Delete";
 import DeleteOutlineIcon from "@mui/icons-material/DeleteOutline";
-import { useDispatch, useSelector } from "react-redux";
-import { RootState } from "../../../../../../redux/store";
+import { useDispatch } from "react-redux";
 import { toggleCareerSave } from "../../../../../../redux/actions";
 
 function formatSalary(salary: number) {
@@ -16,39 +15,31 @@ function formatSalary(salary: number) {
   return `$${roundedSalary / 1000}k`;
 }
 
-
 function CareerTabItem(props: any) {
-  const { careerData } = props;
-
-  
-  const { salary, title, itemCss } = props;
+  const { careerData, salary, title, itemCss } = props;
   const [isHovered, setIsHovered] = useState(false);
-  
+
   const handleMouseEnter = () => {
     setIsHovered(true);
   };
-  
+
   const handleMouseLeave = () => {
     setIsHovered(false);
   };
-  
+
   const dispatch = useDispatch();
-  const savedCareers = useSelector((state: RootState) => state.careers);
 
   function toggleSaveCareer() {
     dispatch(toggleCareerSave(careerData));
   }
 
-
   return (
     <ListItem disablePadding>
       <ListItemButton sx={itemCss}>
-        <ListItemText>{formatSalary(salary.national.average)}</ListItemText>
-        <ListItemText
-        sx={{ width: "60%" }}
-        >{title}</ListItemText>
+        <ListItemText style={{color:'lightgreen'}}>+{formatSalary(salary.national.average)}</ListItemText>
+        <ListItemText sx={{ width: "55%" }}>{title}</ListItemText>
         <ListItemIcon
-        sx={{ width: "5%" }}
+          sx={{ width: "3%" }}
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
           onClick={toggleSaveCareer}

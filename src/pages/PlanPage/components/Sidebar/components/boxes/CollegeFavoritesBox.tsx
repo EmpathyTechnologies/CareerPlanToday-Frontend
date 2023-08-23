@@ -16,6 +16,8 @@ function CollegeFavoritesBox({ itemCss }: any) {
       {savedColleges.length > 0 ? (
         savedColleges.map((college:any) => (
           <CollegeTabItem
+
+          collegeData={college}
             itemCss={itemCss}
             title={college.name}
             key={college.name}
