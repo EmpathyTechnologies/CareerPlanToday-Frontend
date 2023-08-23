@@ -7,6 +7,7 @@ import {
 } from "@mui/material";
 import DeleteIcon from "@mui/icons-material/Delete";
 import DeleteOutlineIcon from "@mui/icons-material/DeleteOutline";
+
 import { useDispatch } from "react-redux";
 import { toggleCareerSave } from "../../../../../../redux/actions";
 
@@ -40,6 +41,7 @@ function CareerTabItem(props: any) {
         <ListItemText sx={{ width: "55%" }}>{title}</ListItemText>
         <ListItemIcon
           sx={{ width: "3%" }}
+
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
           onClick={toggleSaveCareer}
@@ -47,6 +49,7 @@ function CareerTabItem(props: any) {
           {isHovered ? <DeleteIcon /> : <DeleteOutlineIcon />}
         </ListItemIcon>
       </ListItemButton>
+
     </ListItem>
   );
 }
