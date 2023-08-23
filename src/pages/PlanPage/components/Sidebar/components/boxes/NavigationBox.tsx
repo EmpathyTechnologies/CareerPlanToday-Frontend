@@ -4,7 +4,7 @@ import Box from "@mui/material/Box";
 import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
 import Divider from "@mui/material/Divider";
-import TabItem from "./NavigationTabItem";
+import TabItem from "../tabs/NavigationTabItem";
 import WorkIcon from "@mui/icons-material/Work";
 import SchoolIcon from "@mui/icons-material/School";
 import AutoGraphIcon from "@mui/icons-material/AutoGraph";
