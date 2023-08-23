@@ -1,8 +1,9 @@
 import { useMediaQuery, Box } from "@mui/material";
 import { useState } from "react";
-
 import Navigator from "./components/Navigation";
 import Theme from "../../../../assets/styles/themes/ThemeProvider";
+
+
 
 function Sidebar({
   handleDrawerToggle,

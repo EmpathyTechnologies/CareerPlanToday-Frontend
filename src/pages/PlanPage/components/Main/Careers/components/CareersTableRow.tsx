@@ -1,5 +1,4 @@
 import { formatCurrency } from "../../../../../../utilities/formatCurrency";
-import { Link } from "react-router-dom";
 import { AiOutlineHeart, AiFillHeart } from "react-icons/ai";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../../../../../../redux/store";

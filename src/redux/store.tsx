@@ -13,4 +13,4 @@ const rootReducer = combineReducers({
   colleges: collegeReducer,
 });
 
-export const store = createStore(rootReducer); // Export the store as named export
+export const store = createStore(rootReducer); 
