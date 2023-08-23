@@ -17,7 +17,7 @@ export default function CareersTableRow(props: CareersTableRowPropsType) {
   }
 
   function toggleSaveCareer() {
-    dispatch(toggleCareerSave(careerData)); // Dispatch the action to toggle career saving
+    dispatch(toggleCareerSave(careerData)); 
   }
 
   const isCareerSaved = savedCareers.some((c: CareerType) => c.id === careerData.id);
