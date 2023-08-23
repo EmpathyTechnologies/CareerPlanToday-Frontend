@@ -39,9 +39,13 @@ function CareerTabItem(props: any) {
     dispatch(toggleCareerSave(careerData));
   }
 
+ function CareerTabItem(props:any) {
+  const { salary,title,  itemCss } = props;
+ 
 
   return (
     <ListItem disablePadding>
+
       <ListItemButton sx={itemCss}>
         <ListItemText>{formatSalary(salary.national.average)}</ListItemText>
         <ListItemText
@@ -56,6 +60,7 @@ function CareerTabItem(props: any) {
           {isHovered ? <DeleteIcon /> : <DeleteOutlineIcon />}
         </ListItemIcon>
       </ListItemButton>
+
     </ListItem>
   );
 }
