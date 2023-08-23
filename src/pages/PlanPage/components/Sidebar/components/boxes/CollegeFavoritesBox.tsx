@@ -11,7 +11,7 @@ function CollegeFavoritesBox({ itemCss }: any) {
   return (
     <Box sx={{ bgcolor: "#101F33" }}>
       <ListItem sx={{ py: 2, px: 3 }}>
-        <ListItemText sx={{ color: "#fff" }}>Favorite Careers</ListItemText>
+        <ListItemText sx={{ color: "#fff" }}>Favorite Colleges</ListItemText>
       </ListItem>
       {savedColleges.length > 0 ? (
         savedColleges.map((college:any) => (
