@@ -1,33 +1,49 @@
-import { Divider, List, Box, ListItem, ListItemText } from "@mui/material";
-
-import CollegeTabItem from "../tabs/CollegeTabItem";
+import {
+  Accordion,
+  AccordionDetails,
+  AccordionSummary,
+  Box,
+  Divider,
+  Typography,
+} from "@mui/material";
+import { useSelector } from "react-redux";
 import { RootState } from "../../../../../../redux/store";
-import { useDispatch, useSelector } from "react-redux";
 import BlankTab from "../tabs/BlankTab";
+import CollegeTabItem from "../tabs/CollegeTabItem";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 function CollegeFavoritesBox({ itemCss }: any) {
   const savedColleges = useSelector((state: RootState) => state.colleges);
 
   return (
-    <Box sx={{ bgcolor: "#101F33" }}>
-      <ListItem sx={{ py: 2, px: 3 }}>
-        <ListItemText sx={{ color: "#fff" }}>Favorite Colleges</ListItemText>
-      </ListItem>
-      {savedColleges.length > 0 ? (
-        savedColleges.map((college:any) => (
-          <CollegeTabItem
-
-          collegeData={college}
-            itemCss={itemCss}
-            title={college.name}
-            key={college.name}
-          />
-        ))
-      ) : (
-        <BlankTab text={"colleges"} itemCss={itemCss} />
-      )}
-      <Divider sx={{ mt: 2 }} />
-    </Box>
+    <Accordion sx={{ bgcolor: "#101F33", color: "#fff" }}>
+      <AccordionSummary
+        expandIcon={
+          <ExpandMoreIcon sx={{ bgcolor: "#101F33", color: "#fff" }} />
+        }
+        aria-controls="career-favorites-content"
+        id="career-favorites-header"
+      >
+        <Typography>{savedColleges.length} Favorite Colleges</Typography>
+      </AccordionSummary>
+      <AccordionDetails>
+        <Box sx={{ bgcolor: "#101F33" }}>
+          {savedColleges.length > 0 ? (
+            savedColleges.map((college: any) => (
+              <CollegeTabItem
+                collegeData={college}
+                itemCss={itemCss}
+                title={college.name}
+                key={college.name}
+              />
+            ))
+          ) : (
+            <BlankTab text={"colleges"} itemCss={itemCss} />
+          )}
+          <Divider sx={{ mt: 2 }} />
+        </Box>
+      </AccordionDetails>
+    </Accordion>
   );
 }
 
