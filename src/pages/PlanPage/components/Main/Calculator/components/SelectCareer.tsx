@@ -10,23 +10,13 @@ import {
 import allCareers from "../../../../../../data/allCareers";
 
 export default function SelectCareer() {
-  const [careerWithCollegeJobTitle, setCareerWithCollegeJobTitle] =
-    useState("Registered Nurses");
+  const [careerWithCollegeJobTitle, setCareerWithCollegeJobTitle] = useState("Registered Nurses");
+  const [careerWithCollegeJobSalary, setCareerWithCollegeJobSalary] = useState<any>(0);
+  const [careerWithCollegeYearsWorked, setCareerWithCollegeYearsWorked] = useState(40);
 
-  const [careerWithCollegeJobSalary, setCareerWithCollegeJobSalary] =
-    useState<any>(0);
-
-  const [careerWithNoCollegeJobSalary, setCareerWithNoCollegeJobSalary] =
-    useState<any>(0);
-
-  const [careerWithCollegeYearsWorked, setCareerWithCollegeYearsWorked] =
-    useState(40);
-
-  const [careerWithNoCollegeJobTitle, setCareerWithNoCollegeJobTitle] =
-    useState("Electricians");
-
-  const [careerWithNoCollegeYearsWorked, setCareerWithNoCollegeYearsWorked] =
-    useState(44);
+  const [careerWithNoCollegeJobTitle, setCareerWithNoCollegeJobTitle] = useState("Electricians");
+  const [careerWithNoCollegeJobSalary, setCareerWithNoCollegeJobSalary] = useState<any>(0);
+  const [careerWithNoCollegeYearsWorked, setCareerWithNoCollegeYearsWorked] = useState(44);
 
   const handleCareerWithCollegeJobTitle = (event: any) => {
     const selectedCareer = allCareers.find(
