@@ -102,9 +102,12 @@ export default function SelectCareer() {
     const salaryCollege = parseFloat(
       careerWithCollegeJobSalary.replace(/[^0-9.-]+/g, "")
     );
+
+    
     const salaryNoCollege = parseFloat(
-      careerWithNoCollegeJobSalary.replace(/[^0-9.-]+/g, "")
+      String(careerWithNoCollegeJobSalary).replace(/[^0-9.-]+/g, "")
     );
+    
   
     const netIncome = Math.floor(
       salaryCollege * careerWithCollegeYearsWorked -
