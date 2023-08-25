@@ -1,4 +1,4 @@
-import { List, ListItem } from "@mui/material";
+import { List } from "@mui/material";
 import Drawer from "@mui/material/Drawer";
 import HomeTab from "./tabs/HomeTab";
 
@@ -35,7 +35,6 @@ export default function Navigator(props: any) {
   return (
     <Drawer variant="permanent" {...other}>
       <List disablePadding>
-
         <TitleBox itemCss={itemCss} itemCategory={itemCategory} />
 
         <HomeTab item={{ ...itemCss }} itemCategory={{ ...itemCategory }} />

@@ -1,5 +1,3 @@
-
-import React from "react";
 import Box from "@mui/material/Box";
 import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
@@ -49,27 +47,33 @@ const sections = [
   },
 ];
 
-const NavigationBox = ({ title, tabs, selectedSubpage, setHeaderTitle, itemCss }:any) => {
+const NavigationBox = ({
+  title,
+  tabs,
+  selectedSubpage,
+  setHeaderTitle,
+  itemCss,
+}: any) => {
   return (
-<div>
-{sections.map(({ title, children: tabs }) => (
-    <Box sx={{ bgcolor: "#101F33" }}>
-      <ListItem sx={{ py: 2, px: 3 }}>
-        <ListItemText sx={{ color: "#fff" }}>{title}</ListItemText>
-      </ListItem>
-      {tabs.map(({ title: childId, icon }:any) => (
-        <TabItem
-          key={childId}
-          selected={selectedSubpage === childId}
-          item={itemCss}
-          onClick={() => setHeaderTitle(childId)}
-          icon={icon}
-          childId={childId}
-        />
+    <div>
+      {sections.map(({ title, children: tabs }) => (
+        <Box sx={{ bgcolor: "#101F33" }}>
+          <ListItem sx={{ py: 2, px: 3 }}>
+            <ListItemText sx={{ color: "#fff" }}>{title}</ListItemText>
+          </ListItem>
+          {tabs.map(({ title: childId, icon }: any) => (
+            <TabItem
+              key={childId}
+              selected={selectedSubpage === childId}
+              item={itemCss}
+              onClick={() => setHeaderTitle(childId)}
+              icon={icon}
+              childId={childId}
+            />
+          ))}
+          <Divider sx={{ mt: 2 }} />
+        </Box>
       ))}
-      <Divider sx={{ mt: 2 }} />
-    </Box>        ))}
-
     </div>
   );
 };
