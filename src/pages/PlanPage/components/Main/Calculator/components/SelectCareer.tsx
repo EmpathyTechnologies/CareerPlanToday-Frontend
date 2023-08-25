@@ -10,6 +10,7 @@ import {
 import allCareers from "../../../../../../data/allCareers";
 import { brandGreen, brandRed } from "../../../../../../assets/brandColors";
 export default function SelectCareer() {
+
   const [collegeCareer, setCollegeCareer] = useState({
     jobTitle: "Registered Nurses",
     jobSalary: 81220,
@@ -65,15 +66,20 @@ export default function SelectCareer() {
     }
   };
 
+
   const calculateNetIncome = (
     collegeCareerSalary: any,
     collegeCareerYearsWorked: any,
     noCollegeCareerSalary: any,
     noCollegeCareerYearsWorked: any
   ) => {
-    const netIncome =
-      collegeCareerSalary * collegeCareerYearsWorked -
-      noCollegeCareerSalary * noCollegeCareerYearsWorked;
+
+    const netIncome = (collegeCareerSalary * collegeCareerYearsWorked - noCollegeCareerSalary * noCollegeCareerYearsWorked).toLocaleString("en-US", {
+
+      style: "currency",
+      currency: "USD",
+      minimumFractionDigits: 0,
+    });
 
     return netIncome;
   };
