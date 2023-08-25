@@ -1,15 +1,17 @@
+import { brandSwan } from "../../../../../assets/brandColors";
 import { List } from "@mui/material";
-import Drawer from "@mui/material/Drawer";
-import HomeTab from "./tabs/HomeTab";
 
 import CareerFavoritesBox from "./boxes/CareerFavoritesBox";
 import CollegeFavoritesBox from "./boxes/CollegeFavoritesBox";
+import Drawer from "@mui/material/Drawer";
+import HomeTab from "./tabs/HomeTab";
 import NavigationBox from "./boxes/NavigationBox";
 import TitleBox from "./TitleBox";
+
 const itemCss = {
   py: "2px",
   px: 3,
-  color: "rgba(255, 255, 255, 0.7)",
+  color: brandSwan,  
   "&:hover, &:focus": {
     bgcolor: "rgba(255, 255, 255, 0.08)",
   },
