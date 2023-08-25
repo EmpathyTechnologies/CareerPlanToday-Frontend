@@ -10,6 +10,7 @@ import {
 import allCareers from "../../../../../../data/allCareers";
 import { brandGreen, brandRed } from "../../../../../../assets/brandColors";
 export default function SelectCareer() {
+
   const [collegeCareer, setCollegeCareer] = useState({
     jobTitle: "Registered Nurses",
     jobSalary: 81220,
@@ -64,6 +65,7 @@ export default function SelectCareer() {
       return "Invalid salary";
     }
   };
+
 
   const calculateNetIncome = (
     collegeCareerSalary: any,
