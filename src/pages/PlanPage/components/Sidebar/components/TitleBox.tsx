@@ -1,5 +1,4 @@
-import React from "react";
-import { List, ListItem } from "@mui/material";
+import { ListItem } from "@mui/material";
 
 function TitleBox({ itemCss, itemCategory }: any) {
   return (

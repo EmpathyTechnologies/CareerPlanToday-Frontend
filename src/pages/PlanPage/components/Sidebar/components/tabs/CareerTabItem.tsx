@@ -8,8 +8,10 @@ import {
 import DeleteIcon from "@mui/icons-material/Delete";
 import DeleteOutlineIcon from "@mui/icons-material/DeleteOutline";
 
-import { useDispatch } from "react-redux";
+import {  brandLightGreen } from "../../../../../../assets/brandColors";
 import { toggleCareerSave } from "../../../../../../redux/actions";
+import { useDispatch } from "react-redux";
+
 
 function formatSalary(salary: number) {
   const roundedSalary = Math.round(salary / 1000) * 1000;
@@ -37,7 +39,7 @@ function CareerTabItem(props: any) {
   return (
     <ListItem disablePadding>
       <ListItemButton sx={itemCss}>
-        <ListItemText style={{color:'lightgreen'}}>+{formatSalary(salary.national.average)}</ListItemText>
+        <ListItemText style={{color:brandLightGreen}}>+{formatSalary(salary.national.average)}</ListItemText>
         <ListItemText sx={{ width: "55%" }}>{title}</ListItemText>
         <ListItemIcon
           sx={{ width: "3%" }}
