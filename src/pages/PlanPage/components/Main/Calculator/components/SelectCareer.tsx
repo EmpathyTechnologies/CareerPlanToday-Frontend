@@ -3,6 +3,7 @@ import { FormControl, Grid, InputLabel, MenuItem, Select, Typography } from "@mu
 import allCareers from "../../../../../../data/allCareers";
 
 export default function SelectCareer() {
+
   const [collegeCareer, setCollegeCareer] = useState({
     jobTitle: "Registered Nurses",
     jobSalary: 81220,
@@ -50,6 +51,7 @@ export default function SelectCareer() {
     }
   };
 
+
   const calculateNetIncome = (
     collegeCareerSalary: any,
     collegeCareerYearsWorked: any,
@@ -57,6 +59,7 @@ export default function SelectCareer() {
     noCollegeCareerYearsWorked: any
   ) => {
     const netIncome = (collegeCareerSalary * collegeCareerYearsWorked - noCollegeCareerSalary * noCollegeCareerYearsWorked).toLocaleString("en-US", {
+
       style: "currency",
       currency: "USD",
       minimumFractionDigits: 0,
