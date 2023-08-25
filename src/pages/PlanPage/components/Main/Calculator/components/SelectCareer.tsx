@@ -73,13 +73,9 @@ export default function SelectCareer() {
     noCollegeCareerSalary: any,
     noCollegeCareerYearsWorked: any
   ) => {
-
-    const netIncome = (collegeCareerSalary * collegeCareerYearsWorked - noCollegeCareerSalary * noCollegeCareerYearsWorked).toLocaleString("en-US", {
-
-      style: "currency",
-      currency: "USD",
-      minimumFractionDigits: 0,
-    });
+    const netIncome =
+      collegeCareerSalary * collegeCareerYearsWorked -
+      noCollegeCareerSalary * noCollegeCareerYearsWorked;
 
     return netIncome;
   };
