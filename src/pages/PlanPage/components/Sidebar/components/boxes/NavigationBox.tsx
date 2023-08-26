@@ -1,15 +1,15 @@
+import { brandWhite, brandBlack } from "../../../../../../assets/brandColors";
 
-import React from "react";
+import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
+import AutoGraphIcon from "@mui/icons-material/AutoGraph";
 import Box from "@mui/material/Box";
+import Divider from "@mui/material/Divider";
+import HomeWorkIcon from "@mui/icons-material/HomeWork";
 import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
-import Divider from "@mui/material/Divider";
-import TabItem from "../tabs/NavigationTabItem";
-import WorkIcon from "@mui/icons-material/Work";
 import SchoolIcon from "@mui/icons-material/School";
-import AutoGraphIcon from "@mui/icons-material/AutoGraph";
-import HomeWorkIcon from "@mui/icons-material/HomeWork";
-import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
+import NavigationTabItem from "../tabs/NavigationTabItem";
+import WorkIcon from "@mui/icons-material/Work";
 
 const sections = [
   {
@@ -49,27 +49,30 @@ const sections = [
   },
 ];
 
-const NavigationBox = ({ title, tabs, selectedSubpage, setHeaderTitle, itemCss }:any) => {
+const NavigationBox = ({ selectedSubpage, setHeaderTitle, itemCss }: any) => {
   return (
-<div>
-{sections.map(({ title, children: tabs }) => (
-    <Box sx={{ bgcolor: "#101F33" }}>
-      <ListItem sx={{ py: 2, px: 3 }}>
-        <ListItemText sx={{ color: "#fff" }}>{title}</ListItemText>
-      </ListItem>
-      {tabs.map(({ title: childId, icon }:any) => (
-        <TabItem
-          key={childId}
-          selected={selectedSubpage === childId}
-          item={itemCss}
-          onClick={() => setHeaderTitle(childId)}
-          icon={icon}
-          childId={childId}
-        />
+    <div>
+      {sections.map(({ title, children: tabs }) => (
+        <Box
+          sx={{
+            bgcolor: brandWhite,
+          }}>
+          <ListItem sx={{ py: 2, px: 3 }}>
+            <ListItemText sx={{ color: brandBlack }}>{title}</ListItemText>
+          </ListItem>
+          {tabs.map(({ title: childId, icon }: any) => (
+            <NavigationTabItem
+              key={childId}
+              selected={selectedSubpage === childId}
+              item={itemCss}
+              onClick={() => setHeaderTitle(childId)}
+              icon={icon}
+              childId={childId}
+            />
+          ))}
+          <Divider sx={{ mt: 2 }} />
+        </Box>
       ))}
-      <Divider sx={{ mt: 2 }} />
-    </Box>        ))}
-
     </div>
   );
 };

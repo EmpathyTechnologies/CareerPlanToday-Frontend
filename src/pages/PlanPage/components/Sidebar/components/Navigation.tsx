@@ -1,54 +1,34 @@
-import { brandSwan } from "../../../../../assets/brandColors";
+import { brandBlack, brandGrey_Light } from "../../../../../assets/brandColors";
 import { List } from "@mui/material";
 
 import CareerFavoritesBox from "./boxes/CareerFavoritesBox";
 import CollegeFavoritesBox from "./boxes/CollegeFavoritesBox";
 import Drawer from "@mui/material/Drawer";
-import HomeTab from "./tabs/HomeTab";
 import NavigationBox from "./boxes/NavigationBox";
 import TitleBox from "./TitleBox";
 
 const itemCss = {
   py: "2px",
   px: 3,
-  color: brandSwan,  
+  color: brandBlack,
   "&:hover, &:focus": {
-    bgcolor: "rgba(255, 255, 255, 0.08)",
+    bgcolor: brandGrey_Light,
   },
 };
 
-const itemCategory = {
-  boxShadow: "0 -1px 0 rgb(255,255,255,0.1) inset",
-  py: 1.5,
-  px: 3,
-};
-
 export default function Navigator(props: any) {
-  const {
-    selectedSubpage: navActiveCategory,
-    setSelectedSubpage: setNavActiveCategory,
-    ...other
-  } = props;
+  const { selectedSubpage: navActiveCategory, setSelectedSubpage: setNavActiveCategory, ...other } = props;
 
   const setHeaderTitle = (categoryId: string) => {
     props.setSelectedSubpage(categoryId);
   };
 
   return (
-    <Drawer variant="permanent" {...other}>
+    <Drawer variant='permanent' {...other}>
       <List disablePadding>
-        <TitleBox itemCss={itemCss} itemCategory={itemCategory} />
-
-        <HomeTab item={{ ...itemCss }} itemCategory={{ ...itemCategory }} />
-
-        <NavigationBox
-          selectedSubpage={props.selectedSubpage}
-          setHeaderTitle={setHeaderTitle}
-          itemCss={itemCss}
-        />
-
+        <TitleBox />
+        <NavigationBox selectedSubpage={props.selectedSubpage} setHeaderTitle={setHeaderTitle} itemCss={itemCss} />
         <CareerFavoritesBox itemCss={itemCss} />
-
         <CollegeFavoritesBox itemCss={itemCss} />
       </List>
     </Drawer>

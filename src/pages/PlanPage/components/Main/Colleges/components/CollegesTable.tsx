@@ -1,5 +1,5 @@
 import { AiFillHeart, AiOutlineHeart } from "react-icons/ai";
-import { brandDarkBlue, brandRed } from "../../../../../../assets/brandColors";
+import { brandBlue_Dark, brandRed } from "../../../../../../assets/brandColors";
 import { CollegesTableType } from "../../../../../../types/CollegesTableType";
 import { formatCurrency } from "../../../../../../utilities/formatCurrency";
 import { toggleCollegeSave } from "../../../../../../redux/actions";
@@ -64,7 +64,7 @@ export default function CollegesTable({ colleges, setColleges, setSelectedColleg
               <div
                 onClick={() => setSelectedCollege(college.id)}
                 style={{
-                  color: brandDarkBlue,
+                   color: brandBlue_Dark,
                   cursor: "pointer",
                 }}>
                 {college.name}

@@ -1,11 +1,24 @@
 import { createTheme } from "@mui/material/styles";
-
+ 
+import {
+  brandBlack,
+  brandBlack_Pure,
+  brandWhite_Pure,
+  brandBlack_Light,
+  brandBlue,
+  brandBlue_Dark,
+  brandGrey,
+  brandGrey_Light,
+  brandWhite,
+} from "../../brandColors";
+ 
 let Theme = createTheme({
   palette: {
     primary: {
-      light: "#1cb0f6",
-      main: "#0d6efd",
-      dark: "#212529",
+      light: brandWhite_Pure,
+      main: brandBlue_Dark,
+      dark: brandBlack_Pure,
+
     },
   },
   typography: {
@@ -38,7 +51,7 @@ Theme = {
     MuiDrawer: {
       styleOverrides: {
         paper: {
-          backgroundColor: "#081627",
+          backgroundColor: brandGrey_Light,
         },
       },
     },
@@ -99,7 +112,8 @@ Theme = {
     MuiDivider: {
       styleOverrides: {
         root: {
-          backgroundColor: "rgb(255,255,255,0.15)",
+           backgroundColor: "rgb(255,255,255)",
+ 
         },
       },
     },
@@ -107,7 +121,8 @@ Theme = {
       styleOverrides: {
         root: {
           "&.Mui-selected": {
-            color: "#4fc3f7",
+             color: brandBlack,
+ 
           },
         },
       },
