@@ -2425,7 +2425,7 @@
   {
     "id": 352,
     "name": "New Mexico Institute of Mining and Technology",
-    "state": "NM",
+    "state": "New Mexico",
     "tuition": 8361,
     "website": "https://www.nmt.edu"
   },
@@ -2558,7 +2558,7 @@
   {
     "id": 371,
     "name": "University of New Mexico-Main Campus",
-    "state": "NM",
+    "state": "New Mexico",
     "tuition": 8161,
     "website": "https://www.unm.edu"
   },
@@ -3041,7 +3041,7 @@
   {
     "id": 440,
     "name": "The University of Montana",
-    "state": "MT",
+    "state": "Montana",
     "tuition": 7430,
     "website": "https://www.umt.edu"
   },
@@ -3090,7 +3090,7 @@
   {
     "id": 447,
     "name": "Montana Technological University",
-    "state": "MT",
+    "state": "Montana",
     "tuition": 7390,
     "website": "https://www.mtech.edu"
   },
@@ -3118,7 +3118,7 @@
   {
     "id": 451,
     "name": "Montana State University",
-    "state": "MT",
+    "state": "Montana",
     "tuition": 7371,
     "website": "https://www.montana.edu"
   },
@@ -3167,7 +3167,7 @@
   {
     "id": 458,
     "name": "New Mexico State University-Main Campus",
-    "state": "NM",
+    "state": "New Mexico",
     "tuition": 7301,
     "website": "https://www.nmsu.edu"
   },
@@ -3447,7 +3447,7 @@
   {
     "id": 498,
     "name": "Eastern New Mexico University-Main Campus",
-    "state": "NM",
+    "state": "New Mexico",
     "tuition": 6648,
     "website": "https://www.enmu.edu"
   },
@@ -3489,7 +3489,7 @@
   {
     "id": 504,
     "name": "Western New Mexico University",
-    "state": "NM",
+    "state": "New Mexico",
     "tuition": 6574,
     "website": "https://www.wnmu.edu"
   },
@@ -3517,7 +3517,7 @@
   {
     "id": 508,
     "name": "New Mexico Highlands University",
-    "state": "NM",
+    "state": "New Mexico",
     "tuition": 6558,
     "website": "https://www.nmhu.edu"
   },
@@ -3699,7 +3699,7 @@
   {
     "id": 534,
     "name": "Montana State University Billings",
-    "state": "MT",
+    "state": "Montana",
     "tuition": 5980,
     "website": "https://www.msubillings.edu"
   },
@@ -3713,7 +3713,7 @@
   {
     "id": 536,
     "name": "Montana State University-Northern",
-    "state": "MT",
+    "state": "Montana",
     "tuition": 5955,
     "website": "https://www.msun.edu"
   },
@@ -3776,7 +3776,7 @@
   {
     "id": 545,
     "name": "University of Wyoming",
-    "state": "WY",
+    "state": "Wyoming",
     "tuition": 5791,
     "website": "https://www.uwyo.edu"
   },
@@ -3811,7 +3811,7 @@
   {
     "id": 550,
     "name": "The University of Montana-Western",
-    "state": "MT",
+    "state": "Montana",
     "tuition": 5747,
     "website": "https://www.umwestern.edu"
   },
@@ -3958,7 +3958,7 @@
   {
     "id": 571,
     "name": "Northern New Mexico College",
-    "state": "NM",
+    "state": "New Mexico",
     "tuition": 4952,
     "website": "https://www.nnmc.edu"
   },
@@ -4063,7 +4063,7 @@
   {
     "id": 586,
     "name": "Institute of American Indian and Alaska Native Culture and Arts Development",
-    "state": "NM",
+    "state": "New Mexico",
     "tuition": 4726,
     "website": "https://iaia.edu"
   },
@@ -4133,7 +4133,7 @@
   {
     "id": 596,
     "name": "Central Wyoming College",
-    "state": "WY",
+    "state": "Wyoming",
     "tuition": 4500,
     "website": "https://www.cwc.edu"
   },
@@ -4147,7 +4147,7 @@
   {
     "id": 598,
     "name": "Laramie County Community College",
-    "state": "WY",
+    "state": "Wyoming",
     "tuition": 4432,
     "website": "https://lccc.wy.edu"
   },
@@ -4168,7 +4168,7 @@
   {
     "id": 601,
     "name": "Salish Kootenai College",
-    "state": "MT",
+    "state": "Montana",
     "tuition": 4311,
     "website": "https://www.skc.edu"
   },
@@ -4322,7 +4322,7 @@
   {
     "id": 623,
     "name": "Navajo Technical University",
-    "state": "NM",
+    "state": "New Mexico",
     "tuition": 4070,
     "website": "https://www.navajotech.edu"
   },
@@ -4840,7 +4840,7 @@
   {
     "id": 697,
     "name": "Stone Child College",
-    "state": "MT",
+    "state": "Montana",
     "tuition": 2645,
     "website": "https://www.stonechild.edu"
   },
@@ -4882,7 +4882,7 @@
   {
     "id": 703,
     "name": "Aaniiih Nakoda College",
-    "state": "MT",
+    "state": "Montana",
     "tuition": 2410,
     "website": "https://www.ancollege.edu"
   },
@@ -7857,7 +7857,7 @@
   {
     "id": 1128,
     "name": "Carroll College",
-    "state": "MT",
+    "state": "Montana",
     "tuition": 37262,
     "website": "https://www.carroll.edu"
   },
@@ -8117,7 +8117,7 @@
   { "id": 1167, "name": "Le Moyne College", "state": "New York", "tuition": 35910 },
   { "id": 1168, "name": "Augustana University", "state": "South Dakota", "tuition": 35884 },
   { "id": 1169, "name": "Bay Path University", "state": "Massachusetts", "tuition": 35781 },
-  { "id": 1170, "name": "St. John's College", "state": "NM", "tuition": 35760 },
+  { "id": 1170, "name": "St. John's College", "state": "New Mexico", "tuition": 35760 },
   { "id": 1171, "name": "University of Bridgeport", "state": "Connecticut", "tuition": 35760 },
   { "id": 1172, "name": "Clarke University", "state": "Iowa", "tuition": 35750 },
   { "id": 1173, "name": "Milligan University", "state": "Tennessee", "tuition": 35600 },
@@ -8168,7 +8168,7 @@
   {
     "id": 1182,
     "name": "St. John's College",
-    "state": "NM",
+    "state": "New Mexico",
     "tuition": 35760,
     "website": "https://www.sjc.edu"
   },
@@ -9497,7 +9497,7 @@
   {
     "id": 1378,
     "name": "Rocky Mountain College",
-    "state": "MT",
+    "state": "Montana",
     "tuition": 30586,
     "website": "https://www.rocky.edu"
   },
@@ -10211,7 +10211,7 @@
   {
     "id": 1480,
     "name": "University of Providence",
-    "state": "MT",
+    "state": "Montana",
     "tuition": 26662,
     "website": "https://www.uprovidence.edu"
   },
@@ -11765,7 +11765,7 @@
   {
     "id": 1702,
     "name": "University of the Southwest",
-    "state": "NM",
+    "state": "New Mexico",
     "tuition": 16200,
     "website": "https://www.usw.edu"
   },
@@ -12815,7 +12815,7 @@
   {
     "id": 1852,
     "name": "Yellowstone Christian College",
-    "state": "MT",
+    "state": "Montana",
     "tuition": 11360,
     "website": "https://www.yellowstonechristian.edu"
   },
@@ -17190,7 +17190,7 @@
   {
     "id": 2477,
     "name": "New Mexico Military Institute",
-    "state": "NM",
+    "state": "New Mexico",
     "tuition": 5144,
     "website": "https://www.nmmi.edu"
   },
@@ -17344,7 +17344,7 @@
   {
     "id": 2499,
     "name": "Flathead Valley Community College",
-    "state": "MT",
+    "state": "Montana",
     "tuition": 4991,
     "website": "https://www.fvcc.edu"
   },
@@ -18405,7 +18405,7 @@
     "tuition": 4440,
     "website": "https://www.lccc.edu"
   },
-  { "id": 2651, "name": "Miles Community College", "state": "MT", "tuition": 4440 },
+  { "id": 2651, "name": "Miles Community College", "state": "Montana", "tuition": 4440 },
   { "id": 2652, "name": "Lakeshore Technical College", "state": "Wisconsin", "tuition": 4417 },
   {
     "id": 2653,
@@ -18453,7 +18453,7 @@
   {
     "id": 2661,
     "name": "Miles Community College",
-    "state": "MT",
+    "state": "Montana",
     "tuition": 4440,
     "website": "https://www.milescc.edu"
   },
@@ -18593,7 +18593,7 @@
   {
     "id": 2681,
     "name": "Northwest College",
-    "state": "WY",
+    "state": "Wyoming",
     "tuition": 4330,
     "website": "https://www.nwc.edu"
   },
@@ -18677,7 +18677,7 @@
   {
     "id": 2693,
     "name": "Northern Wyoming Community College District",
-    "state": "WY",
+    "state": "Wyoming",
     "tuition": 4290,
     "website": "https://www.sheridan.edu"
   },
@@ -18859,7 +18859,7 @@
   {
     "id": 2719,
     "name": "Eastern Wyoming College",
-    "state": "WY",
+    "state": "Wyoming",
     "tuition": 4110,
     "website": "https://ewc.wy.edu"
   },
@@ -19027,7 +19027,7 @@
   {
     "id": 2743,
     "name": "Dawson Community College",
-    "state": "MT",
+    "state": "Montana",
     "tuition": 3990,
     "website": "https://www.dawson.edu"
   },
@@ -19125,7 +19125,7 @@
   {
     "id": 2757,
     "name": "Casper College",
-    "state": "WY",
+    "state": "Wyoming",
     "tuition": 3882,
     "website": "https://www.caspercollege.edu"
   },
@@ -19440,7 +19440,7 @@
   {
     "id": 2802,
     "name": "Highlands College of Montana Tech",
-    "state": "MT",
+    "state": "Montana",
     "tuition": 3590,
     "website": "https://www.mtech.edu/highlands-college/index.html"
   },
@@ -19482,7 +19482,7 @@
   {
     "id": 2808,
     "name": "Helena College University of Montana",
-    "state": "MT",
+    "state": "Montana",
     "tuition": 3507,
     "website": "https://www.helenacollege.edu"
   },
@@ -19545,14 +19545,14 @@
   {
     "id": 2817,
     "name": "Western Wyoming Community College",
-    "state": "WY",
+    "state": "Wyoming",
     "tuition": 3456,
     "website": "https://www.westernwyoming.edu"
   },
   {
     "id": 2818,
     "name": "Great Falls College Montana State University",
-    "state": "MT",
+    "state": "Montana",
     "tuition": 3450,
     "website": "https://www.gfcmsu.edu"
   },
@@ -19762,7 +19762,7 @@
   {
     "id": 2848,
     "name": "Little Big Horn College",
-    "state": "MT",
+    "state": "Montana",
     "tuition": 3200,
     "website": "https://www.lbhc.edu"
   },
@@ -20742,7 +20742,7 @@
   {
     "id": 2988,
     "name": "Chief Dull Knife College",
-    "state": "MT",
+    "state": "Montana",
     "tuition": 2260,
     "website": "https://www.cdkc.edu"
   },
@@ -20756,14 +20756,14 @@
   {
     "id": 2990,
     "name": "Eastern New Mexico University-Roswell Campus",
-    "state": "NM",
+    "state": "New Mexico",
     "tuition": 2256,
     "website": "https://www.roswell.enmu.edu"
   },
   {
     "id": 2991,
     "name": "Fort Peck Community College",
-    "state": "MT",
+    "state": "Montana",
     "tuition": 2250,
     "website": "https://www.fpcc.edu"
   },
@@ -20812,7 +20812,7 @@
   {
     "id": 2998,
     "name": "Santa Fe Community College",
-    "state": "NM",
+    "state": "New Mexico",
     "tuition": 2145,
     "website": "https://www.sfcc.edu"
   },
@@ -20826,7 +20826,7 @@
   {
     "id": 3000,
     "name": "Mesalands Community College",
-    "state": "NM",
+    "state": "New Mexico",
     "tuition": 2136,
     "website": "https://www.mesalands.edu"
   },
@@ -20847,7 +20847,7 @@
   {
     "id": 3003,
     "name": "University of New Mexico-Los Alamos Campus",
-    "state": "NM",
+    "state": "New Mexico",
     "tuition": 2076,
     "website": "https://losalamos.unm.edu"
   },
@@ -20924,7 +20924,7 @@
   {
     "id": 3014,
     "name": "New Mexico State University-Grants",
-    "state": "NM",
+    "state": "New Mexico",
     "tuition": 2064,
     "website": "https://grants.nmsu.edu"
   },
@@ -20938,7 +20938,7 @@
   {
     "id": 3016,
     "name": "New Mexico State University-Alamogordo",
-    "state": "NM",
+    "state": "New Mexico",
     "tuition": 2054,
     "website": "https://nmsua.edu"
   },
@@ -20994,7 +20994,7 @@
   {
     "id": 3024,
     "name": "University of New Mexico-Gallup Campus",
-    "state": "NM",
+    "state": "New Mexico",
     "tuition": 1932,
     "website": "https://gallup.unm.edu"
   },
@@ -21015,14 +21015,14 @@
   {
     "id": 3027,
     "name": "University of New Mexico-Valencia County Campus",
-    "state": "NM",
+    "state": "New Mexico",
     "tuition": 1878,
     "website": "https://valencia.unm.edu"
   },
   {
     "id": 3028,
     "name": "University of New Mexico-Taos Campus",
-    "state": "NM",
+    "state": "New Mexico",
     "tuition": 1872,
     "website": "https://taos.unm.edu"
   },
@@ -21043,7 +21043,7 @@
   {
     "id": 3031,
     "name": "New Mexico State University-Dona Ana",
-    "state": "NM",
+    "state": "New Mexico",
     "tuition": 1776,
     "website": "https://dacc.nmsu.edu"
   },
@@ -21071,14 +21071,14 @@
   {
     "id": 3035,
     "name": "Central New Mexico Community College",
-    "state": "NM",
+    "state": "New Mexico",
     "tuition": 1650,
     "website": "https://www.cnm.edu"
   },
   {
     "id": 3036,
     "name": "San Juan College",
-    "state": "NM",
+    "state": "New Mexico",
     "tuition": 1618,
     "website": "https://www.sanjuancollege.edu"
   },
@@ -21190,7 +21190,7 @@
   {
     "id": 3052,
     "name": "New Mexico Junior College",
-    "state": "NM",
+    "state": "New Mexico",
     "tuition": 1416,
     "website": "https://www.nmjc.edu"
   },
@@ -21281,7 +21281,7 @@
   {
     "id": 3065,
     "name": "Clovis Community College",
-    "state": "NM",
+    "state": "New Mexico",
     "tuition": 1376,
     "website": "https://www.clovis.edu"
   },
@@ -21295,7 +21295,7 @@
   {
     "id": 3067,
     "name": "Eastern New Mexico University Ruidoso Branch Community College",
-    "state": "NM",
+    "state": "New Mexico",
     "tuition": 1372,
     "website": "https://www.ruidoso.enmu.edu"
   },
@@ -21470,7 +21470,7 @@
   {
     "id": 3092,
     "name": "New Mexico State University-Carlsbad",
-    "state": "NM",
+    "state": "New Mexico",
     "tuition": 1276,
     "website": "https://carlsbad.nmsu.edu"
   },
@@ -21834,14 +21834,14 @@
   {
     "id": 3144,
     "name": "Southwestern Indian Polytechnic Institute",
-    "state": "NM",
+    "state": "New Mexico",
     "tuition": 1095,
     "website": "https://www.sipi.edu"
   },
   {
     "id": 3145,
     "name": "Luna Community College",
-    "state": "NM",
+    "state": "New Mexico",
     "tuition": 1010,
     "website": "https://luna.edu"
   },
@@ -22513,7 +22513,7 @@
   {
     "id": 3241,
     "name": "Blackfeet Community College",
-    "state": "MT",
+    "state": "Montana",
     "tuition": 3370,
     "website": "https://bfcc.edu"
   },

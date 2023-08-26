@@ -2,6 +2,9 @@ import { FormControl, Grid, InputLabel, MenuItem, Select, Typography } from "@mu
 
 import colleges from "../../../../../../data/colleges.json";
 import React, { useState } from "react";
+// Montana
+// New Mexico
+// Wyoming
 
 export default function SelectCollege() {
   const USAStates = [
@@ -68,6 +71,12 @@ export default function SelectCollege() {
   const handleUSAState = (event: any) => {
     const { value } = event.target;
     setUSAState(value);
+
+    setCollege({
+      name: "",
+      state: "",
+      tuition: 0,
+    });
   };
 
   const handleCollege = (event: any) => {
@@ -75,6 +84,8 @@ export default function SelectCollege() {
     const selectedCollege = colleges.find((college) => college.name === value);
     setCollege(selectedCollege);
   };
+
+  const filteredColleges = colleges.filter((college) => college.state === USAState);
 
   return (
     <React.Fragment>
@@ -87,12 +98,19 @@ export default function SelectCollege() {
           <FormControl fullWidth>
             <InputLabel>State</InputLabel>
             <Select value={USAState} onChange={handleUSAState}>
-              {USAStates.map((USAState) => (
+              {USAStates.map((state) => (
+                <MenuItem key={state} value={state}>
+                  {state}
+                </MenuItem>
+              ))}
+            </Select>
+            {/* <Select value={USAState} onChange={handleUSAState}>
+              {USAStates.filter((filterCollege) => filterCollege === college).map((USAState) => (
                 <MenuItem key={USAState} value={USAState}>
                   {USAState}
                 </MenuItem>
               ))}
-            </Select>
+            </Select> */}
           </FormControl>
         </Grid>
       </Grid>
@@ -106,7 +124,7 @@ export default function SelectCollege() {
           <FormControl fullWidth>
             <InputLabel>College</InputLabel>
             <Select value={college.name} onChange={handleCollege}>
-              {colleges.map((college) => (
+              {filteredColleges.map((college) => (
                 <MenuItem key={college.name} value={college.name}>
                   {college.name}
                 </MenuItem>
