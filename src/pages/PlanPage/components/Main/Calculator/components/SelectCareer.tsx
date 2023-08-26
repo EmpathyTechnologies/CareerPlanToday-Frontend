@@ -89,6 +89,7 @@ export default function SelectCareer() {
             <FormControl fullWidth>
               <InputLabel id='college-career-label'>Job</InputLabel>
               <Select value={collegeCareer.jobTitle} onChange={(event) => handleCareerChange(event, "college")}>
+
                 {allCareers
                   .filter((career) => career.educationRequired !== "No High School Diploma" && career.educationRequired !== "High School Diploma")
                   .map((career) => (
