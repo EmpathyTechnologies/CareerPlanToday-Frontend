@@ -1,42 +1,33 @@
-import {
-  Accordion,
-  AccordionDetails,
-  AccordionSummary,
-  Box,
-  Divider,
-  Typography,
-} from "@mui/material";
+import { Accordion, AccordionDetails, AccordionSummary, Box, Divider, Typography } from "@mui/material";
+import { brandBlack, brandWhite } from "../../../../../../assets/brandColors";
 import { RootState } from "../../../../../../redux/store";
 import { useSelector } from "react-redux";
 import BlankTab from "../tabs/BlankTab";
 import CareerTabItem from "../tabs/CareerTabItem";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-
 function CareerFavoritesBox({ itemCss }: any) {
   const savedCareers = useSelector((state: RootState) => state.careers);
 
   return (
-    <Accordion sx={{ bgcolor: "#101F33", color: "#fff" }}>
+    <Accordion
+      sx={{
+        bgcolor: brandWhite,
+        color: brandBlack,
+      }}>
       <AccordionSummary
-        expandIcon={
-          <ExpandMoreIcon sx={{ bgcolor: "#101F33", color: "#fff" }} />
-        }
-        aria-controls="career-favorites-content"
-        id="career-favorites-header"
-      >
+        expandIcon={<ExpandMoreIcon sx={{ bgcolor: brandWhite, color: brandBlack }} />}
+        aria-controls='career-favorites-content'
+        id='career-favorites-header'>
         <Typography>{savedCareers.length} Favorite Careers</Typography>
       </AccordionSummary>
       <AccordionDetails>
-        <Box sx={{ bgcolor: "#101F33" }}>
+        <Box
+          sx={{
+            bgcolor: brandWhite,
+          }}>
           {savedCareers.length > 0 ? (
             savedCareers.map((career) => (
-              <CareerTabItem
-                careerData={career}
-                itemCss={itemCss}
-                salary={career.salary}
-                title={career.title}
-                key={career.title}
-              />
+              <CareerTabItem careerData={career} itemCss={itemCss} salary={career.salary} title={career.title} key={career.title} />
             ))
           ) : (
             <BlankTab text={"careers"} itemCss={itemCss} />
@@ -49,4 +40,3 @@ function CareerFavoritesBox({ itemCss }: any) {
 }
 
 export default CareerFavoritesBox;
-
