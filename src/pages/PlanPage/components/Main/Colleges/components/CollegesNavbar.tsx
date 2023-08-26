@@ -1,7 +1,8 @@
-import React from "react";
-import FilterDropdownSearch from "../../../../../../components/FilterDropdownSearch";
-import FilterDoubleSlider from "../../../../../../components/FilterDoubleSlider";
 import { CollegesNavbarType } from "../../../../../../types/CollegesNavbarType";
+
+import FilterDoubleSlider from "../../../../../../components/FilterDoubleSlider";
+import FilterDropdownSearch from "../../../../../../components/FilterDropdownSearch";
+import React from "react";
 
 const statesOfAmerica = [
   { name: "All States" },

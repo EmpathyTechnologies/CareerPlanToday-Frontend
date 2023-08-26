@@ -1,10 +1,11 @@
-import { formatCurrency } from "../../../../../../utilities/formatCurrency";
-import { AiOutlineHeart, AiFillHeart } from "react-icons/ai";
-import { useDispatch, useSelector } from "react-redux";
-import { RootState } from "../../../../../../redux/store";
-import { CareerType } from "../../../../../../types/CareerType";
-import { toggleCareerSave } from "../../../../../../redux/actions";
+import { AiFillHeart, AiOutlineHeart } from "react-icons/ai";
+import { brandDarkBlue, brandRed } from "../../../../../../assets/brandColors";
 import { CareersTableRowPropsType } from "../../../../../../types/CareersTableRowType";
+import { CareerType } from "../../../../../../types/CareerType";
+import { formatCurrency } from "../../../../../../utilities/formatCurrency";
+import { RootState } from "../../../../../../redux/store";
+import { toggleCareerSave } from "../../../../../../redux/actions";
+import { useDispatch, useSelector } from "react-redux";
 
 export default function CareersTableRow(props: CareersTableRowPropsType) {
   const { careerData, setSelectedCareer } = props;
@@ -17,7 +18,7 @@ export default function CareersTableRow(props: CareersTableRowPropsType) {
   }
 
   function toggleSaveCareer() {
-    dispatch(toggleCareerSave(careerData)); 
+    dispatch(toggleCareerSave(careerData));
   }
 
   const isCareerSaved = savedCareers.some((c: CareerType) => c.id === careerData.id);
@@ -26,7 +27,7 @@ export default function CareersTableRow(props: CareersTableRowPropsType) {
     <tr>
       <td>
         {isCareerSaved ? (
-          <div onClick={toggleSaveCareer} style={{ color: "rgb(255, 56, 92)", cursor: "pointer" }}>
+          <div onClick={toggleSaveCareer} style={{ color: brandRed, cursor: "pointer" }}>
             <AiFillHeart />
           </div>
         ) : (
@@ -39,8 +40,7 @@ export default function CareersTableRow(props: CareersTableRowPropsType) {
         <div
           onClick={() => setSelectedCareer(careerData.id)}
           style={{
-            color: "blue",
-            textDecoration: "underline",
+            color: brandDarkBlue,
             cursor: "pointer",
           }}>
           {careerData.title}

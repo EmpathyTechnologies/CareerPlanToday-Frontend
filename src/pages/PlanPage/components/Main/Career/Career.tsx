@@ -1,6 +1,6 @@
+import { formatCurrency } from "../../../../../utilities/formatCurrency";
 
 import allCareers from "../../../../../data/careers.json";
-import { formatCurrency } from "../../../../../utilities/formatCurrency";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import NotFound from "../../../../NotFoundPage/NotFoundPage";

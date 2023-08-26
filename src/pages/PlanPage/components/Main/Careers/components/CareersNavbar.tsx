@@ -1,7 +1,8 @@
-import React from "react";
-import FilterDropdownSearch from "../../../../../../components/FilterDropdownSearch";
-import FilterDoubleSlider from "../../../../../../components/FilterDoubleSlider";
 import { CareerNavbarType } from "../../../../../../types/CareerNavbarType";
+
+import FilterDoubleSlider from "../../../../../../components/FilterDoubleSlider";
+import FilterDropdownSearch from "../../../../../../components/FilterDropdownSearch";
+import React from "react";
 
 const careerFields = [
   { name: "All Careers" },
@@ -12,7 +13,7 @@ const careerFields = [
   { name: "Healthcare" },
 ];
 
-// todo... figure out how filter dropdown search can up date minSalary & maxSalary
+// todo... figure out how filter dropdown search can update minSalary & maxSalary
 
 const CollegesNavbar: React.FC<CareerNavbarType> = ({ setFilterByCareerName, filterBySalary, setFilterBySalary, minSalary, maxSalary }) => {
   return (

@@ -1,11 +1,11 @@
-import { createTheme } from '@mui/material/styles';
+import { createTheme } from "@mui/material/styles";
 
 let Theme = createTheme({
   palette: {
     primary: {
-      light: '#1cb0f6',
-      main: '#0d6efd',
-      dark: '#212529',
+      light: "#1cb0f6",
+      main: "#0d6efd",
+      dark: "#212529",
     },
   },
   typography: {
@@ -38,19 +38,19 @@ Theme = {
     MuiDrawer: {
       styleOverrides: {
         paper: {
-          backgroundColor: '#081627',
+          backgroundColor: "#081627",
         },
       },
     },
     MuiButton: {
       styleOverrides: {
         root: {
-          textTransform: 'none',
+          textTransform: "none",
         },
         contained: {
-          boxShadow: 'none',
-          '&:active': {
-            boxShadow: 'none',
+          boxShadow: "none",
+          "&:active": {
+            boxShadow: "none",
           },
         },
       },
@@ -71,11 +71,11 @@ Theme = {
     MuiTab: {
       styleOverrides: {
         root: {
-          textTransform: 'none',
-          margin: '0 16px',
+          textTransform: "none",
+          margin: "0 16px",
           minWidth: 0,
           padding: 0,
-          [Theme.breakpoints.up('md')]: {
+          [Theme.breakpoints.up("md")]: {
             padding: 0,
             minWidth: 0,
           },
@@ -99,15 +99,15 @@ Theme = {
     MuiDivider: {
       styleOverrides: {
         root: {
-          backgroundColor: 'rgb(255,255,255,0.15)',
+          backgroundColor: "rgb(255,255,255,0.15)",
         },
       },
     },
     MuiListItemButton: {
       styleOverrides: {
         root: {
-          '&.Mui-selected': {
-            color: '#4fc3f7',
+          "&.Mui-selected": {
+            color: "#4fc3f7",
           },
         },
       },
@@ -123,10 +123,10 @@ Theme = {
     MuiListItemIcon: {
       styleOverrides: {
         root: {
-          color: 'inherit',
-          minWidth: 'auto',
+          color: "inherit",
+          minWidth: "auto",
           marginRight: Theme.spacing(2),
-          '& svg': {
+          "& svg": {
             fontSize: 20,
           },
         },

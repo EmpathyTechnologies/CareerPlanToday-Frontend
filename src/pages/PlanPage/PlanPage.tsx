@@ -1,12 +1,12 @@
+import { Box, CssBaseline } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
-import { CssBaseline, Box } from "@mui/material";
 import { useState } from "react";
 
-import Header from "../../components/Header";
-import Theme from "../../assets/styles/themes/ThemeProvider";
-import Sidebar from "./components/Sidebar/Sidebar";
 import Footer from "./components/Footer/Footer";
+import Header from "../../components/Header";
 import Main from "./components/Main/Main";
+import Sidebar from "./components/Sidebar/Sidebar";
+import Theme from "../../assets/styles/themes/ThemeProvider";
 
 export default function Plan({ selectedSubpage, setSelectedSubpage }: any) {
   const [selectedCareer, setSelectedCareer] = useState(-1);
@@ -22,11 +22,7 @@ export default function Plan({ selectedSubpage, setSelectedSubpage }: any) {
       <Box sx={{ display: "flex", minHeight: "100vh" }}>
         <CssBaseline />
 
-        <Sidebar
-          handleDrawerToggle={handleDrawerToggle}
-          selectedSubpage={selectedSubpage}
-          setSelectedSubpage={setSelectedSubpage}
-        />
+        <Sidebar handleDrawerToggle={handleDrawerToggle} selectedSubpage={selectedSubpage} setSelectedSubpage={setSelectedSubpage} />
 
         <Box sx={{ flex: 1, display: "flex", flexDirection: "column" }}>
           <Header onDrawerToggle={handleDrawerToggle} title={selectedSubpage} />

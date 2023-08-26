@@ -1,18 +1,10 @@
-import { useState } from 'react';
-import { Row, Col, Form } from 'react-bootstrap';
-import {
-  FormControl,
-  Input,
-  InputLabel,
-  InputAdornment,
-  Grid,
-} from '@mui/material';
+import { FormControl, Grid, Input, InputAdornment, InputLabel } from "@mui/material";
+import { useState } from "react";
 
 const Budget = () => {
   const [averageMonthlySalary, setAverageMonthlySalary] = useState(0);
-  const [taxPercentage, setTaxPercentage] = useState(0);
   const [estimatedTaxes, setEstimatedTaxes] = useState(0);
-  const [monthlyTakeHome, setMonthlyTakeHome] = useState(0);
+  const [taxPercentage, setTaxPercentage] = useState(0);
 
   return (
     <>
@@ -21,33 +13,25 @@ const Budget = () => {
       </div>
       <div>
         <h4>INCOME</h4>
-        <Grid container spacing={1} xs={3} id="income">
+        <Grid container spacing={1} xs={3} id='income'>
           <Grid item spacing={2}>
-            <FormControl variant="standard">
-              <InputLabel htmlFor="average-salary">Average Salary</InputLabel>
+            <FormControl variant='standard'>
+              <InputLabel htmlFor='average-salary'>Average Salary</InputLabel>
               <Input
-                id="average-salary"
-                startAdornment={
-                  <InputAdornment position="start">$</InputAdornment>
-                }
+                id='average-salary'
+                startAdornment={<InputAdornment position='start'>$</InputAdornment>}
                 placeholder={averageMonthlySalary.toString()}
-                onChange={(e) =>
-                  setAverageMonthlySalary(parseInt(e.target.value))
-                }
+                onChange={(e) => setAverageMonthlySalary(parseInt(e.target.value))}
               />
             </FormControl>
           </Grid>
-          <Grid item spacing={2} id="tax-section">
-            <FormControl variant="standard" id="tax-percentage">
+          <Grid item spacing={2} id='tax-section'>
+            <FormControl variant='standard' id='tax-percentage'>
               <div>
-                <InputLabel htmlFor="tax-percentage">
-                  Estimated Tax %
-                </InputLabel>
+                <InputLabel htmlFor='tax-percentage'>Estimated Tax %</InputLabel>
                 <Input
-                  id="tax-percentage"
-                  endAdornment={
-                    <InputAdornment position="end">%</InputAdornment>
-                  }
+                  id='tax-percentage'
+                  endAdornment={<InputAdornment position='end'>%</InputAdornment>}
                   placeholder={taxPercentage.toString()}
                   onChange={(e) => {
                     setTaxPercentage(parseInt(e.target.value));
@@ -57,7 +41,7 @@ const Budget = () => {
               </div>
               <br />
               <div>
-                <p id="estimated-tax-total" placeholder="">
+                <p id='estimated-tax-total' placeholder=''>
                   ${estimatedTaxes}
                 </p>
               </div>
@@ -65,119 +49,6 @@ const Budget = () => {
           </Grid>
         </Grid>
       </div>
-
-      {/* <Row>
-        <Col xs={8}>Average Salary</Col>
-        <Col xs={4}>
-          <Form.Control type="text" />
-        </Col>
-      </Row>
-      <Row>
-        <Col xs={8}>Estimated Taxes</Col>
-        <Col xs={4}>
-          <Form.Control type="text" />
-        </Col>
-      </Row>
-      <Row>
-        <Col xs={8}>Monthly Take-home</Col>
-        <Col xs={4}>
-          <Form.Control type="text" />
-        </Col>
-      </Row>
-      <Row>
-        <Col xs={8}>Other Monthly Income</Col>
-        <Col xs={4}>
-          <Form.Control type="text" />
-        </Col>
-      </Row>
-      <Row>
-        <Col xs={8}>
-          <strong>Total Monthly Income</strong>
-        </Col>
-        <Col xs={4}>
-          <Form.Control type="text" />
-        </Col>
-      </Row>
-
-      <div>EXPENSES (per Monthl)</div>
-
-      <Form.Group controlId="housing">
-        <Form.Label>Housing</Form.Label>
-        <Form.Control as="select">
-          <option value="1200">Live Alone ($1200)</option>
-          <option value="600">Roommate ($600)</option>
-          <option value="250">Live with Relatives ($250)</option>
-        </Form.Control>
-      </Form.Group>
-
-      <Form.Group controlId="transport">
-        <Form.Label>Transport</Form.Label>
-        <Form.Control as="select">
-          <option value="750">New Car ($700)</option>
-          <option value="325">Used Car ($325)</option>
-          <option value="150">Public Transportation ($150)</option>
-        </Form.Control>
-      </Form.Group>
-
-      <Form.Group controlId="food">
-        <Form.Label>Food</Form.Label>
-        <Form.Control as="select">
-          <option value="1000">Restaurants ($1000)</option>
-          <option value="750">Fast Food ($750)</option>
-          <option value="500">Groceries ($500)</option>
-        </Form.Control>
-      </Form.Group>
-
-      <Form.Group controlId="entertainment">
-        <Form.Label>Entertainment</Form.Label>
-        <Form.Control as="select">
-          <option value="1200">Live Alone ($1200)</option>
-          <option value="600">Roommate ($600)</option>
-          <option value="250">Live with Relatives ($250)</option>{' '}
-        </Form.Control>
-      </Form.Group>
-
-      <Form.Group controlId="pets">
-        <Form.Label>Pets</Form.Label>
-        <Form.Control as="select">
-          <option value="1200">2 Pets ($500)</option>
-          <option value="600">1 Pet ($250)</option>
-          <option value="250">No Pets ($0)</option>
-        </Form.Control>
-      </Form.Group>
-
-      <Form.Group controlId="kids">
-        <Form.Label>Kids</Form.Label>
-        <Form.Control as="select">
-          <option value="1200">Live Alone ($1200)</option>
-          <option value="600">Roommate ($600)</option>
-          <option value="250">Live with Relatives ($250)</option>{' '}
-        </Form.Control>
-      </Form.Group>
-
-      <div>
-        <div>Other</div>
-        <div>Insurance</div>
-        <div>Internet</div>
-        <div>Phone</div>
-        <div>Student Loan Payment</div>
-        <div>Emergency Savings</div>
-        <div>Retirement Savings</div>
-        <div>Home Savings</div>
-        <div>Other</div>
-      </div>
-
-      <div>
-        <div>Total Monthly Income</div>
-      </div>
-
-      <div>
-        <div>Total Monthly Expenses</div>
-      </div>
-      <div>
-        <div>Net Income (Loss)</div>
-      </div>
-    </div> */}
     </>
   );
 };

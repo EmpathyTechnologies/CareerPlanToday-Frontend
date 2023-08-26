@@ -1,5 +1,5 @@
+import { Col, Container, Form, Row } from "react-bootstrap";
 import { useState } from "react";
-import { Form, Container, Row, Col } from "react-bootstrap";
 
 export default function Invest() {
   const [currentAge, setCurrentAge] = useState(30);
