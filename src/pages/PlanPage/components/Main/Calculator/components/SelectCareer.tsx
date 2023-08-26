@@ -83,75 +83,82 @@ export default function SelectCareer() {
       <Grid container spacing={3}>
         <Grid item xs={12}>
           <Typography variant='h6' gutterBottom style={{ fontWeight: "bold" }}>
-            Select a Career that Requires College
+            Select Career that Requires College
           </Typography>
-
-          <FormControl fullWidth>
-            <InputLabel id='college-career-label'>Job</InputLabel>
-            <Select
-              labelId='college-career-label'
-              id='college-career-select'
-              value={collegeCareer.jobTitle}
-              label='Career with College'
-              onChange={(event) => handleCareerChange(event, "college")}>
-              {allCareers
-                .filter((career) => career.educationRequired !== "No High School Diploma" && career.educationRequired !== "High School Diploma")
-                .map((career) => (
-                  <MenuItem key={career.jobTitle} value={career.jobTitle}>
-                    {career.jobTitle}
-                  </MenuItem>
-                ))}
-            </Select>
-          </FormControl>
+          <Grid item xs={10} style={{ margin: "0 auto" }}>
+            <FormControl fullWidth>
+              <InputLabel id='college-career-label'>Job</InputLabel>
+              <Select
+                labelId='college-career-label'
+                id='college-career-select'
+                value={collegeCareer.jobTitle}
+                label='Career with College'
+                onChange={(event) => handleCareerChange(event, "college")}>
+                {allCareers
+                  .filter((career) => career.educationRequired !== "No High School Diploma" && career.educationRequired !== "High School Diploma")
+                  .map((career) => (
+                    <MenuItem key={career.jobTitle} value={career.jobTitle}>
+                      {career.jobTitle}
+                    </MenuItem>
+                  ))}
+              </Select>
+            </FormControl>
+          </Grid>{" "}
         </Grid>
         <Grid item xs={12}>
-          <FormControl fullWidth>
-            <InputLabel id='college-years-label'>Years</InputLabel>
-            <Select
-              labelId='college-years-label'
-              id='college-years-select'
-              value={collegeCareer.yearsWorked}
-              label='Years'
-              onChange={(event) => handleYearsWorkedChange(event, "college")}>
-              {generateNumberOptions(70)}
-            </Select>
-          </FormControl>
+          <Grid item xs={10} style={{ margin: "0 auto" }}>
+            <FormControl fullWidth>
+              <InputLabel id='college-years-label'>Years</InputLabel>
+              <Select
+                labelId='college-years-label'
+                id='college-years-select'
+                value={collegeCareer.yearsWorked}
+                label='Years'
+                onChange={(event) => handleYearsWorkedChange(event, "college")}>
+                {generateNumberOptions(70)}
+              </Select>
+            </FormControl>
+          </Grid>{" "}
         </Grid>
 
         <Grid item xs={12}>
           <Typography variant='h6' gutterBottom style={{ fontWeight: "bold" }}>
-            Compare to a Career that Doesn't Require College
+            Compare to Career that Doesn't Require College
           </Typography>
-          <FormControl fullWidth>
-            <InputLabel id='no-college-career-label'>Job</InputLabel>
-            <Select
-              labelId='no-college-career-label'
-              id='no-college-career-select'
-              value={noCollegeCareer.jobTitle}
-              label='Age'
-              onChange={(event) => handleCareerChange(event, "noCollege")}>
-              {allCareers
-                .filter((career) => career.educationRequired === "No High School Diploma" || career.educationRequired === "High School Diploma")
-                .map((career) => (
-                  <MenuItem key={career.jobTitle} value={career.jobTitle}>
-                    {career.jobTitle}
-                  </MenuItem>
-                ))}
-            </Select>
-          </FormControl>
+          <Grid item xs={10} style={{ margin: "0 auto" }}>
+            <FormControl fullWidth>
+              <InputLabel id='no-college-career-label'>Job</InputLabel>
+              <Select
+                labelId='no-college-career-label'
+                id='no-college-career-select'
+                value={noCollegeCareer.jobTitle}
+                label='Age'
+                onChange={(event) => handleCareerChange(event, "noCollege")}>
+                {allCareers
+                  .filter((career) => career.educationRequired === "No High School Diploma" || career.educationRequired === "High School Diploma")
+                  .map((career) => (
+                    <MenuItem key={career.jobTitle} value={career.jobTitle}>
+                      {career.jobTitle}
+                    </MenuItem>
+                  ))}
+              </Select>
+            </FormControl>
+          </Grid>{" "}
         </Grid>
         <Grid item xs={12}>
-          <FormControl fullWidth>
-            <InputLabel id='no-college-years-label'>Job</InputLabel>
-            <Select
-              labelId='no-college-years-label'
-              id='no-college-years-select'
-              value={noCollegeCareer.yearsWorked}
-              label='Years Worked'
-              onChange={(event) => handleYearsWorkedChange(event, "noCollege")}>
-              {generateNumberOptions(70)}
-            </Select>
-          </FormControl>
+          <Grid item xs={10} style={{ margin: "0 auto" }}>
+            <FormControl fullWidth>
+              <InputLabel id='no-college-years-label'>Job</InputLabel>
+              <Select
+                labelId='no-college-years-label'
+                id='no-college-years-select'
+                value={noCollegeCareer.yearsWorked}
+                label='Years Worked'
+                onChange={(event) => handleYearsWorkedChange(event, "noCollege")}>
+                {generateNumberOptions(70)}
+              </Select>
+            </FormControl>
+          </Grid>
         </Grid>
 
         <Grid item xs={12}>
