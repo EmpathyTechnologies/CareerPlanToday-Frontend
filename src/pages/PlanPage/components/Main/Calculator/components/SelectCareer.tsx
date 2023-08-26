@@ -83,6 +83,7 @@ export default function SelectCareer() {
       <Grid container spacing={3}>
         <Grid item xs={12}>
           <Typography variant='h6' gutterBottom style={{ fontWeight: "bold" }}>
+
             Select Career that Requires College
           </Typography>
           <Grid item xs={10} style={{ margin: "0 auto" }}>
@@ -119,10 +120,12 @@ export default function SelectCareer() {
               </Select>
             </FormControl>
           </Grid>{" "}
+ 
         </Grid>
 
         <Grid item xs={12}>
           <Typography variant='h6' gutterBottom style={{ fontWeight: "bold" }}>
+
             Compare to Career that Doesn't Require College
           </Typography>
           <Grid item xs={10} style={{ margin: "0 auto" }}>
@@ -159,6 +162,7 @@ export default function SelectCareer() {
               </Select>
             </FormControl>
           </Grid>
+ 
         </Grid>
 
         <Grid item xs={12}>
