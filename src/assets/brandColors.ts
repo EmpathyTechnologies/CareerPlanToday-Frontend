@@ -1,4 +1,7 @@
 // Colors
+export const brandAqua_Dark = "rgba(133,217,255,255)";
+export const brandAqua = "rgba(221,244,255,255)";
+
 export const brandBlue_Dark = "rgb(43, 112, 201)";
 export const brandBlue = "rgb(28, 176, 246)";
 

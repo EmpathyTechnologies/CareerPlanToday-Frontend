@@ -1,11 +1,11 @@
-import { useState } from "react";
+import { brandGreen_Dark } from "../../../../../../assets/brandColors";
 import { ListItem, ListItemButton, ListItemIcon, ListItemText } from "@mui/material";
-import DeleteIcon from "@mui/icons-material/Delete";
-import DeleteOutlineIcon from "@mui/icons-material/DeleteOutline";
-
-import { brandGreen_Light } from "../../../../../../assets/brandColors";
 import { toggleCareerSave } from "../../../../../../redux/actions";
 import { useDispatch } from "react-redux";
+import { useState } from "react";
+
+import DeleteIcon from "@mui/icons-material/Delete";
+import DeleteOutlineIcon from "@mui/icons-material/DeleteOutline";
 
 function formatSalary(salary: number) {
   const roundedSalary = Math.round(salary / 1000) * 1000;
@@ -33,7 +33,7 @@ function CareerTabItem(props: any) {
   return (
     <ListItem disablePadding>
       <ListItemButton sx={itemCss}>
-        <ListItemText style={{ color: brandGreen_Light }}>+{formatSalary(salary.national.average)}</ListItemText>
+        <ListItemText style={{ color: brandGreen_Dark }}>+{formatSalary(salary.national.average)}</ListItemText>
         <ListItemText sx={{ width: "55%" }}>{title}</ListItemText>
         <ListItemIcon sx={{ width: "3%" }} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} onClick={toggleSaveCareer}>
           {isHovered ? <DeleteIcon /> : <DeleteOutlineIcon />}

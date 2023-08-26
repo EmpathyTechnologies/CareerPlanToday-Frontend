@@ -1,5 +1,5 @@
 import { ListItem, ListItemButton, ListItemText } from "@mui/material";
- function BlankTab(props: any) {
+function BlankTab(props: any) {
   const { text, itemCss } = props;
 
   return (
