@@ -1,9 +1,10 @@
-import { useState, useEffect } from "react";
+import { filterCareers } from "./utilities/filterCareers";
+import { useEffect, useState } from "react";
+import { minSalary, maxSalary } from "./utilities/minAndMaxSalary";
+
 import allCareers from "../../../../../data/careers.json";
 import CareersNavbar from "./components/CareersNavbar";
 import CareersTable from "./components/CareersTable";
-import { minSalary, maxSalary } from "./utilities/minAndMaxSalary";
-import { filterCareers } from "./utilities/filterCareers";
 
 export default function Careers({ setSelectedCareer }: any) {
   const [careers, setCareers] = useState(allCareers);

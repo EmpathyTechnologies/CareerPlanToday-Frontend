@@ -1,4 +1,4 @@
-import { Button, Container, Dropdown, Image, Form } from "react-bootstrap";
+import { Button, Container, Dropdown, Form, Image } from "react-bootstrap";
 import Heading from "./heading";
 import search from "./img/search.svg";
 

@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState, useRef } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import PropTypes from "prop-types";
 import "./multi-range-slider.css";
 
@@ -9,7 +9,6 @@ const MultiRangeSlider = ({ min, max, onChange }: any) => {
   const maxValRef = useRef(max);
   const range: any = useRef(null);
 
-  // Convert to percentage
   const getPercent = useCallback((value: any) => Math.round(((value - min) / (max - min)) * 100), [min, max]);
 
   // Set width of the range to decrease from the left side

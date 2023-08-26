@@ -1,12 +1,13 @@
+import { AiFillHeart, AiOutlineHeart } from "react-icons/ai";
+import { brandDarkBlue, brandRed } from "../../../../../../assets/brandColors";
+import { CollegesTableType } from "../../../../../../types/CollegesTableType";
+import { formatCurrency } from "../../../../../../utilities/formatCurrency";
+import { toggleCollegeSave } from "../../../../../../redux/actions";
+import { useDispatch, useSelector } from "react-redux";
 import { useState } from "react";
 import Table from "react-bootstrap/Table";
-import { formatCurrency } from "../../../../../../utilities/formatCurrency";
-import { AiOutlineHeart, AiFillHeart } from "react-icons/ai";
-import { useDispatch, useSelector } from "react-redux";
-import { toggleCollegeSave } from "../../../../../../redux/actions";
-import { CollegesTableType } from "../../../../../../types/CollegesTableType";
 
-export default function CollegesTable({ colleges, setColleges, setUserSavedColleges, setSelectedCollege }: CollegesTableType) {
+export default function CollegesTable({ colleges, setColleges, setSelectedCollege }: CollegesTableType) {
   const userSavedColleges = useSelector((state: any) => state.colleges);
   const dispatch = useDispatch();
 
@@ -29,7 +30,7 @@ export default function CollegesTable({ colleges, setColleges, setUserSavedColle
     setColleges(sortedList);
   }
 
-  function toggleSaveCollege(college: any,id: number) {
+  function toggleSaveCollege(college: any, id: number) {
     dispatch(toggleCollegeSave(college));
   }
 
@@ -51,11 +52,11 @@ export default function CollegesTable({ colleges, setColleges, setUserSavedColle
         {colleges.map((college: any) => (
           <tr>
             {userSavedColleges.includes(college) ? (
-              <div onClick={() => toggleSaveCollege(college,college.id)} style={{ color: "rgb(255, 56, 92)", cursor: "pointer" }}>
+              <div onClick={() => toggleSaveCollege(college, college.id)} style={{ color: brandRed, cursor: "pointer" }}>
                 <AiFillHeart />
               </div>
             ) : (
-              <div onClick={() => toggleSaveCollege(college,college.id)} style={{ cursor: "pointer" }}>
+              <div onClick={() => toggleSaveCollege(college, college.id)} style={{ cursor: "pointer" }}>
                 <AiOutlineHeart />
               </div>
             )}
@@ -63,8 +64,7 @@ export default function CollegesTable({ colleges, setColleges, setUserSavedColle
               <div
                 onClick={() => setSelectedCollege(college.id)}
                 style={{
-                  color: "blue",
-                  textDecoration: "underline",
+                  color: brandDarkBlue,
                   cursor: "pointer",
                 }}>
                 {college.name}

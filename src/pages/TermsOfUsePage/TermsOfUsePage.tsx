@@ -1,5 +1,5 @@
-import Navigation from "../../layouts/Navigation";
 import Footer from "../../layouts/Footer";
+import Navigation from "../../layouts/Navigation";
 
 export default function TermsOfUse() {
   return (

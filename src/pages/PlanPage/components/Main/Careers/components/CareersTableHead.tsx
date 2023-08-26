@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
 import { CareersTableHeaderType } from "../../../../../../types/CareersTableHeaderType";
+import { useEffect, useState } from "react";
 
 export default function CareersTableHead({ sortDirection, setSortDirection }: CareersTableHeaderType) {
   const [arrow, setArrow] = useState<{ career: string; salary: string }>({ career: "", salary: "" });

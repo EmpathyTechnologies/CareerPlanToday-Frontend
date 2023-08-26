@@ -1,10 +1,7 @@
-// import { useState } from "react";
-import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
-// import Heart from "react-heart";
+import Col from "react-bootstrap/Col";
 
 function CareerBox(props: any) {
-  // const [active, setActive] = useState(false);
   return (
     <Col className='career-box' lg={4} sm={6}>
       <a href='#' style={{ textDecoration: "none" }}>
@@ -18,9 +15,6 @@ function CareerBox(props: any) {
           </Card.ImgOverlay>
         </Card>
       </a>
-      {/* <div className='heart' style={{ width: "2rem" }}>
-        <Heart isActive={active} onClick={() => setActive(!active)} inactiveColor='#fff' />
-      </div> */}
     </Col>
   );
 }

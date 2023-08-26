@@ -1,6 +1,7 @@
-import { useState, useEffect } from "react";
-import { minTuition, maxTuition } from "./utilities/minAndMaxTuition";
 import { filterColleges } from "./utilities/filterColleges";
+import { minTuition, maxTuition } from "./utilities/minAndMaxTuition";
+import { useEffect, useState } from "react";
+
 import allColleges from "../../../../../data/colleges.json";
 import CollegesNavbar from "./components/CollegesNavbar";
 import CollegesTable from "./components/CollegesTable";

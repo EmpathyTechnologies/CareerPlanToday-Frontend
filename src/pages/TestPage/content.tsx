@@ -2,8 +2,8 @@ import { useState } from "react";
 import { Container, Button, Col, Row, Image } from "react-bootstrap";
 
 import CareerBox from "./career-box";
-import fil from "./img/fil-icon.svg";
 import close from "./img/close.svg";
+import fil from "./img/fil-icon.svg";
 import Filters from "./filters";
 
 function Content({ careers }: any) {
