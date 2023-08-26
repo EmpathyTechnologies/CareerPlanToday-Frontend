@@ -4,7 +4,7 @@ import Button from "@mui/material/Button";
 import CssBaseline from "@mui/material/CssBaseline";
 import Container from "@mui/material/Container";
 import Paper from "@mui/material/Paper";
-import PaymentForm from "./components/SelectCollege";
+import SelectCollege from "./components/SelectCollege";
 import Review from "./components/FundCollege";
 import SelectCareer from "./components/SelectCareer";
 import Step from "@mui/material/Step";
@@ -19,7 +19,7 @@ function getStepContent(step: number) {
     case 0:
       return <SelectCareer />;
     case 1:
-      return <PaymentForm />;
+      return <SelectCollege />;
     case 2:
       return <Review />;
     default:
