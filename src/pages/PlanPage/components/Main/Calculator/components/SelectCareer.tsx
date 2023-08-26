@@ -1,16 +1,8 @@
 import React, { useEffect, useState } from "react";
-import {
-  FormControl,
-  Grid,
-  InputLabel,
-  MenuItem,
-  Select,
-  Typography,
-} from "@mui/material";
+import { FormControl, Grid, InputLabel, MenuItem, Select, Typography } from "@mui/material";
 import allCareers from "../../../../../../data/allCareers";
 import { brandGreen, brandRed } from "../../../../../../assets/brandColors";
 export default function SelectCareer() {
-
   const [collegeCareer, setCollegeCareer] = useState({
     jobTitle: "Registered Nurses",
     jobSalary: 81220,
@@ -27,9 +19,7 @@ export default function SelectCareer() {
 
   const handleCareerChange = (event: any, careerType: any) => {
     const { value } = event.target;
-    const selectedCareer = allCareers.find(
-      (career) => career.jobTitle === value
-    );
+    const selectedCareer = allCareers.find((career) => career.jobTitle === value);
     if (selectedCareer) {
       const jobSalary = parseFloat(selectedCareer.salary.replace(/[$,]/g, ""));
       careerType === "college"
@@ -66,16 +56,13 @@ export default function SelectCareer() {
     }
   };
 
-
   const calculateNetIncome = (
     collegeCareerSalary: any,
     collegeCareerYearsWorked: any,
     noCollegeCareerSalary: any,
     noCollegeCareerYearsWorked: any
   ) => {
-    const netIncome =
-      collegeCareerSalary * collegeCareerYearsWorked -
-      noCollegeCareerSalary * noCollegeCareerYearsWorked;
+    const netIncome = collegeCareerSalary * collegeCareerYearsWorked - noCollegeCareerSalary * noCollegeCareerYearsWorked;
 
     return netIncome;
   };
@@ -95,24 +82,20 @@ export default function SelectCareer() {
     <React.Fragment>
       <Grid container spacing={3}>
         <Grid item xs={12}>
-          <Typography variant="h6" gutterBottom style={{ fontWeight: "bold" }}>
+          <Typography variant='h6' gutterBottom style={{ fontWeight: "bold" }}>
             Select a Career that Requires College
           </Typography>
+
           <FormControl fullWidth>
-            <InputLabel id="college-career-label">Job</InputLabel>
+            <InputLabel id='college-career-label'>Job</InputLabel>
             <Select
-              labelId="college-career-label"
-              id="college-career-select"
+              labelId='college-career-label'
+              id='college-career-select'
               value={collegeCareer.jobTitle}
-              label="Career with College"
-              onChange={(event) => handleCareerChange(event, "college")}
-            >
+              label='Career with College'
+              onChange={(event) => handleCareerChange(event, "college")}>
               {allCareers
-                .filter(
-                  (career) =>
-                    career.educationRequired !== "No High School Diploma" &&
-                    career.educationRequired !== "High School Diploma"
-                )
+                .filter((career) => career.educationRequired !== "No High School Diploma" && career.educationRequired !== "High School Diploma")
                 .map((career) => (
                   <MenuItem key={career.jobTitle} value={career.jobTitle}>
                     {career.jobTitle}
@@ -123,38 +106,32 @@ export default function SelectCareer() {
         </Grid>
         <Grid item xs={12}>
           <FormControl fullWidth>
-            <InputLabel id="college-years-label">Years</InputLabel>
+            <InputLabel id='college-years-label'>Years</InputLabel>
             <Select
-              labelId="college-years-label"
-              id="college-years-select"
+              labelId='college-years-label'
+              id='college-years-select'
               value={collegeCareer.yearsWorked}
-              label="Years"
-              onChange={(event) => handleYearsWorkedChange(event, "college")}
-            >
+              label='Years'
+              onChange={(event) => handleYearsWorkedChange(event, "college")}>
               {generateNumberOptions(70)}
             </Select>
           </FormControl>
         </Grid>
 
         <Grid item xs={12}>
-          <Typography variant="h6" gutterBottom style={{ fontWeight: "bold" }}>
+          <Typography variant='h6' gutterBottom style={{ fontWeight: "bold" }}>
             Compare to a Career that Doesn't Require College
           </Typography>
           <FormControl fullWidth>
-            <InputLabel id="no-college-career-label">Job</InputLabel>
+            <InputLabel id='no-college-career-label'>Job</InputLabel>
             <Select
-              labelId="no-college-career-label"
-              id="no-college-career-select"
+              labelId='no-college-career-label'
+              id='no-college-career-select'
               value={noCollegeCareer.jobTitle}
-              label="Age"
-              onChange={(event) => handleCareerChange(event, "noCollege")}
-            >
+              label='Age'
+              onChange={(event) => handleCareerChange(event, "noCollege")}>
               {allCareers
-                .filter(
-                  (career) =>
-                    career.educationRequired === "No High School Diploma" ||
-                    career.educationRequired === "High School Diploma"
-                )
+                .filter((career) => career.educationRequired === "No High School Diploma" || career.educationRequired === "High School Diploma")
                 .map((career) => (
                   <MenuItem key={career.jobTitle} value={career.jobTitle}>
                     {career.jobTitle}
@@ -165,57 +142,53 @@ export default function SelectCareer() {
         </Grid>
         <Grid item xs={12}>
           <FormControl fullWidth>
-            <InputLabel id="no-college-years-label">Job</InputLabel>
+            <InputLabel id='no-college-years-label'>Job</InputLabel>
             <Select
-              labelId="no-college-years-label"
-              id="no-college-years-select"
+              labelId='no-college-years-label'
+              id='no-college-years-select'
               value={noCollegeCareer.yearsWorked}
-              label="Years Worked"
-              onChange={(event) => handleYearsWorkedChange(event, "noCollege")}
-            >
+              label='Years Worked'
+              onChange={(event) => handleYearsWorkedChange(event, "noCollege")}>
               {generateNumberOptions(70)}
             </Select>
           </FormControl>
         </Grid>
 
         <Grid item xs={12}>
-          <Typography variant="h6" gutterBottom style={{ fontWeight: "bold" }}>
+          <Typography variant='h6' gutterBottom style={{ fontWeight: "bold" }}>
             Extra Income With College
           </Typography>
-          <div>
-            {collegeCareer.jobSalary} salary x {collegeCareer.yearsWorked} years
-            ={" "}
-            {calculateIncome(
-              collegeCareer.jobSalary,
-              collegeCareer.yearsWorked
-            )}{" "}
-            total
-          </div>
-          <div>
-            {noCollegeCareer.jobSalary} salary x {noCollegeCareer.yearsWorked}{" "}
-            years ={" "}
-            {calculateIncome(
-              noCollegeCareer.jobSalary,
-              noCollegeCareer.yearsWorked
-            )}{" "}
-            total
-          </div>
-          <div
-            style={{
-              fontWeight: "bold",
-              fontSize: "20px",
-            }}
-          >
-            <span
-              style={{ color: calculateNetIncomeValue >= 0 ? brandGreen : brandRed }}
-            >
-              {calculateNetIncomeValue.toLocaleString("en-US", {
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+            <div>
+              {collegeCareer.jobSalary.toLocaleString("en-US", {
                 style: "currency",
                 currency: "USD",
                 maximumFractionDigits: 0,
-              })}
-            </span>
-            <span> Net Lifetime Earnings</span>
+              })}{" "}
+              salary x {collegeCareer.yearsWorked} years = {calculateIncome(collegeCareer.jobSalary, collegeCareer.yearsWorked)} total
+            </div>
+            <div>
+              {noCollegeCareer.jobSalary.toLocaleString("en-US", {
+                style: "currency",
+                currency: "USD",
+                maximumFractionDigits: 0,
+              })}{" "}
+              salary x {noCollegeCareer.yearsWorked} years = {calculateIncome(noCollegeCareer.jobSalary, noCollegeCareer.yearsWorked)} total
+            </div>
+            <div
+              style={{
+                fontWeight: "bold",
+                fontSize: "20px",
+              }}>
+              <span style={{ color: calculateNetIncomeValue >= 0 ? brandGreen : brandRed }}>
+                {calculateNetIncomeValue.toLocaleString("en-US", {
+                  style: "currency",
+                  currency: "USD",
+                  maximumFractionDigits: 0,
+                })}
+              </span>
+              <span> Net Lifetime Earnings</span>
+            </div>
           </div>
         </Grid>
       </Grid>
