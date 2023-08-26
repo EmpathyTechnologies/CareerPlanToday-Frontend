@@ -64,7 +64,7 @@ export default function CollegesTable({ colleges, setColleges, setSelectedColleg
               <div
                 onClick={() => setSelectedCollege(college.id)}
                 style={{
-                  color: brandBlue_Dark,
+                   color: brandBlue_Dark,
                   cursor: "pointer",
                 }}>
                 {college.name}
