@@ -1,5 +1,5 @@
-import { ListItem } from "@mui/material";
 import { brandBlue_Dark, brandWhite } from "../../../../../assets/brandColors";
+import { ListItem } from "@mui/material";
 
 function TitleBox() {
   return (

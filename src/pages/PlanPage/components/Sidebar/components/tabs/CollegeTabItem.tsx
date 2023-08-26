@@ -1,10 +1,5 @@
 import { brandRed } from "../../../../../../assets/brandColors";
-import {
-  ListItem,
-  ListItemButton,
-  ListItemIcon,
-  ListItemText,
-} from "@mui/material";
+import { ListItem, ListItemButton, ListItemIcon, ListItemText } from "@mui/material";
 import { toggleCollegeSave } from "../../../../../../redux/actions";
 import { useDispatch } from "react-redux";
 import { useState } from "react";
@@ -37,16 +32,9 @@ function CollegeTabItem(props: any) {
   return (
     <ListItem disablePadding>
       <ListItemButton sx={itemCss}>
-        <ListItemIcon style={{ color: brandRed }}>
-          -{formatTuition(collegeData.tuition)}
-        </ListItemIcon>
+        <ListItemIcon style={{ color: brandRed }}>-{formatTuition(collegeData.tuition)}</ListItemIcon>
         <ListItemText sx={{ width: "55%" }}>{title}</ListItemText>
-        <ListItemIcon
-          sx={{ width: "3%" }}
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
-          onClick={toggleSaveCollege}
-        >
+        <ListItemIcon sx={{ width: "3%" }} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} onClick={toggleSaveCollege}>
           {isHovered ? <DeleteIcon /> : <DeleteOutlineIcon />}
         </ListItemIcon>
       </ListItemButton>

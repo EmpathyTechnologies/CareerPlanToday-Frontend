@@ -1,12 +1,22 @@
 import { Accordion, AccordionDetails, AccordionSummary, Box, Divider, Typography } from "@mui/material";
-import { brandBlack, brandWhite } from "../../../../../../assets/brandColors";
+import { brandWhite_Dark, brandBlack, brandWhite } from "../../../../../../assets/brandColors";
 import { useSelector } from "react-redux";
 import { RootState } from "../../../../../../redux/store";
 import BlankTab from "../tabs/BlankTab";
 import CollegeTabItem from "../tabs/CollegeTabItem";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-function CollegeFavoritesBox({ itemCss }: any) {
+
+function CollegeFavoritesBox() {
   const savedColleges = useSelector((state: RootState) => state.colleges);
+
+  const itemCss = {
+    py: "2px",
+    px: 3,
+    color: brandBlack,
+    "&:hover, &:focus": {
+      bgcolor: brandWhite_Dark,
+    },
+  };
 
   return (
     <Accordion
@@ -14,10 +24,7 @@ function CollegeFavoritesBox({ itemCss }: any) {
         bgcolor: brandWhite,
         color: brandBlack,
       }}>
-      <AccordionSummary
-        expandIcon={<ExpandMoreIcon sx={{ bgcolor: brandWhite, color: brandBlack }} />}
-        aria-controls='career-favorites-content'
-        id='career-favorites-header'>
+      <AccordionSummary expandIcon={<ExpandMoreIcon sx={{ bgcolor: brandWhite, color: brandBlack }} />}>
         <Typography>{savedColleges.length} Favorite Colleges</Typography>
       </AccordionSummary>
       <AccordionDetails>
