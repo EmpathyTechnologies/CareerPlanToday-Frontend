@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FormControl, Grid, InputLabel, MenuItem, Select, Typography } from "@mui/material";
 import allCareers from "../../../../../../data/allCareers";
-import { brandGreen, brandRed } from "../../../../../../assets/brandColors";
+import { brandGreen, brandGreen_Dark, brandRed } from "../../../../../../assets/brandColors";
 export default function SelectCareer() {
   const [collegeCareer, setCollegeCareer] = useState({
     jobTitle: "Registered Nurses",
@@ -83,18 +83,13 @@ export default function SelectCareer() {
       <Grid container spacing={3}>
         <Grid item xs={12}>
           <Typography variant='h6' gutterBottom style={{ fontWeight: "bold" }}>
-
             Select Career that Requires College
           </Typography>
           <Grid item xs={10} style={{ margin: "0 auto" }}>
             <FormControl fullWidth>
               <InputLabel id='college-career-label'>Job</InputLabel>
-              <Select
-                labelId='college-career-label'
-                id='college-career-select'
-                value={collegeCareer.jobTitle}
-                label='Career with College'
-                onChange={(event) => handleCareerChange(event, "college")}>
+              <Select value={collegeCareer.jobTitle} onChange={(event) => handleCareerChange(event, "college")}>
+
                 {allCareers
                   .filter((career) => career.educationRequired !== "No High School Diploma" && career.educationRequired !== "High School Diploma")
                   .map((career) => (
@@ -120,23 +115,16 @@ export default function SelectCareer() {
               </Select>
             </FormControl>
           </Grid>{" "}
- 
         </Grid>
 
         <Grid item xs={12}>
           <Typography variant='h6' gutterBottom style={{ fontWeight: "bold" }}>
-
             Compare to Career that Doesn't Require College
           </Typography>
           <Grid item xs={10} style={{ margin: "0 auto" }}>
             <FormControl fullWidth>
               <InputLabel id='no-college-career-label'>Job</InputLabel>
-              <Select
-                labelId='no-college-career-label'
-                id='no-college-career-select'
-                value={noCollegeCareer.jobTitle}
-                label='Age'
-                onChange={(event) => handleCareerChange(event, "noCollege")}>
+              <Select value={noCollegeCareer.jobTitle} onChange={(event) => handleCareerChange(event, "noCollege")}>
                 {allCareers
                   .filter((career) => career.educationRequired === "No High School Diploma" || career.educationRequired === "High School Diploma")
                   .map((career) => (
@@ -162,7 +150,6 @@ export default function SelectCareer() {
               </Select>
             </FormControl>
           </Grid>
- 
         </Grid>
 
         <Grid item xs={12}>
@@ -191,7 +178,7 @@ export default function SelectCareer() {
                 fontWeight: "bold",
                 fontSize: "20px",
               }}>
-              <span style={{ color: calculateNetIncomeValue >= 0 ? brandGreen : brandRed }}>
+              <span style={{ color: calculateNetIncomeValue >= 0 ? brandGreen_Dark : brandRed }}>
                 {calculateNetIncomeValue.toLocaleString("en-US", {
                   style: "currency",
                   currency: "USD",
