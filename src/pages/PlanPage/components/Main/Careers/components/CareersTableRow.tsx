@@ -1,5 +1,10 @@
 import { AiFillHeart, AiOutlineHeart } from "react-icons/ai";
+<<<<<<< HEAD
 import { brandBlue_Dark, brandRed } from "../../../../../../assets/brandColors";
+=======
+ import { brandBlue_Dark, brandRed } from "../../../../../../assets/brandColors";
+ 
+>>>>>>> 7abd0fdab468fcbe2d857fb498f1e1fa81b786af
 import { CareersTableRowPropsType } from "../../../../../../types/CareersTableRowType";
 import { CareerType } from "../../../../../../types/CareerType";
 import { formatCurrency } from "../../../../../../utilities/formatCurrency";
@@ -40,7 +45,13 @@ export default function CareersTableRow(props: CareersTableRowPropsType) {
         <div
           onClick={() => setSelectedCareer(careerData.id)}
           style={{
+<<<<<<< HEAD
             color: brandBlue_Dark,
+=======
+ 
+            color: brandBlue_Dark,
+ 
+>>>>>>> 7abd0fdab468fcbe2d857fb498f1e1fa81b786af
             cursor: "pointer",
           }}>
           {careerData.title}

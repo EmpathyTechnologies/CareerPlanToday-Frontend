@@ -1,12 +1,32 @@
 import { createTheme } from "@mui/material/styles";
+<<<<<<< HEAD
 import { brandBlack, brandAqua, brandBlack_Pure, brandWhite_Pure, brandBlue_Dark, brandGrey_Light } from "../../brandColors";
 
+=======
+ 
+import {
+  brandBlack,
+  brandBlack_Pure,
+  brandWhite_Pure,
+  brandBlack_Light,
+  brandBlue,
+  brandBlue_Dark,
+  brandGrey,
+  brandGrey_Light,
+  brandWhite,
+} from "../../brandColors";
+ 
+>>>>>>> 7abd0fdab468fcbe2d857fb498f1e1fa81b786af
 let Theme = createTheme({
   palette: {
     primary: {
       light: brandWhite_Pure,
       main: brandBlue_Dark,
       dark: brandBlack_Pure,
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7abd0fdab468fcbe2d857fb498f1e1fa81b786af
     },
   },
   typography: {
@@ -105,7 +125,12 @@ Theme = {
     MuiDivider: {
       styleOverrides: {
         root: {
+<<<<<<< HEAD
           backgroundColor: brandBlack_Pure,
+=======
+           backgroundColor: "rgb(255,255,255)",
+ 
+>>>>>>> 7abd0fdab468fcbe2d857fb498f1e1fa81b786af
         },
       },
     },
@@ -113,7 +138,12 @@ Theme = {
       styleOverrides: {
         root: {
           "&.Mui-selected": {
+<<<<<<< HEAD
             color: brandBlack,
+=======
+             color: brandBlack,
+ 
+>>>>>>> 7abd0fdab468fcbe2d857fb498f1e1fa81b786af
           },
         },
       },
