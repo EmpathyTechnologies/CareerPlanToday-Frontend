@@ -1,24 +1,12 @@
 import { createTheme } from "@mui/material/styles";
- 
-import {
-  brandBlack,
-  brandBlack_Pure,
-  brandWhite_Pure,
-  brandBlack_Light,
-  brandBlue,
-  brandBlue_Dark,
-  brandGrey,
-  brandGrey_Light,
-  brandWhite,
-} from "../../brandColors";
- 
+import { brandBlack, brandAqua, brandBlack_Pure, brandWhite_Pure, brandBlue_Dark, brandGrey_Light } from "../../brandColors";
+
 let Theme = createTheme({
   palette: {
     primary: {
       light: brandWhite_Pure,
       main: brandBlue_Dark,
       dark: brandBlack_Pure,
-
     },
   },
   typography: {
@@ -77,7 +65,9 @@ Theme = {
           height: 3,
           borderTopLeftRadius: 3,
           borderTopRightRadius: 3,
-          backgroundColor: Theme.palette.common.white,
+          backgroundColor: brandAqua, // Change this to brandAqua
+
+          // backgroundColor: Theme.palette.common.white,
         },
       },
     },
@@ -91,6 +81,9 @@ Theme = {
           [Theme.breakpoints.up("md")]: {
             padding: 0,
             minWidth: 0,
+          },
+          "&.Mui-selected": {
+            color: brandBlack, // Change this to the desired color for selected tabs
           },
         },
       },
@@ -112,8 +105,7 @@ Theme = {
     MuiDivider: {
       styleOverrides: {
         root: {
-           backgroundColor: "rgb(255,255,255)",
- 
+          backgroundColor: brandBlack_Pure,
         },
       },
     },
@@ -121,8 +113,7 @@ Theme = {
       styleOverrides: {
         root: {
           "&.Mui-selected": {
-             color: brandBlack,
- 
+            color: brandBlack,
           },
         },
       },

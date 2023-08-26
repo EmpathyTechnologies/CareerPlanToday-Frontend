@@ -1,4 +1,4 @@
-import { brandWhite, brandBlack } from "../../../../../../assets/brandColors";
+import { brandWhite_Dark, brandBlack, brandWhite } from "../../../../../../assets/brandColors";
 
 import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
 import AutoGraphIcon from "@mui/icons-material/AutoGraph";
@@ -13,8 +13,8 @@ import WorkIcon from "@mui/icons-material/Work";
 
 const sections = [
   {
-    title: "Find",
-    children: [
+    title: "Explore",
+    tabs: [
       {
         icon: <WorkIcon />,
         title: "Explore Careers",
@@ -29,7 +29,7 @@ const sections = [
   },
   {
     title: "Plan",
-    children: [
+    tabs: [
       {
         icon: <AccountBalanceIcon />,
         title: "How to Fund College",
@@ -49,10 +49,10 @@ const sections = [
   },
 ];
 
-const NavigationBox = ({ selectedSubpage, setHeaderTitle, itemCss }: any) => {
+const NavigationBox = ({ selectedSubpage, setHeaderTitle }: any) => {
   return (
     <div>
-      {sections.map(({ title, children: tabs }) => (
+      {sections.map(({ title, tabs }) => (
         <Box
           sx={{
             bgcolor: brandWhite,
@@ -60,14 +60,13 @@ const NavigationBox = ({ selectedSubpage, setHeaderTitle, itemCss }: any) => {
           <ListItem sx={{ py: 2, px: 3 }}>
             <ListItemText sx={{ color: brandBlack }}>{title}</ListItemText>
           </ListItem>
-          {tabs.map(({ title: childId, icon }: any) => (
+          {tabs.map(({ title: itemLabel, icon }: any) => (
             <NavigationTabItem
-              key={childId}
-              selected={selectedSubpage === childId}
-              item={itemCss}
-              onClick={() => setHeaderTitle(childId)}
+              key={itemLabel}
+              selected={selectedSubpage === itemLabel}
+              onClick={() => setHeaderTitle(itemLabel)}
               icon={icon}
-              childId={childId}
+              itemLabel={itemLabel}
             />
           ))}
           <Divider sx={{ mt: 2 }} />

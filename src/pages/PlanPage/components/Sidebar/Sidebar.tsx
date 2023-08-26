@@ -1,6 +1,6 @@
 import { Box, useMediaQuery } from "@mui/material";
 import { useState } from "react";
-import Navigator from "./components/Navigation";
+import Navigator from "./components/Navigator";
 import Theme from "../../../../assets/styles/themes/ThemeProvider";
 
 function Sidebar({ handleDrawerToggle, selectedSubpage, setSelectedSubpage }: any) {
