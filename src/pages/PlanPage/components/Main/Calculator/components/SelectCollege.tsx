@@ -2,9 +2,6 @@ import { FormControl, Grid, InputLabel, MenuItem, Select, Typography } from "@mu
 
 import colleges from "../../../../../../data/colleges.json";
 import React, { useState } from "react";
-// Montana
-// New Mexico
-// Wyoming
 
 export default function SelectCollege() {
   const USAStates = [
@@ -71,7 +68,6 @@ export default function SelectCollege() {
   const handleUSAState = (event: any) => {
     const { value } = event.target;
     setUSAState(value);
-
     setCollege({
       name: "",
       state: "",
@@ -110,7 +106,7 @@ export default function SelectCollege() {
                   {USAState}
                 </MenuItem>
               ))}
-            </Select> */}
+            </Select> 
           </FormControl>
         </Grid>
       </Grid>
