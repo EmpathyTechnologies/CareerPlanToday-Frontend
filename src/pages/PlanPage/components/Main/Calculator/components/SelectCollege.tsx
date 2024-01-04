@@ -84,52 +84,55 @@ export default function SelectCollege() {
   const filteredColleges = colleges.filter((college) => college.state === USAState);
 
   return (
-    <React.Fragment>
-      {/* START Select USA State */}
-      <Grid item xs={12}>
-        <Typography variant='h6' gutterBottom style={{ fontWeight: "bold" }}>
-          Select State
-        </Typography>
-        <Grid item xs={10} style={{ margin: "0 auto" }}>
-          <FormControl fullWidth>
-            <InputLabel>State</InputLabel>
-            <Select value={USAState} onChange={handleUSAState}>
-              {USAStates.map((state) => (
-                <MenuItem key={state} value={state}>
-                  {state}
-                </MenuItem>
-              ))}
-            </Select>
-            {/* <Select value={USAState} onChange={handleUSAState}>
-              {USAStates.filter((filterCollege) => filterCollege === college).map((USAState) => (
-                <MenuItem key={USAState} value={USAState}>
-                  {USAState}
-                </MenuItem>
-              ))}
-            </Select> 
-          </FormControl>
-        </Grid>
-      </Grid>
-      {/* END Select USA State */}
-      {/* START Select College */}
-      <Grid item xs={12}>
-        <Typography variant='h6' gutterBottom style={{ fontWeight: "bold" }}>
-          Select College
-        </Typography>
-        <Grid item xs={10} style={{ margin: "0 auto" }}>
-          <FormControl fullWidth>
-            <InputLabel>College</InputLabel>
-            <Select value={college.name} onChange={handleCollege}>
-              {filteredColleges.map((college) => (
-                <MenuItem key={college.name} value={college.name}>
-                  {college.name}
-                </MenuItem>
-              ))}
-            </Select>
-          </FormControl>
-        </Grid>
-      </Grid>
-      {/* END Select College */}
-    </React.Fragment>
+    <div></div>
+
+    // <React.Fragment>
+    //   {/* START Select USA State */}
+    //   <Grid item xs={12}>
+    //     <Typography variant='h6' gutterBottom style={{ fontWeight: "bold" }}>
+    //       Select State
+    //     </Typography>
+    //     <Grid item xs={10} style={{ margin: "0 auto" }}>
+    //       <FormControl fullWidth>
+    //         <InputLabel>State</InputLabel>
+    //         <Select value={USAState} onChange={handleUSAState}>
+    //           {USAStates.map((state) => (
+    //             <MenuItem key={state} value={state}>
+    //               {state}
+    //             </MenuItem>
+    //           ))}
+    //         </Select>
+    //         {/* <Select value={USAState} onChange={handleUSAState}>
+    //           {USAStates.filter((filterCollege) => filterCollege === college).map((USAState) => (
+    //             <MenuItem key={USAState} value={USAState}>
+    //               {USAState}
+    //             </MenuItem>
+    //           ))}
+    //         </Select>
+    //       </FormControl>
+    //     </Grid>
+    //   </Grid>
+    //   {/* END Select USA State */}
+    //   {/* START Select College */}
+    //   <Grid item xs={12}>
+    //     <Typography variant='h6' gutterBottom style={{ fontWeight: "bold" }}>
+    //       Select College
+    //     </Typography>
+    //     <Grid item xs={10} style={{ margin: "0 auto" }}>
+    //       <FormControl fullWidth>
+    //         <InputLabel>College</InputLabel>
+    //         <Select value={college.name} onChange={handleCollege}>
+    //           {filteredColleges.map((college) => (
+    //             <MenuItem key={college.name} value={college.name}>
+    //               {college.name}
+    //             </MenuItem>
+    //           ))}
+    //         </Select>
+    //       </FormControl>
+    //     </Grid>
+    //   </Grid>
+    //   {/* END Select College */}
+    // </React.Fragment>
+
   );
 }
