@@ -14,7 +14,7 @@ function CareersSection() {
         <div className='heading'>
           <Heading text='Explore Careers' />
           <div className='heading-link'>
-            <a href='/careers'>
+            <a href='/plan'>
               See All
               <div className='ms-3 arrow'>
                 <svg width='21' height='12' viewBox='0 0 31 20' fill='none' xmlns='http://www.w3.org/2000/svg'>
@@ -28,10 +28,10 @@ function CareersSection() {
           </div>
         </div>
         <Row className='justify-content-center'>
-          <CareerBox img={teacher} title='Elementary School Teacher' salary='Salary $61,400' href={"/careers/268"} />
-          <CareerBox img={accountant} title='Accountant' salary='Salary $77,250' href={"careers/1"} />
-          <CareerBox img={engineer} title='Carpenter' salary='Salary $48,260' href={"careers/533"} />
-          <CareerBox img={nurse} title='Pediatrician' salary='Salary $170,480' href={"/careers/739"} />
+          <CareerBox img={teacher} title='Elementary School Teacher' salary='Salary $61,400' href={"/plan"} />
+          <CareerBox img={accountant} title='Accountant' salary='Salary $77,250' href={"/plan"} />
+          <CareerBox img={engineer} title='Carpenter' salary='Salary $48,260' href={"/plan"} />
+          <CareerBox img={nurse} title='Pediatrician' salary='Salary $170,480' href={"/plan"} />
         </Row>
       </Container>
     </div>

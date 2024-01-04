@@ -9,7 +9,7 @@ import Heading from "../components/heading";
 function Plan() {
   return (
     <div className='plan'>
-      <Container>
+      {/* <Container>
         <div className='heading'>
           <Heading text='Form Your Plan' />
         </div>
@@ -18,7 +18,7 @@ function Plan() {
           <PlanBox img={img2} title='Budget' description='Explore how to afford your lifestyle' href={"./budget"} />
           <PlanBox img={img3} title='Invest' description='Form your retirement plan' href={"./invest"} />
         </Row>
-      </Container>
+      </Container> */}
     </div>
   );
 }
