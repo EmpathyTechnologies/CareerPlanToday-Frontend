@@ -17,13 +17,13 @@ function HeroSection() {
             <p className='sub-heading'>Explore careers, compare colleges, and form your plan</p>
             <div className=''>
               <div className='' style={{ display: "inline-block" }}>
-                <Button className='custom-btn' href='./careers'>
+                <Button className='custom-btn' href='./plan'>
                   Start Now
                 </Button>
               </div>
 
               <div className='btn-transparent' style={{ display: "inline-block" }}>
-                <Button className='custom-btn'>Login</Button>
+                {/* <Button className='custom-btn'>Login</Button> */}
               </div>
             </div>
           </Col>

@@ -27,9 +27,9 @@ function CollegesSection() {
           </div>
         </div>
         <Row className='justify-content-center'>
-          <CollegeBox img={img1} title='University of Washington' cost='Cost $11,745' href={"colleges/124"} />
-          <CollegeBox img={img2} title='Texas A&M' cost='Cost $12,783' href={"colleges/90"} />
-          <CollegeBox img={img3} title='University of Notre Dame' cost='Cost $57,699' href={"colleges/781"} />
+          <CollegeBox img={img1} title='University of Washington' cost='Cost $11,745' href={"/plan"} />
+          <CollegeBox img={img2} title='Texas A&M' cost='Cost $12,783' href={"/plan"} />
+          <CollegeBox img={img3} title='University of Notre Dame' cost='Cost $57,699' href={"/plan"} />
         </Row>
       </Container>
     </div>

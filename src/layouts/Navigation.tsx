@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Btn from "../components/Button";
 import { Link } from "react-router-dom";
 
-function Navigation({selectedSubpage,setSelectedSubpage}:any) {
+function Navigation({ selectedSubpage, setSelectedSubpage }: any) {
   return (
     <Navbar expand='lg' className='bg-body-tertiary'>
       <Container>
@@ -14,17 +14,17 @@ function Navigation({selectedSubpage,setSelectedSubpage}:any) {
         <Navbar.Toggle aria-controls='navbarScroll' />
         <Navbar.Collapse>
           <Nav className='ms-auto me-auto my-2 my-lg-0' style={{ maxHeight: "100px" }}>
-            <Link className='nav-link' to='/plan'onClick={()=>setSelectedSubpage("Explore Careers")}>
+            <Link className='nav-link' to='/plan' onClick={() => setSelectedSubpage("Explore Careers")}>
               Careers
             </Link>
-            <Link className='nav-link' to='/plan' onClick={()=>setSelectedSubpage("Compare Colleges")}>
+            <Link className='nav-link' to='/plan' onClick={() => setSelectedSubpage("Compare Colleges")}>
               Colleges
             </Link>
-            <Link className='nav-link' to='/plan'onClick={()=>setSelectedSubpage("How to Fund College")}>
+            <Link className='nav-link' to='/plan' onClick={() => setSelectedSubpage("How to Fund College")}>
               Plan
             </Link>
           </Nav>
-          <Btn cn='btn-transparent navbar-btn' name='Sign Up' />
+          {/* <Btn cn='btn-transparent navbar-btn' name='Sign Up' /> */}
         </Navbar.Collapse>
       </Container>
     </Navbar>

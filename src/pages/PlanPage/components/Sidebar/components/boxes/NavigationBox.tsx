@@ -27,26 +27,26 @@ const sections = [
       },
     ],
   },
-  {
-    title: "Plan",
-    tabs: [
-      {
-        icon: <AccountBalanceIcon />,
-        title: "How to Fund College",
-        href: "/calculator",
-      },
-      {
-        icon: <HomeWorkIcon />,
-        title: "Choose Your Lifestyle",
-        href: "/budget",
-      },
-      {
-        icon: <AutoGraphIcon />,
-        title: "See How You Can Invest",
-        href: "/invest",
-      },
-    ],
-  },
+  // {
+  //   title: "Plan",
+  //   tabs: [
+  //     {
+  //       icon: <AccountBalanceIcon />,
+  //       title: "How to Fund College",
+  //       href: "/calculator",
+  //     },
+  //     {
+  //       icon: <HomeWorkIcon />,
+  //       title: "Choose Your Lifestyle",
+  //       href: "/budget",
+  //     },
+  //     {
+  //       icon: <AutoGraphIcon />,
+  //       title: "See How You Can Invest",
+  //       href: "/invest",
+  //     },
+  //   ],
+  // },
 ];
 
 const NavigationBox = ({ selectedSubpage, setHeaderTitle }: any) => {
